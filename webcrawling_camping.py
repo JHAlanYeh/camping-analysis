@@ -4,17 +4,29 @@ import math
 import os
 
 dir_path = os.path.join(os.getcwd(), "data")
+json_list = os.listdir(dir_path)
+
+max_seq = 0
+for file in json_list:
+    if ".json" not in file:
+        continue
+    file_slice = file.split("_")
+    file_seq = int(file_slice[1].replace(".json", ""))
+    if file_seq > max_seq:
+        max_seq = file_seq
+
+dir_path = os.path.join(os.getcwd(), "data")
 camping_area_url = "https://asiayo.com/zh-tw/view/tw/{city_code}/{code}/?tags=camping&isFromPropertyPage=true/"
 offset = 0
-
+camping_area_objs = []
 while True:
-    res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-02-03&checkOutDate=2024-02-04&adult=1&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
+    res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-03-21&checkOutDate=2024-03-22&city=nantou-county&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
     if res.status_code == 200:
         res_json = res.json()
         camping_areas = res_json["data"]["rows"]
         if len(camping_areas) == 0:
             break
-        camping_area_objs = []
+        
         for area in camping_areas:
             name = area["name"]
             city = area["address"]["city"]["name"]
@@ -36,10 +48,10 @@ while True:
                 "latitude":latitude,
                 "longitude":longitude
             })
+    offset += 20
         
-        file_name = os.path.join(dir_path, 'camping_{}.json'.format(math.floor(offset / 20)))
-        with open(file_name, 'w', encoding="utf-8-sig") as f:
-            json.dump(camping_area_objs, f, indent=4, ensure_ascii=False)
-            print("save {file_name}".format(file_name=file_name))
-        
-        offset += 20
+print("Total:{}".format(str(len(camping_area_objs))))
+file_name = os.path.join(dir_path, 'camping_{}.json'.format(str(max_seq+1)))
+with open(file_name, 'w', encoding="utf-8-sig") as f:
+    json.dump(camping_area_objs, f, indent=4, ensure_ascii=False)
+    print("save {file_name}".format(file_name=file_name))
