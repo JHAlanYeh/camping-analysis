@@ -20,7 +20,7 @@ camping_area_url = "https://asiayo.com/zh-tw/view/tw/{city_code}/{code}/?tags=ca
 offset = 0
 camping_area_objs = []
 while True:
-    res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-03-21&checkOutDate=2024-03-22&city=nantou-county&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
+    res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-02-24&checkOutDate=2024-02-25&city=nantou-county&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
     if res.status_code == 200:
         res_json = res.json()
         camping_areas = res_json["data"]["rows"]
