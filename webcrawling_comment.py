@@ -1,7 +1,14 @@
 import requests
 import json
 import os
+import jieba
 from bs4 import BeautifulSoup
+
+f = open('stopwords.txt', encoding="utf-8")
+STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
 
 def asiayo_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
@@ -24,7 +31,7 @@ def asiayo_comment_crawler():
         res = requests.get("https://web-api.asiayo.com/api/v1/bnbs/{code}?locale=zh-tw&currency=TWD&checkInDate=2024-02-03&checkOutDate=2024-02-04&people=1&adult=1&childAges=".format(code=code))
         res_json = res.json()
         d["address"] = res_json["data"]["address"]["fullAddress"]
-        d["description"] = res_json["data"]["description"]
+        d["description"] = res_json["data"]["description"].replace("\n", "").replace("\r", "").replace("\t", "")
 
         while True:
             res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/{code}/reviews?limit=10&offset={offset}&locale=zh-tw""".format(code=code, offset=offset))
@@ -35,14 +42,21 @@ def asiayo_comment_crawler():
                     break
 
                 for comment in camping_comments:
-                    content = comment["content"]
+                    content = comment["content"].replace("\n", "").replace("\r", "").replace("\t", "")
                     rating = comment["rating"]
                     publishedDate = comment["publishedDate"]
+
+                    ws = jieba.lcut(content, cut_all=False)
+                    new_ws = []
+                    for word in ws:
+                        if word not in STOP_WORDS:
+                            new_ws.append(word)
 
                     comment_objs.append({
                         "content": content,
                         "rating": rating,
-                        "publishedDate": publishedDate
+                        "publishedDate": publishedDate,
+                        "tokenization": " | ".join(new_ws)
                     })
                 offset += 10
 
@@ -75,7 +89,7 @@ def easycamp_comment_crawler():
         comment_objs = []
         web = requests.get(d["url"])
         soup = BeautifulSoup(web.text, "html.parser")
-        d["description"] = soup.select_one("#content_id").text.strip()
+        d["description"] = soup.select_one("#content_id").text.strip().replace("\n", "").replace("\r", "").replace("\t", "")
         d["address"] = soup.select_one(".camp-info .camp-add").text.strip()
         gps = soup.select_one(".camp-info div .camp-gps").text.strip()
         if gps != "":
@@ -93,15 +107,23 @@ def easycamp_comment_crawler():
                 contents = comment.select(".english-break-word")
                 content = []
                 if contents[0].text.strip() != "":
-                    content.append(contents[0].text.strip())
+                    content.append(contents[0].text.strip().replace("\n", "").replace("\r", "").replace("\t", ""))
                 if contents[1].text.strip() != "":
-                    content.append(contents[1].text.strip())
+                    content.append(contents[1].text.strip().replace("\n", "").replace("\r", "").replace("\t", ""))
+
+                content = "。".join(content)
+                ws = jieba.lcut(content, cut_all=False)
+                new_ws = []
+                for word in ws:
+                    if word not in STOP_WORDS:
+                        new_ws.append(word)
 
                 rating = len(comment.select(".fa.fa-star"))
                 comment_objs.append({
-                    "content": "。".join(content),
+                    "content": content,
                     "rating": rating,
-                    "publishedDate": publishedDate
+                    "publishedDate": publishedDate,
+                    "tokenization": " | ".join(new_ws)
                 })
             page += 1
 

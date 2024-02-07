@@ -14,8 +14,9 @@ def asiayo_crawler():
     f = open(file_name, encoding="utf-8-sig")
     camping_area_objs = json.load(f)
     new_obj = 0
+
     while True:
-        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-06-21&checkOutDate=2024-07-22&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
+        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-06-21&checkOutDate=2024-06-22&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
         if res.status_code == 200:
             res_json = res.json()
             camping_areas = res_json["data"]["rows"]
@@ -44,7 +45,9 @@ def asiayo_crawler():
                     "region":city + district,
                     "url": url,
                     "latitude":latitude,
-                    "longitude":longitude
+                    "longitude":longitude,
+                    "type": 0,
+                    "disabled": 0
                 })
                 new_obj += 1
         offset += 20
@@ -67,7 +70,9 @@ def easycamp_crawler():
     base_url = "https://www.easycamp.com.tw{relative_link}"
 
     file_name = os.path.join(dir_path, 'camping_easycamp.json')
-    camping_area_objs = []
+    f = open(file_name, encoding="utf-8-sig")
+    camping_area_objs = json.load(f)
+    new_obj = 0
 
     main_url = "https://www.easycamp.com.tw/AC_Stores.html"
     web = requests.get(main_url)
@@ -80,6 +85,8 @@ def easycamp_crawler():
         articles = soup.select('article')
         for article in articles:
             code = article.select_one('a').get('href').replace("/Store_", "").replace(".html", "")
+            if next((item for item in camping_area_objs if item["code"] == code), None) is not None:
+                    continue
             url = base_url.format(relative_link=article.select_one('a').get('href'))
             name = article.select_one('h3 a').text
             region = article.select_one('.companyinfo a').text
@@ -88,11 +95,15 @@ def easycamp_crawler():
                 "name": name,
                 "region":region,
                 "url": url,
+                "type": 0,
+                "disabled": 0
             })
 
+            new_obj += 1
 
+    print("New:{}".format(str(new_obj)))
     print("Total:{}".format(len(camping_area_objs)))
-    sorted_camping_objs = sorted(camping_area_objs, key=lambda d: d["url"]) 
+    sorted_camping_objs = sorted(camping_area_objs, key=lambda d: d["code"]) 
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         json.dump(sorted_camping_objs, f, indent=4, ensure_ascii=False)
         print("save {file_name}".format(file_name=file_name))
