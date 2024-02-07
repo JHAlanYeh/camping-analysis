@@ -3,7 +3,7 @@
     "name": "高雄六龜 芳晨溫泉渡假村",
     "region": "高雄市六龜區",
     "url": "https://www.easycamp.com.tw/Store_2391.html",
-    "description": "提供渡假木屋、露天SPA池、湯屋等設施，遠離城囂，親近自然戶外\n\n\r\n\t\t\t\t\t\t\t位於寶來二橋邊，前鄰南橫公路，延伸至荖濃溪畔，佔地8甲（約2萬餘坪）\n本區群山環繞位海拔400公尺 氣候涼爽園內花香鳥語",
+    "description": "提供渡假木屋、露天SPA池、湯屋等設施，遠離城囂，親近自然戶外位於寶來二橋邊，前鄰南橫公路，延伸至荖濃溪畔，佔地8甲（約2萬餘坪）本區群山環繞位海拔400公尺 氣候涼爽園內花香鳥語",
     "address": "高雄市六龜區寶來村中正路132號",
     "latitude": 23.110202,
     "longitude": 120.702708,
@@ -11,152 +11,182 @@
         {
             "content": "還有溫泉泡，整體來說都還不錯",
             "rating": 5,
-            "publishedDate": "2023/09/19"
+            "publishedDate": "2023/09/19",
+            "tokenizer": "還有 | 溫泉 | 泡 | 整體 | 來 | 說 | 都 | 還不錯"
         },
         {
             "content": "草地感覺沒有什麼在養護，晚上離洗澡的地方都沒有燈有點危險希望可以改進",
             "rating": 4,
-            "publishedDate": "2023/04/05"
+            "publishedDate": "2023/04/05",
+            "tokenizer": "草地 | 感覺 | 沒有 | 什麼 | 在 | 養護 | 晚上 | 離 | 洗澡 | 的 | 地方 | 都 | 沒 | 有 | 燈 | 有點 | 危險 | 希望 | 可以 | 改進"
         },
         {
             "content": "露營洗澡要去上層的太少间。，有一間壞掉要等很久，蓮蓬頭要要換出水不正常。其他都很好",
             "rating": 5,
-            "publishedDate": "2023/03/01"
+            "publishedDate": "2023/03/01",
+            "tokenizer": "露營 | 洗澡 | 要 | 去 | 上層 | 的 | 太少间 | 有 | 一間 | 壞 | 掉 | 要 | 等 | 很 | 久 | 蓮蓬頭 | 要 | 要換 | 出水 | 不 | 正常 | 其他 | 都 | 很 | 好"
         },
         {
             "content": "泡溫泉時間限制太少",
             "rating": 5,
-            "publishedDate": "2022/08/27"
+            "publishedDate": "2022/08/27",
+            "tokenizer": "泡 | 溫泉 | 時間 | 限制 | 太 | 少"
         },
         {
             "content": "環境及泡湯池都OK, 外食很便利",
             "rating": 4,
-            "publishedDate": "2022/04/06"
+            "publishedDate": "2022/04/06",
+            "tokenizer": "環境 | 及 | 泡 | 湯池 | 都 | OK | 外食 | 很 | 便利"
         },
         {
             "content": "環境及泡湯池都OK。外食很方便",
             "rating": 4,
-            "publishedDate": "2022/04/06"
+            "publishedDate": "2022/04/06",
+            "tokenizer": "環境 | 及 | 泡 | 湯池 | 都 | OK | 外食 | 很 | 方便"
         },
         {
             "content": "露營還可泡湯放鬆",
             "rating": 5,
-            "publishedDate": "2021/10/06"
+            "publishedDate": "2021/10/06",
+            "tokenizer": "露營 | 還可 | 泡湯 | 放 | 鬆"
         },
         {
             "content": "溫泉露營區!讚。溫泉露營區!讚",
             "rating": 4,
-            "publishedDate": "2021/09/07"
+            "publishedDate": "2021/09/07",
+            "tokenizer": "溫泉露 | 營區 | ! | 讚 | 溫泉露 | 營區 | ! | 讚"
         },
         {
             "content": "不錯的營區。有免費的溫泉可以泡",
             "rating": 5,
-            "publishedDate": "2021/01/22"
+            "publishedDate": "2021/01/22",
+            "tokenizer": "不錯 | 的 | 營區 | 有 | 免費 | 的 | 溫泉 | 可以 | 泡"
         },
         {
             "content": "設備需再加強",
             "rating": 3,
-            "publishedDate": "2020/04/19"
+            "publishedDate": "2020/04/19",
+            "tokenizer": "設備 | 需 | 再 | 加強"
         },
         {
             "content": "蚊子有點多 營釘要帶硬的 石子地",
             "rating": 4,
-            "publishedDate": "2020/03/15"
+            "publishedDate": "2020/03/15",
+            "tokenizer": "蚊子 | 有點 | 多 | 營釘要 | 帶 | 硬 | 的 | 石子 | 地"
         },
         {
             "content": "因為沒什麼吃的地方，希望可以有冰箱",
             "rating": 4,
-            "publishedDate": "2020/03/03"
+            "publishedDate": "2020/03/03",
+            "tokenizer": "因為 | 沒什麼 | 吃 | 的 | 地方 | 希望 | 可以 | 有 | 冰箱"
         },
         {
             "content": "簡單放空的地方",
             "rating": 4,
-            "publishedDate": "2020/03/02"
+            "publishedDate": "2020/03/02",
+            "tokenizer": "簡單 | 放空 | 的 | 地方"
         },
         {
             "content": "旁邊就有溫泉泡，很方便",
             "rating": 4,
-            "publishedDate": "2019/10/06"
+            "publishedDate": "2019/10/06",
+            "tokenizer": "旁邊 | 就 | 有 | 溫泉 | 泡 | 很 | 方便"
         },
         {
             "content": "設備需再加強。河邊大石  不好打釘  風景好",
             "rating": 4,
-            "publishedDate": "2019/04/08"
+            "publishedDate": "2019/04/08",
+            "tokenizer": "設備 | 需 | 再 | 加強 | 河邊 | 大石 | 不好 | 打釘 | 風景 | 好"
         },
         {
             "content": "希望能在浴廁的擺置上再衡量一下～。營區是長條型的，浴廁得走到底，雖然說另一邊走石頭階梯上去也有泡湯區的浴廁，但實在不太方便，所以希望能在浴廁的擺置上再衡量一下～",
             "rating": 4,
-            "publishedDate": "2019/03/05"
+            "publishedDate": "2019/03/05",
+            "tokenizer": "希望 | 能 | 在 | 浴 | 廁 | 的 | 擺置 | 上 | 再 | 衡量 | 一下 | 營區 | 是 | 長 | 條型 | 的 | 浴 | 廁得 | 走 | 到底 | 雖然 | 說 | 另 | 一邊 | 走 | 石頭 | 階梯 | 上去 | 也 | 有 | 泡 | 湯區 | 的 | 浴廁 | 但實 | 在 | 不 | 太 | 方便 | 所以 | 希望 | 能 | 在 | 浴 | 廁 | 的 | 擺置 | 上 | 再 | 衡量 | 一下"
         },
         {
             "content": "營區外正在整修河床，希望以後能有更美的風景～",
             "rating": 4,
-            "publishedDate": "2019/03/05"
+            "publishedDate": "2019/03/05",
+            "tokenizer": "營區 | 外 | 正在 | 整修 | 河床 | 希望 | 以後能 | 有 | 更 | 美的 | 風景"
         },
         {
             "content": "施工的河床沒有圍住，好多車都開錯，開到河床上去，若加強點標示會更安全些，謝謝。",
             "rating": 4,
-            "publishedDate": "2019/03/05"
+            "publishedDate": "2019/03/05",
+            "tokenizer": "施工 | 的 | 河床 | 沒有 | 圍住 | 好多 | 車都 | 開錯 | 開到 | 河床 | 上去 | 若加 | 強點 | 標示 | 會 | 更 | 安全 | 些 | 謝謝"
         },
         {
             "content": "愛泡湯的值得一試。以800塊還能泡湯來說也沒啥好挑剔的了，為一詬病的應該是很難下釘。",
             "rating": 4,
-            "publishedDate": "2019/03/03"
+            "publishedDate": "2019/03/03",
+            "tokenizer": "愛泡湯 | 的 | 值得 | 一試 | 以 | 800 | 塊 | 還能 | 泡 | 湯來 | 說 | 也 | 沒 | 啥 | 好 | 挑剔 | 的 | 了 | 為 | 一 | 詬 | 病 | 的 | 應該 | 是 | 很 | 難下 | 釘"
         },
         {
             "content": "有待加強。如果有心經營營區！廁所是最大改善空間。石頭樓梯也是。服務態度值得讚賞。",
             "rating": 2,
-            "publishedDate": "2019/03/03"
+            "publishedDate": "2019/03/03",
+            "tokenizer": "有待 | 加強 | 如果 | 有心 | 經營 | 營區 | 廁所 | 是 | 最大 | 改善 | 空間 | 石頭 | 樓梯 | 也 | 是 | 服務態度 | 值得 | 讚 | 賞"
         },
         {
             "content": "溫泉很舒適。石頭路真的不好釘營釘，大家的營釘都打歪了",
             "rating": 4,
-            "publishedDate": "2019/02/21"
+            "publishedDate": "2019/02/21",
+            "tokenizer": "溫泉 | 很 | 舒適 | 石頭路 | 真的 | 不好 | 釘營 | 釘 | 大家 | 的 | 營釘 | 都 | 打歪 | 了"
         },
         {
             "content": "營位給的夠大，還有戶外溫泉，很贊喔！",
             "rating": 5,
-            "publishedDate": "2019/02/11"
+            "publishedDate": "2019/02/11",
+            "tokenizer": "營位 | 給的夠 | 大 | 還有 | 戶外 | 溫泉 | 很贊 | 喔"
         },
         {
             "content": "進營區路面不佳，入口處不明顯",
             "rating": 4,
-            "publishedDate": "2019/02/10"
+            "publishedDate": "2019/02/10",
+            "tokenizer": "進營區 | 路面 | 不佳 | 入口 | 處 | 不明 | 顯"
         },
         {
             "content": "浴室太少、洗澡要等待、上厠所需走很遠",
             "rating": 2,
-            "publishedDate": "2019/02/10"
+            "publishedDate": "2019/02/10",
+            "tokenizer": "浴室 | 太 | 少 | 洗澡 | 要 | 等待 | 上 | 厠 | 所 | 需 | 走 | 很 | 遠"
         },
         {
             "content": "服務完善",
             "rating": 4,
-            "publishedDate": "2019/02/06"
+            "publishedDate": "2019/02/06",
+            "tokenizer": "服務 | 完善"
         },
         {
             "content": "秋冬必去，物超所值。除了荖濃溪不能下去有點遺憾之外，營地超寬闊，就在河床旁邊，面向荖濃溪的風景真的很壯觀，晚上把營燈關掉後，完全沒有光害，星空璀璨，而且很安靜，完全聽不到車聲，很適合喜愛大自然的露友！",
             "rating": 5,
-            "publishedDate": "2019/01/27"
+            "publishedDate": "2019/01/27",
+            "tokenizer": "秋冬 | 必去 | 物超所值 | 除了 | 荖 | 濃溪 | 不能 | 下去 | 有點 | 遺憾 | 之外 | 營地 | 超寬闊 | 就 | 在 | 河床 | 旁邊 | 面向 | 荖 | 濃溪 | 的 | 風景 | 真的 | 很壯觀 | 晚上 | 把 | 營燈 | 關掉 | 後 | 完全 | 沒有 | 光害 | 星空 | 璀璨 | 而且 | 很安靜 | 完全 | 聽 | 不到 | 車聲 | 很 | 適合喜 | 愛 | 大自然 | 的 | 露友"
         },
         {
             "content": "雖不是最好，但物超所值！",
             "rating": 5,
-            "publishedDate": "2018/12/31"
+            "publishedDate": "2018/12/31",
+            "tokenizer": "雖 | 不是 | 最好 | 但 | 物超所值"
         },
         {
             "content": "還ok",
             "rating": 4,
-            "publishedDate": "2018/12/30"
+            "publishedDate": "2018/12/30",
+            "tokenizer": "還 | ok"
         },
         {
             "content": "整體還算不錯",
             "rating": 5,
-            "publishedDate": "2018/12/01"
+            "publishedDate": "2018/12/01",
+            "tokenizer": "整體 | 還算 | 不錯"
         },
         {
             "content": "免費泡湯2H真好...往營區道路快點完成",
             "rating": 4,
-            "publishedDate": "2018/05/12"
+            "publishedDate": "2018/05/12",
+            "tokenizer": "免費 | 泡湯 | 2H | 真好 | ... | 往營區 | 道路 | 快點 | 完成"
         }
     ]
 }
