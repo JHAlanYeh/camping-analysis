@@ -450,6 +450,16 @@
         "longitude": 120.8057064
     },
     {
+        "code": 40101,
+        "name": "水玉妮光GC花園露營｜超美落羽松！",
+        "city": "苗栗縣",
+        "district": "卓蘭鎮",
+        "region": "苗栗縣卓蘭鎮",
+        "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/40101/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 24.332532,
+        "longitude": 120.8178253
+    },
+    {
         "code": 40111,
         "name": "猿田野露營區｜免裝備露營/自搭帳營位",
         "city": "屏東縣",
@@ -493,6 +503,16 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/40279/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.671461,
         "longitude": 120.9942721
+    },
+    {
+        "code": 40306,
+        "name": "溪河木｜新上架栗子屋、豪華露營車、超大戲水池",
+        "city": "宜蘭縣",
+        "district": "大同鄉",
+        "region": "宜蘭縣大同鄉",
+        "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/40306/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 24.6565503,
+        "longitude": 121.5765769
     },
     {
         "code": 40332,
@@ -819,6 +839,16 @@
         "longitude": 120.8055288
     },
     {
+        "code": 42519,
+        "name": "相思園景觀露營區｜星空泡泡屋、賞櫻花/星空",
+        "city": "新竹縣",
+        "district": "尖石鄉",
+        "region": "新竹縣尖石鄉",
+        "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/42519/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 24.70926365,
+        "longitude": 121.22460197
+    },
+    {
         "code": 43770,
         "name": "布拉布拉露營區 BulaBula KC｜南澳懶人露營、可選購餐點",
         "city": "宜蘭縣",
@@ -871,6 +901,16 @@
         "url": "https://asiayo.com/zh-tw/view/tw/taipei-city/44019/?tags=camping&isFromPropertyPage=true/",
         "latitude": 25.1521217,
         "longitude": 121.5585331
+    },
+    {
+        "code": 44024,
+        "name": "溫德莊園豪華露營｜一泊二食再送泡湯、專屬私人衛浴",
+        "city": "高雄市",
+        "district": "六龜區",
+        "region": "高雄市六龜區",
+        "url": "https://asiayo.com/zh-tw/view/tw/kaohsiung-city/44024/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 23.0553765,
+        "longitude": 120.6768615
     },
     {
         "code": 44067,
@@ -1224,6 +1264,16 @@
         "longitude": 121.162304
     },
     {
+        "code": 48800,
+        "name": "蘇維拉莊園｜新上架！全新豪華露營車、一泊一食",
+        "city": "苗栗縣",
+        "district": "南庄鄉",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/48800/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 24.6071112,
+        "longitude": 120.99417913
+    },
+    {
         "code": 48879,
         "name": "灣東日出露營拖車｜新上架！日出露營車、鄰近東澳漁港和神秘沙灘",
         "city": "宜蘭縣",
@@ -1267,5 +1317,15 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/49233/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.9503606,
         "longitude": 120.9193805
+    },
+    {
+        "code": 49292,
+        "name": "山上種樹牛樟森林休閒農場｜露營、一泊二食",
+        "city": "苗栗縣",
+        "district": "大湖鄉",
+        "region": "苗栗縣大湖鄉",
+        "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/49292/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 24.3988628,
+        "longitude": 120.867322
     }
 ]

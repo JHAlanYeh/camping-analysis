@@ -20,10 +20,6 @@ def asiayo_comment_crawler():
         os.makedirs(save_dir, exist_ok=True)
         file_name = os.path.join(dir_path, '{save_dir}\\comment_{code}.json'.format(save_dir=save_dir, code=code))
 
-        # if os.path.exists(file_name):
-        #     print("file existed")
-        #     continue
-
         comment_objs = []
         res = requests.get("https://web-api.asiayo.com/api/v1/bnbs/{code}?locale=zh-tw&currency=TWD&checkInDate=2024-02-03&checkOutDate=2024-02-04&people=1&adult=1&childAges=".format(code=code))
         res_json = res.json()
@@ -118,5 +114,5 @@ def easycamp_comment_crawler():
         print("Total Comment Count：{}".format(total_comment_count))
 
 if __name__ == "__main__":
-    # asiayo_comment_crawler()
+    asiayo_comment_crawler()
     easycamp_comment_crawler()
