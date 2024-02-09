@@ -11,6 +11,7 @@ for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
 
 def asiayo_comment_crawler():
+    bnbType = []
     dir_path = os.path.join(os.getcwd(), "data")
     file = "camping_asiayo.json"
     total_comment_count = 0
@@ -30,8 +31,16 @@ def asiayo_comment_crawler():
         comment_objs = []
         res = requests.get("https://web-api.asiayo.com/api/v1/bnbs/{code}?locale=zh-tw&currency=TWD&checkInDate=2024-02-03&checkOutDate=2024-02-04&people=1&adult=1&childAges=".format(code=code))
         res_json = res.json()
+        if len(res_json["data"]) == 0:
+            continue
         d["address"] = res_json["data"]["address"]["fullAddress"]
         d["description"] = res_json["data"]["description"].replace("\n", "").replace("\r", "").replace("\t", "")
+        d["bnbType"] = res_json["data"]["bnbTypeName"]
+        if "露營" not in d["bnbType"]:
+            d["disabled"] = 1
+
+        if d["bnbType"] not in bnbType:
+            bnbType.append(d["bnbType"])
 
         while True:
             res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/{code}/reviews?limit=10&offset={offset}&locale=zh-tw""".format(code=code, offset=offset))
@@ -60,7 +69,6 @@ def asiayo_comment_crawler():
                     })
                 offset += 10
 
-
         d["comments"] = comment_objs
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
@@ -68,6 +76,7 @@ def asiayo_comment_crawler():
 
         total_comment_count += len(comment_objs)
         print("Total Comment Count：{}".format(total_comment_count))
+        print("All bnbType：{}".format("，".join(bnbType)))
 
 
 def easycamp_comment_crawler():

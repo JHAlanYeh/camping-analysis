@@ -25,7 +25,15 @@ def asiayo_crawler():
             
             for area in camping_areas:
                 code = area["id"]
-                if next((item for item in camping_area_objs if item["code"] == code), None) is not None:
+                bnb_type = area["typeName"]
+                duplicated_item = next((item for item in camping_area_objs if item["code"] == code), None)
+                if duplicated_item is not None:
+                    idx = camping_area_objs.index(duplicated_item)
+                    camping_area_objs.pop(idx)
+                    duplicated_item["bnbType"] = bnb_type
+                    if "露營" not in d["bnbType"]:
+                        duplicated_item["disabled"] = 1
+                    camping_area_objs.append(duplicated_item)
                     continue
                 name = area["name"]
                 city = area["address"]["city"]["name"]
@@ -46,12 +54,12 @@ def asiayo_crawler():
                     "url": url,
                     "latitude":latitude,
                     "longitude":longitude,
+                    "bnbType":bnb_type,
                     "type": 0,
                     "disabled": 0
                 })
                 new_obj += 1
         offset += 20
-            
 
     print("New:{}".format(str(new_obj)))
     print("Total:{}".format(len(camping_area_objs)))
@@ -113,4 +121,4 @@ def easycamp_crawler():
 
 if __name__ == "__main__":
     asiayo_crawler()
-    easycamp_crawler()
+    # easycamp_crawler()
