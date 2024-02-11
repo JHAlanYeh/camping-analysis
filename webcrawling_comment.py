@@ -21,6 +21,9 @@ def asiayo_comment_crawler():
     data = json.load(f)
     f.close()
     for d in data:
+        if d["disabled"] == 1:
+            continue
+
         offset = 0
         code = d["code"]
 
@@ -146,4 +149,4 @@ def easycamp_comment_crawler():
 
 if __name__ == "__main__":
     asiayo_comment_crawler()
-    easycamp_comment_crawler()
+    # easycamp_comment_crawler()

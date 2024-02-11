@@ -16,7 +16,7 @@ def asiayo_crawler():
     new_obj = 0
 
     while True:
-        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-06-21&checkOutDate=2024-06-22&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
+        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-05-31&checkOutDate=2024-06-01&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
         if res.status_code == 200:
             res_json = res.json()
             camping_areas = res_json["data"]["rows"]
@@ -28,12 +28,13 @@ def asiayo_crawler():
                 bnb_type = area["typeName"]
                 duplicated_item = next((item for item in camping_area_objs if item["code"] == code), None)
                 if duplicated_item is not None:
-                    idx = camping_area_objs.index(duplicated_item)
-                    camping_area_objs.pop(idx)
-                    duplicated_item["bnbType"] = bnb_type
-                    if "露營" not in d["bnbType"]:
-                        duplicated_item["disabled"] = 1
-                    camping_area_objs.append(duplicated_item)
+                    if "bnbType" not in duplicated_item:
+                        idx = camping_area_objs.index(duplicated_item)
+                        camping_area_objs.pop(idx)
+                        duplicated_item["bnbType"] = bnb_type
+                        if "露營" not in duplicated_item["bnbType"]:
+                            duplicated_item["disabled"] = 1
+                        camping_area_objs.append(duplicated_item)
                     continue
                 name = area["name"]
                 city = area["address"]["city"]["name"]
@@ -44,6 +45,9 @@ def asiayo_crawler():
                 # 緯度
                 longitude = area["location"]["lng"]
                 url = camping_area_url.format(city_code=city_code, code=code)
+                disabled = 0
+                if "露營" not in bnb_type:
+                    disabled = 1
 
                 camping_area_objs.append({
                     "code": code,
@@ -54,10 +58,11 @@ def asiayo_crawler():
                     "url": url,
                     "latitude":latitude,
                     "longitude":longitude,
-                    "bnbType":bnb_type,
                     "type": 0,
-                    "disabled": 0
+                    "disabled": disabled,
+                    "bnbType":bnb_type,
                 })
+                print("New Object:{}".format(name))
                 new_obj += 1
         offset += 20
 
@@ -121,4 +126,4 @@ def easycamp_crawler():
 
 if __name__ == "__main__":
     asiayo_crawler()
-    # easycamp_crawler()
+    easycamp_crawler()

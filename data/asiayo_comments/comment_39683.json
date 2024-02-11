@@ -6,12 +6,18 @@
     "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/39683/?tags=camping&isFromPropertyPage=true/",
     "latitude": 24.87812818,
     "longitude": 121.82564858,
-    "type": 0,
+    "type": 3,
     "disabled": 0,
+    "bnbType": "露營區",
     "address": "宜蘭縣頭城鎮仙公路180巷50號",
     "description": "仁者樂山，智者樂水，若逢微笑灣，兩者皆可得！在露營區這麼興盛的時代下，坐擁著合法執照談何容易，但，微笑灣有！不僅保障貴賓的安全也感恩著大地之母賦予的生態！除了價值連城的百萬夜景，夜間更擁有著螢火蟲的展翅飛翔，大自然的好，微笑灣最知道！微笑灣的曼妙，真的無法一聲一聲道！努力的結晶，只為換取您最童稚的微笑。閒暇之餘不知方向在哪裡，不如就來享受與大地之母共鳴的片晌吧！影片介紹：https://m.youtube.com/watch?v=ogEiJt-5U4E&feature=youtu.be",
-    "bnbType": "露營區",
     "comments": [
+        {
+            "content": "搭計程車上去方便，設施齊全、老闆親切，環境也很乾淨！環境清幽舒適",
+            "rating": 5,
+            "publishedDate": "2024-02-09T19:07:29+08:00",
+            "tokenization": "搭計 | 程車 | 上去 | 方便 | 設施 | 齊全 | 老 | 闆 | 親切 | 環境 | 也 | 很 | 乾淨 | 環境 | 清幽 | 舒適"
+        },
         {
             "content": "舒服！腹地很大 如果不想待在車上 還可以出來散散步 準備的烤肉也很好吃",
             "rating": 5,
