@@ -79,7 +79,7 @@ def asiayo_comment_crawler():
 
         total_comment_count += len(comment_objs)
         print("Total Comment Count：{}".format(total_comment_count))
-        print("All bnbType：{}".format("，".join(bnbType)))
+    print("All bnbType：{}".format("，".join(bnbType)))
 
 
 def easycamp_comment_crawler():
