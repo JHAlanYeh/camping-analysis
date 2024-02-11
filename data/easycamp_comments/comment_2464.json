@@ -3,7 +3,7 @@
     "name": "苗栗泰安 星樂親子露營",
     "region": "苗栗縣泰安鄉",
     "url": "https://www.easycamp.com.tw/Store_2464.html",
-    "type": 0,
+    "type": 1,
     "disabled": 0,
     "description": "",
     "address": "苗栗縣泰安鄉八卦村4鄰68號",
@@ -428,7 +428,7 @@
             "content": "A區早上一直睡到9:00才曬到太陽，很好",
             "rating": 5,
             "publishedDate": "2019/05/06",
-            "tokenization": "A | 區 | 早上 | 一直 | 睡到 | 9 | : | 00 | 才 | 曬 | 到 | 太陽 | 很 | 好"
+            "tokenization": "A | 區 | 早上 | 一直 | 睡到 | 9 | 00 | 才 | 曬 | 到 | 太陽 | 很 | 好"
         },
         {
             "content": "非常推薦的露營區。缺乏照明設施",

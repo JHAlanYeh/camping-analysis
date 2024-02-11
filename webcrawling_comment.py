@@ -148,5 +148,5 @@ def easycamp_comment_crawler():
         print("Total Comment Count：{}".format(total_comment_count))
 
 if __name__ == "__main__":
-    asiayo_comment_crawler()
-    # easycamp_comment_crawler()
+    # asiayo_comment_crawler()
+    easycamp_comment_crawler()

@@ -3,7 +3,7 @@
     "name": "台中和平 德芙蘭農場",
     "region": "台中市和平區",
     "url": "https://www.easycamp.com.tw/Store_1785.html",
-    "type": 0,
+    "type": 1,
     "disabled": 0,
     "description": "台中和平松鶴部落 海拔780M 寬闊鬆厚草皮 大營位親子露營區遙望和平松鶴部落 緊鄰德芙蘭步道 海拔 780M視野遼闊，鬆厚地毯草，戲水池、 沙坑、 塗鴨牆，指標性親子營區德芙蘭農場，用藍天綠地親子露營的親善環境，歡迎閤家到訪喔~",
     "address": "台中市和平區東關路一段359號",
@@ -86,7 +86,7 @@
             "content": "漂亮的草皮、離谷關又近。https://youtu.be/2FtLQbIibrk",
             "rating": 5,
             "publishedDate": "2021/09/08",
-            "tokenization": "漂亮 | 的 | 草皮 | 離谷關 | 又 | 近 | https | : | youtu | be | 2FtLQbIibrk"
+            "tokenization": "漂亮 | 的 | 草皮 | 離谷關 | 又 | 近 | https | youtu | be | 2FtLQbIibrk"
         },
         {
             "content": "草皮真的很漂亮，沙坑又乾淨，小孩玩得很開心",
