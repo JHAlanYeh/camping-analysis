@@ -79,7 +79,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/36860/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.0379797,
         "longitude": 121.1578715,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -115,7 +115,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/38896/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.726584,
         "longitude": 121.16246,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -151,7 +151,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/39129/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.5908476,
         "longitude": 121.1289742,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -163,7 +163,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/39143/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.6984694,
         "longitude": 120.7134601,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -211,7 +211,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/39219/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.5218567,
         "longitude": 121.4474264,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -283,7 +283,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/39316/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.46358544,
         "longitude": 121.78668632,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -308,7 +308,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hualien-county/39322/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.9330246,
         "longitude": 121.5071141,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -332,7 +332,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/39348/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.7943056,
         "longitude": 120.96325,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -417,7 +417,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/39399/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.07547957,
         "longitude": 120.87718163,
-        "type": 1,
+        "type": 0,
         "disabled": 1,
         "bnbType": "民宿 / 公寓"
     },
@@ -585,7 +585,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/taichung-city/39856/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.1640455,
         "longitude": 120.9520671,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -646,7 +646,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/pingtung-county/40111/?tags=camping&isFromPropertyPage=true/",
         "latitude": 22.0108205,
         "longitude": 120.6945468,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -658,7 +658,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hualien-county/40178/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.15476501,
         "longitude": 121.66212453,
-        "type": 2,
+        "type": 3,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -755,8 +755,8 @@
         "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/40443/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.3811262,
         "longitude": 120.8666649,
-        "type": 3,
-        "disabled": 0,
+        "type": 0,
+        "disabled": 1,
         "bnbType": "民宿 / 公寓"
     },
     {
@@ -887,7 +887,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/40597/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.814656,
         "longitude": 121.180837,
-        "type": 1,
+        "type": 2,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -899,7 +899,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hualien-county/40612/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.9222315,
         "longitude": 121.6069405,
-        "type": 2,
+        "type": 3,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -923,7 +923,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/40668/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.960646,
         "longitude": 120.8347411,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1031,7 +1031,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/41578/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.8087207,
         "longitude": 121.6960817,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1079,7 +1079,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/41808/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.6952858,
         "longitude": 121.2662896,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1127,7 +1127,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/taichung-city/42206/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.2652103,
         "longitude": 120.8392953,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1176,7 +1176,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/chiayi-county/43837/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.4609533,
         "longitude": 120.6983053,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1200,7 +1200,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/43993/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.645634,
         "longitude": 121.732634,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1249,7 +1249,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/new-taipei-city/44067/?tags=camping&isFromPropertyPage=true/",
         "latitude": 25.2852113,
         "longitude": 121.5109766,
-        "type": 3,
+        "type": 2,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1309,7 +1309,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/44300/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.669899,
         "longitude": 120.950817,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1333,7 +1333,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/44379/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.7612358,
         "longitude": 120.7406612,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1345,7 +1345,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/tainan-city/44435/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.16105866,
         "longitude": 120.5054503,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1381,7 +1381,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/44560/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.7319627,
         "longitude": 121.2465342,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1393,7 +1393,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/kaohsiung-city/44587/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.24595,
         "longitude": 120.69488,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1417,7 +1417,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/tainan-city/44738/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.1890443,
         "longitude": 120.1466688,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1465,7 +1465,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/44893/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.6256096,
         "longitude": 121.0294605,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1477,7 +1477,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/yilan-county/44903/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.618358,
         "longitude": 121.730525,
-        "type": 1,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1489,7 +1489,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/44961/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.5772603,
         "longitude": 121.0947833,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1501,7 +1501,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hsinchu-county/44974/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.5844976,
         "longitude": 121.0822307,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1513,7 +1513,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/44976/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.5757138,
         "longitude": 120.9884343,
-        "type": 2,
+        "type": 3,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1525,7 +1525,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/miaoli-county/45088/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.5740028,
         "longitude": 120.9853145,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1610,7 +1610,8 @@
         "latitude": 23.546536,
         "longitude": 120.474349,
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "bnbType": "露營區"
     },
     {
         "code": 45882,
@@ -1632,7 +1633,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/46223/?tags=camping&isFromPropertyPage=true/",
         "latitude": 23.9500867,
         "longitude": 120.9662745,
-        "type": 3,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },
@@ -1674,7 +1675,7 @@
     },
     {
         "code": 46982,
-        "name": "水与松森林莊園｜一泊三食+手做DIY、無邊際泳池",
+        "name": "水與松森林莊園｜一泊三食+手做DIY、無邊際泳池",
         "city": "南投縣",
         "district": "埔里鎮",
         "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/46982/?tags=camping&isFromPropertyPage=true/",
@@ -1741,7 +1742,7 @@
         "url": "https://asiayo.com/zh-tw/view/tw/hualien-county/49019/?tags=camping&isFromPropertyPage=true/",
         "latitude": 24.1452319,
         "longitude": 121.663096,
-        "type": 2,
+        "type": 4,
         "disabled": 0,
         "bnbType": "露營區"
     },

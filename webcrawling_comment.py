@@ -11,7 +11,6 @@ for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
 
 def asiayo_comment_crawler():
-    bnbType = []
     dir_path = os.path.join(os.getcwd(), "data")
     file = "camping_asiayo.json"
     total_comment_count = 0
@@ -20,6 +19,16 @@ def asiayo_comment_crawler():
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     f.close()
+
+    valid_data = filter(lambda x: x["disabled"] == 0 and ( x["type"] == 1 or  x["type"] == 2), data)
+    valid_1_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 1, data)
+    valid_2_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 2, data)
+    not_category = filter(lambda x: x["type"] == 0 and x["disabled"] == 0, data)
+
+    print("not category data:{}".format(len(list(not_category))))
+    print("valid data:{}".format(len(list(valid_data))))
+    print(len(list(valid_1_data)), len(list(valid_2_data)))
+
     for d in data:
         if d["disabled"] == 1:
             continue
@@ -27,23 +36,21 @@ def asiayo_comment_crawler():
         offset = 0
         code = d["code"]
 
-        save_dir = os.path.join(dir_path, "asiayo_comments")
+        save_dir = os.path.join(dir_path, "asiayo_comments\\{house_type}".format(house_type=d["type"]))
         os.makedirs(save_dir, exist_ok=True)
-        file_name = os.path.join(dir_path, '{save_dir}\\comment_{code}.json'.format(save_dir=save_dir, code=code))
+        file_name = os.path.join(save_dir, 'comment_{code}.json'.format(code=code))
 
         comment_objs = []
         res = requests.get("https://web-api.asiayo.com/api/v1/bnbs/{code}?locale=zh-tw&currency=TWD&checkInDate=2024-02-03&checkOutDate=2024-02-04&people=1&adult=1&childAges=".format(code=code))
         res_json = res.json()
         if len(res_json["data"]) == 0:
-            continue
-        d["address"] = res_json["data"]["address"]["fullAddress"]
-        d["description"] = res_json["data"]["description"].replace("\n", "").replace("\r", "").replace("\t", "")
-        d["bnbType"] = res_json["data"]["bnbTypeName"]
-        if "露營" not in d["bnbType"]:
-            d["disabled"] = 1
-
-        if d["bnbType"] not in bnbType:
-            bnbType.append(d["bnbType"])
+            print("No data-{}".format(res_json["data"]["name"]))
+        else:
+            d["address"] = res_json["data"]["address"]["fullAddress"]
+            d["description"] = res_json["data"]["description"].replace("\n", "").replace("\r", "").replace("\t", "")
+            d["bnbType"] = res_json["data"]["bnbTypeName"]
+            if "露營" not in d["bnbType"]:
+                d["disabled"] = 1
 
         while True:
             res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/{code}/reviews?limit=10&offset={offset}&locale=zh-tw""".format(code=code, offset=offset))
@@ -79,7 +86,6 @@ def asiayo_comment_crawler():
 
         total_comment_count += len(comment_objs)
         print("Total Comment Count：{}".format(total_comment_count))
-    print("All bnbType：{}".format("，".join(bnbType)))
 
 
 def easycamp_comment_crawler():
@@ -95,9 +101,11 @@ def easycamp_comment_crawler():
 
     for d in data:
         code = d["code"]
-        save_dir = os.path.join(dir_path, "easycamp_comments")
+
+        save_dir = os.path.join(dir_path, "easycamp_comments\\{house_type}".format(house_type=d["type"]))
         os.makedirs(save_dir, exist_ok=True)
-        file_name = os.path.join(dir_path, '{save_dir}\\comment_{code}.json'.format(save_dir=save_dir, code=code))
+        file_name = os.path.join(save_dir, 'comment_{code}.json'.format(code=code))
+
         comment_objs = []
         web = requests.get(d["url"])
         soup = BeautifulSoup(web.text, "html.parser")
@@ -148,5 +156,5 @@ def easycamp_comment_crawler():
         print("Total Comment Count：{}".format(total_comment_count))
 
 if __name__ == "__main__":
-    # asiayo_comment_crawler()
-    easycamp_comment_crawler()
+    asiayo_comment_crawler()
+    # easycamp_comment_crawler()
