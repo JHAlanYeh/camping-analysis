@@ -1,0 +1,38 @@
+﻿{
+    "code": "1942",
+    "name": "南投仁愛 清境陽光露營",
+    "region": "南投縣仁愛鄉",
+    "url": "https://www.easycamp.com.tw/Store_1942.html",
+    "type": 1,
+    "disabled": 0,
+    "description": "清境農場地區 環境清幽視野遼闊清幽小山 空氣清新美麗的城堡 露營好所在~",
+    "address": "南投縣仁愛鄉大同村榮光巷50之5號",
+    "latitude": 24.036084,
+    "longitude": 121.154304,
+    "comments": [
+        {
+            "content": "不錯的地方。不錯的地方離清境農場很近",
+            "rating": 4,
+            "publishedDate": "2021/10/21",
+            "tokenization": "不錯 | 的 | 地方 | 不錯 | 的 | 地方 | 離清境 | 農場 | 很 | 近"
+        },
+        {
+            "content": "加強更好",
+            "rating": 5,
+            "publishedDate": "2021/10/18",
+            "tokenization": "加強 | 更好"
+        },
+        {
+            "content": "兔子很多很可愛唷！廁所滿乾淨的！老闆人很好！下次有機會再回訪唷",
+            "rating": 5,
+            "publishedDate": "2020/10/11",
+            "tokenization": "兔子 | 很多 | 很 | 可愛唷 | 廁所滿 | 乾淨 | 的 | 老 | 闆 | 人 | 很 | 好 | 下次 | 有 | 機會 | 再 | 回訪 | 唷"
+        },
+        {
+            "content": "放空不錯的選擇",
+            "rating": 4,
+            "publishedDate": "2018/08/11",
+            "tokenization": "放空 | 不錯 | 的 | 選擇"
+        }
+    ]
+}

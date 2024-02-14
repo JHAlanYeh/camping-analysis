@@ -13,24 +13,34 @@ for line in lines:
 def asiayo_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
     file = "camping_asiayo.json"
-    total_comment_count = 0
+    total_type_1_count = 0
+    total_type_2_count = 0
 
     file_path = os.path.join(dir_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     f.close()
 
-    valid_data = filter(lambda x: x["disabled"] == 0 and ( x["type"] == 1 or  x["type"] == 2), data)
-    valid_1_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 1, data)
-    valid_2_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 2, data)
-    not_category = filter(lambda x: x["type"] == 0 and x["disabled"] == 0, data)
+    conform_data = filter(lambda x: x["disabled"] == 0 and ( x["type"] == 1 or  x["type"] == 2), data)
+    conform_type_1_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 1, data)
+    conform_type_2_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 2, data)
+    conform_type_3_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 3, data)
+    conform_type_4_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 4, data)
+    
+    uncategorized = filter(lambda x: x["type"] == 0 and x["disabled"] == 0, data)
+    disabled = filter(lambda x: x["disabled"] == 1, data)
 
-    print("not category data:{}".format(len(list(not_category))))
-    print("valid data:{}".format(len(list(valid_data))))
-    print(len(list(valid_1_data)), len(list(valid_2_data)))
+    print("Total Data:{}".format(len(data)))
+    print("uncategorized data:{}".format(len(list(uncategorized))))
+    print("conform data:{}".format(len(list(conform_data))))
+    print("conform type 1 data:{}".format(len(list(conform_type_1_data))))
+    print("conform type 2 data:{}".format(len(list(conform_type_2_data))))
+    print("conform type 3 data:{}".format(len(list(conform_type_3_data))))
+    print("conform type 4 data:{}".format(len(list(conform_type_4_data))))
+    print("disabled data:{}".format(len(list(disabled))))
 
     for d in data:
-        if d["disabled"] == 1:
+        if d["disabled"] == 1 or d["type"] == 3 or d["type"] == 4:
             continue
 
         offset = 0
@@ -83,21 +93,43 @@ def asiayo_comment_crawler():
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
-
-        total_comment_count += len(comment_objs)
-        print("Total Comment Count：{}".format(total_comment_count))
+        if d["type"] == 1:
+            total_type_1_count += len(comment_objs)
+        elif d["type"] == 2:
+            total_type_2_count += len(comment_objs)
+    print("Total Type 1 Count：{}".format(total_type_1_count))
+    print("Total Type 2 Count：{}".format(total_type_2_count))
 
 
 def easycamp_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
     file = "camping_easycamp.json"
-    total_comment_count = 0
+    total_type_1_count = 0
+    total_type_2_count = 0
     comment_url = "https://www.easycamp.com.tw/store/purchase_rank/{code}/4/{page}"
 
     file_path = os.path.join(dir_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     f.close()
+
+    conform_data = filter(lambda x: x["disabled"] == 0 and ( x["type"] == 1 or  x["type"] == 2), data)
+    conform_type_1_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 1, data)
+    conform_type_2_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 2, data)
+    conform_type_3_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 3, data)
+    conform_type_4_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 4, data)
+    
+    uncategorized = filter(lambda x: x["type"] == 0 and x["disabled"] == 0, data)
+    disabled = filter(lambda x: x["disabled"] == 1, data)
+
+    print("Total Data:{}".format(len(data)))
+    print("uncategorized data:{}".format(len(list(uncategorized))))
+    print("conform data:{}".format(len(list(conform_data))))
+    print("conform type 1 data:{}".format(len(list(conform_type_1_data))))
+    print("conform type 2 data:{}".format(len(list(conform_type_2_data))))
+    print("conform type 3 data:{}".format(len(list(conform_type_3_data))))
+    print("conform type 4 data:{}".format(len(list(conform_type_4_data))))
+    print("disabled data:{}".format(len(list(disabled))))
 
     for d in data:
         code = d["code"]
@@ -152,9 +184,13 @@ def easycamp_comment_crawler():
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
 
-        total_comment_count += len(comment_objs)
-        print("Total Comment Count：{}".format(total_comment_count))
+        if d["type"] == 1:
+            total_type_1_count += len(comment_objs)
+        elif d["type"] == 2:
+            total_type_2_count += len(comment_objs)
+    print("Total Type 1 Count：{}".format(total_type_1_count))
+    print("Total Type 2 Count：{}".format(total_type_2_count))
 
 if __name__ == "__main__":
     asiayo_comment_crawler()
-    # easycamp_comment_crawler()
+    easycamp_comment_crawler()
