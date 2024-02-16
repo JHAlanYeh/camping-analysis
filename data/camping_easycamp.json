@@ -208,6 +208,14 @@
         "disabled": 0
     },
     {
+        "code": "2145",
+        "name": "嘉義竹崎 天一露營區",
+        "region": "嘉義縣竹崎鄉",
+        "url": "https://www.easycamp.com.tw/Store_2145.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "2155",
         "name": "苗栗大湖 四季非露不可 (露營屋)",
         "region": "苗栗縣大湖鄉",
@@ -680,6 +688,14 @@
         "disabled": 0
     },
     {
+        "code": "2461",
+        "name": "苗栗三灣 鄉町露營區",
+        "region": "苗栗縣三灣鄉",
+        "url": "https://www.easycamp.com.tw/Store_2461.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2464",
         "name": "苗栗泰安 星樂親子露營",
         "region": "苗栗縣泰安鄉",
@@ -805,6 +821,14 @@
         "region": "新竹縣五峰鄉",
         "url": "https://www.easycamp.com.tw/Store_2496.html",
         "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2498",
+        "name": "桃園復興 亞霧香草營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2498.html",
+        "type": 1,
         "disabled": 0
     },
     {
