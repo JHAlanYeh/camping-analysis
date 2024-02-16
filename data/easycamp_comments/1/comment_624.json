@@ -11,6 +11,12 @@
     "longitude": 121.543417,
     "comments": [
         {
+            "content": "不想跑太遠又方便的營區",
+            "rating": 5,
+            "publishedDate": "2024/02/15",
+            "tokenization": "不想 | 跑 | 太遠 | 又 | 方便 | 的 | 營區"
+        },
+        {
             "content": "春節期間櫻花盛開景色很美，大部分人返鄉，營區雖有遊客但不至擁擠",
             "rating": 5,
             "publishedDate": "2023/12/13",

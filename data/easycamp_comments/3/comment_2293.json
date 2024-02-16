@@ -11,6 +11,18 @@
     "longitude": 120.5967102,
     "comments": [
         {
+            "content": "很舒服很乾淨我願意加入口袋名單，唯一缺點是台灣大哥大沒訊號幸好營本部有wifi",
+            "rating": 5,
+            "publishedDate": "2024/02/15",
+            "tokenization": "很 | 舒服 | 很乾淨 | 我 | 願意 | 加入 | 口袋 | 名單 | 唯一 | 缺點 | 是 | 台灣 | 大哥大 | 沒訊號 | 幸好 | 營 | 本部 | 有 | wifi"
+        },
+        {
+            "content": "很舒服很乾淨我願意加入口袋名單",
+            "rating": 5,
+            "publishedDate": "2024/02/15",
+            "tokenization": "很 | 舒服 | 很乾淨 | 我 | 願意 | 加入 | 口袋 | 名單"
+        },
+        {
             "content": "空氣很好 場地不擁擠適合小孩放電",
             "rating": 5,
             "publishedDate": "2024/01/11",

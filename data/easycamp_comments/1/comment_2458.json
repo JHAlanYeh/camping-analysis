@@ -11,6 +11,12 @@
     "longitude": 120.9091607,
     "comments": [
         {
+            "content": "環境好，營主隨時隨地都在整理環境",
+            "rating": 5,
+            "publishedDate": "2024/02/15",
+            "tokenization": "環境 | 好 | 營主 | 隨時 | 隨地 | 都 | 在 | 整理 | 環境"
+        },
+        {
             "content": "不錯的營區,但夜衝的人很吵",
             "rating": 4,
             "publishedDate": "2023/12/07",
