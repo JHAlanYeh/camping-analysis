@@ -96,6 +96,14 @@
         "disabled": 0
     },
     {
+        "code": "1779",
+        "name": "新竹尖石 小尖石露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_1779.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "1785",
         "name": "台中和平 德芙蘭農場",
         "region": "台中市和平區",
@@ -944,6 +952,14 @@
         "disabled": 0
     },
     {
+        "code": "2533",
+        "name": "新竹五峰 馬瀨營地",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2533.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2534",
         "name": "嘉義番路 岩仔腳(狩獵帳)",
         "region": "嘉義縣番路鄉",
@@ -1292,6 +1308,14 @@
         "name": "高雄那瑪夏 民權大橋露營區",
         "region": "高雄市那瑪夏區",
         "url": "https://www.easycamp.com.tw/Store_2615.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2616",
+        "name": "南投魚池 念念小憩",
+        "region": "南投縣魚池鄉",
+        "url": "https://www.easycamp.com.tw/Store_2616.html",
         "type": 3,
         "disabled": 0
     },

@@ -5,8 +5,10 @@ import jieba
 import math
 from bs4 import BeautifulSoup
 
+jieba.set_dictionary('dict.txt.big')
+jieba.load_userdict('custom_dict.txt')
 
-f = open('stopwords.txt', encoding="utf-8")
+f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
 STOP_WORDS = []
 lines = f.readlines()
 for line in lines:
@@ -116,6 +118,32 @@ def asiayo_comment_crawler():
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
+
+def asiayo_comment_tokenization():
+    dir_path = os.path.join(os.getcwd(), "data")
+    asiayo_dir = os.path.join(dir_path, "asiayo_comments")
+
+    for i in range(1, 4 + 1):
+        asiayo_type_dir = os.path.join(asiayo_dir, str(i))
+        if os.path.isdir(asiayo_type_dir):
+            for file in os.listdir(asiayo_type_dir):
+                file_path = os.path.join(asiayo_type_dir, file)
+                f = open(file_path, encoding="utf-8-sig")
+                data = json.load(f)
+                for c in data["comments"]:
+                    ws = jieba.lcut(c["content"], cut_all=False)
+                    new_ws = []
+                    for word in ws:
+                        if word not in STOP_WORDS:
+                            new_ws.append(word)
+                    c["tokenization"] = " | ".join(new_ws)
+
+                with open(file_path, 'w', encoding="utf-8-sig") as nf:
+                    json.dump(data, nf, indent=4, ensure_ascii=False)
+                    print("save {file_name}".format(file_name=file_path))
+                
+            return
+                
 
 def easycamp_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
@@ -261,14 +289,18 @@ def klook_comment_crawler():
     'Accept-Encoding': "gzip, deflate",
     'Connection': "keep-alive",
     'cache-control': "no-cache",
-    'Cookie': 'klk_currency=TWD; kepler_id=761ce78c-e8c4-4ed1-927d-fa3543f67eec; persisted_source=viviantrip.tw; k_tff_ch=aid_2620; _gcl_au=1.1.1239040881.1707752204; __lt__cid=e84c815c-4379-4377-9952-147530418dc4; __lt__cid.c83939be=e84c815c-4379-4377-9952-147530418dc4; _fwb=237XOdedFIxX1kiZGCqzRJx.1707752212523; _yjsu_yjad=1707752215.d311e5f3-cbae-44d7-8508-215e64247bbe; _tt_enable_cookie=1; _ttp=j6D-oFE6A5T30gS1d0a58mwBUT4; dable_uid=3221839.1700147487968; KOUNT_SESSION_ID=5CDFC80C89656DD1034CD99E124D4D63; clientside-cookie=737969e068a2f6407ca720bbfdc275feccaa31d9fef47c0a772d2e9e6048c024f2771ca16c3cbee8bbd936f8e66ee7b3e47a168fad8bd99079cb74cdbdcaf263883e67eec02f3fcd7e67a327d8edeaf3b9b3a0dadf3f9d66db4fc612f2a7a7e4c76c62b3ba8efdcc84e964afe34e405f3eb110689ef08761e04765cca78e1ae74b238a28fc71c058c6b783e6c7b4dc891228d5367b6db972032610; _gid=GA1.2.726873669.1707925784; aid=2620; wid=2620; aid_query_string=aid%3D2620; affiliate_type=non-network; aid_extra=%7B%22aff_klick_id%22%3A%2259183430999-2620-0-4d4002f%22%2C%22affiliate_partner%22%3A%22%22%2C%22content%22%3A%22%22%7D; aid_campaign=aid=2620&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=2620; tr_update_tt=1707925831001; campaign_tag=klc_l1=Affiliate; traffic_retain=true; klk_ps=1; TNAHD=c42_1707926053329__c8109_1708008346057__c27456_1707926044903__c6488_1707925903585; klk_rdc=TW; klk_ga_sn=9605153786..1708096579886; __lt__sid=85b1645f-0627653e; __lt__sid.c83939be=85b1645f-0627653e; _dc_gtm_UA-86696233-1=1; wcs_bt=s_2cb388a4aa34:1708096581; _uetsid=ab1c8d30cb5011eea8b453c90bc215e9; _uetvid=d63970c0d13a11ed9dbf65988fc79cf5; _ga_FW3CMDM313=GS1.1.1708096581.6.0.1708096581.0.0.0; _ga=GA1.1.1057024504.1574164938; _ga_V8S4KC8ZXR=GS1.1.1708096582.6.0.1708096582.60.0.0; datadome=kwuafrZNYNelc4uNw~w~fXUPmQ_ERNnsAM7DxkITzXDl~mcYcYhptMjCWP4Uai~GevcrpYNIeUxqif~IMdiqVBxE4F5NJDALlTWMEMTEr7UfSe1RBzidC0Oi6dYiLEWL; forterToken=1f3f45b14ff64e5b9e7ab1e8ff24de94_1708096583983__UDF43_20ck_; klk_i_sn=0487454849..1708096588580; _ga_TH9DNLM4ST=GS1.1.1708096588.6.1.1708096589.59.0.0; ftr_blst_1h=1708096589252'
+    'Cookie': 'klk_currency=TWD; kepler_id=761ce78c-e8c4-4ed1-927d-fa3543f67eec; persisted_source=viviantrip.tw; k_tff_ch=aid_2620; _gcl_au=1.1.1239040881.1707752204; __lt__cid=e84c815c-4379-4377-9952-147530418dc4; __lt__cid.c83939be=e84c815c-4379-4377-9952-147530418dc4; _fwb=237XOdedFIxX1kiZGCqzRJx.1707752212523; _yjsu_yjad=1707752215.d311e5f3-cbae-44d7-8508-215e64247bbe; _tt_enable_cookie=1; _ttp=j6D-oFE6A5T30gS1d0a58mwBUT4; dable_uid=3221839.1700147487968; KOUNT_SESSION_ID=5CDFC80C89656DD1034CD99E124D4D63; clientside-cookie=737969e068a2f6407ca720bbfdc275feccaa31d9fef47c0a772d2e9e6048c024f2771ca16c3cbee8bbd936f8e66ee7b3e47a168fad8bd99079cb74cdbdcaf263883e67eec02f3fcd7e67a327d8edeaf3b9b3a0dadf3f9d66db4fc612f2a7a7e4c76c62b3ba8efdcc84e964afe34e405f3eb110689ef08761e04765cca78e1ae74b238a28fc71c058c6b783e6c7b4dc891228d5367b6db972032610; aid=2620; wid=2620; aid_query_string=aid%3D2620; affiliate_type=non-network; aid_extra=%7B%22aff_klick_id%22%3A%2259183430999-2620-0-4d4002f%22%2C%22affiliate_partner%22%3A%22%22%2C%22content%22%3A%22%22%7D; aid_campaign=aid=2620&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=2620; tr_update_tt=1707925831001; campaign_tag=klc_l1=Affiliate; traffic_retain=true; klk_ps=1; TNAHD=c42_1707926053329__c8109_1708008346057__c27456_1707926044903__c6488_1707925903585; klk_rdc=TW; __lt__sid=85b1645f-384bd282; __lt__sid.c83939be=85b1645f-384bd282; _gid=GA1.2.593634834.1708246975; ftr_blst_1h=1708246976515; _ga_TH9DNLM4ST=GS1.1.1708246976.9.1.1708248045.60.0.0; klk_ga_sn=8784941859..1708248046323; _dc_gtm_UA-86696233-1=1; wcs_bt=s_2cb388a4aa34:1708248047; _uetsid=80b5c1b0ce3c11eebd2045203b2b2150; _uetvid=d63970c0d13a11ed9dbf65988fc79cf5; _ga=GA1.1.1057024504.1574164938; _ga_FW3CMDM313=GS1.1.1708246974.9.1.1708248047.0.0.0; _ga_V8S4KC8ZXR=GS1.1.1708246975.9.1.1708248048.57.0.0; forterToken=1f3f45b14ff64e5b9e7ab1e8ff24de94_1708248048757__UDF43-m4_20ck; klk_i_sn=9724350595..1708248048805; datadome=1~__UB9JVuiydl2nSjSIvfXWHwZDgMoV2dBRhm0CCrDFtABU5093VQ5xr8W0gptOIVTgb6baSAe6k~GMOvYHevubmBFXIAy6tAxfD_yxcXqgIszJnRkplUptfn55aY64'
     }
+
+    data = sorted(data, key=lambda x: x["code"], reverse=True)
+
     for d in data:
         if d["disabled"] == 1 or d["type"] == 3 or d["type"] == 4:
             continue
 
         page = 1
         code = d["code"]
+        print(code)
 
         save_dir = os.path.join(dir_path, "klook_comments\\{house_type}".format(house_type=d["type"]))
         os.makedirs(save_dir, exist_ok=True)
@@ -329,6 +361,7 @@ def klook_comment_crawler():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
+    asiayo_comment_tokenization()
     # asiayo_comment_crawler()
     # easycamp_comment_crawler()
-    klook_comment_crawler()
+    # klook_comment_crawler()

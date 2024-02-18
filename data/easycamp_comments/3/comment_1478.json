@@ -26,43 +26,43 @@
             "content": "很悠靜營區，可惜無提供護草地墊，下雨後排水不佳草皮大積水。。很悠靜營區，可惜無提供護草地墊，下雨後排水不佳草皮大積水。",
             "rating": 3,
             "publishedDate": "2021/02/21",
-            "tokenization": "很 | 悠靜 | 營區 | 可惜 | 無 | 提供 | 護 | 草地 | 墊 | 下雨 | 後 | 排水 | 不佳 | 草皮 | 大積 | 水 | 很 | 悠靜 | 營區 | 可惜 | 無 | 提供 | 護 | 草地 | 墊 | 下雨 | 後 | 排水 | 不佳 | 草皮 | 大積 | 水"
+            "tokenization": "很 | 悠靜 | 營區 | 可惜 | 無 | 提供 | 護 | 草地 | 墊 | 下雨 | 後 | 排水 | 不佳 | 草皮 | 大 | 積水 | 很 | 悠靜 | 營區 | 可惜 | 無 | 提供 | 護 | 草地 | 墊 | 下雨 | 後 | 排水 | 不佳 | 草皮 | 大 | 積水"
         },
         {
             "content": "老闆很親切",
             "rating": 5,
             "publishedDate": "2019/03/11",
-            "tokenization": "老 | 闆 | 很 | 親切"
+            "tokenization": "老闆 | 很 | 親切"
         },
         {
             "content": "如果可以增加一些孩童遊戲設施會更好",
             "rating": 4,
             "publishedDate": "2019/03/09",
-            "tokenization": "如果 | 可以 | 增加 | 一些 | 孩童 | 遊戲 | 設施會 | 更好"
+            "tokenization": "如果 | 可以 | 增加 | 一些 | 孩童 | 遊戲 | 設施 | 會 | 更好"
         },
         {
             "content": "是一處讓人會想在去的露營區",
             "rating": 5,
             "publishedDate": "2018/01/16",
-            "tokenization": "是 | 一處 | 讓 | 人會 | 想 | 在 | 去 | 的 | 露營區"
+            "tokenization": "一處 | 讓 | 人會 | 想 | 去 | 露營 | 區"
         },
         {
             "content": "可以再訪。老闆娘很親切~",
             "rating": 3,
             "publishedDate": "2017/02/18",
-            "tokenization": "可以 | 再訪 | 老 | 闆 | 娘 | 很 | 親切"
+            "tokenization": "可以 | 再訪 | 老闆娘 | 很 | 親切"
         },
         {
             "content": "還不錯",
             "rating": 5,
             "publishedDate": "2017/02/16",
-            "tokenization": "還不錯"
+            "tokenization": "還 | 不錯"
         },
         {
             "content": "環境設施都不錯的營區",
             "rating": 5,
             "publishedDate": "2017/02/16",
-            "tokenization": "環境 | 設施 | 都 | 不錯 | 的 | 營區"
+            "tokenization": "環境 | 設施 | 都 | 不錯 | 營區"
         }
     ]
 }
