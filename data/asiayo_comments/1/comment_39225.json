@@ -16,37 +16,37 @@
             "content": "阿姨人很好教我們搭帳篷還有送拖鞋營地沒什麼風景，洗澡廁所都還算乾淨",
             "rating": 4,
             "publishedDate": "2023-08-28T21:53:11+08:00",
-            "tokenization": "阿姨 | 教 | 搭帳篷 | 送 | 拖鞋 | 營地 | 沒什麼 | 風景 | 洗澡 | 廁所 | 還算 | 乾淨"
+            "tokenization": "阿姨 | 教 | 搭 | 帳篷 | 送 | 拖鞋 | 營地 | 沒什麼 | 風景 | 洗澡 | 廁所 | 還算 | 乾淨"
         },
         {
             "content": "For the price it is good! Clean facilities and the owner is very helpful.",
             "rating": 5,
             "publishedDate": "2023-08-18T06:33:49+08:00",
-            "tokenization": "For |   | the |   | price |   | it |   | is |   | good | ! |   | Clean |   | facilities |   | and |   | the |   | owner |   | is |   | very |   | helpful"
+            "tokenization": "For | the | price | it | is | good | Clean | facilities | and | the | owner | is | very | helpful"
         },
         {
             "content": "環境乾淨舒適，能讓小人放電的好地方…營主親切好溝通能在去的好營地",
             "rating": 5,
             "publishedDate": "2023-01-30T09:49:41+08:00",
-            "tokenization": "環境 | 乾淨 | 舒適 | 小人 | 放電 | 地方 | 營主 | 親切 | 溝通 | 營地"
+            "tokenization": "環境 | 乾淨 | 舒適 | 小人 | 放電 | 地方 | 營主 | 親切 | 好溝 | 通能 | 營地"
         },
         {
             "content": "露營環境很棒，工作人員會隨時巡視，也會幫忙點上艾草薰香很貼心，廁所衛浴是分開的很棒，洗手乳也很香",
             "rating": 5,
             "publishedDate": "2022-12-07T11:02:09+08:00",
-            "tokenization": "露營 | 環境 | 很棒 | 工作人員 | 巡視 | 幫忙 | 點上 | 艾草 | 薰香 | 貼心 | 廁所 | 衛浴 | 分開 | 很棒 | 洗手 | 乳 | 香"
+            "tokenization": "露營 | 環境 | 很棒 | 工作 | 人員會 | 巡視 | 幫忙點 | 艾草 | 薰香 | 貼心 | 廁所衛浴 | 分開 | 很棒 | 洗手 | 乳 | 香"
         },
         {
             "content": "設備基本都滿齊全，雖然沒有什麼風景，但是整體地理位置也算不錯，距離日月潭以及埔里都不會太遠，廁所很乾淨，整體環境是蠻推薦的。",
             "rating": 5,
             "publishedDate": "2022-08-04T10:08:57+08:00",
-            "tokenization": "設備 | 齊全 | 風景 | 整體 | 地理位置 | 算 | 不錯 | 距離 | 日月潭 | 埔里 | 太遠 | 廁所 | 乾淨 | 整體 | 環境 | 推薦"
+            "tokenization": "設備 | 滿齊全 | 風景 | 整體 | 地理位置 | 算 | 不錯 | 距離 | 日月潭 | 埔里 | 太遠 | 廁所 | 乾淨 | 整體 | 環境 | 推薦"
         },
         {
             "content": "環境清幽,清潔阿姨很好,小孩玩得很開心,改天還會再去，有可愛的鴨子",
             "rating": 5,
             "publishedDate": "2022-04-05T12:04:08+08:00",
-            "tokenization": "環境 | 清幽 | 清潔 | 阿姨 | 小孩 | 玩得 | 開心 | 改天 | 還會 | 可愛 | 鴨子"
+            "tokenization": "環境 | 清幽 | 清潔 | 阿姨 | 小孩 | 玩得 | 開心 | 改天 | 還會 | 可愛的 | 鴨子"
         }
     ]
 }

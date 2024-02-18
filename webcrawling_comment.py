@@ -5,11 +5,17 @@ import jieba
 import math
 from bs4 import BeautifulSoup
 
-jieba.set_dictionary('dict.txt.big')
 jieba.load_userdict('custom_dict.txt')
+# jieba.set_dictionary('dict.txt.big')
+
 
 f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
 STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+f = open('stopwords.txt', encoding="utf-8")
 lines = f.readlines()
 for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
@@ -142,8 +148,6 @@ def asiayo_comment_tokenization():
                     json.dump(data, nf, indent=4, ensure_ascii=False)
                     print("save {file_name}".format(file_name=file_path))
                 
-            return
-                
 
 def easycamp_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
@@ -248,6 +252,29 @@ def easycamp_comment_crawler():
             "type_2_comments":total_type_2_count
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
+
+def easycamp_comment_tokenization():
+    dir_path = os.path.join(os.getcwd(), "data")
+    easycamp_dir = os.path.join(dir_path, "easycamp_comments")
+
+    for i in range(1, 4 + 1):
+        easycamp_type_dir = os.path.join(easycamp_dir, str(i))
+        if os.path.isdir(easycamp_type_dir):
+            for file in os.listdir(easycamp_type_dir):
+                file_path = os.path.join(easycamp_type_dir, file)
+                f = open(file_path, encoding="utf-8-sig")
+                data = json.load(f)
+                for c in data["comments"]:
+                    ws = jieba.lcut(c["content"], cut_all=False)
+                    new_ws = []
+                    for word in ws:
+                        if word not in STOP_WORDS:
+                            new_ws.append(word)
+                    c["tokenization"] = " | ".join(new_ws)
+
+                with open(file_path, 'w', encoding="utf-8-sig") as nf:
+                    json.dump(data, nf, indent=4, ensure_ascii=False)
+                    print("save {file_name}".format(file_name=file_path))
 
 def klook_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
@@ -360,8 +387,34 @@ def klook_comment_crawler():
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
+
+def klook_comment_tokenization():
+    dir_path = os.path.join(os.getcwd(), "data")
+    klook_dir = os.path.join(dir_path, "klook_comments")
+
+    for i in range(1, 4 + 1):
+        klook_type_dir = os.path.join(klook_dir, str(i))
+        if os.path.isdir(klook_type_dir):
+            for file in os.listdir(klook_type_dir):
+                file_path = os.path.join(klook_type_dir, file)
+                f = open(file_path, encoding="utf-8-sig")
+                data = json.load(f)
+                for c in data["comments"]:
+                    ws = jieba.lcut(c["content"], cut_all=False)
+                    new_ws = []
+                    for word in ws:
+                        if word not in STOP_WORDS:
+                            new_ws.append(word)
+                    c["tokenization"] = " | ".join(new_ws)
+
+                with open(file_path, 'w', encoding="utf-8-sig") as nf:
+                    json.dump(data, nf, indent=4, ensure_ascii=False)
+                    print("save {file_name}".format(file_name=file_path))
+
 if __name__ == "__main__":
     asiayo_comment_tokenization()
+    easycamp_comment_tokenization()
+    klook_comment_tokenization()
     # asiayo_comment_crawler()
     # easycamp_comment_crawler()
     # klook_comment_crawler()

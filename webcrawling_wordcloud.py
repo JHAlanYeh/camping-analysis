@@ -40,11 +40,7 @@ def get_tokenization(camping_type):
             f = open(file_path, encoding="utf-8-sig")
             data = json.load(f)
             for c in data["comments"]:
-                ws = jieba.lcut(c["content"], cut_all=False)
-                for word in ws:
-                    if word not in STOP_WORDS:
-                        tokenization_arr.append(word)
-                # tokenization_arr.append(c["tokenization"])
+                tokenization_arr.append(c["tokenization"])
     
     easycamp_type_dir = os.path.join(easycamp_dir, camping_type)
     if os.path.isdir(easycamp_type_dir):
@@ -53,11 +49,7 @@ def get_tokenization(camping_type):
             f = open(file_path, encoding="utf-8-sig")
             data = json.load(f)
             for c in data["comments"]:
-                ws = jieba.lcut(c["content"], cut_all=False)
-                for word in ws:
-                    if word not in STOP_WORDS:
-                        tokenization_arr.append(word)
-                # tokenization_arr.append(c["tokenization"])
+                tokenization_arr.append(c["tokenization"])
 
     klook_type_dir = os.path.join(klook_dir, camping_type)
     if os.path.isdir(klook_type_dir):
@@ -66,15 +58,9 @@ def get_tokenization(camping_type):
             f = open(file_path, encoding="utf-8-sig")
             data = json.load(f)
             for c in data["comments"]:
-                ws = jieba.lcut(c["content"], cut_all=False)
-                for word in ws:
-                    if word not in STOP_WORDS:
-                        tokenization_arr.append(word)
-                # tokenization_arr.append(c["tokenization"])
-
+                tokenization_arr.append(c["tokenization"])
 
     return " ".join(tokenization_arr)
-
 
 
 def wordcloud_generator(words, file_name):
