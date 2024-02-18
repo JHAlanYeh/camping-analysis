@@ -109,8 +109,8 @@ def asiayo_comment_crawler():
     file_name = os.path.join(save_dir, 'asiayo_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
-            "conform_type_1": len(list(conform_type_1_data)),
-            "conform_type_2": len(list(conform_type_2_data)),
+            "conform_type_1": conform_type_1_count,
+            "conform_type_2": conform_type_2_count,
             "type_1_comments":total_type_1_count,
             "type_2_comments":total_type_2_count
         }
@@ -214,8 +214,8 @@ def easycamp_comment_crawler():
     file_name = os.path.join(save_dir, 'easycamp_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
-            "conform_type_1": len(list(conform_type_1_data)),
-            "conform_type_2": len(list(conform_type_2_data)),
+            "conform_type_1": conform_type_1_count,
+            "conform_type_2": conform_type_2_count,
             "type_1_comments":total_type_1_count,
             "type_2_comments":total_type_2_count
         }
@@ -261,9 +261,8 @@ def klook_comment_crawler():
     'Accept-Encoding': "gzip, deflate",
     'Connection': "keep-alive",
     'cache-control': "no-cache",
-    'Cookie': '_gid=GA1.2.2052794379.1707979075; klk_currency=TWD; kepler_id=ac63ff44-622e-47dc-aa4c-d3c0740a2d81; klk_rdc=TW; referring_domain_channel=seo; persisted_source=www.google.com; k_tff_ch=google_seo; _gcl_au=1.1.714077816.1708053514; _yjsu_yjad=1708053513.571571cc-3053-4588-95eb-fa88d2d58928; tr_update_tt=1708053514386; campaign_tag=klc_l1%3DSEO; dable_uid=64605085.1599094788315; _fwb=545IkjHhZxzAgfpUqwyoY2.1708053514425; traffic_retain=true; JSESSIONID=12FFEDD5E9AB383E10631BCFA1706A11; KOUNT_SESSION_ID=12FFEDD5E9AB383E10631BCFA1706A11; clientside-cookie=52476df9f3dca53892ea252f3743f94dae71ddfe801d6d6b61f1389f8cbd5c539316b338811f8ed63204cd1525fae4937d931db74043a02b78b7ae1d45de372f57caf66b29bdd3ec7a72e4240a46c5fe19467037b3672bcea12939d4c4a56ca3e2250d20c76cd1b946cdc861eca5563520ed561345454d33fd8828c12a770f1c890766c868a29b466e32fe24f669d1d2386847d83c94682037c1; klk_ga_sn=7675013114..1708069110168; wcs_bt=s_2cb388a4aa34:1708069110; _ga=GA1.1.1214317497.1633311520; _uetsid=1107bfc0cc7a11ee9e27fb8840a58085; _uetvid=1107e6d0cc7a11ee9ecc6bc3a37c7788; _ga_V8S4KC8ZXR=GS1.1.1708069111.2.0.1708069111.60.0.0; ftr_blst_1h=1708069111675; _ga_TH9DNLM4ST=GS1.1.1708069112.2.1.1708069112.60.0.0; forterToken=57f07b0b7182495598b8336ab3f7fa6f_1708069111420__UDF43-m4_20ck_; datadome=prkDBjFDk8gEA~zYcQGuk_4XQkTGPnKS~9H4nT2c4BY75kWrNZ5~G8HnYFXrdtmNrbfVV8pZKfAgpseNQcJzesiO43Ml4wWq7zrgIHC9KJYf2hfV_EVolQR5nUtzxv5o; _ga_FW3CMDM313=GS1.1.1708069111.2.0.1708069216.0.0.0; klk_i_sn=3194966446..1708069220250'
+    'Cookie': 'klk_currency=TWD; kepler_id=761ce78c-e8c4-4ed1-927d-fa3543f67eec; persisted_source=viviantrip.tw; k_tff_ch=aid_2620; _gcl_au=1.1.1239040881.1707752204; __lt__cid=e84c815c-4379-4377-9952-147530418dc4; __lt__cid.c83939be=e84c815c-4379-4377-9952-147530418dc4; _fwb=237XOdedFIxX1kiZGCqzRJx.1707752212523; _yjsu_yjad=1707752215.d311e5f3-cbae-44d7-8508-215e64247bbe; _tt_enable_cookie=1; _ttp=j6D-oFE6A5T30gS1d0a58mwBUT4; dable_uid=3221839.1700147487968; KOUNT_SESSION_ID=5CDFC80C89656DD1034CD99E124D4D63; clientside-cookie=737969e068a2f6407ca720bbfdc275feccaa31d9fef47c0a772d2e9e6048c024f2771ca16c3cbee8bbd936f8e66ee7b3e47a168fad8bd99079cb74cdbdcaf263883e67eec02f3fcd7e67a327d8edeaf3b9b3a0dadf3f9d66db4fc612f2a7a7e4c76c62b3ba8efdcc84e964afe34e405f3eb110689ef08761e04765cca78e1ae74b238a28fc71c058c6b783e6c7b4dc891228d5367b6db972032610; _gid=GA1.2.726873669.1707925784; aid=2620; wid=2620; aid_query_string=aid%3D2620; affiliate_type=non-network; aid_extra=%7B%22aff_klick_id%22%3A%2259183430999-2620-0-4d4002f%22%2C%22affiliate_partner%22%3A%22%22%2C%22content%22%3A%22%22%7D; aid_campaign=aid=2620&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=2620; tr_update_tt=1707925831001; campaign_tag=klc_l1=Affiliate; traffic_retain=true; klk_ps=1; TNAHD=c42_1707926053329__c8109_1708008346057__c27456_1707926044903__c6488_1707925903585; klk_rdc=TW; klk_ga_sn=9605153786..1708096579886; __lt__sid=85b1645f-0627653e; __lt__sid.c83939be=85b1645f-0627653e; _dc_gtm_UA-86696233-1=1; wcs_bt=s_2cb388a4aa34:1708096581; _uetsid=ab1c8d30cb5011eea8b453c90bc215e9; _uetvid=d63970c0d13a11ed9dbf65988fc79cf5; _ga_FW3CMDM313=GS1.1.1708096581.6.0.1708096581.0.0.0; _ga=GA1.1.1057024504.1574164938; _ga_V8S4KC8ZXR=GS1.1.1708096582.6.0.1708096582.60.0.0; datadome=kwuafrZNYNelc4uNw~w~fXUPmQ_ERNnsAM7DxkITzXDl~mcYcYhptMjCWP4Uai~GevcrpYNIeUxqif~IMdiqVBxE4F5NJDALlTWMEMTEr7UfSe1RBzidC0Oi6dYiLEWL; forterToken=1f3f45b14ff64e5b9e7ab1e8ff24de94_1708096583983__UDF43_20ck_; klk_i_sn=0487454849..1708096588580; _ga_TH9DNLM4ST=GS1.1.1708096588.6.1.1708096589.59.0.0; ftr_blst_1h=1708096589252'
     }
-
     for d in data:
         if d["disabled"] == 1 or d["type"] == 3 or d["type"] == 4:
             continue
@@ -280,6 +279,7 @@ def klook_comment_crawler():
         while True:
             querystring = {"k_lang":"zh_TW","k_currency":"TWD","activity_id":code,"page":page,"limit":"8","sort_type":"0","only_image": "false"}
             res = requests.get(""" https://www.klook.com/v1/experiencesrv/activity/component_service/activity_reviews_list""", headers=headers, params=querystring)
+            print(res.status_code)
             if res.status_code == 200:
                 res_json = res.json()
                 camping_comments = res_json["result"]["item"]
@@ -309,6 +309,7 @@ def klook_comment_crawler():
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
+        
         if d["type"] == 1:
             total_type_1_count += len(comment_objs)
         elif d["type"] == 2:
@@ -320,14 +321,14 @@ def klook_comment_crawler():
     file_name = os.path.join(save_dir, 'klook_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
-            "conform_type_1": len(list(conform_type_1_data)),
-            "conform_type_2": len(list(conform_type_2_data)),
+            "conform_type_1": conform_type_1_count,
+            "conform_type_2": conform_type_2_count,
             "type_1_comments":total_type_1_count,
             "type_2_comments":total_type_2_count
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    asiayo_comment_crawler()
-    easycamp_comment_crawler()
+    # asiayo_comment_crawler()
+    # easycamp_comment_crawler()
     klook_comment_crawler()
