@@ -25,6 +25,7 @@ def asiayo_comment_crawler():
     file = "camping_asiayo.json"
     total_type_1_count = 0
     total_type_2_count = 0
+    total_type_3_count = 0
 
     file_path = os.path.join(dir_path, file)
     f = open(file_path, encoding="utf-8-sig")
@@ -42,18 +43,19 @@ def asiayo_comment_crawler():
 
     conform_type_1_count = len(list(conform_type_1_data))
     conform_type_2_count = len(list(conform_type_2_data))
+    conform_type_3_count = len(list(conform_type_3_data))
 
     print("Total Data:{}".format(len(data)))
     print("uncategorized data:{}".format(len(list(uncategorized))))
     print("conform data:{}".format(len(list(conform_data))))
     print("conform type 1 data:{}".format(conform_type_1_count))
     print("conform type 2 data:{}".format(conform_type_2_count))
-    print("conform type 3 data:{}".format(len(list(conform_type_3_data))))
+    print("conform type 3 data:{}".format(conform_type_3_count))
     print("conform type 4 data:{}".format(len(list(conform_type_4_data))))
     print("disabled data:{}".format(len(list(disabled))))
 
     for d in data:
-        if d["disabled"] == 1 or d["type"] == 3 or d["type"] == 4:
+        if d["disabled"] == 1 or d["type"] == 4:
             continue
 
         offset = 0
@@ -110,8 +112,11 @@ def asiayo_comment_crawler():
             total_type_1_count += len(comment_objs)
         elif d["type"] == 2:
             total_type_2_count += len(comment_objs)
+        elif d["type"] == 3:
+            total_type_3_count += len(comment_objs)
     print("Total Type 1 Count：{}".format(total_type_1_count))
     print("Total Type 2 Count：{}".format(total_type_2_count))
+    print("Total Type 3 Count：{}".format(total_type_3_count))
 
     save_dir = os.path.join(dir_path, "asiayo_comments")
     file_name = os.path.join(save_dir, 'asiayo_info.json')
@@ -119,8 +124,10 @@ def asiayo_comment_crawler():
         overview = {
             "conform_type_1": conform_type_1_count,
             "conform_type_2": conform_type_2_count,
+            "conform_type_3": conform_type_3_count,
             "type_1_comments":total_type_1_count,
-            "type_2_comments":total_type_2_count
+            "type_2_comments":total_type_2_count,
+            "type_3_comments":total_type_3_count,
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
@@ -154,6 +161,7 @@ def easycamp_comment_crawler():
     file = "camping_easycamp.json"
     total_type_1_count = 0
     total_type_2_count = 0
+    total_type_3_count = 0
     comment_url = "https://www.easycamp.com.tw/store/purchase_rank/{code}/4/{page}"
 
     file_path = os.path.join(dir_path, file)
@@ -172,17 +180,21 @@ def easycamp_comment_crawler():
 
     conform_type_1_count = len(list(conform_type_1_data))
     conform_type_2_count = len(list(conform_type_2_data))
+    conform_type_3_count = len(list(conform_type_3_data))
 
     print("Total Data:{}".format(len(data)))
     print("uncategorized data:{}".format(len(list(uncategorized))))
     print("conform data:{}".format(len(list(conform_data))))
     print("conform type 1 data:{}".format(conform_type_1_count))
     print("conform type 2 data:{}".format(conform_type_2_count))
-    print("conform type 3 data:{}".format(len(list(conform_type_3_data))))
+    print("conform type 3 data:{}".format(conform_type_3_count))
     print("conform type 4 data:{}".format(len(list(conform_type_4_data))))
     print("disabled data:{}".format(len(list(disabled))))
 
     for d in data:
+        if d["disabled"] == 1 or d["type"] == 4:
+            continue
+
         code = d["code"]
 
         save_dir = os.path.join(dir_path, "easycamp_comments\\{house_type}".format(house_type=d["type"]))
@@ -239,8 +251,11 @@ def easycamp_comment_crawler():
             total_type_1_count += len(comment_objs)
         elif d["type"] == 2:
             total_type_2_count += len(comment_objs)
+        elif d["type"] == 3:
+            total_type_3_count += len(comment_objs)
     print("Total Type 1 Count：{}".format(total_type_1_count))
     print("Total Type 2 Count：{}".format(total_type_2_count))
+    print("Total Type 3 Count：{}".format(total_type_3_count))
 
     save_dir = os.path.join(dir_path, "easycamp_comments")
     file_name = os.path.join(save_dir, 'easycamp_info.json')
@@ -248,8 +263,10 @@ def easycamp_comment_crawler():
         overview = {
             "conform_type_1": conform_type_1_count,
             "conform_type_2": conform_type_2_count,
+            "conform_type_3": conform_type_3_count,
             "type_1_comments":total_type_1_count,
-            "type_2_comments":total_type_2_count
+            "type_2_comments":total_type_2_count,
+            "type_3_comments":total_type_3_count,
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
@@ -281,6 +298,7 @@ def klook_comment_crawler():
     file = "camping_klook.json"
     total_type_1_count = 0
     total_type_2_count = 0
+    total_type_3_count = 0
 
     file_path = os.path.join(dir_path, file)
     f = open(file_path, encoding="utf-8-sig")
@@ -298,13 +316,14 @@ def klook_comment_crawler():
 
     conform_type_1_count = len(list(conform_type_1_data))
     conform_type_2_count = len(list(conform_type_2_data))
+    conform_type_3_count = len(list(conform_type_3_data))
 
     print("Total Data:{}".format(len(data)))
     print("uncategorized data:{}".format(len(list(uncategorized))))
     print("conform data:{}".format(len(list(conform_data))))
     print("conform type 1 data:{}".format(conform_type_1_count))
     print("conform type 2 data:{}".format(conform_type_2_count))
-    print("conform type 3 data:{}".format(len(list(conform_type_3_data))))
+    print("conform type 3 data:{}".format(conform_type_3_count))
     print("conform type 4 data:{}".format(len(list(conform_type_4_data))))
     print("disabled data:{}".format(len(list(disabled))))
 
@@ -322,7 +341,7 @@ def klook_comment_crawler():
     data = sorted(data, key=lambda x: x["code"], reverse=True)
 
     for d in data:
-        if d["disabled"] == 1 or d["type"] == 3 or d["type"] == 4:
+        if d["disabled"] == 1 or d["type"] == 4:
             continue
 
         page = 1
@@ -373,8 +392,11 @@ def klook_comment_crawler():
             total_type_1_count += len(comment_objs)
         elif d["type"] == 2:
             total_type_2_count += len(comment_objs)
+        elif d["type"] == 3:
+            total_type_3_count += len(comment_objs)
     print("Total Type 1 Count：{}".format(total_type_1_count))
     print("Total Type 2 Count：{}".format(total_type_2_count))
+    print("Total Type 3 Count：{}".format(total_type_3_count))
 
     save_dir = os.path.join(dir_path, "klook_comments")
     file_name = os.path.join(save_dir, 'klook_info.json')
@@ -382,8 +404,10 @@ def klook_comment_crawler():
         overview = {
             "conform_type_1": conform_type_1_count,
             "conform_type_2": conform_type_2_count,
+            "conform_type_3": conform_type_3_count,
             "type_1_comments":total_type_1_count,
-            "type_2_comments":total_type_2_count
+            "type_2_comments":total_type_2_count,
+            "type_3_comments":total_type_3_count,
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
@@ -412,9 +436,9 @@ def klook_comment_tokenization():
                     print("save {file_name}".format(file_name=file_path))
 
 if __name__ == "__main__":
-    asiayo_comment_tokenization()
-    easycamp_comment_tokenization()
-    klook_comment_tokenization()
-    # asiayo_comment_crawler()
-    # easycamp_comment_crawler()
+    # asiayo_comment_tokenization()
+    # easycamp_comment_tokenization()
+    # klook_comment_tokenization()
+    asiayo_comment_crawler()
+    easycamp_comment_crawler()
     # klook_comment_crawler()

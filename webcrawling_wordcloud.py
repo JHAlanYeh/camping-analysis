@@ -1,8 +1,5 @@
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-from PIL import Image
-import jieba
-import numpy as np
 import os
 import json
 from zhconv import convert
