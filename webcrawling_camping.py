@@ -16,7 +16,7 @@ def asiayo_crawler():
     new_obj = 0
 
     while True:
-        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-09-22&checkOutDate=2024-09-23&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
+        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-10-24&checkOutDate=2024-10-25&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
         if res.status_code == 200:
             res_json = res.json()
             camping_areas = res_json["data"]["rows"]
@@ -197,7 +197,7 @@ def klook_crawler():
 
 if __name__ == "__main__":
     asiayo_crawler()
-    easycamp_crawler()
-    klook_crawler()
+    # easycamp_crawler()
+    # klook_crawler()
 
 

@@ -32,7 +32,7 @@
             "content": "老闆很親切",
             "rating": 5,
             "publishedDate": "2019/03/11",
-            "tokenization": "闆 | 親切"
+            "tokenization": "老闆 | 親切"
         },
         {
             "content": "如果可以增加一些孩童遊戲設施會更好",
@@ -50,7 +50,7 @@
             "content": "可以再訪。老闆娘很親切~",
             "rating": 3,
             "publishedDate": "2017/02/18",
-            "tokenization": "再訪 | 闆 | 娘 | 親切"
+            "tokenization": "再訪 | 老闆娘 | 親切"
         },
         {
             "content": "還不錯",

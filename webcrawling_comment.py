@@ -136,6 +136,14 @@ def asiayo_comment_tokenization():
     dir_path = os.path.join(os.getcwd(), "data")
     asiayo_dir = os.path.join(dir_path, "asiayo_comments")
 
+    total_type_1_count = 0
+    total_type_2_count = 0
+    total_type_3_count = 0
+
+    conform_type_1_count = 0
+    conform_type_2_count = 0
+    conform_type_3_count = 0
+
     for i in range(1, 4 + 1):
         asiayo_type_dir = os.path.join(asiayo_dir, str(i))
         if os.path.isdir(asiayo_type_dir):
@@ -154,6 +162,32 @@ def asiayo_comment_tokenization():
                 with open(file_path, 'w', encoding="utf-8-sig") as nf:
                     json.dump(data, nf, indent=4, ensure_ascii=False)
                     print("save {file_name}".format(file_name=file_path))
+
+                if data["type"] == 1:
+                    total_type_1_count += len(data["comments"])
+                    conform_type_1_count += 1
+                elif data["type"] == 2:
+                    total_type_2_count += len(data["comments"])
+                    conform_type_2_count += 1
+                elif data["type"] == 3:
+                    total_type_3_count += len(data["comments"])
+                    conform_type_3_count += 1
+
+    print("Total Type 1 Count：{}".format(total_type_1_count))
+    print("Total Type 2 Count：{}".format(total_type_2_count))
+    print("Total Type 3 Count：{}".format(total_type_3_count))
+
+    file_name = os.path.join(asiayo_dir, 'asiayo_info.json')
+    with open(file_name, 'w', encoding="utf-8-sig") as f:
+        overview = {
+            "conform_type_1": conform_type_1_count,
+            "conform_type_2": conform_type_2_count,
+            "conform_type_3": conform_type_3_count,
+            "type_1_comments":total_type_1_count,
+            "type_2_comments":total_type_2_count,
+            "type_3_comments":total_type_3_count,
+        }
+        json.dump(overview, f, indent=4, ensure_ascii=False)
                 
 
 def easycamp_comment_crawler():
@@ -274,6 +308,14 @@ def easycamp_comment_tokenization():
     dir_path = os.path.join(os.getcwd(), "data")
     easycamp_dir = os.path.join(dir_path, "easycamp_comments")
 
+    total_type_1_count = 0
+    total_type_2_count = 0
+    total_type_3_count = 0
+
+    conform_type_1_count = 0
+    conform_type_2_count = 0
+    conform_type_3_count = 0
+
     for i in range(1, 4 + 1):
         easycamp_type_dir = os.path.join(easycamp_dir, str(i))
         if os.path.isdir(easycamp_type_dir):
@@ -292,6 +334,32 @@ def easycamp_comment_tokenization():
                 with open(file_path, 'w', encoding="utf-8-sig") as nf:
                     json.dump(data, nf, indent=4, ensure_ascii=False)
                     print("save {file_name}".format(file_name=file_path))
+
+                if data["type"] == 1:
+                    total_type_1_count += len(data["comments"])
+                    conform_type_1_count += 1
+                elif data["type"] == 2:
+                    total_type_2_count += len(data["comments"])
+                    conform_type_2_count += 1
+                elif data["type"] == 3:
+                    total_type_3_count += len(data["comments"])
+                    conform_type_3_count += 1
+
+    print("Total Type 1 Count：{}".format(total_type_1_count))
+    print("Total Type 2 Count：{}".format(total_type_2_count))
+    print("Total Type 3 Count：{}".format(total_type_3_count))
+
+    file_name = os.path.join(easycamp_dir, 'easycamp_info.json')
+    with open(file_name, 'w', encoding="utf-8-sig") as f:
+        overview = {
+            "conform_type_1": conform_type_1_count,
+            "conform_type_2": conform_type_2_count,
+            "conform_type_3": conform_type_3_count,
+            "type_1_comments":total_type_1_count,
+            "type_2_comments":total_type_2_count,
+            "type_3_comments":total_type_3_count,
+        }
+        json.dump(overview, f, indent=4, ensure_ascii=False)
 
 def klook_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
@@ -458,8 +526,7 @@ def klook_comment_tokenization():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    save_dir = os.path.join(dir_path, "klook_comments")
-    file_name = os.path.join(save_dir, 'klook_info.json')
+    file_name = os.path.join(klook_dir, 'klook_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
             "conform_type_1": conform_type_1_count,
@@ -472,9 +539,9 @@ def klook_comment_tokenization():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    # asiayo_comment_tokenization()
-    # easycamp_comment_tokenization()
-    klook_comment_tokenization()
+    asiayo_comment_tokenization()
+    easycamp_comment_tokenization()
+    # klook_comment_tokenization()
     # asiayo_comment_crawler()
     # easycamp_comment_crawler()
     # klook_comment_crawler()

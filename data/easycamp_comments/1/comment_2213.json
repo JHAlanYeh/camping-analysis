@@ -26,7 +26,7 @@
             "content": "很酷的體驗 老闆非常親切",
             "rating": 5,
             "publishedDate": "2023/02/11",
-            "tokenization": "很酷 | 體驗 | 闆 | 親切"
+            "tokenization": "很酷 | 體驗 | 老闆 | 親切"
         },
         {
             "content": "營主很親切。去第四次囉！有大大的雨棚區，裡面走一走會發現種很多水果。看過去就是中央山脈好美，望眼過去就是草地區，沒有階梯上下坡，小孩在草地區走跳比較不怕危險，附近有荖濃溪可以去看看，路比較陡。偶爾有野狗，大致上都很好！",
@@ -278,7 +278,7 @@
             "content": "老闆娘人很好！小朋友玩的很開心",
             "rating": 5,
             "publishedDate": "2017/12/24",
-            "tokenization": "闆 | 娘 | 小朋友 | 玩 | 開心"
+            "tokenization": "老闆娘 | 小朋友 | 玩 | 開心"
         },
         {
             "content": "活動能再多一點",
@@ -302,19 +302,19 @@
             "content": "老闆很親切，環境整潔寧靜",
             "rating": 5,
             "publishedDate": "2017/11/26",
-            "tokenization": "闆 | 親切 | 環境 | 整潔寧靜"
+            "tokenization": "老闆 | 親切 | 環境 | 整潔寧靜"
         },
         {
             "content": "浴廁乾淨 老闆待人親切",
             "rating": 5,
             "publishedDate": "2017/11/04",
-            "tokenization": "浴 | 廁乾淨 | 闆 | 待人 | 親切"
+            "tokenization": "浴 | 廁乾淨 | 老闆 | 待人 | 親切"
         },
         {
             "content": "老闆親切 小孩採果 種菜超開心",
             "rating": 5,
             "publishedDate": "2017/11/04",
-            "tokenization": "闆 | 親切 | 小孩 | 採果 | 種菜 | 超開心"
+            "tokenization": "老闆 | 親切 | 小孩 | 採果 | 種菜 | 超開心"
         },
         {
             "content": "草皮不錯，個人不喜歡廁所跟浴室在一起，每帳空間希望營主可以規劃清楚，停車位不足希望改善",
