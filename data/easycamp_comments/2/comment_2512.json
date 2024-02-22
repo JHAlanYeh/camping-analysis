@@ -11,6 +11,12 @@
     "longitude": 121.1638915,
     "comments": [
         {
+            "content": "景色真的很美！！",
+            "rating": 5,
+            "publishedDate": "2024/02/21",
+            "tokenization": "景色 | 真的 | 美"
+        },
+        {
             "content": "一年兩度造訪的好地方。營主很貼心也很熱心，冬季不同月份來訪，感受到不同的美景，旭日雲海迷霧，月暈繁星點點，美不勝收。",
             "rating": 5,
             "publishedDate": "2024/01/08",

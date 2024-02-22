@@ -392,6 +392,22 @@
         "disabled": 0
     },
     {
+        "code": "2302",
+        "name": "新竹五峰 梅后蔓露營區",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2302.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2306",
+        "name": "嘉義阿里山  高美休閒營區",
+        "region": "嘉義縣阿里山鄉",
+        "url": "https://www.easycamp.com.tw/Store_2306.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2309",
         "name": "花蓮新城 Ocean Chill 海憩露營區",
         "region": "花蓮縣新城鄉",
@@ -1168,6 +1184,14 @@
         "disabled": 0
     },
     {
+        "code": "2577",
+        "name": "新竹關西 大象露營地",
+        "region": "新竹縣關西鎮",
+        "url": "https://www.easycamp.com.tw/Store_2577.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2579",
         "name": "嘉義阿里山 瓜地亞那Gwaliana",
         "region": "嘉義縣阿里山鄉",
@@ -1349,6 +1373,14 @@
         "region": "宜蘭縣大同鄉",
         "url": "https://www.easycamp.com.tw/Store_2620.html",
         "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2622",
+        "name": "新竹尖石 那羅的家親子露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2622.html",
+        "type": 4,
         "disabled": 0
     },
     {

@@ -1038,6 +1038,19 @@
         "bnbType": "露營區"
     },
     {
+        "code": 40831,
+        "name": "黃金藍海秘境｜全新開幕",
+        "city": "南投縣",
+        "district": "國姓鄉",
+        "region": "南投縣國姓鄉",
+        "url": "https://asiayo.com/zh-tw/view/tw/nantou-county/40831/?tags=camping&isFromPropertyPage=true/",
+        "latitude": 24.050079,
+        "longitude": 120.8673293,
+        "type": 4,
+        "disabled": 1,
+        "bnbType": "民宿 / 公寓"
+    },
+    {
         "code": 40855,
         "name": "朋趣露營車｜全新露營車、全包式度假體驗",
         "city": "桃園市",
