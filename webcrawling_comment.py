@@ -57,6 +57,8 @@ def asiayo_comment_crawler():
     for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
             continue
+        if d["code"] != 41606:
+            continue
 
         offset = 0
         code = d["code"]
@@ -70,6 +72,7 @@ def asiayo_comment_crawler():
         res_json = res.json()
         if len(res_json["data"]) == 0:
             print("No data-{}".format(d["name"]))
+            continue
         else:
             d["address"] = res_json["data"]["address"]["fullAddress"]
             d["description"] = res_json["data"]["description"].replace("\n", "").replace("\r", "").replace("\t", "")
@@ -541,9 +544,9 @@ def klook_comment_tokenization():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    # asiayo_comment_tokenization()
+    asiayo_comment_tokenization()
     # easycamp_comment_tokenization()
     # asiayo_comment_crawler()
     # easycamp_comment_crawler()
-    klook_comment_crawler()
-    klook_comment_tokenization()
+    # klook_comment_crawler()
+    # klook_comment_tokenization()
