@@ -4,6 +4,7 @@ import os
 import jieba
 import math
 from bs4 import BeautifulSoup
+import random
 
 jieba.load_userdict('custom_dict.txt')
 # jieba.set_dictionary('dict.txt.big')
@@ -22,12 +23,13 @@ for line in lines:
 
 def asiayo_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
+    save_path = os.path.join(dir_path, "camping_region")
     file = "camping_asiayo.json"
     total_type_1_count = 0
     total_type_2_count = 0
     total_type_3_count = 0
 
-    file_path = os.path.join(dir_path, file)
+    file_path = os.path.join(save_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     f.close()
@@ -56,8 +58,6 @@ def asiayo_comment_crawler():
 
     for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
-            continue
-        if d["code"] != 41606:
             continue
 
         offset = 0
@@ -121,7 +121,7 @@ def asiayo_comment_crawler():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    save_dir = os.path.join(dir_path, "asiayo_comments")
+    save_dir = os.path.join(dir_path, "comments_info")
     file_name = os.path.join(save_dir, 'asiayo_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
@@ -180,7 +180,8 @@ def asiayo_comment_tokenization():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    file_name = os.path.join(asiayo_dir, 'asiayo_info.json')
+    save_dir = os.path.join(dir_path, "comments_info")
+    file_name = os.path.join(save_dir, 'asiayo_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
             "conform_type_1": conform_type_1_count,
@@ -195,13 +196,14 @@ def asiayo_comment_tokenization():
 
 def easycamp_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
+    save_path = os.path.join(dir_path, "camping_region")
     file = "camping_easycamp.json"
     total_type_1_count = 0
     total_type_2_count = 0
     total_type_3_count = 0
     comment_url = "https://www.easycamp.com.tw/store/purchase_rank/{code}/4/{page}"
 
-    file_path = os.path.join(dir_path, file)
+    file_path = os.path.join(save_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     f.close()
@@ -294,7 +296,7 @@ def easycamp_comment_crawler():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    save_dir = os.path.join(dir_path, "easycamp_comments")
+    save_dir = os.path.join(dir_path, "comments_info")
     file_name = os.path.join(save_dir, 'easycamp_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
@@ -352,7 +354,8 @@ def easycamp_comment_tokenization():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    file_name = os.path.join(easycamp_dir, 'easycamp_info.json')
+    save_dir = os.path.join(dir_path, "comments_info")
+    file_name = os.path.join(save_dir, 'easycamp_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
             "conform_type_1": conform_type_1_count,
@@ -366,12 +369,14 @@ def easycamp_comment_tokenization():
 
 def klook_comment_crawler():
     dir_path = os.path.join(os.getcwd(), "data")
+    save_path = os.path.join(dir_path, "camping_region")
+
     file = "camping_klook.json"
     total_type_1_count = 0
     total_type_2_count = 0
     total_type_3_count = 0
 
-    file_path = os.path.join(dir_path, file)
+    file_path = os.path.join(save_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     f.close()
@@ -409,7 +414,9 @@ def klook_comment_crawler():
     'Cookie': 'klk_currency=TWD; kepler_id=761ce78c-e8c4-4ed1-927d-fa3543f67eec; persisted_source=viviantrip.tw; k_tff_ch=aid_2620; _gcl_au=1.1.1239040881.1707752204; __lt__cid=e84c815c-4379-4377-9952-147530418dc4; __lt__cid.c83939be=e84c815c-4379-4377-9952-147530418dc4; _fwb=237XOdedFIxX1kiZGCqzRJx.1707752212523; _yjsu_yjad=1707752215.d311e5f3-cbae-44d7-8508-215e64247bbe; _tt_enable_cookie=1; _ttp=j6D-oFE6A5T30gS1d0a58mwBUT4; dable_uid=3221839.1700147487968; KOUNT_SESSION_ID=5CDFC80C89656DD1034CD99E124D4D63; clientside-cookie=737969e068a2f6407ca720bbfdc275feccaa31d9fef47c0a772d2e9e6048c024f2771ca16c3cbee8bbd936f8e66ee7b3e47a168fad8bd99079cb74cdbdcaf263883e67eec02f3fcd7e67a327d8edeaf3b9b3a0dadf3f9d66db4fc612f2a7a7e4c76c62b3ba8efdcc84e964afe34e405f3eb110689ef08761e04765cca78e1ae74b238a28fc71c058c6b783e6c7b4dc891228d5367b6db972032610; aid=2620; wid=2620; aid_query_string=aid%3D2620; affiliate_type=non-network; aid_extra=%7B%22aff_klick_id%22%3A%2259183430999-2620-0-4d4002f%22%2C%22affiliate_partner%22%3A%22%22%2C%22content%22%3A%22%22%7D; aid_campaign=aid=2620&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=2620; tr_update_tt=1707925831001; campaign_tag=klc_l1=Affiliate; traffic_retain=true; klk_ps=1; TNAHD=c42_1707926053329__c8109_1708008346057__c27456_1707926044903__c6488_1707925903585; klk_rdc=TW; __lt__sid=85b1645f-bf08c2ed; __lt__sid.c83939be=85b1645f-bf08c2ed; klk_ga_sn=2497024496..1708352802287; wcs_bt=s_2cb388a4aa34:1708352802; _gid=GA1.2.1833952077.1708352803; _dc_gtm_UA-86696233-1=1; _uetsid=e719e660cf3211eeb300b17c6029affa; _uetvid=d63970c0d13a11ed9dbf65988fc79cf5; _ga_FW3CMDM313=GS1.1.1708352802.10.0.1708352802.0.0.0; _ga_V8S4KC8ZXR=GS1.1.1708352803.10.0.1708352803.60.0.0; klk_i_sn=1340718126..1708352803824; _ga_TH9DNLM4ST=GS1.1.1708352806.10.1.1708352806.60.0.0; datadome=wYzO3xY7M2TOta3kawiUgulI0xma8o0sUxd6dHyKoPsHKpXaM5EGKcIpj0bv4EQR4fUWsXvQhnqhVveJZroYgFoOZceaZpqShIez7mLRzQbFPLGqNhdAIRLmK5TmUGc6; _ga=GA1.2.1057024504.1574164938; forterToken=1f3f45b14ff64e5b9e7ab1e8ff24de94_1708352804108__UDF4_20ck'
     }
 
-    data = sorted(data, key=lambda x: x["code"], reverse=True)
+    random_num = random.random(0, 10)
+    if random_num % 2 == 0:
+        data = sorted(data, key=lambda x: x["code"], reverse=True)
 
     for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
@@ -472,7 +479,7 @@ def klook_comment_crawler():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    save_dir = os.path.join(dir_path, "klook_comments")
+    save_dir = os.path.join(dir_path, "comments_info")
     file_name = os.path.join(save_dir, 'klook_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
@@ -531,7 +538,8 @@ def klook_comment_tokenization():
     print("Total Type 2 Count：{}".format(total_type_2_count))
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
-    file_name = os.path.join(klook_dir, 'klook_info.json')
+    save_dir = os.path.join(dir_path, "comments_info")
+    file_name = os.path.join(save_dir, 'klook_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
             "conform_type_1": conform_type_1_count,
@@ -544,9 +552,9 @@ def klook_comment_tokenization():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
+    asiayo_comment_crawler()
     asiayo_comment_tokenization()
-    # easycamp_comment_tokenization()
-    # asiayo_comment_crawler()
-    # easycamp_comment_crawler()
-    # klook_comment_crawler()
-    # klook_comment_tokenization()
+    easycamp_comment_crawler()
+    easycamp_comment_tokenization()
+    klook_comment_crawler()
+    klook_comment_tokenization()

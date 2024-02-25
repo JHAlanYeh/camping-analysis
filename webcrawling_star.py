@@ -1,0 +1,74 @@
+
+import os
+import json
+
+def star_range_distributed():
+    source_dir = ["asiayo_comments", "easycamp_comments", "klook_comments"]
+    type_dir = ["1", "2", "3"]
+
+    total_star_1_cnt = 0
+    total_star_2_cnt = 0
+    total_star_3_cnt = 0
+    total_star_4_cnt = 0
+    total_star_5_cnt = 0
+
+    for t in type_dir:
+        star_1_cnt = 0
+        star_2_cnt = 0
+        star_3_cnt = 0
+        star_4_cnt = 0
+        star_5_cnt = 0
+
+        for source in source_dir:
+            dir_path = os.path.join(os.getcwd(), "data\\{}".format(source))
+            type_path = os.path.join(dir_path, t)
+            if os.path.isdir(type_path):
+                for file in os.listdir(type_path):
+                    file_path = os.path.join(type_path, file)
+                    f = open(file_path, encoding="utf-8-sig")
+                    data = json.load(f)
+                    for c in data["comments"]:
+                        if c["rating"] == 1:
+                            star_1_cnt += 1
+                            total_star_1_cnt += 1
+                        elif c["rating"] == 2:
+                            star_2_cnt += 1
+                            total_star_2_cnt += 1
+                        elif c["rating"] == 3:
+                            star_3_cnt += 1
+                            total_star_3_cnt += 1
+                        elif c["rating"] == 4:
+                            star_4_cnt += 1
+                            total_star_4_cnt += 1
+                        elif c["rating"] == 5:
+                            star_5_cnt += 1
+                            total_star_5_cnt += 1
+
+            save_path = os.path.join(os.getcwd(), "data\\star_distributed")
+            file_name = os.path.join(save_path, 'type_{}_star_.json'.format(t))
+            with open(file_name, 'w', encoding="utf-8-sig") as f:
+                star_distributed = {
+                    "star_1": star_1_cnt,
+                    "star_2": star_2_cnt,
+                    "star_3": star_3_cnt,
+                    "star_4":star_4_cnt,
+                    "star_5":star_5_cnt,
+                }
+                json.dump(star_distributed, f, indent=4, ensure_ascii=False)
+
+    save_path = os.path.join(os.getcwd(), "data\\star_distributed")
+    file_name = os.path.join(save_path, 'all_star.json')
+    with open(file_name, 'w', encoding="utf-8-sig") as f:
+        star_distributed = {
+            "star_1": total_star_1_cnt,
+            "star_2": total_star_2_cnt,
+            "star_3": total_star_3_cnt,
+            "star_4": total_star_4_cnt,
+            "star_5": total_star_5_cnt,
+        }
+        json.dump(star_distributed, f, indent=4, ensure_ascii=False)
+
+
+
+if __name__ == "__main__":
+    star_range_distributed()
