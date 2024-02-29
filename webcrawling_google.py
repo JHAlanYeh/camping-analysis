@@ -127,6 +127,9 @@ for file in os.listdir(save_path):
         reviews_count = browser.find_element(By.CSS_SELECTOR, "div.jANrlb > div.fontBodySmall").text.replace(" 篇評論", "").replace(",", "")
         print("總評論數：" + reviews_count)
 
+        if int(reviews_count) > 1000:
+            continue
+
         current_reviews_count = 0
 
         pane = browser.find_element(By.CSS_SELECTOR, "div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
