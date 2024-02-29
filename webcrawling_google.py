@@ -54,10 +54,13 @@ for file in os.listdir(save_path):
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "荷蘭村" not in d["name"] and flag == False:
+        if "只今漫漫" not in d["name"] and flag == False:
             continue
         
         flag=True
+
+        if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
+            continue
 
         browser = webdriver.Chrome(options=browserOptions)
         wait = WebDriverWait(browser, 20)
@@ -96,8 +99,8 @@ for file in os.listdir(save_path):
             print(e.args)
             continue
         
-        if "{}.json".format(name) in google_comment_files:
-            continue
+        # if "{}.json".format(name) in google_comment_files:
+        #     continue
 
         google_map = browser.current_url
 
@@ -240,6 +243,6 @@ for file in os.listdir(save_path):
             print("save {file_name}".format(file_name=file_name))
 
 
-        with open(file_path, 'w', encoding="utf-8-sig") as f:
-            json.dump(data, f, indent=4, ensure_ascii=False)
-            print("save {file_name}".format(file_name=file_path))
+        # with open(file_path, 'w', encoding="utf-8-sig") as f:
+        #     json.dump(data, f, indent=4, ensure_ascii=False)
+        #     print("save {file_name}".format(file_name=file_path))
