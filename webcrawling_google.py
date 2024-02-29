@@ -54,7 +54,7 @@ for file in os.listdir(save_path):
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "荒野半島" not in d["name"] and flag == False:
+        if "荷蘭村" not in d["name"] and flag == False:
             continue
         
         flag=True
@@ -85,7 +85,7 @@ for file in os.listdir(save_path):
             address = browser.find_element(By.CSS_SELECTOR, ".Io6YTe.fontBodyMedium.kR99db").text
 
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".DUwDvf.lfPIob")))
-            name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text
+            name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_")
             d["same_name"] = name
             print(name)
 
