@@ -69,7 +69,8 @@
         "longitude": 121.63183482,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "踏浪星辰豪華露營Camp"
     },
     {
         "code": 36860,
@@ -93,7 +94,8 @@
         "longitude": 121.2439967,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "晃晃印地安帳篷露營區"
     },
     {
         "code": 37908,
@@ -105,7 +107,8 @@
         "longitude": 120.70309455,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "遠山望月溫泉風呂 露營區"
     },
     {
         "code": 38896,
@@ -141,7 +144,8 @@
         "longitude": 120.7434251,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "後壁湖露營車民宿"
     },
     {
         "code": 39129,
@@ -177,7 +181,8 @@
         "longitude": 120.8169081,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "英台休閒牧場"
     },
     {
         "code": 39216,
@@ -189,7 +194,8 @@
         "longitude": 121.64790127,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "三星鄉立游泳池（安農露營區）"
     },
     {
         "code": 39217,
@@ -201,7 +207,8 @@
         "longitude": 121.68937062,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "野石森林 露營區"
     },
     {
         "code": 39219,
@@ -225,7 +232,8 @@
         "longitude": 120.9249079,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "森林蜂味露營區"
     },
     {
         "code": 39226,
@@ -237,7 +245,8 @@
         "longitude": 120.9896643,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "緣溪行森林營地"
     },
     {
         "code": 39261,
@@ -249,7 +258,8 @@
         "longitude": 121.720651,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "田野森農場Morilife"
     },
     {
         "code": 39303,
@@ -261,7 +271,8 @@
         "longitude": 121.09689085,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "逗留營地"
     },
     {
         "code": 39314,
@@ -273,7 +284,8 @@
         "longitude": 120.7129014,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "山思雲想"
     },
     {
         "code": 39316,
@@ -297,7 +309,8 @@
         "longitude": 120.88067631,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "社寮角露營區"
     },
     {
         "code": 39322,
@@ -323,7 +336,8 @@
         "longitude": 121.01891827,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "山川密境露營區"
     },
     {
         "code": 39334,
@@ -335,7 +349,8 @@
         "longitude": 120.776549,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "三生園生態露營區"
     },
     {
         "code": 39348,
@@ -360,7 +375,8 @@
         "longitude": 120.9040157,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "畢瓦客"
     },
     {
         "code": 39373,
@@ -372,7 +388,8 @@
         "longitude": 120.920693,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "日月潭白鹿營區"
     },
     {
         "code": 39383,
@@ -384,7 +401,8 @@
         "longitude": 120.92744689,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "白鹿窯 木燒手工麵包・披薩"
     },
     {
         "code": 39385,
@@ -396,7 +414,8 @@
         "longitude": 120.95865655,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "拂水山莊"
     },
     {
         "code": 39395,
@@ -408,7 +427,8 @@
         "longitude": 120.9954965,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "新豐休閒農場"
     },
     {
         "code": 39396,
@@ -444,7 +464,8 @@
         "longitude": 121.7304403,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "東風綠活 Oriental Green"
     },
     {
         "code": 39466,
@@ -456,7 +477,8 @@
         "longitude": 121.2952729,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "泰里埔露營區"
     },
     {
         "code": 39493,
@@ -468,7 +490,8 @@
         "longitude": 121.003811,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "南庄 春友彩虹莊園 民宿 露營 餐廳 SpringYU B&B 鱘龍魚 鱒魚 南庄老街 苗栗住宿 神殿帳露營 (無提供包棟)"
     },
     {
         "code": 39517,
@@ -504,7 +527,8 @@
         "longitude": 120.6204619,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "森渼原 Alive Glamping Base"
     },
     {
         "code": 39683,
@@ -516,7 +540,8 @@
         "longitude": 121.82564858,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "微笑灣農場"
     },
     {
         "code": 39687,
@@ -528,7 +553,8 @@
         "longitude": 120.920693,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "日月潭麗鴻的家-住宿"
     },
     {
         "code": 39717,
@@ -540,7 +566,8 @@
         "longitude": 120.99320602,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "赫利豐岳露營區"
     },
     {
         "code": 39718,
@@ -552,7 +579,8 @@
         "longitude": 120.38319529,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "八海浬民宿"
     },
     {
         "code": 39771,
@@ -564,7 +592,8 @@
         "longitude": 120.71242287,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "麓人甲包場精靈屋"
     },
     {
         "code": 39800,
@@ -576,7 +605,8 @@
         "longitude": 120.8409905,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "桃樂絲露營區"
     },
     {
         "code": 39850,
@@ -588,7 +618,8 @@
         "longitude": 121.159218,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "朵娜朵露營區donato glamping"
     },
     {
         "code": 39856,
@@ -612,7 +643,8 @@
         "longitude": 120.76352097,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "野趣凍頂-奢華露營"
     },
     {
         "code": 39866,
@@ -624,7 +656,8 @@
         "longitude": 121.1946144,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "翠峰農場 卡爾小鎮天文教育園區 -觀星自助露營場地推薦 人氣露營車住宿 近清境農場 合歡山"
     },
     {
         "code": 40042,
@@ -649,7 +682,8 @@
         "longitude": 120.8178253,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "水玉妮光GC"
     },
     {
         "code": 40111,
@@ -686,7 +720,8 @@
         "longitude": 121.66212453,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "高巢農場"
     },
     {
         "code": 40272,
@@ -698,7 +733,8 @@
         "longitude": 120.7833786,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "彩虹星光農園露營區"
     },
     {
         "code": 40274,
@@ -710,7 +746,8 @@
         "longitude": 120.8388889,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "樹語星晴（本館）"
     },
     {
         "code": 40279,
@@ -759,7 +796,8 @@
         "longitude": 120.83839947,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "衝到山上去放空民宿露營區"
     },
     {
         "code": 40441,
@@ -795,7 +833,8 @@
         "longitude": 120.7744344,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "斷橋部落．輕奢露營"
     },
     {
         "code": 40472,
