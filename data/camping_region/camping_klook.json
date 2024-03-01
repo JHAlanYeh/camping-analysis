@@ -7,7 +7,8 @@
         "longitude": 121.746758,
         "address": "宜蘭縣南澳鄉金洋路2號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "那山那谷"
     },
     {
         "code": 56250,
@@ -27,7 +28,8 @@
         "longitude": 120.8628161,
         "address": "南投縣魚池鄉中山路361-3號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "畢瓦客"
     },
     {
         "code": 57742,
@@ -37,7 +39,8 @@
         "longitude": 121.1180292,
         "address": "南投縣仁愛鄉號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "朵娜朵露營區donato glamping"
     },
     {
         "code": 57764,
@@ -47,7 +50,8 @@
         "longitude": 120.70309455,
         "address": "高雄市六龜區花賞溫泉公園",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "遠山望月溫泉風呂 露營區"
     },
     {
         "code": 57806,
@@ -67,7 +71,8 @@
         "longitude": 121.4161051,
         "address": "台東縣長濱鄉寧埔村寧埔路3-8號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "海邊舟舟"
     },
     {
         "code": 58685,
@@ -77,7 +82,8 @@
         "longitude": 120.9502575,
         "address": "台灣新竹縣峨眉鄉8-10",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "樂窩露營區_咖啡"
     },
     {
         "code": 58881,
@@ -87,7 +93,8 @@
         "longitude": 121.1761832,
         "address": "新竹縣尖石鄉村5鄰270-5號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "尖石夢田營區(狩獵帳)"
     },
     {
         "code": 59671,
@@ -97,7 +104,8 @@
         "longitude": 120.7349212,
         "address": "苗栗銅鑼鄉九湖村92之5號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "黃金梯田露營地"
     },
     {
         "code": 60188,

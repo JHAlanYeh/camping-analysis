@@ -1,0 +1,36 @@
+﻿{
+    "name": "頭目山水",
+    "address": "233新北市烏來區",
+    "google_map": "https://www.google.com/maps/place/%E9%A0%AD%E7%9B%AE%E5%B1%B1%E6%B0%B4/@24.7815622,121.4993494,17z/data=!3m1!4b1!4m6!3m5!1s0x34680f6a8e296fe5:0xcd1098f4ccdc03c4!8m2!3d24.7815622!4d121.5019243!16s%2Fg%2F11shh7jlxq?authuser=0&entry=ttu",
+    "latitude": "24.7815622",
+    "longitude": "121.4993494",
+    "type": 0,
+    "expect_count": 7,
+    "actual_count": 4,
+    "comments": [
+        {
+            "content": "置身世外桃源，空氣清晰，身心解壓",
+            "rating": 5,
+            "publishedDate": "2024/01/01",
+            "tokenization": "置身 | 世外桃源 | 空氣 | 清晰 | 身心 | 解壓"
+        },
+        {
+            "content": "棒",
+            "rating": 5,
+            "publishedDate": "2023/07/01",
+            "tokenization": "棒"
+        },
+        {
+            "content": "水泥區不能下釘以及不容易排水，應該整理後再開放，老闆能虛心接受露客的建議",
+            "rating": 3,
+            "publishedDate": "2023/04/01",
+            "tokenization": "水泥 | 區 | 釘 | 排水 | 整理 | 開放 | 老闆 | 能虛心 | 接受 | 露客 | 建議"
+        },
+        {
+            "content": "這次訂的是碎石區，有一點點櫻花很漂亮，洗澡熱水夠熱，也有提供吹風機，需要注意的是因為碎石鋪的不夠厚，所以下雨可能有些地方會積水，但是瑕不掩瑜，還是推薦可以去",
+            "rating": 5,
+            "publishedDate": "2023/03/01",
+            "tokenization": "這次訂 | 碎石 | 區 | 一點點 | 櫻花 | 很漂亮 | 洗澡 | 熱水 | 夠熱 | 提供 | 吹風機 | 因為 | 碎石 | 鋪 | 厚 | 下雨 | 地方 | 會積 | 水 | 瑕不掩瑜 | 推薦"
+        }
+    ]
+}
