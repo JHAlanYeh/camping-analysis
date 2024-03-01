@@ -724,7 +724,8 @@
         "region": "新竹縣五峰鄉",
         "url": "https://www.easycamp.com.tw/Store_2444.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "戀戀天湖露營區"
     },
     {
         "code": "2446",
@@ -732,7 +733,8 @@
         "region": "苗栗縣南庄鄉",
         "url": "https://www.easycamp.com.tw/Store_2446.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "南山傳奇露營區(自搭帳.露營車.狩獵帳)"
     },
     {
         "code": "2451",
@@ -740,7 +742,8 @@
         "region": "宜蘭縣大同鄉",
         "url": "https://www.easycamp.com.tw/Store_2451.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "瑪崙菓園親子露營區"
     },
     {
         "code": "2452",
@@ -756,7 +759,8 @@
         "region": "南投縣仁愛鄉",
         "url": "https://www.easycamp.com.tw/Store_2456.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "樹不老 L’mosay"
     },
     {
         "code": "2458",
@@ -764,7 +768,8 @@
         "region": "南投縣埔里鎮",
         "url": "https://www.easycamp.com.tw/Store_2458.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "湯尼瑪麗露營區"
     },
     {
         "code": "2460",
@@ -772,7 +777,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2460.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "比亞山露營區"
     },
     {
         "code": "2461",
@@ -780,7 +786,8 @@
         "region": "苗栗縣三灣鄉",
         "url": "https://www.easycamp.com.tw/Store_2461.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "鄉町露營區"
     },
     {
         "code": "2464",
@@ -788,7 +795,8 @@
         "region": "苗栗縣泰安鄉",
         "url": "https://www.easycamp.com.tw/Store_2464.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "星樂親子露營"
     },
     {
         "code": "2471",
@@ -796,7 +804,8 @@
         "region": "宜蘭縣大同鄉",
         "url": "https://www.easycamp.com.tw/Store_2471.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "雲端紅土咖啡露營區"
     },
     {
         "code": "2472",
@@ -812,7 +821,8 @@
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_2473.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "馬胎227露營區"
     },
     {
         "code": "2475",
@@ -836,7 +846,8 @@
         "region": "苗栗縣南庄鄉",
         "url": "https://www.easycamp.com.tw/Store_2481.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "一畝田露營區(蓮花帳_狩獵帳)"
     },
     {
         "code": "2483",
@@ -852,7 +863,8 @@
         "region": "台中市石岡區",
         "url": "https://www.easycamp.com.tw/Store_2484.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "九甲林露營區"
     },
     {
         "code": "2485",
@@ -860,7 +872,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2485.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "八度野溪(免裝備露營車、狩獵帳、自搭帳)"
     },
     {
         "code": "2486",
@@ -868,7 +881,8 @@
         "region": "新竹縣五峰鄉",
         "url": "https://www.easycamp.com.tw/Store_2486.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "愛上天湖露營區(狩獵帳)"
     },
     {
         "code": "2488",
@@ -884,7 +898,8 @@
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_2489.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "高台山露營區(狩獵帳)"
     },
     {
         "code": "2490",
@@ -900,7 +915,8 @@
         "region": "嘉義縣阿里山鄉",
         "url": "https://www.easycamp.com.tw/Store_2493.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "羅老爸的家露營區"
     },
     {
         "code": "2494",
@@ -908,7 +924,8 @@
         "region": "苗栗縣泰安鄉",
         "url": "https://www.easycamp.com.tw/Store_2494.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "一片天露營區(自搭帳.狩獵帳)"
     },
     {
         "code": "2496",
@@ -924,7 +941,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2498.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "亞霧香草營區"
     },
     {
         "code": "2499",
@@ -932,7 +950,8 @@
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_2499.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "怡然自德露營區"
     },
     {
         "code": "2501",
@@ -940,7 +959,8 @@
         "region": "台南市左鎮區",
         "url": "https://www.easycamp.com.tw/Store_2501.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "露營樂1號店(狩獵帳) 台南左鎮旗艦館"
     },
     {
         "code": "2502",
@@ -956,7 +976,8 @@
         "region": "南投縣魚池鄉",
         "url": "https://www.easycamp.com.tw/Store_2505.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "文化村喜樂營地"
     },
     {
         "code": "2508",
@@ -964,7 +985,8 @@
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_2508.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "尖石夢田營區(狩獵帳)"
     },
     {
         "code": "2510",
@@ -980,7 +1002,8 @@
         "region": "新竹縣五峰鄉",
         "url": "https://www.easycamp.com.tw/Store_2512.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "漫步天湖露營區(狩獵帳)"
     },
     {
         "code": "2515",
@@ -988,7 +1011,8 @@
         "region": "嘉義縣番路鄉",
         "url": "https://www.easycamp.com.tw/Store_2515.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "花田小露露營區"
     },
     {
         "code": "2518",
@@ -996,7 +1020,8 @@
         "region": "嘉義縣番路鄉",
         "url": "https://www.easycamp.com.tw/Store_2518.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "草地狀元露營區"
     },
     {
         "code": "2522",
@@ -1004,7 +1029,8 @@
         "region": "高雄市那瑪夏區",
         "url": "https://www.easycamp.com.tw/Store_2522.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "貴梅露營區（A區）"
     },
     {
         "code": "2523",
@@ -1012,7 +1038,8 @@
         "region": "花蓮縣壽豐鄉",
         "url": "https://www.easycamp.com.tw/Store_2523.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "花蓮海洋露營區"
     },
     {
         "code": "2527",
@@ -1036,7 +1063,8 @@
         "region": "高雄市旗津區",
         "url": "https://www.easycamp.com.tw/Store_2530.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "露營樂2號店(狩獵帳)-旗津豪華露營區"
     },
     {
         "code": "2533",
