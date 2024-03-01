@@ -308,7 +308,8 @@
         "longitude": 120.0870699,
         "address": "新竹縣尖石鄉新樂村煤源8鄰1之1號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "尖石之美露營渡假村（露營區）"
     },
     {
         "code": 67776,
@@ -318,7 +319,8 @@
         "longitude": 119.7956718,
         "address": "花蓮縣壽豐鄉189號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "遠雄海洋公園"
     },
     {
         "code": 68272,
@@ -328,7 +330,8 @@
         "longitude": 119.8455519,
         "address": "苗栗縣苗栗市苗栗縣三義鄉龍騰村六鄰外庄40號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "斷橋部落．輕奢露營"
     },
     {
         "code": 69722,
@@ -338,7 +341,8 @@
         "longitude": 119.8742727,
         "address": "苗栗縣公館鄉仁安99之21號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "六沐森民宿.森居Glamping｜B＆B｜包棟｜漢淙黑松園_"
     },
     {
         "code": 69994,
@@ -368,7 +372,8 @@
         "longitude": 120.9213643,
         "address": "南投縣魚池鄉中明村8鄰文正巷2之6號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "峇嵐杉丘 奢華露營"
     },
     {
         "code": 71696,
@@ -378,7 +383,8 @@
         "longitude": 119.7750415,
         "address": "宜蘭縣冬山鄉大進二路246號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "田野森農場Morilife"
     },
     {
         "code": 72105,
@@ -388,7 +394,8 @@
         "longitude": 121.003811,
         "address": "苗栗縣南庄鄉東村17鄰",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "南庄 春友彩虹莊園 民宿 露營 餐廳 SpringYU B&B 鱘龍魚 鱒魚 南庄老街 苗栗住宿 神殿帳露營 (無提供包棟)"
     },
     {
         "code": 72302,

@@ -649,6 +649,14 @@
         "same_name": "Syano夏諾營"
     },
     {
+        "code": "2420",
+        "name": "桃園復興 好馨勤齊露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2420.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2425",
         "name": "雲林斗六 十三番露營區",
         "region": "雲林縣斗六市",
@@ -1450,6 +1458,14 @@
         "type": 3,
         "disabled": 0,
         "same_name": "景色天地露營區"
+    },
+    {
+        "code": "2612",
+        "name": "南投中寮 依星生態農場",
+        "region": "南投縣中寮鄉",
+        "url": "https://www.easycamp.com.tw/Store_2612.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2614",

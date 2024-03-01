@@ -11,6 +11,12 @@
     "longitude": 120.7035768,
     "comments": [
         {
+            "content": "免裝備露營，簡單快速又方便",
+            "rating": 5,
+            "publishedDate": "2024/02/27",
+            "tokenization": "免裝備 | 露營 | 簡單 | 快速"
+        },
+        {
             "content": "環境還不錯, 可惜蒼蠅有點多.",
             "rating": 4,
             "publishedDate": "2023/10/16",

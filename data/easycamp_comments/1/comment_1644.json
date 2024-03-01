@@ -11,6 +11,18 @@
     "longitude": 120.974375,
     "comments": [
         {
+            "content": "營區內水池非常好玩，還有捉泥鰍小朋友玩到嚇嚇叫，體驗泥鰍滑溜滑溜的感覺，營主裡面有賣水槍很加分。",
+            "rating": 5,
+            "publishedDate": "2024/03/01",
+            "tokenization": "營區 | 水池 | 好玩 | 捉 | 泥鰍 | 小朋友 | 玩到 | 嚇嚇 | 體驗 | 泥鰍 | 滑溜 | 滑溜 | 感覺 | 營主 | 賣 | 水槍 | 加分"
+        },
+        {
+            "content": "漂漂河超級好玩!!!",
+            "rating": 5,
+            "publishedDate": "2024/02/29",
+            "tokenization": "漂 | 漂河 | 超級 | 好玩"
+        },
+        {
             "content": "很好的營區。很喜歡這營地",
             "rating": 5,
             "publishedDate": "2023/12/11",

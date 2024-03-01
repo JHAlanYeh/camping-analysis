@@ -50,12 +50,16 @@ for file in os.listdir(save_path):
     file_path = os.path.join(save_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
-    for d in data:
+    data_reverse = sorted(data, key=lambda x: x["code"], reverse=True )
+    for d in data_reverse:
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "蘇珊藏美露" not in d["name"] and flag == False:
+        if "klook" not in file:
             continue
+
+        # if "Millu32" not in d["name"] and flag == False:
+        #     continue
         
         flag=True
 
@@ -88,7 +92,7 @@ for file in os.listdir(save_path):
             address = browser.find_element(By.CSS_SELECTOR, ".Io6YTe.fontBodyMedium.kR99db").text
 
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".DUwDvf.lfPIob")))
-            name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_")
+            name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
             d["same_name"] = name
             print(name)
 
@@ -127,7 +131,7 @@ for file in os.listdir(save_path):
         reviews_count = browser.find_element(By.CSS_SELECTOR, "div.jANrlb > div.fontBodySmall").text.replace(" 篇評論", "").replace(",", "")
         print("總評論數：" + reviews_count)
 
-        if int(reviews_count) > 1000:
+        if int(reviews_count) > 1500:
             continue
 
         current_reviews_count = 0

@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 def asiayo_crawler():
     print("==================== Start Asiayo Crawler ====================")
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "data//camping_region")
     camping_area_url = "https://asiayo.com/zh-tw/view/tw/{city_code}/{code}/?tags=camping&isFromPropertyPage=true/"
     offset = 0
 
@@ -79,7 +79,7 @@ def asiayo_crawler():
 def easycamp_crawler():
     print("==================== Start EasyCamp Crawler ====================")
 
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "data//camping_region")
     base_url = "https://www.easycamp.com.tw{relative_link}"
 
     file_name = os.path.join(dir_path, 'camping_easycamp.json')
@@ -125,7 +125,7 @@ def easycamp_crawler():
 
 def klook_crawler():
     print("==================== Start Klook Crawler ====================")
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "data//camping_region")
     page = 1
 
     file_name = os.path.join(dir_path, 'camping_klook.json')
