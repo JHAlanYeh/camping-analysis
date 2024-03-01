@@ -54,7 +54,7 @@ for file in os.listdir(save_path):
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "ToMe 桃米生態露營區" not in d["name"] and flag == False:
+        if "蘇珊藏美露" not in d["name"] and flag == False:
             continue
         
         flag=True
@@ -245,6 +245,7 @@ for file in os.listdir(save_path):
             json.dump(camping, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
 
+        browser.quit()
 
         # with open(file_path, 'w', encoding="utf-8-sig") as f:
         #     json.dump(data, f, indent=4, ensure_ascii=False)
