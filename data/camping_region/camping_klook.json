@@ -18,7 +18,8 @@
         "longitude": 121.7521736,
         "address": "宜蘭縣南澳鄉蘇花路五段一巷5-1號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "露境東岳探險渡假營地"
     },
     {
         "code": 56849,
@@ -61,7 +62,8 @@
         "longitude": 121.1289742,
         "address": "新竹縣五峰鄉竹林村4鄰忠興93號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "愛上喜翁民宿"
     },
     {
         "code": 58509,
@@ -125,7 +127,8 @@
         "longitude": "",
         "address": "",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "私人輕鬆渡假｜祕露32｜寵物友善 _ 獨立衛浴 _ 可烤肉 _ Millu 32 _ 私景觀懶人露營 _ 私度假豪華露營區"
     },
     {
         "code": 60828,
@@ -135,7 +138,8 @@
         "longitude": 120.4991456,
         "address": "嘉義縣中埔鄉社口村社口1號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "詩情花園度假村"
     },
     {
         "code": 61821,
@@ -155,7 +159,8 @@
         "longitude": 121.7278654,
         "address": "台灣宜蘭縣冬山鄉中山路769號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "東風綠活 Oriental Green"
     },
     {
         "code": 62186,
@@ -165,7 +170,8 @@
         "longitude": 120.9896643,
         "address": "南投縣埔里鎮乾溪景觀橋545號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "緣溪行森林營地"
     },
     {
         "code": 62662,
@@ -195,7 +201,8 @@
         "longitude": 120.8409905,
         "address": "苗栗縣公館鄉公館3鄰40號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "桃樂絲露營區"
     },
     {
         "code": 65811,
@@ -205,7 +212,8 @@
         "longitude": 121.1946144,
         "address": "南投縣仁愛鄉仁和路235號",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "翠峰農場 卡爾小鎮天文教育園區 -觀星自助露營場地推薦 人氣露營車住宿 近清境農場 合歡山"
     },
     {
         "code": 65918,
@@ -215,7 +223,8 @@
         "longitude": 119.9654135,
         "address": "苗栗縣苗栗市南庄鄉南江村東江1鄰9號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "山川密境露營區"
     },
     {
         "code": 66184,
@@ -245,7 +254,8 @@
         "longitude": 120.1152805,
         "address": "台南市北門區雙春73-11號",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "雙春濱海遊憩區 ( Vanaheim 愛莊園)"
     },
     {
         "code": 66376,
@@ -255,7 +265,8 @@
         "longitude": 120.38319529,
         "address": "屏東縣琉球鄉行政路11號台灣9號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "八海浬民宿"
     },
     {
         "code": 66587,
@@ -275,7 +286,8 @@
         "longitude": 120.3648667,
         "address": "南投縣仁愛鄉大同村定遠新村18-1號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "Sunshine Villa 清境見晴花園渡假山莊"
     },
     {
         "code": 66781,
@@ -285,7 +297,8 @@
         "longitude": 119.8425888,
         "address": "屏東縣恆春鎮下泉路90號",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "O'GLAMPING墾丁貓鼻頭露營莊園"
     },
     {
         "code": 66944,
@@ -385,7 +398,8 @@
         "longitude": 119.7956718,
         "address": "花蓮縣壽豐鄉池南路二段90號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "花蓮鯉魚潭露營渡假村"
     },
     {
         "code": 74354,
@@ -395,7 +409,8 @@
         "longitude": 120.1587166,
         "address": "台南市安平區安億路",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "漫度漁光"
     },
     {
         "code": 75064,
@@ -405,7 +420,8 @@
         "longitude": 120.1867258,
         "address": "台東縣長濱鄉成靜公路",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "海邊舟舟"
     },
     {
         "code": 75320,
@@ -415,7 +431,8 @@
         "longitude": 120.1867258,
         "address": "台東縣成功鎮美山路230號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "美山晴露營"
     },
     {
         "code": 75667,
@@ -435,7 +452,8 @@
         "longitude": 120.1885287,
         "address": "桃園市大溪區康莊路五段150號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "ORCHARD VILLA桃禧漫遊渡假露營園區"
     },
     {
         "code": 82103,
@@ -445,7 +463,8 @@
         "longitude": 120.271499,
         "address": "南投縣魚池鄉共和村五馬巷2-6號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "溪泮別館"
     },
     {
         "code": 85622,
@@ -455,7 +474,8 @@
         "longitude": 119.7182259,
         "address": "台中市大安區北汕路86巷1號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "向海那漾 Nayang Beach"
     },
     {
         "code": 85635,
@@ -465,7 +485,8 @@
         "longitude": 120.1043173,
         "address": "彰化縣社頭鄉山腳路一段268號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "清水那方 遊憩園地"
     },
     {
         "code": 86311,
@@ -475,7 +496,8 @@
         "longitude": 119.9355919,
         "address": "苗栗縣三灣鄉內灣村龍峎頂5-28號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "逗點露營區"
     },
     {
         "code": 92587,
@@ -485,7 +507,8 @@
         "longitude": 120.019289,
         "address": "新竹縣五峰鄉桃山村白蘭298-3號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "蟬說_ 霧繞 Chanshuo Woorao glamping"
     },
     {
         "code": 94279,
@@ -495,7 +518,8 @@
         "longitude": 119.7529541,
         "address": "台中市清水區美堤街8號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "蟬說_ 夕陽漫漫 Slowly Sunset Glamping"
     },
     {
         "code": 95544,
@@ -505,7 +529,8 @@
         "longitude": 119.5769878,
         "address": "台北市士林區菁山路101巷71弄16號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "趣兒Chill_藍鵲菲菲"
     },
     {
         "code": 95897,
@@ -515,7 +540,8 @@
         "longitude": 119.6182898,
         "address": "澎湖縣白沙鄉員貝村10-7號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "員貝樂營X員貝社區發展協會"
     },
     {
         "code": 100853,
@@ -525,7 +551,8 @@
         "longitude": 120.1885287,
         "address": "新竹縣橫山鄉中豐路三段155號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "百崴露營區"
     },
     {
         "code": 100994,
@@ -535,7 +562,8 @@
         "longitude": 120.2822042,
         "address": "南投縣仁愛鄉中正村平等巷1-10號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "相逢部落"
     },
     {
         "code": 104608,
@@ -545,7 +573,8 @@
         "longitude": 119.8677727,
         "address": "台灣台中市新社區上坪4號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "海邊舟舟"
     },
     {
         "code": 106136,
@@ -555,7 +584,8 @@
         "longitude": 120.2360754,
         "address": "嘉義縣番路鄉下石頭埔7鄰69號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "歸樸森活露營區"
     },
     {
         "code": 1101157310,
