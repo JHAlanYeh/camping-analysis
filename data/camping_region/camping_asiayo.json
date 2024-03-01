@@ -503,7 +503,8 @@
         "longitude": 120.9691942,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "都瑪斯民宿"
     },
     {
         "code": 39548,
@@ -669,7 +670,8 @@
         "longitude": 120.8057064,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "苗栗三義依杉林露營區"
     },
     {
         "code": 40101,
@@ -846,7 +848,8 @@
         "longitude": 121.7246153,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "希望之丘露營區"
     },
     {
         "code": 40499,
@@ -858,7 +861,8 @@
         "longitude": 121.749354,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "那山那谷"
     },
     {
         "code": 40504,
@@ -870,7 +874,8 @@
         "longitude": 121.464282,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "三芝老農夫農場"
     },
     {
         "code": 40516,
@@ -1059,7 +1064,8 @@
         "longitude": 121.1814647,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "拾階莊園（內灣露營車）"
     },
     {
         "code": 40745,

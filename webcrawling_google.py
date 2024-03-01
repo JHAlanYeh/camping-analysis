@@ -54,7 +54,7 @@ for file in os.listdir(save_path):
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "山美學" not in d["name"] and flag == False:
+        if "ToMe 桃米生態露營區" not in d["name"] and flag == False:
             continue
         
         flag=True
