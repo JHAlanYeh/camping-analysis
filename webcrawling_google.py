@@ -156,8 +156,11 @@ for file in os.listdir(save_path):
         browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
         
         while int(reviews_count) > current_reviews_count:
-
-            pane = browser.find_element(By.CSS_SELECTOR, "div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
+            try:
+                pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
+            except Exception as e:
+                pane = browser.find_element(By.CSS_SELECTOR, "div.bJzME.Hu9e2e.tTVLSc > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
+            
             browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
             time.sleep(5)
