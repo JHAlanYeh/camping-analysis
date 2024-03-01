@@ -1705,7 +1705,8 @@
         "longitude": 121.743373,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "曼漫落羽松_奶凍車莊園"
     },
     {
         "code": 45678,
@@ -1717,7 +1718,8 @@
         "longitude": 120.8751094,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "山美學2區"
     },
     {
         "code": 45750,
@@ -1729,7 +1731,8 @@
         "longitude": 120.474349,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "松田崗蒙古渡假村"
     },
     {
         "code": 45882,
@@ -1765,7 +1768,8 @@
         "longitude": 121.90274525,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "丹內丹內野奢莊園 DANNEI GLAMPING"
     },
     {
         "code": 46255,
@@ -1777,7 +1781,8 @@
         "longitude": 120.2858311,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "一水綠舟莊園"
     },
     {
         "code": 46853,
@@ -1789,7 +1794,8 @@
         "longitude": 120.8150702,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "蟬說：山中靜靜 Chanshuo Immersion glamping"
     },
     {
         "code": 46982,
@@ -1801,7 +1807,8 @@
         "longitude": 120.9442845,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "水与松森林莊園"
     },
     {
         "code": 47145,
@@ -1813,7 +1820,8 @@
         "longitude": 120.9067058,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "陌野露營車驛站（寵物友善）－露營車民宿 寵物友善 露營區 露營車 豪華露營 親子露營 家庭露營 推薦 評價 人氣 網友推薦 高cp值"
     },
     {
         "code": 48735,
@@ -1825,7 +1833,8 @@
         "longitude": 121.162304,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "百崴露營區"
     },
     {
         "code": 48800,
@@ -1850,7 +1859,8 @@
         "longitude": 121.8361271,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "灣東日出露營拖車"
     },
     {
         "code": 49019,
@@ -1886,7 +1896,8 @@
         "longitude": 120.5529825,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "歸樸森活露營區"
     },
     {
         "code": 49233,
@@ -1898,7 +1909,8 @@
         "longitude": 120.9193805,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "愛聚時光森林露營區"
     },
     {
         "code": 49292,
@@ -1911,6 +1923,7 @@
         "longitude": 120.867322,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "山上種樹牛樟森林休閒農場奢華露營-森居-Glamping"
     }
 ]
