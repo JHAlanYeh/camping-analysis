@@ -1447,7 +1447,8 @@
         "region": "嘉義縣番路鄉",
         "url": "https://www.easycamp.com.tw/Store_2605.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "龍頂山露營區"
     },
     {
         "code": "2606",
@@ -1577,7 +1578,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_661.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "夢想家園露營區"
     },
     {
         "code": "674",

@@ -153,7 +153,7 @@ for file in os.listdir(save_path):
         wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#action-menu > div:nth-child(2)")))
         browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
         
-        while int(reviews_count) > current_reviews_count:
+        while int(reviews_count) > current_reviews_count and current_reviews_count < 2500:
             pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
             browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
