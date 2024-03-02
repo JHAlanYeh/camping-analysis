@@ -58,7 +58,8 @@
         "region": "花蓮縣玉里鎮",
         "url": "https://www.easycamp.com.tw/Store_1498.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "玉里森林露營區"
     },
     {
         "code": "1529",
@@ -84,7 +85,8 @@
         "region": "苗栗縣南庄鄉",
         "url": "https://www.easycamp.com.tw/Store_1644.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "紅毛印象露營窩P1"
     },
     {
         "code": "1743",
@@ -119,7 +121,8 @@
         "region": "台中市和平區",
         "url": "https://www.easycamp.com.tw/Store_1785.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "德芙蘭農場"
     },
     {
         "code": "1874",
@@ -127,7 +130,8 @@
         "region": "南投縣魚池鄉",
         "url": "https://www.easycamp.com.tw/Store_1874.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "日月潭 九蛙秘境露營區"
     },
     {
         "code": "1909",
@@ -179,7 +183,8 @@
         "region": "南投縣埔里鎮",
         "url": "https://www.easycamp.com.tw/Store_2040.html",
         "type": 3,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "樂活森林農場"
     },
     {
         "code": "2051",
