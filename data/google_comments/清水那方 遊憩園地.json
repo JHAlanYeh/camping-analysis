@@ -1,7 +1,7 @@
 ﻿{
     "name": "清水那方 遊憩園地",
     "address": "511彰化縣社頭鄉山腳路一段268號",
-    "google_map": "https://www.google.com/maps/place/%E6%B8%85%E6%B0%B4%E9%82%A3%E6%96%B9+%E9%81%8A%E6%86%A9%E5%9C%92%E5%9C%B0/@23.8845928,120.6089863,15z/data=!4m9!3m8!1s0x346935aa091fab81:0xd81e4c436fb1e436!5m2!4m1!1i2!8m2!3d23.8845928!4d120.6089863!16s%2Fg%2F11s0px18qj?entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E6%B8%85%E6%B0%B4%E9%82%A3%E6%96%B9+%E9%81%8A%E6%86%A9%E5%9C%92%E5%9C%B0/@23.8845928,120.6064114,17z/data=!3m1!4b1!4m9!3m8!1s0x346935aa091fab81:0xd81e4c436fb1e436!5m2!4m1!1i2!8m2!3d23.8845928!4d120.6089863!16s%2Fg%2F11s0px18qj?authuser=0&entry=ttu",
     "latitude": "23.8845928",
     "longitude": "120.6089863",
     "type": 0,
@@ -12572,5 +12572,6 @@
             "publishedDate": "2022/03/02",
             "tokenization": "食物 | 可怕 | 五星 | 級 | 水準 | 帳篷間 | 離太近 | 太吵"
         }
-    ]
+    ],
+    "phone": "04 872 6565"
 }
