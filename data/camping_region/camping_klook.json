@@ -362,7 +362,8 @@
         "longitude": 119.7750415,
         "address": "宜蘭縣冬山鄉小埤五路331號",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "希望之丘露營區"
     },
     {
         "code": 71506,

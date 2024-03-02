@@ -47,12 +47,12 @@ for file in os.listdir(save_path):
     file_path = os.path.join(save_path, file)
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
-    data_reverse = sorted(data, key=lambda x: x["code"], reverse=True )
+    data_reverse = sorted(data, key=lambda x: x["code"], reverse=True)
     for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "easycamp" not in file:
+        if "klook" not in file:
             continue
 
         flag=True

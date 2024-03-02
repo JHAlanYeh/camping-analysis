@@ -27,7 +27,6 @@ def check_unfinished():
 
     for file in os.listdir(save_path):
         file_path = os.path.join(save_path, file)
-        print(file_path)
 
         f = open(file_path, encoding="utf-8-sig")
         data = json.load(f)
@@ -35,13 +34,14 @@ def check_unfinished():
             if d["disabled"] == 1 or d["type"] == 4:
                 continue
             
-            print("============================")
 
             if "same_name" not in d:
+                print("============================")
                 print(file_path)
                 print(d["name"])
                 continue
-            if d["same_name"]  not in google_comment_files:
+            if d["same_name"] + ".json"  not in google_comment_files:
+                print("============================")
                 print(file_path)
                 print(d["name"])
                 continue
