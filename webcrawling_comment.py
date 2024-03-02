@@ -243,7 +243,10 @@ def easycamp_comment_crawler():
         comment_objs = []
         web = requests.get(d["url"])
         soup = BeautifulSoup(web.text, "html.parser")
-        d["description"] = soup.select_one("#content_id").text.strip().replace("\n", "").replace("\r", "").replace("\t", "")
+        if soup.select_one("#content_id") is not None:
+            d["description"] = soup.select_one("#content_id").text.strip().replace("\n", "").replace("\r", "").replace("\t", "")
+        else:
+            continue
         d["address"] = soup.select_one(".camp-info .camp-add").text.strip()
         gps = soup.select_one(".camp-info div .camp-gps").text.strip()
         if gps != "":
