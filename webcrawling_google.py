@@ -241,7 +241,6 @@ for file in os.listdir(save_path):
             "expect_count": int(reviews_count),
             "actual_count": len(sorted_comments),
             "comments" : sorted_comments,
-            # "phone": phone
         }
 
         file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))
