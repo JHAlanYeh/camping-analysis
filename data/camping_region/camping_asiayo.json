@@ -1387,7 +1387,8 @@
         "longitude": 121.6034761,
         "type": 1,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "天梯露營區"
     },
     {
         "code": 44200,
