@@ -451,7 +451,8 @@
         "region": "嘉義縣阿里山鄉",
         "url": "https://www.easycamp.com.tw/Store_2306.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "阿里山高美休閒營區(二代經營) - Alishan GaoMei Camping Area"
     },
     {
         "code": "2309",
@@ -590,7 +591,8 @@
         "region": "宜蘭縣大同鄉",
         "url": "https://www.easycamp.com.tw/Store_2378.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "原最露營區"
     },
     {
         "code": "2390",
@@ -659,7 +661,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2420.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "好馨勤齊露營（區）"
     },
     {
         "code": "2425",
@@ -920,7 +923,8 @@
         "region": "嘉義縣阿里山鄉",
         "url": "https://www.easycamp.com.tw/Store_2490.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "晨光露營區(狩獵帳)"
     },
     {
         "code": "2493",
@@ -1068,7 +1072,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2529.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "微笑草地"
     },
     {
         "code": "2530",
@@ -1112,7 +1117,8 @@
         "region": "嘉義縣阿里山鄉",
         "url": "https://www.easycamp.com.tw/Store_2537.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "來灣哈露營區"
     },
     {
         "code": "2538",
@@ -1165,7 +1171,8 @@
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_2549.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "光漫營地"
     },
     {
         "code": "2550",
@@ -1173,7 +1180,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2550.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "微風山崚露營區"
     },
     {
         "code": "2551",
@@ -1208,7 +1216,8 @@
         "region": "嘉義縣番路鄉",
         "url": "https://www.easycamp.com.tw/Store_2557.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "淺山尋露"
     },
     {
         "code": "2558",
@@ -1340,7 +1349,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2584.html",
         "type": 1,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "拉拉山塔曼之光露營區"
     },
     {
         "code": "2586",
@@ -1366,7 +1376,8 @@
         "region": "桃園市復興區",
         "url": "https://www.easycamp.com.tw/Store_2589.html",
         "type": 2,
-        "disabled": 0
+        "disabled": 0,
+        "same_name": "天恩農場"
     },
     {
         "code": "2590",

@@ -1,7 +1,7 @@
 ﻿{
     "name": "紅毛印象露營窩P1",
     "address": "35345苗栗縣南庄鄉五 鄰66 號紅 毛 館",
-    "google_map": "https://www.google.com/maps/place/%E7%B4%85%E6%AF%9B%E5%8D%B0%E8%B1%A1%E9%9C%B2%E7%87%9F%E7%AA%A9P1/@24.5435771,120.9700092,17z/data=!4m6!3m5!1s0x3468519555555545:0x196b8f18a3eb396d!8m2!3d24.5435722!4d120.9725841!16s%2Fg%2F11byyftk0n?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E7%B4%85%E6%AF%9B%E5%8D%B0%E8%B1%A1%E9%9C%B2%E7%87%9F%E7%AA%A9P1/@24.5435722,120.9700092,17z/data=!3m1!4b1!4m6!3m5!1s0x3468519555555545:0x196b8f18a3eb396d!8m2!3d24.5435722!4d120.9725841!16s%2Fg%2F11byyftk0n?authuser=0&entry=ttu",
     "latitude": "24.5435771",
     "longitude": "120.9700092",
     "type": 0,
@@ -686,5 +686,6 @@
             "publishedDate": "2017/03/02",
             "tokenization": "長 | 草皮 | 躺 | 柔軟 | 晚上 | 螢火蟲 | 滿天 | 星星 | 有衛浴 | 設備 | 洗熱水澡 | 老闆 | 超親切"
         }
-    ]
+    ],
+    "phone": "0937 465 062"
 }

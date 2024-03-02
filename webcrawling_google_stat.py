@@ -110,4 +110,4 @@ def revise_google_map():
 
 if __name__ == "__main__":
     check_unfinished()
-    # revise_google_map()
+    revise_google_map()

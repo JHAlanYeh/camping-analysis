@@ -1,7 +1,7 @@
 ﻿{
     "name": "玉里森林露營區",
     "address": "981花蓮縣玉里鎮51號大禹里",
-    "google_map": "https://www.google.com/maps/place/%E7%8E%89%E9%87%8C%E6%A3%AE%E6%9E%97%E9%9C%B2%E7%87%9F%E5%8D%80/@23.3512494,121.3116306,17z/data=!3m1!4b1!4m6!3m5!1s0x346f41b96806b303:0x5929dd116f8c8153!8m2!3d23.3512446!4d121.3165015!16s%2Fg%2F11b7w037__?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E7%8E%89%E9%87%8C%E6%A3%AE%E6%9E%97%E9%9C%B2%E7%87%9F%E5%8D%80/@23.3512446,121.3139266,17z/data=!3m1!4b1!4m6!3m5!1s0x346f41b96806b303:0x5929dd116f8c8153!8m2!3d23.3512446!4d121.3165015!16s%2Fg%2F11b7w037__?authuser=0&entry=ttu",
     "latitude": "23.3512494",
     "longitude": "121.3116306",
     "type": 0,
@@ -446,5 +446,6 @@
             "publishedDate": "2016/03/02",
             "tokenization": "原始 | 老闆 | 親切"
         }
-    ]
+    ],
+    "phone": "0937 341 343"
 }

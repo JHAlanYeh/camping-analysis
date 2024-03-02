@@ -1,7 +1,7 @@
 ﻿{
     "name": "踏浪星辰豪華露營Camp",
     "address": "971花蓮縣新城鄉七星街41巷11號",
-    "google_map": "https://www.google.com/maps/place/%E8%B8%8F%E6%B5%AA%E6%98%9F%E8%BE%B0%E8%B1%AA%E8%8F%AF%E9%9C%B2%E7%87%9FCamp/@24.0257069,121.6292599,17z/data=!3m1!4b1!4m9!3m8!1s0x346621830ba77b73:0xf0d01cf35c099854!5m2!4m1!1i2!8m2!3d24.0257069!4d121.6318348!16s%2Fg%2F11fp1r73g2?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E8%B8%8F%E6%B5%AA%E6%98%9F%E8%BE%B0%E8%B1%AA%E8%8F%AF%E9%9C%B2%E7%87%9FCamp/@24.0257069,121.6292599,17z/data=!4m9!3m8!1s0x346621830ba77b73:0xf0d01cf35c099854!5m2!4m1!1i2!8m2!3d24.0257069!4d121.6318348!16s%2Fg%2F11fp1r73g2?authuser=0&entry=ttu",
     "latitude": "24.0257069",
     "longitude": "121.6292599",
     "type": 0,
@@ -1424,5 +1424,6 @@
             "publishedDate": "2020/03/02",
             "tokenization": "很棒 | 露營 | 體驗 | 設備 | 齊全 | 離海 | 遠眺 | 海景 | 早餐 | 好吃"
         }
-    ]
+    ],
+    "phone": "0982 511 134"
 }

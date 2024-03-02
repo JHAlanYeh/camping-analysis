@@ -74,7 +74,8 @@ for file in os.listdir(save_path):
         if "｜" in d["name"] and "klook" in file:
             camping_name = d["name"].split("｜")[1]
         if " " in d["name"] and "easycamp" in file:
-            camping_name = d["name"].split(" ")[1]
+            camping_names = d["name"].replace("  ", " ").split(" ")
+            camping_name = camping_names[len(camping_names)-1]
 
         wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#searchboxinput")))
         browser.find_element(By.CSS_SELECTOR, "#searchboxinput").send_keys(camping_name)
@@ -229,7 +230,7 @@ for file in os.listdir(save_path):
                 print(e.args)
                 continue
         
-        sorted_comments = sorted(comment_objs["comments"], key=lambda d: d["publishedDate"], reverse=True) 
+        sorted_comments = sorted(comment_objs, key=lambda d: d["publishedDate"], reverse=True) 
         camping = {
             "name": name,
             "address": address,

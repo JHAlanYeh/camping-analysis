@@ -1,7 +1,7 @@
 ﻿{
     "name": "德芙蘭農場",
     "address": "424台中市和平區東關路一段359號",
-    "google_map": "https://www.google.com/maps/place/%E5%BE%B7%E8%8A%99%E8%98%AD%E8%BE%B2%E5%A0%B4/@24.175103,120.9686193,19z/data=!4m16!1m9!3m8!1s0x3468e15c8f9a31fb:0x505472597bd87d6b!2z5b636IqZ6Jit6L6y5aC0!8m2!3d24.175103!4d120.969837!9m1!1b1!16s%2Fg%2F11c5xm81yx!3m5!1s0x3468e15c8f9a31fb:0x505472597bd87d6b!8m2!3d24.175103!4d120.969837!16s%2Fg%2F11c5xm81yx?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%BE%B7%E8%8A%99%E8%98%AD%E8%BE%B2%E5%A0%B4/@24.1751078,120.9649661,17z/data=!3m1!4b1!4m6!3m5!1s0x3468e15c8f9a31fb:0x505472597bd87d6b!8m2!3d24.175103!4d120.969837!16s%2Fg%2F11c5xm81yx?authuser=0&entry=ttu",
     "latitude": "24.1751941",
     "longitude": "120.9707499",
     "type": 0,
@@ -1028,5 +1028,6 @@
             "publishedDate": "2018/03/02",
             "tokenization": "群山 | 環繞 | 日出日落 | 美景 | 盡收 | 眼底 | 松鶴 | 部落 | 百萬 | 夜景 | 旁 | 櫻花 | 桃花 | 盛開 | 環繞 | 梨子 | 橘子 | 現場 | 採果 | 露營 | 地方"
         }
-    ]
+    ],
+    "phone": "0968690532"
 }
