@@ -17,7 +17,6 @@ import jieba
 jieba.load_userdict('custom_dict.txt')
 # jieba.set_dictionary('dict.txt.big')
 
-
 f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
 STOP_WORDS = []
 lines = f.readlines()
@@ -29,8 +28,6 @@ lines = f.readlines()
 for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
 
-# browser是你的webdriver
-##### 你的程式碼 #####
 browserOptions = webdriver.ChromeOptions()
 browserOptions.add_argument("--start-maximized")
 
@@ -51,16 +48,13 @@ for file in os.listdir(save_path):
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     data_reverse = sorted(data, key=lambda x: x["code"], reverse=True )
-    for d in data_reverse:
+    for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "klook" not in file:
+        if "easycamp" not in file:
             continue
 
-        # if "Millu32" not in d["name"] and flag == False:
-        #     continue
-        
         flag=True
 
         if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
@@ -131,7 +125,7 @@ for file in os.listdir(save_path):
         reviews_count = browser.find_element(By.CSS_SELECTOR, "div.jANrlb > div.fontBodySmall").text.replace(" 篇評論", "").replace(",", "")
         print("總評論數：" + reviews_count)
 
-        if int(reviews_count) > 1500:
+        if int(reviews_count) > 10000:
             continue
 
         current_reviews_count = 0
@@ -156,11 +150,7 @@ for file in os.listdir(save_path):
         browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
         
         while int(reviews_count) > current_reviews_count:
-            try:
-                pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
-            except Exception as e:
-                pane = browser.find_element(By.CSS_SELECTOR, "div.bJzME.Hu9e2e.tTVLSc > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
-            
+            pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
             browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
             time.sleep(5)

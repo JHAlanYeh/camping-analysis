@@ -55,8 +55,20 @@ for file in os.listdir(save_path):
             name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
             d["same_name"] = name
 
+            file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))
+            fp = open(file_name, encoding="utf-8-sig")
+            google_info = json.load(fp)
+            google_info["google_map"] = browser.current_url
+            fp.close()
+
+            with open(file_name, 'w', encoding="utf-8-sig") as fp:
+                json.dump(google_info, f, indent=4, ensure_ascii=False)
+                print("save {file_name}".format(file_name=file_name))
+
         except Exception as e:
+            print(e.args)
             if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
                 print(d["same_name"])
             continue
-        
+
+    f.close()   
