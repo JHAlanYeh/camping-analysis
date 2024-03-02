@@ -1,7 +1,7 @@
 ﻿{
     "name": "馬塔大文化露營區",
     "address": "233新北市烏來區國小側門口",
-    "google_map": "https://www.google.com/maps/place/%E9%A6%AC%E5%A1%94%E5%A4%A7%E6%96%87%E5%8C%96%E9%9C%B2%E7%87%9F%E5%8D%80/@24.7771798,121.5005959,17z/data=!4m10!1m2!2m1!1z6aas5aGU5aSn6Zyy54ef5Y2A!3m6!1s0x34680ee5322fb8db:0xed227480d498df75!8m2!3d24.7772897!4d121.5031117!15sChLppqzloZTlpKfpnLLnh5_ljYCSAQpjYW1wZ3JvdW5k4AEA!16s%2Fg%2F11g71t_9k5?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E9%A6%AC%E5%A1%94%E5%A4%A7%E6%96%87%E5%8C%96%E9%9C%B2%E7%87%9F%E5%8D%80/@24.7772945,121.5005368,17z/data=!3m1!4b1!4m6!3m5!1s0x34680ee5322fb8db:0xed227480d498df75!8m2!3d24.7772897!4d121.5031117!16s%2Fg%2F11g71t_9k5?authuser=0&entry=ttu",
     "latitude": "24.7771798",
     "longitude": "121.5005959",
     "type": 0,
@@ -422,5 +422,6 @@
             "publishedDate": "2018/03/01",
             "tokenization": "平台 | 小屋 | 鞦 | 韆 | 小孩 | 遊樂場 | 紮 | 營場 | 平整 | 果樹上 | 果實 | 摘 | 觀景 | 高台 | 遠眺 | 風景 | 散步 | 福山 | 國小 | 教會 | 很棒"
         }
-    ]
+    ],
+    "phone": "0916340336"
 }

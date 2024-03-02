@@ -1,7 +1,7 @@
 ﻿{
     "name": "山美學",
     "address": "364苗栗縣大湖鄉",
-    "google_map": "https://www.google.com/maps/place/%E8%BE%B2%E5%A0%B4/@24.3653658,120.8726585,17z/data=!4m10!1m2!2m1!1z5bGx576O5a24!3m6!1s0x34693d9218b0d3c7:0x768c34eb99131963!8m2!3d24.36593!4d120.8753574!15sCgnlsbHnvo7lrbhaDCIK5bGxIOe-juWtuJIBCmNhbXBncm91bmSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUXlNRGx0ZERCM1JSQULgAQA!16s%2Fg%2F11lfjvg617?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E8%BE%B2%E5%A0%B4/@24.3659348,120.8704865,17z/data=!3m1!4b1!4m10!3m9!1s0x34693d9218b0d3c7:0x768c34eb99131963!5m3!1s2024-03-04!4m1!1i2!8m2!3d24.36593!4d120.8753574!16s%2Fg%2F11lfjvg617?authuser=0&entry=ttu",
     "latitude": "24.3653658",
     "longitude": "120.8726585",
     "type": 0,
@@ -2726,5 +2726,6 @@
             "publishedDate": "2021/03/01",
             "tokenization": "讚 | 環境 | 清爽 | 漂亮 | 👍 | 👍"
         }
-    ]
+    ],
+    "phone": "0900377828"
 }

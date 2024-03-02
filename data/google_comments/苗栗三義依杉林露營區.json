@@ -1,7 +1,7 @@
 ﻿{
     "name": "苗栗三義依杉林露營區",
     "address": "130camp.blogspot.tw",
-    "google_map": "https://www.google.com/maps/place/%E8%8B%97%E6%A0%97%E4%B8%89%E7%BE%A9%E4%BE%9D%E6%9D%89%E6%9E%97%E9%9C%B2%E7%87%9F%E5%8D%80/@23.4635078,116.8589457,7z/data=!4m10!1m2!2m1!1z5L6d5p2J5p6X6Zyy54ef5Y2A!3m6!1s0x34690697c4696db5:0x2a307c6849282c3a!8m2!3d23.4857501!4d119.49965!15sChLkvp3mnYnmnpfpnLLnh5_ljYCSAQd0b3VyaXNt4AEA!16s%2Fg%2F11b7hgb19r?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E8%8B%97%E6%A0%97%E4%B8%89%E7%BE%A9%E4%BE%9D%E6%9D%89%E6%9E%97%E9%9C%B2%E7%87%9F%E5%8D%80/@23.4685512,116.8588085,7z/data=!3m1!4b1!4m6!3m5!1s0x34690697c4696db5:0x2a307c6849282c3a!8m2!3d23.4857501!4d119.49965!16s%2Fg%2F11b7hgb19r?authuser=0&entry=ttu",
     "latitude": "23.4635078",
     "longitude": "116.8589457",
     "type": 0,
@@ -32,5 +32,6 @@
             "publishedDate": "2017/03/01",
             "tokenization": "有大鐵棚 | 風雨"
         }
-    ]
+    ],
+    "phone": "0911196484"
 }

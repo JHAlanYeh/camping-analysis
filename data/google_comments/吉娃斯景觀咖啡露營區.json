@@ -1,7 +1,7 @@
 ﻿{
     "name": "吉娃斯景觀咖啡露營區",
     "address": "桃山 社區, 和平區台中市",
-    "google_map": "https://www.google.com/maps/place/%E5%90%89%E5%A8%83%E6%96%AF%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%9C%B2%E7%87%9F%E5%8D%80/@24.3380704,120.9350228,18z/data=!4m10!1m2!2m1!1z5ZCJ5aiD5pav5pmv6KeA5ZKW5ZWh6Zyy54ef5Y2A!3m6!1s0x3468fdb592dc735d:0x7b93c5b5183a22ce!8m2!3d24.3400581!4d120.937502!15sCh7lkInlqIPmlq_mma_op4DlkpbllaHpnLLnh5_ljYCSAQpjYW1wZ3JvdW5k4AEA!16s%2Fg%2F11clygrfcy?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%90%89%E5%A8%83%E6%96%AF%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%9C%B2%E7%87%9F%E5%8D%80/@24.3400605,120.9362145,18z/data=!3m1!4b1!4m6!3m5!1s0x3468fdb592dc735d:0x7b93c5b5183a22ce!8m2!3d24.3400581!4d120.937502!16s%2Fg%2F11clygrfcy?authuser=0&entry=ttu",
     "latitude": "24.3380704",
     "longitude": "120.9350228",
     "type": 0,
@@ -290,5 +290,6 @@
             "publishedDate": "2017/03/01",
             "tokenization": "老闆 | 老闆娘 | 熱情 | 招呼客人 | 👍 | 餐點 | 2017 | 新年 | 賣 | 👍 | 餐點 | 好吃 | 空間 | 👍 | 這吃飯 | 悠閒 | ❤ | ️ | ❤ | ️ | 風景 | 美 | ❤ | ️"
         }
-    ]
+    ],
+    "phone": "0989292375"
 }

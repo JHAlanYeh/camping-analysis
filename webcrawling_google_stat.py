@@ -96,8 +96,8 @@ def revise_google_map():
             f = open(file_path, encoding="utf-8-sig")
             google_info = json.load(f)
 
-            # if "phone" in google_info:
-            #     continue
+            if "phone" in google_info:
+                continue
 
             browser = webdriver.Chrome(options=browserOptions)
             wait = WebDriverWait(browser, 20)
