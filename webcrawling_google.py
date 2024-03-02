@@ -175,17 +175,18 @@ for file in os.listdir(save_path):
         all_reviews = browser.find_elements(By.CSS_SELECTOR, ".jftiEf.fontBodyMedium")
 
         for ar in all_reviews:
-            if house_type == False:
-                wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".rsqaWe")))
-                publishedDate = ar.find_element(By.CSS_SELECTOR, ".rsqaWe").text.replace("Google", "").replace("(","").replace(")","").strip()
-                wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".kvMYJc")))
-                star = ar.find_element(By.CSS_SELECTOR, ".kvMYJc").get_attribute("aria-label").replace(" 顆星", "").strip()
-            else:
-                wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".xRkPPb")))
-                publishedDate = ar.find_element(By.CSS_SELECTOR, ".xRkPPb").text.replace("Google", "").replace("(","").replace(")","").strip()
-                wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".fzvQIb")))
-                star = ar.find_element(By.CSS_SELECTOR, ".fzvQIb").text.replace("/5", "").strip()
             try:
+                if house_type == False:
+                    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".rsqaWe")))
+                    publishedDate = ar.find_element(By.CSS_SELECTOR, ".rsqaWe").text.replace("Google", "").replace("(","").replace(")","").strip()
+                    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".kvMYJc")))
+                    star = ar.find_element(By.CSS_SELECTOR, ".kvMYJc").get_attribute("aria-label").replace(" 顆星", "").strip()
+                else:
+                    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".xRkPPb")))
+                    publishedDate = ar.find_element(By.CSS_SELECTOR, ".xRkPPb").text.replace("Google", "").replace("(","").replace(")","").strip()
+                    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".fzvQIb")))
+                    star = ar.find_element(By.CSS_SELECTOR, ".fzvQIb").text.replace("/5", "").strip()
+            
                 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".MyEned")))
                 content = ar.find_element(By.CSS_SELECTOR, ".MyEned").text
                 if "全文" in content:
@@ -228,6 +229,7 @@ for file in os.listdir(save_path):
                 print(e.args)
                 continue
         
+        sorted_comments = sorted(comment_objs["comments"], key=lambda d: d["publishedDate"], reverse=True) 
         camping = {
             "name": name,
             "address": address,
@@ -236,9 +238,9 @@ for file in os.listdir(save_path):
             "longitude": longitude,
             "type": 0,
             "expect_count": int(reviews_count),
-            "actual_count": len(comment_objs),
-            "comments" : comment_objs,
-            "phone": phone
+            "actual_count": len(sorted_comments),
+            "comments" : sorted_comments,
+            # "phone": phone
         }
 
         file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))
@@ -247,7 +249,3 @@ for file in os.listdir(save_path):
             print("save {file_name}".format(file_name=file_name))
 
         browser.quit()
-
-        # with open(file_path, 'w', encoding="utf-8-sig") as f:
-        #     json.dump(data, f, indent=4, ensure_ascii=False)
-        #     print("save {file_name}".format(file_name=file_path))

@@ -9,7 +9,7 @@ from dateutil.relativedelta import relativedelta
 from selenium import webdriver
 import time
 
-def test():
+def check_unfinished():
     browserOptions = webdriver.ChromeOptions()
     browserOptions.add_argument("--start-maximized")
 
@@ -34,43 +34,16 @@ def test():
         for d in data:
             if d["disabled"] == 1 or d["type"] == 4:
                 continue
-
-            browser = webdriver.Chrome(options=browserOptions)
-            wait = WebDriverWait(browser, 20)
-            default_url = "https://www.google.com/maps?authuser=0"
-            browser.get(default_url)
-            house_type = False
             
-            camping_name = d["name"]
-            
-            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#searchboxinput")))
-            browser.find_element(By.CSS_SELECTOR, "#searchboxinput").send_keys(camping_name)
-            browser.find_element(By.CSS_SELECTOR, "#searchboxinput").send_keys(Keys.ENTER)
+            print("============================")
 
-            time.sleep(5)
-            try:
-                wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".Io6YTe.fontBodyMedium.kR99db")))
-                address = browser.find_element(By.CSS_SELECTOR, ".Io6YTe.fontBodyMedium.kR99db").text
-
-                wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".DUwDvf.lfPIob")))
-                name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
-                d["same_name"] = name
-
-                file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))
-                fp = open(file_name, encoding="utf-8-sig")
-                google_info = json.load(fp)
-                print(google_info)
-                google_info["google_map"] = browser.current_url
-                fp.close()
-
-                with open(file_name, 'w', encoding="utf-8-sig") as fp:
-                    json.dump(google_info, f, indent=4, ensure_ascii=False)
-                    print("save {file_name}".format(file_name=file_name))
-
-            except Exception as e:
-                print(e.args)
-                if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
-                    print(d["same_name"])
+            if "same_name" not in d:
+                print(file_path)
+                print(d["name"])
+                continue
+            if d["same_name"]  not in google_comment_files:
+                print(file_path)
+                print(d["name"])
                 continue
 
         f.close()   
@@ -136,4 +109,5 @@ def revise_google_map():
 
 
 if __name__ == "__main__":
-    revise_google_map()
+    check_unfinished()
+    # revise_google_map()
