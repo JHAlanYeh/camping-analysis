@@ -1,7 +1,7 @@
 ﻿{
     "name": "山思雲想",
     "address": "55770南投縣竹山鎮大林巷16-32號",
-    "google_map": "https://www.google.com/maps/place/%E5%B1%B1%E6%80%9D%E9%9B%B2%E6%83%B3/@23.6970962,120.7103265,17z/data=!3m1!4b1!4m9!3m8!1s0x346ed503a2b37823:0x66784fee5f10ec2f!5m2!4m1!1i2!8m2!3d23.6970962!4d120.7129014!16s%2Fg%2F11h09pkpdb?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%B1%B1%E6%80%9D%E9%9B%B2%E6%83%B3/@23.6970962,120.7103265,17z/data=!4m9!3m8!1s0x346ed503a2b37823:0x66784fee5f10ec2f!5m2!4m1!1i2!8m2!3d23.6970962!4d120.7129014!16s%2Fg%2F11h09pkpdb?authuser=0&entry=ttu",
     "latitude": "23.6970962",
     "longitude": "120.7103265",
     "type": 0,
@@ -4742,5 +4742,6 @@
             "publishedDate": "2020/02/29",
             "tokenization": "老闆 | 熱情 | 又帥 | 溫度 | 58 | 度 | 高粱 | 美學 | 隨便 | 亂 | 穿 | sense | 喜翻 | 快去"
         }
-    ]
+    ],
+    "phone": "0933 587 577"
 }

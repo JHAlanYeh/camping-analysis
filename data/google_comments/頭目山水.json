@@ -1,7 +1,7 @@
 ﻿{
     "name": "頭目山水",
     "address": "233新北市烏來區",
-    "google_map": "https://www.google.com/maps/place/%E9%A0%AD%E7%9B%AE%E5%B1%B1%E6%B0%B4/@24.7815622,121.4993494,17z/data=!3m1!4b1!4m6!3m5!1s0x34680f6a8e296fe5:0xcd1098f4ccdc03c4!8m2!3d24.7815622!4d121.5019243!16s%2Fg%2F11shh7jlxq?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E9%A0%AD%E7%9B%AE%E5%B1%B1%E6%B0%B4/@24.781654,121.5020838,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMlvm_PLIuPou98vFpdVuWwdDt8WP3l45NWrCN5!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMlvm_PLIuPou98vFpdVuWwdDt8WP3l45NWrCN5%3Dw152-h86-k-no!7i4000!8i2256!4m7!3m6!1s0x34680f6a8e296fe5:0xcd1098f4ccdc03c4!8m2!3d24.7815622!4d121.5019243!10e5!16s%2Fg%2F11shh7jlxq?authuser=0&entry=ttu",
     "latitude": "24.7815622",
     "longitude": "121.4993494",
     "type": 0,
@@ -32,5 +32,6 @@
             "publishedDate": "2023/03/01",
             "tokenization": "這次訂 | 碎石 | 區 | 一點點 | 櫻花 | 很漂亮 | 洗澡 | 熱水 | 夠熱 | 提供 | 吹風機 | 因為 | 碎石 | 鋪 | 厚 | 下雨 | 地方 | 會積 | 水 | 瑕不掩瑜 | 推薦"
         }
-    ]
+    ],
+    "phone": "0983 112 412"
 }

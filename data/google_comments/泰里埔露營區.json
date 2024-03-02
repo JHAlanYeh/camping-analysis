@@ -1,7 +1,7 @@
 ﻿{
     "name": "泰里埔露營區",
     "address": "313新竹縣尖石鄉3鄰24號",
-    "google_map": "https://www.google.com/maps/place/%E6%B3%B0%E9%87%8C%E5%9F%94%E9%9C%B2%E7%87%9F%E5%8D%80/@24.6712211,121.292698,17z/data=!4m9!3m8!1s0x34686b6c8991a0f7:0xec519d68358dd300!5m2!4m1!1i2!8m2!3d24.6712211!4d121.2952729!16s%2Fg%2F11f4r29gcq?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E6%B3%B0%E9%87%8C%E5%9F%94%E9%9C%B2%E7%87%9F%E5%8D%80/@24.6712211,121.292698,17z/data=!3m1!4b1!4m9!3m8!1s0x34686b6c8991a0f7:0xec519d68358dd300!5m2!4m1!1i2!8m2!3d24.6712211!4d121.2952729!16s%2Fg%2F11f4r29gcq?authuser=0&entry=ttu",
     "latitude": "24.6712211",
     "longitude": "121.292698",
     "type": 0,
@@ -620,5 +620,6 @@
             "publishedDate": "2019/02/28",
             "tokenization": "美好 | 經驗 | 山野 | 果物 | 營主 | 天和地 | 感恩 | 這萬物"
         }
-    ]
+    ],
+    "phone": "0913 897 005"
 }

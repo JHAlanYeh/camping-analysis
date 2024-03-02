@@ -1,7 +1,7 @@
 ﻿{
     "name": "趣兒Chill_藍鵲菲菲",
     "address": "111台北市士林區菁山路101巷71弄16號",
-    "google_map": "https://www.google.com/maps/place/%E8%B6%A3%E5%85%92Chill:%E8%97%8D%E9%B5%B2%E8%8F%B2%E8%8F%B2/@25.1533291,121.5556326,17z/data=!3m1!4b1!4m9!3m8!1s0x3442add4deb5f62b:0x87f2e0edfd3a74be!5m2!4m1!1i2!8m2!3d25.1533291!4d121.5582075!16s%2Fg%2F11s9zxpfxq?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E8%B6%A3%E5%85%92Chill:%E8%97%8D%E9%B5%B2%E8%8F%B2%E8%8F%B2/@25.1533291,121.5556326,17z/data=!4m9!3m8!1s0x3442add4deb5f62b:0x87f2e0edfd3a74be!5m2!4m1!1i2!8m2!3d25.1533291!4d121.5582075!16s%2Fg%2F11s9zxpfxq?authuser=0&entry=ttu",
     "latitude": "25.1533291",
     "longitude": "121.5556326",
     "type": 0,
@@ -920,5 +920,6 @@
             "publishedDate": "2023/02/28",
             "tokenization": "值得 | 推薦 | 豪華露營 | 好吃 | 好玩 | 有趣 | 露營 | 體驗 | 小孩 | 閒 | 耶 | 🥰 | 🥰"
         }
-    ]
+    ],
+    "phone": "02 2862 9588"
 }

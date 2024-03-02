@@ -1,7 +1,7 @@
 ﻿{
     "name": "花蓮悠悠太魯閣露營區",
     "address": "972花蓮縣秀林鄉民治132之11號",
-    "google_map": "https://www.google.com/maps/place/%E8%8A%B1%E8%93%AE%E6%82%A0%E6%82%A0%E5%A4%AA%E9%AD%AF%E9%96%A3%E9%9C%B2%E7%87%9F%E5%8D%80/@24.1239324,121.626005,17z/data=!3m1!4b1!4m9!3m8!1s0x34662801de1f7c73:0x9f8a17903b323ad2!5m2!4m1!1i2!8m2!3d24.1239324!4d121.6285799!16s%2Fg%2F11ddxfmtd4?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E8%8A%B1%E8%93%AE%E6%82%A0%E6%82%A0%E5%A4%AA%E9%AD%AF%E9%96%A3%E9%9C%B2%E7%87%9F%E5%8D%80/@24.1239324,121.626005,17z/data=!4m9!3m8!1s0x34662801de1f7c73:0x9f8a17903b323ad2!5m2!4m1!1i2!8m2!3d24.1239324!4d121.6285799!16s%2Fg%2F11ddxfmtd4?authuser=0&entry=ttu",
     "latitude": "24.1239324",
     "longitude": "121.626005",
     "type": 0,
@@ -830,5 +830,6 @@
             "publishedDate": "2017/03/01",
             "tokenization": "營 | 地面 | 積夠 | 草地 | 營位 | 約 | Ｍ | Ｘ | Ｍ | 營位 | 獨立 | 水電 | 老闆 | 用心 | 喔"
         }
-    ]
+    ],
+    "phone": "0989 537 688"
 }

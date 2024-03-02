@@ -1,7 +1,7 @@
 ﻿{
     "name": "山美學2區",
     "address": "36446苗栗縣大湖鄉",
-    "google_map": "https://www.google.com/maps/place/%E5%B1%B1%E7%BE%8E%E5%AD%B82%E5%8D%80/@24.3653658,120.8726585,17z/data=!4m10!1m2!2m1!1z5bGx576O5a24!3m6!1s0x346917a08334aae1:0xa0a08f881ccda63e!8m2!3d24.3648016!4d120.8751094!15sCgnlsbHnvo7lrbiSAQVyYW5jaOABAA!16s%2Fg%2F11s5pmbckq?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%B1%B1%E7%BE%8E%E5%AD%B82%E5%8D%80/@24.3648016,120.8725345,17z/data=!3m1!4b1!4m6!3m5!1s0x346917a08334aae1:0xa0a08f881ccda63e!8m2!3d24.3648016!4d120.8751094!16s%2Fg%2F11s5pmbckq?authuser=0&entry=ttu",
     "latitude": "24.3653658",
     "longitude": "120.8726585",
     "type": 0,
@@ -806,5 +806,6 @@
             "publishedDate": "2023/03/01",
             "tokenization": "朋友 | 吸收 | 新鮮 | 大自然 | 空氣 | 感覺 | 舒服"
         }
-    ]
+    ],
+    "phone": "0902 313 768"
 }

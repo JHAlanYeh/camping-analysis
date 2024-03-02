@@ -1,7 +1,7 @@
 ﻿{
     "name": "灣東日出露營拖車",
     "address": "270宜蘭縣蘇澳鎮東澳路148-1號",
-    "google_map": "https://www.google.com/maps/place/%E7%81%A3%E6%9D%B1%E6%97%A5%E5%87%BA%E9%9C%B2%E7%87%9F%E6%8B%96%E8%BB%8A/@24.5130426,121.8334422,17z/data=!3m1!4b1!4m9!3m8!1s0x3467c3884bf2258b:0x3ca5fead74a76da7!5m2!4m1!1i2!8m2!3d24.5130426!4d121.8360171!16s%2Fg%2F11txf9vg91?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E7%81%A3%E6%9D%B1%E6%97%A5%E5%87%BA%E9%9C%B2%E7%87%9F%E6%8B%96%E8%BB%8A/@24.5130426,121.8334422,17z/data=!4m9!3m8!1s0x3467c3884bf2258b:0x3ca5fead74a76da7!5m2!4m1!1i2!8m2!3d24.5130426!4d121.8360171!16s%2Fg%2F11txf9vg91?authuser=0&entry=ttu",
     "latitude": "24.5130426",
     "longitude": "121.8334422",
     "type": 0,
@@ -152,5 +152,6 @@
             "publishedDate": "2023/06/01",
             "tokenization": "露營車 | 新 | 場地 | 很大 | 遮雨棚 | 下雨 | 包區還 | 晚上 | 吵到 | 很棒 | 辦活 | 動勝地"
         }
-    ]
+    ],
+    "phone": "0918 008 877"
 }

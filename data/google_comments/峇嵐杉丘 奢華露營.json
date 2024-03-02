@@ -1,7 +1,7 @@
 ﻿{
     "name": "峇嵐杉丘 奢華露營",
     "address": "555南投縣魚池鄉文正巷2之6號",
-    "google_map": "https://www.google.com/maps/place/%E5%B3%87%E5%B5%90%E6%9D%89%E4%B8%98+%E5%A5%A2%E8%8F%AF%E9%9C%B2%E7%87%9F/@23.8887837,120.9183066,17z/data=!4m9!3m8!1s0x3468d7dc82ff7e7f:0x16360a1d93e62c58!5m2!4m1!1i2!8m2!3d23.8887837!4d120.9208815!16s%2Fg%2F11swr48rp8?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%B3%87%E5%B5%90%E6%9D%89%E4%B8%98+%E5%A5%A2%E8%8F%AF%E9%9C%B2%E7%87%9F/@23.8887837,120.9183066,17z/data=!3m1!4b1!4m9!3m8!1s0x3468d7dc82ff7e7f:0x16360a1d93e62c58!5m2!4m1!1i2!8m2!3d23.8887837!4d120.9208815!16s%2Fg%2F11swr48rp8?authuser=0&entry=ttu",
     "latitude": "23.8887837",
     "longitude": "120.9183066",
     "type": 0,
@@ -5150,5 +5150,6 @@
             "publishedDate": "2023/02/28",
             "tokenization": "休閒 | 度假 | 地方"
         }
-    ]
+    ],
+    "phone": "04 9289 5688"
 }

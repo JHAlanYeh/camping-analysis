@@ -1,7 +1,7 @@
 ﻿{
     "name": "六沐森民宿.森居Glamping｜B＆B｜包棟｜漢淙黑松園_",
     "address": "363苗栗縣公館鄉仁安99之21號",
-    "google_map": "https://www.google.com/maps/place/%E5%85%AD%E6%B2%90%E6%A3%AE%E6%B0%91%E5%AE%BF.%E6%A3%AE%E5%B1%85Glamping%EF%BD%9CB%EF%BC%86B%EF%BD%9C%E5%8C%85%E6%A3%9F%EF%BD%9C%E6%BC%A2%E6%B7%99%E9%BB%91%E6%9D%BE%E5%9C%92%7C/@24.525841,120.83383,17z/data=!4m9!3m8!1s0x3469ab5fe12989f7:0xbe271102f9d83f76!5m2!4m1!1i2!8m2!3d24.525841!4d120.8364049!16s%2Fg%2F11glfll5c5?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%85%AD%E6%B2%90%E6%A3%AE%E6%B0%91%E5%AE%BF.%E6%A3%AE%E5%B1%85Glamping%EF%BD%9CB%EF%BC%86B%EF%BD%9C%E5%8C%85%E6%A3%9F%EF%BD%9C%E6%BC%A2%E6%B7%99%E9%BB%91%E6%9D%BE%E5%9C%92%7C/@24.525841,120.83383,17z/data=!3m1!4b1!4m9!3m8!1s0x3469ab5fe12989f7:0xbe271102f9d83f76!5m2!4m1!1i2!8m2!3d24.525841!4d120.8364049!16s%2Fg%2F11glfll5c5?authuser=0&entry=ttu",
     "latitude": "24.525841",
     "longitude": "120.83383",
     "type": 0,
@@ -902,5 +902,6 @@
             "publishedDate": "2022/03/01",
             "tokenization": "溫馨 | 可愛的 | 營區 | 管家 | 服務 | 很棒 | 喔 | 夏天"
         }
-    ]
+    ],
+    "phone": "0988 771 506"
 }

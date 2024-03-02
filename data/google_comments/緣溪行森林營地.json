@@ -1,7 +1,7 @@
 ﻿{
     "name": "緣溪行森林營地",
     "address": "545南投縣埔里鎮乾溪景觀橋545號",
-    "google_map": "https://www.google.com/maps/place/%E7%B7%A3%E6%BA%AA%E8%A1%8C%E6%A3%AE%E6%9E%97%E7%87%9F%E5%9C%B0/@23.9732155,120.9911594,17z/data=!4m9!3m8!1s0x3468db43825b9ae7:0xc2fbf839b29c5b7a!5m2!4m1!1i2!8m2!3d23.9732155!4d120.9937343!16s%2Fg%2F11pgzlndvf?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E7%B7%A3%E6%BA%AA%E8%A1%8C%E6%A3%AE%E6%9E%97%E7%87%9F%E5%9C%B0/@23.9732155,120.9911594,17z/data=!3m1!4b1!4m9!3m8!1s0x3468db43825b9ae7:0xc2fbf839b29c5b7a!5m2!4m1!1i2!8m2!3d23.9732155!4d120.9937343!16s%2Fg%2F11pgzlndvf?authuser=0&entry=ttu",
     "latitude": "23.9732155",
     "longitude": "120.9911594",
     "type": 0,
@@ -10466,5 +10466,6 @@
             "publishedDate": "2022/02/28",
             "tokenization": "孩子 | 玩 | 開心 | 爆米花 | 🍿 | ️ | 好吃 | 喔 | 🤣"
         }
-    ]
+    ],
+    "phone": "04 9290 0389"
 }

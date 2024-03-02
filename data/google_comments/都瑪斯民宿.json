@@ -1,7 +1,7 @@
 ﻿{
     "name": "都瑪斯民宿",
     "address": "365苗栗縣泰安鄉一鄰12-1號",
-    "google_map": "https://www.google.com/maps/place/%E9%83%BD%E7%91%AA%E6%96%AF%E6%B0%91%E5%AE%BF/@24.4018194,120.9051749,13z/data=!4m10!1m2!2m1!1z6YO955Gq5pav5rCR5a6_6Zyy54ef5Y2A!3m6!1s0x3468fec397cda2b3:0x35b129e923944af8!8m2!3d24.3838117!4d120.9691942!15sChjpg73nkarmlq_msJHlrr_pnLLnh5_ljYBaHyId6YO9IOeRqiDmlq8g5rCR5a6_IOmcsueHnyDljYCSARFiZWRfYW5kX2JyZWFrZmFzdJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOa2NFMDNjMHRSRUFF4AEA!16s%2Fg%2F1tlk93jr?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E9%83%BD%E7%91%AA%E6%96%AF%E6%B0%91%E5%AE%BF/@24.3838117,120.9666193,17z/data=!3m1!4b1!4m9!3m8!1s0x3468fec397cda2b3:0x35b129e923944af8!5m2!4m1!1i2!8m2!3d24.3838117!4d120.9691942!16s%2Fg%2F1tlk93jr?authuser=0&entry=ttu",
     "latitude": "24.4018194",
     "longitude": "120.9051749",
     "type": 0,
@@ -848,5 +848,6 @@
             "publishedDate": "2015/03/01",
             "tokenization": "頭目 | 之子 | 躺翔 | 山林 | 原野 | 間 | 愜意"
         }
-    ]
+    ],
+    "phone": "03 796 2102"
 }

@@ -82,8 +82,11 @@ for file in os.listdir(save_path):
 
         time.sleep(5)
         try:
-            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".Io6YTe.fontBodyMedium.kR99db")))
-            address = browser.find_element(By.CSS_SELECTOR, ".Io6YTe.fontBodyMedium.kR99db").text
+            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div:nth-child(3) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db")))
+            address = browser.find_element(By.CSS_SELECTOR, "div:nth-child(3) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db").text
+
+            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div:nth-child(5) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db")))
+            phone = browser.find_element(By.CSS_SELECTOR, "div:nth-child(5) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db").text
 
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".DUwDvf.lfPIob")))
             name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
@@ -234,12 +237,13 @@ for file in os.listdir(save_path):
             "type": 0,
             "expect_count": int(reviews_count),
             "actual_count": len(comment_objs),
-            "comments" : comment_objs
+            "comments" : comment_objs,
+            "phone": phone
         }
 
         file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))
         with open(file_name, 'w', encoding="utf-8-sig") as f:
-            json.dump(camping, f, indent=4, ensure_ascii=False)
+            json.dump(camping, f, indent=4, ensure_ascii=False, sort_keys=False)
             print("save {file_name}".format(file_name=file_name))
 
         browser.quit()

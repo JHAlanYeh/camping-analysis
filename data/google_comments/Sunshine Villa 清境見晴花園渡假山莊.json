@@ -1,7 +1,7 @@
 ﻿{
     "name": "Sunshine Villa 清境見晴花園渡假山莊",
     "address": "546南投縣仁愛鄉號",
-    "google_map": "https://www.google.com/maps/place/Sunshine+Villa+%E6%B8%85%E5%A2%83%E8%A6%8B%E6%99%B4%E8%8A%B1%E5%9C%92%E6%B8%A1%E5%81%87%E5%B1%B1%E8%8E%8A/@24.0415579,121.1557246,17z/data=!4m9!3m8!1s0x3468c2174ac4dcb7:0xc7b68ef3ca102b03!5m2!4m1!1i2!8m2!3d24.0415579!4d121.1582995!16s%2Fg%2F1tfcl23g?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/Sunshine+Villa+%E6%B8%85%E5%A2%83%E8%A6%8B%E6%99%B4%E8%8A%B1%E5%9C%92%E6%B8%A1%E5%81%87%E5%B1%B1%E8%8E%8A/@24.0415579,121.1557246,17z/data=!3m1!4b1!4m9!3m8!1s0x3468c2174ac4dcb7:0xc7b68ef3ca102b03!5m2!4m1!1i2!8m2!3d24.0415579!4d121.1582995!16s%2Fg%2F1tfcl23g?authuser=0&entry=ttu",
     "latitude": "24.0415579",
     "longitude": "121.1557246",
     "type": 0,
@@ -4580,5 +4580,6 @@
             "publishedDate": "2016/03/02",
             "tokenization": "房間 | 無暖氣 | 熱水水壓 | 低 | 風景 | 優美 | 漂亮 | 林間 | 小居"
         }
-    ]
+    ],
+    "phone": "04 9280 3162"
 }

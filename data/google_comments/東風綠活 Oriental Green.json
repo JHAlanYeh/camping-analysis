@@ -1,7 +1,7 @@
 ﻿{
     "name": "東風綠活 Oriental Green",
     "address": "26944宜蘭縣冬山鄉中山路769號",
-    "google_map": "https://www.google.com/maps/place/%E6%9D%B1%E9%A2%A8%E7%B6%A0%E6%B4%BB+Oriental+Green/@24.6183093,121.7278654,17z/data=!3m1!4b1!4m9!3m8!1s0x3467e74fa0ece7ef:0x209e1be43f4df69!5m2!4m1!1i2!8m2!3d24.6183044!4d121.7304403!16s%2Fg%2F1v298rsg?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E6%9D%B1%E9%A2%A8%E7%B6%A0%E6%B4%BB+Oriental+Green/@24.6183044,121.7278654,17z/data=!3m1!4b1!4m9!3m8!1s0x3467e74fa0ece7ef:0x209e1be43f4df69!5m2!4m1!1i2!8m2!3d24.6183044!4d121.7304403!16s%2Fg%2F1v298rsg?authuser=0&entry=ttu",
     "latitude": "24.6183093",
     "longitude": "121.7278654",
     "type": 0,
@@ -2468,5 +2468,6 @@
             "publishedDate": "2015/02/28",
             "tokenization": "收費 | 800 | 元 | 洗澡 | 間 | 太少 | 排隊"
         }
-    ]
+    ],
+    "phone": "03 958 7511"
 }

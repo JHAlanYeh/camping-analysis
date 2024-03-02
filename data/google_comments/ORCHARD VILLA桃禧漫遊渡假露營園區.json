@@ -1,7 +1,7 @@
 ﻿{
     "name": "ORCHARD VILLA桃禧漫遊渡假露營園區",
     "address": "335桃園市大溪區康莊路五段150-2號",
-    "google_map": "https://www.google.com/maps/place/ORCHARD+VILLA%E6%A1%83%E7%A6%A7%E6%BC%AB%E9%81%8A%E6%B8%A1%E5%81%87%E9%9C%B2%E7%87%9F%E5%9C%92%E5%8D%80/@24.8233905,121.2577145,17z/data=!4m9!3m8!1s0x34683d110d431af5:0xa9e6dc4eae506c64!5m2!4m1!1i2!8m2!3d24.8233905!4d121.2602894!16s%2Fg%2F11rw1sq7xk?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/ORCHARD+VILLA%E6%A1%83%E7%A6%A7%E6%BC%AB%E9%81%8A%E6%B8%A1%E5%81%87%E9%9C%B2%E7%87%9F%E5%9C%92%E5%8D%80/@24.8233905,121.2577145,17z/data=!3m1!4b1!4m9!3m8!1s0x34683d110d431af5:0xa9e6dc4eae506c64!5m2!4m1!1i2!8m2!3d24.8233905!4d121.2602894!16s%2Fg%2F11rw1sq7xk?authuser=0&entry=ttu",
     "latitude": "24.8233905",
     "longitude": "121.2577145",
     "type": 0,
@@ -2222,5 +2222,6 @@
             "publishedDate": "2023/03/01",
             "tokenization": "期待 | 露營"
         }
-    ]
+    ],
+    "phone": "03 471 3030"
 }

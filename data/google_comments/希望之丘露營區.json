@@ -1,7 +1,7 @@
 ﻿{
     "name": "希望之丘露營區",
     "address": "26943宜蘭縣冬山鄉小埤五路331號",
-    "google_map": "https://www.google.com/maps/place/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E4%B8%98%E9%9C%B2%E7%87%9F%E5%8D%80/@24.0200188,120.3521526,9z/data=!4m13!1m2!2m1!1z5biM5pyb5LmL5LiY!3m9!1s0x3467e0cadf50db95:0x7f60b7902aec210f!5m2!4m1!1i2!8m2!3d24.6336409!4d121.7246153!15sCgzluIzmnJvkuYvkuJiSAQpjYW1wZ3JvdW5k4AEA!16s%2Fg%2F11g726jjqx?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E4%B8%98%E9%9C%B2%E7%87%9F%E5%8D%80/@24.6336409,121.7220404,17z/data=!3m1!4b1!4m9!3m8!1s0x3467e0cadf50db95:0x7f60b7902aec210f!5m2!4m1!1i2!8m2!3d24.6336409!4d121.7246153!16s%2Fg%2F11g726jjqx?authuser=0&entry=ttu",
     "latitude": "24.0200188",
     "longitude": "120.3521526",
     "type": 0,
@@ -1310,5 +1310,6 @@
             "publishedDate": "2018/03/01",
             "tokenization": "新開幕 | 希望 | 之丘露 | 營地 | 好美"
         }
-    ]
+    ],
+    "phone": "0965 257 713"
 }

@@ -1,7 +1,7 @@
 ﻿{
     "name": "拂水山莊",
     "address": "555南投縣魚池鄉五馬巷2-15號",
-    "google_map": "https://www.google.com/maps/place/%E6%8B%82%E6%B0%B4%E5%B1%B1%E8%8E%8A/@23.9037706,120.9560804,17z/data=!3m1!4b1!4m9!3m8!1s0x3468d76996169a9d:0x8198ae8dba9c7e26!5m2!4m1!1i2!8m2!3d23.9037706!4d120.9586553!16s%2Fg%2F11b7jyrq4g?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E6%8B%82%E6%B0%B4%E5%B1%B1%E8%8E%8A/@23.9037706,120.9560804,17z/data=!3m1!4b1!4m6!3m5!1s0x3468d76996169a9d:0x8198ae8dba9c7e26!8m2!3d23.9037706!4d120.9586553!16s%2Fg%2F11b7jyrq4g?authuser=0&entry=ttu",
     "latitude": "23.9037706",
     "longitude": "120.9560804",
     "type": 0,
@@ -2084,5 +2084,6 @@
             "publishedDate": "2016/02/29",
             "tokenization": "Googel | 定位 | 不正 | 確 | 需再 | 往前"
         }
-    ]
+    ],
+    "phone": "0952 000 857"
 }
