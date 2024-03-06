@@ -33,7 +33,6 @@ def check_unfinished():
         for d in data:
             if d["disabled"] == 1 or d["type"] == 4:
                 continue
-            
 
             if "same_name" not in d:
                 print("============================")

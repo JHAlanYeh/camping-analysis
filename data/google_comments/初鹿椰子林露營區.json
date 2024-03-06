@@ -63,18 +63,6 @@
             "tokenization": "營地 | 當天僅 | 五帳 | 開闊 | 舒適 | 椰子 | 林秘境 | 感覺 | 隔天 | 老闆 | 買 | 鳳梨釋 | 迦 | 書法 | 展示 | BV | 包 | 分鐘 | 內學會 | 樹葉 | 吹 | 一曲 | 夜來 | 香"
         },
         {
-            "content": "空曠舒適，讚",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "空曠舒適 | 讚"
-        },
-        {
-            "content": "舒適的環境",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "舒適 | 環境"
-        },
-        {
             "content": "這個是一個溫暖的地方 阿公阿嬤待人親切阿公才華洋溢 寫了一手好字 到台東旅遊是一個很好的泊點",
             "rating": 5,
             "publishedDate": "2023/03/01",
@@ -147,12 +135,6 @@
             "tokenization": "農場 | 老闆 | 很熱心 | 耐心 | 解釋 | 水果 | 植物 | 知識 | 露營 | 豪華不過 | 地方 | 乾淨 | 講究"
         },
         {
-            "content": "很好的露營區",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "露營區"
-        },
-        {
             "content": "營區可以，但是有蜜蜂。所以要小心。",
             "rating": 5,
             "publishedDate": "2019/03/01",
@@ -183,18 +165,6 @@
             "tokenization": "姊 | 待人 | 熱心 | 親切 | 大哥 | 藝一絕 | 超推"
         },
         {
-            "content": "環境優美",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "環境 | 優美"
-        },
-        {
-            "content": "還可以",
-            "rating": 3,
-            "publishedDate": "2019/03/01",
-            "tokenization": ""
-        },
-        {
             "content": "農村氣息，環境超自然！老闆又多才多藝",
             "rating": 4,
             "publishedDate": "2018/03/01",
@@ -207,28 +177,10 @@
             "tokenization": "保留 | 原始 | 風貌 | 地方"
         },
         {
-            "content": "地方幽靜，場地夠大",
-            "rating": 3,
-            "publishedDate": "2018/03/01",
-            "tokenization": "地方 | 幽靜 | 場地夠"
-        },
-        {
             "content": "場地很寬敞，地點也不會太過於深山，基本水電設備都有。營主做了很多手工藝品，也有可以讓小朋友體驗的課程，適合親子來這邊渡假。",
             "rating": 5,
             "publishedDate": "2017/03/01",
             "tokenization": "場地 | 寬 | 敞 | 地點 | 太過 | 深山 | 水電 | 設備 | 營主 | 做 | 手工 | 藝品 | 小朋友 | 體驗 | 課程 | 適合 | 親子 | 渡假"
-        },
-        {
-            "content": "其實有更好的選擇",
-            "rating": 1,
-            "publishedDate": "2017/03/01",
-            "tokenization": "更好 | 選擇"
-        },
-        {
-            "content": "場地寬闊",
-            "rating": 4,
-            "publishedDate": "2017/03/01",
-            "tokenization": "場地 | 寬闊"
         },
         {
             "content": "白天蒼蠅多，晚上電力不足",

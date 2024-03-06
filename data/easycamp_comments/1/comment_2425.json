@@ -13,468 +13,546 @@
     "comments": [
         {
             "content": "平地的好選擇。1.交通:方便路大條好走2.景觀:晚上光害少的時候看得到星星3.設施:草皮維護得很好，傍晚蚊子多要注意4.浴廁:熱水穩定水量大，淋浴間大小剛好5.服務:垃圾定時收，營主常巡場",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2024/01/27",
             "tokenization": "平地 | 選擇 | 交通 | 路大條 | 走 | 景觀 | 晚上 | 光害 | 少 | 星星 | 設施 | 草皮 | 維護 | 傍晚 | 蚊子 | 多要 | 浴廁 | 熱水 | 穩定 | 水量 | 淋浴 | 間 | 大小 | 服務 | 垃圾 | 定時 | 收 | 營主 | 巡場"
         },
         {
             "content": "浴廁算乾淨的~可釣魚  孩子們玩的很開心",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2024/01/03",
             "tokenization": "浴 | 廁算 | 乾淨 | 可釣魚 | 孩子 | 玩 | 開心"
         },
         {
             "content": "廁所間數及空間需要的調整。因為我們是帶4歲及6歲的孩童，所以需要比較大的廁所空間，而每一區的帳數很多，廁所的間數也明顯不夠，但廁所內跟淋浴間是滿乾淨的！是維持很不錯的營區！",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2024/01/01",
             "tokenization": "廁所間 | 數及 | 空間 | 調整 | 因為 | 歲 | 歲 | 孩童 | 廁所 | 空間 | 一區 | 帳數 | 廁所 | 間數 | 廁所內 | 淋浴 | 間 | 滿乾淨 | 不錯 | 營區"
         },
         {
             "content": "環境不錯乾淨，空氣好，又可以釣魚好玩，釣到的魚又可以免費吃，超讚！。傍晚蚊子有點多，晚了就沒有了！",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/11/20",
             "tokenization": "環境 | 不錯 | 乾淨 | 空氣 | 釣魚 | 好玩 | 釣到 | 的魚 | 免費 | 吃 | 超 | 讚 | 傍晚 | 蚊子 | 晚"
         },
         {
             "content": "很讚~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/10/20",
             "tokenization": "讚"
         },
         {
             "content": "營主人很好 推推",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/03/16",
             "tokenization": "營主 | 推推"
         },
         {
             "content": "用心經營的一處好營地!。搭配九九莊園免費遊覽,相輔相成 加分不少,實為一大賣點亦是亮點!園區遼闊一望無際,令人心曠神怡身心舒暢,環境清幽 造景別出心裁!營位之電力插座不足,建議可增加四孔的插座!",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/03/04",
             "tokenization": "用心 | 經營 | 一處 | 營地 | 搭配 | 九九 | 莊園 | 免費 | 遊覽 | 相輔 | 相成 | 加 | 分 | 實為 | 一大 | 賣點 | 亮點 | 園區 | 遼闊 | 一望 | 無際 | 令人 | 心曠神怡 | 身心 | 舒暢 | 環境 | 清幽 | 造景 | 別出 | 心裁 | 營位 | 電力 | 插座 | 建議 | 增加 | 四孔 | 插座"
         },
         {
             "content": "很適合大小的露營區。很好的露營區還會在去",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/01/26",
             "tokenization": "適合 | 大小 | 露營區 | 露營區 | 還會"
         },
         {
             "content": "很棒",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/01/03",
             "tokenization": "很棒"
         },
         {
             "content": "營區寬敞、環境優美、很適合團露",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2022/11/03",
             "tokenization": "營區 | 寬 | 敞 | 環境 | 優美 | 適合 | 團露"
         },
         {
             "content": "落羽松的小湖很美  靠近九九莊園很方便。1.建議廁所可以再大一點2.遇到露友一直聊天喧嘩到凌晨2點還     不睡,請營主再跟露友宣導一下",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2022/03/11",
             "tokenization": "落羽松 | 小湖 | 美 | 靠近 | 九九 | 莊園 | 建議 | 廁所 | 再大 | 一點 | 露友 | 聊天 | 喧嘩 | 凌晨 | 點還 | 睡 | 請 | 營主 | 露友 | 宣導"
         },
         {
             "content": "落雨松很美，環境也不錯，有機會會再去",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2022/02/06",
             "tokenization": "落雨 | 松 | 美 | 環境 | 不錯 | 機會會"
         },
         {
             "content": "舒適又漂亮營主又友善的好營區。營區外的道路標識比較小需要找一下所以給四顆星，到場當天只有兩帳又下雨，營主非常好心疼讓我們選擇可以在室內搭帳，免去收濕帳的煩惱，離九九莊園很近所以可以逛一下拍拍照，營區內的兩個落羽松水池雖然當天沒有體驗到釣魚，但在池邊散步也很美麗",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2022/02/01",
             "tokenization": "舒適 | 漂亮 | 營主 | 友善 | 營區 | 營區 | 外 | 道路 | 標識 | 找 | 給四顆 | 星 | 到場 | 當天 | 兩帳 | 下雨 | 營主 | 心疼 | 選擇 | 室內 | 搭帳 | 免去 | 收濕帳 | 煩惱 | 九九 | 莊園 | 逛 | 拍拍 | 營區 | 兩個 | 落羽松 | 水池 | 當天 | 體驗 | 釣魚 | 池邊 | 散步 | 美麗"
         },
         {
             "content": "整體來說很棒!!!。缺點小黑蚊很多，要自備防蚊液",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2022/01/10",
             "tokenization": "整體 | 說 | 很棒 | 缺點 | 小黑 | 蚊 | 自備 | 防蚊液"
         },
         {
             "content": "活動空間大,很適合小孩,也可以到九九莊園拍照,有機會一定會再來",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/12/15",
             "tokenization": "活動 | 空間 | 適合 | 小孩 | 九九 | 莊園 | 拍照 | 機會"
         },
         {
             "content": "謝謝營主",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/12/12",
             "tokenization": "謝謝 | 營主"
         },
         {
             "content": "環境很好 釣魚池讓爸爸們很滿意",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/04/07",
             "tokenization": "環境 | 釣魚池 | 爸爸 | 滿意"
         },
         {
             "content": "悠閒舒適的環境。還有鄰近的九九莊園免費參觀,適合遛小孩的露營區;屬平地露營區,秋冬季節很舒適,夏天可能不適合",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/03/16",
             "tokenization": "悠閒 | 舒適 | 環境 | 鄰近 | 九九 | 莊園 | 免費 | 參觀 | 適合 | 遛 | 小孩 | 露營區 | 屬 | 平地 | 露營區 | 秋冬季 | 節 | 舒適 | 夏天 | 適合"
         },
         {
             "content": "場地很大，很適合親子共遊。場地很大，如果沒太多客人，還會特意把不同的露營團分隔很開，不怕吵到也有更大的使用玩樂空間，很棒!熱水24小時供應，水溫很穩定，隨時想沐浴都可以(每區都有廁所和沐浴處，不怕打擾到別人，也不用排隊)。附近的莊園免費進入，很多童玩小遊戲~小孩玩到都不想回家了~很棒",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/03/08",
             "tokenization": "場地 | 很大 | 適合 | 親子 | 共遊 | 場地 | 很大 | 沒太多 | 客人 | 還會 | 特意 | 露營團 | 分隔 | 很開 | 吵到 | 玩樂 | 空間 | 很棒 | 熱水 | 24 | 小時 | 供應 | 水溫 | 穩定 | 想 | 沐浴 | 每區 | 廁所 | 沐浴 | 處 | 打擾 | 不用 | 排隊 | 莊園 | 免費 | 童玩小遊戲 | 小孩 | 玩到 | 不想 | 回家 | 很棒"
         },
         {
             "content": "環境很舒適，公共設施也保持得很好，帳與帳之間距離大，不會被隔壁影響，露友們素質高到了晚上不喧嘩~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/02/19",
             "tokenization": "環境 | 舒適 | 公共 | 設施 | 帳與 | 帳之間 | 距離 | 隔壁 | 影響 | 露友們 | 素質 | 高到 | 晚上 | 喧嘩"
         },
         {
             "content": "還能去99莊園溜小孩",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/02/18",
             "tokenization": "還能 | 99 | 莊園 | 溜 | 小孩"
         },
         {
             "content": "超棒的營區",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/02/18",
             "tokenization": "超棒 | 營區"
         },
         {
             "content": "超棒的營區很大",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/02/18",
             "tokenization": "超棒 | 營區 | 很大"
         },
         {
             "content": "適合親子同樂的營區",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/02/18",
             "tokenization": "適合 | 親子 | 同樂 | 營區"
         },
         {
             "content": "園區環境優美，腹地寬廣，浴廁有衛生紙、吹風機、洗手乳很方便，也有飲水機跟冰箱。",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2021/02/17",
             "tokenization": "園區 | 環境 | 優美 | 腹地 | 寬廣 | 浴 | 廁有 | 衛生紙 | 吹風機 | 洗手 | 乳 | 飲水機 | 冰箱"
         },
         {
             "content": "雖然難逃新帳魔咒而遇雨，但也欣賞到園區迷濛的落羽松美景。有很棒的腹地(九九莊園)可以溜小孩。",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2020/10/07",
             "tokenization": "難 | 逃新帳 | 魔咒 | 遇雨 | 欣賞 | 園區 | 迷濛 | 落羽松 | 美景 | 很棒 | 腹地 | 九九 | 莊園 | 溜 | 小孩"
         },
         {
             "content": "有一片超大的草皮，超適合小屁孩跑，很酥服，讚啦！",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2020/09/11",
             "tokenization": "超大 | 草皮 | 超適合 | 小屁孩 | 跑 | 酥 | 服 | 讚"
         },
         {
             "content": "好",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2020/08/12",
             "tokenization": ""
         },
         {
             "content": "親子活動好去處",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2020/04/15",
             "tokenization": "親子 | 活動 | 處"
         },
         {
             "content": "草地寬敞。腹地廣大，草地寬敞，還有魚池生態區",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2020/03/24",
             "tokenization": "草地 | 寬敞 | 腹地 | 草地 | 寬敞 | 魚池 | 生態區"
         },
         {
             "content": "風景美 旁邊99餐廳好吃 悠閒棒棒澳",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2020/03/15",
             "tokenization": "風 | 景美 | 旁邊 | 99 | 餐廳 | 好吃 | 悠閒 | 棒棒 | 澳"
         },
         {
             "content": "空間寬敞，釣魚方便，可就近逛99莊園，適合秋冬露營。",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2020/02/15",
             "tokenization": "空間 | 寬 | 敞 | 釣魚 | 就近 | 逛 | 99 | 莊園 | 適合 | 秋冬 | 露營"
         },
         {
             "content": "營位空間蠻大不壅擠",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2020/02/10",
             "tokenization": "營位 | 空間 | 壅 | 擠"
         },
         {
             "content": "設施確時不錯但遇到下雨時草皮區積水的程度真的嚇死人了希望排水系統能做的更好。謝謝！",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/12/31",
             "tokenization": "設施 | 確時 | 不錯 | 下雨 | 時 | 草皮 | 區積 | 水 | 程度 | 真的 | 嚇死 | 希望 | 排水 | 系統 | 做 | 更好 | 謝謝"
         },
         {
             "content": "超大營區，不超收，給小孩足夠的游戲空間",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/11/10",
             "tokenization": "超大 | 營區 | 超收 | 小孩 | 足夠 | 游戲 | 空間"
         },
         {
             "content": "很棒很舒適的場地",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/11/03",
             "tokenization": "很棒 | 很舒適 | 場地"
         },
         {
             "content": "",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/10/24",
             "tokenization": ""
         },
         {
             "content": "小孩第一次釣魚 很有成就感",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/09/06",
             "tokenization": "小孩 | 第一次 | 釣魚 | 成就感"
         },
         {
             "content": "草原超大 玩球超棒的",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/09/06",
             "tokenization": "草原 | 超大 | 玩球 | 超棒"
         },
         {
             "content": "九九莊園可以走走, 很捧!",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/09/03",
             "tokenization": "九九 | 莊園 | 走走 | 捧"
         },
         {
             "content": "鄰近99莊園 可以散步遊覽",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/06/11",
             "tokenization": "鄰近 | 99 | 莊園 | 散步 | 遊覽"
         },
         {
             "content": "妥善安排營位，獲得無限歡樂。營主用心將營位錯開，小人玩得開心、大人覺得滿意。鄰近的九九莊園更是小人放電的好地方",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/05/14",
             "tokenization": "妥善 | 安排 | 營位 | 無限 | 歡樂 | 營主 | 用心 | 將營位 | 錯開 | 小人 | 玩得 | 開心 | 大人 | 滿意 | 鄰近 | 九九 | 莊園 | 更是 | 小人 | 放電 | 地方"
         },
         {
             "content": "超大營區, 九九莊園就在旁邊, 拍照打卡好去處, 還有遊園小火車可做, 露友有優惠價",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/04/09",
             "tokenization": "超大 | 營區 | 九九 | 莊園 | 旁邊 | 拍照 | 打卡 | 處 | 遊園 | 小火 | 車可 | 做 | 露友 | 優惠價"
         },
         {
             "content": "謝謝營主提供這麼好的場地。。營區地上的沙土偏多，放在客廳帳地上的設備都會蒙上一層土，若草地維護不易，建議可以提供護草墊，隔離地上的沙土。",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/03/07",
             "tokenization": "謝謝 | 營主 | 提供 | 場地 | 營區 | 地上 | 沙土 | 偏多 | 放在 | 客廳帳 | 地上 | 設備 | 蒙上 | 一層 | 土 | 草地 | 維護 | 不易 | 建議 | 提供 | 護草 | 墊 | 隔離 | 地上 | 沙土"
         },
         {
             "content": "營位大，環境很優，九九莊園可讓小孩玩一整天",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/03/04",
             "tokenization": "營位 | 環境 | 優 | 九九 | 莊園 | 小孩 | 玩 | 一整天"
         },
         {
             "content": "營區景觀超棒，營位又大，冰箱夠大台，對面九九莊園小孩放電的好去處",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/03/04",
             "tokenization": "營區 | 景觀 | 超棒 | 營位 | 冰箱 | 夠大台 | 對面 | 九九 | 莊園 | 小孩 | 放電 | 處"
         },
         {
             "content": "有一個大草原",
+            "type": 1,
             "rating": 3,
             "publishedDate": "2019/03/03",
             "tokenization": "草原"
         },
         {
             "content": "景觀美，設施佳。很讚的營地",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/12",
             "tokenization": "景觀 | 美 | 設施佳 | 讚 | 營"
         },
         {
             "content": "對第一次露營的人是不錯的選擇",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/11",
             "tokenization": "第一次 | 露營 | 不錯 | 選擇"
         },
         {
             "content": "那天風有點大，搭帳數不多，我們被要求搭在過橋後人會走動的路線，要求換營位。但營主認為當天會走動的人不多，不可換營位，但當天該區這麼大，我們要求不難..覺得營主沒想處理",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/02/11",
             "tokenization": "那天 | 風有點 | 搭 | 帳數 | 搭 | 過橋後人會 | 走動 | 路線 | 換營位 | 營主 | 認為 | 當天會 | 走動 | 換營位 | 當天 | 該區 | 不難 | 營主 | 沒想"
         },
         {
             "content": "環境不錯，附屬的九九莊園很好逛，只是衛浴有點小，大致上整體來說還不錯。。有時候會看到逛莊園的遊客到露營區來，感覺上比較沒有隱私，希望可以控管一下會好一點。",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/02/11",
             "tokenization": "環境 | 不錯 | 附屬 | 九九 | 莊園 | 逛 | 衛浴 | 整體 | 說 | 還不錯 | 逛 | 莊園 | 遊客 | 露營區 | 感覺 | 隱私 | 希望 | 控管 | 一點"
         },
         {
             "content": "營地廣大，鄰近景點多，九九莊園內設施眾多。營地非常廣闊，周邊景點很多，周邊機能也方便，九九莊園內孩童可以遊玩的設施很多，A區的浴廁較多且乾淨。B.D區共用的浴廁則稍嫌不足供應。整體來說還是很值得且適合親子露營的場地。",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/11",
             "tokenization": "營地 | 鄰 | 近景 | 點多 | 九九 | 莊園 | 設施眾 | 營地 | 廣闊 | 周邊 | 景點 | 周邊 | 機能 | 九九 | 莊園 | 孩童 | 遊玩 | 設施 | 區的 | 浴 | 廁較 | 多且 | 乾淨 | B | D | 區 | 共用 | 浴 | 廁則 | 稍嫌 | 供應 | 整體 | 說 | 值得 | 適合 | 親子 | 露營 | 場地"
         },
         {
             "content": "冬季露營好選擇",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/02/11",
             "tokenization": "冬季 | 露營 | 選擇"
         },
         {
             "content": "中間有留一大片空地給孩子們玩，很不錯!",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/02/11",
             "tokenization": "留 | 大片 | 空地 | 孩子 | 玩 | 很不錯"
         },
         {
             "content": "草地很大，空間很大，不會很擠",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/11",
             "tokenization": "草地 | 很大 | 空間 | 很大 | 擠"
         },
         {
             "content": "廁所衛浴過小，熱水不夠，清潔有待加強",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/11",
             "tokenization": "廁所衛 | 浴過 | 熱水 | 清潔 | 有待"
         },
         {
             "content": "大人小孩都有得玩,讚",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/11",
             "tokenization": "大人 | 小孩 | 玩 | 讚"
         },
         {
             "content": "環境很好、很乾淨",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/31",
             "tokenization": "環境 | 很乾淨"
         },
         {
             "content": "有機會再來。有機會再來",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/29",
             "tokenization": "機會 | 機會"
         },
         {
             "content": "空間大",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/01/17",
             "tokenization": "空間"
         },
         {
             "content": "營位大且舒服。營位大且舒服",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/08",
             "tokenization": "營位 | 大且 | 舒服 | 營位 | 大且 | 舒服"
         },
         {
             "content": "環境很有規化，造景豐富，景觀多樣，很棒的地方。",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/07",
             "tokenization": "環境 | 規化 | 造景 | 景觀 | 多樣 | 很棒 | 地方"
         },
         {
             "content": "很棒的營區",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/05",
             "tokenization": "很棒 | 營區"
         },
         {
             "content": "營區很大，小孩子跑跑跳跳有足夠空間。如果廁所整潔在加強會更好",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2019/01/03",
             "tokenization": "營區 | 很大 | 小孩子 | 跑跑跳跳 | 有足夠 | 空間 | 廁所 | 整潔 | 更好"
         },
         {
             "content": "營區很寬廣，很棒",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/03",
             "tokenization": "營區 | 寬廣 | 很棒"
         },
         {
             "content": "超大的草皮！很適合大人放空，小孩放電！",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2018/12/30",
             "tokenization": "超大 | 草皮 | 適合 | 大人 | 放空 | 小孩 | 放電"
         },
         {
             "content": "自由奔放，輕鬆自在，天地自然，生態豐富",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/12/29",
             "tokenization": "自由 | 奔放 | 輕 | 鬆 | 天地 | 自然 | 生態"
         },
         {
             "content": "營地大，拍照點不少",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2018/12/29",
             "tokenization": "營地 | 拍照 | 點"
         },
         {
             "content": "場地很大，還有很多設施可拍照",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/12/29",
             "tokenization": "場地 | 很大 | 設施 | 可拍照"
         },
         {
             "content": "環境好，接待人員很熱心，還會幫忙告知附近環境，值得再來。應禁止吸煙，尤其是在釣魚的地方",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/12/29",
             "tokenization": "環境 | 接待 | 人員 | 熱心 | 還會 | 幫忙 | 告知 | 環境 | 值得 | 再來 | 應 | 禁止 | 吸煙 | 釣魚 | 地方"
         },
         {
             "content": "除了超棒，不知道還可以怎樣形容~~。除了超棒，不知道還可以怎樣形容~~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/11/20",
             "tokenization": "超棒 | 形容 | 超棒 | 形容"
         },
         {
             "content": "除了超棒，不知道還可以怎樣形容~~。除了超棒，不知道還可以怎樣形容~~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/11/20",
             "tokenization": "超棒 | 形容 | 超棒 | 形容"
         },
         {
             "content": "除了超棒，不知道還可以怎樣形容~~。除了超棒，不知道還可以怎樣形容~~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/11/20",
             "tokenization": "超棒 | 形容 | 超棒 | 形容"
         },
         {
             "content": "除了超棒，不知道還可以怎樣形容~~。除了超棒，不知道還可以怎樣形容~~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/11/20",
             "tokenization": "超棒 | 形容 | 超棒 | 形容"
         },
         {
             "content": "除了超棒，不知道還可以怎樣形容~~。1.因為更換位置造成營主不便，營主仍盡力解決，讓此次回憶快樂圓滿，非常感謝。2.熱愛釣魚的人、享受安靜的人、喜歡玩樂的人.......大朋友跟小朋友(玩瘋了)都非常開心。3.感謝家人、朋友、營主，給了大家美好的回憶。",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/11/20",
             "tokenization": "超棒 | 形容 | 因為 | 更換 | 位置 | 營主 | 不便 | 營主 | 盡力 | 解決 | 回憶 | 快樂圓滿 | 感謝 | 熱愛釣魚 | 享受 | 安靜 | 喜歡 | 玩樂 | ....... | 朋友 | 小朋友 | 玩 | 瘋 | 開心 | 感謝 | 家人 | 朋友 | 營主 | 給了 | 美好 | 回憶"
         },
         {
             "content": "繼續努力。希望能增設一些小朋友遊玩的設施和泳池",
+            "type": 1,
             "rating": 4,
             "publishedDate": "2018/10/18",
             "tokenization": "努力 | 希望 | 增設 | 小朋友 | 遊玩 | 設施 | 泳池"
         },
         {
             "content": "適合冬露的營區",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/09/02",
             "tokenization": "適合冬露 | 營區"
         },
         {
             "content": "交通便利",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2018/08/23",
             "tokenization": "交通 | 便利"

@@ -15,12 +15,6 @@
             "tokenization": "場地 | 嚇人 | 用心 | 維護 | 為 | 營利場 | 狹窄 | 雨天 | 不用 | 說 | 真的 | 看清楚 | 評論"
         },
         {
-            "content": "場地有待改進",
-            "rating": 1,
-            "publishedDate": "2024/02/01",
-            "tokenization": "場地 | 有待 | 改進"
-        },
-        {
             "content": "環境清幽，有溪水長流，可以玩水又有烤肉區可以烤肉，青山綠水，烤肉的好去處。",
             "rating": 4,
             "publishedDate": "2023/10/01",
@@ -99,12 +93,6 @@
             "tokenization": "有溪 | 玩水 | 廁所好 | 烤肉 | 場地 | 收費 | 太貴"
         },
         {
-            "content": "適合烤肉路有點難開",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "適合 | 烤肉 | 路 | 難開"
-        },
-        {
             "content": "好山好水好風光，蟲鳴鳥叫水潺潺，烤肉玩水自在游。",
             "rating": 4,
             "publishedDate": "2023/03/01",
@@ -133,12 +121,6 @@
             "rating": 3,
             "publishedDate": "2023/03/01",
             "tokenization": "簡單 | 泡茶 | 地點 | 想到 | 溪邊 | 沖 | 涼 | 亦可 | 心態 | 放 | 輕 | 鬆 | 食物 | 飲品 | 自帶 | 輕 | 鬆 | 自然 | 活動區"
-        },
-        {
-            "content": "適合野餐聚會",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "適合 | 野餐 | 聚會"
         },
         {
             "content": "陰涼有小瀑布，涼風徐徐，可以烤肉",
@@ -213,24 +195,6 @@
             "tokenization": "老闆 | 跟土 | 霸王 | 不允許 | 釣客 | 磺窟 | 溪 | 釣魚 | 放 | 刺 | 九重葛 | 放在 | 下切 | 溪流 | 路徑 | 收費露 | 營客 | 下溪 | 玩水 | 捉魚 | 蝦 | 請問 | 磺窟 | 溪 | 新北 | 市政府 | 公告 | 封溪 | 釣魚 | 收費露 | 營客 | 下水 | 玩水 | 捉魚 | 蝦 | 這是 | 鬼 | 道理 | 比新北 | 市政府"
         },
         {
-            "content": "很自然",
-            "rating": 4,
-            "publishedDate": "2022/03/01",
-            "tokenization": "自然"
-        },
-        {
-            "content": "體驗大自然的地方",
-            "rating": 5,
-            "publishedDate": "2022/03/01",
-            "tokenization": "體驗 | 大自然 | 地方"
-        },
-        {
-            "content": "環境凌亂",
-            "rating": 3,
-            "publishedDate": "2022/03/01",
-            "tokenization": "環境 | 凌亂"
-        },
-        {
             "content": "親近大自然，建立友誼好去處。",
             "rating": 5,
             "publishedDate": "2022/03/01",
@@ -291,12 +255,6 @@
             "tokenization": "親子 | 戲水 | 家庭 | 聚會 | 烤肉 | 處 | 老闆娘 | 親切 | 客氣 | 值得 | 一遊 | 入口 | 不太明顯 | 招牌"
         },
         {
-            "content": "收費太高了",
-            "rating": 1,
-            "publishedDate": "2021/03/01",
-            "tokenization": "收費 | 太高"
-        },
-        {
             "content": "環境不錯清幽戲水池很適合小朋友來玩不過生意很好要預約",
             "rating": 5,
             "publishedDate": "2021/03/01",
@@ -327,28 +285,10 @@
             "tokenization": "夏天 | 適合來 | 玩水 | 新店 | 碧潭"
         },
         {
-            "content": "不錯的戲水區",
-            "rating": 4,
-            "publishedDate": "2021/03/01",
-            "tokenization": "不錯 | 戲水區"
-        },
-        {
             "content": "感謝您一如既往的支持！一個冷靜、冷靜、善良的老太太！",
             "rating": 5,
             "publishedDate": "2021/03/01",
             "tokenization": "感謝 | 一如既往 | 支持 | 冷靜 | 冷靜 | 善良 | 老太太"
-        },
-        {
-            "content": "超好玩",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "超 | 好玩"
-        },
-        {
-            "content": "呵呵",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": ""
         },
         {
             "content": "環境不太乾淨烤肉桌椅有回程一趟一日遊回來被蚊子叮咬",
@@ -387,22 +327,10 @@
             "tokenization": "場地 | 很棒 | 晚上 | 可伴 | 溪流 | 聲音 | 入眠 | 白天 | 溪流 | 小孩 | 最喜 | 愛的 | 遊戲場 | 路標 | 清晰 | 前往"
         },
         {
-            "content": "還好",
-            "rating": 1,
-            "publishedDate": "2020/03/01",
-            "tokenization": "還好"
-        },
-        {
             "content": "我很喜歡這個露營區的草皮  可惜傍晚時會有小黑蚊出沒。最令我詬病的是 廁所的環境真的很糟糕 很髒...洗澡的地方 有3間  但其中兩間地上滿滿的灰塵跟落葉 應該沒人用過了 另外一間洗到一半會淹水 水淹到腳踝感覺很噁心！！！ 希望營主可以好好經營這裡的環境！",
             "rating": 2,
             "publishedDate": "2020/03/01",
             "tokenization": "喜歡 | 露營區 | 草皮 | 可惜 | 傍晚 | 時會 | 小黑 | 蚊出 | 最令 | 詬 | 病 | 廁所 | 環境 | 真的 | 糟糕 | 髒 | 洗澡 | 地方 | 間 | 兩間 | 地上 | 滿滿 | 灰塵 | 落葉 | 沒人 | 用過 | 一間 | 洗到 | 一半 | 淹水 | 水淹 | 腳踝 | 感覺 | 噁 | 心 | 希望 | 營主 | 好好 | 經營 | 環境"
-        },
-        {
-            "content": "休閒放鬆一下的地方",
-            "rating": 3,
-            "publishedDate": "2020/03/01",
-            "tokenization": "休閒 | 放 | 鬆 | 地方"
         },
         {
             "content": "溪邊烤肉佳，有溪水草坪可供小孩&寵物玩耍，老闆娘友善，另有沖洗間可供遊玩後盥洗",
@@ -423,18 +351,6 @@
             "tokenization": "收費 | 廁所 | 環境 | 衛生 | 差 | 說 | 真的 | 露營 | 話 | 真的 | 來錯 | 地方 | 晚上 | 連燈 | 廁所距 | 離遠 | 差差"
         },
         {
-            "content": "可玩水",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "玩水"
-        },
-        {
-            "content": "乾淨的小溪",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "乾淨 | 小溪"
-        },
-        {
             "content": "烤肉戲水，只是蚊子有點多，廁所及更衣室low，收費有點貴",
             "rating": 3,
             "publishedDate": "2020/03/01",
@@ -447,22 +363,10 @@
             "tokenization": "夏天 | 烤肉 | 地方 | 有涼亭 | 溪水 | 空地 | 淋浴 | 間 | 辦團康 | 烤肉 | 戲水 | 老闆 | 親切"
         },
         {
-            "content": "烤肉玩水一次搞定",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "烤肉 | 玩水 | 搞定"
-        },
-        {
             "content": "溪水清澈，整體環境乾淨",
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "溪水 | 清澈 | 整體 | 環境 | 乾淨"
-        },
-        {
-            "content": "乾淨好自然",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "乾淨 | 自然"
         },
         {
             "content": "1.建議廁所,淋浴間,加墊高式的格子防滑板,這樣比較安全,踩上去感覺也比較乾淨2.淋浴間沒熱水...3.人多收費應該有些優惠,這樣主辦找人會比較容易帶小朋友溪邊烤肉戲水還算不錯...",
@@ -483,42 +387,6 @@
             "tokenization": "露營區 | 環境 | 不好 | 列出 | 三點 | 供 | 參考 | 衛浴 | 設備 | 老舊 | 淋浴 | 間 | 排水管 | 堵塞 | 洗完 | 澡 | 水淹 | 腳踝 | 請 | 自行 | 想像 | 情況 | 掃興 | 冰箱 | 放置 | 老舊 | 潮濕 | 屋子 | 裡 | 冰箱 | 空間 | 太小 | 夏天 | 炎熱 | 天氣 | 隔天 | 早餐 | 食材 | 辦法放 | 營主 | 態度 | 太 | 喜歡 | 一到 | 營區 | 營主 | 問了 | 訂位 | 名字 | 收尾 | 款後說 | 訂四帳 | 營區 | 營主 | 營位 | 講完 | 話 | 走掉 | 冰箱 | 淋浴 | 間 | 位置 | 找 | 不到 | 冰箱 | 到營 | 本部 | 問 | 朋友 | 達 | 時 | 再收 | 錢 | 天 | ㄎ | ㄧ | ㄤ | ˉ | 營主 | 用心 | 經營 | 推 | 真的 | 推 | 15 | 露 | 可怕 | 經驗 | 分享"
         },
         {
-            "content": "玩水的好去處",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "玩水 | 處"
-        },
-        {
-            "content": "夏秋玩水烤肉的好地方",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "夏秋 | 玩水 | 烤肉 | 地方"
-        },
-        {
-            "content": "世外桃源，親山親水",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "世外桃源 | 親山 | 親水"
-        },
-        {
-            "content": "小朋友的天堂",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "小朋友 | 天堂"
-        },
-        {
-            "content": "風景很美",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "風景 | 美"
-        },
-        {
-            "content": "風景好",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "風景"
-        },
-        {
             "content": "位處水源保護區內... 居然用來餐廳營業遊客釣魚烤肉，然後流下去的水再供給大台北使用",
             "rating": 1,
             "publishedDate": "2020/03/01",
@@ -535,24 +403,6 @@
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "貼 | 大自然 | 台灣 | 藍鵲 | 不錯 | 露營 | 地區"
-        },
-        {
-            "content": "去過最棒的營地！",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "去過 | 最棒 | 營地"
-        },
-        {
-            "content": "戶外活動好去處",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "戶外 | 活動 | 處"
-        },
-        {
-            "content": "露營的好地方",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "露營 | 地方"
         },
         {
             "content": "易達性不足，烤肉區太擁擠，但你玩水不錯",
@@ -573,22 +423,10 @@
             "tokenization": "溪水 | 清澈 | 空間 | 配置 | 優良 | 停車位"
         },
         {
-            "content": "世外桃源",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "世外桃源"
-        },
-        {
             "content": "聚餐烤肉好地方，還有自然的 溪水可以玩耍",
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "聚餐 | 烤肉 | 地方 | 自然 | 溪水 | 玩耍"
-        },
-        {
-            "content": "童軍訓練員",
-            "rating": 3,
-            "publishedDate": "2019/03/01",
-            "tokenization": "童軍訓 | 練員"
         },
         {
             "content": "場地規劃不錯，販賣東西的種類太少",
@@ -609,12 +447,6 @@
             "tokenization": "收人頭費 | 停車費 | 水質 | 很優"
         },
         {
-            "content": "讚！",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "讚"
-        },
-        {
             "content": "離台北近，可玩水，可露營，還有販賣部",
             "rating": 4,
             "publishedDate": "2019/03/01",
@@ -631,12 +463,6 @@
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "平日 | 舒適 | 自備 | 柴爐 | 撿 | 溪邊 | 漂流 | 木來 | 生火 | 整體 | 環境 | 維護 | 門票 | 價位 | 平實 | 場地 | 不易 | 感受 | 地主 | 用心"
-        },
-        {
-            "content": "還好",
-            "rating": 3,
-            "publishedDate": "2019/03/01",
-            "tokenization": "還好"
         },
         {
             "content": "場地不大，小溪水質欠佳，而且水下石頭都特滑的，下去玩水要小心。",
@@ -657,12 +483,6 @@
             "tokenization": "環境 | 不錯 | 蚊子 | 稍 | 大自然 | 辦法 | 缺 | 飲水機 | 建議 | 裝設"
         },
         {
-            "content": "貼近大自然的好地方",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "貼近 | 大自然 | 地方"
-        },
-        {
             "content": "遠離塵囂紓解身心壓力不錯的一天",
             "rating": 4,
             "publishedDate": "2019/03/01",
@@ -675,34 +495,10 @@
             "tokenization": "生態 | 雨棚 | 空間 | 足 | B | 區 | 桌椅 | 玩水 | 溪流 | 深 | 淺 | 小朋友 | 浴廁 | 太 | 整潔"
         },
         {
-            "content": "風景優美",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "風景 | 優美"
-        },
-        {
             "content": "野餐露營玩水好地方! 但遇到至深夜音樂放很大聲的\"鄰居\"時，實在擾人，又不見管理員出面制止，美中不足 !",
             "rating": 4,
             "publishedDate": "2019/03/01",
             "tokenization": "野餐 | 露營 | 玩水 | 地方 | 深夜 | 音樂放 | 很大 | 聲 | 鄰居 | 時 | 實在擾 | 不見 | 管理 | 員 | 出面 | 制止 | 美中不足"
-        },
-        {
-            "content": "設備一應俱全",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "設備 | 一應 | 俱全"
-        },
-        {
-            "content": "烤肉戲水好去處",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "烤肉 | 戲水 | 處"
-        },
-        {
-            "content": "老闆熱情",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "老闆 | 熱情"
         },
         {
             "content": "夏天可以賞螢玩水，很棒",
@@ -711,52 +507,16 @@
             "tokenization": "夏天 | 賞螢 | 玩水 | 很棒"
         },
         {
-            "content": "親子玩水的好地方",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "親子 | 玩水 | 地方"
-        },
-        {
-            "content": "環境優美，空氣清澈",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "環境 | 優美 | 空氣 | 清澈"
-        },
-        {
             "content": "景緻宜人休憩露營好去處",
             "rating": 5,
             "publishedDate": "2018/03/01",
             "tokenization": "景 | 緻 | 宜人 | 休憩 | 露營 | 處"
         },
         {
-            "content": "露營的好地點",
-            "rating": 2,
-            "publishedDate": "2018/03/01",
-            "tokenization": "露營 | 地點"
-        },
-        {
             "content": "郊遊、野餐、烤肉好地方。",
             "rating": 4,
             "publishedDate": "2018/03/01",
             "tokenization": "郊遊 | 野餐 | 烤肉 | 地方"
-        },
-        {
-            "content": "戲水烤肉的好地方",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "戲水 | 烤肉 | 地方"
-        },
-        {
-            "content": "環抱大自然是一種享受",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "環抱 | 大自然 | 一種 | 享受"
-        },
-        {
-            "content": "去烤肉還可以玩水",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "烤肉 | 玩水"
         },
         {
             "content": "可以露營，烤肉，玩水的地方",
@@ -807,12 +567,6 @@
             "tokenization": "環境 | 管理 | 維護 | 不錯 | 值得 | 玩水 | 烤肉 | 推"
         },
         {
-            "content": "台北的後花園",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "台北 | 花園"
-        },
-        {
             "content": "白天這裡非常熱鬧，有台灣家庭烤肉和在河裡游泳，但到了晚上幾乎空無一人。",
             "rating": 4,
             "publishedDate": "2018/03/01",
@@ -831,34 +585,10 @@
             "tokenization": "很棒 | 地方 | 隱密 | 舒服"
         },
         {
-            "content": "環境清幽",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "環境 | 清幽"
-        },
-        {
             "content": "近台北市 路程  地方不大，近溪水，樹葉茂盛。",
             "rating": 4,
             "publishedDate": "2018/03/01",
             "tokenization": "台北市 | 路程 | 地方 | 溪水 | 樹葉 | 茂盛"
-        },
-        {
-            "content": "烤肉戲水好地方",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "烤肉 | 戲水好 | 地方"
-        },
-        {
-            "content": "自然生態豐富",
-            "rating": 3,
-            "publishedDate": "2018/03/01",
-            "tokenization": "自然 | 生態"
-        },
-        {
-            "content": "環境清幽",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "環境 | 清幽"
         },
         {
             "content": "營地我們住的是有鐵皮屋的屋頂，場地算乾淨的了，但男廁的小便斗倒是蠻髒的，好像沒在洗，小朋友都不太敢去上，所以晚上小朋友們都沒去洗澡，重點是小黑蚊超多的，小朋友被叮到哇哇叫，好似跳蚤咬的情況，夠恐怖的，",
@@ -877,18 +607,6 @@
             "rating": 5,
             "publishedDate": "2017/03/01",
             "tokenization": "30 | 年前 | 來過 | 原始 | 沒人來 | 清淨 | 慢慢 | 開發現 | 房間 | 餐廳 | 可露營 | 帳篷 | 野炊 | 用品 | 動手"
-        },
-        {
-            "content": "門票貴些",
-            "rating": 3,
-            "publishedDate": "2017/03/01",
-            "tokenization": "門票 | 貴些"
-        },
-        {
-            "content": "烤肉好去處",
-            "rating": 5,
-            "publishedDate": "2017/03/01",
-            "tokenization": "烤肉 | 處"
         },
         {
             "content": "很棒的地點，可以戲水跟烤肉",
@@ -913,12 +631,6 @@
             "rating": 5,
             "publishedDate": "2017/03/01",
             "tokenization": "蚊子 | 露營場"
-        },
-        {
-            "content": "不錯的環境",
-            "rating": 5,
-            "publishedDate": "2017/03/01",
-            "tokenization": "不錯 | 環境"
         },
         {
             "content": "還不錯，帶小孩烤肉的好去處!讚",

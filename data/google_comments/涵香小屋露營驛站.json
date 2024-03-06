@@ -9,12 +9,6 @@
     "actual_count": 108,
     "comments": [
         {
-            "content": "可以喔",
-            "rating": 5,
-            "publishedDate": "2024/02/09",
-            "tokenization": "喔"
-        },
-        {
             "content": "馬路邊來往車輛聲影響。特別注意有小黑蚊要預防。",
             "rating": 4,
             "publishedDate": "2024/02/01",
@@ -57,12 +51,6 @@
             "tokenization": "營主 | 親切 | 環境 | 舒適 | 乾淨 | 二次 | 造訪 | 值得 | 下次 | 再來"
         },
         {
-            "content": "老闆人太好",
-            "rating": 5,
-            "publishedDate": "2023/06/01",
-            "tokenization": "老闆 | 人太好"
-        },
-        {
             "content": "營主很親切，場地很大，很悠閒!晚上旁邊還看得到螢火蟲~",
             "rating": 5,
             "publishedDate": "2023/06/01",
@@ -85,18 +73,6 @@
             "rating": 3,
             "publishedDate": "2023/03/01",
             "tokenization": "小木屋 | 價格 | 偏高 | 空間 | 狹小 | 浴室 | 排水 | 不好 | 房間 | 燈泡 | 外觀 | 破裂 | 更換 | 浴室 | 排風差 | 燈色 | 昏暗 | 隔音 | 不好 | 價格 | 偏貴 | 建議 | 營地 | 禁止 | 玩棒 | 壘球 | 遊戲 | 吃個 | 飯 | 有球 | 飛 | 放任 | 小孩 | 大人 | 影響 | 真的 | 狠 | 誇張"
-        },
-        {
-            "content": "簡單且價格合理的營地",
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "簡單 | 價格 | 營地"
-        },
-        {
-            "content": "乾淨、簡單&舒適",
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "乾淨 | 簡單 | 舒適"
         },
         {
             "content": "在馬路旁邊，半夜車子呼嘯而過。易被驚醒，腹地較小，比較適合靜態活動。水壓較低，水龍頭清洗一半會突然沒水。",
@@ -201,12 +177,6 @@
             "tokenization": "營區 | 小小的 | 整理 | 乾淨 | 營主 | 服務 | 木屋 | 公用 | 淋浴 | 熱水穩 | 充足 | 最終 | 露營 | 感受 | 週遭 | 營友 | 半夜 | 帳外 | 抽 | 菸 | 喝酒 | 高聲 | 聊天 | 話"
         },
         {
-            "content": "環境優美，值得再去",
-            "rating": 5,
-            "publishedDate": "2022/03/01",
-            "tokenization": "環境 | 優美 | 值得"
-        },
-        {
             "content": "麻雀雖小 五臟俱全，小孩開心大人也開心，燈光美氣氛佳。絕對是親子同樂的好選擇！",
             "rating": 5,
             "publishedDate": "2022/03/01",
@@ -267,28 +237,10 @@
             "tokenization": "選 | 號 | 小木屋 | 異味"
         },
         {
-            "content": "放鬆心情好地方",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "放 | 鬆 | 心情 | 地方"
-        },
-        {
             "content": "營區大小適中，設備齊全，營主友善好客，讓人不會有壓力，很好的經驗",
             "rating": 5,
             "publishedDate": "2021/03/01",
             "tokenization": "營區 | 大小 | 適中 | 設備 | 齊全 | 營主 | 友善 | 好客 | 壓力 | 經驗"
-        },
-        {
-            "content": "廁所衛生普通",
-            "rating": 3,
-            "publishedDate": "2021/03/01",
-            "tokenization": "廁所衛生"
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "很棒"
         },
         {
             "content": "小營區在馬路邊，七號藍木屋床小只能睡三人，三號黃色木屋床大舒適，木屋的衛浴小",
@@ -339,22 +291,10 @@
             "tokenization": "週末 | 真的 | 物超所值 | 晚餐 | 看銀河 | 真的 | 愜意 | 食材當 | 宵夜 | 吃 | 露營 | 總算 | 克服 | 開心 | 營狗超 | 可愛的"
         },
         {
-            "content": "好小",
-            "rating": 2,
-            "publishedDate": "2020/03/01",
-            "tokenization": ""
-        },
-        {
             "content": "隔壁的土地有人一直在燒廢棄物 從中午燒到晚上 超臭",
             "rating": 1,
             "publishedDate": "2020/03/01",
             "tokenization": "隔壁 | 土地 | 有人 | 燒廢棄物 | 中午 | 燒到 | 晚上 | 超臭"
-        },
-        {
-            "content": "還算蠻乾淨的露營營地",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "還算蠻 | 乾淨 | 露營 | 營地"
         },
         {
             "content": "帳帳相連，草皮枯黃，浴廁髒亂，草地上還有狗大便，帳篷撘滿後小孩就沒有遊玩的空間。營主有養狗，不喜歡狗的要考慮。營主態度還不錯，因此未給一顆星",
@@ -417,12 +357,6 @@
             "tokenization": "老闆 | 親切 | 小孩 | 放風 | 地方 | 野溪 | 玩"
         },
         {
-            "content": "戲水中",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "戲 | 水中"
-        },
-        {
             "content": "木屋很可愛，也很好拍，兒子超喜歡的當天臨時下雨，營主很熱心的幫我們換到木屋裡下過雨的天空很漂亮，晚上還有星星可以很好的親近大自然，或者跟朋友聚會跟老公決定下次來這邊包場聚會了",
             "rating": 5,
             "publishedDate": "2020/03/01",
@@ -439,12 +373,6 @@
             "rating": 1,
             "publishedDate": "2020/03/01",
             "tokenization": "環境 | 不好 | 小木屋 | 螞蟻 | 一堆 | 設備 | 整理"
-        },
-        {
-            "content": "環境很好",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "環境"
         },
         {
             "content": "老闆人很好喔！給予很多的幫助！給你一個讚！！",
@@ -465,22 +393,10 @@
             "tokenization": "空氣 | 水質 | 木屋 | 可愛很療 | 癒 | 老闆 | 很熱心"
         },
         {
-            "content": "看的到螢火蟲耶。",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "螢火蟲 | 耶"
-        },
-        {
             "content": "最佳親子露營區，有獨立木屋很讚哦",
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "最佳 | 親子 | 露營區 | 獨立 | 木屋 | 讚"
-        },
-        {
-            "content": "老闆親切，休閒好去處",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "老闆 | 親切 | 休閒 | 處"
         },
         {
             "content": "覺得木屋🏡價格貴，一晚$2200去一般民宿這個價格享有早餐冷氣（還沒有WiFi)，木屋內部通風系統不好，只有一台電扇，環境角落很多髒污（死蟲），衛浴設備水壓很小熱水器忽冷忽熱，排水系統不好，木屋🏡沒有鑰匙可以鎖（貴重物品只能隨身攜帶）公共衛生衛浴維護極差，非常噁心（應該是當天遊客素質差）到處都是毛髮未清理，帶孩子進去洗澡噁心到我想吐！希望營主可以更加好好維護營區整潔（住宿部份）謝謝 …",
@@ -519,46 +435,10 @@
             "tokenization": "營主 | 親切 | 網 | 路上 | 照片"
         },
         {
-            "content": "老闆人很客氣",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "老闆 | 客氣"
-        },
-        {
-            "content": "魚池鄉離日月潭附近",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "魚池 | 鄉離 | 日月潭"
-        },
-        {
-            "content": "衛浴少且環境尚待改進",
-            "rating": 1,
-            "publishedDate": "2019/03/01",
-            "tokenization": "衛浴 | 少且 | 環境 | 尚待 | 改進"
-        },
-        {
-            "content": "房子小",
-            "rating": 3,
-            "publishedDate": "2019/03/01",
-            "tokenization": "房子"
-        },
-        {
-            "content": "環境很好",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "環境"
-        },
-        {
             "content": "有山泉水在循環的小小池是溜小孩的好地方",
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "山泉水 | 循環 | 小小 | 池是 | 溜 | 小孩 | 地方"
-        },
-        {
-            "content": "小木屋很溫馨水很清澈",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "小木屋 | 溫馨 | 水 | 清澈"
         },
         {
             "content": "秋意漸近 營區白天涼爽秋風  更顯一份濃厚秋意 聽營主說有意在營區放置數座一屋難求童話木屋 想一圓北歐童話夢幻木屋 手腳要快",
@@ -591,34 +471,16 @@
             "tokenization": "空氣 | 旁邊 | 溪 | 營區 | 小孩 | 玩水 | 玩沙 | 地方 | 適合帶 | 小孩 | 玩"
         },
         {
-            "content": "簡單輕鬆的休閒營地。",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "簡單 | 輕 | 鬆 | 休 | 閒 | 營"
-        },
-        {
             "content": "空氣很棒,營區有戲水池和玩沙區,很適合親子活動，這次我們住的是木屋,晩上很涼爽，不用冷氣也很好入睡°",
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "空氣 | 很棒 | 營區 | 有戲 | 水池 | 玩 | 沙區 | 適合 | 親子 | 活動 | 住 | 木屋 | 晩 | 涼爽 | 不用 | 冷氣 | 入睡 | °"
         },
         {
-            "content": "有點擁擠 不好停車",
-            "rating": 2,
-            "publishedDate": "2019/03/01",
-            "tokenization": "擁擠 | 不好 | 停車"
-        },
-        {
             "content": "環境不錯但房間差了點，建議露營",
             "rating": 3,
             "publishedDate": "2019/03/01",
             "tokenization": "環境 | 不錯 | 房間 | 差 | 了點 | 建議 | 露營"
-        },
-        {
-            "content": "風景優美",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "風景 | 優美"
         },
         {
             "content": "管理的阿山哥很親切很細心也花時間帶我們去夜訪螢火蟲雖然剛好我們那間房間衛浴設備較不舒適，但仍是很棒的露營地點",
@@ -649,12 +511,6 @@
             "rating": 5,
             "publishedDate": "2018/03/01",
             "tokenization": "漂亮 | 乾淨 | 營地 | 老闆 | 老闆 | 父母 | 有種 | 植許 | 松柏 | 樟樹 | 推薦 | 露營"
-        },
-        {
-            "content": "衛浴設備相當新穎整潔",
-            "rating": 5,
-            "publishedDate": "2017/03/01",
-            "tokenization": "衛浴 | 設備 | 新穎 | 整潔"
         }
     ],
     "phone": "0989 032 308"

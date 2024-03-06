@@ -51,12 +51,6 @@
             "tokenization": "導航 | 定位 | 要定 | 叔公 | 露營區 | 浴室 | 廁所 | 乾淨 | 冰箱 | 飲水機 | 脫水機"
         },
         {
-            "content": "老闆熱情！人超好！",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "老闆 | 熱情 | 人超"
-        },
-        {
             "content": "遮雨棚很不錯唷..😀給予建議雨棚裡面蜘蛛網很多..有時吃東西髒東西會掉下來.廁所建議要定期..消毒才不會卡尿垢！！！ …",
             "rating": 3,
             "publishedDate": "2023/03/01",
@@ -93,34 +87,10 @@
             "tokenization": "户外 | 營區 | 遮雨 | 區 | 白天 | 视野 | 寬廣 | 環境 | 算 | 野外 | 昆蟲 | 超多 | 毛毛 | 蟲顏色 | 鮮艷 | 晚上 | 星星 | 亮衛浴 | 標示 | 不清 | 男 | 女 | 算 | 還不錯 | 營區"
         },
         {
-            "content": "太窄不適合！",
-            "rating": 1,
-            "publishedDate": "2023/03/01",
-            "tokenization": "太窄 | 適合"
-        },
-        {
-            "content": "雨棚超加分的",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "雨棚 | 超加分"
-        },
-        {
             "content": "風經優美，空氣新鮮，適合爬山",
             "rating": 5,
             "publishedDate": "2023/03/01",
             "tokenization": "風經 | 優美 | 空氣 | 新鮮 | 適合 | 爬山"
-        },
-        {
-            "content": "環境乾淨，星級衛浴",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "環境 | 乾淨 | 星級 | 衛浴"
-        },
-        {
-            "content": "環境整潔乾淨，空氣好",
-            "rating": 4,
-            "publishedDate": "2022/03/01",
-            "tokenization": "環境 | 整潔 | 乾淨 | 空氣"
         },
         {
             "content": "山景雲海很美。遮雨棚無敵大，又很高，非常的舒適。",
@@ -237,22 +207,10 @@
             "tokenization": "環境 | 優良 | 超大 | 雨棚 | 區 | 衛浴 | 設備 | 齊全 | 雨棚 | 很棒 | 露營區"
         },
         {
-            "content": "安全舒適的營地",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "舒適 | 營地"
-        },
-        {
             "content": "乾淨舒適 廁所乾淨  夏天涼爽",
             "rating": 4,
             "publishedDate": "2019/03/01",
             "tokenization": "乾淨 | 舒適 | 廁所 | 乾淨 | 夏天 | 涼爽"
-        },
-        {
-            "content": "老闆相當的nice",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "老闆 | nice"
         },
         {
             "content": "目前看過最乾淨的營地廁所，熱水夠熱且穩定，雨棚超大也有裝日光燈很棒，小石子地板，能下營釘但不好下，打彎了很多支小營釘",
@@ -289,12 +247,6 @@
             "rating": 5,
             "publishedDate": "2018/03/01",
             "tokenization": "環境 | 不錯 | 清幽 | 風景還 | 老闆娘 | 親切 | 盥洗 | 男女 | 各有 | 廁所 | 浴室 | 24 | 小時 | 熱水 | 網路訊號 | 中華電信 | 上方 | 遮蔽 | 營區 | 地面 | 砂石 | 下層 | 沒什麼 | 土 | 帳篷 | 難 | 釘 | 土地公 | 誕辰 | 土地公 | 廟 | 宴客 | 每戶 | 煮 | 東西過 | 吃 | 人情味 | 上山 | 路 | 陡 | 暈車 | 告示牌 | 大有"
-        },
-        {
-            "content": "很棒的環境",
-            "rating": 5,
-            "publishedDate": "2017/03/01",
-            "tokenization": "很棒 | 環境"
         }
     ],
     "phone": "0910874129"

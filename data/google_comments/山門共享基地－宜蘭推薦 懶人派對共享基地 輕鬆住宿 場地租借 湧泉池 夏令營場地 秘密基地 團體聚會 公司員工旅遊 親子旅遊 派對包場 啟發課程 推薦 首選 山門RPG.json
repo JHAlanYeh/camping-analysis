@@ -33,12 +33,6 @@
             "tokenization": "地方 | 乾淨 | 舒適 | 老闆 | 🥰"
         },
         {
-            "content": "老闆人好，地方好～～",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "老闆 | 人好 | 地方"
-        },
-        {
             "content": "房間很舒適 還有暖爐 活動空間很大～很適合大家一起來喲",
             "rating": 5,
             "publishedDate": "2023/12/29",
@@ -67,18 +61,6 @@
             "rating": 5,
             "publishedDate": "2023/09/29",
             "tokenization": "老闆 | 很帥 | 空間 | 真心 | 不錯"
-        },
-        {
-            "content": "很棒的地方",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "很棒 | 地方"
-        },
-        {
-            "content": "超級讚！",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "超 | 級 | 讚"
         },
         {
             "content": "很好住宿露營的好地方，有清澈的湧泉可讓小朋友玩水，有遊樂室玩電動玩具，老闆人超nice的，是來宜蘭住宿露營首選。",
@@ -111,22 +93,10 @@
             "tokenization": "老闆 | 超 | 讚 | 開放式 | 空間 | 離開 | 時物 | 原位 | 沒什麼 | 蚊蟲 | 洗澡 | 環境 | 下次 | 還會 | 😍 | 😍 | 😍"
         },
         {
-            "content": "環境整潔，氣氛佳",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "環境 | 整潔 | 氣氛 | 佳"
-        },
-        {
             "content": "懶人露營首選神殿帳暖爐夠暖整個帳篷暖呼呼包帳的話有三間浴室可以使用乾濕分離熱水夠熱視聽室跟共享空間很大烤肉玩牌喝酒🍺很盡興老闆人也超nice感謝過年還能搶到這棟⛺️",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "懶人露 | 營首選 | 神殿 | 帳暖 | 爐夠 | 暖 | 帳篷 | 暖呼呼 | 包帳 | 話 | 三間 | 浴室 | 乾濕 | 分離 | 熱水夠 | 熱視 | 聽室 | 共享 | 空間 | 很大 | 烤肉 | 玩牌 | 喝酒 | 🍺 | 盡興 | 老闆 | 超 | nice | 感謝 | 過年 | 還能 | 搶 | 這棟 | ⛺ | ️"
-        },
-        {
-            "content": "讚讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "讚 | 讚"
         },
         {
             "content": "剛退房，入住這天天氣不好一直在下雨，但老闆是暖男，在我們到之前提前開了暖爐，暖烘烘的住起來一點都不會冷，環境舒適～大推視聽室！還有鍋具、碗盤餐具、卡式爐甚至調味料都有提供，很方便！下次有機會一定還會再去！大推！！！Btw 老闆很帥，文青氣息超強烈，又很有禮貌，老闆也是五顆星！！！",
@@ -151,24 +121,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "2022 | 12 | 10 | 七頂帳 | 包場 | 大人 | 小孩 | 玩 | 開心 | 大人 | 餐廳 | 開心 | 煮 | 火鍋 | 烤肉 | 喝酒 | 聊天 | 小孩 | 視廳 | 室 | 電動超 | high | 彈鋼琴 | 射飛 | 鏢 | 打鼓 | 包場 | 不需 | 擔心 | 影響 | 露友 | 放 | 鬆 | 真的 | 很棒 | 環境"
-        },
-        {
-            "content": "超讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超 | 讚"
-        },
-        {
-            "content": "超讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超 | 讚"
-        },
-        {
-            "content": "老闆好帥",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "老闆 | 好帥"
         },
         {
             "content": "營地非常溫馨，設備齊全！老闆人很好～很適合一群朋友出來玩",
@@ -213,18 +165,6 @@
             "tokenization": "舒服 | 帳篷 | 超棒 | 乾淨 | 冷 | 泉池 | 炎熱 | 夏天 | 清涼 | 營區 | 可供 | 兩 | 兩 | 聚集 | 的點 | 適合 | 聚會 | 渡假 | 場所"
         },
         {
-            "content": "超棒地點～",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超棒 | 地點"
-        },
-        {
-            "content": "世外桃源 😍 …",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "世外桃源 | 😍"
-        },
-        {
             "content": "小孩玩得開心大人可以輕鬆放風，有隱私又夠開放，派對聚會的好地方。冷泉池看照片以為很小，但是現場發現池水深度跟大小都很剛好適合打水仗，水槍一定要帶！推薦五帳包場！精釀啤酒好喝！",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -255,24 +195,6 @@
             "tokenization": "環境 | 清幽 | 適合 | 放 | 鬆 | 地方"
         },
         {
-            "content": "這裡真的好美好舒服哦",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "真的 | 美好 | 舒服"
-        },
-        {
-            "content": "超讚的環境超讚的服務",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超 | 讚 | 環 | 境 | 超 | 讚 | 服 | 務"
-        },
-        {
-            "content": "很舒服的環境",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "舒服 | 環境"
-        },
-        {
             "content": "太誇張了！完美的服務 整個設備都很好 老闆親切！下次一定會再回訪🥫🥫 …",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -285,22 +207,10 @@
             "tokenization": "來訪 | 這組 | 設備 | 不錯 | 被子 | 老闆 | nice"
         },
         {
-            "content": "Blue哥讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "Blue | 哥 | 讚"
-        },
-        {
             "content": "老闆人超好！設備設施也超棒",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "老闆 | 人超 | 設備 | 設施 | 超棒"
-        },
-        {
-            "content": "超讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超 | 讚"
         },
         {
             "content": "非常適合初露的營區，泉水池很乾淨，深淺大小剛剛好適合孩子，孩子玩得開心，大人也很放心，還有爵士鼓、飛鏢遊戲檯、鋼琴、視聽室…非常適合好友一起包場辦趴，有機會還會再去👍 …",
@@ -339,34 +249,10 @@
             "tokenization": "愜意 | 超級 | 享受 | 喔 | 價格 | 超值"
         },
         {
-            "content": "舒服露營的好地方",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "舒服 | 露營 | 地方"
-        },
-        {
-            "content": "舒服的露營週末⛺️",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "舒服 | 露營 | 週末 | ⛺ | ️"
-        },
-        {
-            "content": "環境清幽，空間舒適",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "環境 | 清幽 | 空間 | 舒適"
-        },
-        {
             "content": "方便的露營地點，很適合初露。",
             "rating": 5,
             "publishedDate": "2022/02/28",
             "tokenization": "露營 | 地點 | 適合 | 初露"
-        },
-        {
-            "content": "超方便的露營⛺️",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "超 | 露營 | ⛺ | ️"
         },
         {
             "content": "環境超優！老闆人很好😍大推！ …",
@@ -387,28 +273,10 @@
             "tokenization": "照片 | 拍 | 不美 | 心靈 | 愉快 | 滿分 | 會給 | 喜歡 | 交朋友 | 一群 | 朋友 | 印象 | 中一個 | 一晚 | 800 | 19 | 包場 | 想 | 青年 | 旅館 | 500 | 多付 | 300 | 棒 | 空間 | 付 | 哪次 | 不付 | 明明 | 是剛 | 老闆 | 喝酒 | 聊天 | 相談 | 盛歡 | 開車 | 載 | 朋友 | 地方 | 值得 | 揪 | 28 | 朋友 | 帳篷 | 睡四個 | 邊度過 | 設計來 | Party | 超棒 | 地方 | 相聚 | 老闆 | 說 | 之後有 | 精釀 | 啤酒 | 預訂 | 一桶 | 4000 | 20 | 公升 | 外面 | 買 | 便宜 | 爆幹 | 好喝 | 划算 | 娛樂室 | switch | 朋友 | 玩 | 看電影 | 飛鏢機 | 整套 | 樂團組 | 舉辦 | 小小的 | 表演 | 最愛的 | 認為 | 愛 | 分享 | 老闆 | 真心 | 愛 | 客人 | 客人 | 期待 | 朋友 | 愛 | 朋友 | 地方 | 度過 | 充滿 | 愛的 | 一晚 | 期待 | 體驗 | 希望 | 太 | 踴躍 | 因為 | 還想"
         },
         {
-            "content": "夠chill",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "夠 | chill"
-        },
-        {
             "content": "超讚一定要來很chill",
             "rating": 5,
             "publishedDate": "2021/02/28",
             "tokenization": "超 | 讚 | 要來 | chill"
-        },
-        {
-            "content": "欽佩",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "欽佩"
-        },
-        {
-            "content": "超棒的 很喜歡",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "超棒 | 喜歡"
         },
         {
             "content": "老闆熱心、親切，讓我第一次露營的經驗留下美好的回憶，值得再來，讚",

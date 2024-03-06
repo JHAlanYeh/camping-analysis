@@ -75,12 +75,6 @@
             "tokenization": "民宿 | 設備 | ok | 浴 | 廁需 | 外出 | 露營客 | 共用 | 稍嫌"
         },
         {
-            "content": "環境美氣氛佳。",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "環境 | 美氣 | 氛佳"
-        },
-        {
             "content": "很簡單很樸素的民宿跟露營區",
             "rating": 4,
             "publishedDate": "2019/02/28",
@@ -93,28 +87,10 @@
             "tokenization": "放 | 鬆 | 地方 | 雅房 | 排隊 | 洗澡 | 為 | 不便"
         },
         {
-            "content": "親切",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "親切"
-        },
-        {
             "content": "美麗的室內設計，舒適的地方",
             "rating": 4,
             "publishedDate": "2019/02/28",
             "tokenization": "美麗 | 室內 | 設計 | 舒適 | 地方"
-        },
-        {
-            "content": "下次還想來",
-            "rating": 4,
-            "publishedDate": "2018/02/28",
-            "tokenization": "下次 | 還想"
-        },
-        {
-            "content": "輕鬆自在",
-            "rating": 5,
-            "publishedDate": "2018/02/28",
-            "tokenization": "輕 | 鬆"
         },
         {
             "content": "有雨遮、廁所乾淨，提供盪鞦韆與戲水池，且有可愛貓群陪伴。不過地處潮濕，較不通風，有蚊蟲。",
@@ -127,12 +103,6 @@
             "rating": 3,
             "publishedDate": "2018/02/28",
             "tokenization": "廁所 | 浴室 | 房子 | 外面 | 晚上 | 要用 | 房子 | 鄰近 | 楠梓 | 溪邊 | 危險"
-        },
-        {
-            "content": "充滿人情味",
-            "rating": 5,
-            "publishedDate": "2018/02/28",
-            "tokenization": "充滿 | 人情味"
         }
     ],
     "phone": "0988027163"

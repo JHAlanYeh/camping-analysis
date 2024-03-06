@@ -51,28 +51,10 @@
             "tokenization": "環境 | 房間 | 舒適 | 園區 | 規劃 | 各類 | 活動 | 導覽 | 旅遊 | 深度 | 提升 | 用心 | 餐點 | 美味可口 | 值得 | 再訪"
         },
         {
-            "content": "好👍",
-            "rating": 5,
-            "publishedDate": "2024/02/22",
-            "tokenization": "👍"
-        },
-        {
             "content": "工作人員很親切，環境乾淨，來這裡完全可以放鬆讚讚👍🏼",
             "rating": 5,
             "publishedDate": "2024/02/22",
             "tokenization": "工作 | 人員 | 親切 | 環境 | 乾淨 | 放 | 鬆 | 讚 | 讚 | 👍 | 🏼"
-        },
-        {
-            "content": "讚！",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "讚"
-        },
-        {
-            "content": "超悠哉行程~",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "超 | 悠哉 | 行程"
         },
         {
             "content": "非常放鬆，但用晚餐希望可付白飯",
@@ -85,24 +67,6 @@
             "rating": 4,
             "publishedDate": "2024/02/15",
             "tokenization": "服務人員 | 態度 | 佳 | 旅伴 | 朋友"
-        },
-        {
-            "content": "環境漂亮！推👍🏻 …",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "環境 | 漂亮 | 推 | 👍 | 🏻"
-        },
-        {
-            "content": "奢華5星級露營區",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "奢華 | 星級 | 露營區"
-        },
-        {
-            "content": "適合一家人同遊",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "適合 | 一家人 | 同遊"
         },
         {
             "content": "親切 環境乾淨 值得推薦",
@@ -123,28 +87,10 @@
             "tokenization": "服務 | 住宿 | 環境 | 優"
         },
         {
-            "content": "不值這個價位",
-            "rating": 1,
-            "publishedDate": "2024/02/15",
-            "tokenization": "不值 | 價位"
-        },
-        {
-            "content": "超級Chill的啦",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "超級 | Chill"
-        },
-        {
             "content": "很舒適的地方，空氣很好",
             "rating": 5,
             "publishedDate": "2024/02/15",
             "tokenization": "很舒適 | 地方 | 空氣"
-        },
-        {
-            "content": "超Chill",
-            "rating": 5,
-            "publishedDate": "2024/02/15",
-            "tokenization": "超 | Chill"
         },
         {
             "content": "最美麗的不是風景，是人員！每一位服務人員都很親切，無論是接待中心，販賣部還是餐廳，甚至是巧遇的工作人員，都讓人倍感親切有禮！",
@@ -157,12 +103,6 @@
             "rating": 3,
             "publishedDate": "2024/02/08",
             "tokenization": "入住 | 體驗 | 停車 | 接待 | 房間 | 擺設 | 感受 | 用心 | 服務人員 | 親切 | 為 | 服務 | 行程 | 體驗 | 包含 | DIY | 找寶藏 | 觀 | 星等 | 整體 | 說 | 不錯 | 1w6 | 住宿 | 費 | 早餐 | 晚餐 | 差強 | 人意 | 本次 | 旅遊 | 失望 | 的點 | 晚餐 | 海鮮 | 感受 | 新鮮 | 餐點 | 味道 | 好吃 | 早餐 | 雖是 | 自助 | 選擇 | 住 | 2000 | 民宿 | 早餐 | 好吃 | 連續 | 吃 | 真的 | 食物 | 失望 | 拿取 | 飲料 | 杯子 | 同團 | 拿到 | 清洗 | 乾淨 | 喝到 | 完才 | 發現 | 髒 | 污 | 真的 | 嚇到 | 😓 | 😓 | 晚上 | 隔音 | 原本 | 期待 | 聽 | 著蟲鳴 | 蛙鳴 | 入睡 | 一組 | 晚 | 入住 | 旅客 | 影集 | 播音 | 樂到 | 睡 | 著前 | 已近 | 凌晨 | 三點 | 還在 | 吵 | 鬧 | 服務人員 | 下班 | 貿然 | 前去 | 勸 | 說 | 過程 | 中 | 睡 | 睡醒 | 醒滿 | 累人 | 希望 | 來此 | 露營 | 遊客 | 公德心 | 同理 | 心 | 🙏 | 撇除 | 情況 | 峇 | 嵐有 | 擁有 | 回憶 | 空氣 | 吸進 | 肺部 | 時 | 感受 | 空氣 | 白天 | 晚上 | 一覽 | 峇 | 嵐 | 景色 | 感受 | 服務人員 | 真的 | 大大的 | 加 | 分 | 一位 | 親切 | 有禮 | 馬 | 幫忙 | DIY | 教學 | 有趣 | 希望 | 下次 | 來訪 | 時 | 更好 | 峇 | 嵐 | 附上 | 髒 | 污 | 杯子 | 峇 | 嵐美麗 | 夜空"
-        },
-        {
-            "content": "值得再次造訪",
-            "rating": 5,
-            "publishedDate": "2024/02/08",
-            "tokenization": "值得 | 造訪"
         },
         {
             "content": "這裡環境很漂亮，晚上可以拍到很多星星，還有手做體驗，過程覺得很有趣。",
@@ -189,22 +129,10 @@
             "tokenization": "服務人員 | 態度 | 超好 | 浴室 | 廁所 | 房間 | 超乾淨 | 無可 | 挑剔 | 👍"
         },
         {
-            "content": "很特別的體驗⋯",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "很特別 | 體驗"
-        },
-        {
             "content": "一來就有點心，房間乾淨且服務員的態度完全有五星水準，非常推薦",
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "點心 | 房間 | 乾淨且 | 服務員 | 態度 | 五星 | 水準 | 推薦"
-        },
-        {
-            "content": "活動豐富 保全很可愛",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "活動 | 保全 | 愛"
         },
         {
             "content": "第一次來懶人露營 感覺好新鮮 服務人員很熱情 還有幫忙接送行李 超棒的",
@@ -219,12 +147,6 @@
             "tokenization": "很棒 | 體驗 | 小朋友 | 超開心"
         },
         {
-            "content": "很好的露營體驗👍",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "露營 | 體驗 | 👍"
-        },
-        {
             "content": "第一次露營，看了很多地方，最後選這邊，果然沒有失望，園區超美，也有手作活動，非常好玩！服務也很棒！會在回訪👍🏻👍🏻👍🏻",
             "rating": 5,
             "publishedDate": "2024/01/29",
@@ -235,18 +157,6 @@
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "懶人 | 露營 | 最佳 | 首選 | 入住 | 退房 | 服務 | 超優 | 厲害 | 帳篷 | 暖氣 | 冬天 | 露營 | 🥳 | 🥳 | 🥳"
-        },
-        {
-            "content": "環境優美、服務親切",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "環境 | 優美 | 服務 | 親切"
-        },
-        {
-            "content": "漂亮的地方",
-            "rating": 4,
-            "publishedDate": "2024/01/29",
-            "tokenization": "漂亮 | 地方"
         },
         {
             "content": "根本是懶人露營的天堂☺️環境舒服、食材新鮮重點是還可以帶狗狗",
@@ -303,12 +213,6 @@
             "tokenization": "峇 | 嵐衫 | 丘好 | 地方 | 下午茶 | BBQ | 晚餐 | 早餐 | 好吃 | 好玩 | 環境 | 推薦 | 一遊"
         },
         {
-            "content": "住宿環境清幽",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "住宿 | 環境 | 清幽"
-        },
-        {
             "content": "服務貼心，食物新鮮澎湃",
             "rating": 5,
             "publishedDate": "2024/01/29",
@@ -319,12 +223,6 @@
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "入住 | 星空 | 帳一泊 | 三食 | 晚餐 | 食材 | 豐盛 | 手作 | 環保袋 | 有趣 | 晚上 | 天氣 | 觀星 | 很棒 | 渡假 | 勝地 | 因化妝室 | 洗澡 | 地方 | 外面 | 冬天 | 半夜 | 廁所會 | 冷一點 | 喔 | 缺點 | 隔壁 | 帳篷 | 太 | high | 聊天 | 歡笑 | 睡 | 崩潰 | 吵 | 因為 | 隔音 | 不好 | 很棒"
-        },
-        {
-            "content": "好的！",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": ""
         },
         {
             "content": "食材很新鮮！整體環境乾淨，工作人員都很親切！很棒的一次體驗🤍",
@@ -357,22 +255,10 @@
             "tokenization": "靠近 | 日月潭 | 環境 | 清幽 | 自創 | 商品 | 選擇 | 房間 | 佈 | 置 | 雅 | 緻"
         },
         {
-            "content": "星空不錯讚",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "星空 | 錯 | 讚"
-        },
-        {
             "content": "不管任何節日，我們都會來這邊選擇度過，園區會依不同的節日安排不同的活動，真的是太棒了☺️",
             "rating": 5,
             "publishedDate": "2023/12/29",
             "tokenization": "節日 | 選擇度過 | 園區 | 節日 | 安排 | 活動 | 真的 | 太棒了 | ☺ | ️"
-        },
-        {
-            "content": "美❤️",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "美 | ❤ | ️"
         },
         {
             "content": "房間有暖氣很溫暖洗澡熱水夠熱👍",
@@ -391,12 +277,6 @@
             "rating": 5,
             "publishedDate": "2023/12/29",
             "tokenization": "都市 | 小孩 | 樹 | 林中 | 露營 | 環境 | 真的 | 不錯 | 看起 | 不小 | 享受 | 滿滿 | 芬多精 | 人員 | 服務態度 | 錯業者 | 感覺 | 接受 | 意見 | 人給 | 推 | 備 | 註 | 晚上 | 風景 | 真的 | 很漂亮"
-        },
-        {
-            "content": "景色很美",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "景色 | 美"
         },
         {
             "content": "第一次體驗奢華露營真的是前所未有的感受什麼東西都不用準備一套衣服跟牙膏牙刷帶著就可以入住了工作人員也都很熱情服務周到、食物美味",
@@ -495,12 +375,6 @@
             "tokenization": "園區 | 活動 | 有趣 | 工作 | 人員 | 服務"
         },
         {
-            "content": "放鬆的地方",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "放 | 鬆 | 地方"
-        },
-        {
             "content": "房間很棒而且設備齊全。工作人員專業且友好。強烈推薦！",
             "rating": 5,
             "publishedDate": "2023/12/29",
@@ -513,34 +387,16 @@
             "tokenization": "這是 | 奇妙 | 經驗 | 一切都是 | 深思 | 熟慮 | 策劃 | 計劃 | 設施 | 乾淨 | 活動 | 有趣 | 回到 | 😍"
         },
         {
-            "content": "很舒適的旅遊",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "很舒適 | 旅遊"
-        },
-        {
             "content": "星空帳房間很舒適很美，園區也很美很喜歡",
             "rating": 5,
             "publishedDate": "2023/12/29",
             "tokenization": "星空 | 帳房間 | 舒適 | 美 | 園區 | 美 | 喜歡"
         },
         {
-            "content": "舒適的環境",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "舒適 | 環境"
-        },
-        {
             "content": "星空帳超美，園區整理得很好",
             "rating": 5,
             "publishedDate": "2023/12/29",
             "tokenization": "星空 | 帳超美 | 園區 | 整理"
-        },
-        {
-            "content": "很美的營區💗 …",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "美的 | 營區 | 💗"
         },
         {
             "content": "超級棒的大人放空⋯小孩放生的地方完全沒有閒的時候",
@@ -567,18 +423,6 @@
             "tokenization": "Cp | 值不高 | 很爛 | 價錢 | 便宜 | 園區 | 設備 | 環境 | 很爛 | 員工 | 很棒 | 服務態度 | 房間 | 插頭 | 非常少 | 加床 | 4500 | 鋪 | 地板 | 這叫 | 加床 | 照明 | 不好 | 食材 | 不新鮮 | 再來"
         },
         {
-            "content": "園區很漂亮，環境很好",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "園區 | 很漂亮 | 環境"
-        },
-        {
-            "content": "休閒、浪漫",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "休閒 | 浪漫"
-        },
-        {
             "content": "很棒的體驗，星空帳超美，對狗狗也很友善。房內有飛行床，也有準備狗狗備品，值的推薦的森林露營地點👍👍👍👍",
             "rating": 5,
             "publishedDate": "2023/11/29",
@@ -589,12 +433,6 @@
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "房間 | 很漂亮 | 食物 | 很新鮮 | 服務"
-        },
-        {
-            "content": "早安～峇嵐杉丘",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "早安 | 峇 | 嵐杉丘"
         },
         {
             "content": "環境優美，配套活動豐富，帶毛孩來新體驗",
@@ -609,34 +447,10 @@
             "tokenization": "豪華 | 晚餐 | 讚 | 星空 | 帳 | 讚"
         },
         {
-            "content": "體驗活動很好玩～",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "體驗 | 活動 | 好玩"
-        },
-        {
             "content": "環境不錯，餐點也很好，工作人員都好親切",
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "環境 | 不錯 | 餐點 | 工作 | 人員 | 親切"
-        },
-        {
-            "content": "餐點量很夠，環境乾淨",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "餐點量 | 很夠 | 環境 | 乾淨"
-        },
-        {
-            "content": "很不錯",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "很不錯"
-        },
-        {
-            "content": "超美～東西也很好吃",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "超美 | 東西 | 好吃"
         },
         {
             "content": "晚餐超級豪華份量很足園區整理的很整齊，遠離塵囂不會吵雜房間很漂亮也很乾淨還有一些活動，在這裏真的是可以好好放鬆",
@@ -663,18 +477,6 @@
             "tokenization": "豪華露 | 營體驗員 | 工好 | 親切 | 活動 | 樣 | 好玩 | 👍"
         },
         {
-            "content": "開心舒服的旅程❤️",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "開心 | 舒服 | 旅程 | ❤ | ️"
-        },
-        {
-            "content": "很舒服！",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "舒服"
-        },
-        {
             "content": "晚餐超奢華很適合好朋友相聚",
             "rating": 4,
             "publishedDate": "2023/11/29",
@@ -691,12 +493,6 @@
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "園區 | 優美 | 工作 | 人員 | 親切 | 好吃 | 下午茶 | ❤ | ️"
-        },
-        {
-            "content": "非常棒的體驗",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "棒 | 體驗"
         },
         {
             "content": "好漂亮 好好吃 好有趣",
@@ -721,18 +517,6 @@
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "營區 | 氛圍 | 房間 | 舒適 | 服務人員 | 親切 | 小孩子 | 熱情 | ❤ | ️"
-        },
-        {
-            "content": "服務跟體驗皆是滿分！",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "服務 | 體驗 | 皆 | 滿分"
-        },
-        {
-            "content": "很不錯",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "很不錯"
         },
         {
             "content": "活動很豐富 服務很好打卡可以多送體驗提袋要來就有下午茶 很不錯",
@@ -795,18 +579,6 @@
             "tokenization": "天氣 | 超好 | 剛到 | 店狗 | 黑豆 | 超可愛的 | 一進 | 園區 | 感覺 | 身處 | 大自然 | 裡 | 超美超 | 放 | 鬆 | ❤ | ️"
         },
         {
-            "content": "打卡送轉印袋",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "打卡 | 送轉 | 印袋"
-        },
-        {
-            "content": "很chill",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "chill"
-        },
-        {
             "content": "每一分錢都值得！最好的豪華露營度假村。晚上，廁所燈不工作。",
             "rating": 5,
             "publishedDate": "2023/11/29",
@@ -817,12 +589,6 @@
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "景色 | 很漂亮 | 環境 | 乾淨 | 食材 | 新鮮 | 服務人員 | 用心 | 導覽"
-        },
-        {
-            "content": "很棒的露營區🏕",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "很棒 | 露營區 | 🏕"
         },
         {
             "content": "放假來這裡渡假，星空帳超美的，賣店裡面還有個小小的展覽 ，真的超可愛的",
@@ -883,12 +649,6 @@
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "服務好 | 地方 | 美 | 食物 | 好吃"
-        },
-        {
-            "content": "晚餐好吃，服務不錯！",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "晚餐 | 好吃 | 服務不錯"
         },
         {
             "content": "員工很nice！！可愛小兔兔！！晚餐很好吃呀",
@@ -981,12 +741,6 @@
             "tokenization": "星空 | 帳 | 馬 | 車帳 | 以以 | 希臘 | 諸神 | 命名 | 房務內 | 裝依 | 主神 | 各有 | 巧思 | 園區 | 導覽 | 用心 | 原生 | 植物 | 南洋杉 | 金銀合歡 | 園區 | 手作 | 課程 | 有趣 | 吸收 | 芬多精 | 自滋養 | 身心 | 靈 | 星空 | 帳區 | 毛 | 小孩 | 專屬 | 跑跳 | 區 | 喔"
         },
         {
-            "content": "環境優美 服務親切",
-            "rating": 4,
-            "publishedDate": "2023/10/29",
-            "tokenization": "環境 | 優美 | 服務 | 親切"
-        },
-        {
             "content": "可愛的絹印 一定要來體驗唷❤️",
             "rating": 5,
             "publishedDate": "2023/10/29",
@@ -1033,12 +787,6 @@
             "rating": 5,
             "publishedDate": "2023/10/29",
             "tokenization": "風景 | 優美 | 空氣 | 清新 | 值得 | 一遊"
-        },
-        {
-            "content": "奢華享受露營體驗趣👍",
-            "rating": 5,
-            "publishedDate": "2023/10/29",
-            "tokenization": "奢華 | 享受 | 露營 | 體驗趣 | 👍"
         },
         {
             "content": "非常棒的體驗，下次一定再來",
@@ -1113,12 +861,6 @@
             "tokenization": "第一次 | 體驗 | 星空 | 帳 | 園區 | 環境 | 氛圍 | 很棒 | 尋找 | 寶箱 | 活動 | 趣味 | ❤ | ️"
         },
         {
-            "content": "很棒的體驗",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "很棒 | 體驗"
-        },
-        {
             "content": "住宿的價格很高級，可是C P值不高，住一個晚上要一萬多塊，連追加一碗白飯都還要再算$30，給人的感覺非常差，你並不是平價的住宿，難道住一晚一萬多塊不夠補償1碗白飯的價格嗎？",
             "rating": 2,
             "publishedDate": "2023/09/29",
@@ -1141,18 +883,6 @@
             "rating": 5,
             "publishedDate": "2023/09/29",
             "tokenization": "參加 | 賓士露 | 營星 | 野趣 | 活動 | 來過 | 奢華露營 | 100% | 給推 | 沒來過 | 體驗"
-        },
-        {
-            "content": "很棒的露營體驗！",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "很棒 | 露營 | 體驗"
-        },
-        {
-            "content": "好棒的奢華露營",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "棒 | 奢華露營"
         },
         {
             "content": "雖然下雨，但室內環境不錯，有下午茶吃～",
@@ -1197,22 +927,10 @@
             "tokenization": "服務人員 | 用心 | 親戚 | 園區 | 舒適 | 👍 | 🏻"
         },
         {
-            "content": "這裡好讚👍👍👍👍",
-            "rating": 5,
-            "publishedDate": "2023/08/29",
-            "tokenization": "讚 | 👍 | 👍 | 👍 | 👍"
-        },
-        {
             "content": "星空帳很美，服務人員很親切.",
             "rating": 5,
             "publishedDate": "2023/08/29",
             "tokenization": "星空 | 帳很美 | 服務人員 | 親切"
-        },
-        {
-            "content": "輕鬆舒服的露營~",
-            "rating": 5,
-            "publishedDate": "2023/08/29",
-            "tokenization": "輕 | 鬆 | 舒服 | 露營"
         },
         {
             "content": "活動多樣且有趣💯打卡體驗手作絹巾",
@@ -1299,18 +1017,6 @@
             "tokenization": "環境 | 不錯 | 適合 | 全家 | 玩"
         },
         {
-            "content": "住宿體驗佳很漂亮",
-            "rating": 5,
-            "publishedDate": "2023/08/29",
-            "tokenization": "住宿 | 體驗佳 | 很漂亮"
-        },
-        {
-            "content": "很適合全家一起來",
-            "rating": 5,
-            "publishedDate": "2023/08/29",
-            "tokenization": "適合 | 全家"
-        },
-        {
             "content": "風景漂亮 房間乾淨🫡 …",
             "rating": 5,
             "publishedDate": "2023/08/29",
@@ -1369,18 +1075,6 @@
             "rating": 5,
             "publishedDate": "2023/08/29",
             "tokenization": "著 | 毛寶貝 | 旅遊 | 帶著 | 毛 | 小孩 | 露營 | 園區 | 貼心 | 幫 | 行李 | 送到 | 房門口 | 著 | 毛孩 | 再大 | 包小包 | 開開 | 心心 | 毫無顧慮 | 開啟 | 度假 | 模式 | 一進 | 房間 | 為 | 人類 | 下午 | 茶房 | 間裡 | 毛孩 | 日用品 | 床 | 玩具 | 真的 | 超級 | 無敵 | 貼心 | 超級 | 寵物 | 友善 | 晚餐 | 食材 | 擺 | 擺滿 | 特 | 製 | 啤酒 | 幫 | 歸類 | 成區 | 遊客 | 區域 | 交集 | 大大降低 | 影響 | 遊客 | 身為 | 家長 | 神經緊 | 繃 | 孩子 | 毛孩 | 一範圍 | 自由 | 活動 | 真的 | 很棒"
-        },
-        {
-            "content": "環境悠美及寧靜",
-            "rating": 5,
-            "publishedDate": "2023/08/29",
-            "tokenization": "環境 | 悠美及 | 寧靜"
-        },
-        {
-            "content": "乾淨、服務好👍🏻 …",
-            "rating": 5,
-            "publishedDate": "2023/08/29",
-            "tokenization": "乾淨 | 服務好 | 👍 | 🏻"
         },
         {
             "content": "環境很讚，星空帳小孩喜歡，下次會再來玩😄",
@@ -1527,24 +1221,6 @@
             "tokenization": "環境 | 舒服 | 適合 | 一家人 | 度假 | 聚會 | 😊"
         },
         {
-            "content": "很棒的體驗！風景很美",
-            "rating": 5,
-            "publishedDate": "2023/07/29",
-            "tokenization": "很棒 | 體驗 | 風景 | 美"
-        },
-        {
-            "content": "園區很美 服務佳",
-            "rating": 5,
-            "publishedDate": "2023/07/29",
-            "tokenization": "園區 | 美 | 服務佳"
-        },
-        {
-            "content": "服務人員超熱心",
-            "rating": 5,
-            "publishedDate": "2023/07/29",
-            "tokenization": "服務人員 | 超熱心"
-        },
-        {
             "content": "很精緻的露營區，可以自己烤肉的體驗很棒，食材非常好。早餐很豐盛，飲食方面真的很滿足。園區很乾淨精緻，服務人員服務很周到，值得再訪！DIY體驗很有趣！",
             "rating": 5,
             "publishedDate": "2023/07/29",
@@ -1587,12 +1263,6 @@
             "tokenization": "很特別 | 體驗 | 服務人員 | 熱心 | 親切 | 晚餐 | 吃不完 | 小黑 | 蚊 | ⚠ | ️"
         },
         {
-            "content": "豪華露營很豪華",
-            "rating": 5,
-            "publishedDate": "2023/07/29",
-            "tokenization": "豪華露營 | 豪華"
-        },
-        {
             "content": "導覽解說很棒，服務人員訓練有素，園區空氣好，鬧中取靜，值得再來！",
             "rating": 5,
             "publishedDate": "2023/07/29",
@@ -1611,18 +1281,6 @@
             "tokenization": "峇 | 嵐杉丘 | 很特別 | 奢華露營 | 可愛的 | 兔子 | 期待 | 晚上 | BBQ | 🔥"
         },
         {
-            "content": "好地方趕快來👍👍",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "地方 | 👍 | 👍"
-        },
-        {
-            "content": "舒服",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "舒服"
-        },
-        {
             "content": "寵物友善露營區，環境動線規劃得不錯，營區很乾淨很香，服務人員熱心積極，辦的遊戲活動也深得小朋友喜愛～很Chill很放鬆的露營體驗～",
             "rating": 5,
             "publishedDate": "2023/06/29",
@@ -1639,12 +1297,6 @@
             "rating": 5,
             "publishedDate": "2023/06/29",
             "tokenization": "適合 | 首露 | 環境 | 清幽 | 美好 | 帳篷 | 寬大舒適 | 適合 | 一家人 | 入住 | 小朋友 | 一進入 | 帳篷 | 發 | 讚 | 嘆 | 聲 | 音 | 下午茶 | 精 | 緻 | 晚餐 | 火烤 | 兩吃 | 食材 | 新鮮 | 份量 | 足夠 | 吃 | 超級 | 撐 | 最後服務 | 人員 | 服務 | 專業 | 親切 | 和善 | 在家 | 裡 | 舒適 | 真的 | 推薦 | 唷"
-        },
-        {
-            "content": "放鬆蟲鳴鳥叫舒服",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "放 | 鬆 | 蟲 | 鳴 | 鳥 | 舒服"
         },
         {
             "content": "烤肉跟下午茶都很讚🤤 …",
@@ -1675,12 +1327,6 @@
             "rating": 5,
             "publishedDate": "2023/06/29",
             "tokenization": "第一次 | 奢華露營 | 體驗感 | 房間 | 美 | 舒適 | 軟爛 | 環境 | 機會 | 下次 | 再選 | 👍 | 🏻 | 👍 | 🏻 | 👍 | 🏻 | 👍 | 🏻"
-        },
-        {
-            "content": "👍🏻",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "👍 | 🏻"
         },
         {
             "content": "個人認為午餐晚餐都還蠻不錯的服務人員態度也很不錯但重點有幾個建議～這次是入住503的星空帳第一個是因為園區一直都很亮所以是看不到星星的再者，我們那間的帳篷好像是剛好在樹林旁邊，昆蟲數量真的是非常非常的多，多到幾乎是沒有辦法坐在外面的程度（在用餐的過程中有一隻蟑螂直接降落在我頭上🥲）早晚的蒼蠅都非常多，也會有很會飛的蟑螂衝進房間裡，雖說露營本來就會有很多蚊蟲，但之間有去星空電影院或是詢問了隔壁房的住客也都沒有那麼多昆蟲😖有點困擾最後就是星空帳篷真的很漂亮，但是有點可惜園區能娛樂的東西沒有到很多，探險跟蓋章都有走完，但感覺可以再更豐富的感覺（包含小動物區還植物區還有對面尚未規劃的區域）都可以有更多的遊玩空間。店員人都很好，有問必答，也都很熱情，希望可以持續進步！改善更多～～p.s.戲水區規劃的看起來不太像戲水區、泡泡水弄不起泡泡感覺只是水有點可惜",
@@ -1731,18 +1377,6 @@
             "tokenization": "推 | 環境 | 優美 | 享受"
         },
         {
-            "content": "吃飯的好地方 讚",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "吃 | 飯 | 地方 | 讚"
-        },
-        {
-            "content": "很棒的體驗❤️",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "很棒 | 體驗 | ❤ | ️"
-        },
-        {
             "content": "優秀的露營區和設施。不幸的是，由於陰天，我們沒有看到星星。喜歡這種體驗。",
             "rating": 5,
             "publishedDate": "2023/06/29",
@@ -1767,12 +1401,6 @@
             "tokenization": "環境 | 優雅 | 員工 | 服務 | 熱忱 | 親近 | 大自然 | 野營 | 選擇"
         },
         {
-            "content": "很舒服",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "舒服"
-        },
-        {
             "content": "環境很舒適 很適合一群朋友來！！",
             "rating": 5,
             "publishedDate": "2023/06/29",
@@ -1783,12 +1411,6 @@
             "rating": 5,
             "publishedDate": "2023/06/29",
             "tokenization": "太喜歡 | 推 | 👍 | 🏻 | 👍 | 🏻 | Josh | 服務人員 | 👍 | 🏻 | 👍 | 🏻 | 愛 | 喔 | ❤ | ️ | 整場 | 服務 | 沒話 | 說 | 浴巾 | 很快 | 送到 | 食材 | 新鮮 | 房間 | 舒適 | 床 | 躺 | 枕頭 | 很棒 | 總 | 真心 | 推薦 | 這一個 | 露營區 | 太美 | 早餐 | 好吃 | 星級 | 飯店 | 完美 | ❤ | ️ | ❤ | ️ | 真心 | 推薦"
-        },
-        {
-            "content": "很優美環境乾淨",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "優美 | 環境 | 乾淨"
         },
         {
             "content": "很漂亮的地方，帳篷裡應有盡有，而且寵物友善，除了有飛行床，還幫毛小孩準備了很多貼心禮物！雖然去的時候下雨，但毛小孩還是在帳篷裡玩得很開心。",
@@ -1833,70 +1455,10 @@
             "tokenization": "不一樣 | 豪華露 | 營體驗 | 很棒"
         },
         {
-            "content": "服務親切舒適愉快",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "服務 | 親切 | 舒適 | 愉快"
-        },
-        {
-            "content": "輕鬆自在舒服",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "輕 | 鬆 | 舒服"
-        },
-        {
             "content": "園區實在太漂亮太美了😍🫶🏻美照拍不完",
             "rating": 5,
             "publishedDate": "2023/06/29",
             "tokenization": "園區 | 實在 | 太漂亮 | 太美 | 😍 | 🫶 | 🏻 | 美照 | 拍 | 完"
-        },
-        {
-            "content": "人好又彈性",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "人好 | 彈性"
-        },
-        {
-            "content": "很舒適 很適合拍照",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "很舒適 | 適合 | 拍照"
-        },
-        {
-            "content": "讚👍🏻",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "讚 | 👍 | 🏻"
-        },
-        {
-            "content": "很美的地方",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "美的 | 地方"
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "👍🏻👍🏻👍🏻 …",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "👍 | 🏻 | 👍 | 🏻 | 👍 | 🏻"
-        },
-        {
-            "content": "環境超美～帳篷很漂亮",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "環境 | 超美 | 帳篷 | 很漂亮"
-        },
-        {
-            "content": "美美的高級露營區",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "美美 | 高級 | 露營區"
         },
         {
             "content": "這次露營B區愛琴海星空入4帳！乾淨又很有氣氛. 風景也很美！👍 …",
@@ -1921,12 +1483,6 @@
             "rating": 5,
             "publishedDate": "2023/06/29",
             "tokenization": "服務 | 人員超 | 親切 | 住宿 | 乾淨 | 舒服 | 早餐 | 選擇 | 算多樣 | 現榨 | 研磨 | 果汁 | 機手 | 做 | 課程 | 超 | 好玩 | 記得 | 帶防 | 蚊液 | 記得 | 自備 | 冰塊 | 一顆 | 放 | 鬆 | ❤ | ️"
-        },
-        {
-            "content": "環境漂亮氣氛很好",
-            "rating": 4,
-            "publishedDate": "2023/06/29",
-            "tokenization": "環境 | 漂亮 | 氣氛"
         },
         {
             "content": "很美 晚餐好好吃份量也很夠",
@@ -1977,12 +1533,6 @@
             "tokenization": "環境 | 優 | 第一次 | 來覺 | 不錯"
         },
         {
-            "content": "讚讚",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "讚 | 讚"
-        },
-        {
             "content": "房間 環境很漂亮   服務態度佳",
             "rating": 5,
             "publishedDate": "2023/06/29",
@@ -1995,12 +1545,6 @@
             "tokenization": "日月潭 | 很近 | 景點 | 很漂亮 | 服務人員 | 態度 | 親切 | 園區 | 活動 | 參加 | 家人 | 朋友 | 玩 | 滿意"
         },
         {
-            "content": "風景漂亮，食物又好吃",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "風景 | 漂亮 | 食物 | 好吃"
-        },
-        {
             "content": "來這裡紀念週年很值得😍和照片一樣漂亮",
             "rating": 5,
             "publishedDate": "2023/06/29",
@@ -2011,12 +1555,6 @@
             "rating": 5,
             "publishedDate": "2023/06/29",
             "tokenization": "服務人員 | 親切 | 營區 | 悠閒 | 舒適"
-        },
-        {
-            "content": "很放鬆的地方❤️",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "放 | 鬆 | 地方 | ❤ | ️"
         },
         {
             "content": "ㄅㄚ峇～ㄌㄢˊ嵐～ㄕㄢ杉～ㄑㄧㄡ丘，故名思意，就是躺陽在山中。",
@@ -2049,70 +1587,10 @@
             "tokenization": "服務不錯 | 👍 | 自然 | 環境 | 👍"
         },
         {
-            "content": "出乎意料的放鬆跟美",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "出乎意料 | 放 | 鬆 | 美"
-        },
-        {
-            "content": "喜歡",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "喜歡"
-        },
-        {
-            "content": "超特別的地方喜歡",
-            "rating": 5,
-            "publishedDate": "2023/06/29",
-            "tokenization": "超特別 | 地方 | 喜歡"
-        },
-        {
             "content": "精緻下午茶，不一樣的露營體驗😍 …行程類型度假",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "精 | 緻 | 下午茶 | 不一樣 | 露營 | 體驗 | 😍 | 行程 | 類型 | 度假"
-        },
-        {
-            "content": "好",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": ""
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "棒"
-        },
-        {
-            "content": "南洋松高大很棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "南洋 | 松 | 高大 | 很棒"
-        },
-        {
-            "content": "棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "棒"
-        },
-        {
-            "content": "很好，很優質。",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "優質"
-        },
-        {
-            "content": "優秀的住宿地方值得來",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "優秀 | 住宿 | 地方 | 值得"
         },
         {
             "content": "環境很棒，服務品質很好",
@@ -2121,28 +1599,10 @@
             "tokenization": "環境 | 很棒 | 服務品 | 質"
         },
         {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒"
-        },
-        {
             "content": "住宿環境優雅，很浪漫。",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "住宿 | 環境 | 優雅 | 浪漫"
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "很美很讚",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很美 | 讚"
         },
         {
             "content": "臨近日月潭，風景悠美，管家式的服務，令人放鬆的好地方！",
@@ -2161,18 +1621,6 @@
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "很棒 | 住宿 | 環境 | 👍 | 詳細 | 環境 | 解說"
-        },
-        {
-            "content": "環境很舒服服務很好",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 舒服 | 服務"
-        },
-        {
-            "content": "超爽的舒服",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "超爽 | 舒服"
         },
         {
             "content": "這裡超級漂亮 服務人員也很親切！",
@@ -2259,12 +1707,6 @@
             "tokenization": "懶人 | 露營 | 選"
         },
         {
-            "content": "乾淨又有趣！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "乾淨 | 有趣"
-        },
-        {
             "content": "朋友在網上看評價還不錯想說那就跟風一下豪華露營帳5星收費1星服務品質烤肉食材裡面的🐔更是自助餐的等級海鮮食材鮮度待加強唯一尚可贊嘆就是那壺有古早味般的紅茶其餘尚有進步空間",
             "rating": 1,
             "publishedDate": "2023/05/29",
@@ -2313,28 +1755,10 @@
             "tokenization": "住房 | 專案 | 間 | 騙 | 手法 | 現場 | 買單 | 告知 | 請 | 工作 | 人員來 | 問才 | 說 | 食材 | 送 | 變相 | 強迫 | 消費 | 手法 | 下午 | 點多 | 送來 | 晚上 | 烤 | 肉食 | 材海鮮 | 部份 | 附上 | 冰箱 | 保鮮 | 一晚 | 入住 | 費用 | 一萬多 | 服務 | 糟糕 | 朋友 | 推 | 真心 | 建議 | 想 | 體驗 | 豪營 | 朋友 | 要問 | 吃 | 悶虧 | 印象 | 糟透了 | 店 | 下次"
         },
         {
-            "content": "生態豐富",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "生態"
-        },
-        {
-            "content": "大自然真美",
-            "rating": 4,
-            "publishedDate": "2023/05/29",
-            "tokenization": "大自然 | 真 | 美"
-        },
-        {
             "content": "環境超優，很適合輕旅生活",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "環境 | 超優 | 適合輕 | 旅 | 生活"
-        },
-        {
-            "content": "很喜歡這裡＾＾",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "喜歡 | ＾ | ＾"
         },
         {
             "content": "第一次來露營老人家來散心很不錯👍 …",
@@ -2347,12 +1771,6 @@
             "rating": 4,
             "publishedDate": "2023/05/29",
             "tokenization": "星空 | 帳超美 | 親近 | 大自然 | 遠離 | 塵囂 | 之後能 | 親子 | 活動會 | 棒 | 雨天 | 備案 | 完美 | 瑕"
-        },
-        {
-            "content": "超讚的住宿體驗～～～",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "超 | 讚 | 住宿 | 體驗"
         },
         {
             "content": "還好今天天氣很好 沒下雨～星空帳篷有夠美😍 …",
@@ -2379,58 +1797,16 @@
             "tokenization": "懶人 | 露營 | 服務 | 活動 | 安排 | 適合 | 親子 | 家庭 | 來訪"
         },
         {
-            "content": "好地方，放鬆⛺️",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "地方 | 放 | 鬆 | ⛺ | ️"
-        },
-        {
-            "content": "超棒的露營⛺️體驗",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "超棒 | 露營 | ⛺ | ️ | 體驗"
-        },
-        {
-            "content": "超棒的露營⛺️體驗",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "超棒 | 露營 | ⛺ | ️ | 體驗"
-        },
-        {
             "content": "園區愜意優悠閒，可以做帆布袋、多肉很有趣，最讓人喜歡是工作人員介紹仔細、服務也總是很親切、好相處🌸 …",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "園區 | 愜意 | 優悠閒 | 做 | 帆布袋 | 多肉 | 有趣 | 喜歡 | 工作 | 人員介紹 | 仔細 | 服務 | 總 | 親切 | 相處 | 🌸"
         },
         {
-            "content": "讚服務品質高：6顆星",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "讚 | 服 | 務 | 品 | 質 | 高 | 顆星"
-        },
-        {
             "content": "這裡真的很美～非常適合放鬆度假的選擇👍 …",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "真的 | 美 | 適合 | 放 | 鬆 | 度假 | 選擇 | 👍"
-        },
-        {
-            "content": "雨天有不同的浪漫感",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "雨天 | 浪漫 | 感"
-        },
-        {
-            "content": "很不錯的露營體驗！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很不錯 | 露營 | 體驗"
-        },
-        {
-            "content": "入住星空帳",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "入住 | 星空 | 帳"
         },
         {
             "content": "體驗真的不太好 我覺得google評論好像是刷出來的 不太像真的 我是五月初週末入住的 訂房網站上看起來一房難求 但實際上 住房率大概不到五成 我住的是D區的星空帳 且當天天氣是個超級好的大晴天 但晚上燈全關之後仍然沒有看到星星 有點廣告不實的感覺房間內只有一盞一個燈泡的吊燈 晚上如果要在房間內從事活動真的很不夠用 有評論說當地各家電信的訊號都很良好 但我是用中華電信卻只有兩格的訊號 幾乎沒有4G的程度 園區內的網速也很慢 看YouTube會卡檔的那種再來說說晚餐 當地蒼蠅非常多 雖然說是高級烤肉 但我覺得食材並沒有很符合這個價位 而且送上食材後立刻會招來很多很多很多的蒼蠅 園區居然沒有針對蒼蠅的保護食材的措施 就這樣讓肉片一盤一盤的晾在桌上 直到我們實在太不滿了才緊急送來罩子給我們蓋住 但可笑的是他們的餐桌是那種有洞的桌子 罩子蓋在上面 蒼蠅便從桌下的洞一樣飛進食物盤子裡 晚餐還有提供一些熟食 當天是舒肥鴨胸和生菜沙拉 鴨胸烹調到咬不動 而生菜沙拉看起來超級不新鮮 葉菜軟爛出水的那種 實在難入口隔日早餐也是蠻誇張的 食物選擇種類少 而且當天烤麵包機還壞掉 鬆餅吃起來像大蒜麵包的硬度 其他料理也不是很可口美味 讓我全家人敗興而歸我覺得整體而言 這樣的體驗真的不值這個價錢 大家訂房前要想一想 想清楚再訂 我當初也是錯信了很高的google 評價 卻發現他們在入住時會希望你幫忙填評價會送禮物 或許這就是評價不實的原因所在吧！",
@@ -2469,12 +1845,6 @@
             "tokenization": "服務佳 | 空氣 | 五星 | 體驗"
         },
         {
-            "content": "星空帳蓬很棒體驗",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "星空 | 帳蓬 | 很棒 | 體驗"
-        },
-        {
             "content": "這次來到峇嵐杉丘 首先一進門會有親切的服務人員 幫你提行李送到房間 之後服務人員會詳細的介紹 園區內的設施以及活動 入住期間可以加入群主 會公告園區的活動 以及如果有任何問題 都可以請專人為您服務 晚餐的部分是自主式的烤肉 牛排及豬排的份量很夠 吃不夠還可以加點 整體入住體驗很不錯 歡迎大家可以來看看",
             "rating": 5,
             "publishedDate": "2023/05/29",
@@ -2487,34 +1857,10 @@
             "tokenization": "超 | 美的 | 住宿 | 舒服 | 😌"
         },
         {
-            "content": "很棒🥰 …",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒 | 🥰"
-        },
-        {
-            "content": "非常適合親子",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "適合 | 親子"
-        },
-        {
-            "content": "環境美 服務佳",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 美 | 服務佳"
-        },
-        {
             "content": "環境優美 服務人員服務很好 讚讚",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "環境 | 優美 | 服務人員 | 服務 | 讚 | 讚"
-        },
-        {
-            "content": "風景優美",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "風景 | 優美"
         },
         {
             "content": "風景美麗，下午茶也很美味😋，還有可愛的兔子🐰🥰🥰 …",
@@ -2527,18 +1873,6 @@
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "👍 | 🏻 | 放 | 鬆 | 心情"
-        },
-        {
-            "content": "園區美美噠！喜歡！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "園區 | 美美 | 噠 | 喜歡"
-        },
-        {
-            "content": "環境舒適、服務讚讚",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 舒適 | 服 | 務 | 讚 | 讚"
         },
         {
             "content": "環境超舒服！帳篷裡非常整潔又舒適！很適合媽媽在帳篷納涼，爸爸帶著小孩在外面跑跳！晚餐食材超高級！活動也很有趣！強推！",
@@ -2557,18 +1891,6 @@
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "值得 | 環境 | 優美 | 服務人員 | 親切 | 必會 | 再訪"
-        },
-        {
-            "content": "漂亮舒服",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "漂亮 | 舒服"
-        },
-        {
-            "content": "很棒的體驗～",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒 | 體驗"
         },
         {
             "content": "是個很美很舒服的地方接待解說人員也很親切美中不足的是晚上播放的青蛙叫聲太吵了有點難睡吃早餐的時候餐飲人員太過熱情一直看著我們  麵包剛拿起來吃就過來收盤子  害我少吃了3片麵包亞歷山大😅",
@@ -2607,22 +1929,10 @@
             "tokenization": "房間 | 乾淨 | 舒適 | 無時 | 無刻 | 充滿 | 大自然 | 氣息"
         },
         {
-            "content": "服務很棒喲！！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "服務 | 很棒"
-        },
-        {
             "content": "推推～  舒服的豪華免裝露營🥰 …",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "推推 | 舒服 | 豪華免 | 裝露營 | 🥰"
-        },
-        {
-            "content": "環境乾淨優美",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 乾淨 | 優美"
         },
         {
             "content": "這邊好棒啊！完全懶人露營，停好車便有人幫忙提運行李到帳篷，環境很愜意，被大自然環繞，可以聽到各種大自然的聲音，相對蚊子也很多，營主很貼心準備防蚊液、蚊香和電蚊香，帳篷內有冷氣，房間舒適，還有奶瓶消毒鍋、嬰兒澡盆、床圍，讓人感到賓至如歸！ㄧ入住即準備好下午茶在帳篷內，晚餐BBQ和火鍋好吃，跟外面餐廳有得比，食材也很新鮮！早餐也很健康又多樣化，DIY蔬果榨汁第一次看到，覺得很不錯！另外還有簡易的手作課程：乾燥後擴香瓶、拓印手提袋，大人小孩都玩得不亦樂乎！可惜的是戶外電影院，因為當天氣候不佳沒有開放～第一天還有40分鐘園區導覽，雖然很多房客聽到一半就跑掉，但可以感受到營主滿滿的用心，入住一晚的價格不低，但覺得值得。",
@@ -2643,36 +1953,6 @@
             "tokenization": "Chill | 放 | 鬆 | 地方 | 餐點 | 好吃 | 機會會 | 再訪"
         },
         {
-            "content": "空氣超好",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "空氣 | 超好"
-        },
-        {
-            "content": "空氣環境很好",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "空氣 | 環境"
-        },
-        {
-            "content": "環境優美",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 優美"
-        },
-        {
-            "content": "環境優美",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 優美"
-        },
-        {
-            "content": "環境優美。蚊子稍多",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 優美 | 蚊子 | 稍"
-        },
-        {
             "content": "服務人員態度很好，接待很周到，讚👍🏻 …",
             "rating": 5,
             "publishedDate": "2023/05/29",
@@ -2691,12 +1971,6 @@
             "tokenization": "放 | 鬆 | 行李 | 車的 | 接送"
         },
         {
-            "content": "環境很好 乾淨",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 乾淨"
-        },
-        {
             "content": "園區的每個服務人員都很親切，還有可愛的店狗小峇及兩隻兔子，園區很漂亮，衛浴也超乾淨的，下次有機會一定會再來訪~",
             "rating": 5,
             "publishedDate": "2023/05/29",
@@ -2707,12 +1981,6 @@
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "空氣 | 清晰 | 服務人員 | 親切 | 環境 | 美"
-        },
-        {
-            "content": "環境優美服務優質",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 優美 | 服務 | 優質"
         },
         {
             "content": "親切佳，服務好，令人印象深刻有專車接送行李至客房👍👍👍 …",
@@ -2739,22 +2007,10 @@
             "tokenization": "環境 | 優美空氣 | 新鮮 | 櫃 | 檯 | 人員 | 親切 | 接待 | 服務品 | 質一級 | 棒 | 👍 | 🏻 | 👍 | 🏻 | 👍 | 🏻"
         },
         {
-            "content": "空氣超好的！！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "空氣 | 超好"
-        },
-        {
             "content": "環境優美空氣新鮮服務佳",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "環境 | 優美空氣 | 新鮮 | 服務佳"
-        },
-        {
-            "content": "環境優美空氣新鮮",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "環境 | 優美空氣 | 新鮮"
         },
         {
             "content": "住宿超美，服務人員很親切，還可以幫我們寄明信片！",
@@ -2817,12 +2073,6 @@
             "tokenization": "好玩 | 快樂 | 👍 | 🏻"
         },
         {
-            "content": "讚讚～",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "讚 | 讚"
-        },
-        {
             "content": "露營帳蓬內有冰箱冷氣旁邊還有獨立的乾溼分離衛浴。",
             "rating": 5,
             "publishedDate": "2023/04/29",
@@ -2877,46 +2127,10 @@
             "tokenization": "環境 | 服務人員 | 一級 | 棒 | 超 | 讚"
         },
         {
-            "content": "輕鬆漫遊",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "輕 | 鬆 | 漫 | 遊"
-        },
-        {
-            "content": "幸福的露營區",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "幸福 | 露營區"
-        },
-        {
-            "content": "輕鬆",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "輕 | 鬆"
-        },
-        {
-            "content": "讚👍🏻服務周到",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "讚 | 👍 | 🏻 | 服務 | 周到"
-        },
-        {
-            "content": "夢幻星光帳",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "夢幻 | 星光 | 帳"
-        },
-        {
             "content": "這𥚃真的是太棒了😄有機會會再來👍 …",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "𥚃 | 真的 | 太棒了 | 😄 | 機會會 | 👍"
-        },
-        {
-            "content": "環境很棒~~~",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "環境 | 很棒"
         },
         {
             "content": "速水星空帳篷真的美還有DIY環保袋",
@@ -2955,12 +2169,6 @@
             "tokenization": "烤肉 | 野營 | 蟲鳴 | 鳥 | 嘎然 | 徐徐 | 涼風沁 | 心涼 | 體驗 | 活動 | 有趣 | 記念性 | 服務 | line | ㄧ | 親切 | 揪 | 朋引友 | ㄧ | 體驗"
         },
         {
-            "content": "房間乾淨服務很棒",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "房間 | 乾淨 | 服務 | 很棒"
-        },
-        {
             "content": "價格死貴，住得可以、吃得超差，去過一次列入黑名單，重點是那麼貴的價格，晚餐沒有附白飯，還要自己額外花30元，30元是小錢，但是感覺很不好，附白飯不是最基本的嗎",
             "rating": 1,
             "publishedDate": "2023/04/29",
@@ -2973,40 +2181,16 @@
             "tokenization": "適合帶 | 小朋友 | 寵物來 | 園區 | 可愛的 | 狗狗 | 兔子 | 🤣 | 環境 | 舒服 | 住 | C | 區 | 星空 | 帳 | 星星"
         },
         {
-            "content": "很不一樣的住宿經驗",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "住宿 | 經驗"
-        },
-        {
             "content": "很棒的露營環境，工作人員都很細心，下午茶準備的豐盛，還有準備有趣的尋寶活動很適合小朋友體驗。",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "很棒 | 露營 | 環境 | 工作 | 人員 | 細心 | 下午茶 | 豐盛 | 有趣 | 尋寶活動 | 適合 | 小朋友 | 體驗"
         },
         {
-            "content": "環境清幽",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "環境 | 清幽"
-        },
-        {
             "content": "住宿環境非常的舒適幽靜服務人員非常親切下次再帶家人一起來入住誠摯推薦👍👍👍👍",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "住宿 | 環境 | 舒適 | 幽靜 | 服務人員 | 親切 | 下次 | 再帶 | 家人 | 入住 | 誠摯 | 推薦 | 👍 | 👍 | 👍 | 👍"
-        },
-        {
-            "content": "⛺️⛺️",
-            "rating": 3,
-            "publishedDate": "2023/04/29",
-            "tokenization": "⛺ | ️ | ⛺ | ️"
-        },
-        {
-            "content": "可以放鬆好玩的地方",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "放 | 鬆 | 好玩 | 地方"
         },
         {
             "content": "園內服務人員親切解說講解清楚入住整體感受很棒",
@@ -3021,34 +2205,10 @@
             "tokenization": "員工 | 熱情 | 親切 | 園區 | 舒服 | 適合 | 渡假 | 放 | 鬆 | 👍"
         },
         {
-            "content": "服務好",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "服務好"
-        },
-        {
             "content": "1. 園區內工作人員熱忱有禮貌反應迅速2. 園區內每個角落都能感受到園區的用心3. 帳篷內佈置的很溫馨4. 衛浴設備乾淨明亮5. 早餐豐盛晚餐BBQ食材豐盛好吃整體的感受非常棒。推薦給想要接觸大自然享受蟲鳴鳥叫的朋友來入住。",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "園區 | 工作 | 人員 | 熱忱 | 禮貌 | 園區 | 角落 | 感受 | 園區 | 用心 | 帳篷 | 佈 | 置 | 溫馨 | 衛浴 | 設備 | 乾淨 | 明亮 | 早餐 | 豐盛 | 晚餐 | BBQ | 食材 | 豐盛 | 好吃 | 整體 | 感受 | 棒 | 推薦給 | 想要 | 接觸 | 大自然 | 享受 | 蟲鳴 | 鳥 | 朋友 | 入住"
-        },
-        {
-            "content": "好棒",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "好棒"
-        },
-        {
-            "content": "舒服放鬆的環境",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "舒服 | 放 | 鬆 | 環 | 境"
-        },
-        {
-            "content": "推",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "推"
         },
         {
             "content": "美食超推人員親切 服務好園區乾淨整潔是放鬆的好地方",
@@ -3087,12 +2247,6 @@
             "tokenization": "星空 | 帳超美 | ❤ | ️ | 下午茶 | 好吃 | 🥰 | 🥰"
         },
         {
-            "content": "。",
-            "rating": 3,
-            "publishedDate": "2023/04/29",
-            "tokenization": ""
-        },
-        {
             "content": "環境優美、舒服乾淨❤️美美的提袋",
             "rating": 5,
             "publishedDate": "2023/04/29",
@@ -3129,48 +2283,6 @@
             "tokenization": "第一次 | 入住 | 感覺 | 棒 | 大自然 | 氣息 | 值得 | 體驗"
         },
         {
-            "content": "適合放鬆心情",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "適合 | 放 | 鬆 | 心情"
-        },
-        {
-            "content": "環境很大很舒服",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "環境 | 很大 | 舒服"
-        },
-        {
-            "content": "環境很舒服👍🏻 …",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "環境 | 舒服 | 👍 | 🏻"
-        },
-        {
-            "content": "場地很大 很多設備",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "場地 | 很大 | 設備"
-        },
-        {
-            "content": "很棒的旅行",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "很棒 | 旅行"
-        },
-        {
-            "content": "人間仙境",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "人間 | 仙境"
-        },
-        {
-            "content": "舒服的環境",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "舒服 | 環境"
-        },
-        {
             "content": "工作人員非常友好和樂於助人，房間也非常好。風景不錯，還會再回來",
             "rating": 5,
             "publishedDate": "2023/04/29",
@@ -3195,52 +2307,10 @@
             "tokenization": "大人 | 小孩 | 放 | 鬆 | 地方"
         },
         {
-            "content": "手作課程 棒",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "手作 | 課程 | 棒"
-        },
-        {
-            "content": "😍😍😍 …",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "😍 | 😍 | 😍"
-        },
-        {
-            "content": "超美～～",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "超美"
-        },
-        {
-            "content": "很棒的休閒地方",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "很棒 | 休閒 | 地方"
-        },
-        {
-            "content": "好吃好玩",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "好吃 | 好玩"
-        },
-        {
-            "content": "非常好！！！",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": ""
-        },
-        {
             "content": "放鬆、遛小孩的好地方。園區也準備了一些活動，覺得規劃上蠻用心的，雖然剛好遇上天氣不是很好，但對這次希望放鬆休憩對目的沒有太大影響，如果天氣好相信更能加分。住宿方案內含晚餐與次日早餐，晚餐為火鍋與烤肉在帳篷旁享用，另有可加點的菜單；份量上十分足夠，但雖然火鍋菜盤不錯，但可惜沒有適合火鍋的肉片類食材；烤肉的部分雞豬牛海鮮很豐盛，但覺得如量稍減，預算改挹注到食材等級上可錦上添花。早餐的部分要到餐廳，為自助餐，中規中矩選擇也算豐富，沒什麼好挑剔的。基本上以住在中部來說，算是假日不錯的選擇，有機會會再二訪。",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "放 | 鬆 | 遛 | 小孩 | 地方 | 園區 | 活動 | 規劃 | 用心 | 遇上 | 天氣 | 希望 | 放 | 鬆 | 休憩 | 目的 | 太大 | 影響 | 天氣 | 更能 | 加分 | 住宿 | 方案 | 內含 | 晚餐 | 次日 | 早餐 | 晚餐 | 為 | 火鍋 | 烤肉 | 帳篷 | 旁 | 享用 | 另有 | 可加點 | 菜 | 份量 | 足夠 | 火鍋 | 菜盤 | 不錯 | 可惜 | 適合 | 火鍋 | 肉片 | 類食材 | 烤肉 | 雞豬 | 牛海鮮 | 豐盛 | 但覺 | 如量 | 稍減 | 預算改 | 挹注 | 食材 | 等級 | 可錦上 | 添花 | 早餐 | 餐廳 | 為 | 自助餐 | 中規 | 中矩 | 選擇 | 算 | 沒什麼 | 挑剔 | 以住 | 中部 | 說 | 算是 | 假日 | 不錯 | 選擇 | 機會會 | 再二訪"
-        },
-        {
-            "content": "久違的出來玩",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "久 | 違 | 玩"
         },
         {
             "content": "貼心的服務，完善的設施，雖然下雨可惜，依然享受的兩天一夜",
@@ -3261,46 +2331,10 @@
             "tokenization": "友善 | 環境 | 舒服 | 空間 | 貼心 | 服務 | 小孩 | 滿滿 | 耐心 | 值得 | 推薦 | 地方"
         },
         {
-            "content": "二天一夜很棒👍 …",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "二天 | 一夜 | 很棒 | 👍"
-        },
-        {
-            "content": "超棒的地方，很放鬆",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "超棒 | 地方 | 放 | 鬆"
-        },
-        {
-            "content": "很值得耒。",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "值得 | 耒"
-        },
-        {
             "content": "美麗的風景和工作人員非常樂於助人。",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "美麗 | 風景 | 工作 | 人員 | 樂 | 助人"
-        },
-        {
-            "content": "风景优美，环境优美！",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "风景优美 | 环境优美"
-        },
-        {
-            "content": "美丽好风景！，",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "美丽 | 风景"
-        },
-        {
-            "content": "美麗的地方和人！",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "美麗 | 地方"
         },
         {
             "content": "很有特色的露營區！但營地不大海拔也不是很高！但服務人員熱情餐點也是不錯👍自然費用就不便宜囉！ …",
@@ -3321,30 +2355,6 @@
             "tokenization": "舒適 | 放 | 鬆 | 露 | 營 | 服務 | 超棒 | 烤 | 肉食 | 材 | 新鮮"
         },
         {
-            "content": "食材新鮮量多",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "食材 | 新鮮量"
-        },
-        {
-            "content": "非常好👍 …",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "👍"
-        },
-        {
-            "content": "很棒的地方",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "很棒 | 地方"
-        },
-        {
-            "content": "超美的很適合全家來",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "超 | 美的 | 適合 | 全家"
-        },
-        {
             "content": "超級舒適，跟朋友一起歡樂的感覺，真的超級Chill",
             "rating": 5,
             "publishedDate": "2023/03/29",
@@ -3357,40 +2367,16 @@
             "tokenization": "環境 | 優美 | 適合 | 全家 | 大小"
         },
         {
-            "content": "超棒的",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "超棒"
-        },
-        {
             "content": "南山新高峰來玩，不一樣的體驗，環境適合家庭式跟朋友一同出遊玩",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "南山 | 新高峰 | 玩 | 不一樣 | 體驗 | 環境 | 適合 | 家庭式 | 朋友 | 一同 | 出遊 | 玩"
         },
         {
-            "content": "非常好👍 …",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "👍"
-        },
-        {
             "content": "不僅有星空帳，還有手作體驗～超棒的",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "星空 | 帳 | 手作 | 體驗 | 超棒"
-        },
-        {
-            "content": "很棒體驗很好",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "很棒 | 體驗"
-        },
-        {
-            "content": "很棒有手做體驗",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "很棒 | 有手 | 做 | 體驗"
         },
         {
             "content": "星空帳很棒！！還有各種體驗～",
@@ -3423,40 +2409,10 @@
             "tokenization": "點心 | 熱一點 | 更好 | 呦"
         },
         {
-            "content": "園區好美",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "園區 | 美"
-        },
-        {
-            "content": "清靜悠閒",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "清靜 | 悠閒"
-        },
-        {
-            "content": "很有放鬆的感覺",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "放 | 鬆 | 感 | 覺"
-        },
-        {
-            "content": "星空帳超美的",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "星空 | 帳超 | 美的"
-        },
-        {
             "content": "環境很乾淨舒服，還可以玩藏寶圖遊認識環境",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "環境 | 乾淨 | 舒服 | 玩藏 | 寶圖遊 | 環境"
-        },
-        {
-            "content": "很適合度假的地方",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "適合 | 度假 | 地方"
         },
         {
             "content": "除了舒服的住宿環境以外還有各式各樣的體驗活動，一入住後房內就有準備豐盛的下午茶，吃完之後在到窯烤區製作DIY披薩🍕以為很普通但吃起來真的不簡單！！（真的很好吃）期待晚上的BBQ晚餐🥰下次絕對要帶毛小孩一起來寵物友善真的太讚了！！ …",
@@ -3507,34 +2463,16 @@
             "tokenization": "露營 | 真的 | chill"
         },
         {
-            "content": "美❤️",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "美 | ❤ | ️"
-        },
-        {
             "content": "服務好，氣氛佳不用怕無聊，有很多活動可以玩覽區介紹很用心🥰下午茶 晚餐都很豐盛讓你吃的不要不要的",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "服務好 | 氣氛 | 佳 | 不用 | 無聊 | 活動 | 玩覽區 | 介紹 | 用心 | 🥰 | 下午茶 | 晚餐 | 豐盛 | 吃"
         },
         {
-            "content": "食物好吃，風景優美",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "食物 | 好吃 | 風景 | 優美"
-        },
-        {
             "content": "群山環繞、風景優美、服務優質，我們在烤肉甚至還有長官來跟我們問候「吃得好不好」、「有沒有需要調整的地方」，有任何需要也能跟小管家即使反應處理，一整個住宿體驗超好的！給你們五星滿分！",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "群山 | 環繞 | 風景 | 優美 | 服務 | 優質 | 烤肉 | 還有長 | 官來 | 問候 | 吃 | 好不好 | 調整 | 地方 | 管家 | 一整 | 住宿 | 體驗 | 超好 | 給你們 | 五星 | 滿分"
-        },
-        {
-            "content": "苓雅崔直說誠心推薦👍",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "苓 | 雅 | 崔直 | 說 | 誠心 | 推薦 | 👍"
         },
         {
             "content": "環境優美、適合來chill",
@@ -3573,28 +2511,10 @@
             "tokenization": "去年 | 10 | 月 | 訂房 | 😊 | 18 | 19 | 終於來 | 入住 | ❤ | ️ | 營地 | 環境 | 乾淨 | 舒服 | 愜意 | 品質 | 重點 | 工作 | 人員 | nice | 服務 | 👍 | 下午茶 | 精 | 緻 | 簡 | 天氣怡 | 舒適 | check | in | 度過 | 三小時 | 悠閒 | 下午 | 晚餐 | BBQ | 三人 | 套餐 | 雙人 | 套餐 | 餐點 | 精 | 緻 | 海鮮 | 新鮮 | 肉質 | 超嫩 | 搭配 | 自帶 | 四瓶 | 酒 | 對味 | 😋 | 餐廳 | 經理 | 親切 | 服務 | 👍 | 每一房 | 蚊香 | 防蚊 | 噴霧 | 蚊蟲 | 干擾 | 房間 | 擺設 | 太 | 擁擠 | 地板 | 乾淨 | 床 | 🛏 | ️ | 睡 | 晚上 | 🌃 | 安靜 | 吵鬧聲 | 記得 | 牙刷 | 牙膏 | 喔 | 早餐 | 自助式 | 餐點 | 選擇 | 太 | 剛剛 | 整體 | 說 | 算 | 不錯 | 👍 | 手作 | 課 | 浮游 | 花 | 擴香瓶 | 簡單 | 手作 | 課程 | 喜好 | 製 | 作 | 半小時 | 結束 | 課程 | 適合 | 親子 | 朋友 | 家庭 | ☺ | ️"
         },
         {
-            "content": "放鬆心情 很棒的體驗",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "放 | 鬆 | 心情 | 很棒 | 體驗"
-        },
-        {
             "content": "喜歡他獨立的衛浴又大又乾淨食材新鮮份量夠~早餐的餐食好吃很棒的露營體驗",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "喜歡 | 獨立 | 衛浴 | 乾淨 | 食材 | 新鮮 | 份量 | 夠 | 早餐 | 餐食 | 好吃 | 很棒 | 露營 | 體驗"
-        },
-        {
-            "content": "超棒的體驗！",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "超棒 | 體驗"
-        },
-        {
-            "content": "服務很好，餐點好吃",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "服務 | 餐點 | 好吃"
         },
         {
             "content": "環境很好，餐點也很精緻好吃",
@@ -3621,12 +2541,6 @@
             "tokenization": "空間 | 格局 | 舒適 | 愜意 | 聊天 | 環境 | 優美 | 適合 | 輕 | 鬆 | 露 | 營 | 睇"
         },
         {
-            "content": "很棒的住宿體驗！",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "很棒 | 住宿 | 體驗"
-        },
-        {
             "content": "環境優美 設計質感 五星服務 好的旅途",
             "rating": 5,
             "publishedDate": "2023/03/29",
@@ -3651,28 +2565,10 @@
             "tokenization": "園區 | 安排 | 手作 | 活動 | 參 | 窯 | 烤 | 披薩 | 活動 | 服務 | 周到 | 園區 | 人員 | 熱心 | 放心 | 問他們 | 旅遊 | 相關 | 資訊 | 晚餐 | 提供 | 烤 | 爐 | 適合 | 烹飪 | 熱情"
         },
         {
-            "content": "棒",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "棒"
-        },
-        {
-            "content": "五星級服務",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "五星 | 級 | 服務"
-        },
-        {
             "content": "好吃的馬告蔬菜鍋香噴噴的披薩可愛的星空電影院",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "好吃 | 馬 | 告 | 蔬菜 | 鍋香 | 噴噴 | 披薩 | 可愛的 | 星空 | 電 | 影院"
-        },
-        {
-            "content": "很多有趣的DIY",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "有趣 | DIY"
         },
         {
             "content": "很美的地方，可以好好放鬆身心",
@@ -3705,12 +2601,6 @@
             "tokenization": "適合 | 放 | 鬆 | 渡假 | 寵物 | 友善 | 💕"
         },
         {
-            "content": "超棒的回憶",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "超棒 | 回憶"
-        },
-        {
             "content": "環境清幽 分離式浴廁（還有免治馬桶）重點是蓮蓬頭🚿不會發霉乾乾淨淨 非常喜歡 推薦👍🏻 …",
             "rating": 5,
             "publishedDate": "2023/03/29",
@@ -3741,18 +2631,6 @@
             "tokenization": "絕美 | 星空 | 帳 | 一生 | 要來 | 體驗"
         },
         {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "讚"
-        },
-        {
-            "content": "空氣很棒風景漂亮",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "空氣 | 很棒 | 風景 | 漂亮"
-        },
-        {
             "content": "服務人員熱心活潑！輕鬆寫意的地方！",
             "rating": 5,
             "publishedDate": "2023/03/29",
@@ -3777,12 +2655,6 @@
             "tokenization": "服務人員 | 友善 | 環境 | 優美 | 好玩 | 手作 | 體驗"
         },
         {
-            "content": "真的很好玩喔！",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "真的 | 好玩 | 喔"
-        },
-        {
             "content": "很棒的體驗，可以享受森林的擁抱，環境乾淨，氣氛很好，值得下次再來",
             "rating": 4,
             "publishedDate": "2023/03/29",
@@ -3795,40 +2667,16 @@
             "tokenization": "環境 | 怡 | 空氣 | 清晰 | 適合 | 一家 | 大小 | 度假"
         },
         {
-            "content": "豐富餐點服務一級棒",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "餐點 | 服務 | 一級 | 棒"
-        },
-        {
             "content": "很棒~服務人員非常的nice ！沒想到園區還有小遊戲，很特別，完成小任務還有獎勵，讓人不會覺得無聊😆很適合都市人微旅行放鬆😌",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "很棒 | 服務人員 | nice | 想到 | 園區 | 小遊戲 | 很特別 | 小任務 | 獎勵 | 無聊 | 😆 | 適合 | 都市人 | 微 | 旅行 | 放 | 鬆 | 😌"
         },
         {
-            "content": "很有趣的地方",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "有趣 | 地方"
-        },
-        {
-            "content": "味道、環境、飲食👍",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "味道 | 環境 | 飲食 | 👍"
-        },
-        {
             "content": "第一次體驗豪華露營，感謝準備的所有驚喜與美好回憶❤️",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "第一次 | 體驗 | 豪華露營 | 感謝 | 驚喜 | 美好 | 回憶 | ❤ | ️"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "讚"
         },
         {
             "content": "風景佳、設備好，園區人員都很細心、親切，晚上可以看到些許星星～",
@@ -3897,12 +2745,6 @@
             "tokenization": "環境 | 優美舒適 | 人員 | 耐心 | 講解"
         },
         {
-            "content": "環境很棒",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "環境 | 很棒"
-        },
-        {
             "content": "園區環境好，服務人員親切",
             "rating": 5,
             "publishedDate": "2023/03/29",
@@ -3933,18 +2775,6 @@
             "tokenization": "空氣 | 住房 | 舒適 | 服務好"
         },
         {
-            "content": "漂亮溫暖",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "漂亮 | 溫暖"
-        },
-        {
-            "content": "服務很棒",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "服務 | 很棒"
-        },
-        {
             "content": "非常美麗的地方，友好的工作人員",
             "rating": 5,
             "publishedDate": "2023/03/29",
@@ -3973,12 +2803,6 @@
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "服務人員 | 親切 | 解說 | 房間 | 舒適 | 適合 | 親友 | 小孩 | 一同 | 享受 | 很棒 | 體驗 | 👍"
-        },
-        {
-            "content": "很棒的體驗～絹印製作",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "很棒 | 體驗 | 絹 | 印 | 製 | 作"
         },
         {
             "content": "很美的地方，適合好友們相聚👍 …",
@@ -4077,18 +2901,6 @@
             "tokenization": "五星 | 懶人 | 豪華露營 | 一到 | 園區 | 人員貼 | 心運送 | 行李 | 一泊 | 三食 | 下午茶 | 好吃 | 紅茶 | 無糖 | 好喝 | 晚餐 | 烤 | 肉食 | 材新鮮 | 火鍋 | 青菜 | 湯頭 | 鮮美 | 冷冷的 | 天 | 搭配 | 熱 | 呼呼 | 湯頭 | 絕佳 | 販賣部 | 販售 | 酒類 | chill | chill | 食材 | 保鮮膜 | 封起 | 搭配 | 醬料 | 美味 | 早餐 | 份量 | 雖不多 | 足夠 | 簡易 | 導覽 | 長 | 知識 | 園區 | 簡 | 易手 | 作讓 | 山中 | 遠離 | 塵囂 | 享受 | 此刻 | 愜意 | 時光 | 馬 | 車帳 | 空間 | 雖不大 | 兩人 | 入住 | 足夠 | 房間 | 一進 | 充滿 | 香味 | 潮濕味 | 廁所 | 洗澡 | 兩間 | 分開 | 適合會 | 搶 | 廁所 | 入住 | 🤣 | 園區 | 地方 | 適合 | 拍照 | 拍 | 久 | 店狗 | 峇 | 親人 | 愛 | 杉杉 | 小嵐 | 兩 | 隻 | 兔子 | 毛色 | 漂亮 | 完美 | 住宿 | 體驗 | 👍 | 👍"
         },
         {
-            "content": "讚 還有小禮物可拿",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "讚 | 小禮物"
-        },
-        {
-            "content": "很chil的一次露營",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "chil | 露營"
-        },
-        {
             "content": "環境優美寧靜舒服😌別錯過！ …",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -4155,12 +2967,6 @@
             "tokenization": "感謝 | 峇 | 嵐杉丘 | 爸媽度 | 過一個 | 幸福 | 輕 | 鬆 | 愉快 | 兩天 | 一夜 | 這是 | 露營 | 初體驗 | 留下 | 美好 | 回憶 | 峇 | 嵐杉丘 | 環境 | 餐點 | 員 | 工素質 | 感到 | 溫暖 | 謝謝"
         },
         {
-            "content": "很愜意值得二訪、三訪",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "愜意 | 值得 | 二訪 | 三訪"
-        },
-        {
             "content": "來這邊慶生，園方會跟你串通驚喜給壽星，完全不會讓對方知道！驚喜到爆緣分讓我遇見這隻貓貓，園方也讓我收編他，跟我一起過生日！！期待明年帶他回老家！",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -4189,12 +2995,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "遠離 | 塵囂 | 沐浴 | 杉林 | 中 | 奢華露 | 營區 | 全區 | 主題 | 浪漫 | 星空 | 帳及 | 童話 | 溫馨 | 馬 | 車帳 | 帳篷 | 內外 | 精心 | 佈 | 置 | 園區 | 角落 | 驚喜 | 秒 | 殺 | 手機 | 記憶體 | 體驗 | 浪漫 | 靜悠 | 大自然 | 生活"
-        },
-        {
-            "content": "老小都歡欣。",
-            "rating": 4,
-            "publishedDate": "2023/02/28",
-            "tokenization": "老小 | 歡欣"
         },
         {
             "content": "不用出國，也能體驗在日本的感覺。服務人員熱心，很適合帶小孩來",
@@ -4359,12 +3159,6 @@
             "tokenization": "感受 | 營地 | 用心 | 體會 | 經營 | 管理 | 民宿 | 營地 | 差異性 | 間房 | 包套 | 行程 | 烤 | 肉食 | 材 | 爆炸 | 配置 | 瓦斯 | 火烤 | 爐 | 少 | 木炭 | 煙 | 燻 | 味 | 輕 | 鬆 | 變 | 一道道 | 美食 | 佳餚 | 漂亮 | 全家人 | 放 | 鬆 | 住宿"
         },
         {
-            "content": "好喜歡這個環境♥️",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "喜歡 | 環境 | ♥ | ️"
-        },
-        {
             "content": "你在看留言嗎？那我跟你說這是一定要體驗一次的環境舒適又乾淨天氣好那個天空怎麼拍都星星晚上的烤肉在配上一杯生啤酒只能說我已經想在預約下一次了一定要喝喝看那個生啤酒 厲害厲害的！",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -4375,12 +3169,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "服務 | 說 | 完美 | 適合 | 放 | 鬆 | 地方 | 安靜"
-        },
-        {
-            "content": "晚餐飽到天靈蓋🥴 …",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "晚餐 | 飽到 | 天靈蓋 | 🥴"
         },
         {
             "content": "超級棒服務很好，很放鬆值得來這裡relax",
@@ -4399,30 +3187,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "房間 | 乾淨 | 風景 | 優美 | 晚餐 | 工作 | 人員態度 | 小心 | 打翻 | 盆栽 | 還問 | 受傷"
-        },
-        {
-            "content": "非常棒",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "棒"
-        },
-        {
-            "content": "超讚的",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超 | 讚"
-        },
-        {
-            "content": "很喜歡 謝謝",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "喜歡 | 謝謝"
-        },
-        {
-            "content": "超chill ❤️",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超 | chill | ❤ | ️"
         },
         {
             "content": "食材很棒，場地舒適，服務超讚的，值得推薦",
@@ -4479,22 +3243,10 @@
             "tokenization": "棒 | 露營區 | 晚餐 | 巴比 | Q | 份量 | 足夠 | 設備 | 乾淨 | 下次 | 再來"
         },
         {
-            "content": "很棒很美的地方❤️",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很棒 | 美的 | 地方 | ❤ | ️"
-        },
-        {
             "content": "環境新穎優美. 一進門就有服務員會引導 也會幫您把行李載到住處!服務員普遍年輕 遇到事情反應度上 熱情跟親切有欠缺些早上用餐環境普通 地板.桌面都沒有隨時清潔 8點半進場 安排的位置 桌面還未 清潔就請人坐此處 麻煩服務員清潔 還擺臭臉(因為他很忙)態度真的不佳雖然反應後 都有\"道歉\" 但是這價位跟服務品質餐點可能須加強!導覽後有冰棒吃!營區晚上燈光很優美早餐完全沒有任何標示蔬食可以吃的有那些餐點!素食者的餐點準備上有點不夠專業晚餐 同款食材太多兩大兩小 全部餐點長一樣沒有變化   可能會覺得餐點上有點品質不夠好 其實 素食也可以做出很多變化的燒烤(素食沒有燒烤) 也沒有素食干貝 就是\"蔬菜\"。葷食者大魚大肉，晚餐素食者完全沒任何蛋白質商品，電話中都有告知，吃蛋奶素，完全沒任何的蛋奶，也沒水果。如果是蔬食者 不要抱太大的期盼喔!(不過期待下次有蔬食者去玩 可以分享是否有改善跟用心)以蔬食者者來說 整體餐食跟\"價位上\"真的有落差!  (建議可以多看一下蔬食高級餐廳準備的食材)果然匯，餐廳~完全沒有親子設施  適合喜歡拍照的網美來這裡 滿多造景是用心的不好意思 我的評價很實在   有優點跟缺點! 畢竟 兩大兩小 一晚將近兩萬元，食材沒有到位。還是給幾個優缺點評論!",
             "rating": 3,
             "publishedDate": "2023/02/28",
             "tokenization": "環境 | 新穎 | 優美 | 一進門 | 服務員會 | 引導 | 幫 | 行李 | 載到 | 住 | 處 | 服務員 | 年輕 | 事情 | 反應度 | 熱情 | 親切 | 欠缺 | 早上 | 用餐 | 環境 | 地板 | 桌面 | 清潔 | 點半 | 進場 | 安排 | 位置 | 桌面 | 還未 | 清潔 | 請 | 坐 | 麻煩 | 服務員 | 清潔 | 還擺 | 臉 | 因為 | 忙 | 態度 | 真的 | 不佳 | 道歉 | 這價位 | 服務品質 | 餐點 | 須加強 | 導覽後有 | 冰棒 | 吃 | 營區 | 晚上 | 燈光 | 優美 | 早餐 | 標示 | 蔬食 | 吃 | 餐點 | 素食者 | 餐點 | 專業 | 晚餐 | 同款 | 食材 | 太多 | 兩大 | 兩小 | 餐點長 | 變化 | 會覺 | 餐點 | 品質 | 素食 | 做出 | 變化 | 燒烤 | 素食 | 燒烤 | 素食 | 干貝 | 蔬菜 | 葷 | 食者 | 大魚 | 大肉 | 晚餐 | 素食者 | 蛋白 | 質 | 商品 | 電話 | 中 | 告知 | 吃 | 蛋 | 奶素 | 蛋奶 | 水果 | 蔬食 | 抱太大 | 期盼 | 喔 | 期待 | 下次 | 蔬食 | 玩 | 分享 | 改善 | 用心 | 蔬食 | 說 | 整體 | 餐食 | 價位 | 真的 | 落差 | 建議 | 蔬食 | 高級 | 餐廳 | 食材 | 匯 | 餐廳 | 親子 | 設施 | 適合 | 喜歡 | 拍照 | 網美來 | 滿多 | 造景 | 用心 | 不好意思 | 評價 | 很實 | 優點 | 缺點 | 兩大 | 兩小 | 一晚 | 兩萬元 | 食材 | 到位 | 給幾個 | 優缺點 | 評論"
-        },
-        {
-            "content": "不值這個價位",
-            "rating": 1,
-            "publishedDate": "2023/02/28",
-            "tokenization": "不值 | 價位"
         },
         {
             "content": "比之前去過的露營區算免裝備類飯店露營體驗還不錯，連廁所都是免治的",
@@ -4513,12 +3265,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "一到 | 停車場 | 工作 | 人員 | 開園 | 區車 | 主動 | 幫忙 | 載運 | 行李 | 下午 | 好玩 | 手作 | 活動 | 當天 | 因下 | 整晚 | 雨 | 美麗 | 星星 | 可惜 | 下午茶 | 晚餐 | 早餐 | 皆 | 豐盛 | 園區 | 拍照 | 晚上 | 因為 | 第三位 | 洗澡 | 23 | 00 | 熱水 | 儲存 | 洗 | 一半 | 沒熱水 | 強忍 | 著 | 洗完 | 澡馬桶 | 免治 | 全自動 | 沖 | 水 | 沖 | 完水 | 香氣 | 噴出 | 乾淨"
-        },
-        {
-            "content": "很棒👍🏾 …",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很棒 | 👍 | 🏾"
         },
         {
             "content": "懶人露營的好地方，烤肉食材超讚",
@@ -4543,12 +3289,6 @@
             "rating": 3,
             "publishedDate": "2023/02/28",
             "tokenization": "CP | 值得 | 食材 | 不新鮮 | 吵鬧聲 | 安心 | 睡覺 | but | 晨昏 | 紛圍 | 不錯 | 景點 | 距離"
-        },
-        {
-            "content": "值得一住的好地方",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "值得 | 一住 | 地方"
         },
         {
             "content": "南投魚池鄉於今年6月才新開幕的豪華露營主體旅宿全區依不同主題有很chill絕美的星空帳及馬車帳為主整體給人的感覺非常貼心且舒適搭配行程搭配一泊三食 下午茶.晚餐跟隔天的早餐等於是把人丟到這邊就一切交給他們處理就好了可以很愜意地享受露營跟生活住宿方面最吸睛的就是透明設計的白色圓球帳篷，並以古希臘神話神祇命名，規劃愛琴海、地中海、艾歐尼亞海等三大區域這次我們住的是星空帳篷每一個星空帳一樣會有獨立的衛浴，因為在戶外很貼心的設置了布帳每間房內布置都有點不同，但是大致上差不多冷氣.毛巾.衛浴設備等都應有盡有非常特別的是 帳內還幫你準備小桌子.小椅子跟懶骨頭沙發可以在這邊發呆一下午都沒有問題很適合休閒.度假.什麼事都不用想.單純的放鬆就好了餐點方面下午茶準備了精緻甜點馬卡龍&手工餅乾還有百香果汁跟奶酪，還有都很好吃附贈的礦泉水還有印logo 很漂亮很用心晚餐則是他們準備的BBQ 直接在帳棚旁的燒烤爐就可以烤肉食材很多很新鮮 還附一鍋鮮美的火鍋 很好吃也能體驗動手的樂趣早餐可以選擇要中式還是西式早餐 無論哪個 都有廚師專門準備吃的到食物的本身風味 還有免費自取的咖啡豆漿烤麵包其他方面峇嵐杉丘很貼心的會在入住時成立賴群當天住宿有任何問題都可以在裡面找到客服來替你處理入住時只要車子停好 還有專人開高爾夫球車來協助搬運行李要離開時亦是如此園內還有DIY活動跟園區導覽可以在入住的空閒時間有一點小活動來住宿還能帶一點DIY小產品 真的很有趣峇嵐杉丘整體來說 非常舒適 在各個小地方都能察覺用心的地方個人給他很高的評價 同樣的也不愧對它的價格員工素質有條不紊很難想像是一間新開沒多久的豪華露營營區",
@@ -4587,12 +3327,6 @@
             "tokenization": "結論 | 棒 | 本來 | 不帶 | 希望 | 想到 | 不錯 | 服務人員 | 熱情 | 有效率 | 房間 | 乾淨 | 餐飲 | 好吃"
         },
         {
-            "content": "太棒了！",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "太棒了"
-        },
-        {
             "content": "非常棒的環境🤩一定會再來～很用心 貼心 服務優質～ …",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -4623,28 +3357,10 @@
             "tokenization": "07 | 05 | 很棒 | 露營 | 體驗 | 假期 | 客滿 | 年底 | 帳位 | 😭 | 洗手 | 間 | 每帳 | 獨立 | 衛浴 | 廁所 | 乾濕 | 分離 | 清潔 | 乾淨 | 👍"
         },
         {
-            "content": "很悠哉",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "悠哉"
-        },
-        {
-            "content": "風景很好 服務人員讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "風景 | 服務人 | 員 | 讚"
-        },
-        {
             "content": "露營帳篷超棒的，親子來也很適合，床很舒適，躺上去後睡的很舒服😌 推推推推👍 …",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "露營 | 帳篷 | 超棒 | 親子 | 適合 | 床 | 舒適 | 躺上去 | 睡 | 舒服 | 😌 | 推推 | 推推 | 👍"
-        },
-        {
-            "content": "環境很棒，很讓人放鬆",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "環境 | 很棒 | 放 | 鬆"
         },
         {
             "content": "風景很美環境乾淨設備齊全 每一位工作人員貼心和善！推推",
@@ -4701,18 +3417,6 @@
             "tokenization": "環境 | 舒適 | 晚餐 | 食材超 | 用心 | ☺ | ️"
         },
         {
-            "content": "很舒適的露營體驗",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很舒適 | 露營 | 體驗"
-        },
-        {
-            "content": "很棒的馬車體驗。",
-            "rating": 4,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很棒 | 馬 | 車體驗"
-        },
-        {
             "content": "環境氣氛很好，空氣又很親新，接待人員禮貌客氣，服務很盡心，而且餐點真是好的無話可說，以上是其優點，當然優點也有需要改進地方，哈哈，例如因為是帳篷住宿隔音相對不好，半夜1、2點以後其他房客在外面飲酒作樂喧嘩，影響睡眠品質",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -4723,18 +3427,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "謝謝 | 妳 | 孩子 | 開心 | 🥳 | 服務好"
-        },
-        {
-            "content": "超棒的！！",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超棒"
-        },
-        {
-            "content": "很美很舒服",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很美 | 舒服"
         },
         {
             "content": "環境優美，床偏硬不是很軟的那種對脊椎很好，晚餐豐富很飽吃不完，服務佳，很推薦！活動做多肉植物快速簡單有趣，大人小孩都可以一起玩，棒棒！廁所馬桶會自動沖水不用壓按，高級！",
@@ -4779,12 +3471,6 @@
             "tokenization": "環境 | 美 | 服務 | ❤ | ️"
         },
         {
-            "content": "這裡環境非常不錯❤️",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "環境 | 不錯 | ❤ | ️"
-        },
-        {
             "content": "環境優美，寵物友善….工作人員非常輕切，非常大推",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -4801,12 +3487,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "服務好 | 沒話 | 說 | 親切 | 活動 | 有趣 | 帳篷裡 | 設備 | 食材 | 看得出 | 砸 | 重本 | 唯一 | 建議 | 改善 | 衛浴區 | 隱私 | 之後有 | 機會 | 希望 | 再造 | 訪"
-        },
-        {
-            "content": "遠離塵囂的好地方",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "遠離 | 塵囂 | 地方"
         },
         {
             "content": "帳篷很舒適 床很好睡 環境保護的很好",
@@ -4843,12 +3523,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "著 | 家人 | 前往 | 六星級 | 露營區 | 住宿 | 有達 | 應有 | 高級 | 精品 | 水準 | 抵達 | 停車場 | 專人前 | 來取 | 行李 | 帳篷 | 滿貼 | 心 | check | in | 享用 | 下午茶 | 需冷氣 | 坐在 | 帳篷 | 前 | 平台 | 享受 | 自然 | 風 | 感覺 | 置身 | 國渡 | 晚餐 | 烤肉 | 重點 | 業者 | 豐盛 | 烤肉 | 餐 | 牛肉 | 海鮮 | 蔬果 | 牛肉 | 超厚 | 烤肉 | 餐具 | 齊全 | 烤肉 | 爐 | 洗水台 | 乾淨衛生 | 真的 | CP | 值 | 超高 | 家人 | 朋友 | 平台 | 烤肉 | 喝酒 | 聊天 | 享受 | 生活 | 樂趣 | 最後講 | 帳篷 | 設施 | 真的 | 精品 | 中 | 精品 | 整潔 | 舒適 | 衛浴 | 分離 | 還真想 | 多待 | 一晚 | 早餐 | 自助式 | 餐點 | 水準 | 中式 | 西式 | 應有 | 盡有 | 好吃 | 整體 | 說 | 棒 | 服務 | 設施 | 精品 | 下次 | 南投 | 魚池 | 渡假 | 首選 | 峇 | 嵐杉丘 | 感謝業者 | 用心 | 提供 | 住宿 | 品質"
-        },
-        {
-            "content": "沒有禁菸",
-            "rating": 1,
-            "publishedDate": "2023/02/28",
-            "tokenization": "沒有禁 | 菸"
         },
         {
             "content": "中秋夜晚的峇嵐杉丘是如此的寧謐和浪漫，高聳入雲的洋杉告訴旅人，我們已久候多年了。頂级的饗宴搭配著主人那巧思的滿庭花草，正所謂悠然心會，妙處難與君說，一切只待親身體驗。",
@@ -5055,12 +3729,6 @@
             "tokenization": "房間 | 環境 | 過了 | 開心 | 但人員 | 訓練還 | 加油"
         },
         {
-            "content": "Cp值不高",
-            "rating": 4,
-            "publishedDate": "2023/02/28",
-            "tokenization": "Cp | 值不高"
-        },
-        {
             "content": "這次的露營體驗感受不是很好，園區其實還沒整理好，地上很多泥土都還沒鋪好，晚餐的烤肉應該要給予用餐時間選擇，而不是五點多就把全部生食及熟食都送過來，有種被強制用餐的感覺且需要9點就全部收餐，從8點到9點服務生一直不停的來收盤子……帶給我們用餐極大困擾；廁所的味道不是很好聞…一直有水溝的味道; 不過帳篷很舒服及食材新鮮，這兩部分都是令人滿意的，但整體而言營區還沒準備就緒，兩位服務的員工應對及接待也需要加強，不過晚上留守的保全人員很好，很盡責也很熱心的講解怎麼觀賞星星；但其餘部分以一個人近五千的價位來說…服務應該可以更好。",
             "rating": 3,
             "publishedDate": "2023/02/28",
@@ -5143,12 +3811,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "老闆 | 熱情 | 大方 | 帳篷 | 寬 | 敞 | 漂亮 | 附冷氣 | 每戶 | 風格會 | 許 | 算是 | 小驚喜 | 床 | 舒服 | 枕頭 | 軟 | 硬度 | 選 | 每一帳 | 獨立 | 衛浴 | 浴廁 | 分離 | 房外 | 獨立 | 瓦斯 | 爐 | 烤 | 爐 | 規劃 | 垃圾 | 廚餘 | 回收 | 區 | 不用 | 煩惱 | 餐 | 收拾 | 食材 | 新鮮 | 包 | 山包 | 海 | 日月潭"
-        },
-        {
-            "content": "休閒度假的好地方",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "休閒 | 度假 | 地方"
         }
     ],
     "phone": "04 9289 5688"

@@ -39,12 +39,6 @@
             "tokenization": "體驗 | 不錯 | 選擇"
         },
         {
-            "content": "很有個性的地方",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "個性 | 地方"
-        },
-        {
             "content": "鄉土氣息規劃，原牧場改變經營方式，窯燒,DIY,親子同樂",
             "rating": 4,
             "publishedDate": "2022/02/28",
@@ -75,46 +69,10 @@
             "tokenization": "棒 | 動 | 植物 | 生態 | 希望 | 好好 | 維護 | 保存"
         },
         {
-            "content": "有機無毒的農場",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "機無毒 | 農場"
-        },
-        {
-            "content": "非常棒",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "棒"
-        },
-        {
-            "content": "不錯",
-            "rating": 4,
-            "publishedDate": "2019/02/28",
-            "tokenization": "不錯"
-        },
-        {
-            "content": "空氣很好哦",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "空氣"
-        },
-        {
             "content": "與家人和朋友共度美好空間",
             "rating": 5,
             "publishedDate": "2019/02/28",
             "tokenization": "家人 | 朋友 | 共度 | 美好 | 空間"
-        },
-        {
-            "content": "獨角仙的秘密基地",
-            "rating": 4,
-            "publishedDate": "2019/02/28",
-            "tokenization": "獨角 | 仙 | 秘密 | 基地"
-        },
-        {
-            "content": "散小孩的好地方",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "散 | 小孩 | 地方"
         },
         {
             "content": "農場的主人用心經營的露營場所",

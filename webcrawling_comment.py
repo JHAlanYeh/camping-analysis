@@ -101,6 +101,7 @@ def asiayo_comment_crawler():
 
                     comment_objs.append({
                         "content": content,
+                        "type": d["type"],
                         "rating": rating,
                         "publishedDate": publishedDate,
                         "tokenization": " | ".join(new_ws)
@@ -278,6 +279,7 @@ def easycamp_comment_crawler():
                 rating = len(comment.select(".fa.fa-star"))
                 comment_objs.append({
                     "content": content,
+                    "type": d["type"],
                     "rating": rating,
                     "publishedDate": publishedDate,
                     "tokenization": " | ".join(new_ws)
@@ -459,6 +461,7 @@ def klook_comment_crawler():
 
                     comment_objs.append({
                         "content": content,
+                        "type": d["type"],
                         "rating": rating,
                         "publishedDate": publishedDate,
                         "tokenization": " | ".join(new_ws)
@@ -555,8 +558,8 @@ def klook_comment_tokenization():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    # asiayo_comment_crawler()
-    # asiayo_comment_tokenization()
+    asiayo_comment_crawler()
+    asiayo_comment_tokenization()
     easycamp_comment_crawler()
     easycamp_comment_tokenization()
     klook_comment_crawler()

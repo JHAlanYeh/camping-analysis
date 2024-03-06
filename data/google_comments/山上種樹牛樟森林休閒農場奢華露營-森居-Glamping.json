@@ -21,22 +21,10 @@
             "tokenization": "環境 | 舒適 | 冬天 | 棚 | 內暖氣 | 暖 | 還能 | 踢足球 | 烤肉 | 唱 | 卡拉 | OK | 推薦 | 坐 | 張 | 椅子"
         },
         {
-            "content": "太厲害的地方了！",
-            "rating": 5,
-            "publishedDate": "2024/02/29",
-            "tokenization": "太厲害 | 地方"
-        },
-        {
             "content": "設施頂好，老闆熱情招待！",
             "rating": 5,
             "publishedDate": "2024/02/29",
             "tokenization": "設施 | 頂 | 老闆 | 熱情 | 招待"
-        },
-        {
-            "content": "非常舒服！推薦！",
-            "rating": 5,
-            "publishedDate": "2024/02/23",
-            "tokenization": "舒服 | 推薦"
         },
         {
             "content": "地點真的很方便，高速下來不用半小時就能到達能遠眺群山的露營區還是第一次見。感謝營主熱情的介紹及服務，現場有很棒的草地可以讓孩子盡情的放電",

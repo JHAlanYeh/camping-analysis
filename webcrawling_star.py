@@ -27,6 +27,8 @@ def star_range_distributed():
                     file_path = os.path.join(type_path, file)
                     f = open(file_path, encoding="utf-8-sig")
                     data = json.load(f)
+                    f.close()
+                    data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
                     for c in data["comments"]:
                         if c["rating"] == 1:
                             star_1_cnt += 1
@@ -43,6 +45,9 @@ def star_range_distributed():
                         elif c["rating"] == 5:
                             star_5_cnt += 1
                             total_star_5_cnt += 1
+
+            with open(file_path, 'w', encoding="utf-8-sig") as f:
+                json.dump(data, f, indent=4, ensure_ascii=False)
 
             save_path = os.path.join(os.getcwd(), "data\\star_distributed")
             file_name = os.path.join(save_path, 'type_{}_star_.json'.format(t))
@@ -76,12 +81,14 @@ def google_star_range_distributed():
     star_4_cnt = 0
     star_5_cnt = 0
 
-    
     dir_path = os.path.join(os.getcwd(), "data\\google_comments")
     for file in os.listdir(dir_path):
         file_path = os.path.join(dir_path, file)
         f = open(file_path, encoding="utf-8-sig")
         data = json.load(f)
+        f.close()
+
+        data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
         for c in data["comments"]:
             if c["rating"] == 1:
                 star_1_cnt += 1
@@ -93,6 +100,9 @@ def google_star_range_distributed():
                 star_4_cnt += 1
             elif c["rating"] == 5:
                 star_5_cnt += 1
+        
+        with open(file_path, 'w', encoding="utf-8-sig") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
 
         save_path = os.path.join(os.getcwd(), "data\\star_distributed")
         file_name = os.path.join(save_path, 'type_google_star_.json')

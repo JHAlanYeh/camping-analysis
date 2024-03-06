@@ -9,12 +9,6 @@
     "actual_count": 562,
     "comments": [
         {
-            "content": "棒",
-            "rating": 5,
-            "publishedDate": "2024/02/25",
-            "tokenization": "棒"
-        },
-        {
             "content": "輕露營免搭帳好方便的地方",
             "rating": 5,
             "publishedDate": "2024/02/25",
@@ -27,22 +21,10 @@
             "tokenization": "草地 | 很大 | 廁所 | 浴室 | 間 | 販賣部 | 有小動物 | 小孩 | 喜歡 | 喔"
         },
         {
-            "content": "大草皮很舒服👍👍",
-            "rating": 5,
-            "publishedDate": "2024/02/25",
-            "tokenization": "草皮 | 舒服 | 👍 | 👍"
-        },
-        {
             "content": "適合家庭朋友出遊的地方",
             "rating": 5,
             "publishedDate": "2024/02/25",
             "tokenization": "適合 | 家庭 | 朋友 | 出遊 | 地方"
-        },
-        {
-            "content": "露營郊遊外出的好去處",
-            "rating": 5,
-            "publishedDate": "2024/02/25",
-            "tokenization": "露營 | 郊遊 | 外出 | 處"
         },
         {
             "content": "【新豐休閒農場】是農場也是餐廳，小孩有廣大的草地可以跑，即使不是來這住宿，一日遊也很不錯。",
@@ -61,12 +43,6 @@
             "rating": 3,
             "publishedDate": "2024/02/08",
             "tokenization": "親子 | 友善 | 寵物 | 友善 | 全家 | 大小 | 玩 | 園區 | 羊 | 馬 | 迷你 | 馬 | 豬 | 貓 | 豬 | 鴿子 | 購買 | 飼料 | 食 | 住宿 | 木屋 | 蒙古包 | 價格 | 親民 | CP | 值 | 高 | 附送 | 早餐 | 晚餐 | 晚餐 | 火烤 | 兩吃 | 吃 | 甜點 | 冰淇淋 | 工作 | 人員 | 服務不錯 | 小朋友 | 設施 | 很大 | 草原 | 玩 | 廁所 | 很大 | 算乾淨 | 區 | 蒙古包 | 區 | 垃圾 | 場 | 味道 | 陣陣 | 飄過 | 好聞 | 但後面 | 下雨 | 不太有 | 味道 | 磚頭 | 路 | 溼 | 滑 | 小心 | 走 | 離市區 | 段 | 距離 | 蒙古包 | 兩人房 | 配套 | 兩人份 | 睡 | 四個 | 配套 | 東西 | 像是 | 枕頭 | 棉被 | 餐卷 | 加購 | 咖啡 | 廳 | 抵用 | 卷 | 100 | 四人 | 只給 | 兩張 | 一張 | 只能 | 咖啡 | 廳 | 200 | 糖果 | 泡 | 麵 | 餅乾 | 飲料 | 吃 | 外帶 | 15 | 點點數 | 點心 | 加 | 一杯 | 飲料 | 糖果 | 0.5 | 點 | 折抵 | 卷 | 補貼 | 100 | 元 | 吃 | 整體 | 環境 | 設備 | 服務 | 用具 | 陽春型 | 高級 | 價格 | 便宜"
-        },
-        {
-            "content": "不作為旅館經營",
-            "rating": 1,
-            "publishedDate": "2024/02/01",
-            "tokenization": "不作 | 為 | 旅館 | 經營"
         },
         {
             "content": "住蒙古包，有小豬、小鴨、小馬、小兔子、晚餐早餐都好吃。",
@@ -111,76 +87,16 @@
             "tokenization": "場地 | 很大 | 草坪 | 小朋友 | 跑 | 開心 | 動物"
         },
         {
-            "content": "環境不錯，很棒",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "環境 | 不錯 | 很棒"
-        },
-        {
-            "content": "太棒了！",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "太棒了"
-        },
-        {
-            "content": "讚讚讚",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "讚 | 讚 | 讚"
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "超棒的露營體驗",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "超棒 | 露營 | 體驗"
-        },
-        {
-            "content": "參加跨年活動👍 …",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "參加 | 跨年 | 活動 | 👍"
-        },
-        {
-            "content": "讚👍👍👍",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "讚 | 👍 | 👍 | 👍"
-        },
-        {
-            "content": "非常棒的營區",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "棒 | 營區"
-        },
-        {
             "content": "營區腹地大，搭完帳還有很大空間，非常適合孩子奔跑遊戲",
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "營區 | 腹地 | 搭 | 完帳 | 很大 | 空間 | 適合 | 孩子 | 奔跑 | 遊戲"
         },
         {
-            "content": "好的",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": ""
-        },
-        {
             "content": "非常棒的露營區，有蒙古包，還有合掌屋屋，草地又很大，還有超划算的BBQ,還有營火晚會",
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "棒 | 露營區 | 蒙古包 | 合掌 | 屋屋 | 草地 | 很大 | 超 | 划算 | BBQ | 營火 | 晚會"
-        },
-        {
-            "content": "露營好地方",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "露營 | 地方"
         },
         {
             "content": "遼闊草皮寬敞營地🏕️超好遛小孩的好地方 …",
@@ -195,22 +111,10 @@
             "tokenization": "營地 | 露營 | 處 | 服務"
         },
         {
-            "content": "有很多種動物",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "種動物"
-        },
-        {
             "content": "火烤兩吃，很方便划算～",
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "火烤 | 兩吃 | 划算"
-        },
-        {
-            "content": "露營的好地方",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "露營 | 地方"
         },
         {
             "content": "很棒的營地！輕鬆露營！",
@@ -219,70 +123,16 @@
             "tokenization": "很棒 | 營地 | 輕 | 鬆 | 露 | 營"
         },
         {
-            "content": "跨年中",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "跨年 | 中"
-        },
-        {
-            "content": "非常舒服的環境",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "舒服 | 環境"
-        },
-        {
-            "content": "跨年唯一首選",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "跨年 | 唯一 | 首選"
-        },
-        {
-            "content": "很多動物",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "動物"
-        },
-        {
             "content": "🎆跨年晚會小孩放風好去處。",
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "🎆 | 跨年 | 晚會 | 小孩 | 放風 | 處"
         },
         {
-            "content": "很讚",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "讚"
-        },
-        {
-            "content": "很讚",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "讚"
-        },
-        {
             "content": "小孩玩得很開心家族旅遊很好玩",
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "小孩 | 玩得 | 開心 | 家族 | 旅遊 | 好玩"
-        },
-        {
-            "content": "好的",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": ""
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "非常好",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": ""
         },
         {
             "content": "露營不用大包小包的 還有晚餐吃到飽 很推薦喔😁",
@@ -297,24 +147,6 @@
             "tokenization": "小孩 | 玩得 | 開心 | 遊玩 | 地方 | 蒙古包 | 帳篷 | 冬天 | 還蠻 | 適合 | 因為 | 還蠻 | 避寒 | 跨年 | 活動"
         },
         {
-            "content": "棒棒棒！",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "棒棒 | 棒"
-        },
-        {
-            "content": "小孩玩得很開心",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "小孩 | 玩得 | 開心"
-        },
-        {
-            "content": "餐點環境讚",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "餐點環 | 境 | 讚"
-        },
-        {
             "content": "烤肉好吃極了服務：5地點：5",
             "rating": 5,
             "publishedDate": "2024/01/29",
@@ -325,18 +157,6 @@
             "rating": 5,
             "publishedDate": "2024/01/29",
             "tokenization": "去年 | 跨年 | 活動 | 辦得 | 有趣 | 😆 | CP | 值 | 高"
-        },
-        {
-            "content": "很讚的親子露營農場",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "讚 | 親 | 子 | 露 | 營 | 農 | 場"
-        },
-        {
-            "content": "好吃好玩還有營火晚會",
-            "rating": 5,
-            "publishedDate": "2024/01/29",
-            "tokenization": "好吃 | 好玩 | 營火 | 晚會"
         },
         {
             "content": "整個氛圍超棒！設備也好齊全🤩",
@@ -361,12 +181,6 @@
             "rating": 5,
             "publishedDate": "2023/12/29",
             "tokenization": "好玩 | 好吃 | 住 | 地方"
-        },
-        {
-            "content": "好吃好玩",
-            "rating": 5,
-            "publishedDate": "2023/12/29",
-            "tokenization": "好吃 | 好玩"
         },
         {
             "content": "風很大，晚上飛機很多經過",
@@ -405,12 +219,6 @@
             "tokenization": "第一次 | 造訪 | 小孩 | 玩 | 開心 | 釣到 | 大魚 | 不錯 | 體驗 | 老闆娘 | 親切 | 入住 | 蒙古包 | 早上 | 10 | 點多 | 孩子 | 先 | 入住 | 遊玩"
         },
         {
-            "content": "還不錯很放松",
-            "rating": 4,
-            "publishedDate": "2023/11/29",
-            "tokenization": "還不錯 | 放松"
-        },
-        {
             "content": "非假日期間帶小朋友來住小木屋,老闆娘很熱情招待，晚餐火鍋+燒烤有飽足感，早餐有闆娘親自主的中式早餐很好吃喔",
             "rating": 5,
             "publishedDate": "2023/11/29",
@@ -427,12 +235,6 @@
             "rating": 5,
             "publishedDate": "2023/11/29",
             "tokenization": "小動物 | 小朋友 | 喜歡"
-        },
-        {
-            "content": "有趣好玩～",
-            "rating": 5,
-            "publishedDate": "2023/11/29",
-            "tokenization": "有趣 | 好玩"
         },
         {
             "content": "合掌木屋房間環境不錯，冬季若自搭帳風超大，浴廁清潔度很一般但水溫穩定，自助火烤兩吃晚餐及早餐方便但口味很普通",
@@ -453,22 +255,10 @@
             "tokenization": "真的 | 很棒 | 地方 | 熱烈"
         },
         {
-            "content": "很清心的環境～～",
-            "rating": 5,
-            "publishedDate": "2023/10/29",
-            "tokenization": "清心 | 環境"
-        },
-        {
             "content": "此次住蒙古包B區。有百香果藤蔓在餐桌上方可以遮陽，晚上燈光自己想辦法。如果要住考慮自搭帳和A區蒙古包或合掌屋。1.b區蒙古包只有三間像流動廁所的小間衛浴。洗手台兩帳共用？沒有標示，晚上有沒有照明，使用過的水直接排放到土壤上。有服務人員在入住之前在蒙古包灑上驅趕螞蟻的東西。2營區很大飲水機只有一台在餐廳🍴位置3餐廳旁的幼兒遊戲區沒有遮陽，是否可以改善，給幼幼小孩友善環境。4大間的衛浴地板建議可以放排水板，並增加吹風機數量。5看似護城河的水流似死水，近看有點令人擔心。",
             "rating": 4,
             "publishedDate": "2023/10/29",
             "tokenization": "住 | 蒙古包 | B | 區 | 百香果 | 藤蔓 | 餐桌 | 上方 | 遮陽 | 晚上 | 燈光 | 想 | 辦法 | 住 | 自搭帳 | 區 | 蒙古包 | 合掌 | 屋 | b | 區 | 蒙古包 | 三間 | 流動 | 廁所 | 小間 | 衛浴 | 洗手台 | 兩帳 | 共用 | 標示 | 晚上 | 照明 | 過的 | 水 | 排放 | 土壤 | 服務人員 | 入住 | 蒙古包 | 灑上 | 驅趕 | 螞蟻 | 東西 | 營區 | 很大 | 飲水機 | 一台 | 餐廳 | 🍴 | 位置 | 餐廳 | 旁 | 幼兒 | 遊戲區 | 遮陽 | 改善 | 給幼幼 | 小孩 | 友善 | 環境 | 大間 | 衛浴 | 地板 | 建議 | 放 | 排水板 | 增加 | 吹風機 | 數量 | 看似 | 護城河 | 水流 | 似 | 死水 | 近看 | 令人 | 擔心"
-        },
-        {
-            "content": "寵物不友善",
-            "rating": 1,
-            "publishedDate": "2023/10/29",
-            "tokenization": "寵物 | 友善"
         },
         {
             "content": "老闆娘要確定服務態度這樣可以欸好好講話很難 兇什麼兇別人的留言已經寫好寫滿了差不多就都是人的問題我也不想多說反正她也不會改 大家自求多福 有看到評論再找別的地方去玩吧最後讓我翻個白眼🙄🙄🙄",
@@ -481,12 +271,6 @@
             "rating": 1,
             "publishedDate": "2023/09/29",
             "tokenization": "公司 | 烤肉 | 選在 | 真的 | 很爛 | 食材 | 外面 | 區域 | 先 | 冰箱 | 旁 | 慢慢 | 態度 | 有夠 | 差 | 一桌 | 十人 | 然後配 | 烤 | 爐 | 火鍋 | 爐 | 誰家 | 烤肉 | 擠成"
-        },
-        {
-            "content": "超讚的體驗",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "超 | 讚 | 體 | 驗"
         },
         {
             "content": "蒙古包有不同的感受，很新奇！",
@@ -567,28 +351,10 @@
             "tokenization": "蒙古包 | 樹蔭 | 底下 | 蟲 | 蒙古包 | 經有 | 紗網 | 但蟲 | 無孔 | 不入 | 然後長 | 年 | 照不到 | 陽光 | 磚造 | 地坪 | 青苔 | 小心 | 行走 | 桌椅 | 露天 | 擺放 | 使用者 | 自行 | 擦拭 | 清潔 | 大部分 | 自帶 | 桌椅 | 蒙古包 | 內是 | 簡單 | 兩個 | 床 | 墊 | 枕頭 | 棉被 | 還蠻 | 空曠 | 建議 | 樹林 | 樟樹 | 相思 | 樹 | 樟樹 | 防蟲 | 相思 | 樹招蟲 | 砍掉 | 相思 | 樹 | 解決 | 蟲的 | 透 | 陽光 | 蒙古包 | 墊 | 高 | 遠離 | 地面 | 四周 | 密封 | 蚊蟲 | 孔隙 | 紗網 | 前門 | 磁 | 吸式 | 蒙古包 | 內應 | 擺放 | 傢 | 俱 | 創造 | 住宿 | 品質 | 價值 | 餐飲 | 晚餐 | 火烤 | 兩吃 | 肉 | 雞豬 | 牛羊 | 青菜 | 火鍋料 | 一應 | 俱全 | 飲料 | 冰淇淋 | 水果 | 吃 | 早餐 | 清粥 | 小菜 | 愛 | 饅頭 | 吐司 | 果醬 | 飲品 | 咖啡 | 豆漿 | 紅茶 | 吃 | 建議 | 餐點 | 超出 | 預期 | 這價位 | 園區 | 環境 | 生態 | 意味著 | 蚊蟲 | 整體 | 環境 | 太 | 陰濕 | 動物區 | 環境 | 令人 | 憂慮 | 親子 | 教育 | 體驗 | 釣魚區 | 有趣 | 好好 | 規劃 | 吸引 | 新開 | 小木屋 | 感覺 | 世隔絕 | 蚊蟲 | 少 | 整體 | 腹地 | 很大 | 還在 | 開發 | 中 | 入住 | 建議 | 小木屋"
         },
         {
-            "content": "好讚的溜馬體驗",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "讚 | 溜 | 馬 | 體 | 驗"
-        },
-        {
             "content": "場地很大，適合小孩放電",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "場地 | 很大 | 適合 | 小孩 | 放電"
-        },
-        {
-            "content": "棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "棒"
-        },
-        {
-            "content": "讚喔👍 …",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "讚 | 喔 | 👍"
         },
         {
             "content": "營主棒棒的，蒙古包也很方便露營",
@@ -609,18 +375,6 @@
             "tokenization": "小型 | 農場 | 可愛的 | 小動物 | 適合 | 小孩 | 👍"
         },
         {
-            "content": "超棒的",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "超棒"
-        },
-        {
-            "content": "草坪很大，很不錯",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "草坪 | 很大 | 很不錯"
-        },
-        {
             "content": "露營好去處 按讚留言加分享",
             "rating": 5,
             "publishedDate": "2023/05/29",
@@ -631,54 +385,6 @@
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "環境 | 舒服 | 清潔 | 開闊 | 草坪 | 放電 | 舒服"
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "棒棒",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "棒棒"
-        },
-        {
-            "content": "草坪很大",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "草坪 | 很大"
-        },
-        {
-            "content": "蒙古包很舒適",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "蒙古包 | 很舒適"
-        },
-        {
-            "content": "很棒的地方",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒 | 地方"
-        },
-        {
-            "content": "場地很大",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "場地 | 很大"
-        },
-        {
-            "content": "很大很好玩",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很大 | 好玩"
-        },
-        {
-            "content": "很大很好玩",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很大 | 好玩"
         },
         {
             "content": "地方很大，溜小孩好地方",
@@ -705,52 +411,10 @@
             "tokenization": "超多動物 | 寬廣 | 入 | 營區"
         },
         {
-            "content": "營主服務棒棒的！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "營主 | 服務 | 棒棒"
-        },
-        {
             "content": "非常大，小孩玩的好開心！營主服務棒棒的👏 …",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "小孩 | 玩 | 開心 | 營主 | 服務 | 棒棒 | 👏"
-        },
-        {
-            "content": "很棒的地方",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "很棒 | 地方"
-        },
-        {
-            "content": "空間大適合小孩",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "空間 | 適合 | 小孩"
-        },
-        {
-            "content": "非常棒的環境",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "棒 | 環境"
-        },
-        {
-            "content": "好玩",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "好玩"
-        },
-        {
-            "content": "讓小孩放風的好去處",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "小孩 | 放風 | 處"
-        },
-        {
-            "content": "有很多可愛小動物！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "可愛小動物"
         },
         {
             "content": "環境很好，草皮整理的很用心",
@@ -759,52 +423,16 @@
             "tokenization": "環境 | 草皮 | 整理 | 用心"
         },
         {
-            "content": "蒙古包大退",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "蒙古包 | 大退"
-        },
-        {
             "content": "地點廣大，適合小孩跑來跑去服務內用",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "地點 | 適合 | 小孩 | 跑 | 跑 | 服務 | 內用"
         },
         {
-            "content": "超讚",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "超 | 讚"
-        },
-        {
-            "content": "休閒悠哉的好地方",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "休閒 | 悠哉 | 地方"
-        },
-        {
-            "content": "好棒的農場",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "棒 | 農場"
-        },
-        {
-            "content": "建兆有限公司",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "建兆 | 有限公司"
-        },
-        {
             "content": "除了離家近，還有大片草皮能讓孩子放電之外…………實在想不到其他優點洗澡水忽冷忽熱，洗個澡快被燙死或冷死然後訂四人房，晚餐火烤兩吃卻只有2位能免費用餐，那另外兩位是要吃空氣嗎，算法有夠亂的，小孩是能吃多少？？還要另外加錢………………然後住的房間又離停車場很遠，地上的路又很爛，階梯都不一樣高低，每走一次就覺得會摔死總之………………沒有下次了，就算開在我家隔壁，也不會再去光顧",
             "rating": 1,
             "publishedDate": "2023/05/29",
             "tokenization": "離家近 | 大片 | 草皮 | 孩子 | 放電 | 之外 | 實在 | 想不到 | 優點 | 洗澡水 | 忽冷 | 忽熱 | 洗個 | 澡 | 燙 | 死 | 冷死 | 然後訂 | 四人房 | 晚餐 | 火烤 | 兩吃 | 位 | 能免 | 費 | 用餐 | 兩位 | 吃 | 空氣 | 算法 | 有夠 | 亂 | 小孩 | 吃 | 加錢 | 然後住 | 房間 | 停車場 | 遠 | 地上 | 路 | 很爛 | 階梯 | 走 | 覺得會 | 摔死 | 總 | 下次 | 開在 | 我家 | 隔壁 | 光顧"
-        },
-        {
-            "content": "服務親切，場地舒適！",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "服務 | 親切 | 場地 | 舒適"
         },
         {
             "content": "友善的環境，蠻值得推薦",
@@ -825,22 +453,10 @@
             "tokenization": "CP | 值 | 高 | 休閒 | 農場 | 喔 | 體驗"
         },
         {
-            "content": "帶小孩放電👍 …",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "小孩 | 放電 | 👍"
-        },
-        {
             "content": "有魚、貓、鴨、雞烤肉 露營",
             "rating": 5,
             "publishedDate": "2023/05/29",
             "tokenization": "有魚 | 貓 | 鴨 | 雞 | 烤肉 | 露營"
-        },
-        {
-            "content": "食材新鮮好吃",
-            "rating": 5,
-            "publishedDate": "2023/05/29",
-            "tokenization": "食材 | 新鮮 | 好吃"
         },
         {
             "content": "老闆一家人用心維護，養了很多動物。適合露營，帶小朋友寵物走走逛逛。",
@@ -873,28 +489,10 @@
             "tokenization": "場地 | 停車 | 雞 | 鴨 | 鵝 | 麝香 | 豬 | 兔子 | 迷你 | 馬 | 鳥類 | 提供 | 住宿 | 短 | 暫 | 停留 | 服務 | 住宿 | 需 | 事先 | 預約"
         },
         {
-            "content": "實在太棒了🌟",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "實在 | 太棒了 | 🌟"
-        },
-        {
             "content": "舒適的草皮，很適合親子露營⛺️的好地方",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "舒適 | 草皮 | 適合 | 親子 | 露營 | ⛺ | ️ | 地方"
-        },
-        {
-            "content": "讚！",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "讚"
-        },
-        {
-            "content": "不錯",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "不錯"
         },
         {
             "content": "有很多動物可以互動，大草皮很舒服",
@@ -909,34 +507,10 @@
             "tokenization": "停車 | 住宿 | 用餐 | 遊戲 | 活動 | 週間 | 遊客 | 包場 | 晚餐 | 採 | 自助式 | 火鍋 | 烤肉 | 兩用 | 牛肉 | 豬肉 | 羊肉 | 分量 | 足夠 | 建議 | 增加 | 蔬菜 | 種類"
         },
         {
-            "content": "讚👍 …",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "讚 | 👍"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "讚"
-        },
-        {
             "content": "農場規劃良好，活動空間廣大，餐點美味，親子活動、朋友同樂均非常合適。",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "農場 | 規劃 | 活動 | 空間 | 餐點 | 美味 | 親子 | 活動 | 朋友 | 同樂均 | 合適"
-        },
-        {
-            "content": "親子遊的好去處❤️",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "親子遊 | 處 | ❤ | ️"
-        },
-        {
-            "content": "放鬆好地方~",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "放 | 鬆 | 地方"
         },
         {
             "content": "適合親子遊憩的地方，環境維護得還不錯，沒被蚊子咬，烤肉品質比以前更好。",
@@ -945,34 +519,10 @@
             "tokenization": "適合 | 親子 | 遊憩 | 地方 | 環境 | 維護 | 還不錯 | 蚊子 | 咬 | 烤肉 | 品質 | 更好"
         },
         {
-            "content": "晚餐好讚",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "晚餐 | 讚"
-        },
-        {
             "content": "老闆娘很客氣，對寵物友善，環境清幽，晚上睡覺沒有被其他客人吵醒，非常讚👍",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "老闆娘 | 客氣 | 寵物 | 友善 | 環境 | 清幽 | 晚上 | 睡覺 | 客人 | 吵醒 | 讚 | 👍"
-        },
-        {
-            "content": "放鬆的好地點",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "放 | 鬆 | 點"
-        },
-        {
-            "content": "小孩很喜歡^_^",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "小孩 | 喜歡"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "讚"
         },
         {
             "content": "超大的農場，農場主人很nice ，小動物都好可愛喔！來這渡假真棒",
@@ -981,28 +531,10 @@
             "tokenization": "超大 | 農場 | 農場 | 主人 | nice | 小動物 | 愛 | 喔 | 渡假 | 真棒"
         },
         {
-            "content": "好吃好玩，寵物大集合",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "好吃 | 好玩 | 寵物 | 集合"
-        },
-        {
-            "content": "非常好",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": ""
-        },
-        {
             "content": "很棒的體驗，有機會會在來的！",
             "rating": 5,
             "publishedDate": "2023/04/29",
             "tokenization": "很棒 | 體驗 | 機會會"
-        },
-        {
-            "content": "環境很讚",
-            "rating": 5,
-            "publishedDate": "2023/04/29",
-            "tokenization": "環境 | 讚"
         },
         {
             "content": "1. 靠近海邊，冬天風大時會蠻冷的2. 這次入住蒙古包，蒙古包外的桌椅較髒要自行攜帶抹布擦拭3. 蒙古包會附兩張床墊、兩個枕頭，兩組一薄一厚棉被4. 這次預定三帳，剛好形成一個三角形中間有洗手台可使用蠻方便的，洗手台邊有插座可使用5. 蒙古包內有蚊帳整個蓋住(門口也是)，進出要掀來掀去較不方便6. 浴室廁所很寬敞，廁所有衛生紙，浴室乾溼分離但是是通風的，但3/18那天住宿熱水非常非常燙，很難調到適中溫度。女生區提供兩支吹風機原以為會不夠吹，但好像也沒什麼人在吹?  大家洗澡時間好像剛好都錯開，有的很晚才洗，有的早上才洗。7. 晚餐火烤吃到飽cp值高，規定10人一桌的話是一烤盤一火鍋，若覺得不夠可以100元加一個烤盤或火鍋也是很佛心。飲料是熱紅茶和冬瓜茶喝到飽8. 早餐是粥和醬菜，熱炒有2盤。另外是饅頭和烤土司9. 周遭的動物區建議可以整理美化一點，看起來有點髒亂10. 老闆娘態度親切整體來說一個蒙古包2600元含餐，CP值算不錯了。",
@@ -1041,40 +573,10 @@
             "tokenization": "蒙古包 | 間 | 抽煙 | 受過 | 道德教育 | 整趟 | 毀 | 囉"
         },
         {
-            "content": "好玩好吃cp值超高",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "好玩 | 好吃 | cp | 值 | 超高"
-        },
-        {
             "content": "很適合親子活動的休閒農場",
             "rating": 5,
             "publishedDate": "2023/03/29",
             "tokenization": "適合 | 親子 | 活動 | 休閒 | 農場"
-        },
-        {
-            "content": "美",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "美"
-        },
-        {
-            "content": "環境很好舒適",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "環境 | 舒適"
-        },
-        {
-            "content": "環境乾淨舒服",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "環境 | 乾淨 | 舒服"
-        },
-        {
-            "content": "露營好地方",
-            "rating": 5,
-            "publishedDate": "2023/03/29",
-            "tokenization": "露營 | 地方"
         },
         {
             "content": "蒙古包真特別！小木屋快完工了～下次來住！",
@@ -1119,12 +621,6 @@
             "tokenization": "農場 | 很大 | 第二次 | 入住 | 推"
         },
         {
-            "content": "很棒的地方",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很棒 | 地方"
-        },
-        {
             "content": "來分享一下幾年前的觀感！完全不會想再去一次！⬇️⬇️⬇️老闆娘有點不太友善，狗狗大便我人就在旁邊準備要抓，她就一直大喊說：欸你的狗大便，趕快撿起來，別的客人不喜歡…！我整個傻眼，我手上套著撿便袋正在撿不是？！不歡迎狗狗就不要說自己寵物友善！他們自家的狗狗也沒牽繩亂跑，還走丟，被別人撿到po上網，還不止一次！沒放出來玩到狗狗之前都關在他們房子的後面，環境也不是很好！（以上是之前去的經驗，以前很喜歡去，離我家算近，但老闆娘這樣也不會想再去了）真心是建議店家，你擔心你去露營的客人怕狗，就不要講自己可以讓寵物進園區！",
             "rating": 1,
             "publishedDate": "2023/02/28",
@@ -1149,12 +645,6 @@
             "tokenization": "老婆 | 娘 | 親切 | 還會 | 介紹 | 營區 | 露營 | 放 | 鬆 | 談 | 高 | 級 | 價位 | 說 | cp | 值 | 高 | 喜歡 | 感覺 | 動物們"
         },
         {
-            "content": "很棒的體驗",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很棒 | 體驗"
-        },
-        {
             "content": "老闆娘人還不錯，不會因為生意好就不理會客人需求，小孩子手機掉在草叢在晚餐店主最忙的時候還願意幫忙借2個大手電筒給我們找手機，謝謝環境不錯，餐飲也不錯，附帶一提，魯肉飯很有水準",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -1165,12 +655,6 @@
             "rating": 1,
             "publishedDate": "2023/02/28",
             "tokenization": "上午 | 訂位 | 說 | 含 | 餐點 | 營位 | 1000 | 下午 | 說 | 漲 | 價變 | 1500 | 漲 | 500 | 高達 | 50% | 誇張 | 價格 | 報價 | 亂 | 報 | 做生意 | 報 | 完價還 | 亂改 | 報錯 | 一點還 | 接受 | 差 | 50% | 實在 | 誇張 | 哪來 | 自信"
-        },
-        {
-            "content": "真正是好",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": ""
         },
         {
             "content": "兩個月前徒步環島來住蒙古包農場能夠自己帶帳露營、蒙古包、小木屋等住宿選項老闆娘非常熱情親切營區的動物也很活潑貓咪和狗狗很愛撒嬌",
@@ -1213,12 +697,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "場地 | 很大 | 食動物 | 園區 | 火烤 | 美食 | 適合 | 親子 | 同遊"
-        },
-        {
-            "content": "露營區好",
-            "rating": 4,
-            "publishedDate": "2023/02/28",
-            "tokenization": "露營區"
         },
         {
             "content": "到處都是螞蟻窩，下過雨潮濕之下，地磚踩下去還會噴水。洗澡熱水超燙，調不到適合的溫度。蒙古包的蚊帳根本沒有設計出入口，而且有種用太久的霉味，重點是用蚊帳，蚊子還是超多飛進了咬人，床墊也只是草蓆，就是水泥地上面鋪防水布跟草蓆，整個住宿是超糟糕體驗。",
@@ -1267,12 +745,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "第九 | 露選擇 | 平地 | 露營場 | 離家 | 40 | 分鐘 | 車程 | 白天 | 下午 | 抵達 | 諾大 | 草原 | 配上 | 斜陽 | 心情 | 真的 | 六日 | 經營 | 吃 | 餐廳 | 人近 | 來場 | 用餐 | 因為 | 腹地 | 夠大 | 帳帳 | 之間 | 距離 | 也夠 | 遠 | 影響 | 餐點 | 口味 | 普普 | 感覺 | 老闆娘 | 用心 | 想做到 | 面面俱到 | 部份 | 用心 | 值得 | 給五顆 | 星 | 洗澡 | 地方 | 推薦 | 獨立 | 衛浴 | 那區 | 熱水 | 穩定 | 水柱 | 強勁 | 澡堂 | 通風 | 因為 | 熱 | 水器 | 火力 | 穩定 | 搭配 | 澡盆 | 園區裡 | 小動物 | 數量 | 晃晃 | 走走看看 | 推薦 | 新手 | 露營 | 唯一 | 克服 | 強勁 | 東北 | 季風 | 風實 | 太大 | 新手 | 搭帳 | 一點 | 經驗 | 技巧 | 真的 | 推 | 地方 | 放 | 鬆"
-        },
-        {
-            "content": "吃得過癮，住得舒服",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "吃 | 過癮 | 住 | 舒服"
         },
         {
             "content": "適合假日踏青賞花運動休閒農場",
@@ -1371,12 +843,6 @@
             "tokenization": "沒去過 | 打電話 | 詢問 | 訂帳 | 事宜 | 接電話 | 小姐 | 口氣 | 不好 | 回 | 工作 | 沒辦 | 法馬上 | 回覆 | 理解 | 沒辦法 | 回覆 | 好好 | 說 | 服務"
         },
         {
-            "content": "很好看",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "好看"
-        },
-        {
             "content": "露營住宿一個不錯的好地方",
             "rating": 4,
             "publishedDate": "2023/02/28",
@@ -1407,18 +873,6 @@
             "tokenization": "吃 | 動物 | 愛 | 面積 | 蠻廣 | 下次 | 機會來 | 露營 | 小朋友 | 喜歡"
         },
         {
-            "content": "免門票入園歐",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "免門票 | 入園 | 歐"
-        },
-        {
-            "content": "小木屋無冰箱",
-            "rating": 1,
-            "publishedDate": "2023/02/28",
-            "tokenization": "小木屋 | 冰箱"
-        },
-        {
             "content": "櫃檯人員與人交談無配戴口罩挾餐時有人無配戴口罩無人管晚上超過十點半有喧嘩無人管環境還行浴室沖澡水量足（大）餐點一般整體來說沒有不好但也沒有到很好夜晚天空美如果無燈害會更美（難）",
             "rating": 3,
             "publishedDate": "2023/02/28",
@@ -1437,34 +891,16 @@
             "tokenization": "不錯 | 營區 | chill"
         },
         {
-            "content": "環境舒適",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "環境 | 舒適"
-        },
-        {
             "content": "超乾淨，浴室超大、熱水很熱，水也很大很強，是個很好露營舒服的地方！而且設備齊全，還有飲水機跟超多防蚊液給客人選擇使用，也很有國際觀，超讚！老闆人超好，會再去！",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "超乾淨 | 浴室 | 超大 | 熱水 | 很熱 | 水 | 很大 | 很強 | 露營 | 舒服 | 地方 | 設備 | 齊全 | 飲水機 | 超多防 | 蚊 | 液給 | 客人 | 選擇 | 國際觀 | 超 | 讚 | 老闆 | 人超"
         },
         {
-            "content": "超棒的地方",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超棒 | 地方"
-        },
-        {
             "content": "最好的露營地和五星級淋浴間。可愛的主人和可愛的生物。這是海邊的魔法森林。",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "露營 | 五星 | 級 | 淋浴 | 間 | 可愛的 | 主人 | 可愛的 | 生物 | 這是 | 海邊 | 魔法 | 森林"
-        },
-        {
-            "content": "推",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "推"
         },
         {
             "content": "很棒的地方，有很多可愛的農場動物",
@@ -1521,12 +957,6 @@
             "tokenization": "舒適 | 露營 | 空間 | 美好"
         },
         {
-            "content": "蒙古包超讚，真心推薦",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "蒙古包 | 超 | 讚 | 真心 | 推薦"
-        },
-        {
             "content": "令人驚嘆的環境和服務。好地方！",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -1581,12 +1011,6 @@
             "tokenization": "美妙 | 寬 | 敞 | 地方 | 環境 | 輕 | 鬆 | 10 | 10 | 推薦"
         },
         {
-            "content": "多麼美麗的地方啊！",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "美麗 | 地方"
-        },
-        {
             "content": "絕對絕佳的露營地點，非常寬敞，維護得很好，周圍環繞著美麗的樹林和溪流。蒙古包非常適合家庭住宿。",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -1627,24 +1051,6 @@
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "場地 | 棒 | 設備 | 完善 | 工作 | 人員維護 | 環境 | 乾淨"
-        },
-        {
-            "content": "超棒的體驗",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "超棒 | 體驗"
-        },
-        {
-            "content": "很舒適的露營場地",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "很舒適 | 露營場"
-        },
-        {
-            "content": "乾淨氛圍棒 100%",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "乾淨氛 | 圍棒 | 100%"
         },
         {
             "content": "有伊甸音樂節的點綴還挺跟的上新潮流的嘛！",
@@ -1719,18 +1125,6 @@
             "tokenization": "老闆 | 老闆娘 | 親切"
         },
         {
-            "content": "舒適自在",
-            "rating": 4,
-            "publishedDate": "2023/02/28",
-            "tokenization": "舒適"
-        },
-        {
-            "content": "放風好去處",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "放風 | 處"
-        },
-        {
             "content": "環境舒適，蒙古包很大，但些許落葉跟沙子在床墊旁邊，bbq很讚，早餐簡單，營主人很好",
             "rating": 4,
             "publishedDate": "2023/02/28",
@@ -1779,12 +1173,6 @@
             "tokenization": "露營 | 體驗 | 還不錯 | 位置"
         },
         {
-            "content": "適合一家大小聚會喔！",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "適合 | 一家 | 大小 | 聚會 | 喔"
-        },
-        {
             "content": "去住了蒙古包以後，好想每個月都來一次非常棒的環境不，大人小孩都盡興但建議衛浴要至少增加一倍以上，這樣就完美了",
             "rating": 5,
             "publishedDate": "2023/02/28",
@@ -1803,22 +1191,10 @@
             "tokenization": "整體 | 設施 | 偏少 | 洗手台 | 設計 | 營位 | 需求 | 沒有護 | 草 | 墊 | 下雨天 | 老實 | 說 | 水槽 | 積水 | 狀況 | 希望 | 農場 | 改善"
         },
         {
-            "content": "蒙古包很大👍 …",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "蒙古包 | 很大 | 👍"
-        },
-        {
             "content": "佔地廣闊 草皮寬廣小動物多 BBQ食鮮免費入場 適合溜小孩",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "佔地 | 廣闊 | 草皮 | 寬廣小動物 | BBQ | 食鮮 | 免費 | 入場 | 適合 | 溜 | 小孩"
-        },
-        {
-            "content": "地方很大！很多動物",
-            "rating": 4,
-            "publishedDate": "2022/02/28",
-            "tokenization": "地方 | 很大 | 動物"
         },
         {
             "content": "生活機能方便的營區，不論是露營或蒙古包都是非常不錯的選擇！！",
@@ -1831,12 +1207,6 @@
             "rating": 3,
             "publishedDate": "2022/02/28",
             "tokenization": "草皮 | 很大 | 但衛浴 | 不行 | 本部 | 澡間 | 流動 | 廁所 | 改照造 | 改進"
-        },
-        {
-            "content": "大致上還不錯",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "還不錯"
         },
         {
             "content": "報到時櫃檯說入住時間是15:00，15:00了竟然也沒好，到4點也還沒好 ，床、棉被等都沒鋪好整個亂，蒙古包也沒清的很乾淨，下很大雨也沒辦法在外面等，我們只好隨便套一套。17:00才來說要套棉被等，感覺真不好男浴室兩間蓮蓬頭都壞掉，ㄧ間有熱水另一間沒熱水",
@@ -1873,12 +1243,6 @@
             "rating": 3,
             "publishedDate": "2022/02/28",
             "tokenization": "草坪 | 區 | 很大 | 小動物 | 孩子 | 超高 | 興 | 適合 | 團體 | 露營 | 冬天 | 洗澡 | 冷 | 水溫 | 忽 | 冷 | 忽熱 | 建議 | 洗澡 | 東西 | 遺 | 留在 | 營區 | 打電話 | 回去 | 請 | 幫忙 | 留意 | 服務人員 | 很熱心 | 給我們 | 軟釘子 | 碰 | 🤷 | ‍ | ♀ | ️ | 地方 | 露營 | 狀況 | 話 | 服務人員 | 熱心 | 還幫忙 | 寄回 | 新 | 豐農場 | 服務態度 | 加油"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "讚"
         },
         {
             "content": "有大草皮加分，不想煮可以另購烤肉火鍋和早餐。浴室的風有點大，建議可以把牆加高一點。",
@@ -1929,34 +1293,10 @@
             "tokenization": "露營 | 火烤 | 草坪 | 舒服"
         },
         {
-            "content": "溜娃的好地方",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "溜 | 娃 | 地方"
-        },
-        {
             "content": "烤肉食材還可以，環境整潔需加強，不過老闆娘很熱情，想烤肉還會再去光顧。",
             "rating": 4,
             "publishedDate": "2022/02/28",
             "tokenization": "烤 | 肉食 | 材還 | 環境 | 整潔 | 需加 | 強 | 老闆娘 | 很熱情 | 想 | 烤肉 | 還會 | 光顧"
-        },
-        {
-            "content": "設施少的清悠農場",
-            "rating": 2,
-            "publishedDate": "2022/02/28",
-            "tokenization": "設施少 | 清悠 | 農場"
-        },
-        {
-            "content": "跟一群人來還算不錯",
-            "rating": 4,
-            "publishedDate": "2022/02/28",
-            "tokenization": "一群 | 人來 | 還算 | 不錯"
-        },
-        {
-            "content": "溜小孩的好地方…",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "溜 | 小孩 | 地方"
         },
         {
             "content": "農場環境非常舒適，能讓身心放鬆，是全家休閒的好地方，老闆和闆娘待人親切宛如家人，完全無距離感，會讓人想一再前往",
@@ -2055,12 +1395,6 @@
             "tokenization": "先免費 | 參觀 | 園區 | 設施 | 露營 | 假日 | 為 | 1000 | 元露 | 營費 | 非 | 假日 | 為 | 800 | 元露 | 營費"
         },
         {
-            "content": "能釣魚嗎",
-            "rating": 1,
-            "publishedDate": "2022/02/28",
-            "tokenization": "釣魚"
-        },
-        {
             "content": "非常好, 適合帶全家人和小朋友聚餐, 小朋友玩得很開心.",
             "rating": 5,
             "publishedDate": "2022/02/28",
@@ -2139,24 +1473,6 @@
             "tokenization": "露營場 | 交通 | 便利 | 地幅 | 廣闊 | 租金 | 用餐 | 爽快 | 實在 | 一家 | 值得 | 推薦 | 營地"
         },
         {
-            "content": "免費溜小孩",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "免費 | 溜 | 小孩"
-        },
-        {
-            "content": "不錯 簡單露營",
-            "rating": 4,
-            "publishedDate": "2022/02/28",
-            "tokenization": "不錯 | 簡單 | 露營"
-        },
-        {
-            "content": "大草皮超讚",
-            "rating": 4,
-            "publishedDate": "2022/02/28",
-            "tokenization": "草皮 | 超 | 讚"
-        },
-        {
             "content": "［第4露］👍👍👍👍👍交通便利白天晚上都很美最棒的是不用煮晚餐及早餐一帳篷假日1500元（贈送2人的晚餐及早餐）晚餐火烤兩吃吃到飽，成人350很好吃！早餐的高麗菜超甜的～～很有休閒風格",
             "rating": 5,
             "publishedDate": "2022/02/28",
@@ -2179,12 +1495,6 @@
             "rating": 3,
             "publishedDate": "2022/02/28",
             "tokenization": "碰到 | 不有 | 善 | 露友 | 大聲 | 嚷嚷 | 不愉 | 悅 | 體驗"
-        },
-        {
-            "content": "露營好地方",
-            "rating": 4,
-            "publishedDate": "2022/02/28",
-            "tokenization": "露營 | 地方"
         },
         {
             "content": "對露營新手來說還不賴的選擇",
@@ -2235,12 +1545,6 @@
             "tokenization": "還不錯 | 希望 | 設施 | 越來 | 越 | 吃 | 東西 | 價格"
         },
         {
-            "content": "很不錯",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "很不錯"
-        },
-        {
             "content": "CP很高的露營體驗場所",
             "rating": 5,
             "publishedDate": "2021/02/28",
@@ -2251,12 +1555,6 @@
             "rating": 4,
             "publishedDate": "2021/02/28",
             "tokenization": "東西 | 吃 | 不錯 | 吃 | 不貴 | 350 | 元 | 也還 | 露營"
-        },
-        {
-            "content": "放空的好地方",
-            "rating": 3,
-            "publishedDate": "2021/02/28",
-            "tokenization": "放空 | 地方"
         },
         {
             "content": "淋浴間屋頂沒封，冬天配上大風沒辦法洗澡，會冷死；水槽過少，且沒有照明燈，沒有放東西的位子；風大到整晚沒辦法睡，很怕帳篷飛走...同行友人取熱水時竟然還被營地工作人員念：［就叫你們不要搭了你們還是要搭］，拜託，你有說嗎，不歡迎我們露營可以早一點說，也可以不接受訂位，我們冒著帳篷毀損的風險，竟然還被你酸（極度不推薦）。",
@@ -2287,12 +1585,6 @@
             "rating": 2,
             "publishedDate": "2021/02/28",
             "tokenization": "偏遠 | 地方 | 冬天 | 來風 | 帳篷 | 固定 | 吹 | 走 | Google | 導航 | 方向 | 有誤"
-        },
-        {
-            "content": "極方便！",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": ""
         },
         {
             "content": "超讚的農場，蒙古包很可以。大操場，孩子們玩的很開心。大推",
@@ -2337,12 +1629,6 @@
             "tokenization": "新豐 | 休閒 | 農場 | 烤肉 | 吃 | 水果 | 飲料 | 一應 | 俱全 | 平坦 | 草皮 | 兒童 | 遊樂區 | 一處 | 適合 | 全家福 | 休憩"
         },
         {
-            "content": "大草地 舒服＾＾",
-            "rating": 4,
-            "publishedDate": "2021/02/28",
-            "tokenization": "草地 | 舒服 | ＾ | ＾"
-        },
-        {
             "content": "秋冬之際來這裡露營住宿很舒服，因為離海邊不遠(新竹風大)，所以都聽得到海風的聲音，農場內有很多小動物，小孩們光是逛動物區、在草原上跑跳，就給大人們足夠休息放空的時間了！用餐的費用可以參考官網，很多人都覺得物超所值喲！",
             "rating": 5,
             "publishedDate": "2021/02/28",
@@ -2353,30 +1639,6 @@
             "rating": 5,
             "publishedDate": "2021/02/28",
             "tokenization": "環境 | 很棒 | 適合 | 親子 | 懶人戶 | 外體驗 | Cp | 值高 | 包吃包住 | 價錢 | 便宜 | 有大 | 草坪 | 適合 | 小孩 | 玩耍 | 奔跑 | 小動物"
-        },
-        {
-            "content": "一般水平",
-            "rating": 3,
-            "publishedDate": "2021/02/28",
-            "tokenization": "水平"
-        },
-        {
-            "content": "舒服自在，寵物友善",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "舒服 | 寵物 | 友善"
-        },
-        {
-            "content": "露營露營區又可以釣魚",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "露營露 | 營區 | 釣魚"
-        },
-        {
-            "content": "還不錯",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "還不錯"
         },
         {
             "content": "很放鬆的輕露營，希望更新兒童遊戲區設施，已經有點老舊了，擔心孩子發生危險。",
@@ -2451,22 +1713,10 @@
             "tokenization": "蒙古包 | 特色 | 天氣涼 | 住 | 適合"
         },
         {
-            "content": "整理得很乾淨",
-            "rating": 5,
-            "publishedDate": "2021/02/28",
-            "tokenization": "整理 | 乾淨"
-        },
-        {
             "content": "適合全家人一起玩耍露營烤肉的好地方喔！",
             "rating": 5,
             "publishedDate": "2021/02/28",
             "tokenization": "適合 | 全家人 | 玩耍 | 露營 | 烤肉 | 地方 | 喔"
-        },
-        {
-            "content": "沒動物了",
-            "rating": 4,
-            "publishedDate": "2021/02/28",
-            "tokenization": "沒動物"
         },
         {
             "content": "6月底住蒙古包 - 因為太陽升起時剛好直曬我們蒙古包的門，6:30就被熱醒，朋友的帳篷是在樹蔭下，聽說比較好ㄧ點，但其實我們白天沒出去時都會跑去另一個朋友的小木屋吹冷氣，不建議夏天來住蒙古包，但戶外沒啥蚊子還不錯，不過有聽到朋友住蒙古包被螞蟻咬其他方面大家都有評論就不多說了，來講講不一樣的感覺園區工作人員似乎缺少些服務熱忱，只能說是天氣太熱的關係...？服務有點半調子...吃早餐的咖啡館內，雜物過多隨意擺放感覺沒在整理，客人吃完忘記自助收就離開，店員也不會去把東西收走，就繼續讓它攤在桌上，她在櫃臺前放空園區內的角落空地上幾個（廢棄？）蒙古包，就一直攤在那，開車出入一直看到，覺得有點礙眼，可能是我太龜毛最後，去了可愛動物區，有雞、羊、豬等，可能太熱，覺得大家沒什麼生氣，看到豬的時後，發現他受傷了，腹部2側都有傷口，蒼蠅都聚集在傷口上，他很癢，所以一直在磨樹幹，地上也有很多便便，不知道是不是前一晚大的還沒清到那，還有羊的身體也有掉毛情況，對我來說這區感覺不太舒服，可能是我太嚴格整個園區的最大賣點就是蒙古包跟大片草坪，體驗一次就可以了",
@@ -2607,12 +1857,6 @@
             "tokenization": "洗澡水 | 溫乎 | 冷乎熱 | 還好"
         },
         {
-            "content": "適合朋友聚餐",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 朋友 | 聚餐"
-        },
-        {
             "content": "免費入場，浴廁乾淨。有大草皮能跑，可以看小動物(雞、鴨、鵝、兔、豬、羊、魚、鸚鵡)、餵小動物，可以露營，也可以吃火烤吃到飽，價格實惠，很適合親子共遊。",
             "rating": 5,
             "publishedDate": "2020/02/29",
@@ -2637,28 +1881,10 @@
             "tokenization": "木屋 | 初體驗 | 朋友 | 小孩 | 放電 | 地方 | 住 | 小木屋 | 屋裡 | 電視 | 好好 | 安排 | 親子 | 活動 | 桌遊 | 聊天 | 還好 | 朋友 | 提醒 | 自備 | 大棉 | 睡袋 | 屋內 | 設備 | 保暖 | 自備 | 熱水壺 | 屋內 | 泡茶 | 聊天 | 愜意 | 因為 | 天氣 | 寒冷 | 火烤 | 兩吃 | 顯得 | 特別 | 溫飽 | 冰淇淋 | 吃 | 餐廳 | 旁邊 | 簡單 | 溜滑梯 | 穩固 | 小孩 | 玩 | 喜歡 | 草皮 | 適合 | 野餐 | 曬太陽 | 小朋友 | 旁邊 | 遊戲 | 放風箏 | 打球 | 玩 | 販賣部 | 買到 | 好玩 | 過後來 | 評論 | 意外 | 其他人 | 不好 | 經驗 | 只能 | 說 | 下次 | 還會 | 想 | 家人 | 玩"
         },
         {
-            "content": "他腹地廣大，不超收",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "腹地 | 超收"
-        },
-        {
-            "content": "吃的烤肉還好",
-            "rating": 3,
-            "publishedDate": "2020/02/29",
-            "tokenization": "吃 | 烤肉 | 還好"
-        },
-        {
             "content": "今年又來這跨年，這邊又變了，又多了一區露營區，營主一樣很熱情，大草皮仍是小朋友的最愛。",
             "rating": 5,
             "publishedDate": "2020/02/29",
             "tokenization": "這跨 | 年 | 變 | 一區 | 露營區 | 營主 | 熱情 | 草皮 | 小朋友 | 愛"
-        },
-        {
-            "content": "服務員態度惡劣",
-            "rating": 1,
-            "publishedDate": "2020/02/29",
-            "tokenization": "服務員 | 態度 | 惡劣"
         },
         {
             "content": "服務稍差勁收尾把贈送環保杯收走",
@@ -2685,12 +1911,6 @@
             "tokenization": "適合 | 全家 | 休閒 | 踏青 | 輕裝 | 露營 | 地方 | 海拔 | 雖低 | 因為 | 靠近 | 海邊 | 地處 | 空曠 | 悶熱 | 適感"
         },
         {
-            "content": "適合親子露營的營區",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 親子 | 露營 | 營區"
-        },
-        {
             "content": "場地設施完善，適合家庭露營以及舉辦小型活動的好地方",
             "rating": 4,
             "publishedDate": "2020/02/29",
@@ -2701,12 +1921,6 @@
             "rating": 5,
             "publishedDate": "2020/02/29",
             "tokenization": "平日 | 住宿 | ❤ | ️ | 悠閒 | 慢活 | 農場 | 裏 | 農場 | 隻 | 親人 | 狗狗 | ❤ | ️ | 晚上 | 滿滿 | 星空 | 跟蟲鳴 | 下次 | 玩 | ❤ | ️"
-        },
-        {
-            "content": "火鍋加車宿才三百五",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "火鍋 | 加車 | 宿才 | 三百"
         },
         {
             "content": "可以吃得健康輕負擔的烤肉地點",
@@ -2737,12 +1951,6 @@
             "rating": 4,
             "publishedDate": "2020/02/29",
             "tokenization": "草地 | 寬廣 | 廁所大間 | 火烤 | 兩吃 | 自助 | 早餐 | 露營 | 不用 | 煮 | 飯 | 輕 | 鬆 | 算"
-        },
-        {
-            "content": "露營玩樂休閒遛小孩",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "露營 | 玩樂 | 休閒 | 遛 | 小孩"
         },
         {
             "content": "蹓小孩高cp地點，鐵板烤肉吃到飽",
@@ -2817,18 +2025,6 @@
             "tokenization": "親自體驗 | 社團 | 活動 | 全家 | 露營 | 處"
         },
         {
-            "content": "適合全家出遊的農場",
-            "rating": 3,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 全家 | 出遊 | 農場"
-        },
-        {
-            "content": "這裡是露營區",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "露營區"
-        },
-        {
             "content": "不錯的地方 烤肉 露營 價格平價 食材也算新鮮 防蚊燙傷胃藥很齊全,很適合團康或幫小朋友來辦活動",
             "rating": 5,
             "publishedDate": "2020/02/29",
@@ -2859,28 +2055,10 @@
             "tokenization": "遊客 | 單純來 | 這吃 | 火烤 | 兩吃 | 成人 | 350 | 元 | 小孩 | 200 | 元 | 身高 | 90 | 140 | 實際面 | 值得 | 聚餐 | 同樂 | 聊天 | 面來 | 說 | 接受 | 露營 | 超級 | 輕裝 | 上陣 | 需帶 | 帳篷 | 睡覺 | 物品 | 通通 | 不用 | 出門 | 露客 | 多花 | 250 | 元 | 解決 | 晚餐 | 早餐 | 營地 | 提供 | 重 | 複 | 餐具 | 不用 | 洗碗工 | 新竹 | 下午 | 風 | 很大 | 早上 | 無風 | 營地 | 有片 | 草皮 | 小孩 | 放電 | 洗手 | 間 | 一處 | 間 | 搶 | 浴室 | 多間 | 水力 | 超強 | 上方 | 通風處 | 開放式 | 冬天 | 冷颼颼 | 講 | 2019.8 | 24 | 露營 | 心得 | 露營 | 前 | 一週 | 氣象 | 報告 | 穿心 | 颱 | 風將 | 南部 | 擔心 | 關注 | 氣象 | 前一天 | 許多營 | 通知 | 延期 | 取消 | 唯獨 | 營地 | 要視 | 營地 | 天氣 | 而定 | 所在地 | 延期 | 退費 | 露營 | 當天 | 有帳 | 朋友 | 害怕 | 而放棄 | 不怕死 | 下午 | 天氣 | 穩定 | 出發 | 真心 | 此營 | 地無法 | 將心 | 比心 | 出發 | 心情 | 壞到 | 極點"
         },
         {
-            "content": "好玩可惜遇到颱風哈哈",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "好玩 | 可惜 | 颱 | 風"
-        },
-        {
-            "content": "地屬偏僻，設備老舊",
-            "rating": 2,
-            "publishedDate": "2020/02/29",
-            "tokenization": "地屬 | 偏僻 | 設備 | 老舊"
-        },
-        {
             "content": "是小朋友、寵物的天堂，草地可以盡情奔跑，還有很多可愛的動物。",
             "rating": 5,
             "publishedDate": "2020/02/29",
             "tokenization": "小朋友 | 寵物 | 天堂 | 草地 | 盡情 | 奔跑 | 可愛的 | 動物"
-        },
-        {
-            "content": "很不錯！",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "很不錯"
         },
         {
             "content": "有草皮，可嬉戲，有可餵魚，可烤肉，但不好吃！小木屋還算舒適，冷氣新且冷，但如果老闆能夠多主動關心客人的需求或服務品質的提升，我想會更好！",
@@ -2895,28 +2073,10 @@
             "tokenization": "不用 | 食物 | 咖啡 | 廳 | 納涼 | 風 | 很大 | 搭 | 天幕 | 炊事 | 帳很曬"
         },
         {
-            "content": "適合親子自助烤肉～",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 親子 | 自助 | 烤肉"
-        },
-        {
-            "content": "大草原 適合出遊",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "草原 | 適合 | 出遊"
-        },
-        {
             "content": "只想建議衛浴間能提供澡盆跟水勺嗎？蓮蓬頭的水溫不是燙死人就是冷水，不管怎麼調水溫總是忽冷忽熱，對大多數帶孩子去露營的家長來說，幫小孩洗澡真的很痛苦😖一下要等熱水，然後熱水來了又很燙，沒多久又變冷水，只是想洗個澡也要這麼忙。一邊洗一邊聽隔壁間的也在抱怨水溫忽冷忽熱。排除以上問題其他都覺得還能接受。當天沒什麼蚊蟲可能是風大都被吹飛了 …",
             "rating": 3,
             "publishedDate": "2020/02/29",
             "tokenization": "只想 | 建議 | 衛浴間 | 提供 | 澡盆 | 水勺 | 蓮蓬頭 | 水溫 | 燙 | 死 | 冷水 | 調水溫 | 總 | 忽 | 冷 | 忽熱 | 數帶 | 孩子 | 露營 | 家長 | 說 | 幫 | 小孩 | 洗澡 | 真的 | 痛苦 | 😖 | 熱水 | 然後熱 | 水來 | 燙 | 多久 | 變 | 冷水 | 想 | 洗個 | 澡 | 忙 | 洗 | 聽 | 隔壁 | 間 | 抱怨 | 水溫 | 忽冷 | 忽熱 | 排除 | 還能 | 接受 | 當天 | 沒什麼 | 蚊蟲 | 風 | 吹 | 飛"
-        },
-        {
-            "content": "親子時光的地方",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "親子 | 時光 | 地方"
         },
         {
             "content": "5/25住了蒙古包最右邊紫色的，睡了一晚後，惡夢的開始，本來還以為是被蚊蟲咬， 回家上網Google後，疑似跳蚤咬傷，一家四口都中獎，尤其爸爸和媽媽被咬的很慘，農場平日應該要把床墊.枕頭曝曬，顧客入住之前，蒙古包內部用噴灑式或水蒸式殺蟲劑除蟲，咬得身體一大群紅點，癢死了;我們同行住隔壁蒙古包的也是有被咬。5/27看皮膚科，醫生說是禽蟎咬傷。在這麼不乾淨的住宿環境，我只能說下次不會再去這個地方",
@@ -3003,18 +2163,6 @@
             "tokenization": "露營 | 草皮 | 真的 | 很不錯 | 營主 | 車子 | 開上 | 草皮 | 傷心 | 搭 | 好帳 | 露友 | 小孩 | 草皮 | 上玩開 | 閃 | 躲 | 開過 | 車子 | 實在 | 不太好 | BBQ | 食材 | 新鮮 | 員工 | 親切 | 整體 | 感覺 | 不錯"
         },
         {
-            "content": "很適合親子活動的地方",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 親子 | 活動 | 地方"
-        },
-        {
-            "content": "很適合親子到訪放鬆",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 親子 | 訪 | 放 | 鬆"
-        },
-        {
             "content": "與家人一起在露營地度過週末。",
             "rating": 5,
             "publishedDate": "2020/02/29",
@@ -3027,34 +2175,10 @@
             "tokenization": "週日 | 參觀 | 不賴 | 草皮 | 漂亮 | 烤肉 | 區乾淨 | 夏天 | 很熱 | .......... | 新增 | 沙坑 | 多兒 | 童遊戲 | 設施 | 棒"
         },
         {
-            "content": "很棒的場所好棒的草地",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "很棒 | 場所好 | 棒 | 草地"
-        },
-        {
-            "content": "適合家庭旅遊",
-            "rating": 4,
-            "publishedDate": "2020/02/29",
-            "tokenization": "適合 | 家庭 | 旅遊"
-        },
-        {
             "content": "自助烤肉吃到飽，成人費用350元，小孩200元，休閒咖啡，蒙古包，木屋以及魚池，小動物區，各式花卉園區，大草坪，佔地13000坪，整體感覺不錯，唯對外連絡鄉道較不明顯！",
             "rating": 5,
             "publishedDate": "2020/02/29",
             "tokenization": "自助 | 烤肉 | 吃 | 成人 | 費用 | 350 | 元 | 小孩 | 200 | 元 | 休閒 | 咖啡 | 蒙古包 | 木屋 | 魚池 | 小動物區 | 花卉 | 園區 | 草坪 | 佔地 | 13000 | 坪 | 整體 | 感覺 | 不錯 | 唯對 | 外連絡 | 鄉 | 道 | 不明 | 顯"
-        },
-        {
-            "content": "場地寬敞，水電方便！",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "場地 | 寬 | 敞 | 水電"
-        },
-        {
-            "content": "尚在規劃中吧",
-            "rating": 2,
-            "publishedDate": "2020/02/29",
-            "tokenization": "尚在 | 規劃 | 中"
         },
         {
             "content": "走走，參觀一番而已，沒有消費，就露營場地，特色可能是蒙古包而已，車子無法靠近營地，會有些許不便，草地有一片，照顧的還不錯，園區內養鵝，鴨，雞，兔子，豬，魚，哈士奇，土狗，獒犬，還有烤肉吃到飽的付費餐點",
@@ -3099,24 +2223,6 @@
             "tokenization": "放 | 鬆 | 休 | 閒 | 地方 | 老闆 | 老闆娘 | 服務熱 | 誠 | 親切 | 值得 | 一推"
         },
         {
-            "content": "剛開幕  可以期待",
-            "rating": 3,
-            "publishedDate": "2019/02/28",
-            "tokenization": "剛開幕 | 期待"
-        },
-        {
-            "content": "用餐自在，物美價廉",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "用餐 | 物美 | 價廉"
-        },
-        {
-            "content": "可以餵小動物",
-            "rating": 3,
-            "publishedDate": "2019/02/28",
-            "tokenization": "小動物"
-        },
-        {
             "content": "烤肉休閒場所，尚未開發完成",
             "rating": 1,
             "publishedDate": "2019/02/28",
@@ -3157,12 +2263,6 @@
             "rating": 4,
             "publishedDate": "2019/02/28",
             "tokenization": "去裡面 | 踏青 | 不用 | 門票 | 火烤 | 兩用 | 吃 | 費用 | 大人 | 350 | 小孩 | 200 | 露營區"
-        },
-        {
-            "content": "去露營時非常的好玩",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "露營時 | 好玩"
         },
         {
             "content": "乾淨整潔又有大草皮，還可以烤肉露營，很適合各年齡層的客人",
@@ -3219,12 +2319,6 @@
             "tokenization": "烤肉 | 露營 | 家族 | 聚會 | 地方 | 環境 | 幽美"
         },
         {
-            "content": "烤肉露營的好地方",
-            "rating": 4,
-            "publishedDate": "2019/02/28",
-            "tokenization": "烤肉 | 露營 | 地方"
-        },
-        {
             "content": "場地廣大也有遮蔭處可以烤肉休息",
             "rating": 5,
             "publishedDate": "2019/02/28",
@@ -3279,18 +2373,6 @@
             "tokenization": "餐點 | 好吃 | 溜 | 狗 | 地方 | 老闆 | 老闆娘 | 員工 | 熱情 | 親切 | 推 | 還會 | 再訪"
         },
         {
-            "content": "地方有點難找",
-            "rating": 3,
-            "publishedDate": "2019/02/28",
-            "tokenization": "地方 | 難 | 找"
-        },
-        {
-            "content": "服務好，環境優",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "服務好 | 環境 | 優"
-        },
-        {
             "content": "食材新鮮美味，老闆輕切待客。",
             "rating": 5,
             "publishedDate": "2019/02/28",
@@ -3315,12 +2397,6 @@
             "tokenization": "好山 | 好水 | 好風景 | 有廣大 | 草地 | 特色 | 蒙古包 | 住宿"
         },
         {
-            "content": "很酥服",
-            "rating": 5,
-            "publishedDate": "2019/02/28",
-            "tokenization": "酥 | 服"
-        },
-        {
             "content": "新開農場有綠地小池塘小朋友可開心玩耍亦可露營",
             "rating": 4,
             "publishedDate": "2019/02/28",
@@ -3337,12 +2413,6 @@
             "rating": 5,
             "publishedDate": "2019/02/28",
             "tokenization": "全家 | 出遊 | 烤肉 | 休閒"
-        },
-        {
-            "content": "遛狗遛小孩的好去處！",
-            "rating": 5,
-            "publishedDate": "2018/02/28",
-            "tokenization": "遛狗 | 遛 | 小孩 | 處"
         },
         {
             "content": "好吃好玩新體驗可以穿蒙古的衣服來拍照",
@@ -3373,12 +2443,6 @@
             "rating": 5,
             "publishedDate": "2018/02/28",
             "tokenization": "免門票 | 環境 | 不錯 | 遛狗 | 小朋友 | 處"
-        },
-        {
-            "content": "同學開的",
-            "rating": 5,
-            "publishedDate": "2018/02/28",
-            "tokenization": "同學開"
         }
     ],
     "phone": "0932 384 119"

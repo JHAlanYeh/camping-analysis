@@ -9,12 +9,6 @@
     "actual_count": 11,
     "comments": [
         {
-            "content": "露營車寬敞舒適",
-            "rating": 5,
-            "publishedDate": "2024/02/28",
-            "tokenization": "露營車 | 寬 | 敞舒適"
-        },
-        {
             "content": "房間乾淨環境非常好走路到日月潭，還有住宿也有車位可以停非常喜歡這裡，露營車很大空間設計很棒值得再來",
             "rating": 5,
             "publishedDate": "2024/02/23",
@@ -61,12 +55,6 @@
             "rating": 5,
             "publishedDate": "2023/12/01",
             "tokenization": "超 | 美的 | 露營車 | 營區 | 幫媽 | 媽過 | 生日 | 嬤 | 嬤 | 開心"
-        },
-        {
-            "content": "環境舒適優美",
-            "rating": 5,
-            "publishedDate": "2023/11/01",
-            "tokenization": "環境 | 舒適 | 優美"
         },
         {
             "content": "新體驗環境優、闆娘親切",

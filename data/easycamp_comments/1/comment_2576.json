@@ -11,24 +11,28 @@
     "comments": [
         {
             "content": "很棒。離市區近補給方便",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/11/06",
             "tokenization": "很棒 | 離市 | 區近 | 補給"
         },
         {
             "content": "很不錯~",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2023/10/20",
             "tokenization": "很不錯"
         },
         {
             "content": "營主很熱心。老闆娘很熱心地介紹附近景點還招待水果,美中不足的是廁所沒有衛生紙",
+            "type": 1,
             "rating": 3,
             "publishedDate": "2023/10/11",
             "tokenization": "營主 | 很熱心 | 老闆娘 | 很熱 | 心地 | 介紹 | 景點還 | 招待 | 水果 | 美中不足 | 廁所 | 衛生紙"
         },
         {
             "content": "營區乾淨",
+            "type": 1,
             "rating": 5,
             "publishedDate": "2022/12/02",
             "tokenization": "營區 | 乾淨"

@@ -39,28 +39,10 @@
             "tokenization": "場地 | 厠 | 乾淨 | 缺點 | 路途 | 遠"
         },
         {
-            "content": "草地舒適",
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "草地 | 舒適"
-        },
-        {
-            "content": "小黑蚊的天下",
-            "rating": 1,
-            "publishedDate": "2023/03/01",
-            "tokenization": "小黑 | 蚊 | 天下"
-        },
-        {
             "content": "設備算舒適，但整天從早到晚都有小黑蚊和一般蚊子，被咬的令我想回家了，怎麼噴防蚊液都沒用@@",
             "rating": 3,
             "publishedDate": "2023/03/01",
             "tokenization": "設備 | 算 | 舒適 | 整天 | 早 | 晚 | 小黑 | 蚊 | 蚊子 | 咬 | 令 | 想 | 回家 | 噴防 | 蚊液 | 沒用"
-        },
-        {
-            "content": "😀😀😀 …",
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "😀 | 😀 | 😀"
         },
         {
             "content": "營主阿姨人超好，環境乾凈，睡在梅樹下別有一番風味！夜探螢火蟲,數不完的“火金姑”~~有機會一定會再造訪！！",
@@ -91,12 +73,6 @@
             "rating": 5,
             "publishedDate": "2022/03/01",
             "tokenization": "包 | B2 | 區 | 洗手台 | 插座 | 數量 | 離浴 | 廁 | 冰箱 | 廁所 | 浴室 | 乾淨 | 熱水 | 夠熱 | 地有點 | 硬 | 地方 | 不好 | 下營 | 釘 | 草夠 | 撤帳 | 時 | 墊 | 背面 | 土 | 稍微 | 清理 | 推薦"
-        },
-        {
-            "content": "超棒的喔",
-            "rating": 5,
-            "publishedDate": "2022/03/01",
-            "tokenization": "超棒 | 喔"
         },
         {
             "content": "營主熱心親切，下次會再造訪",

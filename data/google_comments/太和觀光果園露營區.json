@@ -117,18 +117,6 @@
             "tokenization": "原本 | 想 | 說 | 看網 | 路上 | 資料 | 營區 | 缺點 | 之後其 | 實覺 | 營區 | 適合 | 山徑 | 散步 | 離奮 | 起湖 | 小木屋 | 民宿 | 做 | 選擇 | 值得 | 推薦"
         },
         {
-            "content": "不錯的渡假點",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "不錯 | 渡假 | 點"
-        },
-        {
-            "content": "景色設施佳",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "景色 | 設施佳"
-        },
-        {
             "content": "廁所超乾淨又很大間，水溫、水壓穩定。",
             "rating": 5,
             "publishedDate": "2023/03/01",
@@ -171,22 +159,10 @@
             "tokenization": "山上 | 很漂亮 | 不露營 | 話 | 進去賞 | 花"
         },
         {
-            "content": "好地方",
-            "rating": 5,
-            "publishedDate": "2022/03/01",
-            "tokenization": "地方"
-        },
-        {
             "content": "營主客氣，價格合理，周邊配備齊全",
             "rating": 5,
             "publishedDate": "2022/03/01",
             "tokenization": "營主 | 客氣 | 價格 | 周邊 | 配備 | 齊全"
-        },
-        {
-            "content": "老闆親切 風景優美",
-            "rating": 5,
-            "publishedDate": "2022/03/01",
-            "tokenization": "老闆 | 親切 | 風景 | 優美"
         },
         {
             "content": "風景優美，營主親切客氣，環境很舒服！",
@@ -199,12 +175,6 @@
             "rating": 5,
             "publishedDate": "2022/03/01",
             "tokenization": "佳宿 | 露營 | 環境 | 優美 | 內附 | 卡拉 | 0k | 讚"
-        },
-        {
-            "content": "環境很美！",
-            "rating": 5,
-            "publishedDate": "2022/03/01",
-            "tokenization": "環境 | 美"
         },
         {
             "content": "地方乾淨，風景優美露營好地方",

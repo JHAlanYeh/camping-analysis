@@ -15,12 +15,6 @@
             "tokenization": "雨棚 | 回音 | 營主 | 制止 | 太吵 | 民眾 | 主動 | 詢問 | 需不需要 | 幫忙 | 離市 | 區算近 | 露營 | 煮 | 東西"
         },
         {
-            "content": "店家熱心服務佳",
-            "rating": 5,
-            "publishedDate": "2023/07/01",
-            "tokenization": "店家 | 熱 | 心服 | 務佳"
-        },
-        {
             "content": "老闆很客氣，讓我們這幾位環島登山客可以乾爽一整晚。大方的多給我們場地做使用。還幫我們拿桌椅，真的非常感謝。洗手間，淋浴間，吹風機，冰箱，脫水機，琉台，垃圾分類區，蚊香.....硬體設施無話可說，熱水淋浴水壓水溫都有到位，服務周到。真心推薦這個聚會活動的好地方。❤️❤️❤️❤️",
             "rating": 5,
             "publishedDate": "2023/05/01",
@@ -31,12 +25,6 @@
             "rating": 2,
             "publishedDate": "2023/05/01",
             "tokenization": "雨棚 | 白天 | 麻雀 | 鳥 | 屎 | 撤帳 | 蟑螂 | 蜘蛛 | 環境 | 尚待 | 改善"
-        },
-        {
-            "content": "很棒的地方～",
-            "rating": 5,
-            "publishedDate": "2023/04/01",
-            "tokenization": "很棒 | 地方"
         },
         {
             "content": "礁溪龍潭No.16-Lemon Tree露營區是一个很好的选择，具有許多優點。該露营地位于礁溪，地理位置優越，方便前往周围的景点。设施齐全，包括卫生间、淋浴設施，满足了客人的需求。環境很好，提供了一個寧静的度假环境。老闆非常親切友好，總是愿意帮助客人解决任何问题。總體的来說，礁溪龍潭No.16-Lemon Tree露营區是一个安全、舒適對我這個露營新手來說很滿意。",
@@ -139,12 +127,6 @@
             "rating": 5,
             "publishedDate": "2023/03/01",
             "tokenization": "環境 | 整潔 | 適合帶 | 小朋友 | 玩 | 老闆 | 親切"
-        },
-        {
-            "content": "讚，人很好",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "讚"
         },
         {
             "content": "帳帳相連沒關係，但是隔壁帳到半夜1點多仍在高談闊論，影響他人休息，不見營區有任何宣導和管理令人傻眼。",
@@ -261,22 +243,10 @@
             "tokenization": "營主 | 夫妻 | 藹 | 可親 | 寬 | 敞 | 棚區 | 礁溪 | 市區"
         },
         {
-            "content": "乾淨 沒蚊子 有雨棚",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "乾淨 | 蚊子 | 雨棚"
-        },
-        {
             "content": "別有洞天 方便的露營區",
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "別有 | 洞天 | 露營區"
-        },
-        {
-            "content": "老闆娘很好心",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "老闆娘 | 好心"
         },
         {
             "content": "這裡環境還不錯，只是偶爾有豬屎味飄來，但是整體還不錯，有冰箱，離市區也很近，廁所也很乾淨，洗澡水也很熱，沒有蚊子喔",
@@ -285,40 +255,16 @@
             "tokenization": "環境 | 還不錯 | 偶爾有 | 豬屎 | 味飄來 | 整體 | 還不錯 | 冰箱 | 離市區 | 廁所 | 乾淨 | 洗澡水 | 很熱 | 蚊子 | 喔"
         },
         {
-            "content": "讚 視野好 空氣好",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "讚 | 視野好 | 空氣"
-        },
-        {
             "content": "老闆娘親切，環境舒適，不用擔心臨時下雨的好地方",
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "老闆娘 | 親切 | 環境 | 舒適 | 不用 | 擔心 | 臨時 | 下雨 | 地方"
         },
         {
-            "content": "很方便的露營區",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "露營區"
-        },
-        {
-            "content": "近郊露營的好地方",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "近郊 | 露營 | 地方"
-        },
-        {
             "content": "還不錯也很乾淨的露營區，離市區很近買東西很方便，老闆人也很好會與妳分享附近好玩的地方。",
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "還不錯 | 乾淨 | 露營區 | 離市區 | 買 | 東西 | 老闆 | 妳 | 分享 | 好玩 | 地方"
-        },
-        {
-            "content": "很清心的露營區",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "清心 | 露營區"
         },
         {
             "content": "好濃的豬屎味，超有鄉村fu.",
@@ -345,24 +291,6 @@
             "tokenization": "適合 | 宜蘭 | 地區 | 食出 | 遊為 | 主 | 輕裝 | 露營 | 行程 | 鐵皮 | 高架 | 雨棚 | 營位 | 算 | 宜蘭 | 地區 | 水準"
         },
         {
-            "content": "悠閒",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "悠閒"
-        },
-        {
-            "content": "玩水玩沙露營好所在",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "玩水 | 玩沙露 | 營好"
-        },
-        {
-            "content": "營地有冷泉可以玩",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "營地 | 冷泉 | 玩"
-        },
-        {
             "content": "浴廁乾淨水大港，水池真的是冷泉，營主暖心，營地隨你搭，並提供桌椅，飲水機及冰箱還有脫水機任你使用。準備一堆防蚊，但沒用到",
             "rating": 5,
             "publishedDate": "2019/03/01",
@@ -375,22 +303,10 @@
             "tokenization": "營主 | 熱情 | 熱心 | 環境 | 乾淨"
         },
         {
-            "content": "老闆人很好 環境乾淨",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "老闆 | 環境 | 乾淨"
-        },
-        {
             "content": "營地乾淨開闊，營主親切",
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "營地 | 乾淨 | 開闊 | 營主 | 親切"
-        },
-        {
-            "content": "營地寬敞 衛浴乾淨",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "營地 | 寬 | 敞 | 衛浴 | 乾淨"
         },
         {
             "content": "營地環境佳，有提供冰箱，吹風機",
@@ -399,28 +315,10 @@
             "tokenization": "營地 | 環境 | 佳 | 提供 | 冰箱 | 吹風機"
         },
         {
-            "content": "乾淨 清淨",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "乾淨 | 清淨"
-        },
-        {
             "content": "腹地夠，設備齊，偶有豬圈味飄過，這是兒時的曾聞的氣味啊~",
             "rating": 4,
             "publishedDate": "2019/03/01",
             "tokenization": "腹地 | 夠 | 設備 | 偶有 | 豬圈味 | 飄過 | 這是 | 兒時 | 曾聞 | 氣味"
-        },
-        {
-            "content": "風景漂亮適合露營",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "風景 | 漂亮 | 適合 | 露營"
-        },
-        {
-            "content": "營地乾淨，有水又有電",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "營地 | 乾淨 | 有水 | 有電"
         },
         {
             "content": "從幼童到成年陪伴的廟宇",
@@ -453,12 +351,6 @@
             "tokenization": "遮雨棚 | 誇張 | 天狂 | 下雨 | 濕帳 | 困擾 | 冷泉 | 恆溫 | 22.5 | 度 | 17 | 度 | 雨天 | 下水 | 冷"
         },
         {
-            "content": "超大雨棚",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "超大 | 雨棚"
-        },
-        {
             "content": "適合帶小孩一起來，水池很乾淨、安全",
             "rating": 4,
             "publishedDate": "2018/03/01",
@@ -483,34 +375,10 @@
             "tokenization": "場地 | 乾淨 | 營主 | 親切 | 營主 | 媽媽 | 健談 | 家 | 鄉 | 靄 | 可親 | 鄰居 | 奶奶 | 營位 | 部份 | 原則 | 帳蓬 | 大小 | 一房 | 一廳 | 話 | 請 | 鄰居 | 稍微 | 水池 | 乾淨 | 深度 | 適合 | 小朋友 | 戲水 | 因為 | 距離 | 宜蘭 | 市區 | 10 | 分鐘 | 路程 | 適合 | 輕裝外 | 食路線"
         },
         {
-            "content": "好營地………",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "好營"
-        },
-        {
-            "content": "場地乾淨，帳位小小的",
-            "rating": 3,
-            "publishedDate": "2018/03/01",
-            "tokenization": "場地 | 乾淨 | 帳位 | 小小的"
-        },
-        {
             "content": "老闆人很好 也盡力協助客人離市區和礁溪都很近惟一的缺點是 帳蓬的間隔有點近",
             "rating": 4,
             "publishedDate": "2018/03/01",
             "tokenization": "老闆 | 盡力 | 協助 | 客人 | 離市區 | 礁溪 | 惟一 | 缺點 | 帳蓬 | 間 | 隔 | 點近"
-        },
-        {
-            "content": "清境優美",
-            "rating": 4,
-            "publishedDate": "2017/03/01",
-            "tokenization": "清境 | 優美"
-        },
-        {
-            "content": "好的",
-            "rating": 5,
-            "publishedDate": "2017/03/01",
-            "tokenization": ""
         }
     ],
     "phone": ""

@@ -9,12 +9,6 @@
     "actual_count": 179,
     "comments": [
         {
-            "content": "櫻花美呆豫了",
-            "rating": 5,
-            "publishedDate": "2024/02/27",
-            "tokenization": "櫻花 | 美呆豫"
-        },
-        {
             "content": "營區滿山的櫻花🌸實在超級美，車子就直接停在帳篷旁邊也是超級方便！100分的營區！ …",
             "rating": 5,
             "publishedDate": "2024/02/27",
@@ -31,18 +25,6 @@
             "rating": 5,
             "publishedDate": "2024/02/23",
             "tokenization": "櫻花 | 真的 | 美 | 看得出 | 營主 | 用心 | 維護 | 沒什麼 | 蚊蟲 | 熱水 | 很熱"
-        },
-        {
-            "content": "1:路上的營區！",
-            "rating": 4,
-            "publishedDate": "2024/02/16",
-            "tokenization": "路上 | 營區"
-        },
-        {
-            "content": "視覺美，乾淨開拓!",
-            "rating": 5,
-            "publishedDate": "2024/02/16",
-            "tokenization": "視覺 | 美 | 乾淨 | 開拓"
         },
         {
             "content": "環境優美、乾淨，洗澡熱水舒服，重點是老闆人超級無敵好洗手間非常乾淨，熱水很熱",
@@ -153,28 +135,10 @@
             "tokenization": "環境 | 不錯 | 涼涼 | 場地 | 擁擠 | 缺點 | 營區 | 有顆 | 石頭 | 刮 | 車底 | 盤 | 坐式 | 廁所"
         },
         {
-            "content": "營區草坪維護很好",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "營區 | 草坪 | 維護"
-        },
-        {
             "content": "營地舒適宜人，視野開闊，放空自得好去處營主直率不囉說，疫情期間貼心降低各區來客組數前往營地的道路品質良好，會車容易唯獨營區內受限地形與法規限制，部分路段高低差建議較高底盤車輛搭配四傳車種為佳各區衛浴/廁所設備齊全乾淨，瓦斯熱水器水溫/量足值得推薦的營地，下次再找親朋好友一同造訪",
             "rating": 5,
             "publishedDate": "2023/03/01",
             "tokenization": "營地 | 舒適 | 宜人 | 視野 | 開闊 | 放空 | 自得 | 處 | 營主 | 直率 | 囉 | 說 | 疫情 | 期間 | 貼心 | 降低 | 各區 | 來客 | 組數 | 前往 | 營地 | 道路 | 品質 | 會車 | 唯獨 | 營區 | 受限 | 地形 | 法規 | 路段 | 差建議 | 高底 | 盤車輛 | 搭配 | 四傳 | 車種 | 為 | 佳 | 各區 | 衛浴 | 廁所 | 設備 | 全乾淨 | 瓦斯 | 熱 | 水器 | 水溫 | 量足 | 值得 | 推薦 | 營地 | 下次 | 找 | 親朋 | 好友 | 一同 | 造訪"
-        },
-        {
-            "content": "夏天就是要上山",
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "夏天 | 上山"
-        },
-        {
-            "content": "風景優美！涼爽舒適！",
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "風景 | 優美 | 涼爽 | 舒適"
         },
         {
             "content": "風景很漂亮，營主人不錯星期六到可能有人取消了就把大家都分散開來，一團一區真的很棒",
@@ -375,18 +339,6 @@
             "tokenization": "櫻花 | 漂亮 | 當風 | 吹 | 美到 | 不行 | 缺點 | 廁所 | 多人 | 洗澡 | 忽 | 冷 | 忽熱 | 電壓 | 兩台 | 吹 | 風機 | 跳電"
         },
         {
-            "content": "景色不錯",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "景色 | 不錯"
-        },
-        {
-            "content": "美啊",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "美"
-        },
-        {
             "content": "滿山的櫻花非常漂亮海拔有點高 上山記得保暖！",
             "rating": 5,
             "publishedDate": "2021/03/01",
@@ -433,12 +385,6 @@
             "rating": 5,
             "publishedDate": "2021/03/01",
             "tokenization": "營區 | 簡單 | 乾淨 | 一組 | 包場 | 一區 | 不用 | 人擠 | 人無敵 | 山景 | 值得 | 👍 | 🏻 | 海拔 | 高 | 收訊 | 滿格 | 不用 | 外界 | 失聯 | 喔"
-        },
-        {
-            "content": "環境整潔，夏天適宜。",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "環境 | 整潔 | 夏天 | 適宜"
         },
         {
             "content": "營區環境整潔，風景很漂亮，衛浴數量充足但人多洗澡時會搶到熱水。",
@@ -513,46 +459,16 @@
             "tokenization": "環境 | 污染 | 沈 | 澱 | 地方"
         },
         {
-            "content": "景色優美，營主熱情",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "景色 | 優美 | 營主 | 熱情"
-        },
-        {
             "content": "場地維護的很好，草地非常漂亮，分區很明確所以不太會吵到彼此，浴廁算乾淨，但若能封頂避免過多蚊蟲飛進來的話會更完美",
             "rating": 5,
             "publishedDate": "2021/03/01",
             "tokenization": "場地 | 維護 | 草地 | 漂亮 | 分區 | 不太會 | 吵 | 浴 | 廁算 | 乾淨 | 封頂 | 過多 | 蚊蟲 | 飛 | 話 | 完美"
         },
         {
-            "content": "適合全家旅遊",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "適合 | 全家 | 旅遊"
-        },
-        {
             "content": "營位安排還算寬鬆，但廁所沒封頂，晚上滿廁所的昆蟲亂飛，小孩洗澡上廁所會怕，另外冰箱在營本部裡面，營主不在或休息時間就會鎖上，帶食材去冰的露友有點不方便",
             "rating": 3,
             "publishedDate": "2021/03/01",
             "tokenization": "營位 | 安排 | 還算 | 寬 | 鬆 | 廁所 | 封頂 | 晚上 | 滿廁 | 昆蟲 | 亂 | 飛 | 小孩 | 洗澡 | 廁所會 | 冰箱 | 在營 | 本部 | 營主 | 休息 | 時間 | 會鎖 | 食材 | 冰 | 露友"
-        },
-        {
-            "content": "很棒很舒服一定再來！",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "很棒 | 舒服 | 再來"
-        },
-        {
-            "content": "很棒營主超好！",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "很棒 | 營主 | 超好"
-        },
-        {
-            "content": "風景很讚，好天不熱",
-            "rating": 5,
-            "publishedDate": "2021/03/01",
-            "tokenization": "風景 | 讚 | 好天 | 不熱"
         },
         {
             "content": "整體而言很不錯，只是風很大，還有一些硬體上的小問題，例如電燈壞了幾顆",
@@ -583,12 +499,6 @@
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "營主 | 場地 | 很棒 | 結霜 | 度 | 溫暖"
-        },
-        {
-            "content": "營主人超好，風景不錯",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "營主 | 人超 | 風景 | 不錯"
         },
         {
             "content": "Relaxxxx 好地方、放鬆、舒適",
@@ -657,12 +567,6 @@
             "tokenization": "時間點 | 區樹少 | 太陽下 | 很熱 | 山景 | 還不錯 | 設施少 | 花季 | 無聊 | 收錢 | 營主"
         },
         {
-            "content": "世外桃源",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "世外桃源"
-        },
-        {
             "content": "露營也可以玩遙控攀岩車",
             "rating": 5,
             "publishedDate": "2020/03/01",
@@ -685,12 +589,6 @@
             "rating": 4,
             "publishedDate": "2020/03/01",
             "tokenization": "風景 | 優美 | 浴廁 | 改進 | 一點 | 紗網 | 牆 | 屋頂間 | 留縫 | 通風 | 設計 | 昆蟲 | 吸引 | 飛進 | 浴廁 | 停留 | 怕蟲 | 小孩 | 困擾 | 除此外 | 真的 | 很棒"
-        },
-        {
-            "content": "櫻花祕境",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "櫻花 | 祕 | 境"
         },
         {
             "content": "🏕 露營趣～ 煮飯搗麻吉 🍚💪 搗麻吉～ 原住民小米 🌾👍 拿手菜～ 大龍蝦泡麵 🦐👵🏻 女營主～ 活潑又可愛 😘🥒 小黃瓜～ 營主現採的 👏",
@@ -723,12 +621,6 @@
             "tokenization": "完美 | 中"
         },
         {
-            "content": "環境優美 櫻花漂亮",
-            "rating": 4,
-            "publishedDate": "2020/03/01",
-            "tokenization": "環境 | 優美 | 櫻花 | 漂亮"
-        },
-        {
             "content": "環境整潔、優雅，空青清心，老闆超好。",
             "rating": 5,
             "publishedDate": "2020/03/01",
@@ -751,12 +643,6 @@
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "美麗 | 舒服 | 露營區 | 💮 | 🌸 | 💮 | 🌸 | 💮 | 🌸"
-        },
-        {
-            "content": "櫻花樹下的甜美回憶",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "櫻花 | 樹下 | 甜美 | 回憶"
         },
         {
             "content": "全區種滿櫻花很美，廁所整間是水泥沒有鋪磁磚，地表算平整，有機會看雲海",
@@ -783,12 +669,6 @@
             "tokenization": "這跨 | 年 | 風 | 景美 | 帳數 | 老闆 | 客氣浴 | 廁 | 尚可 | 吹 | 風機 | 值得"
         },
         {
-            "content": "還不錯喔",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "還不錯 | 喔"
-        },
-        {
             "content": "風景美，還可看日出。...運氣好，還可以看到雲海。",
             "rating": 5,
             "publishedDate": "2019/03/01",
@@ -801,22 +681,10 @@
             "tokenization": "無敵 | 山景 | 雲景 | 可惜 | 衛浴 | 太 | 簡陋"
         },
         {
-            "content": "老闆太商業化，不親切",
-            "rating": 1,
-            "publishedDate": "2019/03/01",
-            "tokenization": "老闆 | 太商業化 | 不親切"
-        },
-        {
             "content": "風景很棒，但設施有些老舊",
             "rating": 3,
             "publishedDate": "2019/03/01",
             "tokenization": "風景 | 很棒 | 設施 | 老舊"
-        },
-        {
-            "content": "環境整潔草坪寬敞",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "環境 | 整潔 | 草坪 | 寬敞"
         },
         {
             "content": "從高雄北上，天吶！！這一定是遠的要命王國的鄰居，最後那一段蠻繞的，孩子差點抓兔子，還好有香香棒止暈，隔壁帳的嫂子到達營地時已經完全不行了，回程我差點也沒守住...景不錯，雲變化很快，還很美的櫻花樹，永遠記得那天的櫻花樹下，孩子們玩得很開心，風一吹，櫻花雨紛飛，好美~營主奶奶很熱情，很會帶活動，這才是人情味...",
@@ -829,12 +697,6 @@
             "rating": 5,
             "publishedDate": "2019/03/01",
             "tokenization": "老闆娘 | 親力 | 親為 | 用心 | 經營"
-        },
-        {
-            "content": "很舒服，環境優美",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "舒服 | 環境 | 優美"
         },
         {
             "content": "雖訂場有規範，訂金給你沒收就是了，碎碎唸是唸啥，小朋友得腸病毒還要被你唸？",
@@ -873,12 +735,6 @@
             "tokenization": "雲頂 | 風 | 滿天 | 星 | 舒服 | 環境"
         },
         {
-            "content": "超漂亮的櫻花",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "超 | 漂亮 | 櫻花"
-        },
-        {
             "content": "露營區好去處，老闆娘非常的好客。營區的設施完善又乾淨。場地非常廣大，此時2月中旬，（昭和櫻）盛開的季節，非常有特色又美麗，很值得到此來露營。",
             "rating": 5,
             "publishedDate": "2018/03/01",
@@ -897,28 +753,10 @@
             "tokenization": "搗 | 麻吉活動 | 很棒"
         },
         {
-            "content": "景觀視野很好",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "景觀 | 視野"
-        },
-        {
-            "content": "生態導覽很難得",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "生態 | 導覽 | 難"
-        },
-        {
             "content": "營主很熱情，營地整頓得很乾淨，視野很好，種了很多吉野櫻冬天3月可來賞櫻，浴廁簡單乾淨，晚上有搗麻吉活動，隔日上午步道導覽，唯一缺點是野貓會跑進帳篷翻東西",
             "rating": 5,
             "publishedDate": "2018/03/01",
             "tokenization": "營主 | 很熱情 | 營地 | 整頓 | 乾淨 | 視野 | 種了 | 吉野 | 櫻 | 冬天 | 月 | 可來 | 賞櫻 | 浴廁 | 簡單 | 乾淨 | 晚上 | 搗 | 麻吉活動 | 上午 | 步道 | 導覽 | 唯一 | 缺點 | 野貓會 | 跑 | 進 | 帳篷 | 翻東西"
-        },
-        {
-            "content": "風景好，營主人很好",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "風景 | 營主"
         },
         {
             "content": "雲海很厚實 晚上觀星讚 視野佳  搗麻糬很好玩好吃",
@@ -987,12 +825,6 @@
             "tokenization": "風景 | 超美 | 螢火蟲 | 管理 | 員 | 熱情"
         },
         {
-            "content": "舒服的營區",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "舒服 | 營區"
-        },
-        {
             "content": "有無敵夜景，但是衛浴設備稍嫌簡陋",
             "rating": 3,
             "publishedDate": "2018/03/01",
@@ -1009,12 +841,6 @@
             "rating": 5,
             "publishedDate": "2018/03/01",
             "tokenization": "悠閒 | 美麗風景 | 露營"
-        },
-        {
-            "content": "有好吃的麻糬",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "好吃 | 麻 | 糬"
         },
         {
             "content": "非常好的營地，第七區的V型彎要多注意會滑胎。",
@@ -1035,28 +861,10 @@
             "tokenization": "推 | 營地 | 積水且 | 泥濘 | 不堪 | 場地 | 擁擠 | 車位 | 未 | 規劃 | 服務 | 不好"
         },
         {
-            "content": "場地易積水",
-            "rating": 1,
-            "publishedDate": "2017/03/01",
-            "tokenization": "場地易 | 積水"
-        },
-        {
-            "content": "視野遼闊的好地方",
-            "rating": 4,
-            "publishedDate": "2017/03/01",
-            "tokenization": "視野 | 遼闊 | 地方"
-        },
-        {
             "content": "空氣好.視野佳.遠離塵囂.",
             "rating": 5,
             "publishedDate": "2017/03/01",
             "tokenization": "空氣 | 視野佳 | 遠離 | 塵囂"
-        },
-        {
-            "content": "好的",
-            "rating": 5,
-            "publishedDate": "2017/03/01",
-            "tokenization": ""
         },
         {
             "content": "景色優美，但上山路況不好開",
@@ -1075,12 +883,6 @@
             "rating": 5,
             "publishedDate": "2016/03/01",
             "tokenization": "第一二 | 區的 | 風景 | 不好 | 樹 | 遮蔽 | 換來 | 大樹 | 陰影 | 享受 | 涼意"
-        },
-        {
-            "content": "讚漂亮",
-            "rating": 5,
-            "publishedDate": "2015/03/01",
-            "tokenization": "讚 | 漂亮"
         }
     ],
     "phone": "0932742480"

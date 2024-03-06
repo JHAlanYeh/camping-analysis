@@ -39,12 +39,6 @@
             "tokenization": "老闆娘 | 愛 | 228 | 連假 | 第一天 | 風 | 超大 | 慶幸 | 舒適 | 營區 | 👍 | 🏻 | 👍 | 🏻 | 👍 | 🏻"
         },
         {
-            "content": "好天氣再加一顆星",
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "天氣 | 再加 | 一顆 | 星"
-        },
-        {
             "content": "不錯，營主貼心，還會適時關心。下次會帶朋友再來，明年見。",
             "rating": 5,
             "publishedDate": "2023/03/01",
@@ -105,12 +99,6 @@
             "tokenization": "很棒 | 營地 | 老闆 | 好客 | 採買 | 超極 | 次 | 環 | 要來"
         },
         {
-            "content": "旁邊有戰壕很特別",
-            "rating": 4,
-            "publishedDate": "2021/03/01",
-            "tokenization": "旁邊 | 戰壕 | 特別"
-        },
-        {
             "content": "很棒的露營區老闆跟老闆娘都很親切營區佈置的很可愛每個細節都會讓人想駐足欣賞是個很讓人放鬆的地方也是會讓人想再訪的營地",
             "rating": 5,
             "publishedDate": "2021/03/01",
@@ -159,28 +147,10 @@
             "tokenization": "老闆 | 親切 | 環境 | 乾淨 | 真的 | 聽 | 海浪 | 聲"
         },
         {
-            "content": "很漂亮",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "很漂亮"
-        },
-        {
-            "content": "很有藝術感的露營區",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "藝術感 | 露營區"
-        },
-        {
             "content": "老闆親切熱誠， 非常有格調的一個露營區",
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "老闆 | 親切熱 | 誠 | 有格調 | 露營區"
-        },
-        {
-            "content": "真心推薦，流連忘返。",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "真心 | 推薦 | 流連 | 忘 | 返"
         },
         {
             "content": "老闆＆老闆娘都很親切，是一個小而美的營地，衛浴很乾淨😊😊😊 …",
@@ -193,12 +163,6 @@
             "rating": 5,
             "publishedDate": "2020/03/01",
             "tokenization": "老闆 | 親切 | 環境 | 整理 | 很棒 | 很乾淨 | 早上 | 起床 | 遠眺 | 太魯閣 | 車宿 | 玩家 | 適合"
-        },
-        {
-            "content": "老闆為人親切",
-            "rating": 5,
-            "publishedDate": "2020/03/01",
-            "tokenization": "老闆 | 為 | 親切"
         },
         {
             "content": "營地乾淨清爽，能伴隨海聲入眠。營主靦腆人很好，貼心先為我們接好電，可以隨時使用。",
@@ -225,12 +189,6 @@
             "tokenization": "營地 | 主人 | 熱情 | 環境 | 乾淨 | 晚上 | 聽著 | 海浪 | 聲 | 入睡 | 舒服 | 光害 | 露營"
         },
         {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "很棒"
-        },
-        {
             "content": "母親節過去露營烤肉，場地非常漂亮，晚上睡在帳篷裡，看著星星，聽著海浪的聲音，非常享受，營地廁所乾淨，洗澡非常舒服，還有吹風機，兒童戲水池，CP值超高，營地主人非常熱情接待",
             "rating": 5,
             "publishedDate": "2019/03/01",
@@ -249,12 +207,6 @@
             "tokenization": "環境 | 寬 | 敞規劃 | 優美 | 老闆 | 幽默 | 風趣 | 徒步 | 海灘 | 分鐘 | 老闆 | 手藝 | 超 | 讚 | 好吃 | ヾ | ▽ | ノ"
         },
         {
-            "content": "有一個小樹屋喔",
-            "rating": 4,
-            "publishedDate": "2019/03/01",
-            "tokenization": "小樹屋 | 喔"
-        },
-        {
             "content": "很舒適輕鬆的露營區、營主幽默風趣，營區的經營上相當用心，此次造訪預約於營區的B區，營位夠、草坪也維持的相當不錯停車也便利～讚！值得再次造訪放空的好營地唯一美中不足的@@熱水會有忽冷忽熱的現象、因有聽到營主於水電工人再討論水壓問題....相信這個問題應該很快就會解決的～",
             "rating": 5,
             "publishedDate": "2019/03/01",
@@ -265,24 +217,6 @@
             "rating": 5,
             "publishedDate": "2018/03/01",
             "tokenization": "花蓮海濱露 | 營區 | 首選 | 聽海露 | 營區"
-        },
-        {
-            "content": "放鬆身心的好地方",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "放 | 鬆 | 身心 | 地方"
-        },
-        {
-            "content": "老闆非常可愛又甜",
-            "rating": 4,
-            "publishedDate": "2018/03/01",
-            "tokenization": "老闆 | 可愛又甜"
-        },
-        {
-            "content": "熱情奔放!!!!",
-            "rating": 5,
-            "publishedDate": "2018/03/01",
-            "tokenization": "熱情 | 奔放"
         },
         {
             "content": "一石一木  一花一草  石木有情  花草有愛",

@@ -7,9 +7,11 @@
     "address": "新竹縣五峰鄉桃山村白蘭298-3號",
     "type": 2,
     "disabled": 0,
+    "same_name": "蟬說_ 霧繞 Chanshuo Woorao glamping",
     "comments": [
         {
             "content": "很舒服很棒的體驗！那天去天氣雖然不會但是還是有霧繞的感覺！食物跟環境都給很高的評價！有機會會再去一次的！",
+            "type": 2,
             "rating": 5,
             "publishedDate": "2024-01-30 16:05:26",
             "tokenization": "舒服 | 很棒 | 體驗 | 那天 | 天氣 | 霧 | 繞 | 感覺 | 食物 | 環境 | 都給 | 高 | 評價 | 機會會"

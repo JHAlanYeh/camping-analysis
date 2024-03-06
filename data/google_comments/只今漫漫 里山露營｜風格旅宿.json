@@ -39,12 +39,6 @@
             "tokenization": "第一次 | 露營 | 讚 | 露 | 營 | ⛺ | ️ | 活動"
         },
         {
-            "content": "老闆娘很親切好地方",
-            "rating": 5,
-            "publishedDate": "2023/09/29",
-            "tokenization": "老闆娘 | 親切 | 地方"
-        },
-        {
             "content": "服務態度很好  親子友善房客有任何問題都很盡全力協助推薦及回答晚上烤肉很棒  吃很飽還吃不完不用自己生火  烤完還有人協助收拾帳篷冷氣也很冷 廁所淋浴間雖然共用但很乾淨  第一次露營體驗就很棒",
             "rating": 5,
             "publishedDate": "2023/09/29",
@@ -129,28 +123,10 @@
             "tokenization": "親近 | 自然 | 盡情 | 放 | 鬆 | 地方 | 浴室 | 廁所 | 超乾淨 | 大加 | 分"
         },
         {
-            "content": "好又環保",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "環保"
-        },
-        {
             "content": "很棒的地方，下次會再來",
             "rating": 5,
             "publishedDate": "2023/02/28",
             "tokenization": "很棒 | 地方 | 下次"
-        },
-        {
-            "content": "期待正式開幕…",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "期待 | 正式 | 開幕"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2023/02/28",
-            "tokenization": "讚"
         },
         {
             "content": "這裡很放鬆幽靜，團體小活動露營很棒",

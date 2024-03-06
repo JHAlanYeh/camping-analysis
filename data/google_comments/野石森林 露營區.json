@@ -9,12 +9,6 @@
     "actual_count": 42,
     "comments": [
         {
-            "content": "很爽",
-            "rating": 5,
-            "publishedDate": "2024/02/08",
-            "tokenization": "很爽"
-        },
-        {
             "content": "尊重自然的營區，營區設備不是走五星路線，但營主將環境維持的很乾淨. 愉快的一露.",
             "rating": 5,
             "publishedDate": "2023/06/29",
@@ -147,12 +141,6 @@
             "tokenization": "營地 | 獨立 | 插頭 | 洗手 | 槽 | 營主 | 很熱心 | 協助 | 露營 | 客人 | 需求 | 很棒 | 體驗"
         },
         {
-            "content": "很讚的露營場地",
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "讚 | 露 | 營 | 場"
-        },
-        {
             "content": "營地有整理過，不過整體環境一般般可惜官網上說有飲水機去到之後才知道沒有提供。不知道是不是只有我們一帳的關係，晚上營區燈都沒有開，除了帳篷外其他地方都非常暗，浴室也只開放一間的電燈跟熱水。夏天去非常多肥肥的馬陸在地上還有一些昆蟲類🥶🥶🥶 …",
             "rating": 3,
             "publishedDate": "2022/02/28",
@@ -231,34 +219,10 @@
             "tokenization": "環境 | 優 | 小黑 | 蚊 | 適合 | 全家 | 大小 | 露營區"
         },
         {
-            "content": "悠閒的營區",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "悠閒 | 營區"
-        },
-        {
-            "content": "讚！",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "讚"
-        },
-        {
-            "content": "非常棒的露營區",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "棒 | 露營區"
-        },
-        {
             "content": "★ 環境漂亮舒適寬敞★ 自然生態豐富★ 營主很熱情接待★ 手工藝與手作非常棒★ 浴室乾淨，水熱地點開車方便，肯定是會再去的露營區，CP值非常高！",
             "rating": 5,
             "publishedDate": "2020/02/29",
             "tokenization": "★ | 環境 | 漂亮 | 舒適 | 寬 | 敞 | ★ | 自然 | 生態 | ★ | 營主 | 很熱情 | 接待 | ★ | 手工 | 藝與 | 手作 | 棒 | ★ | 浴室 | 乾淨 | 水熱 | 地點 | 開車 | 肯定 | 露營區 | CP | 值 | 高"
-        },
-        {
-            "content": "寬鬆又舒服的營地",
-            "rating": 5,
-            "publishedDate": "2020/02/29",
-            "tokenization": "寬 | 鬆 | 舒服 | 營地"
         }
     ],
     "phone": "0906 378 227"
