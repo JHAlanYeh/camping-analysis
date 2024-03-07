@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/Syano%E5%A4%8F%E8%AB%BE%E7%87%9F/@24.662641,121.5857231,17z/data=!3m1!4b1!4m6!3m5!1s0x34680ae0d55f18f1:0xddf1ec241afe11f9!8m2!3d24.662641!4d121.588298!16s%2Fg%2F11cphr685z?authuser=0&entry=ttu",
     "latitude": "24.662641",
     "longitude": "121.5857231",
-    "type": 0,
+    "type": 1,
     "expect_count": 194,
     "actual_count": 131,
     "comments": [
