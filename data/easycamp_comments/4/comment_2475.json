@@ -17,34 +17,16 @@
             "tokenization": "輕 | 鬆 | 露 | 營 | 區 | 住 | 小木屋 | 睡四個 | 擠 | 小孩 | 國小 | 瘦瘦 | 型 | 床 | 硬 | 建議 | 充氣 | 床會 | 一點"
         },
         {
-            "content": "小木屋舒適",
-            "rating": 4,
-            "publishedDate": "2023/04/09",
-            "tokenization": "小木屋 | 舒適"
-        },
-        {
             "content": "老闆很nice喔. 營區很溫馨,雖然住了3天都下雨,但是小孩玩得很快樂.",
             "rating": 5,
             "publishedDate": "2022/11/24",
             "tokenization": "老闆 | nice | 喔 | 營區 | 溫馨 | 住 | 天都 | 下雨 | 小孩 | 玩得 | 很快 | 樂"
         },
         {
-            "content": "不錯",
-            "rating": 5,
-            "publishedDate": "2022/05/29",
-            "tokenization": "不錯"
-        },
-        {
             "content": "有冷暖空調設備，超讚的。老闆娘也很客氣。浴廁乾淨",
             "rating": 5,
             "publishedDate": "2022/04/18",
             "tokenization": "冷暖 | 空調 | 設備 | 超 | 讚 | 老闆娘 | 客氣 | 浴 | 廁乾淨"
-        },
-        {
-            "content": "適合露營渡假的地方",
-            "rating": 4,
-            "publishedDate": "2021/08/14",
-            "tokenization": "適合 | 露營 | 渡假 | 地方"
         },
         {
             "content": "可愛小屋，簷下即可烹煮…附木桌椅超棒，水槽旁延伸木板烹飪洗滌非常方便",
@@ -71,12 +53,6 @@
             "tokenization": "小而 | 美的 | 營地 | 值得 | 再來"
         },
         {
-            "content": "場地小",
-            "rating": 2,
-            "publishedDate": "2021/02/16",
-            "tokenization": "場地"
-        },
-        {
             "content": "場地太小，沒有活動空間，停車腹地也很小，只有沙坑和一組鞦韆，小木屋有附瓦斯爐、床墊、桌椅，適合新手",
             "rating": 3,
             "publishedDate": "2020/03/17",
@@ -87,18 +63,6 @@
             "rating": 5,
             "publishedDate": "2019/10/28",
             "tokenization": "營地 | 乾淨 | 漂亮 | 屋內 | 木頭 | 香氣 | 環境 | 乾淨 | 漂亮 | 木屋 | 內有 | 冷暖 | 氣 | 提供 | 公共 | 冰箱 | 冰櫃 | 飲水機 | 營地 | 位置 | 爬山 | 減少 | 孩子 | 暈車 | 痛苦 | 想 | 地方"
-        },
-        {
-            "content": "免裝備木屋有冷氣喔",
-            "rating": 5,
-            "publishedDate": "2019/06/28",
-            "tokenization": "免裝備 | 木屋 | 冷氣 | 喔"
-        },
-        {
-            "content": "營主親切環境優",
-            "rating": 5,
-            "publishedDate": "2019/06/28",
-            "tokenization": "營主 | 親切 | 環境 | 優"
         },
         {
             "content": "空氣新鮮環境清潔服務貼心",
@@ -173,22 +137,10 @@
             "tokenization": "第一次 | 露營 | 東西 | 還好 | 提供"
         },
         {
-            "content": "還不錯，玩得比較少。",
-            "rating": 5,
-            "publishedDate": "2019/02/07",
-            "tokenization": "還不錯 | 玩得 | 少"
-        },
-        {
             "content": "風景優美，讓人放鬆的好地方。大浴巾掉毛問題比較嚴重，希望能改進，謝謝",
             "rating": 4,
             "publishedDate": "2019/01/28",
             "tokenization": "風景 | 優美 | 放 | 鬆 | 地方 | 浴巾 | 掉 | 毛 | 希望 | 改進 | 謝謝"
-        },
-        {
-            "content": "小而美的營區",
-            "rating": 5,
-            "publishedDate": "2019/01/21",
-            "tokenization": "小而 | 美的 | 營區"
         },
         {
             "content": "遠離塵囂的地方。住小可愛區，環境不錯，腹地稍小，營主非常nice，衛浴乾淨。",
@@ -201,12 +153,6 @@
             "rating": 5,
             "publishedDate": "2019/01/05",
             "tokenization": "服務 | 維護 | 用心 | 乾淨 | 安靜 | 舒適 | 場地"
-        },
-        {
-            "content": "很用心，很親切",
-            "rating": 5,
-            "publishedDate": "2019/01/01",
-            "tokenization": "用心 | 親切"
         },
         {
             "content": "包棟紫色木屋好乾淨設備齊全，濃濃檜木香，最喜歡妳們有供熱水的洗碗水槽",

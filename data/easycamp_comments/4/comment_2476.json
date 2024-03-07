@@ -11,18 +11,6 @@
     "longitude": 120.8571599,
     "comments": [
         {
-            "content": "超讚!!!",
-            "rating": 5,
-            "publishedDate": "2024/01/23",
-            "tokenization": "超 | 讚"
-        },
-        {
-            "content": "營主超nice",
-            "rating": 5,
-            "publishedDate": "2023/11/28",
-            "tokenization": "營主 | 超 | nice"
-        },
-        {
             "content": "環境美, 提供的設施優, 浴廁乾淨~願意再回訪!",
             "rating": 5,
             "publishedDate": "2023/08/12",
@@ -39,12 +27,6 @@
             "rating": 5,
             "publishedDate": "2023/04/19",
             "tokenization": "舒適 | 宜人 | 小黑 | 蚊 | 距離 | 剛剛 | 莊主 | 服務 | 熱誠介紹 | 環境 | 設施 | 客氣"
-        },
-        {
-            "content": "超棒的",
-            "rating": 5,
-            "publishedDate": "2023/01/04",
-            "tokenization": "超棒"
         },
         {
             "content": "很舒適的地理環境，適合親子同遊。",
@@ -69,12 +51,6 @@
             "rating": 5,
             "publishedDate": "2022/05/11",
             "tokenization": "小包 | 區 | 讚 | 唯獨 | 廁所離 | 遠 | 爬山 | 廁所 | 洗澡 | 累"
-        },
-        {
-            "content": "營主非常熱情",
-            "rating": 5,
-            "publishedDate": "2022/03/15",
-            "tokenization": "營主 | 熱情"
         },
         {
             "content": "很不錯的營區 營主熱心 營位給的也很大",
@@ -105,30 +81,6 @@
             "rating": 5,
             "publishedDate": "2021/10/04",
             "tokenization": "營主 | 親切 | 環境 | 優美 | 營主 | 親切 | 環境 | 優美"
-        },
-        {
-            "content": "很棒的營區",
-            "rating": 5,
-            "publishedDate": "2021/08/24",
-            "tokenization": "很棒 | 營區"
-        },
-        {
-            "content": "很棒的營區",
-            "rating": 5,
-            "publishedDate": "2021/07/07",
-            "tokenization": "很棒 | 營區"
-        },
-        {
-            "content": "很棒的營區",
-            "rating": 5,
-            "publishedDate": "2021/07/07",
-            "tokenization": "很棒 | 營區"
-        },
-        {
-            "content": "很棒的營區",
-            "rating": 5,
-            "publishedDate": "2021/07/07",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "第一露的印象很好～營主人也很好～",
@@ -197,12 +149,6 @@
             "tokenization": "很棒 | 值得 | 造訪 | 營地"
         },
         {
-            "content": "熱情",
-            "rating": 5,
-            "publishedDate": "2019/10/19",
-            "tokenization": "熱情"
-        },
-        {
             "content": "推薦天梢一區，廁所超棒，洗澡超好洗，水溫水壓穩定！營主熱情～～小包區有貴賓感～～",
             "rating": 5,
             "publishedDate": "2019/08/04",
@@ -239,12 +185,6 @@
             "tokenization": "吸取 | 芬多精 | 地方 | 爬山 | 看景 | 前有 | 寬闊 | 河道 | 景觀 | 營區 | “ | 景 | ” | 用心 | 營主 | 熱心 | 有事 | 隨叩 | 隨到 | 沒事 | 問候 | 搭帳 | 草皮 | 區 | 樹林區 | 民宿 | 新營區 | “ | 推 | ” | “ | 推 | ”"
         },
         {
-            "content": "舒適的環境 超推",
-            "rating": 5,
-            "publishedDate": "2019/01/12",
-            "tokenization": "舒適 | 環境 | 超推"
-        },
-        {
             "content": "老闆很熱心，空氣涼爽，很棒的營區",
             "rating": 5,
             "publishedDate": "2019/01/12",
@@ -255,12 +195,6 @@
             "rating": 4,
             "publishedDate": "2019/01/07",
             "tokenization": "值得 | 地方 | 設備 | 完善 | 每區 | 廁所 | 設置 | 吹 | 風機 | 一台 | 脫水機 | 飲水機 | 棒"
-        },
-        {
-            "content": "很棒 有步道可以走",
-            "rating": 4,
-            "publishedDate": "2019/01/07",
-            "tokenization": "很棒 | 有步 | 道 | 走"
         },
         {
             "content": "景色優美，小包區制獨立不受打擾，廁所浴室乾淨，是個很棒的營區，希望下次櫻花盛開時能再次光臨",

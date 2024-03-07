@@ -17,13 +17,6 @@
             "tokenization": "狩獵帳 | 路不大 | Google | 地圖 | 走 | 路 | 匯車 | 小心 | 開"
         },
         {
-            "content": "滿分",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/09/20",
-            "tokenization": "滿分"
-        },
-        {
             "content": "離廁所太近,剛好遇到其他營友喝醉太吵,走來走去講話造成很難入睡,建議還是需管制10點後的聲音",
             "type": 2,
             "rating": 3,
@@ -43,20 +36,6 @@
             "rating": 4,
             "publishedDate": "2023/08/17",
             "tokenization": "整體 | OK | 帳篷 | 外觀 | 髒 | 觀 | 感 | 不太好"
-        },
-        {
-            "content": "很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/08/17",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "營區很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/08/17",
-            "tokenization": "營區 | 很棒"
         },
         {
             "content": "環境清幽乾淨。第二次到訪，帳篷有更新，環境也越來越好，只是有一點瑕疵，發現桌底下有巧克力包裝紙，然後感覺床包好像有點味道，像是前次使用的味道，不知道是否有清洗過。",
@@ -101,25 +80,11 @@
             "tokenization": "營主 | 很開 | 心地 | 體驗"
         },
         {
-            "content": "風景很美",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2022/11/16",
-            "tokenization": "風景 | 美"
-        },
-        {
             "content": "營主很熱情,整體都很好~",
             "type": 2,
             "rating": 4,
             "publishedDate": "2022/09/20",
             "tokenization": "營主 | 很熱情 | 整體"
-        },
-        {
-            "content": "乾淨舒服",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/19",
-            "tokenization": "乾淨 | 舒服"
         },
         {
             "content": "空氣很好，水很乾淨，夜晚很舒服！",
@@ -129,39 +94,11 @@
             "tokenization": "空氣 | 水 | 乾淨 | 夜晚 | 舒服"
         },
         {
-            "content": "很用心的營主!",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/18",
-            "tokenization": "用心 | 營主"
-        },
-        {
-            "content": "很用心的營主!",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/18",
-            "tokenization": "用心 | 營主"
-        },
-        {
             "content": "風景佳，設施OK~ 乾淨~",
             "type": 2,
             "rating": 4,
             "publishedDate": "2022/09/11",
             "tokenization": "風景佳 | 設施 | OK | 乾淨"
-        },
-        {
-            "content": "讚讚",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/03",
-            "tokenization": "讚 | 讚"
-        },
-        {
-            "content": "老闆很親切，風景絕佳",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/07/14",
-            "tokenization": "老闆 | 親切 | 風景 | 絕佳"
         },
         {
             "content": "老闆人很好，也客氣。老闆人很好，也客氣，服務也到位，唯二的缺點就是，第一：小黑蚊太多，小黑蚊就是你趕不走，防蚊液沒什麼用，老闆有提供蚊香，所以有好一些，不過太太的雙腳一個下午還是被叮了12包。第二個就是上來的車道沒有辦法會車，一定要錯開上來或下去的時間，如果卡在中間兩台車都沒有辦法後退1公里以上，因為路是蜿蜒的小路，很難有會車空間。除了這兩個缺點以外基本上沒有什麼大問題，網路訊號也不錯。空間規劃跟環境視野都不錯，老闆還提供很多可食用的冰塊，這點不錯。晚上洗澡的時候男生浴室蓮蓬頭掛勾壞掉沒辦法掛，只能用一隻手洗澡一隻手拿著蓮蓬頭。另外浴室外面有一個吹風機，以為可以用，結果風扇時轉時不轉，稍微搖一下就不轉了，但",
@@ -185,13 +122,6 @@
             "tokenization": "景色 | 壯麗 | 山路 | 接近 | 一小 | 時 | 將無限 | 美景 | 盡收 | 眼底 | 飲水機 | 冰箱 | 冰櫃 | 衛浴 | 乾淨 | 大間 | 熱水 | 穩定 | 附 | 沐浴 | 用品 | 無裝備 | 露營 | 選擇"
         },
         {
-            "content": "環境悠閒 營主人很好",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/06/14",
-            "tokenization": "環境 | 悠閒 | 營主"
-        },
-        {
             "content": "營主十分熱情 浴廁環境乾淨還附有完整洗潔用品 地點距離市區方便",
             "type": 2,
             "rating": 5,
@@ -213,13 +143,6 @@
             "tokenization": "景色宜人 | 設備 | 完善 | 泥地 | 太"
         },
         {
-            "content": "景色超美,很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/04/06",
-            "tokenization": "景色 | 超美 | 很棒"
-        },
-        {
             "content": "我們開休旅車,上山的路較狹窄需慢慢開。停車方便,入住狩獵帳很安靜,空間很大,老闆人很好,車子停在較遠的地方需要搬東西還幫我們搬到營位,非常的貼心,衛浴設備很完整且乾淨,有些許蚊蟲,晚上垃圾要包好,不然會有小動物來翻,整體來說除了山路較難開之外一切都不錯!!值得推薦的露營區~~下次還會再來.",
             "type": 2,
             "rating": 4,
@@ -239,20 +162,6 @@
             "rating": 5,
             "publishedDate": "2022/03/08",
             "tokenization": "舒服 | 舒適 | 營主 | 地主 | 服務好"
-        },
-        {
-            "content": "營區好舒適",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/12/13",
-            "tokenization": "營區 | 舒適"
-        },
-        {
-            "content": "營區好舒適",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/12/13",
-            "tokenization": "營區 | 舒適"
         },
         {
             "content": "A區狩獵帳，停車、盥洗都方便，景觀第一名",

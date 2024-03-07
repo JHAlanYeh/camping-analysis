@@ -31,20 +31,6 @@
             "tokenization": "露過 | 營區 | 環境 | 算 | 乾淨 | 蚊蟲 | 連蒼繩 | 加分"
         },
         {
-            "content": "環境及營主不錯，推薦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/11",
-            "tokenization": "環境 | 營主 | 不錯 | 推薦"
-        },
-        {
-            "content": "環境及營主不錯，推薦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/11",
-            "tokenization": "環境 | 營主 | 不錯 | 推薦"
-        },
-        {
             "content": "浴室大且乾淨。浴室廁所乾淨但若滿帳可能會有相連問題",
             "type": 1,
             "rating": 5,
@@ -71,13 +57,6 @@
             "rating": 5,
             "publishedDate": "2022/10/31",
             "tokenization": "漂亮 | 營區 | 浴室 | 很乾淨 | 營主 | 機會"
-        },
-        {
-            "content": "熱情營主",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/03/02",
-            "tokenization": "熱情 | 營主"
         }
     ]
 }

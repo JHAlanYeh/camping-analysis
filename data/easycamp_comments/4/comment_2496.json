@@ -101,18 +101,6 @@
             "tokenization": "營主 | 熱心 | 超棒 | 森林 | 系露 | 營區 | 還幫 | 忙 | 搬 | 冰箱"
         },
         {
-            "content": "很放鬆的地方  不錯",
-            "rating": 5,
-            "publishedDate": "2022/09/29",
-            "tokenization": "放 | 鬆 | 地方 | 不錯"
-        },
-        {
-            "content": "Good",
-            "rating": 5,
-            "publishedDate": "2022/09/16",
-            "tokenization": "Good"
-        },
-        {
             "content": "少帳包區~互不打擾~露營品質很好! 杉木區超讚~下次還會去XD",
             "rating": 5,
             "publishedDate": "2022/08/29",
@@ -137,30 +125,6 @@
             "tokenization": "超 | 美的 | 樹林 | 營位 | 真的 | 喜歡 | 營區 | 看得出 | 營主 | 用心 | 維護 | 營區 | 醜醜 | 人工 | 設施 | 倒 | 精心 | 種植 | 花草 | 樹木 | 營區 | 小步 | 道 | 探索 | 公共 | 空間 | 設備 | 齊全 | 廁所 | 乾淨 | 舒適 | 間數"
         },
         {
-            "content": "環境維持的很乾淨",
-            "rating": 5,
-            "publishedDate": "2022/06/08",
-            "tokenization": "環境 | 乾淨"
-        },
-        {
-            "content": "超棒!",
-            "rating": 5,
-            "publishedDate": "2022/04/25",
-            "tokenization": "超棒"
-        },
-        {
-            "content": "小營地乾淨舒服",
-            "rating": 5,
-            "publishedDate": "2022/04/25",
-            "tokenization": "小營 | 地乾淨 | 舒服"
-        },
-        {
-            "content": "美",
-            "rating": 5,
-            "publishedDate": "2022/04/13",
-            "tokenization": "美"
-        },
-        {
             "content": "很喜歡住在森林裡的感覺。",
             "rating": 5,
             "publishedDate": "2022/04/08",
@@ -173,40 +137,16 @@
             "tokenization": "很安靜 | 營地 | 希望 | 下次 | 機會露 | 山林 | 營地"
         },
         {
-            "content": "環境規劃得很好",
-            "rating": 5,
-            "publishedDate": "2022/02/25",
-            "tokenization": "環境 | 規劃"
-        },
-        {
             "content": "來第三次了，環境越來越好",
             "rating": 5,
             "publishedDate": "2022/02/25",
             "tokenization": "第三次 | 環境 | 越來 | 越"
         },
         {
-            "content": "營地乾淨。整理恰當",
-            "rating": 5,
-            "publishedDate": "2022/01/30",
-            "tokenization": "營地 | 乾淨 | 整理 | 恰當"
-        },
-        {
             "content": "太棒了。我的前10露就獻給輪園秘境我只能說整個環境跟營區都給我非常好的體驗讚啦!",
             "rating": 5,
             "publishedDate": "2022/01/04",
             "tokenization": "太棒了 | 前 | 10 | 露 | 獻給 | 輪園 | 秘境 | 只能 | 說 | 環境 | 營區 | 都給 | 好的體 | 驗 | 讚"
-        },
-        {
-            "content": "森林系就是讚",
-            "rating": 5,
-            "publishedDate": "2021/12/22",
-            "tokenization": "森林 | 系 | 讚"
-        },
-        {
-            "content": "森林系的小木屋",
-            "rating": 4,
-            "publishedDate": "2021/12/08",
-            "tokenization": "森林 | 系 | 小木屋"
         },
         {
             "content": "很棒的地方，景漂亮又舒服",
@@ -221,12 +161,6 @@
             "tokenization": "小而 | 美的 | 營區 | 值得 | 再訪"
         },
         {
-            "content": "超優質營地",
-            "rating": 5,
-            "publishedDate": "2021/03/31",
-            "tokenization": "超優質 | 營地"
-        },
-        {
             "content": "晚上看到滿片星星，孩子們都很開心！。有幾個營位車子只能停在停車場，帳篷用具都得自己搬，如果營區能提供推車給露友們使用會更加方便！",
             "rating": 5,
             "publishedDate": "2021/03/06",
@@ -237,12 +171,6 @@
             "rating": 5,
             "publishedDate": "2021/02/22",
             "tokenization": "經營 | 營區 | 環境 | 整潔 | 乾濕分 | 離浴 | 廁 | 讚 | 櫻花 | 開花時 | 營區 | 棒 | 環境 | 整潔 | 衛浴 | 為 | 乾濕 | 分離 | 馬 | 桶 | 免治馬桶 | 三間 | 衛浴 | 前 | 洗手台 | 熱水 | 刷牙 | 洗臉 | 冬天 | 一進 | 營區 | 營主 | 很認 | 真的 | 先帶 | 著介紹 | 營區 | 介紹 | 垃圾 | 分類 | 愛護 | 山中 | 環境 | 冷藏 | 冰箱 | 分門 | 別類 | 營位 | 冰箱 | 位 | 亂 | 放 | 營區 | 路途 | 走大馬路 | 柏油路 | 面直 | 達 | 營區 | 路 | 走 | 山景 | 雲海 | 杉木 | 林 | 一帳 | 包 | 杉林 | 區不會 | 打擾 | 隧道 | 帳 | 放"
-        },
-        {
-            "content": "服務很好。服務很好",
-            "rating": 5,
-            "publishedDate": "2021/02/18",
-            "tokenization": "服務 | 服務"
         },
         {
             "content": "感謝您的用心經營,請繼續保持!!!!",
@@ -269,46 +197,10 @@
             "tokenization": "小而 | 美的 | 秘境 | ✨ | 小而 | 美的 | 營區 | 營主 | 規劃 | ✨ | 杉木 | 林區域連 | 草皮 | 整體 | 氣氛 | 一早 | 還會 | 母雞帶 | 著小雞群 | 慢慢 | 巡園 | 樣子 | 愛 | 洗碗 | 槽 | 洗碗 | 一陣 | 悉悉 | 窣窣 | 驚喜 | 喜歡 | 井然有序 | 冰箱 | 空間 | 配置 | 喜歡 | 乾濕 | 分離 | 衛浴"
         },
         {
-            "content": "一定要再回去露營",
-            "rating": 5,
-            "publishedDate": "2020/09/30",
-            "tokenization": "回去 | 露營"
-        },
-        {
             "content": "超舒服的環境超乾淨的衛浴設備",
             "rating": 5,
             "publishedDate": "2020/09/30",
             "tokenization": "超 | 舒服 | 環境 | 超乾淨 | 衛浴 | 設備"
-        },
-        {
-            "content": "很棒的營地！",
-            "rating": 5,
-            "publishedDate": "2020/08/25",
-            "tokenization": "很棒 | 營地"
-        },
-        {
-            "content": "下次還會再拜訪！",
-            "rating": 5,
-            "publishedDate": "2020/08/25",
-            "tokenization": "下次 | 還會 | 再拜 | 訪"
-        },
-        {
-            "content": "超棒!",
-            "rating": 5,
-            "publishedDate": "2020/08/23",
-            "tokenization": "超棒"
-        },
-        {
-            "content": "超棒!",
-            "rating": 5,
-            "publishedDate": "2020/08/23",
-            "tokenization": "超棒"
-        },
-        {
-            "content": "衛浴乾淨營位稍小",
-            "rating": 4,
-            "publishedDate": "2020/05/07",
-            "tokenization": "衛浴 | 乾淨 | 營位 | 稍"
         },
         {
             "content": "小營區。傍晚至夜晚飛蟲很多，上下卸裝備會被草皮營位的車位擋著",
@@ -333,18 +225,6 @@
             "rating": 5,
             "publishedDate": "2020/01/20",
             "tokenization": "環境 | 舒適 | 公共 | 區域 | 乾淨 | 整齊"
-        },
-        {
-            "content": "木屋很舒服",
-            "rating": 5,
-            "publishedDate": "2020/01/07",
-            "tokenization": "木屋 | 舒服"
-        },
-        {
-            "content": "營主熱情",
-            "rating": 4,
-            "publishedDate": "2019/12/17",
-            "tokenization": "營主 | 熱情"
         },
         {
             "content": "新竹晴園祕境規劃非常讚，營主住在營區，居高臨下，看護著營區，非常盡責，當晚我們很幸運見到煙火及流星。",

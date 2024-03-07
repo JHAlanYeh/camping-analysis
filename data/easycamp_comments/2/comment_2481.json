@@ -19,20 +19,6 @@
             "tokenization": "營區 | 美 | 適合 | 親子 | 露營"
         },
         {
-            "content": "園區很乾淨",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/10/15",
-            "tokenization": "園區 | 乾淨"
-        },
-        {
-            "content": "已經光顧很多次的營地",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/10/11",
-            "tokenization": "光顧 | 營地"
-        },
-        {
             "content": "遊樂設施小孩愛。入住狩獵帳，內部乾淨，有不少遊樂設施小孩玩得很開心",
             "type": 2,
             "rating": 5,
@@ -47,13 +33,6 @@
             "tokenization": "訂到 | 獨立 | 空間 | 平台 | 親友 | 聚集 | 有大空間 | 伸展 | 營主 | 招待 | 拔 | 蚌 | 地瓜 | 好吃"
         },
         {
-            "content": "營地非常棒~~~",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/07/04",
-            "tokenization": "營地 | 棒"
-        },
-        {
             "content": "第一露獻給了一畝田，印象非常好。雖然沒有雨水，無法看到螢火蟲，但是早上的雲海真的是美不勝收，身心舒暢。山路要繞比較久，其他衛生整潔、營主及服務人員等整體都很棒。",
             "type": 2,
             "rating": 5,
@@ -61,46 +40,11 @@
             "tokenization": "第一 | 露獻給 | 一畝 | 田 | 印象 | 雨水 | 螢火蟲 | 早上 | 雲海 | 真的 | 美不勝收 | 身心 | 舒暢 | 山路 | 繞 | 久 | 衛生 | 整潔 | 營主 | 服務人員 | 整體 | 很棒"
         },
         {
-            "content": ".",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/04/12",
-            "tokenization": ""
-        },
-        {
-            "content": ".",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/04/12",
-            "tokenization": ""
-        },
-        {
             "content": "環境優美與服務優質的營區。舒適且活動多，適合各年齡層。",
             "type": 2,
             "rating": 5,
             "publishedDate": "2023/03/23",
             "tokenization": "環境 | 優美 | 服務 | 優質 | 營區 | 舒適且 | 活動 | 適合 | 各年齡 | 層"
-        },
-        {
-            "content": "風景優美的好營區",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2023/03/01",
-            "tokenization": "風景優 | 美的 | 好營區"
-        },
-        {
-            "content": "親子遊玩的好地方",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "親子遊 | 玩 | 地方"
-        },
-        {
-            "content": "環境佳",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/01/04",
-            "tokenization": "環境 | 佳"
         },
         {
             "content": "拜託跨年給我一個位子~~~。小朋友去到欲罷不能~整體相當滿意~",
@@ -138,13 +82,6 @@
             "tokenization": "二次 | 回露 | 今日 | 平日 | 小朋友 | 女 | 營主 | 特例 | 開放 | DIY | 棉花 | 糖 | 每位 | 小朋友 | 開心"
         },
         {
-            "content": "舒服",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/11/10",
-            "tokenization": "舒服"
-        },
-        {
             "content": "簡單舒服入手的露營體驗。適合帶老年人和小孩來的地方，可以玩水放鬆盡情奔放的好營區。",
             "type": 2,
             "rating": 5,
@@ -173,27 +110,6 @@
             "tokenization": "CP | 值 | 高 | 營區 | 活動 | 搗 | 麻 | 糬 | 製 | 作 | 棉花 | 糖 | 小動物 | 真的 | 好玩"
         },
         {
-            "content": "適合親子",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/27",
-            "tokenization": "適合 | 親子"
-        },
-        {
-            "content": "很捧的露營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/26",
-            "tokenization": "捧 | 露營區"
-        },
-        {
-            "content": "超棒又用心的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/08/27",
-            "tokenization": "超棒 | 用心 | 營區"
-        },
-        {
             "content": "景點很棒。烤雞好好吃很舒適的環境主人很用心晚上還有煙火",
             "type": 2,
             "rating": 5,
@@ -208,39 +124,11 @@
             "tokenization": "主人 | 用心 | 景色 | 優美 | 可惜 | 下雨天 | 景色 | 很棒 | 主人 | 熱心"
         },
         {
-            "content": "非常適合親子。很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/07/12",
-            "tokenization": "適合 | 親子 | 很棒"
-        },
-        {
             "content": "活動及設施多， 親子同樂很讚， 煙火很漂亮跟搗麻薯好吃。廁所蟲很多 一進去都亂飛，小孩不太敢進去，可在廁所掛些防蟲的或是加強窗網之類。",
             "type": 2,
             "rating": 5,
             "publishedDate": "2022/07/06",
             "tokenization": "活動 | 設施 | 親子 | 同樂 | 讚 | 煙火 | 很漂亮 | 搗 | 麻薯 | 好吃 | 廁所蟲 | 一進 | 亂 | 飛 | 小孩 | 不太敢 | 廁所 | 掛些 | 防蟲 | 窗網"
-        },
-        {
-            "content": "很讚的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/06/19",
-            "tokenization": "讚 | 營 | 區"
-        },
-        {
-            "content": "會在回露",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/06/19",
-            "tokenization": "回露"
-        },
-        {
-            "content": "非常棒～^_^",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/06/19",
-            "tokenization": "棒"
         },
         {
             "content": "營區，乾凈。感覺的出來營主的用心經營，各方面，都很好美中不足的，冷氣，有霉味，",
@@ -257,13 +145,6 @@
             "tokenization": "服務好 | 設施 | 棒 | 景色 | 美 | 會想 | 持續 | 預定"
         },
         {
-            "content": "初露超喜歡",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/05/29",
-            "tokenization": "初露 | 超喜歡"
-        },
-        {
             "content": "營主與工作人員都很親切，很棒",
             "type": 2,
             "rating": 5,
@@ -271,13 +152,6 @@
             "tokenization": "營主 | 工作 | 人員 | 親切 | 很棒"
         },
         {
-            "content": "棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/04/13",
-            "tokenization": "棒"
-        },
-        {
             "content": "環境乾淨整潔是非常好的露營體驗，烤雞必點烤的剛剛好外脆內嫩超好吃",
             "type": 2,
             "rating": 5,
@@ -297,20 +171,6 @@
             "rating": 5,
             "publishedDate": "2022/03/29",
             "tokenization": "環境 | 乾淨 | 整潔 | 露營 | 體驗 | 烤 | 雞 | 必點 | 烤 | 剛剛 | 外脆 | 嫩 | 超 | 好吃"
-        },
-        {
-            "content": "很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/02/20",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "很棒的地方",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/02/20",
-            "tokenization": "很棒 | 地方"
         },
         {
             "content": "營區規劃的很好，爸媽小孩都玩的很開心！",
@@ -325,13 +185,6 @@
             "rating": 4,
             "publishedDate": "2022/02/09",
             "tokenization": "營區 | 規劃 | 爸媽 | 小孩 | 玩 | 開心"
-        },
-        {
-            "content": "營主很熱心，環境很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/12/28",
-            "tokenization": "營主 | 很熱心 | 環境 | 很棒"
         },
         {
             "content": "設備及價格公道。首次露營，公共設施及價格都超棒的！",
@@ -346,13 +199,6 @@
             "rating": 5,
             "publishedDate": "2021/12/05",
             "tokenization": "第一次 | 體驗 | 狩獵帳 | 舒適 | 活動 | 有趣 | 機會會 | 想"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/11/15",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "帶長輩及小孩很方便~小孩玩水又玩沙~又有小動物~很有趣",
@@ -395,20 +241,6 @@
             "rating": 5,
             "publishedDate": "2021/07/22",
             "tokenization": "適合學 | 臨前 | 兒童 | 清蒸 | 魚太鮮 | 美太 | 好吃 | 帶手 | 電筒 | 小朋友 | 繞 | 園區 | 探險 | 不用 | 照顧 | 山景 | 晚上 | 不用 | 開冷氣 | 舒服 | 朋友 | 守 | 規矩 | 晚上十 | 點都 | 自動安靜 | 游泳池 | 很乾淨"
-        },
-        {
-            "content": "很美很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/05/16",
-            "tokenization": "美 | 很棒"
-        },
-        {
-            "content": "乾淨，整潔",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/05/11",
-            "tokenization": "乾淨 | 整潔"
         },
         {
             "content": "帳篷新、活動豐富，餵兔子、看煙火、搗麻糬、做棉花糖，孩子玩的非常高興。去的時候水池未開，立馬再預訂",
@@ -467,46 +299,11 @@
             "tokenization": "交通 | 設備 | 全乾淨 | 超級 | 推薦 | 舒適 | 乾淨 | 狩獵帳 | 整齊 | 清爽 | 營地 | 可愛無敵 | 動物區 | 免費供 | 應 | 飼料 | 鞦 | 韆 | 滑梯 | 沙坑 | 戲 | 水池 | 全系列 | 兒童 | 設備 | 免費 | 提供 | 乾淨 | 飲 | 用水 | 數量 | 多且 | 乾淨 | 預測 | 最後還 | 晚餐 | 營主 | 招待 | 無敵 | 美味 | 拔絲 | 地瓜 | 真心 | 推薦"
         },
         {
-            "content": "很棒的營地",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2020/12/17",
-            "tokenization": "很棒 | 營地"
-        },
-        {
-            "content": "很舒適",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2020/12/15",
-            "tokenization": "很舒適"
-        },
-        {
-            "content": "",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2020/12/04",
-            "tokenization": ""
-        },
-        {
-            "content": "狩獵帳設備已老舊",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2020/10/21",
-            "tokenization": "狩獵 | 帳設備 | 老舊"
-        },
-        {
             "content": "環境不錯，空氣好，晚上很明亮",
             "type": 2,
             "rating": 5,
             "publishedDate": "2020/10/14",
             "tokenization": "環境 | 不錯 | 空氣 | 晚上 | 明亮"
-        },
-        {
-            "content": "規劃好",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2020/10/13",
-            "tokenization": "規劃"
         },
         {
             "content": "舒適方便。狩獵帳住宿免裝備剩下不少整理用物的時間",
@@ -558,13 +355,6 @@
             "tokenization": "棒 | 懶人露 | 營體驗 | 南庄 | 老街 | 15 | 分鐘 | 交通 | 路 | 不窄 | 兔子 | 每區 | 沙坑 | 跟盪 | 鞦 | 韆 | 漂 | 漂河 | 玩 | 小孩 | 玩得 | 開心 | 油桐 | 花有 | 一顆 | 螢火蟲位 | 入口 | 處 | 平日 | 聽 | 說 | 假日 | 棉花 | 糖 | 搗 | 麻 | 糬 | 體 | 驗 | 可惜 | 下次 | 假日"
         },
         {
-            "content": "超適合親子同遊",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2020/04/05",
-            "tokenization": "超適合 | 親子 | 同遊"
-        },
-        {
             "content": "狩獵帳空間很大很棒，媲美飯店空間。選擇棧板區的狩獵帳，能活動的空間很大，小孩也可以盡情玩耍，營主安排的棉花糖活動，大人小孩都喜歡！唯一美中不足的是浴廁環境感覺比較普通，和狩獵帳形成強烈對比！",
             "type": 2,
             "rating": 5,
@@ -600,32 +390,11 @@
             "tokenization": "營主 | 親民 | 海拔 | 不高 | 老街 | 太遠 | 10 | 15 | 分車程 | 因為 | 星期日 | 小朋友 | 天氣 | 涼爽 | 傍晚 | 營主 | 會來 | 開燈 | 巡場 | 送 | 一盤 | 營主 | 做 | 拔絲 | 地瓜 | 好吃 | 早起 | 山上 | 水 | 真的 | 冰涼"
         },
         {
-            "content": "非常舒適的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/10/21",
-            "tokenization": "舒適 | 營區"
-        },
-        {
             "content": "整體來說初露的體驗還不錯。帳篷位子離廁所衛浴太遠了，對小孩比較不方便，帳篷外剛好都是石子路小孩跌倒幾次，如果可以像另一邊都做木地板會比較安全",
             "type": 2,
             "rating": 4,
             "publishedDate": "2019/08/01",
             "tokenization": "整體 | 說 | 初露 | 體驗 | 還不錯 | 帳篷 | 位子 | 離廁 | 所衛浴 | 太遠 | 小孩 | 帳篷 | 外剛 | 石子路 | 小孩 | 跌倒 | 幾次 | 做 | 木地板"
-        },
-        {
-            "content": "老闆親切又熱情",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/07/30",
-            "tokenization": "老闆 | 親切 | 熱情"
-        },
-        {
-            "content": "老闆親切又熱情",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/07/30",
-            "tokenization": "老闆 | 親切 | 熱情"
         },
         {
             "content": "第一次帶爸媽露營，所以選擇南非帳，床很舒服，設備齊全",
@@ -647,13 +416,6 @@
             "rating": 5,
             "publishedDate": "2019/05/06",
             "tokenization": "營主 | 親切 | 環境 | 清幽 | 乾淨 | 戲水 | 沙坑 | 孩子 | 愛 | 值得 | 光臨 | 營地 | 讚 | 讚 | 超 | 讚"
-        },
-        {
-            "content": "真直得推薦營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/03/31",
-            "tokenization": "真直 | 推薦 | 營區"
         },
         {
             "content": "給第一露營的人，感覺不錯。。南非狩獵帳， 設備不錯 ，但是枕頭有點高。 比較難睡， 其他整體都很好。 對於沒有露營裝備的人，非常方便。園區有養很多兔子跟鴿子，可以供小朋友餵飼料。 園區主人還有做拔絲地瓜 給我們吃，非常香脆。",
@@ -684,13 +446,6 @@
             "tokenization": "很棒 | 露營區 | 真的 | 適合帶 | 小孩 | 狩獵 | 帳住 | 舒適"
         },
         {
-            "content": "謝謝營主的招待，謝謝",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/03/21",
-            "tokenization": "謝謝 | 營主 | 招待 | 謝謝"
-        },
-        {
             "content": "營地規化完善，營主親切，小朋友玩的開心",
             "type": 2,
             "rating": 5,
@@ -712,13 +467,6 @@
             "tokenization": "設施 | 齊全 | 景觀 | 漂亮 | 營主 | 親切"
         },
         {
-            "content": "很棒，讚讚",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/03/03",
-            "tokenization": "很棒 | 讚 | 讚"
-        },
-        {
             "content": "初露。第一次露營選擇免搭帳的方式來體驗，為自己留下美好的回憶",
             "type": 2,
             "rating": 5,
@@ -733,46 +481,11 @@
             "tokenization": "營主 | 用心 | 推薦 | 雨天 | 時 | 狩獵 | 帳內 | 地板 | 濕氣 | 希望 | 改善"
         },
         {
-            "content": "長輩舒服孩子開心",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/02/17",
-            "tokenization": "長 | 輩 | 舒服 | 孩子 | 開心"
-        },
-        {
             "content": "獨立筒床睡起來很舒服，非常適合帶長輩同行的選項，浴廁需要走一段階梯，晚上老人家要注意",
             "type": 2,
             "rating": 5,
             "publishedDate": "2019/02/10",
             "tokenization": "獨立 | 筒 | 床 | 睡 | 舒服 | 適合 | 帶長 | 輩 | 同行 | 選項 | 浴廁 | 走 | 一段 | 階梯 | 晚上 | 老人家"
-        },
-        {
-            "content": "營主人超好！！",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/01/28",
-            "tokenization": "營主 | 人超"
-        },
-        {
-            "content": "服務周全",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/01/27",
-            "tokenization": "服務 | 周全"
-        },
-        {
-            "content": "設施完善",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/01/27",
-            "tokenization": "設施 | 完善"
-        },
-        {
-            "content": "很滿意，會再來訪",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2019/01/21",
-            "tokenization": "滿意 | 來訪"
         },
         {
             "content": "舒服的營地。小而美的營地，衛浴很乾淨，帳位空間大，處處可見營主的用心，適合親子同遊！",

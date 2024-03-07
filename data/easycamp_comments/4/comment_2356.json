@@ -17,12 +17,6 @@
             "tokenization": "二訪 | 營區 | 極推 | 交通 | 腹地"
         },
         {
-            "content": "很大的露營區",
-            "rating": 4,
-            "publishedDate": "2023/10/19",
-            "tokenization": "很大 | 露營區"
-        },
-        {
             "content": "營主會在營區抽菸。。1.可能平日去沒什麼人，在雨棚區聞了整晚菸味，整個帳篷內的棉被床包也都要重洗。2.雨棚區的熱水幾乎不熱。3.衝著沙池跟戲水池去，結果沙池舖蓋，水也沒有放，小孩非常失望。4.早上早起會看到獼猴成群出來晃，但不會靠近人。",
             "rating": 4,
             "publishedDate": "2023/10/18",
@@ -41,12 +35,6 @@
             "tokenization": "適合 | 懶人 | 新手 | 地方 | 老街 | 很近 | 用餐 | 選擇 | 老街 | 用餐 | 離小七 | 新手 | 裝備 | 不全 | 不用 | 擔心 | 三餐 | 端午 | 時去 | 營區 | 營區 | 低 | 海拔 | 早上 | 稍熱 | 下午 | 漸漸 | 轉涼 | 旁邊 | 臨近 | 小溪 | 抓溪 | 蝦 | 小魚 | 開心 | 輕 | 鬆 | 露 | 營 | 體 | 驗 | 唯 | 熱 | 水 | 呼 | 冷 | 呼 | 熱 | 防 | 小黑 | 蚊"
         },
         {
-            "content": "廁所很乾淨",
-            "rating": 5,
-            "publishedDate": "2023/05/28",
-            "tokenization": "廁所 | 乾淨"
-        },
-        {
             "content": "營主人好  場地面積粉大 分好幾區  可再二露",
             "rating": 5,
             "publishedDate": "2023/05/23",
@@ -57,12 +45,6 @@
             "rating": 5,
             "publishedDate": "2023/04/19",
             "tokenization": "營主 | 用心 | 露友 | 開心 | 這營 | 地露過 | 兩次 | 真心 | 這營 | 不錯 | 值得 | 造訪 | 唯一 | 缺點 | 網路 | 預訂 | 當天 | 現場 | 變動 | 滿帳 | 說 | 爆滿 | 喔 | 營主 | 雖然會 | 出面 | 喬營 | 位置 | 總覺 | 舒服 | 預定 | 為何 | 喬 | 位置 | 滿帳 | 開放訂 | 位 | 即可 | 當天 | 喬 | 位置 | 對露 | 友來 | 說 | 心情 | 差 | 需改進 | 倒 | OK"
-        },
-        {
-            "content": "很大，很美的營區",
-            "rating": 3,
-            "publishedDate": "2023/02/16",
-            "tokenization": "很大 | 美的 | 營區"
         },
         {
             "content": "整體體驗相當良好，值得推薦。",
@@ -77,82 +59,16 @@
             "tokenization": "超 | 讚 | 超大 | 營位 | 10 | 小孩 | 跑 | 跳 | 草原 | 營主 | 晚上 | 11 | 00 | 還在 | 巡視 | 營區 | 露友 | 太 | 嗨 | 值得 | 推薦 | 營區"
         },
         {
-            "content": "再次照訪",
-            "rating": 5,
-            "publishedDate": "2022/10/23",
-            "tokenization": "照訪"
-        },
-        {
-            "content": "用心經營的好營區",
-            "rating": 5,
-            "publishedDate": "2022/10/23",
-            "tokenization": "用心 | 經營 | 營區"
-        },
-        {
             "content": "寬敞舒適。園區寬敞舒適，即使是夏天也涼爽。冰箱、浴室的青苔、灰塵過多，希望可以定期清潔一下。",
             "rating": 5,
             "publishedDate": "2022/08/22",
             "tokenization": "寬敞 | 舒適 | 園區 | 寬 | 敞舒適 | 夏天 | 涼爽 | 冰箱 | 浴室 | 青苔 | 灰塵過 | 希望 | 定期 | 清潔"
         },
         {
-            "content": "很大的營區",
-            "rating": 5,
-            "publishedDate": "2022/08/11",
-            "tokenization": "很大 | 營區"
-        },
-        {
-            "content": "很喜歡的營地，已三訪",
-            "rating": 5,
-            "publishedDate": "2022/07/26",
-            "tokenization": "喜歡 | 營地 | 已三訪"
-        },
-        {
             "content": "環境整潔,整體很舒適.",
             "rating": 5,
             "publishedDate": "2022/07/20",
             "tokenization": "環境 | 整潔 | 整體 | 舒適"
-        },
-        {
-            "content": "環境乾淨且空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "環境 | 乾淨且 | 空間 | 很大"
-        },
-        {
-            "content": "環境乾淨且空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "環境 | 乾淨且 | 空間 | 很大"
-        },
-        {
-            "content": "環境乾淨且空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "環境 | 乾淨且 | 空間 | 很大"
-        },
-        {
-            "content": "環境乾淨且空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "環境 | 乾淨且 | 空間 | 很大"
-        },
-        {
-            "content": "環境乾淨且空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "環境 | 乾淨且 | 空間 | 很大"
-        },
-        {
-            "content": "環境乾淨且空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "環境 | 乾淨且 | 空間 | 很大"
-        },
-        {
-            "content": "空間很大",
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "空間 | 很大"
         },
         {
             "content": "營區很大，老闆人超好的。營區很大，",
@@ -293,22 +209,10 @@
             "tokenization": "營主 | 親切 | 熱心 | 特地 | 煮 | 一壺 | 香濃 | 好喝 | 奶茶 | 分享 | 給露友 | 口暖心 | 暖 | 清新 | 區搭篷 | 帳與 | 帳之間 | 距離 | 很大 | 壓迫 | 感 | 小朋友 | 活動 | 空間 | 也夠 | 空氣 | 清新 | 舒服 | 衛浴 | 乾淨 | 無異味 | 專人定 | 時 | 清潔 | 距離 | 稍 | 遠 | 建議 | 特定 | 區域 | 加蓋會 | 更好 | 照明 | 夜衝 | 露友 | 照明 | 整體 | 很不錯"
         },
         {
-            "content": "小狗很友善",
-            "rating": 4,
-            "publishedDate": "2019/03/28",
-            "tokenization": "小狗 | 友善"
-        },
-        {
             "content": "環境很大，草皮範圍很廣，很適合小朋友跑跳，營主和工作人員都很好，有問題都會馬上解決，環境很乾淨",
             "rating": 5,
             "publishedDate": "2019/03/28",
             "tokenization": "環境 | 很大 | 草皮 | 很廣 | 適合 | 小朋友 | 跑跳 | 營主 | 工作 | 人員 | 馬 | 上解 | 決 | 環境 | 乾淨"
-        },
-        {
-            "content": "營主熱情環境乾淨",
-            "rating": 4,
-            "publishedDate": "2019/03/02",
-            "tokenization": "營主 | 熱情 | 環境 | 乾淨"
         },
         {
             "content": "環境很清幽，沒有過多的人工設施。",
@@ -365,12 +269,6 @@
             "tokenization": "寬 | 敞 | 營地 | 整理 | 浴廁 | 乾淨"
         },
         {
-            "content": "未來有機會還要再去",
-            "rating": 5,
-            "publishedDate": "2018/04/12",
-            "tokenization": "未來 | 機會"
-        },
-        {
             "content": "整體而言是個難得的優質營地，值得再次前往^^。熱水超熱要注意控溫，樹下區若遇到雨天易泥濘，但有墊子可舖，其它方面都不錯。",
             "rating": 5,
             "publishedDate": "2018/01/27",
@@ -389,28 +287,10 @@
             "tokenization": "房間 | 棉被 | 建議 | 換成 | 適合 | 雙人 | 棉被 | 環境 | 整潔 | 視野 | 遼闊 | 南庄 | 市區 | 補給 | 備有 | 冰箱 | 廚房"
         },
         {
-            "content": "風景優美",
-            "rating": 5,
-            "publishedDate": "2017/12/26",
-            "tokenization": "風景 | 優美"
-        },
-        {
             "content": "風景優美。熱水很不穩定",
             "rating": 5,
             "publishedDate": "2017/12/26",
             "tokenization": "風景 | 優美 | 熱水 | 穩定"
-        },
-        {
-            "content": "加油！可以更好的！",
-            "rating": 5,
-            "publishedDate": "2017/12/04",
-            "tokenization": "加油 | 更好"
-        },
-        {
-            "content": "加油！可以更好！",
-            "rating": 4,
-            "publishedDate": "2017/11/20",
-            "tokenization": "加油 | 更好"
         }
     ]
 }

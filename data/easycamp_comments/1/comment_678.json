@@ -47,20 +47,6 @@
             "tokenization": "一段 | 路況 | 不好 | 開 | 不錯 | 環境 | 租借 | 帳篷 | 有先 | 開除 | 濕機 | 冰箱 | 飲水機"
         },
         {
-            "content": "沒訊號很棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/25",
-            "tokenization": "沒訊號 | 很棒"
-        },
-        {
-            "content": "楓葉很美",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2023/04/06",
-            "tokenization": "楓葉 | 美"
-        },
-        {
             "content": "訊號有點差。如題 然後不要穿短袖 直接被咬成智障",
             "type": 1,
             "rating": 5,
@@ -96,20 +82,6 @@
             "tokenization": "老闆 | 忙 | 預定 | 水蜜桃 | 最後沒 | 有給"
         },
         {
-            "content": "很值得推薦的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/09/12",
-            "tokenization": "值得 | 推薦 | 營區"
-        },
-        {
-            "content": "超讚的 下次還會再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/08/01",
-            "tokenization": "超 | 讚 | 下次 | 還會"
-        },
-        {
             "content": "很棒！。很棒的露營區，老闆很親切。但有個小缺點，浴室會積水，可能是小蟲塞住出水口了，浴廁如果能改善蚊蟲問題就完美了。",
             "type": 1,
             "rating": 4,
@@ -129,13 +101,6 @@
             "rating": 4,
             "publishedDate": "2022/05/01",
             "tokenization": "謝謝 | 營主 | 用心 | 享受 | 片刻 | 悠閒 | 及寧靜 | 巴陵 | 道路 | 右轉 | 同心 | 農路 | 路況 | 差 | 低底 | 盤車輛 | 應謹慎 | 慢行"
-        },
-        {
-            "content": "賞楓美地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/10/22",
-            "tokenization": "賞楓 | 美地"
         },
         {
             "content": "營主人超好，也很照顧露營者，感謝你們的幫忙!。去營區的道路真的希望能規劃好，訊號弱，仰賴手機的人可能要暫時忘卻 :)",

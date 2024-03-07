@@ -29,12 +29,6 @@
             "tokenization": "露營 | 洗澡 | 上層 | 太少间 | 一間 | 壞 | 掉 | 久 | 蓮蓬頭 | 要換 | 出水"
         },
         {
-            "content": "泡溫泉時間限制太少",
-            "rating": 5,
-            "publishedDate": "2022/08/27",
-            "tokenization": "泡 | 溫泉 | 時間 | 太 | 少"
-        },
-        {
             "content": "環境及泡湯池都OK, 外食很便利",
             "rating": 4,
             "publishedDate": "2022/04/06",
@@ -45,12 +39,6 @@
             "rating": 4,
             "publishedDate": "2022/04/06",
             "tokenization": "環境 | 泡 | 湯池 | OK | 外食"
-        },
-        {
-            "content": "露營還可泡湯放鬆",
-            "rating": 5,
-            "publishedDate": "2021/10/06",
-            "tokenization": "露營 | 還可 | 泡湯 | 放 | 鬆"
         },
         {
             "content": "溫泉露營區!讚。溫泉露營區!讚",
@@ -65,12 +53,6 @@
             "tokenization": "不錯 | 營區 | 免費 | 溫泉 | 泡"
         },
         {
-            "content": "設備需再加強",
-            "rating": 3,
-            "publishedDate": "2020/04/19",
-            "tokenization": "設備 | 需"
-        },
-        {
             "content": "蚊子有點多 營釘要帶硬的 石子地",
             "rating": 4,
             "publishedDate": "2020/03/15",
@@ -81,12 +63,6 @@
             "rating": 4,
             "publishedDate": "2020/03/03",
             "tokenization": "因為 | 沒什麼 | 吃 | 地方 | 希望 | 冰箱"
-        },
-        {
-            "content": "簡單放空的地方",
-            "rating": 4,
-            "publishedDate": "2020/03/02",
-            "tokenization": "簡單 | 放空 | 地方"
         },
         {
             "content": "旁邊就有溫泉泡，很方便",
@@ -155,12 +131,6 @@
             "tokenization": "浴室 | 太 | 少 | 洗澡 | 等待 | 厠 | 需 | 走 | 遠"
         },
         {
-            "content": "服務完善",
-            "rating": 4,
-            "publishedDate": "2019/02/06",
-            "tokenization": "服務 | 完善"
-        },
-        {
             "content": "秋冬必去，物超所值。除了荖濃溪不能下去有點遺憾之外，營地超寬闊，就在河床旁邊，面向荖濃溪的風景真的很壯觀，晚上把營燈關掉後，完全沒有光害，星空璀璨，而且很安靜，完全聽不到車聲，很適合喜愛大自然的露友！",
             "rating": 5,
             "publishedDate": "2019/01/27",
@@ -171,18 +141,6 @@
             "rating": 5,
             "publishedDate": "2018/12/31",
             "tokenization": "物超所值"
-        },
-        {
-            "content": "還ok",
-            "rating": 4,
-            "publishedDate": "2018/12/30",
-            "tokenization": "ok"
-        },
-        {
-            "content": "整體還算不錯",
-            "rating": 5,
-            "publishedDate": "2018/12/01",
-            "tokenization": "整體 | 還算 | 不錯"
         },
         {
             "content": "免費泡湯2H真好...往營區道路快點完成",

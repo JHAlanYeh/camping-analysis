@@ -17,12 +17,6 @@
             "tokenization": "環境 | 不錯 | 環境 | 還算 | 不錯 | 天下 | 點 | 小雨 | 整片 | 霧氣 | 滿滿 | 管理 | 位置 | 不佳 | 團露 | 夜衝 | 當晚 | 凌晨 | 都還 | 有人 | 入場 | 搭 | 帳篷 | 聊天 | 營主 | 訂立 | 晚入 | 營規範 | 來此 | 露營 | 露友 | 吵 | 三思 | 第一次 | 露營 | 碰到 | 聊天 | 聊到 | 3.4 | 點 | 往返 | 盥洗室 | 露友 | 還大聲 | 聊天 | 噪音 | 好好 | 改善 | 這是 | 絕佳 | 露營 | 環境"
         },
         {
-            "content": "環境清幽",
-            "rating": 4,
-            "publishedDate": "2023/12/12",
-            "tokenization": "環境 | 清幽"
-        },
-        {
             "content": "營主人不錯！場地整理很好，路況好走，夜衝也不用擔心。",
             "rating": 5,
             "publishedDate": "2023/10/15",
@@ -39,12 +33,6 @@
             "rating": 3,
             "publishedDate": "2023/08/17",
             "tokenization": "冰箱 | 沒冷凍 | 沒開 | 櫻花 | 景 | 櫻花樹 | 遮到 | 看不到 | 景 | 冰箱 | 冷凍 | 不到 | 點就 | 狗 | 起床 | 小黑 | 蚊"
-        },
-        {
-            "content": "0。0",
-            "rating": 5,
-            "publishedDate": "2023/03/07",
-            "tokenization": ""
         },
         {
             "content": "觀雲台可看到很棒的景。環境好，景色好，旁邊有快炒可以點，方便好吃！",
@@ -65,22 +53,10 @@
             "tokenization": "露營區 | 購買門口 | 柿子 | 便宜 | 好吃 | 大碗"
         },
         {
-            "content": "環境佳，很舒服",
-            "rating": 5,
-            "publishedDate": "2022/11/28",
-            "tokenization": "環境 | 佳 | 舒服"
-        },
-        {
             "content": "營主還不錯，但想安靜的要考慮一下。雨棚區如果能再大一點比較好，廁所前有點積水，洗手台附近不少蟑螂，露友過12點都還滿吵的，所以喜歡吵鬧的或不愛睡的應該滿適合來的",
             "rating": 5,
             "publishedDate": "2022/10/27",
             "tokenization": "營主 | 還不錯 | 想安靜 | 雨棚 | 區 | 一點 | 廁所前 | 積水 | 洗手台 | 蟑螂 | 露友過 | 12 | 點都 | 還滿 | 吵 | 喜歡 | 吵 | 鬧 | 不愛睡 | 適合來"
-        },
-        {
-            "content": "不錯",
-            "rating": 4,
-            "publishedDate": "2022/09/12",
-            "tokenization": "不錯"
         },
         {
             "content": "可以看到很多野生昆蟲。建議雨棚區位置少一到兩個位置,比較不會這麼的擁擠",
@@ -89,12 +65,6 @@
             "tokenization": "野生 | 昆蟲 | 建議 | 雨棚 | 區 | 位置 | 少一到 | 兩個 | 位置 | 擁擠"
         },
         {
-            "content": "整體都不錯。不錯",
-            "rating": 4,
-            "publishedDate": "2022/08/21",
-            "tokenization": "整體 | 不錯 | 不錯"
-        },
-        {
             "content": "環境優美，還有招待的咖啡很棒，夏天也不熱",
             "rating": 4,
             "publishedDate": "2022/08/16",
@@ -105,36 +75,12 @@
             "rating": 4,
             "publishedDate": "2022/08/16",
             "tokenization": "環境 | 優美 | 招待 | 咖啡 | 很棒 | 夏天 | 不熱"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2022/08/12",
-            "tokenization": "讚"
-        },
-        {
-            "content": "好",
-            "rating": 3,
-            "publishedDate": "2022/07/25",
-            "tokenization": ""
         },
         {
             "content": "希望營主能多管理晚上噪音問題。環境跟場地都還不錯，view也很好，但對於晚上需要些許寧靜的露友要慎選，因為營主不管晚上的噪音，又遇到像這次b區沒品的，其他區還唱歌，十二點多後經屢次勸告，才稍有降低。打電話給營主是不會接的",
             "rating": 4,
             "publishedDate": "2022/07/04",
             "tokenization": "希望 | 營主 | 管理 | 晚上 | 噪音 | 環境 | 跟場 | 還不錯 | view | 晚上 | 許寧靜 | 露友 | 慎選 | 因為 | 營主 | 晚上 | 噪音 | b | 區沒品 | 區還 | 唱歌 | 十二 | 點多後經 | 勸告 | 稍 | 降低 | 打電話給 | 營主 | 不會接"
-        },
-        {
-            "content": "風景不錯的營地。",
-            "rating": 4,
-            "publishedDate": "2022/07/03",
-            "tokenization": "風景 | 不錯 | 營地"
-        },
-        {
-            "content": "很漂亮的營區 空氣好",
-            "rating": 5,
-            "publishedDate": "2022/03/27",
-            "tokenization": "很漂亮 | 營區 | 空氣"
         },
         {
             "content": "入住期間發生一點問題，營主處理很好，還瞬間升級變成住民宿!",
@@ -147,30 +93,6 @@
             "rating": 5,
             "publishedDate": "2021/12/28",
             "tokenization": "風景 | 很棒 | 營主 | 親切 | 期待 | 再度 | 光臨"
-        },
-        {
-            "content": "不錯的營區",
-            "rating": 5,
-            "publishedDate": "2021/12/22",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "publishedDate": "2021/12/22",
-            "tokenization": "讚"
-        },
-        {
-            "content": "好熱情的營區",
-            "rating": 5,
-            "publishedDate": "2021/12/22",
-            "tokenization": "熱情 | 營區"
-        },
-        {
-            "content": "套房，衛浴乾凈",
-            "rating": 4,
-            "publishedDate": "2021/10/24",
-            "tokenization": "套房 | 衛浴 | 乾 | 凈"
         },
         {
             "content": "這次親家一起同遊 風景宜人 心曠神怡 大家超滿意",
@@ -191,22 +113,10 @@
             "tokenization": "營主 | 親切 | 場地 | 寬 | 敞 | 風景 | 漂亮 | 讚 | 營"
         },
         {
-            "content": "風景優美",
-            "rating": 5,
-            "publishedDate": "2021/09/28",
-            "tokenization": "風景 | 優美"
-        },
-        {
             "content": "營主人很好疫情期間也不會因為要賺錢而超收，讚! 地方也很寬敞。晚上洗澡水忽冷忽熱，如果可以改進應該會很棒",
             "rating": 4,
             "publishedDate": "2021/09/23",
             "tokenization": "營主 | 疫情 | 期間 | 因為 | 賺 | 錢 | 超收 | 讚 | 地方 | 寬 | 敞 | 晚上 | 洗澡水 | 忽冷 | 忽熱 | 改進 | 很棒"
-        },
-        {
-            "content": "電壓不足需在加強",
-            "rating": 4,
-            "publishedDate": "2021/07/26",
-            "tokenization": "電壓 | 需在"
         },
         {
             "content": "營主服務好,D區浴室熱水人多時,會有忽冷忽熱情形.",
@@ -225,12 +135,6 @@
             "rating": 5,
             "publishedDate": "2021/03/29",
             "tokenization": "老闆娘 | 服務好 | 還會 | 入住"
-        },
-        {
-            "content": "環境很棒，營主人超好",
-            "rating": 5,
-            "publishedDate": "2021/03/22",
-            "tokenization": "環境 | 很棒 | 營主 | 人超"
         },
         {
             "content": "雖然下雨也有很多人取消，但營主可以讓我們直接換到雨棚超貼心。",
@@ -263,22 +167,10 @@
             "tokenization": "風景 | 真的 | 很美是 | 照片 | 補捉 | 景色 | 露營 | 寒流 | 一早 | 營主 | 貼心 | 為 | 送 | 薑 | 茶 | 真的 | 感恩"
         },
         {
-            "content": "空氣好 人也好",
-            "rating": 5,
-            "publishedDate": "2020/12/29",
-            "tokenization": "空氣"
-        },
-        {
             "content": "位置太擁擠，景觀倒不錯。雨棚營位太小，寬度沒有標注的5公尺",
             "rating": 5,
             "publishedDate": "2020/11/01",
             "tokenization": "位置 | 太擁 | 擠 | 景觀 | 倒 | 不錯 | 雨棚 | 營位 | 太小 | 寬度 | 標注 | 公尺"
-        },
-        {
-            "content": "很喜歡，期待櫻花",
-            "rating": 5,
-            "publishedDate": "2020/10/24",
-            "tokenization": "喜歡 | 期待 | 櫻花"
         },
         {
             "content": "都是石頭地。遇到一群來瞌藥的8+9整夜不睡很誇張",
@@ -287,22 +179,10 @@
             "tokenization": "石頭 | 一群 | 來瞌藥 | 整夜 | 睡 | 誇張"
         },
         {
-            "content": "螢火蟲很多",
-            "rating": 5,
-            "publishedDate": "2020/06/26",
-            "tokenization": "螢火蟲"
-        },
-        {
             "content": "雨棚木棧板很多破損。廁所建議要分區不要集中",
             "rating": 4,
             "publishedDate": "2020/06/13",
             "tokenization": "雨棚 | 木棧 | 板 | 破損 | 廁所 | 建議 | 分區"
-        },
-        {
-            "content": "常跳電",
-            "rating": 4,
-            "publishedDate": "2020/06/07",
-            "tokenization": "常跳電"
         },
         {
             "content": "美麗山景＋星空＋營火蟲。推薦可以跟營主買食材，比起從山下買來的更道地好吃，營火蟲會自己飛進營地很浪漫。環境不吵雜很寧靜，風景非常美，夜晚看得到星空，不過營區面西部，要看銀河還是會受到竹東的光害影響。整體很棒，營主非常熱情，挺推薦～",
@@ -341,36 +221,6 @@
             "tokenization": "營主 | 真的 | 人不錯 | 五月 | 水蜜桃 | 真的 | 超 | 好吃 | 忘 | 說 | 水蜜桃 | 營主 | 給的"
         },
         {
-            "content": "舒適的營地",
-            "rating": 5,
-            "publishedDate": "2020/03/03",
-            "tokenization": "舒適 | 營地"
-        },
-        {
-            "content": "舒適的營地",
-            "rating": 5,
-            "publishedDate": "2020/03/03",
-            "tokenization": "舒適 | 營地"
-        },
-        {
-            "content": "舒適的營地",
-            "rating": 5,
-            "publishedDate": "2020/03/03",
-            "tokenization": "舒適 | 營地"
-        },
-        {
-            "content": "舒適的營地",
-            "rating": 5,
-            "publishedDate": "2020/03/03",
-            "tokenization": "舒適 | 營地"
-        },
-        {
-            "content": "舒適的營地",
-            "rating": 5,
-            "publishedDate": "2020/03/03",
-            "tokenization": "舒適 | 營地"
-        },
-        {
             "content": "特殊季節有不同的風貌。是否門口處,設立牌子說明入內請洽那處可找營主,避免自行進入,容易導致小插曲找錯帳位問題",
             "rating": 5,
             "publishedDate": "2019/11/18",
@@ -387,18 +237,6 @@
             "rating": 5,
             "publishedDate": "2019/10/25",
             "tokenization": "第一次 | 夜衝 | 幸運 | 天星 | 斗 | 廁所 | 洗澡 | 地方 | 算滿 | 乾淨 | 很棒 | 營區"
-        },
-        {
-            "content": "冰箱冷度不夠冷",
-            "rating": 3,
-            "publishedDate": "2019/10/25",
-            "tokenization": "冰箱 | 冷度 | 冷"
-        },
-        {
-            "content": "營主親切服務好",
-            "rating": 4,
-            "publishedDate": "2019/10/22",
-            "tokenization": "營主 | 親切 | 服務好"
         },
         {
             "content": "營主親切,空間也大可以讓小孩玩耍。但浴室洗澡熱水忽冷忽熱,待改善",
@@ -461,12 +299,6 @@
             "tokenization": "適合 | 放空 | 風景及 | 雲海 | 真的 | 很漂亮 | 風景 | 優美 | 水壓 | 太小 | 多人 | 洗澡 | 水 | 變冷 | 插電座 | 少 | 營位 | 洗碗 | 槽 | 放置 | 物品 | 地方 | 若能 | 改善 | 想 | 回去 | 營地"
         },
         {
-            "content": "很不錯的營地~",
-            "rating": 5,
-            "publishedDate": "2019/01/02",
-            "tokenization": "很不錯 | 營地"
-        },
-        {
             "content": "一切都很不錯，期待下次再訪",
             "rating": 5,
             "publishedDate": "2019/01/02",
@@ -477,12 +309,6 @@
             "rating": 5,
             "publishedDate": "2019/01/02",
             "tokenization": "很不錯 | 離開時 | 還送 | 山菜"
-        },
-        {
-            "content": "營主親切，營地視野佳",
-            "rating": 4,
-            "publishedDate": "2019/01/02",
-            "tokenization": "營主 | 親切 | 營地視 | 野佳"
         },
         {
             "content": "風景，環境優…老闆態度大至都不錯！！！",
@@ -507,12 +333,6 @@
             "rating": 4,
             "publishedDate": "2018/10/29",
             "tokenization": "我個 | 認為 | 設施 | 整體 | 環境 | 清幽 | 景色 | 漂亮 | 適合想 | 暫時 | 遠離 | 城市 | 喧囂 | 喔"
-        },
-        {
-            "content": "景觀很漂亮",
-            "rating": 4,
-            "publishedDate": "2018/10/18",
-            "tokenization": "景觀 | 很漂亮"
         },
         {
             "content": "廁所清潔需要再加強，有點髒",

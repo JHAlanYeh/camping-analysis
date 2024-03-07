@@ -17,20 +17,6 @@
             "tokenization": "帳篷 | 外 | 海 | 舒服 | 全聯 | 11 | 衛浴 | 設備 | 不錯 | ❤ | ️"
         },
         {
-            "content": "員工態度差",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2023/09/20",
-            "tokenization": "員 | 工態度 | 差"
-        },
-        {
-            "content": "謝謝",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/08/04",
-            "tokenization": "謝謝"
-        },
-        {
             "content": "好玩的遊樂設施 寬廣的腹地 是大小朋友懶人露營 兩天一夜放鬆的好去處",
             "type": 2,
             "rating": 5,
@@ -94,13 +80,6 @@
             "tokenization": "建議 | 室外 | 機移 | 開棧 | 板 | 位置 | 離帳 | 棚處 | 遠點 | 年期 | 間訂 | 狩獵 | 區 | 帳 | 親子 | 狩獵 | 一帳 | 晚 | 靠近 | 闖關 | 池旁 | 這兩區 | 冷暖 | 室外 | 機 | 每次 | 運轉 | 感覺 | 小港 | 機場 | 旁邊 | 機艙 | 螺旋 | 槳 | 聲音 | 地面 | 棧板 | 共震 | 晚睡 | 太累 | 值得"
         },
         {
-            "content": "還不錯",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/03/01",
-            "tokenization": "還不錯"
-        },
-        {
             "content": "內帳建議保養清潔會更美觀",
             "type": 2,
             "rating": 5,
@@ -129,25 +108,11 @@
             "tokenization": "不錯 | 稍微 | 可惜 | 海邊 | 上還 | 相隔 | 一段 | 帳篷 | 坐在 | 棚內 | 海"
         },
         {
-            "content": "不錯的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/22",
-            "tokenization": "不錯 | 營區"
-        },
-        {
             "content": "服務人員都很棒，風景超級美！",
             "type": 2,
             "rating": 5,
             "publishedDate": "2022/07/14",
             "tokenization": "服務人員 | 很棒 | 風景 | 超級 | 美"
-        },
-        {
-            "content": "地點很棒",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/06/29",
-            "tokenization": "地點 | 很棒"
         },
         {
             "content": "營區規劃完善，懶人露營首選",
@@ -192,13 +157,6 @@
             "tokenization": "風景 | 優美 | 服務人員 | 用心"
         },
         {
-            "content": "讚。無",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/03/30",
-            "tokenization": "讚"
-        },
-        {
             "content": "剛好清明連假有安排活動，小朋友玩得很開心，絕對還會再來，希望下次連假也會安排現場活動。",
             "type": 2,
             "rating": 5,
@@ -211,13 +169,6 @@
             "rating": 5,
             "publishedDate": "2022/02/23",
             "tokenization": "工作 | 人員 | 服務 | 工作 | 人員 | 服務 | 戲水區 | 修 | 修 | 移除"
-        },
-        {
-            "content": "放鬆好地方",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/02/13",
-            "tokenization": "放 | 鬆 | 地方"
         },
         {
             "content": "第二次到該營區，一切一樣都很好, 海邊露營沒有蟲子真是太棒了",
@@ -290,34 +241,6 @@
             "tokenization": "工作 | 人員 | 親切 | 門口 | 大哥 | 親切 | 小朋友 | 玩水 | 玩得 | 開心 | 場地 | 舒適"
         },
         {
-            "content": "讚。會想再去的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/10/09",
-            "tokenization": "讚 | 會想 | 營區"
-        },
-        {
-            "content": "最常去的營地",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/09/08",
-            "tokenization": "最常去 | 營地"
-        },
-        {
-            "content": "很棒的體驗",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2021/08/26",
-            "tokenization": "很棒 | 體驗"
-        },
-        {
-            "content": "GOOD",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/08/23",
-            "tokenization": "GOOD"
-        },
-        {
             "content": "超讚的營區面海風景很好",
             "type": 2,
             "rating": 5,
@@ -330,13 +253,6 @@
             "rating": 5,
             "publishedDate": "2021/04/26",
             "tokenization": "下次 | 入住 | I | 區狩 | 獵帳 | 帳篷 | 打開 | 海 | 心情 | 很棒 | 營區 | 乾淨 | 在意 | 衛浴 | 乾淨度 | 不錯 | 小孩 | 玩水 | 玩 | 開心"
-        },
-        {
-            "content": "下次還會再去",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/04/23",
-            "tokenization": "下次 | 還會"
         },
         {
             "content": "小孩的玩樂天堂。我相信工作人員真的很忙，只是麻煩偶爾要巡視一下戲水池，有很多沒戴泳帽的，這樣感覺規定是用來看的而已。",
@@ -381,20 +297,6 @@
             "tokenization": "廁所 | 石頭路 | 不好 | 走 | 廁所 | 石頭路 | 不好 | 走"
         },
         {
-            "content": "",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/01/07",
-            "tokenization": ""
-        },
-        {
-            "content": "",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2021/01/07",
-            "tokenization": ""
-        },
-        {
             "content": "超棒。但是浴室半開放式建築，冬天洗澡真的很冷",
             "type": 2,
             "rating": 4,
@@ -430,13 +332,6 @@
             "tokenization": "服務不錯 | 戲 | 水池 | 遮 | 陰 | 曬傷 | 溜滑梯 | 加個 | 墊子 | 撞 | 屁股"
         },
         {
-            "content": "很棒的營區",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2020/11/24",
-            "tokenization": "很棒 | 營區"
-        },
-        {
             "content": "旁邊有步道會中斷露營的感覺",
             "type": 2,
             "rating": 4,
@@ -463,13 +358,6 @@
             "rating": 5,
             "publishedDate": "2020/10/11",
             "tokenization": "環境 | 舒適 | 乾淨 | 海景 | 可看 | 完美 | 浴間 | 燈光 | 亮 | 一點 | 希望 | 租借 | 刀子 | 用品"
-        },
-        {
-            "content": "乾淨！設備齊全",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2020/10/08",
-            "tokenization": "乾淨 | 設備 | 齊全"
         },
         {
             "content": "放鬆休閒的好地方～。標榜豪華露營區，但個人有些小小的意見⋯⋯1。浴室可添加沐浴乳，洗髮精2。帳篷內需要放個小垃圾桶，面紙整體環境，景觀打85分因為我們是平日去，如果滿帳，衛浴應該會不夠⋯有機會是會再去的哦⋯⋯vio狩獵帳",

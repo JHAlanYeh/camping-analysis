@@ -41,52 +41,10 @@
             "tokenization": "營主 | 人超 | 第一次 | 營區 | 環境 | 乾淨 | 連假 | 小朋友 | 戲水 | 營主 | 還會 | 晚上 | 時 | 水池 | 打掃 | 乾淨 | 營主 | 夫妻 | 真的 | 超好"
         },
         {
-            "content": "環境乾淨、舒適",
-            "rating": 5,
-            "publishedDate": "2023/04/20",
-            "tokenization": "環境 | 乾淨 | 舒適"
-        },
-        {
-            "content": "超推..",
-            "rating": 5,
-            "publishedDate": "2023/03/02",
-            "tokenization": "超推"
-        },
-        {
             "content": "小孩的遊戲區超棒的，浴室廁所也隨時都保持的很乾淨。",
             "rating": 5,
             "publishedDate": "2023/03/02",
             "tokenization": "小孩 | 遊戲區 | 超棒 | 浴室 | 廁所 | 乾淨"
-        },
-        {
-            "content": "營區很乾淨",
-            "rating": 3,
-            "publishedDate": "2022/10/31",
-            "tokenization": "營區 | 乾淨"
-        },
-        {
-            "content": "泳池好舒服",
-            "rating": 5,
-            "publishedDate": "2022/09/27",
-            "tokenization": "泳池 | 舒服"
-        },
-        {
-            "content": "很棒",
-            "rating": 5,
-            "publishedDate": "2022/09/12",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "讚讚。營主很熱心",
-            "rating": 5,
-            "publishedDate": "2022/08/24",
-            "tokenization": "讚 | 讚 | 營主 | 很熱心"
-        },
-        {
-            "content": "讚讚。營主很熱心",
-            "rating": 5,
-            "publishedDate": "2022/08/24",
-            "tokenization": "讚 | 讚 | 營主 | 很熱心"
         },
         {
             "content": "很適合親子露營的好地方。營主夫婦很親切人很好營區好設施足，廁所真的很乾淨。小朋友玩的盡興。期待再次露營。",
@@ -99,12 +57,6 @@
             "rating": 5,
             "publishedDate": "2022/05/31",
             "tokenization": "營區 | 廁所 | 露過 | 最乾淨"
-        },
-        {
-            "content": "環境整潔廁所乾淨",
-            "rating": 5,
-            "publishedDate": "2022/04/11",
-            "tokenization": "環境 | 整潔 | 廁所 | 乾淨"
         },
         {
             "content": "營主夫婦很好，設施很好，小朋友玩得很開心",
@@ -137,12 +89,6 @@
             "tokenization": "營主 | 喔 | 第二次 | 光顧"
         },
         {
-            "content": "營主很nice",
-            "rating": 5,
-            "publishedDate": "2021/09/06",
-            "tokenization": "營主 | nice"
-        },
-        {
             "content": "廁所超級乾淨的，梅花季營主帶大家一起去賞梅",
             "rating": 5,
             "publishedDate": "2021/05/13",
@@ -165,12 +111,6 @@
             "rating": 5,
             "publishedDate": "2021/03/21",
             "tokenization": "小孩 | 玩 | 不想 | 回家"
-        },
-        {
-            "content": "很棒的營區",
-            "rating": 5,
-            "publishedDate": "2021/03/03",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "如果這次半夜不要停電。再加上同區的躁鬱症長舌公台客，晚上睡不著不會一大早在那邊鬼叫，就更完美了。營主親切設備良好環境優美",
@@ -215,12 +155,6 @@
             "tokenization": "營主 | 夫婦 | 好客 | 泳池 | 超級 | 乾淨 | 清洗 | 回露 | 第二次 | 營主 | 夫婦 | 熱情 | 營區 | 乾淨 | 唯一 | 變得 | 雨棚 | 大好 | 漂亮"
         },
         {
-            "content": "好的",
-            "rating": 5,
-            "publishedDate": "2020/07/24",
-            "tokenization": ""
-        },
-        {
             "content": "營主老闆和老闆娘非常非常Nice~。很棒的營區，下次有機會一定還要在來，夢想可以訂到雨棚區，如果浴廁可以在多間一點和不要脫鞋的話就太完美了~謝謝熱心的營主~",
             "rating": 5,
             "publishedDate": "2020/07/11",
@@ -261,12 +195,6 @@
             "rating": 5,
             "publishedDate": "2019/05/24",
             "tokenization": "環境 | 很棒 | 有戲 | 水池 | 小孩 | 玩"
-        },
-        {
-            "content": "麻雀雖小 五臟俱全",
-            "rating": 5,
-            "publishedDate": "2019/03/09",
-            "tokenization": "麻雀 | 雖小 | 五臟 | 俱全"
         },
         {
             "content": "環境清靜，衛浴超乾淨，小孩的玩樂天堂，營主夫婦超親切，是一個很棒的營區",

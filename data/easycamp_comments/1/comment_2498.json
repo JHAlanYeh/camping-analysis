@@ -75,25 +75,11 @@
             "tokenization": "烤 | 雞 | 必點 | 烤 | 雞超 | 好吃 | 營主 | 浴廁 | ........ | 熱水 | 很熱"
         },
         {
-            "content": "老闆很熱情，超棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/12/09",
-            "tokenization": "老闆 | 很熱情 | 超棒"
-        },
-        {
             "content": "不錯的營區，是個好地方。不錯的營區 ，是個好地方",
             "type": 1,
             "rating": 5,
             "publishedDate": "2022/09/23",
             "tokenization": "不錯 | 營區 | 地方 | 不錯 | 營區 | 地方"
-        },
-        {
-            "content": "老闆很熱情，親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/09/14",
-            "tokenization": "老闆 | 很熱情 | 親切"
         },
         {
             "content": "營主非常熱情熱心，下大雨還拿著傘巡視營區，浴廁有點像行動廁所，但營主勤打掃，所以非常乾淨也沒有異味",
@@ -110,13 +96,6 @@
             "tokenization": "老闆 | 老闆娘 | 很熱情 | 露營區 | 小活動 | 參加 | 可愛的 | 兔子"
         },
         {
-            "content": "熱心的營主",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/02/25",
-            "tokenization": "熱心 | 營主"
-        },
-        {
             "content": "有點世外桃源的營地。老闆超熱心，會四處巡視營地與清洗浴廁",
             "type": 1,
             "rating": 5,
@@ -129,13 +108,6 @@
             "rating": 4,
             "publishedDate": "2021/12/27",
             "tokenization": "營主 | 前往 | 營區 | 半段 | 路會 | 稍微 | 陡峭 | 優 | 10 | 點會 | 全場 | 熄燈 | 無光害 | 營主 | 人蠻 | 缺 | 廁所 | 洗澡 | 間 | 外加 | 間 | 蹲式 | 馬 | 桶 | 廁所 | 無飲水 | 機建議 | 營 | 本部 | 沒賣 | 東西 | 山前 | 吃喝 | 買齊 | 營主 | 訂餐"
-        },
-        {
-            "content": "謝謝老闆專業的幫忙",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/10/05",
-            "tokenization": "謝謝 | 老闆 | 專業 | 幫忙"
         },
         {
             "content": "老闆人不錯。老婆懷孕還借我電風扇， 應該一輩子記得，謝謝老闆",
@@ -157,20 +129,6 @@
             "rating": 5,
             "publishedDate": "2021/05/17",
             "tokenization": "下次 | 還會 | 老闆 | 很親 | 切熱 | 心服 | 務 | 風 | 景美 | 便宜 | 地方"
-        },
-        {
-            "content": "有兔子不錯",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2021/05/12",
-            "tokenization": "兔子 | 不錯"
-        },
-        {
-            "content": "營主很熱情",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/02/24",
-            "tokenization": "營主 | 很熱情"
         },
         {
             "content": "營主夫妻很熱情，營區乾淨, 很適合帶小朋友的家庭..",
@@ -269,20 +227,6 @@
             "rating": 5,
             "publishedDate": "2020/02/25",
             "tokenization": "小而 | 不失 | 恬靜 | 溫馨 | 營區 | 營主 | 熱情 | 好客 | 營地 | 高檔 | 豪華 | 硬體 | 設備 | 著 | 自然 | 面對面 | 沈思 | 機會 | 露營 | 想要 | 暫時 | 捨 | 習以 | 為 | 生活 | 放空 | 野 | 提供 | 體驗 | 營區"
-        },
-        {
-            "content": "棒。好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/12/27",
-            "tokenization": "棒"
-        },
-        {
-            "content": "烤雞好吃，營主很熱情",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/11/10",
-            "tokenization": "烤 | 雞 | 好吃 | 營主 | 很熱情"
         },
         {
             "content": "整體來說是個舒服的營區。廁所，洗澡間要增加",
