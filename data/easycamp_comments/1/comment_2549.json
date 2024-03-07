@@ -1,0 +1,34 @@
+﻿{
+    "code": "2549",
+    "name": "新竹尖石 玉峰 光漫營地(包區制)",
+    "region": "新竹縣尖石鄉",
+    "url": "https://www.easycamp.com.tw/Store_2549.html",
+    "type": 1,
+    "disabled": 0,
+    "same_name": "光漫營地",
+    "description": "位於尖石玉峰村，海拔1370m，歡迎來感受從早到晚山景的絕美變化感謝海拔1370m的恩賜，光漫營地擁有著每天都不一樣的絕佳景色美麗的山景無限輪播著，歡迎來品味這裡的好山.好水.好空氣...",
+    "address": "新竹縣尖石鄉玉峰村11鄰5號(導航先到抬耀夢想書屋))再依指示標可到營地",
+    "comments": [
+        {
+            "content": "路雖不好開，但風景跟營主的熱情，非常值得再訪",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/04/09",
+            "tokenization": "路 | 不好 | 開 | 風景 | 營主 | 熱情 | 值得 | 再訪"
+        },
+        {
+            "content": "視野遼闊，景觀超棒",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/12/12",
+            "tokenization": "視野 | 遼闊 | 景觀 | 超棒"
+        },
+        {
+            "content": "親切的營主，寬廣的視野，舒服的景色",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/08/11",
+            "tokenization": "親切 | 營主 | 寬廣 | 視野 | 舒服 | 景色"
+        }
+    ]
+}
