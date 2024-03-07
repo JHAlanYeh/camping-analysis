@@ -12,25 +12,11 @@
     "longitude": 120.6963713,
     "comments": [
         {
-            "content": "舒適的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2024/01/05",
-            "tokenization": "舒適 | 營區"
-        },
-        {
             "content": "很漂亮的營區，風景很漂亮。一切都很讚，就是A區離廁所跟冰箱有點遠，又是陡坡~~",
             "type": 1,
             "rating": 5,
             "publishedDate": "2024/01/04",
             "tokenization": "很漂亮 | 營區 | 風景 | 很漂亮 | 讚 | 區離 | 廁所 | 冰箱 | 遠 | 陡坡"
-        },
-        {
-            "content": "都很好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/10/14",
-            "tokenization": ""
         },
         {
             "content": "闆娘優秀手巧植栽用心難得的優質營區",
@@ -96,32 +82,11 @@
             "tokenization": "遠離 | 都市 | 塵囂 | 環境 | 乾淨 | 舒適 | 推薦 | 建議 | 增加 | 浴 | 廁空間"
         },
         {
-            "content": "不錯。很舒服",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/05/04",
-            "tokenization": "不錯 | 舒服"
-        },
-        {
-            "content": "",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/01/02",
-            "tokenization": ""
-        },
-        {
             "content": "場地乾淨、肉肉植物很漂亮",
             "type": 1,
             "rating": 5,
             "publishedDate": "2020/12/08",
             "tokenization": "場地 | 乾淨 | 肉肉 | 植物 | 很漂亮"
-        },
-        {
-            "content": "很棒很舒服的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/12/07",
-            "tokenization": "很棒 | 舒服 | 營區"
         },
         {
             "content": "值得收藏的好營區。廁所乾淨方便，洗澡水量大且熱得很快，環境很優美，營主也很親切熱情，是值得一去再去的好營區。",
@@ -143,20 +108,6 @@
             "rating": 5,
             "publishedDate": "2019/06/07",
             "tokenization": "營主 | 熱心 | 聊 | 搗 | 麻 | 糬 | 動 | 爸爸 | 玩 | 小朋友 | 投入"
-        },
-        {
-            "content": "空氣清新，闆娘很親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/25",
-            "tokenization": "空氣 | 清新 | 闆 | 娘 | 親切"
-        },
-        {
-            "content": "要增設冰箱",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/25",
-            "tokenization": "增設 | 冰箱"
         },
         {
             "content": "是個不錯的營區,營主很熱情!。唯一的缺點就是拔營的期限還沒到，下一組客人就來了，營主也沒要對方先離開，還答應對方可先卸裝備，但重點是我們露營的東西都還沒收好，這會讓人覺得有壓力，希望能改進！",
@@ -220,13 +171,6 @@
             "rating": 5,
             "publishedDate": "2017/12/10",
             "tokenization": "營位 | 景觀佳 | 人車 | 少 | 夜 | 很靜 | 無光害 | 觀星"
-        },
-        {
-            "content": "老闆超級親切！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/12",
-            "tokenization": "老闆 | 超級 | 親切"
         },
         {
             "content": "寧靜、悠閒、乾淨、享受大自然的營區。雖然來的路不太平穩，但這裡的風景，舒服的氣氛，清晰的空氣，一切都值得了。 加上這裡的營主超級熱心的，環境也整理的很乾淨，喜歡露營的朋友一定要來走走!!",

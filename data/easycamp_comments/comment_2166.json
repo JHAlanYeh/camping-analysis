@@ -19,13 +19,6 @@
             "tokenization": "Simple | Campsite | Yes | it | is | located | in | the | middle | of | the | mountains | and | the | drive | can | be | difficult | Yes | the | bathroom | is | nothing | special | and | simple | hot | waterYes | there | is | nothing | extra | Just | a | simple | campsite | IT | IS | PERFECT | 100% | Definitely | worth | the | drive | boil | your | own | hot | water | and | have | a | great | experience"
         },
         {
-            "content": "很棒的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/11/09",
-            "tokenization": "很棒 | 營區"
-        },
-        {
             "content": "景觀優美, 離步道很近",
             "type": 1,
             "rating": 4,
@@ -110,13 +103,6 @@
             "tokenization": "環境 | 優美 | 缺少 | 營地 | 應 | 遵守 | 須知 | 選 | 年 | 假期 | 三天 | 兩夜 | 第一天 | 帳 | 第二天 | 剩 | 兩帳 | 低 | 五帳 | 供電 | 這在 | 露營樂 | 一帳 | 年 | 輕人 | 向營 | 工作 | 人員 | 購買電 | 但後來 | 維修 | 人員 | 點 | 來維 | 修並 | 點開 | 電給 | 年 | 輕人應 | 免費 | 營地 | 工作 | 人員 | 體諒 | 困擾 | 欣賞 | 滿天 | 星星 | 維修 | 人員待 | 一帳 | 年 | 輕人 | 喝酒 | 喝到 | 10 | 點喝 | 還說 | 服年 | 輕人 | 開車 | 買 | 酒 | 營地員 | 工酒 | 駕 | 駕駛年 | 輕人 | 汽車 | 開車載 | 年 | 輕人 | 買 | 酒 | 時還 | 撞倒 | 摩托 | 車 | 捏把冷汗 | 晚 | 年 | 輕 | 人大 | 聲 | 講話 | 音樂放得 | 很大 | 聲 | 身為 | 工作 | 人員 | 一點 | 未 | 營友 | 感受 | 整夜 | 四點 | 四十 | 結束 | 惡夢"
         },
         {
-            "content": "很美",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/02/11",
-            "tokenization": "美"
-        },
-        {
             "content": "環境設備保持乾淨。風景 環境 都保持不錯,衛浴室都保持乾淨",
             "type": 1,
             "rating": 5,
@@ -131,20 +117,6 @@
             "tokenization": "環境 | 設備 | 衛浴 | 乾淨 | 風景 | 環境 | 不錯 | 衛 | 浴室 | 乾淨"
         },
         {
-            "content": "風景超漂亮",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/01/06",
-            "tokenization": "風景超 | 漂亮"
-        },
-        {
-            "content": "真的很遠但很值得",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/12/13",
-            "tokenization": "真的 | 很遠 | 值得"
-        },
-        {
             "content": "真的很棒～。1-交通是族人們共同打造的，雖不比柏油路佳，但行駛在路上心中總是很感動，感謝族人們的付出2-景觀真的很美，是我覺得連相機都拍不出的美，有種國外瑞士的感覺3-設施簡約，但我覺得有總比沒有好4-浴廁簡約，但我覺得有總比沒有好5-基本上沒有人會在那服務，但該有的熱水、電都有在規定時間供應",
             "type": 1,
             "rating": 5,
@@ -157,13 +129,6 @@
             "rating": 5,
             "publishedDate": "2021/10/04",
             "tokenization": "廁所 | 清潔次數 | 增加 | 棒 | 第二次 | 造訪 | 路程 | 遠 | 牌樓 | 兩旁 | 櫻花 | 大道 | 通往 | 巨木區 | 步道 | 盛開 | 爆滿 | 櫻花 | 值得"
-        },
-        {
-            "content": "風景很美~",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2021/03/08",
-            "tokenization": "風景 | 美"
         },
         {
             "content": "絕美景色 雖然路途遙遠但值得再次回露的好營區",
@@ -192,13 +157,6 @@
             "rating": 4,
             "publishedDate": "2020/08/25",
             "tokenization": "衛浴 | 設施 | 算是 | 乾淨且 | 熱水 | 穩定 | 足夠"
-        },
-        {
-            "content": "司馬庫斯很棒營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/06/07",
-            "tokenization": "司馬 | 庫斯 | 很棒 | 營地"
         },
         {
             "content": "原始原味!!體驗原始的好去處!",
@@ -236,13 +194,6 @@
             "tokenization": "老板 | 超 | 讚 | 年前 | 造訪 | 想 | 走走 | 絕佳 | 地點"
         },
         {
-            "content": "好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/11",
-            "tokenization": ""
-        },
-        {
             "content": "景觀好，可惜當天風大。",
             "type": 1,
             "rating": 5,
@@ -250,25 +201,11 @@
             "tokenization": "景觀 | 可惜 | 當天 | 風大"
         },
         {
-            "content": "營主很棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/02",
-            "tokenization": "營主 | 很棒"
-        },
-        {
             "content": "很棒的營區。地點風景都很好，但是需要底盤高的車子才適合",
             "type": 1,
             "rating": 5,
             "publishedDate": "2018/09/26",
             "tokenization": "很棒 | 營區 | 地點 | 風景 | 底盤 | 高 | 車子 | 適合"
-        },
-        {
-            "content": "還會想去",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/09/17",
-            "tokenization": "還會 | 想"
         },
         {
             "content": "下雨天，很多地方會積水，希望可以改進，4間衛浴室，但只有2間提供熱水，顯得與網路上提供的資料不符哦！",
@@ -299,39 +236,11 @@
             "tokenization": "視野 | 遼闊 | 放 | 鬆 | 地方"
         },
         {
-            "content": "營主親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/12",
-            "tokenization": "營主 | 親切"
-        },
-        {
-            "content": "超棒的景觀",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/12",
-            "tokenization": "超棒 | 景觀"
-        },
-        {
-            "content": "深山裡的寧靜",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/04/07",
-            "tokenization": "深山 | 裡的 | 寧靜"
-        },
-        {
             "content": "景好,帳位能再開闊一點會更好!",
             "type": 1,
             "rating": 4,
             "publishedDate": "2018/04/05",
             "tokenization": "景好 | 帳位 | 開闊 | 一點會 | 更好"
-        },
-        {
-            "content": "近神木區，景觀優美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/04",
-            "tokenization": "神木 | 區 | 景觀 | 優美"
         },
         {
             "content": "群山環抱中，旅途路遙遙~。達宴露營地是個不錯優靜的地方，只是隔天早上沒電實屬不便，雖然路途遙遠，但在看到環山美景深感值得，忘卻來時路的辛苦，建議露營地能建立儲電系統，相信能讓旅客賓至如歸~",
@@ -355,13 +264,6 @@
             "tokenization": "喜歡 | 因為 | 訂 | 不到 | 司馬 | 庫斯 | 小木屋 | 選擇 | 露營 | 不錯 | 方式 | 新 | 營地 | 電力 | 設施 | 還沒弄 | 發電機 | 發電 | 用電 | 跳電 | 地方 | 營地 | 主人 | 說 | 改善 | 老闆 | 可愛的 | 原住民 | 捧 | 油 | 親切 | 有趣 | 聊天 | 聊 | 一陣子 | 高山 | 上空 | 氣 | 風景 | 很棒 | 很想 | 多留 | 幾天 | 機會會"
         },
         {
-            "content": "滿天星空無價",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/12/24",
-            "tokenization": "滿天 | 星空 | 無價"
-        },
-        {
             "content": "親切的態度，超級棒的體驗，多麼愜意的夜晚啊，大力推薦達宴",
             "type": 1,
             "rating": 5,
@@ -369,32 +271,11 @@
             "tokenization": "親切 | 態度 | 超級 | 棒 | 體驗 | 愜意 | 夜晚 | 推薦 | 達宴"
         },
         {
-            "content": "好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/09/10",
-            "tokenization": ""
-        },
-        {
             "content": "營地關燈後完全無光害，萬籟俱寂中看到了另人感動的銀河和流星",
             "type": 1,
             "rating": 3,
             "publishedDate": "2017/08/18",
             "tokenization": "營地 | 關燈 | 無光害 | 萬籟俱寂 | 中 | 感動 | 銀河 | 流星"
-        },
-        {
-            "content": "營主服務好，待人親切",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/08/14",
-            "tokenization": "營主 | 服務好 | 待人 | 親切"
-        },
-        {
-            "content": "夜晚觀星的好地方",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/08/14",
-            "tokenization": "夜晚 | 觀星 | 地方"
         },
         {
             "content": "滿天星空。滿天星空 太讚了",
@@ -425,13 +306,6 @@
             "tokenization": "營主 | 親切 | 服務 | 建議 | 改善 | 營地 | 下雨 | 排水 | 狀況"
         },
         {
-            "content": "風景很棒！",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/05/30",
-            "tokenization": "風景 | 很棒"
-        },
-        {
             "content": "希望能改善排水或增加棧板以避免帳篷都泡在泥地中",
             "type": 1,
             "rating": 3,
@@ -444,13 +318,6 @@
             "rating": 3,
             "publishedDate": "2017/05/29",
             "tokenization": "景觀 | 無敵 | 但營 | 排水 | 差 | 三天 | 行程 | 中因 | 為 | 下雨 | 泡 | 泥 | 中 | 希望 | 改善"
-        },
-        {
-            "content": "環境整潔，營主熱誠。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/10",
-            "tokenization": "環境 | 整潔 | 營主 | 熱誠"
         }
     ]
 }

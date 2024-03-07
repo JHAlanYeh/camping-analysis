@@ -19,13 +19,6 @@
             "tokenization": "營主 | 營地 | 原始 | 營地 | 原始 | 適合想 | 體驗 | 傳統 | 露營 | 人帳 | 帳距離 | 露營 | 隔壁 | 帳 | 聊天 | 聊到 | 半夜 | 吵 | 不爽"
         },
         {
-            "content": "營主人很好!",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2023/12/18",
-            "tokenization": "營主"
-        },
-        {
             "content": "謝謝馬塔大Ma tatak文化露營區帶給我值得回味的體驗。前往馬塔大機露，路上同行夥伴機車出狀況，感謝營主協助聯繫車行，還幫我們把機車載下去維修。營區保留原始風貌，沒有過度開發，部落的居民也都很熱情熱心，值得推薦給大家！",
             "type": 1,
             "rating": 5,
@@ -47,46 +40,11 @@
             "tokenization": "營主 | 熱心 | 解說 | 景點 | 贈送 | 自種 | 蔬菜 | 給我們 | 享用 | 幸運 | 露友 | 分享 | 露營點 | 滴"
         },
         {
-            "content": "還不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/01/25",
-            "tokenization": "還不錯"
-        },
-        {
             "content": "營主很友善，營地乾淨，水溫穩。離烏來老街有段距離，建議自備食材烹煮(營地有冰箱)。",
             "type": 1,
             "rating": 4,
             "publishedDate": "2022/08/11",
             "tokenization": "營主 | 友善 | 營地 | 乾淨 | 水溫 | 穩 | 離烏來 | 老街 | 有段 | 距離 | 建議 | 自備 | 食材 | 烹煮 | 營地 | 冰箱"
-        },
-        {
-            "content": "很棒的營地",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/04/01",
-            "tokenization": "很棒 | 營地"
-        },
-        {
-            "content": "親切好溝通",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/01/21",
-            "tokenization": "親切 | 溝通"
-        },
-        {
-            "content": "營主熱心，衛浴乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/12/16",
-            "tokenization": "營主 | 熱心 | 衛浴 | 乾淨"
-        },
-        {
-            "content": "幽靜舒服的好環境",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/29",
-            "tokenization": "幽靜 | 舒服 | 環境"
         },
         {
             "content": "很天然的營區。營主很友善熱情，營地相當天然，景色優美!",
@@ -138,39 +96,11 @@
             "tokenization": "安靜 | 清幽 | 沒有入 | 營拔 | 營時間 | 舒適 | 營主 | 原住民 | 大哥 | 幽默 | 親切"
         },
         {
-            "content": "營主很親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/24",
-            "tokenization": "營主 | 親切"
-        },
-        {
-            "content": "營主熱情！",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/03/24",
-            "tokenization": "營主 | 熱情"
-        },
-        {
             "content": "原始的自然環境，真的讓人覺得舒服。。營區一群客人半夜喧嘩小孩也不約束半夜大吼大叫，讓我們兩點就起床陪著他們大眼瞪小眼的。",
             "type": 1,
             "rating": 3,
             "publishedDate": "2019/03/24",
             "tokenization": "原始 | 自然 | 環境 | 真的 | 人覺 | 舒服 | 營區 | 一群 | 客人 | 半夜 | 喧嘩 | 小孩 | 不約束 | 半夜 | 大吼大叫 | 兩點 | 起床 | 陪著 | 大眼瞪 | 小眼"
-        },
-        {
-            "content": "要用心經營才行",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2019/02/02",
-            "tokenization": "用心 | 經營 | 行"
-        },
-        {
-            "content": "很好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/03",
-            "tokenization": ""
         },
         {
             "content": "小朋友超喜歡那個盪鞦韆的",
@@ -236,13 +166,6 @@
             "tokenization": "楓樹下 | 搭 | 帳篷 | 別有 | 風味 | 秋天 | 楓紅 | 更美"
         },
         {
-            "content": "老闆服務態度很好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/26",
-            "tokenization": "老闆 | 服務態度"
-        },
-        {
             "content": "老闆很親切！風景超好！",
             "type": 1,
             "rating": 5,
@@ -262,13 +185,6 @@
             "rating": 5,
             "publishedDate": "2018/01/28",
             "tokenization": "小小 | 營區 | 景色 | 優美 | 老闆 | 人超 | 親切 | 值得 | 再來 | 喔"
-        },
-        {
-            "content": "老闆很好喔～",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/01/28",
-            "tokenization": "老闆 | 喔"
         },
         {
             "content": "就近接觸大自然 老闆很熱情",
@@ -320,13 +236,6 @@
             "tokenization": "營主 | 人超 | 現場 | 送 | 搭 | 藍 | 白天 | 幕 | 拯救 | 裝備 | 不全 | 新手 | 大感謝 | 多彩的 | 李子 | 酸 | 嘴裡 | 甜 | 心"
         },
         {
-            "content": "讓人很舒服的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/05",
-            "tokenization": "舒服 | 營區"
-        },
-        {
             "content": "浴廁比較少間以外，大致上都還不錯",
             "type": 1,
             "rating": 4,
@@ -369,13 +278,6 @@
             "tokenization": "自然 | 營區 | 太多 | 設備 | 舒服 | 環境 | 老闆 | 不錯 | 請 | 吃 | 香菇 | 適合 | 小團體 | 露營 | 喔 | 營地 | 一區楓 | 樹林及 | 一區 | 草地 | 棚子 | 公共 | 空間 | 小小 | 自然 | 營地 | 福山 | 玩水 | OK"
         },
         {
-            "content": "老闆很熱情。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/11",
-            "tokenization": "老闆 | 很熱情"
-        },
-        {
             "content": "環境清幽。衞浴設施比較少，人多時要排隊。",
             "type": 1,
             "rating": 3,
@@ -395,13 +297,6 @@
             "rating": 4,
             "publishedDate": "2016/12/01",
             "tokenization": "營主 | 老闆娘 | 熱情 | 溝通 | 二天 | 雨大 | 臨時 | 雨棚 | 區 | 謝謝 | 通融"
-        },
-        {
-            "content": "小巧營地，要防蚊",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2016/12/01",
-            "tokenization": "小巧 | 營地 | 要防 | 蚊"
         }
     ]
 }

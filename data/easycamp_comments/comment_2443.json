@@ -33,27 +33,6 @@
             "tokenization": "人生 | 首露 | 好營區 | 親切 | 營主"
         },
         {
-            "content": "很熱情的營主",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/06/30",
-            "tokenization": "很熱情 | 營主"
-        },
-        {
-            "content": "營區小而美，路況佳！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/05/04",
-            "tokenization": "營區 | 美 | 路況 | 佳"
-        },
-        {
-            "content": "服務很好",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/04/01",
-            "tokenization": "服務"
-        },
-        {
             "content": "營主客氣、營區乾淨、小而美",
             "type": 3,
             "rating": 5,
@@ -87,13 +66,6 @@
             "rating": 5,
             "publishedDate": "2022/10/16",
             "tokenization": "營主 | 親切 | 值得 | 露 | 營區"
-        },
-        {
-            "content": "溜滑梯太舊了",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/09/30",
-            "tokenization": "溜滑梯 | 太舊"
         },
         {
             "content": "good。營主帶玩水真讚，還有diy披薩",
@@ -208,20 +180,6 @@
             "tokenization": "營主 | 用心 | 貼心 | 環境 | 不錯 | 露營車 | 離遊 | 戲區 | 很棒 | 可惜 | 水池 | 沒開放 | 沙坑 | 溜滑梯 | 小固障"
         },
         {
-            "content": "適合親子露營",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/03/27",
-            "tokenization": "適合 | 親子 | 露營"
-        },
-        {
-            "content": "優質營區，值得推薦！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/03/17",
-            "tokenization": "優質 | 營區 | 值得 | 推薦"
-        },
-        {
             "content": "露營車初體驗。第一次帶小朋友住露營車，非常興奮，難得不用搭帳，享受輕輕鬆鬆的露營樂～真的是太棒了！",
             "type": 3,
             "rating": 5,
@@ -257,13 +215,6 @@
             "tokenization": "營主 | 大哥 | 親切 | 值得 | 推薦 | 一遊 | 謝謝 | 營主 | 大哥 | 這兩天 | 照顧 | 會過 | 寒問 | 暖 | 問看 | 幫忙 | 營主 | 大哥 | 自做 | 豆花 | 好吃 | 一遊 | 買來 | 吃 | 值得 | 推薦 | 營地 | 小孩 | 玩"
         },
         {
-            "content": "不錯",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2021/12/13",
-            "tokenization": "不錯"
-        },
-        {
             "content": "手作披薩跟麻吉一定要參加！很棒",
             "type": 3,
             "rating": 5,
@@ -276,13 +227,6 @@
             "rating": 5,
             "publishedDate": "2021/10/19",
             "tokenization": "草皮 | 大片 | 孩子 | 跑跳 | 開心 | 浴廁 | 衛生 | 環境 | 維護 | 很勤 | 露營車 | 前 | 大片 | 草地 | 孩子 | 開心 | 跑跳 | 唯一一 | 小小的 | 缺點 | 當天 | 晚上 | 露營 | 車裡面 | 睡 | 覺時 | 有大 | 螞蟻 | 爬 | 身上 | 不曉得 | 是否是 | 因為 | 前 | 一組 | 客人 | 遵守 | 營主 | 禁止 | 露營車 | 飲食 | 導致 | 大螞蟻 | 車子裡面 | 整體 | 說 | 不錯 | 營地"
-        },
-        {
-            "content": "下次還要再去。",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/10/06",
-            "tokenization": "下次"
         },
         {
             "content": "半夜狗侵襲帳篷，嚴重打擾睡眠。半夜3-4點左右一隻狗在我們營地繞圈，發出低吼的聲音，還壓住我們的帳篷，隔天早上一出帳篷，發現狗把電風扇弄倒，露友的鞋子散落各處，簡直像戰場一樣，應該把畫面拍攝下來...我只好默默的收拾殘局",
@@ -313,13 +257,6 @@
             "tokenization": "值得 | 再訪 | 營區 | 老闆 | 親切 | 勤快 | 巡視 | 營區 | 搗 | 麻 | 糬 | 動 | 有趣 | 大人 | 小孩 | 開心露 | 營車 | 乾淨 | 唯衛浴 | 一間 | 故障 | 沒熱水 | 間 | 熱水 | 夠熱 | 水夠 | 強不影響 | 興致 | 回訪"
         },
         {
-            "content": "優質營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/07/09",
-            "tokenization": "優質 | 營區"
-        },
-        {
             "content": "推薦。交通方便,環境整潔",
             "type": 3,
             "rating": 5,
@@ -341,25 +278,11 @@
             "tokenization": "回訪 | 營區 | 冷凍櫃 | 乾淨度 | 改善"
         },
         {
-            "content": "還會二訪。位子很大",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/12/11",
-            "tokenization": "還會 | 二訪 | 位子 | 很大"
-        },
-        {
             "content": "很棒，還會想來。親子活動（烤披薩）很讚爸媽還能在營區按摩很放鬆衛浴乾淨～",
             "type": 3,
             "rating": 5,
             "publishedDate": "2020/11/22",
             "tokenization": "很棒 | 還會 | 想 | 親子 | 活動 | 烤 | 披薩 | 讚 | 爸 | 媽 | 營 | 區 | 按摩 | 放 | 鬆 | 衛 | 浴 | 乾 | 淨"
-        },
-        {
-            "content": "那天獨包場耶",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/11/21",
-            "tokenization": "那天 | 獨包場 | 耶"
         },
         {
             "content": "整體來說都不錯，唯一的缺點就是我真的無法忍受小孩子超過 10 點還在那跑跑跳跳。",
@@ -369,53 +292,11 @@
             "tokenization": "整體 | 說 | 不錯 | 唯一 | 缺點 | 真的 | 忍受 | 小孩子 | 超過 | 10 | 點還 | 跑跑跳跳"
         },
         {
-            "content": "營區營位寬敞 很舒適",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/10/25",
-            "tokenization": "營區 | 營位 | 寬 | 敞 | 很舒適"
-        },
-        {
-            "content": "是一個不錯的地方",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/10/13",
-            "tokenization": "不錯 | 地方"
-        },
-        {
             "content": "親切的營主夫婦、小而美的營區、廁所很乾淨、會再來喔！",
             "type": 3,
             "rating": 5,
             "publishedDate": "2020/10/11",
             "tokenization": "親切 | 營主 | 夫婦 | 小而 | 美的 | 營區 | 廁所 | 乾淨 | 喔"
-        },
-        {
-            "content": "很值得去的營區",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2020/08/05",
-            "tokenization": "值得 | 營區"
-        },
-        {
-            "content": "很值得去的營區",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2020/08/05",
-            "tokenization": "值得 | 營區"
-        },
-        {
-            "content": "營區乾淨~設備完善",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2020/08/02",
-            "tokenization": "營區 | 乾淨 | 設備 | 完善"
-        },
-        {
-            "content": "營區乾淨 設備完善",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/08/02",
-            "tokenization": "營區 | 乾淨 | 設備 | 完善"
         },
         {
             "content": "非常推薦的營區~想在不同季節都去一遍。首露的我們選在「美腿山親子露營區」由於我們是夫婦兩人自己前往出發前做了很多功課，很擔心功課做不足或是少帶東西....等。帶著茫然的心情一到營地遇到老闆娘給我們燦爛的微笑還有詳細的解說，若有問題隨時可以找他們老闆和老闆娘都會在營區巡視，使我們放心不少~對了，營區也能預約做披薩~看了網路分享都說披薩好玩又好吃可惜我們這趟去沒有做到，剛剛好給自己下一次在去的理由XD整體來說:環境很棒、浴室也很清潔、若有需要甚麼都可以找營主營主夫婦很棒，相處起來就像朋友一樣!!真的很NICE~~~",
@@ -451,20 +332,6 @@
             "rating": 5,
             "publishedDate": "2020/03/26",
             "tokenization": "環境 | 乾淨 | 營主 | 還會 | 活動 | 小孩 | 玩 | 開心"
-        },
-        {
-            "content": "還不賴。冰箱有些雜亂",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/12/19",
-            "tokenization": "還不賴 | 冰箱 | 雜亂"
-        },
-        {
-            "content": "老闆人很好",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/10/13",
-            "tokenization": "老闆"
         },
         {
             "content": "很親切。訂的Pizza 很好吃去的時候給我們一大碗麵隔天的早上還給我們很多冰豆漿真的太親切哪裡天氣晴朗天空很美",
@@ -572,20 +439,6 @@
             "tokenization": "老闆 | 人超 | nice"
         },
         {
-            "content": "環境不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/01/04",
-            "tokenization": "環境 | 不錯"
-        },
-        {
-            "content": "下次會再來",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/01/02",
-            "tokenization": "下次"
-        },
-        {
             "content": "這次三天二夜的跨年露營，還有煙火秀，真是太棒了",
             "type": 3,
             "rating": 5,
@@ -614,32 +467,11 @@
             "tokenization": "Diy | pizza | 好吃 | 營主 | 很熱心"
         },
         {
-            "content": "營位很大 不會帳連",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/12/20",
-            "tokenization": "營位 | 很大 | 帳連"
-        },
-        {
             "content": "營主很熱心 營地小而美 交通很便利",
             "type": 3,
             "rating": 4,
             "publishedDate": "2018/12/09",
             "tokenization": "營主 | 很熱心 | 營地 | 美 | 交通 | 便利"
-        },
-        {
-            "content": "用心經營的營主~",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/20",
-            "tokenization": "用心 | 經營 | 營主"
-        },
-        {
-            "content": "新營區，乾淨好營主。",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/13",
-            "tokenization": "新營區 | 乾淨 | 營主"
         },
         {
             "content": "老闆與老闆娘為人親切！。洗手檯的水龍頭應該要在往前ㄧ點，不然洗起來腰痠背痛！",
@@ -654,13 +486,6 @@
             "rating": 4,
             "publishedDate": "2018/11/05",
             "tokenization": "舒服 | 營地 | 11 | 月份 | 到訪 | 舒服 | 區 | 小黑 | 蚊 | 區不 | 依樣"
-        },
-        {
-            "content": "很熱情的營主",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/05",
-            "tokenization": "很熱情 | 營主"
         },
         {
             "content": "營主認真負責。營主一家人很熱情友善，浴廁滿乾淨的，窯烤pizza好吃！唯半夜有狗吠聲～不過不太影響我們的好興致",
@@ -745,13 +570,6 @@
             "rating": 5,
             "publishedDate": "2018/07/31",
             "tokenization": "下次 | 營區 | 營主 | 親切 | 環境 | 優美 | 交通 | 值得 | 再來"
-        },
-        {
-            "content": "營主很用心，大推！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/07/21",
-            "tokenization": "營主 | 用心 | 推"
         },
         {
             "content": "女廁洗澡熱水會忽冷忽熱，建議可以多放水桶接水，就不會浪費冷水了",

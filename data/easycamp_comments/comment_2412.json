@@ -12,27 +12,6 @@
     "longitude": 120.5284011,
     "comments": [
         {
-            "content": "環境及營主不錯，推薦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/11",
-            "tokenization": "環境 | 營主 | 不錯 | 推薦"
-        },
-        {
-            "content": "環境及營主不錯，推薦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/11",
-            "tokenization": "環境 | 營主 | 不錯 | 推薦"
-        },
-        {
-            "content": "環境及營主不錯，推薦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/11",
-            "tokenization": "環境 | 營主 | 不錯 | 推薦"
-        },
-        {
             "content": "營主親切溫暖，可遇不可求！。1.露營場地乾淨整潔是讓人心情愉悅的先決條件。2.營主用心經營，不斷添加園內設施，舖設道路，提供優良服務，是回讓人再次造訪的重要考慮。3.浴廁乾淨真的很重要‼️4.親自來一趟，茂升山林，必能留下美好回憶。",
             "type": 1,
             "rating": 5,
@@ -117,13 +96,6 @@
             "tokenization": "營主 | 姊姊 | 這兩天 | 感謝"
         },
         {
-            "content": "蚊子多",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/10/19",
-            "tokenization": "蚊子"
-        },
-        {
             "content": "很清幽，很棒的營地。現場環境整潔，營主熱情，晚上怕有蚊子還會詢問是否要蚊香或捕蚊燈。浴廁乾淨寬敞，且熱水供給無虞，水壓也夠大。會讓人想再來的營地!",
             "type": 1,
             "rating": 5,
@@ -157,13 +129,6 @@
             "rating": 5,
             "publishedDate": "2019/03/10",
             "tokenization": "營主 | 一家人 | 真的 | 超熱心 | 一家人 | 感覺"
-        },
-        {
-            "content": "很讚營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/12",
-            "tokenization": "讚 | 營 | 區"
         },
         {
             "content": "處處可見營主的用心，從設施、用水、廢水排放都有考量。",

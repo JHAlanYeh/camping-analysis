@@ -31,13 +31,6 @@
             "tokenization": "營區 | 狀況 | 不錯 | 營主"
         },
         {
-            "content": "場地乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/10/29",
-            "tokenization": "場地 | 乾淨"
-        },
-        {
             "content": "會再回訪的營區。營主很熱心,也很勤快打掃,浴廁稍微小間,但乾淨熱水夠熱,水壓稍稍微不穩定,要自行調整下,手機收訊很好,設施很齊全,小朋友玩得很開心",
             "type": 3,
             "rating": 5,
@@ -66,46 +59,11 @@
             "tokenization": "第一 | 露 | 值得 | 推薦 | 第一 | 露選擇 | 廁所 | 乾淨 | 營主 | 親切"
         },
         {
-            "content": "環境優",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/01/26",
-            "tokenization": "環境 | 優"
-        },
-        {
-            "content": "環境優",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/01/26",
-            "tokenization": "環境 | 優"
-        },
-        {
             "content": "小而美的營區~會再想去!",
             "type": 3,
             "rating": 5,
             "publishedDate": "2022/11/29",
             "tokenization": "小而 | 美的 | 營區 | 想"
-        },
-        {
-            "content": "營區及衛浴設備乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/10/19",
-            "tokenization": "營區 | 衛浴 | 設備 | 乾淨"
-        },
-        {
-            "content": "還不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/09/26",
-            "tokenization": "還不錯"
-        },
-        {
-            "content": "還不錯～",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/09/26",
-            "tokenization": "還不錯"
         },
         {
             "content": "營主很熱情，雨棚有提供桌椅很舒適方便，就是廁所使用到隔天後沒有及時清潔味道就跑出來了~",
@@ -120,13 +78,6 @@
             "rating": 5,
             "publishedDate": "2022/04/26",
             "tokenization": "整理 | 乾淨 | 漂亮 | 營區 | 營區 | 乾淨 | 雨棚 | 超大 | 腳踏車給 | 小朋友 | 騎 | 畫畫 | 蚊子 | 蒼蠅 | 適合 | 新手 | 露營"
-        },
-        {
-            "content": "浴廁非常乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/04/24",
-            "tokenization": "浴廁 | 乾淨"
         },
         {
             "content": "F區2帳包區埸地很合適。",

@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E4%B8%80%E7%95%9D%E7%94%B0%E9%9C%B2%E7%87%9F%E5%8D%80(%E8%93%AE%E8%8A%B1%E5%B8%B3%2F%E7%8B%A9%E7%8D%B5%E5%B8%B3)/@24.5435838,120.9708814,17z/data=!3m1!4b1!4m6!3m5!1s0x346853e9abbe4b45:0xa4befbcf0d6b9d68!8m2!3d24.5435838!4d120.9734563!16s%2Fg%2F11f1r33tyg?authuser=0&entry=ttu",
     "latitude": "24.5435838",
     "longitude": "120.9708814",
-    "type": 0,
+    "type": 2,
     "expect_count": 856,
     "actual_count": 649,
     "comments": [
@@ -121,12 +121,6 @@
             "rating": 5,
             "publishedDate": "2024/02/09",
             "tokenization": "營區 | 環境 | 乾淨免 | 搭 | 帳有 | 冷氣 | 輕 | 鬆 | 露 | 營 | 選 | 擇"
-        },
-        {
-            "content": "熱情的老闆跟老闆娘⋯你怎能不愛這裡呢？",
-            "rating": 5,
-            "publishedDate": "2024/02/09",
-            "tokenization": "熱情 | 老闆 | 老闆娘 | 怎能不 | 愛這裡"
         },
         {
             "content": "環境還不錯，天氣好能看到星星廁所很乾淨，洗澡也很舒適，但好像不是每間浴室的水都很穩定，朋友說她那間水忽冷忽熱，另外凌晨三點貓咪吵架 鬼哭神嚎還跑到帳篷抓抓抓，吵得都無法睡覺貓咪有帶項圈，應該有人養但感覺是放養…應該要管理一下比較好其他方面都還不錯～",

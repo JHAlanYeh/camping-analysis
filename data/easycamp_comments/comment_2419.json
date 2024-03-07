@@ -12,27 +12,6 @@
     "longitude": 121.588379,
     "comments": [
         {
-            "content": "夜景超美，老闆人超好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2024/01/07",
-            "tokenization": "夜景 | 超美 | 老闆 | 人超"
-        },
-        {
-            "content": "營區整理的很乾淨。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/12/21",
-            "tokenization": "營區 | 整理 | 乾淨"
-        },
-        {
-            "content": "營主親切，營區乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/07/01",
-            "tokenization": "營主 | 親切 | 營區 | 乾淨"
-        },
-        {
             "content": "很棒的露營體驗，營主夫妻很親切 、熱情，下次還會再去！",
             "type": 1,
             "rating": 5,
@@ -45,20 +24,6 @@
             "rating": 5,
             "publishedDate": "2023/01/31",
             "tokenization": "太平山 | 最佳 | 落腳 | 休息 | 地點 | 感受 | 營主 | 用心 | 夜景 | 迷人 | 車露 | 當天 | 寒流 | 感謝 | 營主 | 冷 | 餓 | 請 | 喝 | 熱湯 | 熱米 | 飯 | 雪中 | 送 | 碳 | 食物 | 真的 | 美味 | 溫暖 | 身心 | 營地 | 乾淨 | 整齊 | 垃圾 | 分類 | 回收 | 感受 | 深愛 | 大自然 | 氛圍 | 夏諾營 | 渡過 | 舒 | 適寧靜 | 一晚 | 隔天 | 開車 | 約 | 小時 | 抵達 | 太平山 | 國家 | 公園 | 真的 | 超推薦"
-        },
-        {
-            "content": "超讚的 下次還會再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/08/01",
-            "tokenization": "超 | 讚 | 下次 | 還會"
-        },
-        {
-            "content": "超讚的 下次還會再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/08/01",
-            "tokenization": "超 | 讚 | 下次 | 還會"
         },
         {
             "content": "每一帳都是第一排。營主熱情，現場每一帳都是第一排，風景優美",
@@ -75,13 +40,6 @@
             "tokenization": "舒適 | 充滿 | 人情味 | 營地"
         },
         {
-            "content": "Good",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/03/18",
-            "tokenization": "Good"
-        },
-        {
             "content": "又再次入住，因為廁所乾淨，環境優美，營主非常好",
             "type": 1,
             "rating": 5,
@@ -96,13 +54,6 @@
             "tokenization": "環境 | 優美 | 營主 | 熱情 | 廁所 | 乾淨"
         },
         {
-            "content": "交通便利，簡單乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "交通 | 便利 | 簡單 | 乾淨"
-        },
-        {
             "content": "老闆超熱心。熱心親切的老闆及老闆娘！雖然這次露營遇到颱風狂風暴雨，還帶了一組初露的朋友，但是很棒的體驗！營主人很好，夜景很美，有機會會再來！",
             "type": 1,
             "rating": 5,
@@ -115,13 +66,6 @@
             "rating": 5,
             "publishedDate": "2021/11/08",
             "tokenization": "熱情 | 開朗 | 老闆 | 老闆娘 | 超乾淨 | 美麗 | 環境 | 浴廁 | 感謝 | 用心 | 付出 | 擁有 | 無價 | 美好 | 回憶"
-        },
-        {
-            "content": "Good",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2021/09/13",
-            "tokenization": "Good"
         },
         {
             "content": "真的是一個非常棒的營區。營主真的是非常的親切，而且衛浴清洗的非常的乾淨，且環境真的是很適合孩子們玩樂，有溜滑梯、盪鞦韆，還有小型的水池讓孩子在炎炎夏日可以玩水，真的是很棒的地方，唯一一個小小需要改進的地方，可能就是最一開始路口的指標可能需要大一點，因為像我們夜衝的話，可能會比較看不清楚，其餘一切都太棒了，謝謝營主提供這麼不錯的地方讓我們玩樂，謝謝",
@@ -150,13 +94,6 @@
             "rating": 5,
             "publishedDate": "2021/03/01",
             "tokenization": "營主 | 夫婦 | 熱情 | 勤 | 整理 | 營地 | 有蘭陽 | 平原 | 好景 | 整體 | 舒適 | 浴廁 | 乾淨"
-        },
-        {
-            "content": "環境優美可升炭火",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/01/29",
-            "tokenization": "環境 | 優美 | 可升 | 炭火"
         },
         {
             "content": "風景非常漂亮的營區。進入營區的指示要再多規劃一下..不小心就開過頭..",
@@ -194,13 +131,6 @@
             "tokenization": "舒服 | 營地 | 會想 | 推薦給 | 友人"
         },
         {
-            "content": "營區風景好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/11/13",
-            "tokenization": "營區 | 風景"
-        },
-        {
             "content": "風景美麗又整潔清爽的營地，營主人超好！",
             "type": 1,
             "rating": 5,
@@ -213,34 +143,6 @@
             "rating": 5,
             "publishedDate": "2019/09/18",
             "tokenization": "風 | 景美 | 麗 | 整潔 | 清爽 | 營地 | 營主 | 人超"
-        },
-        {
-            "content": "營主夫婦人好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/09/06",
-            "tokenization": "營主 | 夫婦"
-        },
-        {
-            "content": "老闆非常熱心，讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/04/28",
-            "tokenization": "老闆 | 熱心 | 讚"
-        },
-        {
-            "content": "營主非常好相處",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/13",
-            "tokenization": "營主 | 相處"
-        },
-        {
-            "content": "營區乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/11",
-            "tokenization": "營區 | 乾淨"
         },
         {
             "content": "View 讚，營主老闆親切。這次露營經驗很棒，老闆和老闆娘親切隨和，營地景觀可看夜景及日初，衛浴乾淨，推！推！",
@@ -257,32 +159,11 @@
             "tokenization": "適合 | 計畫 | 前往 | 太平山 | 遊玩 | 露營 | 外食 | 採買 | 營主 | 夫妻 | 好客 | 會想 | 再訪 | 營地"
         },
         {
-            "content": "景觀很棒的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/09",
-            "tokenization": "景觀 | 很棒 | 營區"
-        },
-        {
             "content": "營主對環境非常用心，熱心。",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/06",
             "tokenization": "營主 | 環境 | 用心 | 熱心"
-        },
-        {
-            "content": "超棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/20",
-            "tokenization": "超棒"
-        },
-        {
-            "content": "寬闊大景",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/01/07",
-            "tokenization": "寬闊 | 大景"
         },
         {
             "content": "營主很熱心，值得推薦的好地方",

@@ -24,46 +24,11 @@
             "tokenization": "營主 | 貼心 | 客氣會 | 提醒 | 前來 | 關心 | 衛浴 | 乾淨 | 不跟人 | 共用 | 整體 | 錯會 | 想 | 二訪 | 營區"
         },
         {
-            "content": "感謝營主的用心。謝謝",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/10/31",
-            "tokenization": "感謝 | 營主 | 用心 | 謝謝"
-        },
-        {
             "content": "很棒的露營區。。露營區的環境都維持的超乾淨的，不論是廁所還是冰箱還是水槽都很乾淨，唯一的缺點是以B區的場地已經很小了，還收到8帳每帳都快黏在一起，晚上來隔壁帳講話都好明顯，還好這次被排到最旁邊位子算大了。。除了帳位真的太擠其它的都很好哦。很喜歡的露營區",
             "type": 1,
             "rating": 5,
             "publishedDate": "2023/10/16",
             "tokenization": "很棒 | 露營區 | 露營區 | 環境 | 超乾淨 | 廁所 | 冰箱 | 水槽 | 乾淨 | 唯一 | 缺點 | B | 區的場 | 很小 | 收到 | 帳每帳 | 黏在 | 晚上 | 隔壁 | 帳講 | 話 | 還好 | 排到 | 旁邊 | 位子 | 算大 | 帳位 | 真的 | 太擠 | 喜歡 | 露營區"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/06/26",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "是個不錯的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/06/26",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "是個不錯的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/06/26",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "不錯喔",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/06/26",
-            "tokenization": "不錯 | 喔"
         },
         {
             "content": "風景優美。風景很美，營主老闆娘很熱情，衛浴設備裝潢新，值得推是個不錯的露營區",
@@ -115,13 +80,6 @@
             "tokenization": "很棒 | 營區 | 旁邊 | 森林 | 步 | 道 | 走 | 浴廁 | 乾淨 | 推推"
         },
         {
-            "content": "很棒的風景",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/08/29",
-            "tokenization": "很棒 | 風景"
-        },
-        {
             "content": "值得再訪的露營區！。營主親切熱情，營地整體環境乾淨整潔，景色優美！",
             "type": 1,
             "rating": 5,
@@ -148,20 +106,6 @@
             "rating": 5,
             "publishedDate": "2022/04/18",
             "tokenization": "風景 | 不錯 | 老闆娘 | 快速"
-        },
-        {
-            "content": "一定會再回訪的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/04/09",
-            "tokenization": "回訪 | 營地"
-        },
-        {
-            "content": "老闆娘親切。乾淨",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/03/14",
-            "tokenization": "老闆娘 | 親切 | 乾淨"
         },
         {
             "content": "很溫馨，很乾淨，風景漂亮，營主熱情",
@@ -197,13 +141,6 @@
             "rating": 5,
             "publishedDate": "2022/01/17",
             "tokenization": "小而 | 美的 | 營區 | 舒服 | 喜歡 | 垃圾桶 | 設置 | 完善 | 外來 | 動物 | 干擾 | 很棒 | 喔"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/12/12",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "營主人很好，防疫做的確實。 營區只收10帳適合喜歡寧靜露營的人，風景超棒，廁所很乾淨，近雅吾瑪步道。",

@@ -33,39 +33,11 @@
             "tokenization": "營區 | 衛浴 | 設備 | 建議 | 乾淨"
         },
         {
-            "content": "好棒。不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/10/13",
-            "tokenization": "好棒 | 不錯"
-        },
-        {
             "content": "整體還算可以，風景特別讚。路程還算好開，不會很崎嶇營區營位不算大  但還算夠露設施的話真的就是普通，基本該有的都有蚊蟲比想像中多，被叮了不少還有蜘蛛也蠻多的浴室也有些蟲蟲，但熱水倒是很夠熱此外不得不提白天的風景真的有夠讚！早上日光曬遍山頭，下午雲霧繚繞晚上抬頭滿滿的星空海，生平第一次看到這麼扯爆多的星星整體還算可以，如果蚊蟲可以少一點的話就完美了",
             "type": 1,
             "rating": 5,
             "publishedDate": "2022/09/27",
             "tokenization": "整體 | 還算 | 風景特 | 讚 | 路程 | 還算 | 開 | 很崎嶇 | 營區 | 營位 | 不算 | 還算夠 | 露 | 設施 | 話 | 真的 | 蚊蟲 | 想像中 | 叮 | 蜘蛛 | 浴室 | 蟲蟲 | 熱水 | 倒 | 夠熱 | 提 | 白天 | 風景 | 真的 | 夠 | 讚 | 早上 | 日光 | 曬 | 遍山 | 頭 | 下午 | 雲霧 | 繚繞 | 晚上 | 抬頭 | 滿滿 | 星空 | 海 | 生平 | 第一次 | 扯 | 爆多 | 星星 | 整體 | 還算 | 蚊蟲 | 少一點 | 話 | 完美"
-        },
-        {
-            "content": "很棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/08/12",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "場地很普通",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2022/05/10",
-            "tokenization": "場地"
-        },
-        {
-            "content": "景觀開闊",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/01/03",
-            "tokenization": "景觀 | 開闊"
         },
         {
             "content": "景觀佳, 營位腹地較, 不適合小孩.",
@@ -89,20 +61,6 @@
             "tokenization": "營區 | 收帳 | 腐爛 | 落葉 | 建議 | 營主 | 需 | 整理 | 營區 | 帳數 | 廁所 | 人數 | 廁所 | 洗澡 | 排隊 | 有人 | 整理 | 垃圾桶 | 滿出 | 風景 | 心情 | 並不美麗"
         },
         {
-            "content": "值得再去",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/11/12",
-            "tokenization": "值得"
-        },
-        {
-            "content": "安靜的營地",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/10/27",
-            "tokenization": "安靜 | 營地"
-        },
-        {
             "content": "衛浴沒衛生紙沒吹風機，洗澡是冷水，不能同時兩間開熱水，廁所衛生紙都滿出來了，垃圾袋沒有每天更換。",
             "type": 1,
             "rating": 3,
@@ -117,13 +75,6 @@
             "tokenization": "老闆 | 服務好 | 熱水 | 瓦斯 | 馬 | 更換"
         },
         {
-            "content": "風景美 老闆親切",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/04/16",
-            "tokenization": "風 | 景美 | 老闆 | 親切"
-        },
-        {
             "content": "有景的好地方。風景優美",
             "type": 1,
             "rating": 4,
@@ -136,13 +87,6 @@
             "rating": 5,
             "publishedDate": "2018/11/14",
             "tokenization": "營區 | 老板 | 熱情 | 景觀 | 第一排 | 朋友 | 介紹 | 營區 | 景觀 | 優 | 朋友 | 第一次 | 說 | 不錯 | 下次 | 還會 | 老闆 | 熱情 | 朋友 | 說 | 下次 | 給他 | 包場 | 冬天 | 更好"
-        },
-        {
-            "content": "景點讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/08",
-            "tokenization": "景 | 點 | 讚"
         },
         {
             "content": "碎石去下雨不會積水，沒蚊子，晚上涼，好睡覺，",
@@ -173,25 +117,11 @@
             "tokenization": "營區 | 老闆 | 熱心 | 親切 | 顧慮 | 露友 | 小孩"
         },
         {
-            "content": "覺得可以多一點設備",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/07/14",
-            "tokenization": "多一點 | 設備"
-        },
-        {
             "content": "近公路，方便採買。老闆很好，又有免費新鮮現採龍鬚菜可品嚐，景色宜人，空氣清新",
             "type": 1,
             "rating": 5,
             "publishedDate": "2018/07/11",
             "tokenization": "公路 | 採買 | 老闆 | 免費 | 新鮮 | 現採 | 龍 | 鬚 | 菜 | 品嚐 | 景色宜人 | 空氣 | 清新"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/07/11",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "若能增購護草墊的話，會更棒",
@@ -213,20 +143,6 @@
             "rating": 5,
             "publishedDate": "2018/05/21",
             "tokenization": "營 | 地主 | 親切 | 設備 | 景觀 | 推薦"
-        },
-        {
-            "content": "營區環境很棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/05/01",
-            "tokenization": "營區 | 環境 | 很棒"
-        },
-        {
-            "content": "熱水水壓不穩、",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2018/04/08",
-            "tokenization": "熱水水壓 | 不穩"
         },
         {
             "content": "營地主人親切，衛浴設備乾淨！",
@@ -264,13 +180,6 @@
             "tokenization": "老闆 | 態度 | 不錯 | 滿熱情 | 景色 | 方位 | 可惜 | 一點"
         },
         {
-            "content": "位置大一點更好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/12/30",
-            "tokenization": "位置 | 大一點 | 更好"
-        },
-        {
             "content": "地點方便，景觀美。希望浴廁可以加強清潔，營位規畫再寬鬆一點更佳",
             "type": 1,
             "rating": 4,
@@ -285,32 +194,11 @@
             "tokenization": "環境 | 優 | 營主 | 熱忱 | 環境 | 優 | 營主 | 熱忱"
         },
         {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/30",
-            "tokenization": "讚"
-        },
-        {
-            "content": "休閒觀星的好地方",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/10/13",
-            "tokenization": "休閒 | 觀星 | 地方"
-        },
-        {
             "content": "假日太擁擠。營位安排太擁擠，沒有小孩活動的空間",
             "type": 1,
             "rating": 3,
             "publishedDate": "2017/10/11",
             "tokenization": "假日 | 太擁 | 擠 | 營位 | 安排 | 太擁 | 擠 | 小孩 | 活動 | 空間"
-        },
-        {
-            "content": "老闆很暖心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/10",
-            "tokenization": "老闆 | 很暖心"
         },
         {
             "content": "高海拔秋高氣爽，這時候來氣候宜人。。國慶連假北上，慶幸沒有遇到塞車，一路順暢抵達營區，出到下了點滴細雨，還好不影響搭帳，只是B區空間比圖示有所落差，容納四帳很勉強，還好我家Kitty 小天幕才不至於與鄰居相鄰，小孩玩耍空間受限，建議營區增設小孩放風區。",
@@ -325,13 +213,6 @@
             "rating": 4,
             "publishedDate": "2017/09/29",
             "tokenization": "廁 | 提供 | 衛生紙 | 完美"
-        },
-        {
-            "content": "環境，空氣很棒！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/09/25",
-            "tokenization": "環境 | 空氣 | 很棒"
         },
         {
             "content": "老板人很親切，服務好！",

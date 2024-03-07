@@ -52,32 +52,11 @@
             "tokenization": "老闆娘 | 服務 | 友善 | 快速 | 可攜 | 小型 | 犬不入 | 場帳 | 良心 | 商店 | 有物資 | 支援 | 值得"
         },
         {
-            "content": "地點很好，很放鬆",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/04/06",
-            "tokenization": "地點 | 放 | 鬆"
-        },
-        {
-            "content": "服務好，老闆娘很熱心",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/04/06",
-            "tokenization": "服務好 | 老闆娘 | 很熱心"
-        },
-        {
             "content": "風景很好，晚上有百萬夜景",
             "type": 2,
             "rating": 5,
             "publishedDate": "2023/04/06",
             "tokenization": "風景 | 晚上 | 有百萬 | 夜景"
-        },
-        {
-            "content": "床和廁所都很乾淨",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/04/06",
-            "tokenization": "床 | 廁所 | 乾淨"
         },
         {
             "content": "服務好，風景好，床和廁所都很乾淨",
@@ -94,32 +73,11 @@
             "tokenization": "超 | 讚 | 超 | 讚 | 大自然 | 舒服 | 老闆娘"
         },
         {
-            "content": "讚",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/03/02",
-            "tokenization": "讚"
-        },
-        {
             "content": "交通方便、衛浴設施也很棒，值得推薦",
             "type": 2,
             "rating": 5,
             "publishedDate": "2023/02/10",
             "tokenization": "交通 | 衛浴 | 設施 | 很棒 | 值得 | 推薦"
-        },
-        {
-            "content": "感謝營主的貼心照顧",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/02/01",
-            "tokenization": "感謝 | 營主 | 貼 | 心照 | 顧"
-        },
-        {
-            "content": "讚讚讚。讚讚讚",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2023/01/22",
-            "tokenization": "讚 | 讚 | 讚 | 讚 | 讚 | 讚"
         },
         {
             "content": "山路較小條且陡，但是山上的景觀真的很不錯，且營地大有些區域能享有包區的感覺，營主們人也很好!",
@@ -136,39 +94,11 @@
             "tokenization": "設施 | 新 | 自然 | 景觀 | 很棒 | 營區 | 天氣 | 好多 | 星星 | 令人 | 想 | 再造 | 訪 | 營區"
         },
         {
-            "content": "烤雞很好吃",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/09/26",
-            "tokenization": "烤 | 雞 | 好吃"
-        },
-        {
             "content": "營主服務親切，狩蠟帳房間內部及共用浴廁乾淨，下次還想再去露營。",
             "type": 2,
             "rating": 5,
             "publishedDate": "2022/08/31",
             "tokenization": "營主 | 服務 | 親切 | 狩蠟帳 | 房間 | 內部 | 共用 | 浴 | 廁乾淨 | 下次 | 還想 | 露營"
-        },
-        {
-            "content": "風景很棒",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2022/08/25",
-            "tokenization": "風景 | 很棒"
-        },
-        {
-            "content": "風景好",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2022/08/25",
-            "tokenization": "風景"
-        },
-        {
-            "content": "風景不錯",
-            "type": 2,
-            "rating": 4,
-            "publishedDate": "2022/08/25",
-            "tokenization": "風景 | 不錯"
         },
         {
             "content": "廁所衛浴明亮乾淨，狩獵帳也非常舒適，百萬夜景不容錯過，營主夫妻很親切",
@@ -183,13 +113,6 @@
             "rating": 5,
             "publishedDate": "2022/07/27",
             "tokenization": "真的 | 超喜歡 | 第二次 | 露營 | 營主 | 相處 | 親切 | 舒服 | 冷氣 | 泳池 | 夜景 | 真的 | 值得 | 試試"
-        },
-        {
-            "content": "水質有待加強",
-            "type": 2,
-            "rating": 3,
-            "publishedDate": "2022/07/25",
-            "tokenization": "水質 | 有待"
         },
         {
             "content": "老闆老闆娘人超好、環境優美漂亮、真是一個放鬆渡假的好地方",
@@ -246,20 +169,6 @@
             "rating": 5,
             "publishedDate": "2022/05/22",
             "tokenization": "營主 | 熱情 | 手工 | 做 | 麵 | 包 | 很棒 | 添加 | 不必要 | 東西 | 吃 | 麵 | 包 | 原味 | 景色 | 很棒 | 天氣 | 狀況 | 佳 | 滿天 | 星空 | 雲海 | 營區 | 腹地 | 適合 | 三五 | 好友 | 營區 | 內部 | 昆蟲 | 適合帶 | 小朋友 | 昆蟲"
-        },
-        {
-            "content": "做事仔細清楚",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/05/16",
-            "tokenization": "做事 | 仔細"
-        },
-        {
-            "content": "服務人員很親切",
-            "type": 2,
-            "rating": 5,
-            "publishedDate": "2022/05/16",
-            "tokenization": "服務人員 | 親切"
         }
     ]
 }

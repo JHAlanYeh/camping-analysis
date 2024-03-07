@@ -26,27 +26,6 @@
             "tokenization": "環境 | 優 | 放 | 鬆 | 心情 | 地方"
         },
         {
-            "content": "很棒的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2023/01/06",
-            "tokenization": "很棒 | 營區"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2022/09/12",
-            "tokenization": "讚"
-        },
-        {
-            "content": "一搬",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2022/07/31",
-            "tokenization": "搬"
-        },
-        {
             "content": "一搬。下雨排水性很差 積水嚴重⋯",
             "type": 1,
             "rating": 3,
@@ -82,20 +61,6 @@
             "tokenization": "碎石 | C | 區廁 | 排放 | 管路 | 建議 | 往下 | 加長 | 不好 | 味道 | 漂上 | 碎石 | 地建議 | 改成 | 草皮"
         },
         {
-            "content": "營主很熱心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/24",
-            "tokenization": "營主 | 很熱心"
-        },
-        {
-            "content": "有待加強",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2019/02/27",
-            "tokenization": "有待"
-        },
-        {
             "content": "營主夫妻很不錯。除了路況外其他都不錯。建議初次去該地的白天先進入放東西。",
             "type": 1,
             "rating": 4,
@@ -103,25 +68,11 @@
             "tokenization": "營主 | 夫妻 | 很不錯 | 路況 | 外 | 不錯 | 建議 | 初次 | 白天 | 先 | 放東西"
         },
         {
-            "content": "整潔乾淨值得推薦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/15",
-            "tokenization": "整潔 | 乾淨 | 值得 | 推薦"
-        },
-        {
             "content": "營主很熱情，對想無裝備露營跟首露者很方便",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/15",
             "tokenization": "營主 | 很熱情 | 想 | 無裝備 | 露營 | 首露者"
-        },
-        {
-            "content": "營主人很熱情",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/02",
-            "tokenization": "營主 | 熱情"
         },
         {
             "content": "營主客氣、服務好，衛浴乾淨、熱水穩定，美中不足是營位小。",
@@ -150,13 +101,6 @@
             "rating": 5,
             "publishedDate": "2018/11/20",
             "tokenization": "環境 | 幽美 | 適合 | 放空 | 放 | 鬆 | 地方 | 喔"
-        },
-        {
-            "content": "用心經營的好營地！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/19",
-            "tokenization": "用心 | 經營 | 營地"
         },
         {
             "content": "第二次來，但還是有回家的感覺！",
@@ -194,13 +138,6 @@
             "tokenization": "老闆娘 | 親切 | 螢火蟲 | 旁邊"
         },
         {
-            "content": "營主服務非常的棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/25",
-            "tokenization": "營主 | 服務 | 棒"
-        },
-        {
             "content": "營主非常親切，環境很清幽，營地的清潔維持很好，有貼心的設施，還有專業的營火蟲導覽，值得推薦的好地方哦",
             "type": 1,
             "rating": 5,
@@ -208,25 +145,11 @@
             "tokenization": "營主 | 親切 | 環境 | 清幽 | 營地 | 清潔維持 | 貼心 | 設施 | 專業 | 營火蟲 | 導覽 | 值得 | 推薦 | 地方"
         },
         {
-            "content": "營主,很體貼風景超美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/08",
-            "tokenization": "營主 | 很體 | 貼 | 風景 | 超美"
-        },
-        {
             "content": "營主夫婦親切 浴廁乾淨 賞螢、老鷹飛翔 美好的經驗",
             "type": 1,
             "rating": 5,
             "publishedDate": "2018/04/08",
             "tokenization": "營主 | 夫婦 | 親切 | 浴 | 廁乾淨 | 賞螢 | 老鷹 | 飛翔 | 美好 | 經驗"
-        },
-        {
-            "content": "用心經營的好營區！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/08",
-            "tokenization": "用心 | 經營 | 營區"
         },
         {
             "content": "營主用心熱心 值得推薦",
@@ -241,13 +164,6 @@
             "rating": 5,
             "publishedDate": "2018/04/05",
             "tokenization": "清靜 | 放空 | 地方 | 蚊子"
-        },
-        {
-            "content": "用心的營主，設備齊全",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/03/12",
-            "tokenization": "用心 | 營主 | 設備 | 齊全"
         },
         {
             "content": "營主夫人很親切。營區的路雖然崎嶇，但營主的規劃路線已經不錯了，而且營主隨時來關心，有沒有什麼缺可以說，還有帳篷，桌椅可租，而且每個營區都有衛浴設備，很方便",

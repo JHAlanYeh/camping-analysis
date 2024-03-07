@@ -61,13 +61,6 @@
             "tokenization": "很棒 | 值得 | 推薦 | 營主 | 親切 | 很棒 | 值得 | 推薦 | 露營區"
         },
         {
-            "content": "讚。很棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/09/06",
-            "tokenization": "讚 | 很棒"
-        },
-        {
             "content": "營主夫妻待人很親切，營地環境也很乾淨，離市區採買真的方便，真心推薦。。我連續去了2次，除了沒有遊樂設施跟自營的商品外，真的很適合喜歡安靜又純粹放鬆的營友來這裡露營，即使是(露營小白)也絕對沒問題。",
             "type": 1,
             "rating": 5,
@@ -89,13 +82,6 @@
             "tokenization": "很棒 | 露營 | ⛺ | ️ | 經驗 | 滿山 | 螢火蟲 | 真幸運"
         },
         {
-            "content": "服務很好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/04/01",
-            "tokenization": "服務"
-        },
-        {
             "content": "天然環境清幽, 衛浴乾淨。水岸區旁 引水道 深夜聲音真的有夠大, 希望可以改善引水道高低差造成的聲音,睡的也安心",
             "type": 1,
             "rating": 5,
@@ -108,13 +94,6 @@
             "rating": 5,
             "publishedDate": "2023/03/05",
             "tokenization": "晚上 | 隔壁 | 年 | 輕人 | 喝酒 | 吵 | 凌晨 | 30 | 希望 | 下次 | 營主 | 制止"
-        },
-        {
-            "content": "離市區很近，採買方便",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/02/08",
-            "tokenization": "離市區 | 採買"
         },
         {
             "content": "台北人近距離又能享受山林的好營地.",
@@ -152,13 +131,6 @@
             "tokenization": "緊臨 | 小溪 | 風景 | 優美 | 環境 | 不錯"
         },
         {
-            "content": "優良的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/10/25",
-            "tokenization": "優良 | 營地"
-        },
-        {
             "content": "還不錯的營區。鄰近溪流，交通方便，都有附遮雨棚，大多為小包區，雨後營區水聲超大，怕吵的可能要慎選",
             "type": 1,
             "rating": 5,
@@ -171,13 +143,6 @@
             "rating": 5,
             "publishedDate": "2022/09/26",
             "tokenization": "超近 | 營區 | 衝周休 | 二日 | 時間 | 整理 | 裝備 | 拔營 | 時間 | 回家 | 整理 | 裝備 | 周休 | 二日 | 綽綽有 | 餘 | 解饞 | 營區 | 低 | 海拔 | 夏天 | 蚊蟲 | 困擾"
-        },
-        {
-            "content": "方便 放鬆的好去處",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/09/17",
-            "tokenization": "放 | 鬆 | 處"
         },
         {
             "content": "天氣晴朗時入住2帳包區教堂草皮區 只搭1帳 旁邊有空間讓小孩打羽球 非常舒適",
@@ -199,13 +164,6 @@
             "rating": 5,
             "publishedDate": "2022/09/11",
             "tokenization": "過年 | 下雨 | 還好 | 雨棚"
-        },
-        {
-            "content": "喜歡的營地 交通方便",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/09/11",
-            "tokenization": "喜歡 | 營地 | 交通"
         },
         {
             "content": "風景很好拍照的露營區。這次選的雨棚區很滿意。車頂帳與車尾帳皆容納的下。附近走走可玩溪水，可看螢火蟲。人工造景的拍照景點多，但須多加維護、整理，才不致於可惜。離新店碧潭很近，不錯的露營區！",
@@ -285,13 +243,6 @@
             "tokenization": "還想 | 小天地 | 台北 | 近郊 | 算是 | 經營 | 不錯 | 營地 | 湖泊 | 造景 | 外 | 每一區 | 規劃 | 取到 | 景色 | 舒 | 適感 | 環境 | 給人 | 一種 | 較寧靜 | fu | 適合 | 喜歡 | 幽靜 | 朋友"
         },
         {
-            "content": "好棒的營區!!",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/04/12",
-            "tokenization": "棒 | 營區"
-        },
-        {
             "content": "超愛的營區~已經來訪三次了!",
             "type": 1,
             "rating": 5,
@@ -304,13 +255,6 @@
             "rating": 5,
             "publishedDate": "2022/04/07",
             "tokenization": "超愛的 | 營區 | 經來訪 | 三次"
-        },
-        {
-            "content": "景觀很棒，園區很大",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/03/19",
-            "tokenization": "景觀 | 很棒 | 園區 | 很大"
         },
         {
             "content": "就在新店離市區很近。雨棚區再大一點會更好。",
@@ -341,32 +285,11 @@
             "tokenization": "越來 | 越 | 落寞 | 營地 | 超過 | 每帳 | 人數 | 真的 | 認 | 真的 | 加收 | 人頭 | 費及 | 停車費 | 浴廁 | 尚可 | 因為 | 水池 | 小黑 | 蚊 | ........ | 不想 | 多作 | 評價"
         },
         {
-            "content": "很優質",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/12/22",
-            "tokenization": "優質"
-        },
-        {
             "content": "很舒服的營區。浴廁很乾淨、營位不擁擠、有溪流也有湖景，營區整體規劃的不錯，還可以餵大魚，會再訪。如果可以，希望流理臺能有檯面擺放東西，也希望營區能提供飲水機。",
             "type": 1,
             "rating": 5,
             "publishedDate": "2021/12/08",
             "tokenization": "舒服 | 營區 | 浴廁 | 乾淨 | 營位 | 擁擠 | 溪流 | 湖景 | 營區 | 整體 | 規劃 | 不錯 | 餵大魚 | 再訪 | 希望 | 流理 | 臺 | 檯 | 面擺放 | 東西 | 希望 | 營區 | 提供 | 飲水機"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/14",
-            "tokenization": "讚"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/06",
-            "tokenization": "讚"
         },
         {
             "content": "超棒好營地，來了好幾次呢~^^",
@@ -411,39 +334,11 @@
             "tokenization": "距離 | 市區 | 交通 | 想來 | 輕 | 鬆 | 露 | 營 | 什 | 買 | 食物"
         },
         {
-            "content": "衛浴設備很齊全",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2021/05/05",
-            "tokenization": "衛浴 | 設備 | 齊全"
-        },
-        {
-            "content": "新手露營好選擇",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/05/03",
-            "tokenization": "新手 | 露營 | 選擇"
-        },
-        {
             "content": "照片很好看  自己去看就知道。營區照片拍的很美  真正去看  設施方面還真的只能遠觀跟眺望比較好",
             "type": 1,
             "rating": 2,
             "publishedDate": "2021/04/26",
             "tokenization": "照片 | 好看 | 營區 | 照片 | 拍 | 美 | 設施 | 真的 | 只能 | 遠觀 | 眺望"
-        },
-        {
-            "content": "很令人放鬆的地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/04/18",
-            "tokenization": "令人 | 放 | 鬆 | 地方"
-        },
-        {
-            "content": "挺棒的。挺棒的~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/04/07",
-            "tokenization": "挺棒 | 挺棒"
         },
         {
             "content": "排水不好,草地泥濘積水",
@@ -474,13 +369,6 @@
             "tokenization": "風 | 景 | 讚 | 營地離 | 市區 | 不遠 | 補給 | 當作 | 基地 | 遊玩"
         },
         {
-            "content": "水岸區。環境很幽美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/01/07",
-            "tokenization": "水岸 | 區 | 環境 | 幽美"
-        },
-        {
             "content": "池綠棚區。我們住的是池綠棚區,白天環境很幽美,旁邊就有盪鞦韆,但到了晚上旁邊剛好有一個水池的馬達,轟轟作響夜聲人靜時特別擾人無法入睡,有要住此區請三思,洗碗區有跳蚤",
             "type": 1,
             "rating": 5,
@@ -493,13 +381,6 @@
             "rating": 5,
             "publishedDate": "2020/12/25",
             "tokenization": "雨棚 | 區 | 很大 | 搭 | 完 | 睡帳 | 很大 | 空間 | 活動 | 雨天 | 輕 | 鬆 | 露"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/10/20",
-            "tokenization": "讚"
         },
         {
             "content": "第二次再訪，感覺真舒服。第二次再訪，感覺真舒服，而且這次約了親朋好友一起享受水岸區的舒適，度過了非常愉快的中秋節。",
@@ -586,13 +467,6 @@
             "tokenization": "營區 | 建議 | 增加 | 垃圾桶 | 溪水 | 可玩 | 很棒 | 小黑 | 蚊超級 | 無敵 | 小孩 | 大人 | 全中標 | 無一 | 倖免"
         },
         {
-            "content": "交通方便。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/05/29",
-            "tokenization": "交通"
-        },
-        {
             "content": "活動空間大，交通方便，衞浴設備也乾淨",
             "type": 1,
             "rating": 5,
@@ -605,13 +479,6 @@
             "rating": 5,
             "publishedDate": "2020/05/06",
             "tokenization": "環境 | 天下 | 大雨 | 雨棚 | 堅固 | 碎石 | 不積 | 水 | 很棒 | 地方"
-        },
-        {
-            "content": "很棒的營區，服務好~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/04/23",
-            "tokenization": "很棒 | 營區 | 服務好"
         },
         {
             "content": "住在水源棚區很讚!有涓涓水流聲像催眠曲，睡的安穩!防疫到位，每間廁所備有消毒酒精!營地有雨棚最讚!。建議放置垃圾桶，不要只有廚餘桶!",
@@ -670,13 +537,6 @@
             "tokenization": "交通 | 溪水 | 可玩 | 魚蝦 | 浴 | 廁乾淨 | 露過 | 次 | 還會"
         },
         {
-            "content": "耶樹區隱秘性高",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2020/02/02",
-            "tokenization": "耶樹區 | 隱 | 秘性 | 高"
-        },
-        {
             "content": "希望營主能用心維護池溏，增加飲水機。我們住綠池棚區。前一個湖很漂亮。但我們搭帳的池溏旁邊一直聞到魚腥味因為有死魚三條，很好的環境希望營主能多注意。網路評價也很好。真的覺得很可惜。還是會再去哦哦",
             "type": 1,
             "rating": 5,
@@ -689,20 +549,6 @@
             "rating": 5,
             "publishedDate": "2019/10/15",
             "tokenization": "營主 | 熱情 | 貼心 | 衛浴 | 乾淨"
-        },
-        {
-            "content": "台北近郊露營的好去處",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/10/15",
-            "tokenization": "台北 | 近郊 | 露營 | 處"
-        },
-        {
-            "content": "交通方便",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/10/02",
-            "tokenization": "交通"
         },
         {
             "content": "老闆人很好, 當天下大雨, 會來注意我們的安全, 還將空的大雨棚區讓我們使用.。營地很大, 帳位給的很寛, 烤雞餐超好吃, CP值高.",
@@ -724,13 +570,6 @@
             "rating": 4,
             "publishedDate": "2019/07/03",
             "tokenization": "營區 | 寬 | 敞 | 適合 | 孩子 | 嬉戲"
-        },
-        {
-            "content": "台北近效露營好去處。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/07/01",
-            "tokenization": "台北 | 近效 | 露營 | 處"
         },
         {
             "content": "安靜，自在，乾淨，營區超讚",
@@ -775,13 +614,6 @@
             "tokenization": "台北 | 近郊 | 露營 | 地點"
         },
         {
-            "content": "很好的營區值的再去",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/04/01",
-            "tokenization": "營區值"
-        },
-        {
             "content": "老闆非常用心在經營，衛浴十分乾淨，現在還增加了大雨棚，真的是十分的貼心，交通又方便。",
             "type": 1,
             "rating": 5,
@@ -810,13 +642,6 @@
             "tokenization": "營區 | 造景 | 優美 | 很大 | 湖 | 浴廁 | 乾淨 | 老闆 | 親切 | 詳細介紹 | 環境 | 設施 | 唯一 | 缺點 | 水流 | 聲 | 很大"
         },
         {
-            "content": "會一去再去的好營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/25",
-            "tokenization": "一去 | 營區"
-        },
-        {
             "content": "景觀設施需要適時維護。",
             "type": 1,
             "rating": 5,
@@ -829,13 +654,6 @@
             "rating": 5,
             "publishedDate": "2019/03/23",
             "tokenization": "love | 棧板 | 滑 | 需 | 小心"
-        },
-        {
-            "content": "浴廁整理的很乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/18",
-            "tokenization": "浴廁 | 整理 | 乾淨"
         },
         {
             "content": "營主很用心！。下雨天草地較泥濘，不小心滑倒了，可能再提醒其他遊客注意",
@@ -852,20 +670,6 @@
             "tokenization": "謝謝 | 營主 | 用心 | 營區 | 取景 | 拍攝 | 地方 | 衛浴 | 設備 | 乾淨 | 還貼 | 心 | 附有 | 沐浴 | 用品 | 衛生紙 | 時 | 補上"
         },
         {
-            "content": "謝謝營主的用心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/04",
-            "tokenization": "謝謝 | 營主 | 用心"
-        },
-        {
-            "content": "友善的環境，大推",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/04",
-            "tokenization": "友善 | 環境 | 推"
-        },
-        {
             "content": "很棒的營區，小孩很開心",
             "type": 1,
             "rating": 5,
@@ -880,46 +684,11 @@
             "tokenization": "台北 | 近郊 | 露營區"
         },
         {
-            "content": "放空的好所在",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/02",
-            "tokenization": "放空"
-        },
-        {
             "content": "交通便利，環境優美。營主夫婦，人很好。烤雞好吃。",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/03/02",
             "tokenization": "交通 | 便利 | 環境 | 優美 | 營主 | 夫婦 | 烤 | 雞 | 好吃"
-        },
-        {
-            "content": "蚊子小蟲多了些",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/02",
-            "tokenization": "蚊子 | 小蟲"
-        },
-        {
-            "content": "方便，活動空間夠",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/02",
-            "tokenization": "活動 | 空間夠"
-        },
-        {
-            "content": "很棒的營區，會再去",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/19",
-            "tokenization": "很棒 | 營區"
-        },
-        {
-            "content": "營主人很nice",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/17",
-            "tokenization": "營主 | nice"
         },
         {
             "content": "環境優美，夏天有溪水可玩。",
@@ -929,39 +698,11 @@
             "tokenization": "環境 | 優美 | 夏天 | 溪水 | 可玩"
         },
         {
-            "content": "草地會更好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/11",
-            "tokenization": "草地 | 更好"
-        },
-        {
-            "content": "近烏來的好選擇",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/09",
-            "tokenization": "烏來 | 選擇"
-        },
-        {
-            "content": "環境清幽",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/09",
-            "tokenization": "環境 | 清幽"
-        },
-        {
             "content": "很不錯的營區，下次會再來",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/02",
             "tokenization": "很不錯 | 營區 | 下次"
-        },
-        {
-            "content": "營地偏小、希望是草地",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/01/27",
-            "tokenization": "營地 | 偏 | 希望 | 草地"
         },
         {
             "content": "新北很不錯的營地，有雨棚的不怕下雨天，衛浴跟家裡一樣乾淨",
@@ -978,13 +719,6 @@
             "tokenization": "新北 | 市郊 | 地點 | 營區 | 遊戲 | 空間 | 足 | 衛浴 | 時 | 時維持 | 乾淨 | 清潔 | 感受 | 營地 | 用心"
         },
         {
-            "content": "適合夏天再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/11",
-            "tokenization": "適合 | 夏天 | 再來"
-        },
-        {
             "content": "蚊子雖然有點多，但景觀滿美的，適合冬天露營，喜歡釣魚的朋友可以來，唯獨沒有護草墊到處都泥濘。希望營主可以增添護草墊，露營當天雨也不是剖大，但很多地方都是泥濘，早上收帳篷的時候泥濘比較不好處理，走路也一直踩到泥濘裡，洗完腳走回帳篷腳又髒了，再建議進場跟出場的時間可以稍做調整，12點才能入場有點稍晚，隔天11點就須離場時間較為緊迫，雖然跟由主講一下可以延到1點離場，但還是希望在時間上可以稍做調整。",
             "type": 1,
             "rating": 5,
@@ -992,25 +726,11 @@
             "tokenization": "蚊子 | 但景 | 觀滿 | 美的 | 適合 | 冬天 | 露營 | 喜歡 | 釣魚 | 朋友 | 唯獨 | 沒有護 | 草 | 墊 | 處 | 泥濘 | 希望 | 營主 | 增添 | 護草 | 墊 | 露營 | 當天雨 | 剖大 | 地方 | 泥濘 | 早上 | 收帳 | 篷 | 泥濘 | 不好 | 走路 | 踩 | 泥濘裡 | 洗完 | 腳 | 走 | 回 | 帳篷 | 腳 | 髒 | 建議 | 進場 | 出場 | 時間 | 稍 | 做 | 調整 | 12 | 點 | 入場 | 稍晚 | 隔天 | 11 | 點就須 | 離場 | 時間 | 為 | 緊迫 | 主講 | 延到 | 點離場 | 希望 | 時間 | 稍 | 做 | 調整"
         },
         {
-            "content": "營主很熱情~",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2018/12/31",
-            "tokenization": "營主 | 很熱情"
-        },
-        {
             "content": "台北近郊不錯的選擇。浴廁乾淨舒適，園區蠻大的可以走走逛逛，下方還有溪水。可惜這次選擇草地營位經過下雨後有點泥濘，下次有機會過來會選擇碎石營位～",
             "type": 1,
             "rating": 4,
             "publishedDate": "2018/12/25",
             "tokenization": "台北 | 近郊 | 不錯 | 選擇 | 浴 | 廁乾淨 | 舒適 | 園區 | 走走 | 逛逛 | 下方 | 溪水 | 可惜 | 選擇 | 草地 | 營位 | 下雨 | 泥濘 | 下次 | 機會 | 過來會 | 選擇 | 碎石 | 營位"
-        },
-        {
-            "content": "不錯的營地，謝謝",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/12/19",
-            "tokenization": "不錯 | 營地 | 謝謝"
         },
         {
             "content": "適合冬天露營的地方。景色優美，真的離塵不離城，洗碗槽再加個照明會更棒，下次會再想去團烤",
@@ -1034,20 +754,6 @@
             "tokenization": "希望 | 多一些 | 小朋友 | 玩 | 東西 | ex | 沙坑"
         },
         {
-            "content": "適合夏天再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/12/09",
-            "tokenization": "適合 | 夏天 | 再來"
-        },
-        {
-            "content": "交通方便",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/12/03",
-            "tokenization": "交通"
-        },
-        {
             "content": "鬧中取靜的營區，方便又乾淨",
             "type": 1,
             "rating": 5,
@@ -1060,27 +766,6 @@
             "rating": 5,
             "publishedDate": "2018/11/26",
             "tokenization": "營主 | 服務 | 親切 | 浴 | 廁乾淨 | 熱水 | 充足 | 景觀 | 優美"
-        },
-        {
-            "content": "很適合拍照的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/14",
-            "tokenization": "適合 | 拍照 | 營區"
-        },
-        {
-            "content": "風景優",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/13",
-            "tokenization": "風景優"
-        },
-        {
-            "content": "環境清幽，世外桃源",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/11",
-            "tokenization": "環境 | 清幽 | 世外桃源"
         },
         {
             "content": "雖然海拔不高，但是風景也是很漂亮，只是蚊子兇了些",
@@ -1153,13 +838,6 @@
             "tokenization": "環境 | 設施 | 用心 | 維護 | 螞蟻 | 太多 | 更好"
         },
         {
-            "content": "年假訂雨棚區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/09/23",
-            "tokenization": "年 | 假訂 | 雨棚 | 區"
-        },
-        {
             "content": "風景不錯。風景不錯~但是路有點難開",
             "type": 1,
             "rating": 4,
@@ -1174,32 +852,11 @@
             "tokenization": "都市人 | 確幸 | 營區 | 很大 | 草皮 | 很漂亮 | 我家 | 小犬 | 跑 | 開心 | 浴室 | 整理 | 乾淨 | 真的 | 居住 | 都市人 | 確幸"
         },
         {
-            "content": "很漂亮的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/06/24",
-            "tokenization": "很漂亮 | 營區"
-        },
-        {
-            "content": "很讚的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/06/24",
-            "tokenization": "讚 | 營 | 區"
-        },
-        {
             "content": "景色很美，安靜；却敵不過小黑蚊跟螞蟻的盯咬，有點可惜。",
             "type": 1,
             "rating": 4,
             "publishedDate": "2018/06/11",
             "tokenization": "景色 | 美 | 安靜 | 却 | 敵不過 | 小黑 | 蚊 | 螞蟻 | 盯 | 咬 | 可惜"
-        },
-        {
-            "content": "很不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/06/04",
-            "tokenization": "很不錯"
         },
         {
             "content": "離市區不算太遠 很不錯",
@@ -1228,13 +885,6 @@
             "rating": 5,
             "publishedDate": "2018/05/24",
             "tokenization": "營主 | 親切 | 交通 | 便利 | 補貨 | 冰箱 | 冷 | 放 | 冷凍 | 結 | 冰 | 小黑 | 蚊 | 稍 | 不利 | 夏天 | 短袖 | 穿著"
-        },
-        {
-            "content": "老闆很熱心，溪邊玩水",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/05/21",
-            "tokenization": "老闆 | 很熱心 | 溪邊 | 玩水"
         },
         {
             "content": "美美的湖景、涼涼的小溪、點點的螢光",
@@ -1321,20 +971,6 @@
             "tokenization": "舒服 | 營區 | 市區 | 一點 | 營主 | 熱情"
         },
         {
-            "content": "無。洗手台稍嫌不足",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/05/07",
-            "tokenization": "洗手台 | 稍嫌"
-        },
-        {
-            "content": "會再想去的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/05/06",
-            "tokenization": "想 | 營區"
-        },
-        {
             "content": "台北近郊 非常棒的營地",
             "type": 1,
             "rating": 5,
@@ -1347,27 +983,6 @@
             "rating": 4,
             "publishedDate": "2018/05/06",
             "tokenization": "當天 | 時 | 下雨 | 感覺 | 不錯 | 營區 | 盼 | 溪流 | 整理 | 更好"
-        },
-        {
-            "content": "值得推薦",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/05/01",
-            "tokenization": "值得 | 推薦"
-        },
-        {
-            "content": "鬧中取靜的好地方",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/05/01",
-            "tokenization": "鬧 | 中 | 取靜 | 地方"
-        },
-        {
-            "content": "離市區近又方便很棒",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/05/01",
-            "tokenization": "離市 | 區近 | 很棒"
         },
         {
             "content": "營區有許多螢火蟲，可惜前區開放空間太少，後區沒有景觀，可惜",
@@ -1410,13 +1025,6 @@
             "rating": 4,
             "publishedDate": "2018/04/23",
             "tokenization": "有山有水 | 螢火蟲 | 廁所 | 少"
-        },
-        {
-            "content": "螢火蟲季非常適合來露",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/22",
-            "tokenization": "螢火蟲季 | 適合來 | 露"
         },
         {
             "content": "有溪流充滿樂趣小朋友不停的小探險是一個好棒的露營區。飲水機設備可以考慮裝設",
@@ -1496,13 +1104,6 @@
             "tokenization": "有山有水 | 舒適 | 衛浴 | 乾濕 | 分離"
         },
         {
-            "content": "環境不錯",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/04/02",
-            "tokenization": "環境 | 不錯"
-        },
-        {
             "content": "謝謝確幸莊園提供的好地方 ，一定還會蒞臨滴",
             "type": 1,
             "rating": 5,
@@ -1517,39 +1118,11 @@
             "tokenization": "老闆 | 很窩心 | 給了 | 莊園 | 整理 | 紮 | 營還能 | 享受 | 大自然 | 蟲鳴聲 | 溪流 | 趣"
         },
         {
-            "content": "離市區很近露營的地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/03/25",
-            "tokenization": "離市區 | 露營 | 地方"
-        },
-        {
             "content": "很棒的營區 離市區也近",
             "type": 1,
             "rating": 5,
             "publishedDate": "2018/03/23",
             "tokenization": "很棒 | 營區 | 離市區"
-        },
-        {
-            "content": "！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/03/18",
-            "tokenization": ""
-        },
-        {
-            "content": "有山有水很棒",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/03/18",
-            "tokenization": "有山有水 | 很棒"
-        },
-        {
-            "content": "一個環境清幽的好營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/03/17",
-            "tokenization": "環境 | 清幽 | 營地"
         },
         {
             "content": "對台北市的露友來說是個最快最輕鬆的營地，只是位子真的多",
@@ -1601,13 +1174,6 @@
             "tokenization": "當天 | 一帳 | 水源 | 區 | 享受 | 著 | 寬廣 | 大空間 | 感謝 | 營主 | 臨時 | 幫 | 更改 | 營位 | 一家 | 四口 | 享受 | 悠閒 | 清靜 | 因營區 | 旁 | 小溪 | 適合 | 夏天 | 時來 | 露營 | 直得 | 訪 | 營區"
         },
         {
-            "content": "環境還不錯",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/02/20",
-            "tokenization": "環境 | 還不錯"
-        },
-        {
             "content": "地理位子算方便，離交流道近",
             "type": 1,
             "rating": 4,
@@ -1629,13 +1195,6 @@
             "tokenization": "景色 | 優美 | 北部 | 必露 | 營地"
         },
         {
-            "content": "下次還會在去",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/02/18",
-            "tokenization": "下次 | 還會"
-        },
-        {
             "content": "景觀不錯，設施齊全！。提供飲用水會更好！",
             "type": 1,
             "rating": 5,
@@ -1655,13 +1214,6 @@
             "rating": 4,
             "publishedDate": "2018/02/18",
             "tokenization": "安靜 | 小分區 | 干擾"
-        },
-        {
-            "content": "很棒的地方！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/02/08",
-            "tokenization": "很棒 | 地方"
         },
         {
             "content": "交通方便管理整潔環境優美",
@@ -1692,25 +1244,11 @@
             "tokenization": "大台北 | 地區 | 親子 | 露營 | 首選"
         },
         {
-            "content": "超近方便",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/01/26",
-            "tokenization": "超近"
-        },
-        {
             "content": "設施可再精緻。晚上洗熱水時，全都冰水，很多人硬著頭皮洗完，後來反應之後才改善，說是熱水器電池沒電，但男生這邊四五間只有一間有熱水，同時間3.4間沒電?實在不合理，等到顧客進去要沖水時才沒熱水，應該平常就該注意才是。",
             "type": 1,
             "rating": 4,
             "publishedDate": "2018/01/26",
             "tokenization": "設施 | 精 | 緻 | 晚上 | 洗熱水時 | 冰水 | 人硬 | 著頭 | 皮 | 洗完 | 之後才 | 改善 | 說 | 是熱 | 水器 | 電池 | 沒電 | 男生 | 四五 | 間 | 一間 | 熱水 | 同時間 | 3.4 | 間 | 沒電 | 實在 | 不合理 | 顧客 | 沖 | 水時 | 沒熱水 | 平常"
-        },
-        {
-            "content": "非常好的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/01/26",
-            "tokenization": "營區"
         },
         {
             "content": "適合夜衝，環境乾淨。建議浴廁可加頂及門下方加擋風片，不然風一直灌進來，好冷喔～",
@@ -1769,39 +1307,11 @@
             "tokenization": "住 | 北部 | 交通 | 超級 | 離塵 | 不離城 | 選擇"
         },
         {
-            "content": "值得再造訪",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/24",
-            "tokenization": "值得 | 再造 | 訪"
-        },
-        {
-            "content": "近距離的世外桃源",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/12/24",
-            "tokenization": "近距 | 世外桃源"
-        },
-        {
             "content": "環境美、服務佳、愉快的露營經驗",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/12/24",
             "tokenization": "環境 | 美 | 服務佳 | 愉快 | 露營 | 經驗"
-        },
-        {
-            "content": "讓人放鬆的好營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/19",
-            "tokenization": "放 | 鬆 | 營"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/19",
-            "tokenization": "讚"
         },
         {
             "content": "雖然一直下著雨，環境依然清悠美麗，熱情的營主，讓人想再去...",
@@ -1823,13 +1333,6 @@
             "rating": 5,
             "publishedDate": "2017/12/14",
             "tokenization": "不錯 | 山明水秀 | 茂林修竹 | 清 | 幽雅 | 緻 | 清新 | 脫俗"
-        },
-        {
-            "content": "風景優美。好營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/06",
-            "tokenization": "風景 | 優美 | 好營區"
         },
         {
             "content": "非常舒服的營地，大人，小孩都很開心",
@@ -1874,13 +1377,6 @@
             "tokenization": "適合 | 夏天 | 露營 | 清涼營 | 教堂 | 棚區 | 漏水 | 改善"
         },
         {
-            "content": "環境清幽，不錯。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/13",
-            "tokenization": "環境 | 清幽 | 不錯"
-        },
-        {
             "content": "是近市區很難得可貴的幽美舒適營地。",
             "type": 1,
             "rating": 5,
@@ -1895,32 +1391,11 @@
             "tokenization": "河水 | 旁 | 雨聲 | 水聲 | 儍 | 儍 | 分不清楚"
         },
         {
-            "content": "讚讚讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/12",
-            "tokenization": "讚 | 讚 | 讚"
-        },
-        {
             "content": "蟲多了點，其他都還不錯",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/11/12",
             "tokenization": "蟲多 | 了點 | 還不錯"
-        },
-        {
-            "content": "交通指引可再明確一點",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2017/11/12",
-            "tokenization": "交通 | 指引 | 一點"
-        },
-        {
-            "content": "乾淨的露營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/06",
-            "tokenization": "乾淨 | 露營區"
         },
         {
             "content": "營主服務熱心，營位規劃得宜！",
@@ -1965,20 +1440,6 @@
             "tokenization": "營主 | 親切 | 熱情 | 風 | 景美 | 麗 | 台北 | 市外 | 桃源"
         },
         {
-            "content": "服務親切場地優美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/30",
-            "tokenization": "服務親 | 切場 | 優美"
-        },
-        {
-            "content": "環境清幽，相當不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/28",
-            "tokenization": "環境 | 清幽 | 不錯"
-        },
-        {
             "content": "下午小黑蚊多了點，其餘都ok",
             "type": 1,
             "rating": 5,
@@ -1991,27 +1452,6 @@
             "rating": 5,
             "publishedDate": "2017/10/23",
             "tokenization": "單飛 | 地方 | 推涼亭區 | 雙開 | 冰箱 | 旁邊 | 浴廁 | 不遠 | 極適合 | 新手 | 單露"
-        },
-        {
-            "content": "營主人不錯",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/10/23",
-            "tokenization": "營主 | 人不錯"
-        },
-        {
-            "content": "有些地方可加強",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/10/23",
-            "tokenization": "地方 | 可加強"
-        },
-        {
-            "content": "風景好，水槽沒燈",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/23",
-            "tokenization": "風景 | 水槽 | 沒燈"
         },
         {
             "content": "老闆夫妻很熱情！。國慶連假連續露了三晚！老闆夫妻很熱情，哈哈，老闆人實在太好了，看我們燈光太暗還主動出借LED燈條！大讚！衛浴很乾淨，裡面很貼心的備了水桶小板凳跟沐浴洗髮乳吹風機，尤其是每一間廁所都有一瓶酒精！另外旁邊有溪水可以玩，清涼又乾淨！很棒的營區！",
@@ -2049,20 +1489,6 @@
             "tokenization": "營主 | 客氣 | 有禮 | 浴廁 | 乾淨 | 貼心 | 提供 | 酒精 | 沐浴 | 品 | 景觀 | 設施 | 舊 | 若能維 | 修改 | 善 | 更好 | 洗手 | 檯 | 牆 | 建議 | 裝上 | 幾面 | 鏡子會"
         },
         {
-            "content": "用心的營主^^",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/11",
-            "tokenization": "用心 | 營主"
-        },
-        {
-            "content": "新手露營的好地方！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/11",
-            "tokenization": "新手 | 露營 | 地方"
-        },
-        {
             "content": "三訪確幸莊園，孩子們就像到老朋友家一樣，熟門熟路的跟第一次來的朋友介紹、玩耍，離台北最近的小確幸^_",
             "type": 1,
             "rating": 5,
@@ -2091,13 +1517,6 @@
             "tokenization": "這是 | 舒服 | 營地 | 家人 | 度過 | 美好 | 假期"
         },
         {
-            "content": "值得再度光臨的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/08",
-            "tokenization": "值得 | 再度 | 光臨 | 營區"
-        },
-        {
             "content": "很好的營區!老闆人很好，衛浴非常乾淨",
             "type": 1,
             "rating": 5,
@@ -2119,25 +1538,11 @@
             "tokenization": "衛浴 | 設備 | 真的 | 很棒 | 附 | 沐浴乳 | 洗 | 髮 | 精"
         },
         {
-            "content": "很棒，還看到螢火蟲",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/09/24",
-            "tokenization": "很棒 | 螢火蟲"
-        },
-        {
             "content": "環境景觀一級棒、但有些營位環境沒有特優，跟隔壁的長青谷(缺水三H以上)、文山農場(缺水2H好太多了，",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/09/23",
             "tokenization": "環境 | 景觀 | 一級 | 棒 | 營位 | 環境 | 特優 | 隔壁 | 長 | 青谷 | 缺水 | H | 文山 | 農場 | 缺水 | 2H | 好太多"
-        },
-        {
-            "content": "方便的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/09/21",
-            "tokenization": "營區"
         },
         {
             "content": "會在光顧哦~。是五星級的營地，水壓很穩冬天洗也很舒適~",
@@ -2175,25 +1580,11 @@
             "tokenization": "離塵 | 不離城 | 主人 | 好客 | 熱情 | 開放 | 釣魚 | 太 | 完美"
         },
         {
-            "content": "離市區近，很方便",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/08/17",
-            "tokenization": "離市 | 區近"
-        },
-        {
             "content": "好山好水。浴廁乾淨、有溪流可玩如果沒客廳帳的，還可以選擇雨棚區遮陽",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/08/17",
             "tokenization": "好山好水 | 浴 | 廁乾淨 | 溪流 | 可玩 | 沒客 | 廳帳 | 選擇 | 雨棚 | 區遮陽"
-        },
-        {
-            "content": "近台北，市區桃花園",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/07/27",
-            "tokenization": "台北 | 市區 | 桃花 | 園"
         },
         {
             "content": "會讓人想再度造訪的營地！。希望可以提供資訊給露友，有没有别帳的帶狗之類的寵物進園區，謝謝！！",
@@ -2203,32 +1594,11 @@
             "tokenization": "想 | 再度 | 造訪 | 營地 | 希望 | 提供 | 資訊給 | 露友 | 有没有 | 别帳 | 狗 | 寵物 | 進園區 | 謝謝"
         },
         {
-            "content": "用心經營的好營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/07/17",
-            "tokenization": "用心 | 經營 | 營區"
-        },
-        {
             "content": "離家近，景觀棒！以後會常去的營區",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/07/17",
             "tokenization": "離家近 | 景觀 | 棒 | 以後會常 | 營區"
-        },
-        {
-            "content": "景色優美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/07/16",
-            "tokenization": "景色 | 優美"
-        },
-        {
-            "content": "設施希望多做維護~",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/07/16",
-            "tokenization": "設施 | 希望 | 做 | 維護"
         },
         {
             "content": "看的出主人用心經營 環境優美 很不錯。小小建議入住椰樹區 因一定要三帳包區若能多設置水槽及電源 就更完美了",
@@ -2252,13 +1622,6 @@
             "tokenization": "新手 | 請進 | 交通 | 蚊子"
         },
         {
-            "content": "景色優美，服務親切。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/07/04",
-            "tokenization": "景色 | 優美 | 服務 | 親切"
-        },
-        {
             "content": "近市區，老闆熱心服務，環境優美，浴厠乾淨，唯營區內溪水聲太大",
             "type": 1,
             "rating": 5,
@@ -2280,20 +1643,6 @@
             "tokenization": "用心 | 老闆 | 謝謝 | 藍色 | 凡布"
         },
         {
-            "content": "景觀不錯、服務特好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/06/27",
-            "tokenization": "景觀 | 不錯 | 服務特"
-        },
-        {
-            "content": "謝謝老板賣水給我",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/25",
-            "tokenization": "謝謝 | 老板 | 賣水給"
-        },
-        {
             "content": "老闆親切環境造景美小黑蚊有點多",
             "type": 1,
             "rating": 4,
@@ -2306,13 +1655,6 @@
             "rating": 4,
             "publishedDate": "2017/06/24",
             "tokenization": "近市區 | 露營 | 旁邊 | 溪流 | 如給露 | 客遊 | 玩 | 建議 | 入口 | 處階梯 | 作以 | 摔落"
-        },
-        {
-            "content": "交通方便，車程近",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/20",
-            "tokenization": "交通 | 車程"
         },
         {
             "content": "值得一訪的超讚營地，還看得到營螢火蟲喔！。靠近湖岸的某些地方對小小孩來說，有點危險，要注意喔！",
@@ -2334,13 +1676,6 @@
             "rating": 5,
             "publishedDate": "2017/06/11",
             "tokenization": "環境 | 優 | 美感 | 覺 | 夏天 | 太熱會 | 適合秋 | 冬天"
-        },
-        {
-            "content": "適合全家大小",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/06",
-            "tokenization": "適合 | 全家 | 大小"
         },
         {
             "content": "都很讚，小朋友玩的很開心。",
@@ -2369,13 +1704,6 @@
             "rating": 5,
             "publishedDate": "2017/05/31",
             "tokenization": "不錯 | 營地 | 小黑 | 蚊有 | 奌"
-        },
-        {
-            "content": "乾淨、舒服的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/05/31",
-            "tokenization": "乾淨 | 舒服 | 營地"
         },
         {
             "content": "營區漂亮，老闆服務又很好！超好玩的啦∼∼∼",
@@ -2490,39 +1818,11 @@
             "tokenization": "浴室 | 寬敞 | 提供 | 坐凳 | 水瓢 | 水桶 | 貼心 | 伴 | 隨乾淨 | 小溪 | 帶著 | 孩子 | 探索 | 生態 | 開心 | 小魚 | 青蛙 | 蝗蟲 | 蝴蝶 | 小飛蟻 | 豆娘"
         },
         {
-            "content": "服務態度佳",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/05/14",
-            "tokenization": "服務態度 | 佳"
-        },
-        {
             "content": "浴廁是優點，但可以更好",
             "type": 1,
             "rating": 3,
             "publishedDate": "2017/05/14",
             "tokenization": "浴廁 | 優點 | 更好"
-        },
-        {
-            "content": "值得一再體驗",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/05/14",
-            "tokenization": "值得 | 一再 | 體驗"
-        },
-        {
-            "content": "第一次夜衝的好地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/05/14",
-            "tokenization": "第一次 | 夜衝 | 地方"
-        },
-        {
-            "content": "需再加強",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2017/05/12",
-            "tokenization": "需再"
         },
         {
             "content": "好棒的營區，還會想再去",
@@ -2595,13 +1895,6 @@
             "tokenization": "營區 | 乾淨 | 舒適 | 環境 | 佳 | 離家近 | 服務好 | 衛浴 | 設備 | 乾淨 | 半夜 | 熱水 | 洗澡 | 露營 | 環境 | 舒適 | 寬 | 敞 | 營帳 | 旁 | 螢火蟲 | 唯一 | 缺點 | 廁所 | 沒禁 | 菸 | 幫 | 小孩 | 洗澡 | 時 | 聞到 | 菸 | 味"
         },
         {
-            "content": "很棒的瑩火蟲之夜",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/30",
-            "tokenization": "很棒 | 瑩火蟲 | 之夜"
-        },
-        {
             "content": "看到許久不見的螢火蟲，心中真的有點感動，繼續加油喔！",
             "type": 1,
             "rating": 5,
@@ -2635,13 +1928,6 @@
             "rating": 4,
             "publishedDate": "2017/04/29",
             "tokenization": "改善 | 空間 | 訪客 | 收費 | 不合理 | 訪客 | 收過 | 高 | 還不錯 | 螢火蟲 | 小朋友"
-        },
-        {
-            "content": "不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/23",
-            "tokenization": "不錯"
         },
         {
             "content": "不錯⋯。營主很貼心告訴我們在哪可以看到螢火蟲",
@@ -2707,13 +1993,6 @@
             "tokenization": "台北 | 近郊 | 優質 | 營地 | 生態 | 保育"
         },
         {
-            "content": "衛浴超乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/09",
-            "tokenization": "衛浴 | 超乾淨"
-        },
-        {
             "content": "很棒的露營區哦！。有特色的營區，還提供洗髮精沐浴乳和冰箱等設備很方便，涼亭區的位置很讚，視野景觀好，值得再來的好營區",
             "type": 1,
             "rating": 5,
@@ -2742,13 +2021,6 @@
             "tokenization": "花香 | 湖景 | 享受 | 營地 | 衛浴 | 廁所 | 很棒 | 唯一 | 地方 | 希望 | 廁所 | 垃圾 | 清 | ㄧ | 因為 | 隔天 | 滿滿"
         },
         {
-            "content": "洗滌台較少，距離遠",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/04",
-            "tokenization": "洗滌台 | 少 | 距離 | 遠"
-        },
-        {
             "content": "會推薦朋友來露的好營區。",
             "type": 1,
             "rating": 5,
@@ -2763,20 +2035,6 @@
             "tokenization": "很棒 | 環境 | 易達性 | 高 | 頂蓬區 | 很棒 | 美中不足 | 溪流 | 水聲 | 嚇人 | 是夜 | 裡 | 像是 | 傾盆 | 大雨 | 四月 | 白天 | 小黑 | 蚊多 | 補充 | 防蚊液"
         },
         {
-            "content": "好。讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/03",
-            "tokenization": "讚"
-        },
-        {
-            "content": "露營區很美 很少蚊子",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/03",
-            "tokenization": "露營區 | 美 | 蚊子"
-        },
-        {
             "content": "洗澡洗一半會變冷水/營位太小太擠",
             "type": 1,
             "rating": 4,
@@ -2784,25 +2042,11 @@
             "tokenization": "洗澡 | 洗 | 一半 | 會變 | 冷水 | 營位 | 太小太 | 擠"
         },
         {
-            "content": "乾淨，",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/04/03",
-            "tokenization": "乾淨"
-        },
-        {
             "content": "新北市的後花園。除了小黑蚊比較多以外，感覺可以常來。",
             "type": 1,
             "rating": 4,
             "publishedDate": "2017/04/03",
             "tokenization": "新北市 | 花園 | 小黑 | 蚊比 | 感覺 | 常來"
-        },
-        {
-            "content": "交通方便的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/04/03",
-            "tokenization": "交通 | 營區"
         },
         {
             "content": "衛浴舒適乾淨，交通便利，會再來",
@@ -2824,13 +2068,6 @@
             "rating": 5,
             "publishedDate": "2017/04/03",
             "tokenization": "美麗 | 夜晚 | 照明"
-        },
-        {
-            "content": "交通方便，環境整潔",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/04/03",
-            "tokenization": "交通 | 環境 | 整潔"
         },
         {
             "content": "很不錯的好營區,景觀環境讓人流連忘返憂愁盡散!!",
@@ -2868,13 +2105,6 @@
             "tokenization": "令人 | 想 | 優質 | 營地"
         },
         {
-            "content": "來了會ㄧ直想再來！！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/03/11",
-            "tokenization": "ㄧ | 直想"
-        },
-        {
             "content": "希望營區內能有小賣部。我是2017.3.4去的露客，由於營區到碧潭還有些距離，周圍又沒有便利商店可以買東西，所以很多東西都只能自己帶去，有一點不方便，希望營區內能有小賣部，賣些泡麵，飲料(汽水、果汁、礦泉水)，卡式瓦斯罐，烤肉用具、衛生紙、免洗餐具，一些在露營時大多能用到的東西，這次去發現盪鞦韆多了一個，所以妹妹有玩到，我跟小孩也有在一塊空地上打球，晚上洗澡水溫剛好，洗澡間裡有放盆子跟水瓢，另外廁所到水源區的階梯做成木棧道，目前是泥土階梯，一下雨會變泥土地讓人滑倒，也希望定期辦活動(賞螢火蟲、採果、手工DIY、CPR教學)，能否蓋一間真正的教堂，讓人可以做禮拜或拍婚紗，或在裡面舉行婚禮，以上建議。",
             "type": 1,
             "rating": 4,
@@ -2896,13 +2126,6 @@
             "tokenization": "想 | 小溪 | 加水 | 龍頭"
         },
         {
-            "content": "風景宜人",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/02/28",
-            "tokenization": "風景 | 宜人"
-        },
-        {
             "content": "下雨天時不能延期，很可惜，盼有其他方案可因應。",
             "type": 1,
             "rating": 4,
@@ -2910,25 +2133,11 @@
             "tokenization": "下雨天 | 時 | 延期 | 可惜 | 盼 | 方案 | 因應"
         },
         {
-            "content": "營位大",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/02/27",
-            "tokenization": "營位"
-        },
-        {
             "content": "營主很親切，營地和設施很便利也舒適，但小黑蚊真的太多。",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/02/20",
             "tokenization": "營主 | 親切 | 營地 | 設施 | 便利 | 舒適 | 小黑 | 蚊 | 真的 | 太"
-        },
-        {
-            "content": "景觀美拍照都美美美",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/02/18",
-            "tokenization": "景觀 | 美 | 拍照 | 美美 | 美"
         },
         {
             "content": "謝謝老闆的體恤，讓我連續延期兩次。漂亮的地方....",
@@ -2950,20 +2159,6 @@
             "rating": 5,
             "publishedDate": "2017/02/14",
             "tokenization": "再度 | 光臨 | 感覺 | 很棒"
-        },
-        {
-            "content": "很舒適漂亮的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/02/14",
-            "tokenization": "很舒適 | 漂亮 | 營地"
-        },
-        {
-            "content": "舒服的地方",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/02/12",
-            "tokenization": "舒服 | 地方"
         },
         {
             "content": "很方便有沐浴用品和吹風機",
@@ -3008,13 +2203,6 @@
             "tokenization": "詩情 | 畫意 | 營地 | 營主 | 熱心 | 水槽 | 太 | 少 | 五帳 | 共用 | 干擾 | 不便"
         },
         {
-            "content": "期待下次再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/01/08",
-            "tokenization": "期待 | 下次 | 再來"
-        },
-        {
             "content": "親切的營主夫妻，賞欣悅目的景色，是個令人放鬆的好地方！",
             "type": 1,
             "rating": 5,
@@ -3027,13 +2215,6 @@
             "rating": 5,
             "publishedDate": "2017/01/08",
             "tokenization": "營主 | 熱心 | 親切 | 放 | 鬆 | 營 | 區"
-        },
-        {
-            "content": "環境不錯~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/01/07",
-            "tokenization": "環境 | 不錯"
         },
         {
             "content": "很棒的營區~。建議有些水池旁要加裝照明，晚上看不到很危險！",
@@ -3064,13 +2245,6 @@
             "tokenization": "謝謝營 | 地主 | 用心 | 服務及 | 設備 | 還準備 | 冰箱 | 選擇露 | 三天 | 兩夜 | 發現 | 二個 | 第一晚 | 因為 | 跨年 | 的關 | 係 | high | 倒數 | 完才 | 睡 | 方有 | 一群 | 年 | 輕 | 露友 | 凌晨 | 兩點 | 還在 | 鬧 | 第二天 | 新 | 露友 | 小朋友 | 營地 | 提供 | 板車 | 來當 | 滑板 | 車玩 | 斜坡 | 快速 | 衝下 | 危險 | 危險 | 希望 | 營 | 地主 | 定期 | 巡邏"
         },
         {
-            "content": "服務用心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/01/02",
-            "tokenization": "服務 | 用心"
-        },
-        {
             "content": "營區環境乾淨美觀。流理台數量有點少，建議多增設流理台，讓二至三營位共用一個",
             "type": 1,
             "rating": 5,
@@ -3092,27 +2266,6 @@
             "tokenization": "人多 | 洗澡 | 熱水 | 改善"
         },
         {
-            "content": "很棒的湖岸區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/26",
-            "tokenization": "很棒 | 湖岸 | 區"
-        },
-        {
-            "content": "好美的營區~~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/24",
-            "tokenization": "美的 | 營區"
-        },
-        {
-            "content": "洗澡很舒適",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/20",
-            "tokenization": "洗澡 | 很舒適"
-        },
-        {
             "content": "營區漂亮廁所乾淨，營主親切熱情。星期五夜衝沒幾帳所以晚上很安靜，不過到了半夜好幾隻狗狂叫真的有點吵，星期六旁邊的頂篷區來了幾帳嗨到半夜12點真是.....",
             "type": 1,
             "rating": 4,
@@ -3120,25 +2273,11 @@
             "tokenization": "營區 | 漂亮 | 廁所 | 乾淨 | 營主 | 親切 | 熱情 | 星期五 | 夜衝 | 幾帳 | 晚上 | 很安靜 | 半夜 | 隻 | 狗 | 狂叫 | 真的 | 吵 | 星期六 | 旁邊 | 頂篷區 | 幾帳 | 嗨 | 半夜 | 12 | 點 | ....."
         },
         {
-            "content": "營主很熱心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/18",
-            "tokenization": "營主 | 很熱心"
-        },
-        {
             "content": "景色美。有很多坑洞晚上要有警示，避免人跌落",
             "type": 1,
             "rating": 5,
             "publishedDate": "2016/12/11",
             "tokenization": "景色 | 美 | 坑洞 | 晚上 | 警示 | 跌落"
-        },
-        {
-            "content": "浴廁乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/11",
-            "tokenization": "浴 | 廁乾淨"
         },
         {
             "content": "蠻用心經營的莊園，謝謝你們！。晚上出入莊園的路因較狹小燈光明亮度可加強，指標可再明顯，值得推薦的北部露營地~",
@@ -3197,39 +2336,11 @@
             "tokenization": "帳帳 | 相連 | 舒服 | 浴室 | 數量 | 太少"
         },
         {
-            "content": "園區乾淨 園主熱情",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2016/12/02",
-            "tokenization": "園區 | 乾淨 | 園主熱情"
-        },
-        {
-            "content": "適合夏天戲水",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2016/12/01",
-            "tokenization": "適合 | 夏天 | 戲水"
-        },
-        {
-            "content": "親切的老闆",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2016/12/01",
-            "tokenization": "親切 | 老闆"
-        },
-        {
             "content": "沒有想像中的漂亮～與照片落差太大。洗手台數量不足、插座距離太長、草地遇雨泥濘排水系統太差",
             "type": 1,
             "rating": 2,
             "publishedDate": "2016/12/01",
             "tokenization": "想像中 | 漂亮 | 照片 | 落差 | 太 | 洗手台 | 數量 | 插座 | 距離 | 太長 | 草地 | 遇雨 | 泥濘 | 排水 | 系統 | 太差"
-        },
-        {
-            "content": "蚊蟲實在有點多",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2016/12/01",
-            "tokenization": "蚊蟲實"
         },
         {
             "content": "營主服務態度好，有耐心。",
@@ -3265,41 +2376,6 @@
             "rating": 4,
             "publishedDate": "2016/12/01",
             "tokenization": "離市區 | 路程 | 衛浴 | 乾淨 | 露營 | 環境 | 優"
-        },
-        {
-            "content": "特色風景不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/01",
-            "tokenization": "特色 | 風景 | 不錯"
-        },
-        {
-            "content": "交通方便，服務態度好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/01",
-            "tokenization": "交通 | 服務態度"
-        },
-        {
-            "content": "景觀不錯，近新店市區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2016/12/01",
-            "tokenization": "景觀 | 不錯 | 新店市 | 區"
-        },
-        {
-            "content": "好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2016/12/01",
-            "tokenization": ""
-        },
-        {
-            "content": "景色優美的營地",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2016/12/01",
-            "tokenization": "景色 | 優 | 美的 | 營地"
         },
         {
             "content": "不錯。道路指標可以更明顯一些",

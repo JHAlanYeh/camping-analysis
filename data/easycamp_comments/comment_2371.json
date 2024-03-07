@@ -25,13 +25,6 @@
             "tokenization": "營區 | 規劃 | 蚊子 | 小黑 | 蚊 | 叮得 | 全身 | 發癢 | 營主 | 整理 | 垃圾 | 次 | 數過 | 頻繁 | 壓力 | 很大"
         },
         {
-            "content": "二訪了!",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/09/17",
-            "tokenization": "二訪"
-        },
-        {
             "content": "營主人蠻好的，營區乾淨。營主人蠻好的，營區乾淨，入營前營主會提醒注意事項及告知蚊子很多需攜帶防蚊液及穿著長袖衣物。",
             "type": 1,
             "rating": 5,
@@ -198,13 +191,6 @@
             "rating": 5,
             "publishedDate": "2018/09/30",
             "tokenization": "營主 | 幽默 | 有趣 | 環境 | 維護 | 很棒 | 樹林 | 美"
-        },
-        {
-            "content": "環境清幽",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/06/07",
-            "tokenization": "環境 | 清幽"
         }
     ]
 }

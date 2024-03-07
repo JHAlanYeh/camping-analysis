@@ -12,20 +12,6 @@
     "longitude": 121.6551079,
     "comments": [
         {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/10/20",
-            "tokenization": "讚"
-        },
-        {
-            "content": "很用心的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/02/27",
-            "tokenization": "用心 | 營地"
-        },
-        {
             "content": "不錯的營地, 半夜附近常有狗吠",
             "type": 1,
             "rating": 5,
@@ -96,20 +82,6 @@
             "tokenization": "老闆 | 熱情 | 營區 | 美 | 衛浴 | 乾淨 | 熱水 | 充足 | 唯獨花蓮 | 名產 | 小黑 | 蚊 | 爆多"
         },
         {
-            "content": "很棒的露營區~~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/04/01",
-            "tokenization": "很棒 | 露營區"
-        },
-        {
-            "content": "營地小而美",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/10/14",
-            "tokenization": "營地 | 美"
-        },
-        {
             "content": "小而美的露營區,非常乾淨,營主人很好,有機會一定要再去",
             "type": 1,
             "rating": 5,
@@ -145,25 +117,11 @@
             "tokenization": "機會 | 還會 | 光臨 | 要來 | 客人 | 記得 | 營釘帶 | 30 | 公分 | 晚上 | 風 | 很大 | 營地 | 主人 | 親切 | 離海 | 過年 | 營地 | 超收 | 有人 | 擠人 | 很棒"
         },
         {
-            "content": "有藝術氣息的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/10",
-            "tokenization": "有藝術 | 氣息 | 營區"
-        },
-        {
             "content": "老闆很用心，設施除水壓不穩之外，其餘都很棒",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/09",
             "tokenization": "老闆 | 用心 | 設施 | 除水壓 | 不穩 | 之外 | 很棒"
-        },
-        {
-            "content": "營主很熱心⋯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/08",
-            "tokenization": "營主 | 很熱心"
         },
         {
             "content": "老闆超親切，位子給我們安排的很大，住起來很舒服~還送了自己親手做的小包包很可愛很貼心~下次還會再來的",
@@ -178,13 +136,6 @@
             "rating": 5,
             "publishedDate": "2019/01/02",
             "tokenization": "交通 | 位置 | 算是 | 便利 | 老闆 | 為 | 客氣且 | 客戶 | 服務細心"
-        },
-        {
-            "content": "很有氣氛",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/12/31",
-            "tokenization": "氣氛"
         },
         {
             "content": "主人人很熱心，服務很棒。於室內空間應設置禁菸標誌",
@@ -213,13 +164,6 @@
             "rating": 5,
             "publishedDate": "2017/10/10",
             "tokenization": "熱情 | 老闆 | 放 | 鬆 | 空 | 間"
-        },
-        {
-            "content": "遠離塵囂的好地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/09",
-            "tokenization": "遠離 | 塵囂 | 地方"
         }
     ]
 }

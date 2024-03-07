@@ -54,25 +54,11 @@
             "tokenization": "營主 | 用心 | 夏天 | 太熱"
         },
         {
-            "content": "環境乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/01/24",
-            "tokenization": "環境 | 乾淨"
-        },
-        {
             "content": "這營區非常棒。每年都想回來露",
             "type": 3,
             "rating": 5,
             "publishedDate": "2023/01/06",
             "tokenization": "這營區 | 棒 | 想 | 回來露"
-        },
-        {
-            "content": "很棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/01/06",
-            "tokenization": "很棒"
         },
         {
             "content": "很棒的營區。小孩都玩瘋了",
@@ -87,13 +73,6 @@
             "rating": 5,
             "publishedDate": "2023/01/06",
             "tokenization": "很棒 | 營區 | 改變 | 推薦"
-        },
-        {
-            "content": "很好玩",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/09/22",
-            "tokenization": "好玩"
         },
         {
             "content": "滑水道小孩玩得不易樂乎",
@@ -138,13 +117,6 @@
             "tokenization": "柿 | 抵 | 家 | 讚 | 營主 | 用心 | 設施 | 設備 | 齊全 | 孩子 | 玩 | 開心 | 來露"
         },
         {
-            "content": "適合孩子的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/03/12",
-            "tokenization": "適合 | 孩子 | 營區"
-        },
-        {
             "content": "營區很讚，營主很愛乾淨，唯一美中不足的地方（遇到素質差的露友。這3天二夜，連續2夜大半夜聽著露友小孩洗澡嬉鬧喧嘩，跟吹風機聲到凌晨一點營區很讚，營主很愛乾淨，唯一美中不足的地方（遇到素質差的露友超優質營區，CP值超級高唷～",
             "type": 3,
             "rating": 5,
@@ -180,39 +152,11 @@
             "tokenization": "露客 | 晚上 | 10 | 點過 | 盡量 | 音量 | 放小 | 聲"
         },
         {
-            "content": "附近蒼蠅一大堆",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/12/12",
-            "tokenization": "蒼蠅 | 一大堆"
-        },
-        {
             "content": "水道活動小孩玩得很開心",
             "type": 3,
             "rating": 4,
             "publishedDate": "2021/10/17",
             "tokenization": "水道 | 活動 | 小孩 | 玩得 | 開心"
-        },
-        {
-            "content": "適合親子的營區",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2021/10/04",
-            "tokenization": "適合 | 親子 | 營區"
-        },
-        {
-            "content": "整體評價優",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/06/01",
-            "tokenization": "整體 | 評價優"
-        },
-        {
-            "content": "草坪營位很不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/05/03",
-            "tokenization": "草坪 | 營位 | 不錯"
         },
         {
             "content": "營區規劃明瞭,一眼望去滿滿綠色顧眼,設備以及小朋友的設施用心,為我們的回憶劃下一頁",
@@ -229,41 +173,6 @@
             "tokenization": "牛車 | 溜滑梯 | 盪 | 鞦 | 韆 | 很酷"
         },
         {
-            "content": "很用心在景觀營造",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/03/28",
-            "tokenization": "用心 | 景觀 | 營造"
-        },
-        {
-            "content": "很乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/02/02",
-            "tokenization": "很乾淨"
-        },
-        {
-            "content": "是個我會想再去的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/01/31",
-            "tokenization": "想 | 營區"
-        },
-        {
-            "content": "可以再更好",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2021/01/25",
-            "tokenization": "更好"
-        },
-        {
-            "content": "厠所乾淨，環境整潔.",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/10/25",
-            "tokenization": "厠 | 乾淨 | 環境 | 整潔"
-        },
-        {
             "content": "營主人很好,營區有很多小孩可以玩的,環境舒適,有機會會再來的!",
             "type": 3,
             "rating": 5,
@@ -271,39 +180,11 @@
             "tokenization": "營主 | 營區 | 小孩 | 玩 | 環境 | 舒適 | 機會會"
         },
         {
-            "content": "厠所乾淨，環境整潔.",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/10/07",
-            "tokenization": "厠 | 乾淨 | 環境 | 整潔"
-        },
-        {
-            "content": "營主很熱情～",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2020/10/06",
-            "tokenization": "營主 | 很熱情"
-        },
-        {
-            "content": "不錯的營區~",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/10/05",
-            "tokenization": "不錯 | 營區"
-        },
-        {
             "content": "營主很好客！每帳都有一台電風扇！",
             "type": 3,
             "rating": 5,
             "publishedDate": "2020/09/13",
             "tokenization": "營主 | 好客 | 每帳 | 一台 | 電風扇"
-        },
-        {
-            "content": "很不錯的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/07/27",
-            "tokenization": "很不錯 | 營區"
         },
         {
             "content": "用心的好營區。場地乾淨.營主熱情.是一個好營區.有機會一定在拜訪",
@@ -341,20 +222,6 @@
             "tokenization": "環境 | 老闆 | 熱情 | 滑草 | 玩水 | 老闆 | 還開 | 鐵牛車 | 戴 | 處 | 逛 | 特別 | 旋 | 轉木馬"
         },
         {
-            "content": "好玩",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/03/13",
-            "tokenization": "好玩"
-        },
-        {
-            "content": "還會再去",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/02/25",
-            "tokenization": "還會"
-        },
-        {
             "content": "衛浴乾淨無異味,營主親切,還開著鐵牛車載小朋友到處玩,徹帳當天沒有離場時間壓力,有機會再回露!",
             "type": 3,
             "rating": 4,
@@ -374,20 +241,6 @@
             "rating": 3,
             "publishedDate": "2020/02/10",
             "tokenization": "整體 | 說 | 不錯 | 有人 | 公德心 | 營區 | 吸 | 煙 | 製 | 造 | 廢 | 氣 | 建議 | 設 | 吸煙區 | 吸煙者 | 享受 | 新鮮 | 空氣"
-        },
-        {
-            "content": "還會想再去的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/02/01",
-            "tokenization": "還會 | 想 | 營區"
-        },
-        {
-            "content": "滿意",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/11/06",
-            "tokenization": "滿意"
         },
         {
             "content": "好柿抵嘉最好的。已來露第三次了，這次是家族露營，家人都非常喜歡這裡，環境乾淨，空氣也好，遠離市區吵雜聲重點營主夫妻人很客氣",
@@ -423,13 +276,6 @@
             "rating": 5,
             "publishedDate": "2019/05/23",
             "tokenization": "第二次 | 營區 | 發現 | 老闆 | 貼心 | 增加 | 雨棚 | 區 | 讚 | 新增 | 雨棚 | 區及 | 日出 | 觀景台 | 讚 | 訂 | D | 區 | 雨棚 | 美中不足 | 大雨 | 涼亭 | 雨 | 棚屋 | 頂 | 水 | 沖 | 雨棚 | 裡 | 恐怖 | 蒼蠅 | 24 | 小時 | 下班 | 最棒 | 衛浴 | 乾淨 | 熱水 | 穩定 | 觀景台 | 風景 | 很棒"
-        },
-        {
-            "content": "整體還行但蒼蠅暴多",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2019/05/01",
-            "tokenization": "整體 | 還行 | 蒼蠅 | 暴多"
         },
         {
             "content": "營位給的很霸氣，營區也有許多珍貴樹種實屬難得的一個好營區",
@@ -474,32 +320,11 @@
             "tokenization": "值得 | 推薦 | 營區 | 營主 | 營主 | 太太 | 很熱情 | 介紹 | 生態 | 提供 | 小孩 | 遊戲區 | 更好"
         },
         {
-            "content": "很棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/03/04",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "提供的營位很大很舒服",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/03/04",
-            "tokenization": "提供 | 營位 | 很大 | 舒服"
-        },
-        {
             "content": "營主待人親切，環境廁所乾淨， 但如果衛浴旁有吹風機就更加分",
             "type": 3,
             "rating": 5,
             "publishedDate": "2019/03/04",
             "tokenization": "營主 | 待人 | 親切 | 環境 | 廁所 | 乾淨 | 衛浴 | 旁 | 吹 | 風機 | 分"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/03/04",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "離市區不遠，浴廁充足，但部分是使用鍋爐，所以洗澡要避開人潮。DIY柿染適合小小孩",
@@ -516,25 +341,11 @@
             "tokenization": "營主 | 親切 | 不錯 | 營主 | 親切 | 廁所 | 乾淨 | 營區 | 環境 | 美 | 營位 | 草地 | 平整 | 睡 | 位置 | 石頭 | 凹凸不平 | 睡得 | 舒服 | 這是 | 唯一 | 缺點 | 希望 | 改善 | 謝謝 | 喔"
         },
         {
-            "content": "營區很棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/10",
-            "tokenization": "營區 | 很棒"
-        },
-        {
             "content": "營主夫妻很熱情，很好 ，值得推薦",
             "type": 3,
             "rating": 5,
             "publishedDate": "2019/02/09",
             "tokenization": "營主 | 夫妻 | 很熱情 | 值得 | 推薦"
-        },
-        {
-            "content": "舒適",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/09",
-            "tokenization": "舒適"
         },
         {
             "content": "是個不錯的營區，服務態度好，介紹的很清楚",
@@ -558,13 +369,6 @@
             "tokenization": "營區 | 經營 | 用心 | 值得 | 探訪"
         },
         {
-            "content": "營主親切",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/01/01",
-            "tokenization": "營主 | 親切"
-        },
-        {
             "content": "營區小而巧。這次入住四人房感覺很舒適",
             "type": 3,
             "rating": 5,
@@ -572,74 +376,11 @@
             "tokenization": "營區 | 小而巧 | 入住 | 四人房 | 感覺 | 舒適"
         },
         {
-            "content": "老闆很親切服務很好",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/01/01",
-            "tokenization": "老闆 | 親切 | 服務"
-        },
-        {
-            "content": "缺少孩童設施",
-            "type": 3,
-            "rating": 3,
-            "publishedDate": "2019/01/01",
-            "tokenization": "缺少 | 孩童 | 設施"
-        },
-        {
-            "content": "服務很好",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2019/01/01",
-            "tokenization": "服務"
-        },
-        {
             "content": "營主很熱情，認真的導覽，帶我們認識了一些植物，營地也很乾淨，是會想再去的營區。",
             "type": 3,
             "rating": 5,
             "publishedDate": "2018/12/10",
             "tokenization": "營主 | 很熱情 | 認 | 真的 | 導覽 | 植物 | 營地 | 乾淨 | 想 | 營區"
-        },
-        {
-            "content": "用心經營的好營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/12/09",
-            "tokenization": "用心 | 經營 | 營區"
-        },
-        {
-            "content": "值得推薦",
-            "type": 3,
-            "rating": 3,
-            "publishedDate": "2018/11/22",
-            "tokenization": "值得 | 推薦"
-        },
-        {
-            "content": "好營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/15",
-            "tokenization": "好營區"
-        },
-        {
-            "content": "草皮漂亮⋯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/03",
-            "tokenization": "草皮 | 漂亮"
-        },
-        {
-            "content": "場地乾淨舒適",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/03",
-            "tokenization": "場地 | 乾淨 | 舒適"
-        },
-        {
-            "content": "場地乾淨舒適",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/03",
-            "tokenization": "場地 | 乾淨 | 舒適"
         },
         {
             "content": "交通方便，入夜後很安靜，無光害。熱水強勁，冬天洗起來舒服。。洗碗槽可增加一個平台，方便放置物品。",
@@ -691,34 +432,6 @@
             "tokenization": "交通 | 浴廁 | 設施 | 露營 | 需 | 農場 | 產柿 | 手作 | DIY | 體驗 | 四周 | 小山 | 環繞 | 綠意 | 盎然 | 壯麗風景 | 假日 | 悠閒 | 度假 | 處"
         },
         {
-            "content": "值得再來",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/05/04",
-            "tokenization": "值得 | 再來"
-        },
-        {
-            "content": "很不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/05/02",
-            "tokenization": "很不錯"
-        },
-        {
-            "content": "我會再去",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/05/02",
-            "tokenization": "我會"
-        },
-        {
-            "content": "空間 草皮都不錯",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/05/02",
-            "tokenization": "空間 | 草皮 | 不錯"
-        },
-        {
             "content": "希望能加強浴室的水壓！",
             "type": 3,
             "rating": 3,
@@ -745,13 +458,6 @@
             "rating": 5,
             "publishedDate": "2018/02/19",
             "tokenization": "環境 | 超 | 讚 | 值得 | 再來 | 景點"
-        },
-        {
-            "content": "交通便利，廁所乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/01/28",
-            "tokenization": "交通 | 便利 | 廁所 | 乾淨"
         },
         {
             "content": "環境乾淨，草地跟碎石地都很平整，設備齊全，老闆也非常客氣與熱情，好營地！",
@@ -782,13 +488,6 @@
             "tokenization": "老板 | 老板娘 | 很熱情 | 營區 | 乾淨 | 有興 | 建新 | 浴廁 | 雨棚 | 區 | 親子 | 露營 | 跟上 | 手 | 採果樂 | 柿染 | D"
         },
         {
-            "content": "不錯很直的來",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/12/31",
-            "tokenization": "不錯 | 直"
-        },
-        {
             "content": "營主很熱情，營區管理的很不錯",
             "type": 3,
             "rating": 5,
@@ -810,25 +509,11 @@
             "tokenization": "營主 | 夫妻 | 人不錯 | 熱心 | 洗澡 | 忽 | 冷 | 忽熱 | 營區 | 路 | 小條 | 小心 | 車身 | 刷 | 樹枝"
         },
         {
-            "content": "老闆用心,舒服的營地",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/11/26",
-            "tokenization": "老闆 | 用心 | 舒服 | 營地"
-        },
-        {
             "content": "值得推薦的好地方！。老闆、老闆娘都很親切，採買也不遠，空間規劃不錯",
             "type": 3,
             "rating": 5,
             "publishedDate": "2017/11/25",
             "tokenization": "值得 | 推薦 | 地方 | 老闆 | 老闆娘 | 親切 | 採買 | 不遠 | 空間 | 規劃 | 不錯"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/11/15",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "營位大，老板及老板娘親切，值得再去的地方",
@@ -852,32 +537,11 @@
             "tokenization": "老闆娘 | 親切 | 還採 | 種的 | 菜 | 幫 | 加菜 | 忘 | 少帶 | 東西 | 還免 | 費借 | 真感謝 | 下個 | 月"
         },
         {
-            "content": "很適合小朋友體驗採果",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/10/23",
-            "tokenization": "適合 | 小朋友 | 體驗 | 採果"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/10/15",
-            "tokenization": "不錯 | 營區"
-        },
-        {
             "content": "超棒的DIY活動:柿染,種水耕蔬菜,摘柿子。浴廁方面可以再加強,滿帳時稍嫌不夠!但是老闆很熱情,服務很好!!離市區近補給方便",
             "type": 3,
             "rating": 4,
             "publishedDate": "2017/10/10",
             "tokenization": "超棒 | DIY | 活動 | 柿染 | 種水耕 | 蔬菜 | 摘 | 柿子 | 浴廁 | 滿帳 | 時 | 稍嫌 | 老闆 | 很熱情 | 服務 | 離市 | 區近 | 補給"
-        },
-        {
-            "content": "交通方便，營位寬敞。",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/10/09",
-            "tokenization": "交通 | 營位 | 寬 | 敞"
         },
         {
             "content": "讓人感覺很舒服的營地、營主也很週到",

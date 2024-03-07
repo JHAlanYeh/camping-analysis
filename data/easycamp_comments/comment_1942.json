@@ -19,25 +19,11 @@
             "tokenization": "不錯 | 地方 | 不錯 | 地方 | 離清境 | 農場"
         },
         {
-            "content": "加強更好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/10/18",
-            "tokenization": "更好"
-        },
-        {
             "content": "兔子很多很可愛唷！廁所滿乾淨的！老闆人很好！下次有機會再回訪唷",
             "type": 1,
             "rating": 5,
             "publishedDate": "2020/10/11",
             "tokenization": "兔子 | 可愛唷 | 廁所滿 | 乾淨 | 老闆 | 下次 | 機會 | 回訪 | 唷"
-        },
-        {
-            "content": "放空不錯的選擇",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/08/11",
-            "tokenization": "放空 | 不錯 | 選擇"
         }
     ]
 }

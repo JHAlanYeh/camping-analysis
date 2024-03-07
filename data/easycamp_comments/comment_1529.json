@@ -26,13 +26,6 @@
             "tokenization": "衛浴 | 需 | 改善 | 浴室 | 廁所 | 牆面 | 高度 | 太低"
         },
         {
-            "content": "衛浴設備需改善",
-            "type": 1,
-            "rating": 2,
-            "publishedDate": "2023/04/04",
-            "tokenization": "衛浴 | 設備 | 需 | 改善"
-        },
-        {
             "content": "營區空間很大,營主很熱情,環境也不錯",
             "type": 1,
             "rating": 5,
@@ -75,13 +68,6 @@
             "tokenization": "園主熱情 | 多藝 | 衛浴 | 設施 | 整潔度須 | 改善"
         },
         {
-            "content": "服務好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/18",
-            "tokenization": "服務好"
-        },
-        {
             "content": "營主非常好，下次有到台東還訂營區。",
             "type": 1,
             "rating": 5,
@@ -101,13 +87,6 @@
             "rating": 4,
             "publishedDate": "2019/02/06",
             "tokenization": "交通 | 便利 | 浴廁 | 寬 | 場地 | 平整 | 樹木 | 整齊 | 規劃 | 服務 | 親切"
-        },
-        {
-            "content": "還不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/12/30",
-            "tokenization": "還不錯"
         },
         {
             "content": "很酷的體驗 老闆娘非常親切地請我們吃火龍果 老闆根本身懷絕技",
@@ -145,13 +124,6 @@
             "tokenization": "營地 | 空間 | 跳電 | 發生 | 頻率 | 高"
         },
         {
-            "content": "跳電問題",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/12/30",
-            "tokenization": "跳電"
-        },
-        {
             "content": "營主親切，營地自然寬闊",
             "type": 1,
             "rating": 5,
@@ -164,20 +136,6 @@
             "rating": 4,
             "publishedDate": "2017/09/28",
             "tokenization": "算舒適 | 營區 | 草地 | 很優 | 椰子 | 樹下露 | 營別 | 了趣 | 衛 | 老闆 | 很熱情"
-        },
-        {
-            "content": "適合打尖的地方",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/03/27",
-            "tokenization": "適合 | 打尖 | 地方"
-        },
-        {
-            "content": "老闆親切，營地佳",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/03/20",
-            "tokenization": "老闆 | 親切 | 營地佳"
         },
         {
             "content": "有許多適合孩子玩的設施。即使晚上下雨，隔日地面是乾的。",
@@ -206,13 +164,6 @@
             "rating": 3,
             "publishedDate": "2017/01/12",
             "tokenization": "椰子 | 樹下 | 草皮 | 清悠 | 浴廁 | ㄧ | 很大 | 交通"
-        },
-        {
-            "content": "能多點休閒設施更佳",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2017/01/07",
-            "tokenization": "能多點 | 休閒 | 設施 | 更佳"
         }
     ]
 }

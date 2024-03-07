@@ -19,25 +19,11 @@
             "tokenization": "第一次 | 留差評 | 自搭 | 帳區 | 設備 | 差絕 | 想 | 第二次 | 新 | 營主 | 接手 | 還沒 | 整理 | 接單 | 真的 | 不應 | 環境 | 髒 | 亂"
         },
         {
-            "content": "值得再來的地方",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2020/05/23",
-            "tokenization": "值得 | 再來 | 地方"
-        },
-        {
             "content": "環境整理佳乾淨舒適。唯美中不足：鄰居唱卡拉Ok到清晨1-2點無法入睡。",
             "type": 3,
             "rating": 5,
             "publishedDate": "2020/04/03",
             "tokenization": "環境 | 整理 | 佳乾淨 | 舒適 | 唯 | 美中不足 | 鄰居唱 | 卡拉 | Ok | 清晨 | 點無法 | 入睡"
-        },
-        {
-            "content": "小而美的營地",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/09/18",
-            "tokenization": "小而 | 美的 | 營地"
         },
         {
             "content": "老闆服務周到、浴廁乾淨、營地有用心維護整理. 推",
@@ -75,46 +61,11 @@
             "tokenization": "老闆 | 待人 | 親切 | 友善 | 浴廁 | 乾淨 | 離湧泉 | 晚上 | 星星 | 棒 | 體驗"
         },
         {
-            "content": "冷泉走路就到了",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/08/15",
-            "tokenization": "冷泉 | 走路"
-        },
-        {
-            "content": "基礎建設要再加強",
-            "type": 3,
-            "rating": 3,
-            "publishedDate": "2017/12/20",
-            "tokenization": "基礎 | 建設"
-        },
-        {
             "content": "營地棧板寬大舒服、老闆非常積極拼便所、風景優美、近東澳冷泉及有美味新鮮海鮮的粉鳥林",
             "type": 3,
             "rating": 5,
             "publishedDate": "2017/09/18",
             "tokenization": "營地 | 棧板 | 寬 | 舒服 | 老闆 | 拼 | 風景 | 優美 | 近東 | 澳冷泉 | 美味 | 新鮮 | 海鮮 | 粉 | 鳥林"
-        },
-        {
-            "content": "不錯的地方",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/05/12",
-            "tokenization": "不錯 | 地方"
-        },
-        {
-            "content": "去第二次",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/05/12",
-            "tokenization": "第二次"
-        },
-        {
-            "content": "地方不錯",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/05/12",
-            "tokenization": "地方 | 不錯"
         },
         {
             "content": "浴廁很乾淨，小朋友活動的地方大，走路就到東岳湧泉。整體來說很不錯，只是火車和旁邊施工有點吵.",

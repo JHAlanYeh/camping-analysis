@@ -12,13 +12,6 @@
     "longitude": 120.6957107,
     "comments": [
         {
-            "content": "安靜舒服的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/10/22",
-            "tokenization": "安靜 | 舒服 | 營地"
-        },
-        {
             "content": "營區前面大草皮 環境還不錯 很多貓咪都很親人  營主很親切 蚊子偏多。營區有養狗狗 白天晚上都會有狗叫聲  怕吵的露友要記得戴耳塞  我就是沒戴到耳塞 完全沒辦法睡><",
             "type": 1,
             "rating": 5,
@@ -68,13 +61,6 @@
             "tokenization": "雲海 | 很棒 | 浴廁 | 乾淨 | 早上 | 起床 | 雲海伴 | 感覺 | 很棒 | 草地 | 很平 | 很漂亮 | 適合 | 想 | 放 | 鬆 | 心情 | 人來"
         },
         {
-            "content": "值得",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/05/20",
-            "tokenization": "值得"
-        },
-        {
             "content": "老闆及老闆娘親切又阿莎力，能提供適當的幫助又不會造成干擾，且老闆還會把自種的水果放營區內給大家吃，是",
             "type": 1,
             "rating": 5,
@@ -87,13 +73,6 @@
             "rating": 5,
             "publishedDate": "2018/05/19",
             "tokenization": "白天 | 晚上 | 皆 | 風景 | 可賞 | 謝謝 | 營主 | 熱情 | 招待"
-        },
-        {
-            "content": "風景漂亮，浴廁乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/05/16",
-            "tokenization": "風景 | 漂亮 | 浴 | 廁乾淨"
         },
         {
             "content": "營區周邊就可賞螢。建議可開放C區訂位",
@@ -117,34 +96,6 @@
             "tokenization": "場地 | 收 | 15 | 帳 | 場主 | 佛心"
         },
         {
-            "content": "good。good",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/01/05",
-            "tokenization": "good | good"
-        },
-        {
-            "content": "整體很乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/01/01",
-            "tokenization": "整體 | 乾淨"
-        },
-        {
-            "content": "新年快樂",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2018/01/01",
-            "tokenization": "新年 | 快樂"
-        },
-        {
-            "content": "到處都有狗大便～～",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/12/10",
-            "tokenization": "處 | 狗 | 大便"
-        },
-        {
             "content": "服務態度好 景色好 衛浴乾淨",
             "type": 1,
             "rating": 5,
@@ -159,13 +110,6 @@
             "tokenization": "空曠 | 場地 | 景色 | 眼前"
         },
         {
-            "content": "老闆很隨合",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/18",
-            "tokenization": "老闆 | 隨合"
-        },
-        {
             "content": "營主很熱心，風景也很美",
             "type": 1,
             "rating": 5,
@@ -173,32 +117,11 @@
             "tokenization": "營主 | 很熱心 | 風景 | 美"
         },
         {
-            "content": "謝謝營主熱情的招待",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/06/06",
-            "tokenization": "謝謝 | 營主 | 熱情 | 招待"
-        },
-        {
-            "content": "謝謝熱情招待哦",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/06/06",
-            "tokenization": "謝謝 | 熱情 | 招待"
-        },
-        {
             "content": "很讓人放鬆的地方，風景美，生態豐富，營地主人很親切",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/06/06",
             "tokenization": "放 | 鬆 | 地方 | 風 | 景美 | 生態 | 營地 | 主人 | 親切"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/05/28",
-            "tokenization": "不錯 | 營區"
         }
     ]
 }

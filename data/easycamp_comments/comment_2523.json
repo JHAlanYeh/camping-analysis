@@ -10,20 +10,6 @@
     "address": "花蓮縣壽豐鄉大橋30之6號",
     "comments": [
         {
-            "content": "營主認真",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2023/04/08",
-            "tokenization": "營主"
-        },
-        {
-            "content": "服務好",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/01/19",
-            "tokenization": "服務好"
-        },
-        {
             "content": "海景非常棒。海景非常棒",
             "type": 3,
             "rating": 4,
@@ -31,32 +17,11 @@
             "tokenization": "海景 | 棒 | 海景 | 棒"
         },
         {
-            "content": "海景非常棒",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2022/03/07",
-            "tokenization": "海景 | 棒"
-        },
-        {
             "content": "營區的規畫可以再更完美",
             "type": 3,
             "rating": 4,
             "publishedDate": "2022/01/03",
             "tokenization": "營區 | 規畫 | 完美"
-        },
-        {
-            "content": "不錯",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2021/08/23",
-            "tokenization": "不錯"
-        },
-        {
-            "content": "你們工作辛苦了",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/03/05",
-            "tokenization": "工作 | 辛苦"
         },
         {
             "content": "景觀很棒。營位稍微小一點，但景觀很棒",

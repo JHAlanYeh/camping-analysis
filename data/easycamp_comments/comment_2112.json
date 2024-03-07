@@ -19,25 +19,11 @@
             "tokenization": "風 | 景美 | 採買 | 早上 | 奮起 | 湖 | 逛逛 | 吃 | 完鐵路 | 便當 | 營區 | 搭 | 帳篷 | 隔天 | 原定 | 景點 | 優 | x | 接團體 | 為 | 主 | 散客 | 白跑一趟"
         },
         {
-            "content": "風景美，採買方便",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2023/07/06",
-            "tokenization": "風 | 景美 | 採買"
-        },
-        {
             "content": "不錯，只是間隔近，露友一多，12點多仍熱鬧不停…",
             "type": 3,
             "rating": 5,
             "publishedDate": "2023/06/16",
             "tokenization": "不錯 | 間 | 隔近 | 露友 | 一多 | 12 | 點多 | 熱鬧 | 不停"
-        },
-        {
-            "content": "風景不錯",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2023/06/06",
-            "tokenization": "風景 | 不錯"
         },
         {
             "content": "相當親切的營主大哥。距離去到景點都很近，而且營主大哥相當親切，營區環境也很自在！值得一去再去的好地方！",
@@ -75,32 +61,11 @@
             "tokenization": "小而 | 美的 | 營區 | 入營 | 區後車 | 道 | 狹 | 下坡 | 不好 | 開 | 營區 | 植物 | 富藏 | 不起眼 | 珍貴 | 寶物"
         },
         {
-            "content": "營主超熱心親切",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2023/01/12",
-            "tokenization": "營主 | 超熱心 | 親切"
-        },
-        {
-            "content": "營區老闆nice",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/01/11",
-            "tokenization": "營區 | 老闆 | nice"
-        },
-        {
             "content": "設施沒有在維護的感覺，本來期待帶小孩去玩的都有點失望，風景很好，大致上的環境都很舒服，營主友善",
             "type": 3,
             "rating": 5,
             "publishedDate": "2022/12/25",
             "tokenization": "設施 | 維護 | 感覺 | 本來 | 期待 | 小孩 | 玩 | 失望 | 風景 | 環境 | 舒服 | 營主 | 友善"
-        },
-        {
-            "content": "很舒適的環境",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/12/18",
-            "tokenization": "很舒適 | 環境"
         },
         {
             "content": "老闆人很nice，因為前日摘取蜂窩後還是擔心客人有危險，特地將有帳區拆除，再讓我們可以體驗自行搭帳。",
@@ -117,20 +82,6 @@
             "tokenization": "營主 | 學識淵博 | 植物 | 研究 | 經營 | 營區 | 用心 | 營主 | 待人 | 誠懇 | 親切 | 會帶 | 客人 | 解說 | 植物 | 用心 | 經營 | 環境 | 整理 | 乾淨 | 各區位 | 音量 | 吵雜 | 干擾 | 價錢 | 公道"
         },
         {
-            "content": "營主很樂心....",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/10/25",
-            "tokenization": "營主 | 很樂心"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/10/25",
-            "tokenization": "很棒 | 營區"
-        },
-        {
             "content": "小而美，附近營區很多，別跑錯位置",
             "type": 3,
             "rating": 5,
@@ -143,13 +94,6 @@
             "rating": 5,
             "publishedDate": "2022/10/09",
             "tokenization": "小而美 | 營區 | 跑 | 錯 | 位置"
-        },
-        {
-            "content": "會想再去",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2022/09/29",
-            "tokenization": "會想"
         },
         {
             "content": "讚。很適合帶小孩去遊玩的地方，山上很舒服，園長很熱心哦！",
@@ -173,13 +117,6 @@
             "tokenization": "活動 | 空間 | 老闆 | 很熱情"
         },
         {
-            "content": "良好。停車位置少",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2021/10/21",
-            "tokenization": "停車 | 位置 | 少"
-        },
-        {
             "content": "營主人熱情.親切.環境優美",
             "type": 3,
             "rating": 5,
@@ -194,13 +131,6 @@
             "tokenization": "不錯 | 廁所 | 乾淨 | 水壓 | 很強 | 環境 | 舒服"
         },
         {
-            "content": "乾淨、舒適，營主熱情",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/03/29",
-            "tokenization": "乾淨 | 舒適 | 營主 | 熱情"
-        },
-        {
             "content": "營區內就可以看到日出。營主超級熱情，知道我們要衝上祝山看日出，提醒我們注意路況，還帶我們去遊古道、看夕陽、觀音石，沿路生態導覽，有問必答，受益良多",
             "type": 3,
             "rating": 5,
@@ -208,32 +138,11 @@
             "tokenization": "營區 | 日出 | 營主 | 超級 | 熱情 | 衝上 | 祝山 | 日出 | 提醒 | 路況 | 還帶 | 去遊 | 古道 | 看夕陽 | 觀音石 | 沿路 | 生態 | 導覽 | 有問 | 必答 | 受益 | 良多"
         },
         {
-            "content": "位置很棒的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2021/02/20",
-            "tokenization": "位置 | 很棒 | 營區"
-        },
-        {
-            "content": "GOOD",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/12/28",
-            "tokenization": "GOOD"
-        },
-        {
             "content": "營主，人很好，風景也好!",
             "type": 3,
             "rating": 5,
             "publishedDate": "2020/08/26",
             "tokenization": "營主 | 風景"
-        },
-        {
-            "content": "貼心營主好營地",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2020/07/16",
-            "tokenization": "貼心 | 營主 | 好營"
         },
         {
             "content": "整體而言是很棒的營區。雨棚的部分兩塊布中間有縫隙遇到下雨會有雨落進來，這部分老闆有說之後會改進，不知道甚麼原因第二天早上起來蒼蠅不少，到了晚上又消失了，浴室廁所還算乾淨，淋浴的水很強水溫夠熱，老闆人很客氣有問題都可以現場反應，本來要帶我們去看螢火蟲，但遇到下雨殘念，後來在帳篷前偶然看到一隻路過的螢火蟲，彌補一點遺憾，雨勢一陣一陣的關係沙坑跟水池無法使用，小朋友缺乏玩樂的地方及設施有點可惜，只能一直看投影機，整體而言是很棒的營區，但也還有改進的空間~",
@@ -292,13 +201,6 @@
             "tokenization": "倉伯 | 熱情 | 會帶 | 營友 | 探討 | 秘境"
         },
         {
-            "content": "很棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/09/02",
-            "tokenization": "很棒"
-        },
-        {
             "content": "展望好，營主熱情，but營位有點太密..",
             "type": 3,
             "rating": 4,
@@ -311,20 +213,6 @@
             "rating": 5,
             "publishedDate": "2019/07/22",
             "tokenization": "熱心 | 營主 | 雨棚 | 區免 | 雨淋 | 晚上 | 開心 | 找 | 青蛙 | 小孩 | 開心 | 大人 | 開心"
-        },
-        {
-            "content": "好營地",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/05/26",
-            "tokenization": "好營"
-        },
-        {
-            "content": "營主很熱情",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2019/03/21",
-            "tokenization": "營主 | 很熱情"
         },
         {
             "content": "營主非常熱情，更用心帶領露友們參與活動",
@@ -362,13 +250,6 @@
             "tokenization": "用心 | 經營 | 營地 | 觀賞 | 阿里山 | 日出"
         },
         {
-            "content": "設施完善",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/13",
-            "tokenization": "設施 | 完善"
-        },
-        {
             "content": "感謝倉伯的營地。在阿里山上經營不容易，辛苦了",
             "type": 3,
             "rating": 5,
@@ -390,39 +271,11 @@
             "tokenization": "倉伯 | 夫妻 | 親切 | 待人 | 客氣 | 營區 | 環境 | 衛浴 | 乾淨 | 機會 | 下次 | 再來 | 玩"
         },
         {
-            "content": "環境整體看起來還不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/09",
-            "tokenization": "環境 | 整體 | 還不錯"
-        },
-        {
-            "content": "倉伯熱血助人讚",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/09",
-            "tokenization": "倉伯熱血 | 助人 | 讚"
-        },
-        {
             "content": "如果再重新規劃一下會更好",
             "type": 3,
             "rating": 4,
             "publishedDate": "2019/02/07",
             "tokenization": "規劃 | 更好"
-        },
-        {
-            "content": "讚啦！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/06",
-            "tokenization": "讚"
-        },
-        {
-            "content": "營主超親切",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/02/03",
-            "tokenization": "營主 | 超親切"
         },
         {
             "content": "蒼柏人非常親切，營區也很舒適，很棒的體驗",
@@ -453,13 +306,6 @@
             "tokenization": "山谷 | 風景 | 漂亮 | 雲霧 | 繚繞"
         },
         {
-            "content": "營主人超好",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/12/18",
-            "tokenization": "營主 | 人超"
-        },
-        {
             "content": "浴廁乾淨，紮營木棧道方便，日出遠眺視野良好，首露最佳選擇",
             "type": 3,
             "rating": 5,
@@ -488,13 +334,6 @@
             "tokenization": "風景 | 不錯 | 營主 | 親切 | 私房 | 景點 | 活動 | 讚"
         },
         {
-            "content": "營主人很好",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/12/09",
-            "tokenization": "營主"
-        },
-        {
             "content": "風景優美~營區環境整潔，營主親切用心，帶客人觀雲海賞神木，值得推薦的好地方。",
             "type": 3,
             "rating": 5,
@@ -514,20 +353,6 @@
             "rating": 5,
             "publishedDate": "2018/11/29",
             "tokenization": "營主 | 很熱心 | 還會 | 私房 | 景點"
-        },
-        {
-            "content": "讚啦",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/29",
-            "tokenization": "讚"
-        },
-        {
-            "content": "棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/11/16",
-            "tokenization": "棒"
         },
         {
             "content": "景觀超棒，還可以看日出∼營主超熱情",
@@ -551,39 +376,11 @@
             "tokenization": "營主 | 服務 | 還會 | 健 | 走"
         },
         {
-            "content": "環境尚可",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/10/29",
-            "tokenization": "環境 | 尚可"
-        },
-        {
             "content": "營主很熱情，營位的木棧板很不錯，也有遮雨棚，廁所非常的乾淨",
             "type": 3,
             "rating": 5,
             "publishedDate": "2018/10/24",
             "tokenization": "營主 | 很熱情 | 營位 | 木棧 | 板 | 不錯 | 遮雨棚 | 廁所 | 乾淨"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 3,
-            "rating": 3,
-            "publishedDate": "2018/10/15",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "倉伯親切熱心",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/10/14",
-            "tokenization": "倉伯 | 親切 | 熱心"
-        },
-        {
-            "content": "用心經營ㄉ營地",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/10/10",
-            "tokenization": "用心 | 經營 | ㄉ | 營地"
         },
         {
             "content": "放空的好地方。倉伯親切, 還有私秘路徑的導遊",
@@ -598,13 +395,6 @@
             "rating": 5,
             "publishedDate": "2018/10/09",
             "tokenization": "老闆 | 對露友 | 感謝 | 倉伯哥 | 安排 | 導覽 | 旅 | 介紹 | 詳細 | 植物 | 蕨類 | 植物 | 朋友 | 級 | 小朋友 | 增加 | 學校 | 學 | 不到 | 東西"
-        },
-        {
-            "content": "營區內就有雨棚超棒的",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/09/17",
-            "tokenization": "營區 | 雨棚 | 超棒"
         },
         {
             "content": "雲霧繚繞，空氣清新好地方",
@@ -633,13 +423,6 @@
             "rating": 5,
             "publishedDate": "2018/08/05",
             "tokenization": "營主 | 夫婦 | 友善 | 棧板 | 上方 | 帆布 | 下雨 | 景色 | 優美 | 浴室 | 熱 | 水量 | 充足"
-        },
-        {
-            "content": "營主服務親切",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/08/05",
-            "tokenization": "營主 | 服務 | 親切"
         },
         {
             "content": "營地.浴廁都很乾淨~值得再來的營地~",
@@ -682,13 +465,6 @@
             "rating": 5,
             "publishedDate": "2018/07/24",
             "tokenization": "營主 | 親切 | 服務好 | 值得 | 再來 | 營地 | 10 | 買 | ELEVEN | 景點"
-        },
-        {
-            "content": "老板親切，熱心",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/07/17",
-            "tokenization": "老板 | 親切 | 熱心"
         },
         {
             "content": "感謝倉伯的熱忱，親切 讓我們露營菜鳥有個愉快的回憶！",
@@ -789,20 +565,6 @@
             "tokenization": "茶 | 梯田 | 景觀 | 獨特 | CP | 值 | 超高"
         },
         {
-            "content": "營長熱心親切!",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/04/28",
-            "tokenization": "營長 | 熱心 | 親切"
-        },
-        {
-            "content": "倉伯人很客氣喔！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/04/24",
-            "tokenization": "倉伯人 | 客氣 | 喔"
-        },
-        {
             "content": "感謝倉伯的服務 有你真好",
             "type": 3,
             "rating": 5,
@@ -810,25 +572,11 @@
             "tokenization": "感謝 | 倉伯 | 服務 | 真"
         },
         {
-            "content": "營主夫婦很熱情！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/04/21",
-            "tokenization": "營主 | 夫婦 | 熱情"
-        },
-        {
             "content": "倉伯超級熱情！非常喜歡這裡。讓我們更認識大自然",
             "type": 3,
             "rating": 5,
             "publishedDate": "2018/04/17",
             "tokenization": "倉伯超級 | 熱情 | 喜歡 | 大自然"
-        },
-        {
-            "content": "老闆人很好……讚！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/04/14",
-            "tokenization": "老闆 | 讚"
         },
         {
             "content": "營主熱心，私房景點看到很多螢火蟲",
@@ -843,13 +591,6 @@
             "rating": 5,
             "publishedDate": "2018/04/09",
             "tokenization": "超棒 | 台 | 語解 | 說 | 螢火蟲 | 樹蛙 | 美的 | 水晶 | 蘭 | 可愛庭 | 菖蒲 | 期待 | 倉伯帶 | 私密 | 景點"
-        },
-        {
-            "content": "很棒的倉伯，很熱心！",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/04/09",
-            "tokenization": "很棒 | 倉伯 | 很熱心"
         },
         {
             "content": "交通便利，風景宜人。我們住四人房，除了車位比較小以外，其他都很舒適。",
@@ -878,13 +619,6 @@
             "rating": 5,
             "publishedDate": "2018/03/24",
             "tokenization": "李 | 老闆 | 熱心 | 開車 | 看雲海 | 夜景 | 給他 | 一百分"
-        },
-        {
-            "content": "營主很熱情",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/03/24",
-            "tokenization": "營主 | 很熱情"
         },
         {
             "content": "老闆很熱情會帶露客去私房景點很棒，阿里山露營首選",
@@ -920,20 +654,6 @@
             "rating": 4,
             "publishedDate": "2018/03/17",
             "tokenization": "服務 | 親切 | 老闆 | 貼 | 心服 | 務 | 還帶 | 爬山 | 週邊 | 密境"
-        },
-        {
-            "content": "倉伯很熱情",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/03/13",
-            "tokenization": "倉伯 | 熱情"
-        },
-        {
-            "content": "營主超熱心",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/03/06",
-            "tokenization": "營主 | 超熱心"
         },
         {
             "content": "倉伯人很親切，給了很多的意見，也透露許多私房景點，可惜的是天公不作美，低溫加大霧，能見度太低了。。是個很好的地方，倉伯也很認真的不斷改善露營環境，比較可惜的是巧遇寒流，約好擇日再來……",
@@ -992,32 +712,11 @@
             "tokenization": "營主 | 很熱心 | 棧板 | 淺眠 | 不建議 | 營位 | 太 | 適合 | 包場 | 會覺 | 沒品質 | 露營 | 兩團 | 超吵 | 露友 | 一團 | 晚 | 還在 | 大聲 | 喧嘩 | 一團天 | 剛亮 | 起床 | 放著 | 超大 | 聲 | 惱人 | 音樂 | 美景 | 大為 | 掃興"
         },
         {
-            "content": "營主親切，導覽詳細",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/01/28",
-            "tokenization": "營主 | 親切 | 導覽 | 詳細"
-        },
-        {
-            "content": "營主人超好的",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2018/01/21",
-            "tokenization": "營主 | 人超"
-        },
-        {
             "content": "蒼伯很熱心想帶我們去觀賞私密景點，可惜天公不作美，下次有機會再來",
             "type": 3,
             "rating": 5,
             "publishedDate": "2018/01/20",
             "tokenization": "蒼伯 | 很熱 | 心想 | 觀賞 | 私密 | 景點 | 可惜 | 天公不作美 | 下次 | 機會"
-        },
-        {
-            "content": "老闆親切客氣",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2018/01/13",
-            "tokenization": "老闆 | 親切 | 客氣"
         },
         {
             "content": "免費天幕，老闆超熱心！值得推薦！",
@@ -1046,13 +745,6 @@
             "rating": 5,
             "publishedDate": "2017/12/31",
             "tokenization": "營主 | 熱情 | 會帶 | 探訪 | 祕 | 境 | 衛浴 | 增加"
-        },
-        {
-            "content": "美景期待下次再相會",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/12/30",
-            "tokenization": "美景 | 期待 | 下次 | 相會"
         },
         {
             "content": "營主態度超親切，整體設備也都很棒",
@@ -1090,13 +782,6 @@
             "tokenization": "風景 | 優美 | 衛浴 | 設備 | 乾淨 | 老闆 | 親切 | 熱情 | 喔 | 風景 | 優美 | 環境 | 乾淨 | 老闆 | 親切 | 熱情 | 分享 | 私人 | 景點 | 讚"
         },
         {
-            "content": "營主十分專業且熱情。",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/12/13",
-            "tokenization": "營主 | 專業且 | 熱情"
-        },
-        {
             "content": "營主服務親切，昆蟲觀察很幫喔！",
             "type": 3,
             "rating": 5,
@@ -1118,13 +803,6 @@
             "tokenization": "感謝 | 熱情 | 營主 | 大哥 | 一點 | 活動 | 設施 | 營主 | 大哥 | 真的 | 很熱情 | 停車 | 裝備 | 規劃"
         },
         {
-            "content": "營主熱心、環境清幽",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/11/28",
-            "tokenization": "營主 | 熱心 | 環境 | 清幽"
-        },
-        {
             "content": "老闆跟老闆娘都很親切～",
             "type": 3,
             "rating": 5,
@@ -1139,39 +817,11 @@
             "tokenization": "倉伯人 | 超熱情 | 還親 | 自帶 | 著 | 欣賞 | 雲海 | 生態 | 導覽 | 小孩 | 開心 | 廁所 | 超乾淨 | 小小 | 小建 | 議 | 廁所 | 可加裝 | 架子 | 洗澡 | 衛浴 | 用品 | 肥皂 | 沐浴乳 | 地方 | 放 | 謝謝"
         },
         {
-            "content": "老闆超熱情",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/11/21",
-            "tokenization": "老闆 | 超熱情"
-        },
-        {
             "content": "很棒的營主及營區。營區很乾淨，營區裡的ㄧ花ㄧ木 看的出營主用心的經營，感謝營主帶我們到私房景點讓我們玩的很開心，浴廁非常乾淨，有機會ㄧ定還會再造訪。",
             "type": 3,
             "rating": 5,
             "publishedDate": "2017/11/20",
             "tokenization": "很棒 | 營主 | 及營區 | 營區 | 乾淨 | 營區裡 | ㄧ | 花 | ㄧ | 木 | 營主 | 用心 | 經營 | 感謝 | 營主 | 私房 | 景點 | 玩 | 開心 | 浴廁 | 乾淨 | 機會 | ㄧ | 還會 | 再造 | 訪"
-        },
-        {
-            "content": "老闆很親切",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/11/13",
-            "tokenization": "老闆 | 親切"
-        },
-        {
-            "content": "老闆很親切",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/11/13",
-            "tokenization": "老闆 | 親切"
-        },
-        {
-            "content": "營主很熱情！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/11/13",
-            "tokenization": "營主 | 很熱情"
         },
         {
             "content": "好棒的一次露營～ 很熱情又盡責的營主 還帶我們去秘境 體驗大自然 營區乾淨又很漂亮 期待下次再來這營",
@@ -1223,27 +873,6 @@
             "tokenization": "倉伯介紹 | 私房 | 景點 | 超 | 讚"
         },
         {
-            "content": "感謝倉伯熱情的招待",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/10/12",
-            "tokenization": "感謝 | 倉伯熱情 | 招待"
-        },
-        {
-            "content": "麻雀雖小，五臟俱全",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/10/12",
-            "tokenization": "麻雀 | 雖小 | 五臟 | 俱全"
-        },
-        {
-            "content": "感謝倉伯的推薦秘境！",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/10/12",
-            "tokenization": "感謝 | 倉伯 | 推薦 | 秘境"
-        },
-        {
             "content": "很愉快的旅程。謝謝倉伯的細心導覽覺得真的物超所值有機會會再光臨",
             "type": 3,
             "rating": 5,
@@ -1256,13 +885,6 @@
             "rating": 5,
             "publishedDate": "2017/10/02",
             "tokenization": "老闆 | 真的 | 親切 | 夜間 | 昆蟲 | 孩子 | 超開心 | 下次 | 再訪 | 口袋 | 名單"
-        },
-        {
-            "content": "很棒。很棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/09/04",
-            "tokenization": "很棒 | 很棒"
         },
         {
             "content": "建議加強浴廁整潔，及提供衛生紙服務，下裝備不方便。",
@@ -1293,32 +915,11 @@
             "tokenization": "茶香 | 人情 | 濃 | 景色 | 怡人森 | 呼吸 | 場地 | 乾淨 | 營主 | 超親 | 切親 | 自導覽 | 介紹 | 私房 | 景點 | 景觀 | 優美"
         },
         {
-            "content": "還不錯",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/08/21",
-            "tokenization": "還不錯"
-        },
-        {
-            "content": "營位範圍大.衛浴乾淨",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/08/18",
-            "tokenization": "營位 | 衛浴 | 乾淨"
-        },
-        {
             "content": "第一次露營還能晚上去夜遊看昆蟲，感謝營區主人倉伯，營區很棒，景色美，很值得的營區",
             "type": 3,
             "rating": 5,
             "publishedDate": "2017/08/17",
             "tokenization": "第一次 | 露營 | 還能 | 晚上 | 夜遊 | 昆蟲 | 感謝 | 營區 | 主人 | 倉伯 | 營區 | 很棒 | 景色 | 美 | 值得 | 營區"
-        },
-        {
-            "content": "營主很熱情，很棒!",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/08/17",
-            "tokenization": "營主 | 很熱情 | 很棒"
         },
         {
             "content": "人超好的倉伯！不藏私的帶大家到私房景點！",
@@ -1361,13 +962,6 @@
             "rating": 5,
             "publishedDate": "2017/07/04",
             "tokenization": "營主 | 倉伯超 | 熱心 | 會介紹 | 私密 | 景點 | 小而 | 美的 | 營區 | 推薦給"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/07/04",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "風景優美，生態豐富，服務親切。",
@@ -1440,13 +1034,6 @@
             "tokenization": "老闆 | 老闆娘 | 親切 | 熱心 | 風景 | 優美 | 很棒 | 露營區"
         },
         {
-            "content": "老闆很親切。",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/05/22",
-            "tokenization": "老闆 | 親切"
-        },
-        {
             "content": "環境優美，倉伯熱心親切",
             "type": 3,
             "rating": 4,
@@ -1503,13 +1090,6 @@
             "tokenization": "倉伯 | 熱心 | 幫忙 | 解說"
         },
         {
-            "content": "倉伯辛苦了！",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/04/17",
-            "tokenization": "倉伯 | 辛苦"
-        },
-        {
             "content": "老闆景點專業，老闆娘親切好客~讚!",
             "type": 3,
             "rating": 5,
@@ -1522,13 +1102,6 @@
             "rating": 5,
             "publishedDate": "2017/04/06",
             "tokenization": "倉伯及 | 倉婆 | 營區 | 所有人 | 熱心"
-        },
-        {
-            "content": "視野棒",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/04/05",
-            "tokenization": "視野棒"
         },
         {
             "content": "營主好客、熱情、服務週到，環境也很清㓗，更有私密景點的導覽服務，真是太棒了！是值得回露的營區！",
@@ -1601,25 +1174,11 @@
             "tokenization": "很棒 | 營主 | 很棒 | 設計 | 超貼 | 心 | 服務 | 謝謝 | 倉伯 | 還帶 | 夜訪 | 莫氏 | 樹蛙 | 孩子 | 回味 | 無窮"
         },
         {
-            "content": "小而美的營區",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/03/14",
-            "tokenization": "小而 | 美的 | 營區"
-        },
-        {
             "content": "風景很美 營主和夫人很親切!",
             "type": 3,
             "rating": 5,
             "publishedDate": "2017/03/02",
             "tokenization": "風景 | 美 | 營主 | 夫人 | 親切"
-        },
-        {
-            "content": "老闆很親切",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2017/03/01",
-            "tokenization": "老闆 | 親切"
         }
     ]
 }
