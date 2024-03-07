@@ -26,13 +26,6 @@
             "tokenization": "設備 | 不錯 | 不露營 | 親友 | 包場 | 超歡 | 樂地"
         },
         {
-            "content": "適合家庭包場！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/04/27",
-            "tokenization": "適合 | 家庭 | 包場"
-        },
-        {
             "content": "超級方便又便宜的營區…老闆也很貼心…是讓我再次造訪的營區第一名…",
             "type": 1,
             "rating": 5,
@@ -54,27 +47,6 @@
             "tokenization": "這是 | 第二次 | 到言葉 | 因為 | 便利 | 舒適 | 吵到 | 值得 | 推薦 | 露營區"
         },
         {
-            "content": "營主親切，設備週全",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/24",
-            "tokenization": "營主 | 親切 | 設備 | 週全"
-        },
-        {
-            "content": "非常讚",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/17",
-            "tokenization": "讚"
-        },
-        {
-            "content": "家庭朋友聚會的好去處",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/08",
-            "tokenization": "家庭 | 朋友 | 聚會 | 處"
-        },
-        {
             "content": "包場自由，孩子活動空間大",
             "type": 1,
             "rating": 5,
@@ -87,13 +59,6 @@
             "rating": 5,
             "publishedDate": "2018/12/10",
             "tokenization": "超棒 | 營區 | 包場 | 打擾 | 旁邊 | 小溪 | 玩水 | 價格 | 優惠"
-        },
-        {
-            "content": "適合家旅團聚的好地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/12/02",
-            "tokenization": "適 | 合家 | 旅團 | 聚 | 地方"
         },
         {
             "content": "很棒的營區…桌椅爐具設備俱全…也不怕吵到別人…老闆也超親切的",
@@ -124,25 +89,11 @@
             "tokenization": "開關 | 標示 | 一點"
         },
         {
-            "content": "希望小黑蚊不要太多",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/08/06",
-            "tokenization": "希望 | 小黑 | 蚊 | 太"
-        },
-        {
             "content": "超級適合小團體，晚上完完全全不用怕去吵到任何人",
             "type": 1,
             "rating": 5,
             "publishedDate": "2018/07/09",
             "tokenization": "超級 | 適合 | 小團體 | 晚上 | 完完全全 | 不用 | 吵 | 任何人"
-        },
-        {
-            "content": "家族同露的好地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/05/01",
-            "tokenization": "家族 | 同露 | 地方"
         }
     ]
 }
