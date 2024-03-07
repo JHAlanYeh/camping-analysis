@@ -129,7 +129,8 @@ for file in os.listdir(save_path):
         reviews_count = browser.find_element(By.CSS_SELECTOR, "div.jANrlb > div.fontBodySmall").text.replace(" 篇評論", "").replace(",", "")
         print("總評論數：" + reviews_count)
 
-        if int(reviews_count) > 10000:
+        if int(reviews_count) > 5000:
+            print("comments too much")
             continue
 
         current_reviews_count = 0

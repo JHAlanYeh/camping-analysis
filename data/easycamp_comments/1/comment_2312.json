@@ -19,20 +19,6 @@
             "tokenization": "營主 | 很熱情 | 還煮 | 甜 | 湯給 | 喝 | 彈跳床 | 狀況 | 雨棚 | 區最多 | 四帳 | 空間 | 擠"
         },
         {
-            "content": "浴廁不錯",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2023/12/02",
-            "tokenization": "浴 | 廁不錯"
-        },
-        {
-            "content": "用心的園區~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/10/24",
-            "tokenization": "用心 | 園區"
-        },
-        {
             "content": "環境不錯，營主供應的甜湯好好喝！",
             "type": 1,
             "rating": 5,
@@ -61,13 +47,6 @@
             "tokenization": "營主 | 夫婦 | 親切 | 營位 | 寬 | 敞 | 浴 | 廁近 | 冰箱 | 停車 | 營區 | 很大 | 還能 | 散步 | 處 | 逛逛 | 第一晚 | 營區裡 | 燈亮 | 睡 | 不著 | 禮貌 | 詢問 | 營主 | 營主 | 說 | 晚上 | 12 | 點後會 | 幫 | 關燈 | 真的 | 感謝 | 此營區 | 唯一 | 缺點 | 小黑 | 蚊太多 | 務必 | 自備 | 小黑 | 蚊防 | 蚊液"
         },
         {
-            "content": "超讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/02/09",
-            "tokenization": "超 | 讚"
-        },
-        {
             "content": "營主夫妻很熱情，還準備了甜湯，露營屋乾淨整潔，炊事區空間寬廣。",
             "type": 1,
             "rating": 5,
@@ -89,32 +68,11 @@
             "tokenization": "用心 | 經營 | 營區 | 入住 | 下午 | 營主 | 送來 | 自煮 | 一大 | 鍋 | 冰涼 | 鳳梨白 | 目耳 | 湯品 | 消暑"
         },
         {
-            "content": "營主甜湯很讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/05/13",
-            "tokenization": "營主 | 甜湯 | 讚"
-        },
-        {
-            "content": "五星大衛浴",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/05/13",
-            "tokenization": "五星 | 大衛浴"
-        },
-        {
             "content": "營主熱情，營區很棒。營區內設施很棒，營主人很熱情，讚",
             "type": 1,
             "rating": 5,
             "publishedDate": "2021/03/20",
             "tokenization": "營主 | 熱情 | 營區 | 很棒 | 營區 | 設施 | 很棒 | 營主 | 熱情 | 讚"
-        },
-        {
-            "content": "值得推薦的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/03/12",
-            "tokenization": "值得 | 推薦 | 營區"
         },
         {
             "content": "營主夫婦人超級好,一直不斷的巡視檢查環境及清潔,還煮好喝的甜湯給我們,離開時還送我們水果...今年年",
@@ -208,27 +166,6 @@
             "tokenization": "乾淨 | 清幽 | 營區 | 營區 | 小孩 | 玩 | 彈跳床 | 沙坑 | 戲 | 水池 | 玩耍 | 草地 | 釣魚 | 池供 | 垂 | 釣 | 乾淨 | 衛浴 | 設備 | 免費 | 提供 | 桌椅 | 流理台 | 菜瓜布 | 沙拉 | 脫 | 洗 | 髮 | 精 | 沐浴乳 | 吹風機 | 蚊香 | 捕蠅紙 | 烤肉 | 架 | ....... | 好客 | 營主 | 夫婦 | 所言 | 儘 | 量 | 露營客 | 需求 | 客人 | 這現實 | 社會 | 有人 | 做 | 一次性 | 交易 | 服務 | 營主 | 夫婦 | 露客 | 當作 | 朋友 | 真心 | 值得 | 推薦 | 前往"
         },
         {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/16",
-            "tokenization": "讚"
-        },
-        {
-            "content": "輕鬆自在",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/11",
-            "tokenization": "輕 | 鬆"
-        },
-        {
-            "content": "營主熱心親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/06",
-            "tokenization": "營主 | 熱心 | 親切"
-        },
-        {
             "content": "小孩子喜歡的露營區。很棒的露營區營主夫婦也很棒 只有浴室的熱水忽冷忽熱 需要改進",
             "type": 1,
             "rating": 5,
@@ -257,32 +194,11 @@
             "tokenization": "不錯 | 營區 | 帳數 | 少個 | 帳會 | 更好"
         },
         {
-            "content": "",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/09",
-            "tokenization": ""
-        },
-        {
             "content": "沒熱水營主立刻前來處理，服務超好的。",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/02/09",
             "tokenization": "沒熱水 | 營主 | 前來 | 服務超"
-        },
-        {
-            "content": "親切的營主",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/07",
-            "tokenization": "親切 | 營主"
-        },
-        {
-            "content": "超級好的露營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/26",
-            "tokenization": "超級 | 露營區"
         },
         {
             "content": "營主用心，環境整潔，還提供點心！",
@@ -306,27 +222,6 @@
             "tokenization": "小而 | 美的 | 優質 | 營地 | 營主 | 超熱情 | 送 | 西瓜 | 鳳梨 | 送 | 火龍果 | 牛奶 | 一帳 | 750 | 元 | 營主 | 真的 | 交朋友 | 近市區 | 交通 | 五星 | 級 | 浴廁 | 熱水 | 穩定 | 水壓強 | 有戲 | 水池 | 釣魚池 | 小孩 | 超愛的 | 跳跳床 | 另加 | 碼 | 12 | 月季 | 節 | 限定 | 採果樂 | 橘子"
         },
         {
-            "content": "老闆跟老闆娘都很熱情",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/18",
-            "tokenization": "老闆 | 老闆娘 | 熱情"
-        },
-        {
-            "content": "好。好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/11/06",
-            "tokenization": ""
-        },
-        {
-            "content": "衛浴很好 像在家洗澡",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/11/03",
-            "tokenization": "衛浴 | 在家 | 洗澡"
-        },
-        {
             "content": "營主熱情好客，環境優美，有戲水池，跳跳床，沙坑，小朋友玩的很開心",
             "type": 1,
             "rating": 5,
@@ -341,13 +236,6 @@
             "tokenization": "乾淨 | 交通 | 便利 | 營區 | 營主 | 老闆 | 服務品 | 質佳"
         },
         {
-            "content": "營主夫妻超熱情",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/10/10",
-            "tokenization": "營主 | 夫妻 | 超熱情"
-        },
-        {
             "content": "營主夫婦很熱情,很棒的營區,讓我們留下難忘的回憶！",
             "type": 1,
             "rating": 5,
@@ -360,20 +248,6 @@
             "rating": 5,
             "publishedDate": "2018/09/28",
             "tokenization": "營主 | 友善 | 設施 | 價格 | 營區 | 營主 | 好客 | 客人 | 聊天 | 並準 | 備點 | 心給 | 吃 | 設施 | 衛浴 | 不錯 | 營區 | 道路 | 滿大 | 不用 | 擔心會車 | 交通 | 唯一 | 缺點 | 草皮 | 區的 | 蚊子 | 螞蟻 | 做好 | 防蟲"
-        },
-        {
-            "content": "不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/09/23",
-            "tokenization": "不錯"
-        },
-        {
-            "content": "不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/09/23",
-            "tokenization": "不錯"
         },
         {
             "content": "老闆親民，迅速處理問題",
@@ -397,13 +271,6 @@
             "tokenization": "營主 | 夫婦 | 客氣 | 家人 | 朋友 | 親切"
         },
         {
-            "content": "營主親切，營位親民",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/07/04",
-            "tokenization": "營主 | 親切 | 營位 | 親民"
-        },
-        {
             "content": "(雨棚區)衛浴空間大.乾淨通風水壓超大附沐浴乳.衛生紙；水槽有菜瓜布洗碗精；飲水機.吹風機等一應俱全",
             "type": 1,
             "rating": 5,
@@ -423,13 +290,6 @@
             "rating": 5,
             "publishedDate": "2018/04/10",
             "tokenization": "營主 | 夫婦 | 超親切 | ㄧ | 定會"
-        },
-        {
-            "content": "很棒的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/04/07",
-            "tokenization": "很棒 | 營區"
         },
         {
             "content": "營主人很親切，大彈跳床讓小孩很High，魚池很好釣，成就感滿滿，很讚的營區唷。",
@@ -453,13 +313,6 @@
             "tokenization": "第一次 | 想 | 回露 | 營區 | 適合 | 親子 | 同樂 | 採果 | 遊戲區 | 釣魚 | 五星 | 級衛浴 | 設備 | 乾淨 | 大間 | 舒適 | 超級 | 推薦"
         },
         {
-            "content": "小而美的營地！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/30",
-            "tokenization": "小而 | 美的 | 營地"
-        },
-        {
             "content": "很棒，設備齊全的露營區。營主夫妻超客氣，一直來關心問有沒有什麼需要的，還送好吃的橘子，環境，設備都乾淨，還貼心準備防蚊液，讓我們不用擔心蚊蟲。",
             "type": 1,
             "rating": 5,
@@ -479,13 +332,6 @@
             "rating": 5,
             "publishedDate": "2017/12/10",
             "tokenization": "營主 | 親切 | 請 | 喝 | 洛神 | 花茶 | 晩 | 吃 | 柚子"
-        },
-        {
-            "content": "營主超熱心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/12",
-            "tokenization": "營主 | 超熱心"
         },
         {
             "content": "很貼心也很熱情又非常人性化的營區",

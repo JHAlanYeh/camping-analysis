@@ -12,20 +12,6 @@
     "longitude": 120.9356144,
     "comments": [
         {
-            "content": "下回還要再來",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/11/13",
-            "tokenization": "下回"
-        },
-        {
-            "content": "景觀好",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/02/12",
-            "tokenization": "景觀"
-        },
-        {
             "content": "老闆服務感覺很親切，整體營位安排妥善，咖啡屋可參觀自製咖啡流程，很特別。",
             "type": 1,
             "rating": 5,
@@ -45,20 +31,6 @@
             "rating": 5,
             "publishedDate": "2022/06/29",
             "tokenization": "營區 | 景色 | 優美無話 | 批評 | 唯一 | 廁所 | 太 | 窄小 | 馬 | 桶 | 方向 | ok | 營區 | 主人 | 服裝 | 親切"
-        },
-        {
-            "content": "好大的營位",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/12/22",
-            "tokenization": "好大 | 營位"
-        },
-        {
-            "content": "景很棒的露營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/01/11",
-            "tokenization": "景 | 很棒 | 露營區"
         },
         {
             "content": "熱水熱 景色不錯 開車的路很小要注意安全。當天去的時候是夜衝，結果隔壁野狗跑來把土司叼走，營主隔天馬上下山買了一大包土司，這窩心程度真感動",
@@ -103,20 +75,6 @@
             "tokenization": "景色 | 美 | 營地 | 維護 | 喜歡 | 獨立 | 電熱 | 水器 | 不用 | 擔心 | 水溫 | 變化 | 活動 | 草皮 | 很大 | 養護 | 上營 | 路 | 開要 | 小心 | 點 | 營主 | 幫忙 | 帶路還 | 招待 | 咖啡 | 台中營 | 還會 | 光顧"
         },
         {
-            "content": "好…",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/03",
-            "tokenization": ""
-        },
-        {
-            "content": "絕對值得再來！",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/01",
-            "tokenization": "值得 | 再來"
-        },
-        {
             "content": "路不好開 但風景不錯 廁所乾淨  但旁邊是果園免不了 白天蒼蠅多",
             "type": 1,
             "rating": 4,
@@ -136,13 +94,6 @@
             "rating": 5,
             "publishedDate": "2019/01/06",
             "tokenization": "老闆娘 | 真 | 讚 | 續 | 假日 | 超收 | 小孩 | 有大 | 草地 | 玩遊戲"
-        },
-        {
-            "content": "風景真的很優美超推",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/06",
-            "tokenization": "風景 | 真的 | 優美超 | 推"
         },
         {
             "content": "老闆娘人好好！還讓我們摘水果",
@@ -171,13 +122,6 @@
             "rating": 5,
             "publishedDate": "2018/10/17",
             "tokenization": "營主 | 相處 | 負責 | 馬 | 這是 | 人情味 | 十足 | 地方 | 值得 | 蒞臨 | 營地"
-        },
-        {
-            "content": "草地照顧的很好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/07/09",
-            "tokenization": "草地 | 照顧"
         },
         {
             "content": "景觀漂亮，有厚草皮適合小孩玩，冰箱飲水機都有，營主很好，值得再去的好營區",

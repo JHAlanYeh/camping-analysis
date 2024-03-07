@@ -40,13 +40,6 @@
             "tokenization": "推 | 推 | 推 | 道路 | 順暢 | 營區 | 乾淨 | 整潔 | 營主 | 熱情 | 親切 | 有戲 | 水池 | 無敵 | 夜景 | 天星 | 斗 | 難 | 忘 | 最棒 | 營區 | 蚊子 | 小黑 | 蚊 | 還會 | 想 | 再度 | 光臨"
         },
         {
-            "content": "很棒的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/05/05",
-            "tokenization": "很棒 | 營區"
-        },
-        {
             "content": "到營區的路太小，招牌也不太清楚。兒童遊樂設施太少",
             "type": 1,
             "rating": 5,
@@ -82,27 +75,6 @@
             "tokenization": "營主 | 熱情 | 場地 | 為 | 階梯 | 分區 | 碎石 | 俯看 | 夜景 | 黃 | 昏有 | 雲霧 | 感 | 很棒 | 營區 | 期待 | 前往"
         },
         {
-            "content": "風景優美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/24",
-            "tokenization": "風景 | 優美"
-        },
-        {
-            "content": "風景優美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/24",
-            "tokenization": "風景 | 優美"
-        },
-        {
-            "content": "風景優美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/24",
-            "tokenization": "風景 | 優美"
-        },
-        {
             "content": "謝謝營主提供這麼棒的營地。階梯式營位欣賞夜景,品嚐著闆娘很厲害的烤雞真舒服,清晨露友們還在睡夢中闆娘已在清潔衛浴保持舒適使用環境,超推薦",
             "type": 1,
             "rating": 5,
@@ -124,34 +96,6 @@
             "tokenization": "腹地 | 小而美 | 景色 | 因為 | 著 | 孩子 | 可惜 | 沒什麼 | 兒童 | 設施 | 建議 | 沙坑 | 可加 | 頂 | 增加 | 兒童 | 設施 | 浴室 | 水溫 | 超 | 讚 | 一間 | 一桶 | 瓦斯 | 跨年 | 冷 | 洗 | 暖 | 營主 | 很熱情 | 熱心"
         },
         {
-            "content": "超美麗的風景",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/04/02",
-            "tokenization": "超美麗 | 風景"
-        },
-        {
-            "content": "很棒",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2021/03/15",
-            "tokenization": "很棒"
-        },
-        {
-            "content": "洗澡熱水無法控制",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/01/15",
-            "tokenization": "洗澡 | 熱水 | 控制"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/01/06",
-            "tokenization": "讚"
-        },
-        {
             "content": "沒吃過闆娘的雞,別說你去過原最",
             "type": 1,
             "rating": 5,
@@ -166,13 +110,6 @@
             "tokenization": "視野好 | 環境 | 乾淨 | 昆蟲 | 數量 | 建議 | 蟻 | 窩 | 清掉 | 喔"
         },
         {
-            "content": "超讚營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/07/01",
-            "tokenization": "超 | 讚 | 營 | 區"
-        },
-        {
             "content": "很棒。景色優美，營主熱情，重點是蒼蠅蚊子極少，讚唷",
             "type": 1,
             "rating": 5,
@@ -185,41 +122,6 @@
             "rating": 5,
             "publishedDate": "2020/06/04",
             "tokenization": "不愧 | 百萬大 | 夜景 | 頻頻 | 找 | 不到 | 路 | 來來 | 回 | 回終 | 找到 | 整片 | 漆黑 | 山路 | 中 | 月色 | 陪伴 | 享受 | 夜衝 | 刺激 | 感"
-        },
-        {
-            "content": "風景很好，營主很熱情",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/03/10",
-            "tokenization": "風景 | 營主 | 很熱情"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/03/04",
-            "tokenization": "讚"
-        },
-        {
-            "content": "就感心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/03",
-            "tokenization": "感心"
-        },
-        {
-            "content": "Nice",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/02",
-            "tokenization": "Nice"
-        },
-        {
-            "content": "老闆非常親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/02",
-            "tokenization": "老闆 | 親切"
         },
         {
             "content": "老闆非常親切，能即時處理所有問題，露營也能非常安心！。老闆非常親切，能即時處理所有問題，露營也能非常安心！",
