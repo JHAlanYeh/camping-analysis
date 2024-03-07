@@ -12,67 +12,32 @@
     "longitude": 121.574834,
     "comments": [
         {
-            "content": "環境非常不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2023/03/05",
-            "tokenization": "環境 | 不錯"
-        },
-        {
-            "content": "謝謝招待",
-            "type": 3,
-            "rating": 4,
-            "publishedDate": "2021/08/19",
-            "tokenization": "謝謝 | 招待"
-        },
-        {
             "content": "很悠靜營區，可惜無提供護草地墊，下雨後排水不佳草皮大積水。。很悠靜營區，可惜無提供護草地墊，下雨後排水不佳草皮大積水。",
-            "type": 3,
+            "type": 0,
             "rating": 3,
             "publishedDate": "2021/02/21",
             "tokenization": "悠靜 | 營區 | 可惜 | 提供 | 護 | 草地 | 墊 | 下雨 | 排水 | 不佳 | 草皮 | 大積 | 水 | 悠靜 | 營區 | 可惜 | 提供 | 護 | 草地 | 墊 | 下雨 | 排水 | 不佳 | 草皮 | 大積 | 水"
         },
         {
-            "content": "老闆很親切",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2019/03/11",
-            "tokenization": "老闆 | 親切"
-        },
-        {
             "content": "如果可以增加一些孩童遊戲設施會更好",
-            "type": 3,
+            "type": 0,
             "rating": 4,
             "publishedDate": "2019/03/09",
             "tokenization": "增加 | 孩童 | 遊戲 | 設施會 | 更好"
         },
         {
             "content": "是一處讓人會想在去的露營區",
-            "type": 3,
+            "type": 0,
             "rating": 5,
             "publishedDate": "2018/01/16",
             "tokenization": "一處 | 人會 | 想 | 露營區"
         },
         {
             "content": "可以再訪。老闆娘很親切~",
-            "type": 3,
+            "type": 0,
             "rating": 3,
             "publishedDate": "2017/02/18",
             "tokenization": "再訪 | 老闆娘 | 親切"
-        },
-        {
-            "content": "還不錯",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/02/16",
-            "tokenization": "還不錯"
-        },
-        {
-            "content": "環境設施都不錯的營區",
-            "type": 3,
-            "rating": 5,
-            "publishedDate": "2017/02/16",
-            "tokenization": "環境 | 設施 | 不錯 | 營區"
         }
     ]
 }

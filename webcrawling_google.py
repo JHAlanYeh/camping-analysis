@@ -52,7 +52,7 @@ for file in os.listdir(save_path):
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "klook" not in file:
+        if "easycamp" not in file:
             continue
 
         flag=True
@@ -223,6 +223,7 @@ for file in os.listdir(save_path):
                 comment_objs.append({
                     "content": content,
                     "rating": int(star),
+                    "type": 0,
                     "publishedDate": createdDate.strftime("%Y/%m/%d"),
                     "tokenization": " | ".join(new_ws)
                 })
@@ -241,6 +242,7 @@ for file in os.listdir(save_path):
             "expect_count": int(reviews_count),
             "actual_count": len(sorted_comments),
             "comments" : sorted_comments,
+            "phone": ""
         }
 
         file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))

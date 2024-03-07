@@ -87,32 +87,34 @@ def easycamp_crawler():
     camping_area_objs = json.load(f)
     new_obj = 0
 
-    main_url = "https://www.easycamp.com.tw/AC_Stores.html"
-    web = requests.get(main_url)
-    soup = BeautifulSoup(web.text, "html.parser")
-    all_country = soup.select("[id^='store_menu_']")
-    for country in all_country:
-        link =  base_url.format(relative_link=country.select_one("li a").get('href'))
-        camp_region = requests.get(link)
-        soup = BeautifulSoup(camp_region.text, "html.parser")
-        articles = soup.select('article')
-        for article in articles:
-            code = article.select_one('a').get('href').replace("/Store_", "").replace(".html", "")
-            if next((item for item in camping_area_objs if item["code"] == code), None) is not None:
-                    continue
-            url = base_url.format(relative_link=article.select_one('a').get('href'))
-            name = article.select_one('h3 a').text
-            region = article.select_one('.companyinfo a').text
-            camping_area_objs.append({
-                "code": code,
-                "name": name,
-                "region":region,
-                "url": url,
-                "type": 0,
-                "disabled": 0
-            })
+    for i in range(1,5):
+        page = 1
+        while True:
+            web = requests.get("https://www.easycamp.com.tw/store/store_list/{i}/0/0/0/%5B%22default%22%5D/0/0/0/{page}".format(i=i, page=page))
+            soup = BeautifulSoup(web.text, "html.parser")
+            articles = soup.select('table > tbody > tr > td')
+            if len(articles) == 0:
+                break
 
-            new_obj += 1
+            for article in articles:
+                code = article.select_one('a').get('href').replace("/Store_", "").replace(".html", "")
+                if next((item for item in camping_area_objs if item["code"] == code), None) is not None:
+                        continue
+                url = base_url.format(relative_link=article.select_one('a').get('href'))
+                name = article.select_one('h2').text
+                region = article.select_one('div.hvr-sweep-add > a').text
+                camping_area_objs.append({
+                    "code": code,
+                    "name": name,
+                    "region":region,
+                    "url": url,
+                    "type": 0,
+                    "disabled": 0
+                })
+
+                print("New:" + name)
+                new_obj += 1
+            page = page + 1
 
     print("New:{}".format(str(new_obj)))
     print("Total:{}".format(len(camping_area_objs)))
@@ -196,8 +198,8 @@ def klook_crawler():
 
 
 if __name__ == "__main__":
-    asiayo_crawler()
+    # asiayo_crawler()
     easycamp_crawler()
-    klook_crawler()
+    # klook_crawler()
 
 

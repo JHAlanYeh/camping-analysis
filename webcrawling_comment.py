@@ -90,8 +90,13 @@ def asiayo_comment_crawler():
 
                 for comment in camping_comments:
                     content = comment["content"].replace("\n", "").replace("\r", "").replace("\t", "")
+                    if len(content) <= 10:
+                        continue
                     rating = comment["rating"]
                     publishedDate = comment["publishedDate"]
+                    comment_type = d["type"]
+                    if d["type"] != 1 and d["type"] != 2:
+                        comment_type = 0
 
                     ws = jieba.lcut(content, cut_all=False)
                     new_ws = []
@@ -101,7 +106,7 @@ def asiayo_comment_crawler():
 
                     comment_objs.append({
                         "content": content,
-                        "type": d["type"],
+                        "type": comment_type,
                         "rating": rating,
                         "publishedDate": publishedDate,
                         "tokenization": " | ".join(new_ws)
@@ -155,6 +160,7 @@ def asiayo_comment_tokenization():
                 file_path = os.path.join(asiayo_type_dir, file)
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
+                data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
                 for c in data["comments"]:
                     ws = jieba.lcut(c["content"], cut_all=False)
                     new_ws = []
@@ -234,8 +240,11 @@ def easycamp_comment_crawler():
     for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
             continue
-
+        
         code = d["code"]
+
+        if int(code) < 1981:
+            continue
 
         save_dir = os.path.join(dir_path, "easycamp_comments\\{house_type}".format(house_type=d["type"]))
         os.makedirs(save_dir, exist_ok=True)
@@ -249,10 +258,12 @@ def easycamp_comment_crawler():
         else:
             continue
         d["address"] = soup.select_one(".camp-info .camp-add").text.strip()
-        gps = soup.select_one(".camp-info div .camp-gps").text.strip()
-        if gps != "":
-            d["latitude"] = float(soup.select_one(".camp-info div .camp-gps").text.strip().split(',')[0])
-            d["longitude"] = float(soup.select_one(".camp-info div .camp-gps").text.strip().split(',')[1])
+        gps_elem = soup.select_one(".camp-info div .camp-gps")
+        if gps_elem is not None:
+            gps = gps_elem.text.strip()
+            if gps != "":
+                d["latitude"] = float(soup.select_one(".camp-info div .camp-gps").text.strip().split(',')[0])
+                d["longitude"] = float(soup.select_one(".camp-info div .camp-gps").text.strip().split(',')[1])
         page = 1
         while True:
             camp_comment = requests.get(comment_url.format(code=code, page=page))
@@ -269,7 +280,12 @@ def easycamp_comment_crawler():
                 if contents[1].text.strip() != "":
                     content.append(contents[1].text.strip().replace("\n", "").replace("\r", "").replace("\t", ""))
 
+                comment_type = d["type"]
+                if d["type"] != 1 and d["type"] != 2:
+                    comment_type = 0
                 content = "。".join(content)
+                if len(content) <= 10:
+                        continue
                 ws = jieba.lcut(content, cut_all=False)
                 new_ws = []
                 for word in ws:
@@ -279,7 +295,7 @@ def easycamp_comment_crawler():
                 rating = len(comment.select(".fa.fa-star"))
                 comment_objs.append({
                     "content": content,
-                    "type": d["type"],
+                    "type": comment_type,
                     "rating": rating,
                     "publishedDate": publishedDate,
                     "tokenization": " | ".join(new_ws)
@@ -333,6 +349,7 @@ def easycamp_comment_tokenization():
                 file_path = os.path.join(easycamp_type_dir, file)
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
+                data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
                 for c in data["comments"]:
                     ws = jieba.lcut(c["content"], cut_all=False)
                     new_ws = []
@@ -450,8 +467,14 @@ def klook_comment_crawler():
 
                 for comment in camping_comments:
                     content = comment["content"].replace("\n", "").replace("\r", "").replace("\t", "")
+                    if len(content) <= 10:
+                        continue
                     rating = math.floor(int(comment["rating"]) / 20)
                     publishedDate = comment["date"]
+
+                    comment_type = d["type"]
+                    if d["type"] != 1 and d["type"] != 2:
+                        comment_type = 0
 
                     ws = jieba.lcut(content, cut_all=False)
                     new_ws = []
@@ -461,7 +484,7 @@ def klook_comment_crawler():
 
                     comment_objs.append({
                         "content": content,
-                        "type": d["type"],
+                        "type": comment_type,
                         "rating": rating,
                         "publishedDate": publishedDate,
                         "tokenization": " | ".join(new_ws)
@@ -518,6 +541,7 @@ def klook_comment_tokenization():
                 file_path = os.path.join(klook_type_dir, file)
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
+                data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
                 for c in data["comments"]:
                     ws = jieba.lcut(c["content"], cut_all=False)
                     new_ws = []
@@ -558,8 +582,8 @@ def klook_comment_tokenization():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    asiayo_comment_crawler()
-    asiayo_comment_tokenization()
+    # asiayo_comment_crawler()
+    # asiayo_comment_tokenization()
     easycamp_comment_crawler()
     easycamp_comment_tokenization()
     klook_comment_crawler()

@@ -19,13 +19,6 @@
             "tokenization": "營區 | 水池 | 好玩 | 捉 | 泥鰍 | 小朋友 | 玩到 | 嚇嚇 | 體驗 | 泥鰍 | 滑溜 | 滑溜 | 感覺 | 營主 | 賣 | 水槍 | 加分"
         },
         {
-            "content": "漂漂河超級好玩!!!",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2024/02/29",
-            "tokenization": "漂 | 漂河 | 超級 | 好玩"
-        },
-        {
             "content": "很好的營區。很喜歡這營地",
             "type": 1,
             "rating": 5,
@@ -45,34 +38,6 @@
             "rating": 5,
             "publishedDate": "2023/11/27",
             "tokenization": "夏天 | 消暑 | 小孩 | 玩水 | 超開心"
-        },
-        {
-            "content": "環境清幽",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/11/25",
-            "tokenization": "環境 | 清幽"
-        },
-        {
-            "content": "老闆親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/11/25",
-            "tokenization": "老闆 | 親切"
-        },
-        {
-            "content": "夏天玩水天堂",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2023/11/06",
-            "tokenization": "夏天 | 玩水 | 天堂"
-        },
-        {
-            "content": "營主親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/10/11",
-            "tokenization": "營主 | 親切"
         },
         {
             "content": "營主很熱心的舉辧活動, 露營時剛好巧遇Halloween. 有扮裝走秀及夜遊活動. 小孩都玩的很開心。漂漂河水池水有點少, 漂不起來.",
@@ -103,13 +68,6 @@
             "tokenization": "很大 | 營區 | 好好 | 逛逛 | 營區 | 漂漂 | 河戲 | 水池 | 好玩"
         },
         {
-            "content": "營主超級可愛～",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2023/02/16",
-            "tokenization": "營主 | 超級 | 愛"
-        },
-        {
             "content": "剛好碰到下雨老闆熱情建議加價升級雨棚區 還特別用心整理石子平整用。老闆非常用心經營場地到現在還是在增加設備雨棚區旁廁所水壓有點不穩",
             "type": 1,
             "rating": 5,
@@ -124,13 +82,6 @@
             "tokenization": "適合 | 小孩 | 地方 | 漂 | 漂池 | 抓泥鰍 | 鰍 | 乾淨 | 沙坑 | 乾淨衛浴 | 適合 | 小孩 | 家庭"
         },
         {
-            "content": "",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/12/25",
-            "tokenization": ""
-        },
-        {
             "content": "親子友善營區。環境好，又有捉泥鰍親子活動，很有趣！",
             "type": 1,
             "rating": 5,
@@ -138,25 +89,11 @@
             "tokenization": "親子 | 友善 | 營區 | 環境 | 捉 | 泥鰍 | 親子 | 活動 | 有趣"
         },
         {
-            "content": "遮雨棚超讚~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/11/08",
-            "tokenization": "遮雨棚 | 超 | 讚"
-        },
-        {
             "content": "景觀優美, 腹地夠大, 營主用心帶遊戲讓營區小孩熱絡起來, 會想回訪。唯一美中不足是階梯狀營位還是距離略近, 晚上吵雜聲有點互相干擾但腹地大, 小孩可跑跳處多, 營主用心帶遊戲讓營區小孩熱絡起來就到處跑了景觀也很美  讚讚",
             "type": 1,
             "rating": 5,
             "publishedDate": "2022/09/01",
             "tokenization": "景觀 | 優美 | 腹地 | 夠大 | 營主 | 用心 | 帶遊戲 | 營區 | 小孩 | 熱絡 | 會想 | 回訪 | 唯一 | 美中不足 | 階梯 | 狀營位 | 離略近 | 晚上 | 吵雜聲 | 干擾 | 腹地 | 小孩 | 跑跳 | 處多 | 營主 | 用心 | 帶遊戲 | 營區 | 小孩 | 熱絡 | 處 | 跑 | 景觀 | 美 | 讚 | 讚"
-        },
-        {
-            "content": "小朋友玩的很開心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/08/09",
-            "tokenization": "小朋友 | 玩 | 開心"
         },
         {
             "content": "營主很友善，小朋友玩的很開心。",
@@ -187,13 +124,6 @@
             "tokenization": "營主 | 營區 | 設施 | 充足"
         },
         {
-            "content": "推薦的好營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/05/25",
-            "tokenization": "推薦 | 營地"
-        },
-        {
             "content": "營區雖然不大，但衛浴乾淨，小朋友設施豐富完善，是會讓人想再去的營地",
             "type": 1,
             "rating": 5,
@@ -208,13 +138,6 @@
             "tokenization": "用心 | 營區 | 營主 | 用心 | 遊戲 | 小朋友 | 玩 | 開心 | 跨年 | 夜 | 煙火 | 真的 | 漂亮 | 氣氛"
         },
         {
-            "content": "會推薦朋友",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/03/16",
-            "tokenization": "推薦 | 朋友"
-        },
-        {
             "content": "營地很棒！跟朋友共度了一個美好的週末",
             "type": 1,
             "rating": 5,
@@ -222,25 +145,11 @@
             "tokenization": "營地 | 很棒 | 朋友 | 共度 | 美好 | 週末"
         },
         {
-            "content": "非常好玩",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/01/13",
-            "tokenization": "好玩"
-        },
-        {
             "content": "梯田式分區 很美很舒適。營主一家人都很好，超愛梯田式分區，不受其他人打擾!!草皮也養的好漂亮，光腳丫踩都舒服!已經二訪了~~未來還會繼續訪下去!",
             "type": 1,
             "rating": 5,
             "publishedDate": "2021/11/30",
             "tokenization": "梯田 | 式 | 分區 | 很美 | 舒適 | 營主 | 一家人 | 超愛 | 梯田 | 式 | 分區 | 受 | 其他人 | 打擾 | 草皮 | 養 | 漂亮 | 光腳 | 丫 | 踩 | 舒服 | 經二訪 | 未來 | 還會 | 繼續訪"
-        },
-        {
-            "content": "好營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/11/01",
-            "tokenization": "好營區"
         },
         {
             "content": "值得回訪，但部分待改善。這次選擇了k區包區，唯一美中不足的地方是在草坪中間有一個大坑，遇上下雨天，大坑整個積水。隔壁區大聲聊天到兩點也有點干擾，整體而言還算可以，希望下次回訪會有改善",
@@ -257,13 +166,6 @@
             "tokenization": "營主 | 回到 | 家一樣 | 感覺 | 梯田 | 式 | 分層 | 壅 | 擠 | 設施 | 環境 | 乾淨 | 推薦"
         },
         {
-            "content": "營主很熱情",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/09/22",
-            "tokenization": "營主 | 很熱情"
-        },
-        {
             "content": "交通方便,每區獨立不互相干擾,營主會安排活動給小朋友玩",
             "type": 1,
             "rating": 4,
@@ -271,39 +173,11 @@
             "tokenization": "交通 | 每區 | 獨立 | 干擾 | 營主 | 安排 | 活動給 | 小朋友 | 玩"
         },
         {
-            "content": "很用心的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2021/03/15",
-            "tokenization": "用心 | 營地"
-        },
-        {
             "content": "老板很用心的營區。老闆會準備小魚給小朋友撈，營區有趣，玩沙、撈魚⋯⋯小孩開心",
             "type": 1,
             "rating": 4,
             "publishedDate": "2020/12/18",
             "tokenization": "老板 | 用心 | 營區 | 老闆 | 魚給 | 小朋友 | 撈 | 營區 | 有趣 | 玩沙 | 撈魚 | 小孩 | 開心"
-        },
-        {
-            "content": "身處山中 欣悅愉快",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2020/12/07",
-            "tokenization": "身處 | 山中 | 欣悅 | 愉快"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/12/06",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "小而巧。小帳包區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2020/11/14",
-            "tokenization": "小而巧 | 小帳 | 包區"
         },
         {
             "content": "老闆很熱心。老闆人很好,很樸實.場地也很棒..早起可以散步看美麗的櫻花樹",
@@ -325,13 +199,6 @@
             "rating": 5,
             "publishedDate": "2020/09/21",
             "tokenization": "老闆 | 用心 | 生態 | 池 | 小孩 | 體驗 | 捉 | 泥鰍 | 很棒"
-        },
-        {
-            "content": "滿好的~",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/07/11",
-            "tokenization": "滿好"
         },
         {
             "content": "超愛漂漂河。很棒的營區，可惜因為天氣不好所以就當去野餐，但小孩有玩到漂漂河已經超滿足了，預定8月還要再去玩漂漂河",
@@ -376,32 +243,11 @@
             "tokenization": "有趣 | 露營區 | 家中 | 小朋友 | 喜歡 | 營區 | 活動 | 參加 | 營區 | 草地 | 維護 | 小孩 | 草地 | 玩耍 | 跌倒 | 不用"
         },
         {
-            "content": "放鬆",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/12/08",
-            "tokenization": "放 | 鬆"
-        },
-        {
-            "content": "好",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/11/18",
-            "tokenization": ""
-        },
-        {
             "content": "一階一階的露營區，插座和水槽的位置和晚上的燈光都設置的不錯",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/11/13",
             "tokenization": "一階一階 | 露營區 | 插座 | 水槽 | 位置 | 晚上 | 燈光 | 設置 | 不錯"
-        },
-        {
-            "content": "營主超讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/10/13",
-            "tokenization": "營主 | 超 | 讚"
         },
         {
             "content": "營主很熱情，環境很棒，景色超讚。我們是初露，營主很熱情，直到入住前一天還在叮嚀我們天氣較冷，讓我們多帶一點厚被。我們這些小白，玩得超開心，謝謝營主熱情招待！超級推薦紅毛！",
@@ -460,13 +306,6 @@
             "tokenization": "營主 | 人好 | 客氣 | 整理 | 環境 | 路 | 走 | 週邊 | 景點 | 不太會 | 遠 | 少帳 | 包區 | 帳位 | 很大"
         },
         {
-            "content": "都會給新手很多建議",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/02/13",
-            "tokenization": "會給 | 新手 | 建議"
-        },
-        {
             "content": "非常友善的營主，下次有機會希望再次造訪",
             "type": 1,
             "rating": 5,
@@ -474,25 +313,11 @@
             "tokenization": "友善 | 營主 | 下次 | 機會 | 希望 | 造訪"
         },
         {
-            "content": "熱心的營主。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/14",
-            "tokenization": "熱心 | 營主"
-        },
-        {
             "content": "清幽的好地方，衛浴很棒",
             "type": 1,
             "rating": 5,
             "publishedDate": "2019/01/14",
             "tokenization": "清幽 | 地方 | 衛浴 | 很棒"
-        },
-        {
-            "content": "營主親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/12",
-            "tokenization": "營主 | 親切"
         },
         {
             "content": "交通便利。活動空間規劃應多留一點",
@@ -579,25 +404,11 @@
             "tokenization": "營主 | 親切 | 風景佳 | 廁所 | 乾淨"
         },
         {
-            "content": "適合親子同遊的好地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/09/27",
-            "tokenization": "適合 | 親子 | 同遊 | 地方"
-        },
-        {
             "content": "很棒的營地，營主也很用心經營，適合大小朋友一起團露的營地",
             "type": 1,
             "rating": 5,
             "publishedDate": "2018/08/10",
             "tokenization": "很棒 | 營地 | 營主 | 用心 | 經營 | 適合 | 大小 | 朋友 | 團露 | 營地"
-        },
-        {
-            "content": "值得再來一次的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/08/05",
-            "tokenization": "值得 | 再來 | 營地"
         },
         {
             "content": "舒服的營地，很用心的營主",

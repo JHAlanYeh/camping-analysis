@@ -82,13 +82,6 @@
             "tokenization": "很棒 | 營區 | 希望 | 下次 | 機會"
         },
         {
-            "content": "很讚愛乾淨的營區",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2022/02/28",
-            "tokenization": "讚 | 愛 | 乾 | 淨 | 營 | 區"
-        },
-        {
             "content": "山居樂露營。寬鬆舒適的營地",
             "type": 1,
             "rating": 3,
@@ -145,46 +138,11 @@
             "tokenization": "營主 | 環境 | 設施 | 乾淨 | 但果 | 蠅 | 稍"
         },
         {
-            "content": "讚",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2020/02/06",
-            "tokenization": "讚"
-        },
-        {
-            "content": "讚",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2020/02/06",
-            "tokenization": "讚"
-        },
-        {
-            "content": "乾淨的營地",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2020/01/28",
-            "tokenization": "乾淨 | 營地"
-        },
-        {
             "content": "好商量的營主、好好玩的控土窯、好漂亮的風景。",
             "type": 1,
             "rating": 5,
             "publishedDate": "2020/01/08",
             "tokenization": "商量 | 營主 | 好玩 | 控土 | 窯 | 漂亮 | 風景"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/10/27",
-            "tokenization": "不錯 | 營區"
-        },
-        {
-            "content": "不錯的營區",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2019/10/27",
-            "tokenization": "不錯 | 營區"
         },
         {
             "content": "營主夫妻很親切，營區導航需輸入地址，會比較容易找到喔！",
@@ -199,13 +157,6 @@
             "rating": 4,
             "publishedDate": "2019/03/01",
             "tokenization": "環境 | 設備 | 乾淨 | 果園關 | 係 | 蒼蠅 | 稍"
-        },
-        {
-            "content": "輕鬆自在",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/02/11",
-            "tokenization": "輕 | 鬆"
         },
         {
             "content": "浴廁乾淨清潔，營主客氣，提供球類玩樂用品。路口導引標示可以再多一點（如：增加大路進小路的導引標示）",
@@ -227,27 +178,6 @@
             "rating": 5,
             "publishedDate": "2019/02/07",
             "tokenization": "環境 | 佳 | 營主 | 夫妻 | 親切 | 熱情 | 謝謝"
-        },
-        {
-            "content": "很舒服 來第三次了",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2019/01/17",
-            "tokenization": "舒服 | 第三次"
-        },
-        {
-            "content": "休閒養性好所在",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/12/31",
-            "tokenization": "休閒 | 養性"
-        },
-        {
-            "content": "空氣清新",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/10/10",
-            "tokenization": "空氣 | 清新"
         },
         {
             "content": "衛浴乾淨，營主人很好，設備不錯，推",
@@ -278,20 +208,6 @@
             "tokenization": "露營區 | 空氣 | 清新 | 荖 | 濃溪 | 景色 | 優美"
         },
         {
-            "content": "很不錯的地方",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/03/23",
-            "tokenization": "很不錯 | 地方"
-        },
-        {
-            "content": "很乾淨",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/02/20",
-            "tokenization": "很乾淨"
-        },
-        {
             "content": "舒適放鬆的好地方，適合闔家光臨!",
             "type": 1,
             "rating": 5,
@@ -299,39 +215,11 @@
             "tokenization": "舒適 | 放 | 鬆 | 地方 | 適合 | 闔 | 家光臨"
         },
         {
-            "content": "近溪邊，浴廁乾凈",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/02/01",
-            "tokenization": "近溪邊 | 浴廁 | 乾 | 凈"
-        },
-        {
-            "content": "非常好，營主非常客氣",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2018/01/20",
-            "tokenization": "營主 | 客氣"
-        },
-        {
-            "content": "空間大！",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/01/12",
-            "tokenization": "空間"
-        },
-        {
             "content": "老闆娘人很好！小朋友玩的很開心",
             "type": 1,
             "rating": 5,
             "publishedDate": "2017/12/24",
             "tokenization": "老闆娘 | 小朋友 | 玩 | 開心"
-        },
-        {
-            "content": "活動能再多一點",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/24",
-            "tokenization": "活動 | 一點"
         },
         {
             "content": "營主很親切，環境很不錯",

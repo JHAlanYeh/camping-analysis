@@ -1,5 +1,65 @@
 ﻿[
     {
+        "code": "1006",
+        "name": "苗栗頭屋 魯冰花農莊",
+        "region": "苗栗縣頭屋鄉",
+        "url": "https://www.easycamp.com.tw/Store_1006.html",
+        "type": 3,
+        "disabled": 0,
+        "same_name": "魯冰花農莊"
+    },
+    {
+        "code": "1035",
+        "name": "南投仁愛 清境小瑞士花園",
+        "region": "南投縣仁愛鄉",
+        "url": "https://www.easycamp.com.tw/Store_1035.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "1090",
+        "name": "南投國姓 地球村休閒農場",
+        "region": "南投縣國姓鄉",
+        "url": "https://www.easycamp.com.tw/Store_1090.html",
+        "type": 1,
+        "disabled": 0,
+        "same_name": "地球村農家民宿"
+    },
+    {
+        "code": "1092",
+        "name": "南投國姓 小野柳滑草場露營區",
+        "region": "南投縣國姓鄉",
+        "url": "https://www.easycamp.com.tw/Store_1092.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "1109",
+        "name": "南投埔里 二甲 LOHAS農庄露營區",
+        "region": "南投縣埔里鎮",
+        "url": "https://www.easycamp.com.tw/Store_1109.html",
+        "type": 1,
+        "disabled": 0,
+        "same_name": "二甲LOHAS農庄"
+    },
+    {
+        "code": "1111",
+        "name": "南投埔里 成功秘境露營場",
+        "region": "南投縣埔里鎮",
+        "url": "https://www.easycamp.com.tw/Store_1111.html",
+        "type": 1,
+        "disabled": 0,
+        "same_name": "成功祕境"
+    },
+    {
+        "code": "1135",
+        "name": "南投竹山 牛母坪露營區",
+        "region": "南投縣竹山鎮",
+        "url": "https://www.easycamp.com.tw/Store_1135.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "1278",
         "name": "嘉義阿里山 受不寮露營區",
         "region": "嘉義縣阿里山鄉",
@@ -89,6 +149,30 @@
         "same_name": "紅毛印象露營窩P1"
     },
     {
+        "code": "1702",
+        "name": "苗栗卓蘭 逸香園農場",
+        "region": "苗栗縣卓蘭鎮",
+        "url": "https://www.easycamp.com.tw/Store_1702.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "1720",
+        "name": "苗栗泰安 UP露營區",
+        "region": "苗栗縣泰安鄉",
+        "url": "https://www.easycamp.com.tw/Store_1720.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "1737",
+        "name": "桃園復興 山大王休閒農莊",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_1737.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "1743",
         "name": "苗栗泰安 藍天嶺露營區",
         "region": "苗栗縣泰安鄉",
@@ -123,6 +207,22 @@
         "type": 1,
         "disabled": 0,
         "same_name": "德芙蘭農場"
+    },
+    {
+        "code": "1810",
+        "name": "新竹尖石 自然野趣(一般營位)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_1810.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "1813",
+        "name": "苗栗南庄 長青露營區",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_1813.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "1874",
@@ -161,6 +261,14 @@
         "same_name": "四季非露不可親子露營區"
     },
     {
+        "code": "1986",
+        "name": "南投信義 那卡斯營地",
+        "region": "南投縣信義鄉",
+        "url": "https://www.easycamp.com.tw/Store_1986.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "1988",
         "name": "南投仁愛 月夢田露營區",
         "region": "南投縣仁愛鄉",
@@ -175,6 +283,22 @@
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_1996.html",
         "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2007",
+        "name": "苗栗南庄 萱草森林",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2007.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2015",
+        "name": "新竹尖石 綠宥子甜柿果園露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2015.html",
+        "type": 3,
         "disabled": 0
     },
     {
@@ -196,6 +320,14 @@
         "same_name": "馬塔大文化露營區"
     },
     {
+        "code": "2054",
+        "name": "南投魚池 青螢露營區",
+        "region": "南投縣魚池鄉",
+        "url": "https://www.easycamp.com.tw/Store_2054.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2055",
         "name": "新竹五峰 KT露營區",
         "region": "新竹縣五峰鄉",
@@ -203,6 +335,30 @@
         "type": 1,
         "disabled": 0,
         "same_name": "KT露營區"
+    },
+    {
+        "code": "2057",
+        "name": "苗栗公館 築鄉霖露營區",
+        "region": "苗栗縣公館鄉",
+        "url": "https://www.easycamp.com.tw/Store_2057.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2060",
+        "name": "苗栗泰安 瑪都安露營區",
+        "region": "苗栗縣泰安鄉",
+        "url": "https://www.easycamp.com.tw/Store_2060.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2065",
+        "name": "苗栗卓蘭 饗果樂露營區",
+        "region": "苗栗縣卓蘭鎮",
+        "url": "https://www.easycamp.com.tw/Store_2065.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2076",
@@ -250,6 +406,22 @@
         "same_name": "天一露營區"
     },
     {
+        "code": "2151",
+        "name": "新竹尖石 馬月台露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2151.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2154",
+        "name": "新竹五峰 楠桂坊露營區",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2154.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2155",
         "name": "苗栗大湖 四季非露不可 (露營屋)",
         "region": "苗栗縣大湖鄉",
@@ -257,6 +429,22 @@
         "type": 2,
         "disabled": 0,
         "same_name": "四季非露不可親子露營區"
+    },
+    {
+        "code": "2158",
+        "name": "桃園復興 卡普休閒農莊",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2158.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2160",
+        "name": "苗栗三義 景庭露營區",
+        "region": "苗栗縣三義鄉",
+        "url": "https://www.easycamp.com.tw/Store_2160.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2164",
@@ -277,6 +465,14 @@
         "same_name": "達宴營地"
     },
     {
+        "code": "2171",
+        "name": "新竹尖石 馬美欣欣營地(原李崠山休閒農莊)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2171.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "2183",
         "name": "苗栗銅鑼 自由露營區",
         "region": "苗栗縣銅鑼鄉",
@@ -295,6 +491,14 @@
         "same_name": "景山露營區"
     },
     {
+        "code": "2197",
+        "name": "新竹五峰 拉哢露營區",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2197.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2204",
         "name": "苗栗南庄 有鬼露營區",
         "region": "苗栗縣南庄鄉",
@@ -304,6 +508,14 @@
         "same_name": "有鬼露營區"
     },
     {
+        "code": "2205",
+        "name": "南投信義 雙龍景觀露營區",
+        "region": "南投縣信義鄉",
+        "url": "https://www.easycamp.com.tw/Store_2205.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2206",
         "name": "高雄那瑪夏 那次嵐露營區",
         "region": "高雄市那瑪夏區",
@@ -311,6 +523,14 @@
         "type": 1,
         "disabled": 0,
         "same_name": "那次嵐露營區"
+    },
+    {
+        "code": "2207",
+        "name": "苗栗南庄 春友彩虹民宿 餐廳 露營",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2207.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2208",
@@ -357,6 +577,14 @@
         "disabled": 0
     },
     {
+        "code": "2224",
+        "name": "新竹尖石 如果露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2224.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2225",
         "name": "新竹橫山 遊橘露營區",
         "region": "新竹縣橫山鄉",
@@ -364,6 +592,14 @@
         "type": 3,
         "disabled": 0,
         "same_name": "遊橘露營區"
+    },
+    {
+        "code": "2226",
+        "name": "新竹尖石 印象尖石露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2226.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2244",
@@ -402,6 +638,14 @@
         "same_name": "自然野趣露營區(一般營位_狩獵帳)"
     },
     {
+        "code": "2282",
+        "name": "苗栗三義 溫馨農場露營區",
+        "region": "苗栗縣三義鄉",
+        "url": "https://www.easycamp.com.tw/Store_2282.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2283",
         "name": "苗栗大湖 福人居露營區",
         "region": "苗栗縣大湖鄉",
@@ -409,6 +653,22 @@
         "type": 3,
         "disabled": 0,
         "same_name": "福人居民宿露營區Foozeng"
+    },
+    {
+        "code": "2284",
+        "name": "桃園復興 長興山水靜露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2284.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2288",
+        "name": "新竹尖石 歐莎露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2288.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2293",
@@ -444,6 +704,14 @@
         "type": 1,
         "disabled": 0,
         "same_name": "梅后蔓露營區"
+    },
+    {
+        "code": "2305",
+        "name": "南投埔里 農家樂露營區",
+        "region": "南投縣埔里鎮",
+        "url": "https://www.easycamp.com.tw/Store_2305.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2306",
@@ -491,6 +759,14 @@
         "same_name": "To Me 桃米生態露營區"
     },
     {
+        "code": "2318",
+        "name": "嘉義竹崎 塘湖古道露營農場",
+        "region": "嘉義縣竹崎鄉",
+        "url": "https://www.easycamp.com.tw/Store_2318.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2319",
         "name": "嘉義竹崎 仙腳趾景觀露營區",
         "region": "嘉義縣竹崎鄉",
@@ -506,6 +782,22 @@
         "type": 3,
         "disabled": 0,
         "same_name": "南庄慢生活 露營區"
+    },
+    {
+        "code": "2328",
+        "name": "南投國姓 橄欖樹下的祿鹿",
+        "region": "南投縣國姓鄉",
+        "url": "https://www.easycamp.com.tw/Store_2328.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2335",
+        "name": "新竹北埔 星院露營區",
+        "region": "新竹縣北埔鄉",
+        "url": "https://www.easycamp.com.tw/Store_2335.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2336",
@@ -544,11 +836,43 @@
         "same_name": "蘇珊藏美露營區"
     },
     {
+        "code": "2344",
+        "name": "苗栗苗栗 杜石地一號",
+        "region": "苗栗縣苗栗市",
+        "url": "https://www.easycamp.com.tw/Store_2344.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2345",
+        "name": "苗栗大湖 天藍露營區",
+        "region": "苗栗縣大湖鄉",
+        "url": "https://www.easycamp.com.tw/Store_2345.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2346",
+        "name": "桃園復興 泰雅秘境露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2346.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "2356",
         "name": "苗栗南庄 南庄麒麟山露營區",
         "region": "苗栗縣南庄鄉",
         "url": "https://www.easycamp.com.tw/Store_2356.html",
         "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2358",
+        "name": "苗栗泰安 清安樹坪露營區",
+        "region": "苗栗縣泰安鄉",
+        "url": "https://www.easycamp.com.tw/Store_2358.html",
+        "type": 1,
         "disabled": 0
     },
     {
@@ -560,11 +884,19 @@
         "disabled": 0
     },
     {
+        "code": "2363",
+        "name": "新竹五峰 空軍一號",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2363.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "2369",
         "name": "南投仁愛 星願村露營區",
         "region": "南投縣仁愛鄉",
         "url": "https://www.easycamp.com.tw/Store_2369.html",
-        "type": 0,
+        "type": 3,
         "disabled": 0
     },
     {
@@ -601,6 +933,14 @@
         "type": 1,
         "disabled": 0,
         "same_name": "原最露營區"
+    },
+    {
+        "code": "2380",
+        "name": "嘉義梅山 琢英露營場",
+        "region": "嘉義縣梅山鄉",
+        "url": "https://www.easycamp.com.tw/Store_2380.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2390",
@@ -646,6 +986,38 @@
         "disabled": 0
     },
     {
+        "code": "2403",
+        "name": "新竹尖石 玉峰 星光閃閃露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2403.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2404",
+        "name": "新竹尖石 野薑花露營區［全家超商野薑花店相關事業］",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2404.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2406",
+        "name": "南投埔里 森林蜂味露營區",
+        "region": "南投縣埔里鎮",
+        "url": "https://www.easycamp.com.tw/Store_2406.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2411",
+        "name": "苗栗南庄 上長崎露營區(原蓬萊灣)",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2411.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2412",
         "name": "高雄內門 茂升山林露營區",
         "region": "高雄市內門區",
@@ -653,6 +1025,30 @@
         "type": 1,
         "disabled": 0,
         "same_name": "茂升山林"
+    },
+    {
+        "code": "2413",
+        "name": "嘉義番路  阿里山 龍頂山(一般營位)",
+        "region": "嘉義縣番路鄉",
+        "url": "https://www.easycamp.com.tw/Store_2413.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2415",
+        "name": "新竹尖石 參陳山內灣旅店營地",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2415.html",
+        "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2417",
+        "name": "新竹尖石 玉峰 泰里埔露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2417.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2419",
@@ -707,6 +1103,14 @@
         "disabled": 0
     },
     {
+        "code": "2432",
+        "name": "苗栗三義 五福山莊",
+        "region": "苗栗縣三義鄉",
+        "url": "https://www.easycamp.com.tw/Store_2432.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2435",
         "name": "桃園復興 可飛鹿營區",
         "region": "桃園市復興區",
@@ -732,6 +1136,30 @@
         "type": 1,
         "disabled": 0,
         "same_name": "福田美地休閒農場-露營"
+    },
+    {
+        "code": "2440",
+        "name": "新竹新埔 明園星空營地",
+        "region": "新竹縣新埔鎮",
+        "url": "https://www.easycamp.com.tw/Store_2440.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2441",
+        "name": "新竹五峰 喜來登露營區",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2441.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2442",
+        "name": "新竹五峰 漫步天湖(一般營位)",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_2442.html",
+        "type": 3,
+        "disabled": 0
     },
     {
         "code": "2443",
@@ -873,6 +1301,22 @@
         "disabled": 0
     },
     {
+        "code": "2478",
+        "name": "南投埔里 LOLO農場-休閒露營園區",
+        "region": "南投縣埔里鎮",
+        "url": "https://www.easycamp.com.tw/Store_2478.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2480",
+        "name": "南投鹿谷 三生園生態露營區",
+        "region": "南投縣鹿谷鄉",
+        "url": "https://www.easycamp.com.tw/Store_2480.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2481",
         "name": "苗栗南庄 一畝田(狩獵帳)",
         "region": "苗栗縣南庄鄉",
@@ -1004,6 +1448,22 @@
         "disabled": 0
     },
     {
+        "code": "2503",
+        "name": "嘉義阿里山 有夠遠露營區",
+        "region": "嘉義縣阿里山鄉",
+        "url": "https://www.easycamp.com.tw/Store_2503.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2504",
+        "name": "新竹尖石 臻美營地(狩獵帳)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2504.html",
+        "type": 2,
+        "disabled": 0
+    },
+    {
         "code": "2505",
         "name": "南投魚池 文化村喜樂營地",
         "region": "南投縣魚池鄉",
@@ -1020,6 +1480,14 @@
         "type": 2,
         "disabled": 0,
         "same_name": "尖石夢田營區(狩獵帳)"
+    },
+    {
+        "code": "2509",
+        "name": "新竹尖石 夢田露營區(一般營位)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2509.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2510",
@@ -1046,6 +1514,22 @@
         "type": 3,
         "disabled": 0,
         "same_name": "花田小露露營區"
+    },
+    {
+        "code": "2516",
+        "name": "新竹尖石 晴空森林露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2516.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2517",
+        "name": "新竹尖石 溪遊記露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2517.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2518",
@@ -1075,6 +1559,22 @@
         "same_name": "花蓮海洋露營區"
     },
     {
+        "code": "2524",
+        "name": "嘉義番路 星知心露營區",
+        "region": "嘉義縣",
+        "url": "https://www.easycamp.com.tw/Store_2524.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2526",
+        "name": "新竹尖石 白宮露營區［全家超商野薑花店相關事業］",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2526.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "2527",
         "name": "南投集集  集樂森林露營區",
         "region": "南投縣集集鎮",
@@ -1082,6 +1582,14 @@
         "type": 2,
         "disabled": 0,
         "same_name": "集樂森林 小木屋 蒙古包 懶人露營"
+    },
+    {
+        "code": "2528",
+        "name": "桃園復興 馬莎度露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2528.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2529",
@@ -1100,6 +1608,14 @@
         "type": 2,
         "disabled": 0,
         "same_name": "露營樂2號店(狩獵帳)-旗津豪華露營區"
+    },
+    {
+        "code": "2531",
+        "name": "宜蘭大同 彩虹杯杯館",
+        "region": "宜蘭縣大同鄉",
+        "url": "https://www.easycamp.com.tw/Store_2531.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2533",
@@ -1165,6 +1681,30 @@
         "same_name": "谷力農場(狩獵帳)"
     },
     {
+        "code": "2543",
+        "name": "新竹峨眉 露營盒子",
+        "region": "新竹縣峨眉鄉",
+        "url": "https://www.easycamp.com.tw/Store_2543.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2544",
+        "name": "新竹新埔 挪亞星舟露營農莊",
+        "region": "新竹縣新埔鎮",
+        "url": "https://www.easycamp.com.tw/Store_2544.html",
+        "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2546",
+        "name": "桃園復興 逍遙遊秘境露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2546.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2547",
         "name": "台東延平 一零八零1080",
         "region": "台東縣延平鄉",
@@ -1210,6 +1750,14 @@
         "same_name": "甜蜜點休閒莊園"
     },
     {
+        "code": "2552",
+        "name": "宜蘭大同 哇吉散悠遊樂園露營區",
+        "region": "宜蘭縣大同鄉",
+        "url": "https://www.easycamp.com.tw/Store_2552.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2554",
         "name": "新竹尖石 露營樂3號店(狩獵帳)臻美館",
         "region": "新竹縣尖石鄉",
@@ -1246,6 +1794,22 @@
         "same_name": "旅人蕉小棧"
     },
     {
+        "code": "2559",
+        "name": "苗栗銅鑼 坐忘草堂露營區",
+        "region": "苗栗縣銅鑼鄉",
+        "url": "https://www.easycamp.com.tw/Store_2559.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2560",
+        "name": "新竹橫山 福興小農庄",
+        "region": "新竹縣橫山鄉",
+        "url": "https://www.easycamp.com.tw/Store_2560.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2561",
         "name": "南投埔里 樂活森林(狩獵帳)",
         "region": "南投縣埔里鎮",
@@ -1262,6 +1826,14 @@
         "type": 2,
         "disabled": 0,
         "same_name": "賞星月慕露營區(露營樂6號店-狩獵帳)"
+    },
+    {
+        "code": "2563",
+        "name": "新竹尖石 馬胎仙境(狩獵帳)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2563.html",
+        "type": 2,
+        "disabled": 0
     },
     {
         "code": "2564",
@@ -1326,6 +1898,14 @@
         "disabled": 0
     },
     {
+        "code": "2575",
+        "name": "苗栗南庄 清景農場(肖楠美地)",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2575.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2576",
         "name": "宜蘭礁溪 檸檬樹no.16露營區",
         "region": "宜蘭縣礁溪鄉",
@@ -1362,6 +1942,22 @@
         "same_name": "宇世格爵露營區"
     },
     {
+        "code": "2581",
+        "name": "宜蘭南澳 瀧雲山莊露營區",
+        "region": "宜蘭縣南澳鄉",
+        "url": "https://www.easycamp.com.tw/Store_2581.html",
+        "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2582",
+        "name": "桃園復興 歡樂谷露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2582.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2584",
         "name": "桃園復興 拉拉山 塔曼之光露營區",
         "region": "桃園市復興區",
@@ -1369,6 +1965,14 @@
         "type": 1,
         "disabled": 0,
         "same_name": "拉拉山塔曼之光露營區"
+    },
+    {
+        "code": "2585",
+        "name": "桃園復興 達拉蓋(狩獵帳)",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2585.html",
+        "type": 2,
+        "disabled": 0
     },
     {
         "code": "2586",
@@ -1406,6 +2010,14 @@
         "disabled": 0
     },
     {
+        "code": "2591",
+        "name": "嘉義梅山 鷺野之家",
+        "region": "嘉義縣梅山鄉",
+        "url": "https://www.easycamp.com.tw/Store_2591.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2592",
         "name": "桃園復興 溫度露營區",
         "region": "桃園市復興區",
@@ -1424,6 +2036,38 @@
         "same_name": "騰雲農莊露營區"
     },
     {
+        "code": "2594",
+        "name": "桃園復興 27k貳柒露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2594.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2595",
+        "name": "苗栗南庄 啊露吧Camping聖地",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2595.html",
+        "type": 2,
+        "disabled": 0
+    },
+    {
+        "code": "2596",
+        "name": "桃園復興 那山達雅賀",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2596.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2597",
+        "name": "苗栗卓蘭 頤生園(夢想家遊牧帳)",
+        "region": "苗栗縣卓蘭鎮",
+        "url": "https://www.easycamp.com.tw/Store_2597.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "2598",
         "name": "苗栗公館 橄欖莊園",
         "region": "苗栗縣公館鄉",
@@ -1431,6 +2075,14 @@
         "type": 1,
         "disabled": 0,
         "same_name": "橄欖莊園"
+    },
+    {
+        "code": "2600",
+        "name": "南投中寮 合樂露營區(原晨星露營區)",
+        "region": "南投縣中寮鄉",
+        "url": "https://www.easycamp.com.tw/Store_2600.html",
+        "type": 4,
+        "disabled": 0
     },
     {
         "code": "2601",
@@ -1486,6 +2138,14 @@
         "disabled": 0
     },
     {
+        "code": "2608",
+        "name": "新竹尖石 樓蜜香菇農場",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2608.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "2609",
         "name": "新竹尖石 景色天地露營區",
         "region": "新竹縣尖石鄉",
@@ -1502,6 +2162,14 @@
         "type": 1,
         "disabled": 0,
         "same_name": "依星生態農場－南投 露營區｜免搭帳｜親子露營｜景觀露營｜推薦露營夜景｜高海拔露營 推薦"
+    },
+    {
+        "code": "2613",
+        "name": "桃園復興 馬灣露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_2613.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "2614",
@@ -1558,11 +2226,35 @@
         "same_name": "星霧宿"
     },
     {
+        "code": "2621",
+        "name": "苗栗南庄 仁心茶園露營區",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2621.html",
+        "type": 2,
+        "disabled": 0
+    },
+    {
         "code": "2622",
         "name": "新竹尖石 那羅的家親子露營區",
         "region": "新竹縣尖石鄉",
         "url": "https://www.easycamp.com.tw/Store_2622.html",
         "type": 4,
+        "disabled": 0
+    },
+    {
+        "code": "2623",
+        "name": "新竹尖石 那羅仰望露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_2623.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2624",
+        "name": "苗栗大湖 石門客棧休閒農場露營區",
+        "region": "苗栗縣大湖鄉",
+        "url": "https://www.easycamp.com.tw/Store_2624.html",
+        "type": 2,
         "disabled": 0
     },
     {
@@ -1573,6 +2265,38 @@
         "type": 2,
         "disabled": 0,
         "same_name": "建國一村"
+    },
+    {
+        "code": "2626",
+        "name": "高雄那瑪夏 伊咪達督露營區",
+        "region": "高雄市那瑪夏區",
+        "url": "https://www.easycamp.com.tw/Store_2626.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "2627",
+        "name": "南投國姓 上野左岸生態露營區",
+        "region": "南投縣國姓鄉",
+        "url": "https://www.easycamp.com.tw/Store_2627.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "2628",
+        "name": "苗栗南庄 裕見生活(橡木桶)",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_2628.html",
+        "type": 2,
+        "disabled": 0
+    },
+    {
+        "code": "2630",
+        "name": "南投魚池 愛心露營地",
+        "region": "南投縣魚池鄉",
+        "url": "https://www.easycamp.com.tw/Store_2630.html",
+        "type": 1,
+        "disabled": 0
     },
     {
         "code": "624",
@@ -1620,6 +2344,14 @@
         "same_name": "比該溪生態露營區"
     },
     {
+        "code": "693",
+        "name": "桃園復興 拉拉山 遠見之星露營區",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_693.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
         "code": "695",
         "name": "桃園復興 拉拉山 長榮露營區",
         "region": "桃園市復興區",
@@ -1638,6 +2370,22 @@
         "same_name": "雅比斯露營區"
     },
     {
+        "code": "700",
+        "name": "桃園復興 拉拉山 雲河露營農場",
+        "region": "桃園市復興區",
+        "url": "https://www.easycamp.com.tw/Store_700.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "723",
+        "name": "新竹五峰 尤瑪山莊",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_723.html",
+        "type": 4,
+        "disabled": 0
+    },
+    {
         "code": "734",
         "name": "新竹五峰 樂哈山營地",
         "region": "新竹縣五峰鄉",
@@ -1645,6 +2393,62 @@
         "type": 1,
         "disabled": 0,
         "same_name": "樂哈山露營區"
+    },
+    {
+        "code": "740",
+        "name": "新竹五峰 戀上瓜麗露營區",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_740.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "764",
+        "name": "新竹五峰 左岸涼山營地",
+        "region": "新竹縣五峰鄉",
+        "url": "https://www.easycamp.com.tw/Store_764.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "776",
+        "name": "新竹尖石 玉峰 悠達思露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_776.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "785",
+        "name": "新竹尖石 喜嵐田園露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_785.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "787",
+        "name": "新竹尖石 梅花天湖農園",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_787.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "794",
+        "name": "新竹尖石 尤命築園露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_794.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "795",
+        "name": "新竹尖石 臻美營地 (空中帳篷)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_795.html",
+        "type": 2,
+        "disabled": 0
     },
     {
         "code": "798",
@@ -1656,6 +2460,30 @@
         "same_name": "恩典露營區"
     },
     {
+        "code": "805",
+        "name": "新竹尖石  梅花山莊",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_805.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "827",
+        "name": "新竹尖石 芭芘蕾露營區",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_827.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "835",
+        "name": "新竹尖石  馬胎仙境(自搭帳/輕露營)",
+        "region": "新竹縣尖石鄉",
+        "url": "https://www.easycamp.com.tw/Store_835.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
         "code": "837",
         "name": "新竹尖石 高台山露營區(一般營位/輕露營)",
         "region": "新竹縣尖石鄉",
@@ -1663,6 +2491,38 @@
         "type": 3,
         "disabled": 0,
         "same_name": "高台山露營區(狩獵帳)"
+    },
+    {
+        "code": "871",
+        "name": "苗栗三義 山板樵 楓橋夜泊露營區",
+        "region": "苗栗縣三義鄉",
+        "url": "https://www.easycamp.com.tw/Store_871.html",
+        "type": 3,
+        "disabled": 0
+    },
+    {
+        "code": "899",
+        "name": "苗栗南庄 林泉休閒露營區",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_899.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "900",
+        "name": "苗栗南庄 桂花園鄉村會館",
+        "region": "苗栗縣南庄鄉",
+        "url": "https://www.easycamp.com.tw/Store_900.html",
+        "type": 1,
+        "disabled": 0
+    },
+    {
+        "code": "931",
+        "name": "苗栗泰安 一片天(一般營位/露營車/露營屋)",
+        "region": "苗栗縣泰安鄉",
+        "url": "https://www.easycamp.com.tw/Store_931.html",
+        "type": 3,
+        "disabled": 0
     },
     {
         "code": "974",
