@@ -1387,7 +1387,8 @@
         "longitude": 120.8350954,
         "type": 3,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "NA"
     },
     {
         "code": 44110,
@@ -1777,7 +1778,8 @@
         "longitude": 121.3323081,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "NA"
     },
     {
         "code": 46223,
@@ -1880,7 +1882,8 @@
         "longitude": 120.99417913,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "NA"
     },
     {
         "code": 48879,
@@ -1917,7 +1920,8 @@
         "longitude": 121.157331,
         "type": 2,
         "disabled": 0,
-        "bnbType": "露營區"
+        "bnbType": "露營區",
+        "same_name": "NA"
     },
     {
         "code": 49214,

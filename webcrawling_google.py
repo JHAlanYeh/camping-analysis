@@ -52,17 +52,20 @@ for file in os.listdir(save_path):
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "easycamp" not in file:
+        if "klook" not in file:
             continue
 
-        if "臻美營地" in d["name"]:
-            flag=True
-            continue
+        # if "臻美營地" in d["name"]:
+        #     flag=True
+        #     continue
 
-        if flag is False:
-            continue
+        # if flag is False:
+        #     continue
 
         if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
+            continue
+
+        if "same_name" in d and d["same_name"] == "NA":
             continue
 
         browser = webdriver.Chrome(options=browserOptions)
