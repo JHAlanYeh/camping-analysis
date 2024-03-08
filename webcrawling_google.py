@@ -48,14 +48,14 @@ for file in os.listdir(save_path):
     f = open(file_path, encoding="utf-8-sig")
     data = json.load(f)
     data_reverse = sorted(data, key=lambda x: x["code"], reverse=True)
-    for d in data_reverse:
+    for d in data:
         if d["disabled"] == 1 or d["type"] == 4:
             continue
 
-        if "klook" not in file:
+        if "easycamp" not in file:
             continue
 
-        # if "臻美營地" in d["name"]:
+        # if "露營區" not in d["name"]:
         #     flag=True
         #     continue
 
@@ -73,7 +73,7 @@ for file in os.listdir(save_path):
         default_url = "https://www.google.com/maps?authuser=0"
         browser.get(default_url)
         house_type = False
-        
+
         camping_name = d["name"]
         print("========================")
         print(camping_name)

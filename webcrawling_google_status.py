@@ -39,7 +39,7 @@ def check_unfinished():
                 print(file_path)
                 print(d["name"])
                 continue
-            if d["same_name"] + ".json"  not in google_comment_files:
+            if d["same_name"] + ".json"  not in google_comment_files and d["same_name"] != "NA":
                 print("============================")
                 print(file_path)
                 print(d["name"])
