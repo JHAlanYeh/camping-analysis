@@ -1,0 +1,244 @@
+﻿{
+    "name": "那山達雅賀",
+    "address": "336桃園市復興區9-6號",
+    "google_map": "https://www.google.com/maps/place/%E9%82%A3%E5%B1%B1%E9%81%94%E9%9B%85%E8%B3%80/@24.8219352,121.3793048,17z/data=!3m1!4b1!4m6!3m5!1s0x346810e6f920146f:0x9c077f29721012d3!8m2!3d24.8219352!4d121.3818797!16s%2Fg%2F11c500cmp9?authuser=0&entry=ttu",
+    "latitude": "24.8219352",
+    "longitude": "121.3793048",
+    "type": 0,
+    "expect_count": 52,
+    "actual_count": 33,
+    "comments": [
+        {
+            "content": "有機菜體驗",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2024/02/16",
+            "tokenization": "機菜 | 體驗"
+        },
+        {
+            "content": "風景優美，場地乾淨，主人親切，設施完備，夏季夜晚會有螢火蟲洗手間雖稍簡陋，但頗為潔淨，已改善 冬季週末幾乎滿帳，要提早預定",
+            "rating": 3,
+            "type": 0,
+            "publishedDate": "2024/02/08",
+            "tokenization": "風景 | 優美 | 場地 | 乾淨 | 主人 | 親切 | 設施 | 完備 | 夏季 | 夜晚 | 會有 | 螢火蟲 | 洗手 | 間 | 稍 | 簡陋 | 為潔淨 | 改善 | 冬季 | 週末 | 滿帳 | 提早 | 預定"
+        },
+        {
+            "content": "整體還不錯！浴室乾淨又很大！熱水很熱..就是水壓小了點  還有營位小了點 大一點的帳篷會搭不下遮雨棚！營主人很好！ 還有一隻熱情的小黑狗",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2024/02/08",
+            "tokenization": "整體 | 還不錯 | 浴室 | 乾淨 | 很大 | 熱水 | 很熱 | 水壓 | 了點 | 營位 | 了點 | 大一點 | 帳篷會 | 搭 | 遮雨棚 | 營主 | 隻 | 熱情 | 黑狗"
+        },
+        {
+            "content": "整體還是可以推薦。1.熱水水壓不足，除了第一間以外。2.中間草皮石頭地是小朋友不錯玩樂的地方，但是要小心會有狗大便⋯3.小而美的營地，帳位有點小。4.到角板山商圈還算近。",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2024/01/08",
+            "tokenization": "整體 | 推薦 | 熱水水壓 | 第一 | 間 | 草皮 | 石頭 | 小朋友 | 不錯 | 玩樂 | 地方 | 小心 | 狗 | 大便 | 小而 | 美的 | 營地 | 帳位 | 角板 | 山 | 商圈 | 還算近"
+        },
+        {
+            "content": "是一對夫妻管理的露營區，晚上可以看見美麗的螢火蟲，在志繼部落裡的營區唷！",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2023/09/08",
+            "tokenization": "夫妻 | 管理 | 露營區 | 晚上 | 美麗 | 螢火蟲 | 志繼 | 部落 | 裡的 | 營區 | 唷"
+        },
+        {
+            "content": "空气清新、好玩、纾解压力.ok的啦。",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2023/08/08",
+            "tokenization": "空气清新 | 好玩 | 纾解 | 压力 | ok"
+        },
+        {
+            "content": "接近大自然。沙鍋魚頭火鍋太棒了",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2023/05/08",
+            "tokenization": "接近 | 大自然 | 沙鍋 | 魚頭 | 火鍋 | 太棒了"
+        },
+        {
+            "content": "環境清幽營主夫妻為人和善",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2023/03/08",
+            "tokenization": "環境 | 清幽 | 營主 | 夫妻 | 為 | 和善"
+        },
+        {
+            "content": "雖然露第二次；可是這次感覺不舒服；跟老闆說好的夜衝；結果老闆娘不認帳；硬要收整天的費用；結果隔天就收帳回家；",
+            "rating": 2,
+            "type": 0,
+            "publishedDate": "2023/03/08",
+            "tokenization": "雖然露 | 第二次 | 感覺 | 舒服 | 老闆 | 說 | 夜衝 | 老闆娘 | 認帳 | 硬要 | 收 | 整天 | 費用 | 隔天 | 收帳 | 回家"
+        },
+        {
+            "content": "已露過三次了，可以讓我去三次的營區，就是棒～",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2022/03/08",
+            "tokenization": "已露過 | 三次 | 三次 | 營區 | 棒"
+        },
+        {
+            "content": "風景美麗",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2021/03/08",
+            "tokenization": "風 | 景美 | 麗"
+        },
+        {
+            "content": "很親切的老夫妻",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2021/03/08",
+            "tokenization": "親切 | 老夫妻"
+        },
+        {
+            "content": "老闆娘熱情、好客，環境清幽，生態豐富，第一次看到東方水蠊、八重山硬蠊跟筷子一樣粗的竹結蟲，第一次吃山羌，都在這裡!唯一缺點就是蚊子跟小黑蚊很多!",
+            "rating": 2,
+            "type": 0,
+            "publishedDate": "2021/03/08",
+            "tokenization": "老闆娘 | 熱情 | 好客 | 環境 | 清幽 | 生態 | 第一次 | 東方水 | 蠊 | 八重 | 山硬 | 蠊 | 筷子 | 竹 | 結蟲 | 第一次 | 吃山 | 羌 | 唯一 | 缺點 | 蚊子 | 小黑 | 蚊"
+        },
+        {
+            "content": "高山避暑，環境清幽，適合全家，三五好友露營",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2021/03/08",
+            "tokenization": "高山 | 避暑 | 環境 | 清幽 | 適合 | 全家 | 三五 | 好友 | 露營"
+        },
+        {
+            "content": "老闆很熱情，東西好吃，有卡啦ok",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2020/03/08",
+            "tokenization": "老闆 | 很熱情 | 東西 | 好吃 | 有卡 | ok"
+        },
+        {
+            "content": "在山中能有這樣的場所可靜心，很棒！",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2020/03/08",
+            "tokenization": "山中 | 場所 | 可靜心 | 很棒"
+        },
+        {
+            "content": "景觀很美",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2020/03/08",
+            "tokenization": "景觀 | 美"
+        },
+        {
+            "content": "風景優美，空氣青新",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2020/03/08",
+            "tokenization": "風景 | 優美 | 空氣 | 青新"
+        },
+        {
+            "content": "美景如畫",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2019/03/08",
+            "tokenization": "美景 | 如畫"
+        },
+        {
+            "content": "有大自然的環境。這露營區是位於在復興區霞雲里志繼部落裡，是泰雅族原住民部落。人都熱情。好客。",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2019/03/08",
+            "tokenization": "大自然 | 環境 | 這露 | 營區 | 位 | 復 | 興區霞 | 雲里志繼 | 部落 | 裡 | 泰雅族 | 原住民 | 部落 | 熱情 | 好客"
+        },
+        {
+            "content": "好地方，會再訪",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2019/03/08",
+            "tokenization": "地方 | 再訪"
+        },
+        {
+            "content": "超棒的營區",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2019/03/08",
+            "tokenization": "超棒 | 營區"
+        },
+        {
+            "content": "營地大，野炊空間大，插座多，廁所超乾淨，有山泉游泳池 😉 …",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2019/03/08",
+            "tokenization": "營地 | 野炊 | 空間 | 插座 | 廁所 | 超乾淨 | 山泉 | 游泳池 | 😉"
+        },
+        {
+            "content": "露營地",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2019/03/08",
+            "tokenization": "露營"
+        },
+        {
+            "content": "好山好水，離塵不離城，值得推薦的好地方",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2018/03/08",
+            "tokenization": "好山好水 | 離塵 | 不離城 | 值得 | 推薦 | 地方"
+        },
+        {
+            "content": "因為包場，享受絕對寧靜和空間，老闆夫妻非常熱情招待，特別對孩子們有耐心，晚上九點多還出來教孩子們升營火，還有新鮮美味的香菇！",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2018/03/08",
+            "tokenization": "因為 | 包場 | 享受 | 寧靜 | 空間 | 老闆 | 夫妻 | 熱情 | 招待 | 特別 | 孩子 | 耐心 | 晚上 | 九點 | 還出 | 教 | 孩子 | 升營火 | 新鮮 | 美味 | 香菇"
+        },
+        {
+            "content": "景觀好、老闆及老闆娘人好！！",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2018/03/08",
+            "tokenization": "景觀 | 老闆 | 老闆娘 | 人好"
+        },
+        {
+            "content": "環境還不錯，廁所乾淨，原住民老闆熱情健談，不用怕沒人陪你喝酒聊天，山泉水泳池乾淨清涼",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2018/03/08",
+            "tokenization": "環境 | 還不錯 | 廁所 | 乾淨 | 原住民 | 老闆 | 熱情 | 健談 | 不用 | 沒人 | 陪 | 喝酒 | 聊天 | 山泉水 | 泳池 | 乾淨 | 清涼"
+        },
+        {
+            "content": "景色優美，很純樸的部落生活，老闆和老闆娘都是泰雅族人，兩位人都很好哦！有寬廣的地方可露營。",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2018/03/08",
+            "tokenization": "景色 | 優美 | 純樸 | 部落 | 生活 | 老闆 | 老闆娘 | 泰雅族 | 兩位 | 寬廣 | 地方 | 可露營"
+        },
+        {
+            "content": "那座山~達~雅也賀。有森林，野獸的味道，忘了心在那裡。",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2018/03/08",
+            "tokenization": "那座 | 山 | 達 | 雅也賀 | 森林 | 野獸 | 味道 | 忘 | 心"
+        },
+        {
+            "content": "夏日水池消暑老闆娘親切熱情",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2017/03/08",
+            "tokenization": "夏日 | 水池 | 消暑 | 老闆娘 | 親切 | 熱情"
+        },
+        {
+            "content": "好空氣，好風景，就距離，路途不甚方便而已",
+            "rating": 4,
+            "type": 0,
+            "publishedDate": "2017/03/08",
+            "tokenization": "好空氣 | 好風景 | 距離 | 路途 | 甚"
+        },
+        {
+            "content": "離台北近，有水池，老闆娘很熱情",
+            "rating": 5,
+            "type": 0,
+            "publishedDate": "2017/03/08",
+            "tokenization": "台北 | 水池 | 老闆娘 | 很熱情"
+        }
+    ],
+    "phone": "0910 607 988"
+}

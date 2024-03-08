@@ -1,7 +1,7 @@
 ﻿{
     "name": "石門客棧休閒農場",
     "address": "36442苗栗縣大湖鄉竹橋20號",
-    "google_map": "https://www.google.com/maps/place/%E7%9F%B3%E9%96%80%E5%AE%A2%E6%A3%A7%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/@24.3634828,120.8422833,17z/data=!3m1!4b1!4m9!3m8!1s0x346903c95dbaef01:0x81dd347c7d7e4765!5m2!4m1!1i2!8m2!3d24.3634828!4d120.8448582!16s%2Fg%2F1w6_lkp0?authuser=0&entry=ttu",
+    "google_map": "https://www.google.com/maps/place/%E7%9F%B3%E9%96%80%E5%AE%A2%E6%A3%A7%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/@24.3634828,120.8422833,17z/data=!4m9!3m8!1s0x346903c95dbaef01:0x81dd347c7d7e4765!5m2!4m1!1i2!8m2!3d24.3634828!4d120.8448582!16s%2Fg%2F1w6_lkp0?authuser=0&entry=ttu",
     "latitude": "24.3634828",
     "longitude": "120.8422833",
     "type": 0,
@@ -618,5 +618,5 @@
             "tokenization": "客家 | 小炒 | 花枝 | 泰式 | 風 | 這兩樣 | 好吃 | 建議 | 點來 | 吃"
         }
     ],
-    "phone": ""
+    "phone": "03 795 1129"
 }

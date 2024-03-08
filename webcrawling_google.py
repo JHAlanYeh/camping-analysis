@@ -55,7 +55,12 @@ for file in os.listdir(save_path):
         if "easycamp" not in file:
             continue
 
-        flag=True
+        if "臻美營地" in d["name"]:
+            flag=True
+            continue
+
+        if flag is False:
+            continue
 
         if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
             continue
