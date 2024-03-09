@@ -170,5 +170,6 @@
             "publishedDate": "2023/12/19",
             "tokenization": "烤肉 | ok | 食材 | 隨便 | 隔壁 | 帳篷 | 吵架 | 制止"
         }
-    ]
+    ],
+    "actual_count": 23
 }

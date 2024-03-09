@@ -1292,5 +1292,6 @@
             "publishedDate": "2018/01/02",
             "tokenization": "廁所 | 乾淨 | 洗澡水 | 水溫 | 穩定 | 話 | 更好"
         }
-    ]
+    ],
+    "actual_count": 183
 }

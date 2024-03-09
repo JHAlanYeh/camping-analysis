@@ -118,5 +118,6 @@
             "publishedDate": "2022/06/07",
             "tokenization": "環境 | 很棒 | 住 | 舒服 | 老闆 | 想要 | 推薦給 | 朋友 | 地方"
         }
-    ]
+    ],
+    "actual_count": 15
 }
