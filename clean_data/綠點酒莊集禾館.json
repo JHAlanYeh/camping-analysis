@@ -1,0 +1,31 @@
+﻿{
+    "name": "綠點酒莊集禾館",
+    "address": "981花蓮縣玉里鎮",
+    "google_map": "https://www.google.com/maps/place/%E7%B6%A0%E9%BB%9E%E9%85%92%E8%8E%8A%E9%9B%86%E7%A6%BE%E9%A4%A8/@23.3810666,121.3598985,17z/data=!3m1!4b1!4m6!3m5!1s0x346f43bd57eeab09:0xfc592c01dc7b0c04!8m2!3d23.3810666!4d121.3624734!16s%2Fg%2F11kstn5lp8?authuser=0&entry=ttu",
+    "latitude": "23.3810666",
+    "longitude": "121.3598985",
+    "type": 0,
+    "expect_count": 5,
+    "actual_count": 3,
+    "comments": [
+        {
+            "content": "創意十足，自釀啤酒，味美可口，烘焙特色，搭配出衆",
+            "rating": 5,
+            "publishedDate": "2024/01/01",
+            "tokenization": "創意 | 十足 | 自釀 | 啤酒 | 味美 | 可口 | 烘焙 | 特色 | 搭配 | 衆"
+        },
+        {
+            "content": "很Chill 的地方 玉里在地自釀啤酒好喝又有特色 結合露營區等休閒活動 很讚喲",
+            "rating": 5,
+            "publishedDate": "2023/10/01",
+            "tokenization": "Chill | 地方 | 玉里 | 自釀 | 啤酒 | 好喝 | 特色 | 結合露 | 營區 | 休閒 | 活動 | 讚"
+        },
+        {
+            "content": "德國夫妻開的店，金針花氣泡飲、德國老啤酒、德式烤肉、都好有特色，好美味！環境舒適，氛圍輕鬆，大推！",
+            "rating": 5,
+            "publishedDate": "2023/10/01",
+            "tokenization": "德國 | 夫妻 | 開 | 店 | 金針 | 花氣 | 泡 | 飲 | 德國 | 啤酒 | 德式 | 烤肉 | 特色 | 美味 | 環境 | 舒適 | 氛圍 | 輕 | 鬆 | 推"
+        }
+    ],
+    "phone": "0937087610"
+}
