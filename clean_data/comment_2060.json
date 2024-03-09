@@ -1,0 +1,85 @@
+﻿{
+    "code": "2060",
+    "name": "苗栗泰安 瑪都安露營區",
+    "region": "苗栗縣泰安鄉",
+    "url": "https://www.easycamp.com.tw/Store_2060.html",
+    "type": 3,
+    "disabled": 0,
+    "description": "交通方便 鄰近溪流 小團露推薦營區位於苗栗泰安，距清安豆腐街僅 2.7 公里鄰近溪流，水質清澈尤其適合家庭朋友聚會、小型活動包場",
+    "address": "苗栗縣泰安鄉清安村洗水坑118號(Google請直接搜尋瑪都安露營區)",
+    "latitude": 24.4463143,
+    "longitude": 120.90816810000001,
+    "comments": [
+        {
+            "content": "浴廁太少   熱水忽冷忽熱",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2023/01/12",
+            "tokenization": "浴 | 廁太少 | 熱水 | 忽冷 | 忽熱"
+        },
+        {
+            "content": "溪谷旁的小營區，廁所跟浴室再一起是沒關係，但只有兩間太少了，希望可以改善",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2022/01/04",
+            "tokenization": "溪谷 | 旁 | 小營區 | 廁所 | 浴室 | 沒關 | 係 | 兩間 | 太少 | 希望 | 改善"
+        },
+        {
+            "content": "營區的廢水直接排到旁邊的溪，不妥。浴廁只有兩間，沒有單獨的廁所，若兩間都有人在洗澡就沒有廁所可以上了，停車的規劃也不妥",
+            "type": 0,
+            "rating": 3,
+            "publishedDate": "2019/05/08",
+            "tokenization": "營區 | 廢水 | 排到 | 旁邊 | 溪 | 不妥 | 浴廁 | 兩間 | 單獨 | 廁所 | 兩間 | 有人 | 洗澡 | 廁所 | 停車 | 規劃 | 不妥"
+        },
+        {
+            "content": "停車位離營位有一點點距離，廁所排水堵塞。",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2019/03/03",
+            "tokenization": "停車位 | 離營位 | 一點點 | 距離 | 廁所 | 排水 | 堵塞"
+        },
+        {
+            "content": "真的很不錯，下次還會再去",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2018/12/31",
+            "tokenization": "真的 | 很不錯 | 下次 | 還會"
+        },
+        {
+            "content": "值得一來再來的好地方！",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2018/06/08",
+            "tokenization": "值得 | 地方"
+        },
+        {
+            "content": "還不錯。應該再加個護欄",
+            "type": 0,
+            "rating": 3,
+            "publishedDate": "2018/04/10",
+            "tokenization": "還不錯 | 加個 | 護欄"
+        },
+        {
+            "content": "老闆場地都超優的.下次還會去",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2018/04/10",
+            "tokenization": "老闆 | 場地 | 超優 | 下次 | 還會"
+        },
+        {
+            "content": "集中停車位置離營地有點遠。",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2018/03/11",
+            "tokenization": "停車 | 位置 | 離營 | 遠"
+        },
+        {
+            "content": "浴室廁所分离比較好，真的不太方便",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2018/01/03",
+            "tokenization": "浴室 | 廁所 | 分离 | 真的 | 不太"
+        }
+    ],
+    "actual_count": 10
+}

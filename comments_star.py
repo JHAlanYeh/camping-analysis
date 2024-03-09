@@ -25,7 +25,14 @@ def star_range_distributed():
             f = open(file_path, encoding="utf-8-sig")
             data = json.load(f)
             f.close()
-           
+
+            if data["type"] == 0 or data["type"] == 4:
+                continue
+                
+            if data["type"] == 3:
+                print(file_path)
+
+
             data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
             # print(len(data["comments"]))
 
