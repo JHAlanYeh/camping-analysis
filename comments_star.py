@@ -50,7 +50,7 @@ def star_range_distributed():
                     star_distributed["{}-{}".format(str(c["type"]), str(c["rating"]))] += 1
 
 
-            data["comments"] = list(filter(lambda x: x["publishedDate"] > '2023/05/01', data["comments"]))
+            data["comments"] = list(filter(lambda x: x["publishedDate"] > '2018/01/01', data["comments"]))
             with open(file_path, 'w', encoding="utf-8-sig") as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
         print(star_distributed)
