@@ -21,7 +21,7 @@ def star_range_distributed():
     if os.path.isdir(directory):
         for file in os.listdir(directory):
             file_path = os.path.join(directory, file)
-            print(file_path)
+            # print(file_path)
             f = open(file_path, encoding="utf-8-sig")
             data = json.load(f)
             f.close()
@@ -40,7 +40,7 @@ def star_range_distributed():
                     c["publishedDate"] = c["publishedDate"].split(" ")[0].replace("-", "/")
 
 
-                if "type" not in c:
+                if "type" not in c or c["type"] == 0:
                     if data["type"] in [1, 2]:
                         c["type"] = data["type"]
                     else:

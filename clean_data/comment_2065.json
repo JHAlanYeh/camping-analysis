@@ -93,13 +93,6 @@
             "rating": 4,
             "publishedDate": "2018/04/11",
             "tokenization": "露營採 | 草莓 | 現採現 | 吃 | 讚"
-        },
-        {
-            "content": "住的是附設的住宿，房間很大。",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2018/02/21",
-            "tokenization": "住 | 附設 | 住宿 | 房間 | 很大"
         }
     ]
 }
