@@ -100,46 +100,11 @@
             "tokenization": "天氣 | 舒適 | 雨棚 | 很大 | 柴火 | 自取 | 打卡 | 送蛋"
         },
         {
-            "content": "放鬆身心的好所在的",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "放 | 鬆 | 身心"
-        },
-        {
-            "content": "放鬆的好所在",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "放 | 鬆"
-        },
-        {
             "content": "雖然營地環境原始天然，卻沒有蟲跟螞蟻，實在有夠讚！營主親切溫暖，還主動幫我們準備生營火器具與柴火，讓正值寒流侵襲的我們感受到溫暖～往最頂走還能在制高點看風景，實在漂亮～美中不足的地方是我們住的這區，水溫不夠穩定，也跟營主反應了，營主說會再改善～也因此度過了美好的假期！",
             "rating": 4,
             "type": 0,
             "publishedDate": "2023/03/07",
             "tokenization": "營地 | 環境 | 原始 | 天然 | 有蟲 | 螞蟻 | 實在 | 夠 | 讚 | 營主 | 親切 | 溫暖 | 還主動 | 幫 | 生營 | 火器 | 具 | 柴火 | 寒流 | 侵襲 | 感受 | 溫暖 | 最頂 | 走 | 還能 | 制高點 | 看風景 | 實在 | 漂亮 | 美中不足 | 地方 | 住 | 這區 | 水溫 | 穩定 | 營主 | 營主 | 說會 | 改善 | 度過 | 美好 | 假期"
-        },
-        {
-            "content": "露營好好玩",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "露營 | 好玩"
-        },
-        {
-            "content": "場地讚👍 …",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "場 | 讚 | 👍"
-        },
-        {
-            "content": "營主很親切",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "營主 | 親切"
         },
         {
             "content": "漂亮清幽的地方，水庫很讚",
@@ -184,13 +149,6 @@
             "tokenization": "劍 | 湖山 | 煙火 | 🎆 | 2022 | 年 | 跨 | 年 | 地方"
         },
         {
-            "content": "推推很棒很喜翻",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "推推 | 很棒 | 很喜 | 翻"
-        },
-        {
             "content": "超好的營主夫妻❤️整體超棒，推薦可以來跨年可以看到煙火🎆",
             "rating": 5,
             "type": 0,
@@ -203,13 +161,6 @@
             "type": 0,
             "publishedDate": "2023/03/07",
             "tokenization": "讚 | 讚 | 讚 | 👍 | 🏻 | 營主 | nice"
-        },
-        {
-            "content": "讚👍🏻 …",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/07",
-            "tokenization": "讚 | 👍 | 🏻"
         },
         {
             "content": "進來的路不好會車，營地也較為原始，但草皮養護的還不錯; 雖然因為馬達壞掉無水可用，但營主親自去裝滿好幾桶的水在每間廁所外供取用，且還送上去山下買的2桶5公升的飲用水，雖然不便，但也能感受營主的用心",
@@ -301,13 +252,6 @@
             "type": 0,
             "publishedDate": "2022/03/07",
             "tokenization": "環境 | 不錯 | 黄昏 | 難免 | 蚊子 | 沒蟲 | 蒼蠅 | 營區 | 互不 | 相打擾 | 水 | 廁乾淨 | 營區 | 頂點 | 風景 | 獨立 | 小屋 | 民宿 | 供應 | google | 導航 | 說 | 往前 | 開 | 300 | 500M | 開 | 小路"
-        },
-        {
-            "content": "值得推薦的好地方",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2022/03/07",
-            "tokenization": "值得 | 推薦 | 地方"
         },
         {
             "content": "熱情的營主 好吃的絲瓜 土雞蛋 還有很辣的朝天椒",
@@ -485,39 +429,11 @@
             "tokenization": "老闆 | 親切 | 管理 | 占地 | 八甲 | 真的 | 難顧 | 好露 | 營區 | 廁所 | 乾淨 | 接受 | 下次 | 原因"
         },
         {
-            "content": "環境還需要改進",
-            "rating": 1,
-            "type": 0,
-            "publishedDate": "2021/03/07",
-            "tokenization": "環境還 | 改進"
-        },
-        {
             "content": "營主人熱心，和善，環境非常適合團露",
             "rating": 5,
             "type": 0,
             "publishedDate": "2021/03/07",
             "tokenization": "營主 | 人熱心 | 和善 | 環境 | 適合 | 團露"
-        },
-        {
-            "content": "營主夫妻親切",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2021/03/07",
-            "tokenization": "營主 | 夫妻 | 親切"
-        },
-        {
-            "content": "老闆人很好",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2020/03/07",
-            "tokenization": "老闆"
-        },
-        {
-            "content": "悠閒的生活~",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2020/03/07",
-            "tokenization": "悠閒 | 生活"
         },
         {
             "content": "環境很清幽，難得可以熟睡，山景也不錯，營主親切。竹棚區更加舒適。",
@@ -527,25 +443,11 @@
             "tokenization": "環境 | 清幽 | 熟睡 | 山景 | 不錯 | 營主 | 親切 | 竹 | 棚區 | 舒適"
         },
         {
-            "content": "景觀美不升收",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2020/03/07",
-            "tokenization": "景觀 | 美不升收"
-        },
-        {
             "content": "世外桃源，營主夫婦很好客，送自種無毒蔬菜，泡菜又泡咖啡好像是自己家人一般是想讓人一來再來的地方",
             "rating": 5,
             "type": 0,
             "publishedDate": "2020/03/07",
             "tokenization": "世外桃源 | 營主 | 夫婦 | 好客 | 送 | 自種 | 無毒 | 蔬菜 | 泡菜 | 泡 | 咖啡 | 好像 | 家人 | 想 | 地方"
-        },
-        {
-            "content": "會讓人再回來的營區",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2020/03/07",
-            "tokenization": "回來 | 營區"
         },
         {
             "content": "老闆人很好，回家時送自己種的番薯葉，及酸筍",
@@ -588,13 +490,6 @@
             "type": 0,
             "publishedDate": "2020/03/07",
             "tokenization": "老闆 | 熱情 | 免費 | 招待 | 時蔬"
-        },
-        {
-            "content": "老闆親切又大方",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2020/03/07",
-            "tokenization": "老闆 | 親切 | 大方"
         },
         {
             "content": "離市區不太遠的清幽山境，有竹屋與露營區兩種選擇，入住的時候天氣清朗，很幸運看到很多星星，清晨徒步一下下到山頂看日出，交通開車前往，如果有問題，老闆會很清楚地在電話裡說明",

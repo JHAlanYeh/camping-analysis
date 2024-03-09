@@ -16,13 +16,6 @@
             "tokenization": "馬 | 胎 | 仙境 | 露營區 | 風景 | 漂亮 | 乾淨 | 營帳"
         },
         {
-            "content": "超漂亮！！",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/02/23",
-            "tokenization": "超 | 漂亮"
-        },
-        {
             "content": "營區乾淨舒適，燈條掛上去好有氛圍天氣好無光害，晚上在星空下聊聊天狩獵帳舒服很好睡。美好的一露。",
             "rating": 5,
             "type": 0,
@@ -93,25 +86,11 @@
             "tokenization": "一堆 | 走 | 錯 | 定位 | 刪不掉"
         },
         {
-            "content": "真的好難找",
-            "rating": 3,
-            "type": 0,
-            "publishedDate": "2023/03/08",
-            "tokenization": "真的 | 好難 | 找"
-        },
-        {
             "content": "帳篷數多，可惜冰箱只有一台不夠放。熱水一下子又一下子沒有",
             "rating": 4,
             "type": 0,
             "publishedDate": "2023/03/08",
             "tokenization": "帳篷 | 數多 | 可惜 | 冰箱 | 一台 | 放 | 熱水 | 一下子 | 一下子"
-        },
-        {
-            "content": "很舒服的環境",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/08",
-            "tokenization": "舒服 | 環境"
         },
         {
             "content": "老闆人超級好！！！真的超愛這個老闆露營地很棒",

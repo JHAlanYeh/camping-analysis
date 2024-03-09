@@ -94,34 +94,6 @@
             "rating": 5,
             "publishedDate": "2018/01/05",
             "tokenization": "場地 | 收 | 15 | 帳 | 場主 | 佛心"
-        },
-        {
-            "content": "服務態度好 景色好 衛浴乾淨",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/09",
-            "tokenization": "服務態度 | 景色 | 衛浴 | 乾淨"
-        },
-        {
-            "content": "空曠的場地，景色就在眼前！",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/18",
-            "tokenization": "空曠 | 場地 | 景色 | 眼前"
-        },
-        {
-            "content": "營主很熱心，風景也很美",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/06/07",
-            "tokenization": "營主 | 很熱心 | 風景 | 美"
-        },
-        {
-            "content": "很讓人放鬆的地方，風景美，生態豐富，營地主人很親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/06/06",
-            "tokenization": "放 | 鬆 | 地方 | 風 | 景美 | 生態 | 營地 | 主人 | 親切"
         }
     ]
 }

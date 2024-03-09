@@ -16,13 +16,6 @@
             "tokenization": "場地 | 很棒 | 老闆 | 南庄 | 老街 | 很近"
         },
         {
-            "content": "讚",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "讚"
-        },
-        {
             "content": "離老街很近，舒適乾淨的露營區",
             "rating": 5,
             "type": 0,
@@ -30,60 +23,11 @@
             "tokenization": "老街 | 很近 | 舒適 | 乾淨 | 露營區"
         },
         {
-            "content": "讚讚",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "讚 | 讚"
-        },
-        {
-            "content": "環境可以接受",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "環境 | 接受"
-        },
-        {
             "content": "很舒適露營體驗小孩玩的超開心",
             "rating": 5,
             "type": 0,
             "publishedDate": "2024/03/04",
             "tokenization": "很舒 | 適露 | 營體驗 | 小孩 | 玩 | 超開心"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "讚"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "讚"
-        },
-        {
-            "content": "懶人露營首選",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "懶人露 | 營首選"
-        },
-        {
-            "content": "讚",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/04",
-            "tokenization": "讚"
-        },
-        {
-            "content": "環境優美 氣氛佳！！",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/03",
-            "tokenization": "環境 | 優美 | 氣氛 | 佳"
         },
         {
             "content": "空氣清新~環境乾淨優美~遠離城市的吵雜聲...裕見生活---是個很棒的地方....",
@@ -105,20 +49,6 @@
             "type": 0,
             "publishedDate": "2024/03/01",
             "tokenization": "環境 | 舒適 | 乾淨 | 老街 | 三分 | 鐘 | 路程 | 值得 | 推薦"
-        },
-        {
-            "content": "好地方",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/01",
-            "tokenization": "地方"
-        },
-        {
-            "content": "小朋友的天堂🫶 …",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/03/01",
-            "tokenization": "小朋友 | 天堂 | 🫶"
         },
         {
             "content": "環境舒適 乾淨 😍😍下次再來 …",
@@ -168,13 +98,6 @@
             "type": 0,
             "publishedDate": "2024/02/08",
             "tokenization": "舒服 | 地方 | 洗手 | 間 | 乾淨"
-        },
-        {
-            "content": "環境優美很舒服",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/02/08",
-            "tokenization": "環境 | 優美 | 舒服"
         },
         {
             "content": "超級可愛美麗的橡木桶民宿.可體驗看看哦！",

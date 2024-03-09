@@ -17,21 +17,21 @@
             "content": "景觀漂亮，環境很乾淨，停車方便，整個空間很大，老闆人很好，是個不錯的地方",
             "type": 2,
             "rating": 5,
-            "publishedDate": "2023-07-03T15:37:35+08:00",
+            "publishedDate": "2023/07/03",
             "tokenization": "景觀 | 漂亮 | 環境 | 乾淨 | 停車 | 空間 | 很大 | 老闆 | 不錯 | 地方"
         },
         {
             "content": "老闆人很好 也很友善 設施非常齊全 環境非常整潔乾淨 重點是好玩",
             "type": 2,
             "rating": 5,
-            "publishedDate": "2023-02-06T09:55:53+08:00",
+            "publishedDate": "2023/02/06",
             "tokenization": "老闆 | 友善 | 設施 | 齊全 | 環境 | 整潔 | 乾淨 | 重點 | 好玩"
         },
         {
             "content": "舒適的神殿帳浴室乾濕分離 熱水夠熱老闆人超nice 非常喜歡",
             "type": 2,
             "rating": 5,
-            "publishedDate": "2023-01-31T12:17:13+08:00",
+            "publishedDate": "2023/01/31",
             "tokenization": "舒適 | 神殿 | 帳 | 浴室 | 乾濕 | 分離 | 熱水 | 夠熱 | 老闆 | 人超 | nice | 喜歡"
         }
     ]

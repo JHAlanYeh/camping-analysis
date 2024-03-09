@@ -80,27 +80,6 @@
             "rating": 4,
             "publishedDate": "2018/04/08",
             "tokenization": "通往 | 營地 | 路 | 太小 | 會車 | 挑戰性"
-        },
-        {
-            "content": "熱心營主 不錯的環境。建議營主 沿圖增設指示牌 會更好找唷",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/31",
-            "tokenization": "熱心 | 營主 | 不錯 | 環境 | 建議 | 營主 | 沿圖 | 增設 | 指示牌 | 更好 | 找 | 唷"
-        },
-        {
-            "content": "老板很親切 。草皮很漂亮 。河邊可戲水 。無光害看星星漂亮 。",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/10/22",
-            "tokenization": "老板 | 親切 | 草皮 | 很漂亮 | 河邊 | 可戲水 | 無光害 | 星星 | 漂亮"
-        },
-        {
-            "content": "營主人很好，距離南澳南溪很近",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/06/24",
-            "tokenization": "營主 | 距離 | 南澳 | 南溪 | 很近"
         }
     ]
 }

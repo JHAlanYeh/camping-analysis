@@ -9,39 +9,11 @@
     "actual_count": 39,
     "comments": [
         {
-            "content": "老闆娘姐姐熱情又可愛",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/01/08",
-            "tokenization": "老闆娘 | 姐姐 | 熱情 | 愛"
-        },
-        {
-            "content": "好讚 要喝ㄋㄟ",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2024/01/08",
-            "tokenization": "讚 | 喝 | ㄋ | ㄟ"
-        },
-        {
             "content": "一來營主就說「我們本來不打算開放的」不開放就不要給人訂啊！！然後也不給退訂金，問題一堆，環境這麼差，螞蟻超級無敵多，草皮也沒草都石頭，不會經營就別開啊～原本以為負評只是別人的個人問題，但我真的體驗到了「負評真的要參考」超級後悔的旅行",
             "rating": 1,
             "type": 0,
             "publishedDate": "2023/05/08",
             "tokenization": "營主 | 說 | 本來 | 打算 | 開放 | 不開 | 放 | 給人訂 | 然後也 | 不給 | 退訂 | 金 | 一堆 | 環境 | 差 | 螞蟻 | 超級 | 無敵 | 草皮 | 沒草 | 石頭 | 經營 | 別開 | 原本 | 以為 | 負評 | 真的 | 體驗 | 負評 | 真的 | 參考 | 超級後悔 | 旅行"
-        },
-        {
-            "content": "環境乾淨清幽～",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/04/08",
-            "tokenization": "環境 | 乾淨 | 清幽"
-        },
-        {
-            "content": "空氣超好...",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/04/08",
-            "tokenization": "空氣 | 超好"
         },
         {
             "content": "非常棒的生態，風景很讚",
@@ -63,13 +35,6 @@
             "type": 0,
             "publishedDate": "2023/03/08",
             "tokenization": "營主 | 提供 | 好喝 | 雞湯 | 體驗 | 鹿茸酒 | 導覽 | 生態 | 鹿茸 | 這是 | 很棒 | 露營區"
-        },
-        {
-            "content": "來露營看鹿鹿☺️☺️",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/08",
-            "tokenization": "露營 | 鹿鹿 | ☺ | ️ | ☺ | ️"
         },
         {
             "content": "特別的露營體驗生態介紹👍🏻 …",
@@ -114,13 +79,6 @@
             "tokenization": "風景 | 超好 | 老闆娘 | 超好 | 推推 | 園區 | 鹿鹿 | 一級 | 棒"
         },
         {
-            "content": "一個字，很讚👍。 …",
-            "rating": 5,
-            "type": 0,
-            "publishedDate": "2023/03/08",
-            "tokenization": "字 | 讚 | 👍"
-        },
-        {
             "content": "風景好水質佳，鹿茸好品質",
             "rating": 5,
             "type": 0,
@@ -161,13 +119,6 @@
             "type": 0,
             "publishedDate": "2022/03/08",
             "tokenization": "營區 | 為 | 賺 | 錢會 | 超收 | 營位 | 計畫 | 想想"
-        },
-        {
-            "content": "露營休閒觀景的好地方",
-            "rating": 4,
-            "type": 0,
-            "publishedDate": "2022/03/08",
-            "tokenization": "露營 | 休閒 | 觀景 | 地方"
         },
         {
             "content": "露營區的位置很大規劃的很好，設備很齊全該有的都有，沒有遇到螞蟻之類的問題，有什麼問題老闆娘都很有耐心的解釋，缺什麼都會想辦法幫忙。其他低星留言的太誇張了😂 …",

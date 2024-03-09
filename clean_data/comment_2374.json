@@ -129,13 +129,6 @@
             "rating": 5,
             "publishedDate": "2018/06/03",
             "tokenization": "景觀 | 漂亮 | 有厚 | 草皮 | 適合 | 小孩 | 玩 | 冰箱 | 飲水機 | 營主 | 值得 | 營區"
-        },
-        {
-            "content": "下次一定還會再來的營地",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/31",
-            "tokenization": "下次 | 還會 | 營地"
         }
     ]
 }

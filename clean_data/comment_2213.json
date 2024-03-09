@@ -213,62 +213,6 @@
             "rating": 5,
             "publishedDate": "2018/02/20",
             "tokenization": "舒適 | 放 | 鬆 | 地方 | 適合 | 闔 | 家光臨"
-        },
-        {
-            "content": "老闆娘人很好！小朋友玩的很開心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/24",
-            "tokenization": "老闆娘 | 小朋友 | 玩 | 開心"
-        },
-        {
-            "content": "營主很親切，環境很不錯",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/15",
-            "tokenization": "營主 | 親切 | 環境 | 不錯"
-        },
-        {
-            "content": "提供親子同樂的種植與採果活動。洗澡熱水溫度不穩定，建議改善",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/12/04",
-            "tokenization": "提供 | 親子 | 同樂 | 種植 | 採果 | 活動 | 洗澡 | 熱水 | 溫度 | 穩定 | 建議 | 改善"
-        },
-        {
-            "content": "老闆很親切，環境整潔寧靜",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/26",
-            "tokenization": "老闆 | 親切 | 環境 | 整潔寧靜"
-        },
-        {
-            "content": "浴廁乾淨 老闆待人親切",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/04",
-            "tokenization": "浴 | 廁乾淨 | 老闆 | 待人 | 親切"
-        },
-        {
-            "content": "老闆親切 小孩採果 種菜超開心",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/11/04",
-            "tokenization": "老闆 | 親切 | 小孩 | 採果 | 種菜 | 超開心"
-        },
-        {
-            "content": "草皮不錯，個人不喜歡廁所跟浴室在一起，每帳空間希望營主可以規劃清楚，停車位不足希望改善",
-            "type": 1,
-            "rating": 3,
-            "publishedDate": "2017/09/19",
-            "tokenization": "草皮 | 不錯 | 喜歡 | 廁所 | 浴室 | 每帳 | 空間 | 希望 | 營主 | 規劃 | 停車位 | 希望 | 改善"
-        },
-        {
-            "content": "夏天充滿徐徐涼風的山谷，晚上有點冷，滿天星斗作伴，舒適沒有光害的營地。",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/07/19",
-            "tokenization": "夏天 | 充滿 | 徐徐 | 涼風 | 山谷 | 晚上 | 冷 | 天星 | 斗 | 作伴 | 舒適 | 光害 | 營地"
         }
     ]
 }

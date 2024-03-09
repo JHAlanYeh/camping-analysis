@@ -240,13 +240,6 @@
             "rating": 4,
             "publishedDate": "2018/01/02",
             "tokenization": "老闆 | 親切 | 還自採 | 蔬菜 | 讚"
-        },
-        {
-            "content": "首露很方便，碎石區水槽有點遠。",
-            "type": 1,
-            "rating": 4,
-            "publishedDate": "2017/10/11",
-            "tokenization": "首露 | 碎石 | 區 | 水槽 | 遠"
         }
     ]
 }
