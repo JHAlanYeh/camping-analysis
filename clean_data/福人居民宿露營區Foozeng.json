@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E7%A6%8F%E4%BA%BA%E5%B1%85%E6%B0%91%E5%AE%BF%E9%9C%B2%E7%87%9F%E5%8D%80Foozeng/@24.4121809,120.90482,17z/data=!3m1!4b1!4m6!3m5!1s0x3468fe2c8d4832fd:0x4f848240c33f7dbd!8m2!3d24.4121809!4d120.9073949!16s%2Fg%2F1pp2x5xwv?authuser=0&entry=ttu",
     "latitude": "24.4121809",
     "longitude": "120.90482",
-    "type": 0,
+    "type": 3,
     "expect_count": 182,
     "actual_count": 116,
     "comments": [
