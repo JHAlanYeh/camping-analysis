@@ -1,0 +1,54 @@
+﻿{
+    "code": "2544",
+    "name": "新竹新埔 挪亞星舟露營農莊",
+    "region": "新竹縣新埔鎮",
+    "url": "https://www.easycamp.com.tw/Store_2544.html",
+    "type": 4,
+    "disabled": 0,
+    "description": "位於新竹新埔 ，提供營位與露營屋，讓孩子與長輩能輕鬆共遊的場所山頂的十字架表明我們是受神眷顧的子民下雨有下雨的美，起風有起風的美，陽光有陽光的好，天地萬物互相效應叫信神的人得益處",
+    "address": "新竹縣新埔鎮鹿鳴里4鄰黃梨園28-15號(map直接搜尋名稱即可)",
+    "comments": [
+        {
+            "content": "營主夫妻用心且服務好的營地，值得一去在去。已回露多次",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2023/10/24",
+            "tokenization": "營主 | 夫妻 | 用心 | 服務好 | 營地 | 值得 | 一去 | 回露"
+        },
+        {
+            "content": "營主夫妻用心且服務好的營地，值得一去在去",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2023/10/24",
+            "tokenization": "營主 | 夫妻 | 用心 | 服務好 | 營地 | 值得 | 一去"
+        },
+        {
+            "content": "主人熱心,服務用心,Good.",
+            "type": 0,
+            "rating": 4,
+            "publishedDate": "2023/02/25",
+            "tokenization": "主人 | 熱心 | 服務 | 用心 | Good"
+        },
+        {
+            "content": "營主和善客氣,營區乾淨環境舒適,是個不錯的地方~~",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2022/07/17",
+            "tokenization": "營主 | 和善 | 客氣 | 營區 | 乾淨 | 環境 | 舒適 | 不錯 | 地方"
+        },
+        {
+            "content": "超棒的營區 營主夫妻超級用心又客氣 很認真在經營這個營區 到營區路況非常簡單 適合露營新手",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2022/04/03",
+            "tokenization": "超棒 | 營區 | 營主 | 夫妻 | 超級 | 用心 | 客氣 | 經營 | 營區 | 營區 | 路況 | 簡單 | 適合 | 露營 | 新手"
+        },
+        {
+            "content": "營主超級熱心與熱情，還幫忙搬露營用品",
+            "type": 0,
+            "rating": 5,
+            "publishedDate": "2021/11/14",
+            "tokenization": "營主 | 超級 | 熱心 | 熱情 | 還幫 | 忙 | 搬 | 露營 | 用品"
+        }
+    ]
+}
