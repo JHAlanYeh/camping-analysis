@@ -251,7 +251,6 @@ def easycamp_comment_crawler():
             continue
 
         print(file_name)
-        return
 
         comment_objs = []
         web = requests.get(d["url"])
