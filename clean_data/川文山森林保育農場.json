@@ -5,6 +5,7 @@
     "latitude": "23.1781296",
     "longitude": "120.3209262",
     "type": 0,
+    "disabled": 1,
     "expect_count": 214,
     "actual_count": 90,
     "comments": [

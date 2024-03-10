@@ -26,10 +26,10 @@ def star_range_distributed():
             data = json.load(f)
             f.close()
 
-            if data["type"] == 0 or data["type"] == 4:
+            if data["type"] == 3 or data["type"] == 4:
                 continue
                 
-            if data["type"] == 3:
+            if data["type"] == 0:
                 print(file_path)
 
 
