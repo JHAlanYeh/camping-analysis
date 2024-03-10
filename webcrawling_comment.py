@@ -238,17 +238,20 @@ def easycamp_comment_crawler():
     print("disabled data:{}".format(len(list(disabled))))
 
     for d in data:
-        if d["disabled"] == 1 or d["type"] == 4:
+        if d["disabled"] == 1:
             continue
         
         code = d["code"]
 
-        if int(code) < 1981:
-            continue
-
         save_dir = os.path.join(dir_path, "easycamp_comments\\{house_type}".format(house_type=d["type"]))
         os.makedirs(save_dir, exist_ok=True)
         file_name = os.path.join(save_dir, 'comment_{code}.json'.format(code=code))
+
+        if os.path.exists(file_name):
+            continue
+
+        print(file_name)
+        return
 
         comment_objs = []
         web = requests.get(d["url"])
@@ -581,10 +584,11 @@ def klook_comment_tokenization():
         }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
+
 if __name__ == "__main__":
     # asiayo_comment_crawler()
     # asiayo_comment_tokenization()
     easycamp_comment_crawler()
-    easycamp_comment_tokenization()
-    klook_comment_crawler()
-    klook_comment_tokenization()
+    # easycamp_comment_tokenization()
+    # klook_comment_crawler()
+    # klook_comment_tokenization()
