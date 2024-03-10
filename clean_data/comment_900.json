@@ -255,13 +255,7 @@
             "rating": 5,
             "publishedDate": "2018/04/06",
             "tokenization": "地點 | 便利 | 水槽 | 還不錯"
-        },
-        {
-            "content": "服務很好環境優美喔～～",
-            "type": 1,
-            "rating": 5,
-            "publishedDate": "2017/12/31",
-            "tokenization": "服務 | 環境 | 優美 | 喔"
         }
-    ]
+    ],
+    "actual_count": 35
 }
