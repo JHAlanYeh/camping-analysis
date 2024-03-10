@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E9%9B%99%E6%98%A5%E6%BF%B1%E6%B5%B7%E9%81%8A%E6%86%A9%E5%8D%80+(+Vanaheim+%E6%84%9B%E8%8E%8A%E5%9C%92)/@23.3055458,120.1100666,17z/data=!4m9!3m8!1s0x346c2a5477e5521d:0x75797839d6561d87!5m2!4m1!1i2!8m2!3d23.3055458!4d120.1126415!16s%2Fg%2F11b8t5v1z9?authuser=0&entry=ttu",
     "latitude": "23.3056542",
     "longitude": "120.1098843",
-    "type": 0,
+    "type": 3,
     "expect_count": 2359,
     "actual_count": 827,
     "comments": [

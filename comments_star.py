@@ -47,15 +47,15 @@ def star_range_distributed():
                     c["publishedDate"] = c["publishedDate"].split(" ")[0].replace("-", "/")
 
 
-                if "type" not in c or c["type"] == 0:
-                    if data["type"] in [1, 2]:
+                if data["type"] in [1, 2]:
+                    c["type"] = data["type"]
+                else:
+                    if c["type"] not in [1, 2]:
                         c["type"] = data["type"]
-                    else:
-                        c["type"] = 0
 
                 if c["type"] in [1, 2]:
                     star_distributed["{}-{}".format(str(c["type"]), str(c["rating"]))] += 1
-
+ 
 
             data["comments"] = list(filter(lambda x: x["publishedDate"] > '2018/01/01', data["comments"]))
             data["actual_count"] = len(data["comments"])

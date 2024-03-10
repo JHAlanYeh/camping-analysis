@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E7%A7%81%E4%BA%BA%E8%BC%95%E9%AC%86%E6%B8%A1%E5%81%87%EF%BD%9C%E7%A5%95%E9%9C%B232%EF%BD%9C%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84+%7C+%E7%8D%A8%E7%AB%8B%E8%A1%9B%E6%B5%B4+%7C+%E5%8F%AF%E7%83%A4%E8%82%89+%7C+Millu+32+%7C+%E7%A7%81%E6%99%AF%E8%A7%80%E6%87%B6%E4%BA%BA%E9%9C%B2%E7%87%9F+%7C+%E7%A7%81%E5%BA%A6%E5%81%87%E8%B1%AA%E8%8F%AF%E9%9C%B2%E7%87%9F%E5%8D%80/@24.6708127,121.6834216,17z/data=!3m1!4b1!4m9!3m8!1s0x3467e1dc3ff3369f:0x3826da8387ee963!5m2!4m1!1i2!8m2!3d24.6708127!4d121.6859965!16s%2Fg%2F11gyctnbdt?authuser=0&entry=ttu",
     "latitude": "24.6708127",
     "longitude": "121.6834216",
-    "type": 0,
+    "type": 3,
     "expect_count": 472,
     "actual_count": 340,
     "comments": [

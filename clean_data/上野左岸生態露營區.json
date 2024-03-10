@@ -4,14 +4,14 @@
     "google_map": "https://www.google.com/maps/place/%E4%B8%8A%E9%87%8E%E5%B7%A6%E5%B2%B8%E7%94%9F%E6%85%8B%E9%9C%B2%E7%87%9F%E5%8D%80/@23.9370595,120.8440204,17z/data=!3m1!4b1!4m6!3m5!1s0x346927006f6f2d6f:0x92508d9e9621da37!8m2!3d23.9370595!4d120.8465953!16s%2Fg%2F11vqs6x2j0?authuser=0&entry=ttu",
     "latitude": "23.9370595",
     "longitude": "120.8440204",
-    "type": 0,
+    "type": 1,
     "expect_count": 5,
     "actual_count": 1,
     "comments": [
         {
             "content": "環境清幽，廁所漂亮又乾淨，營主待人親切～：）",
             "rating": 5,
-            "type": 0,
+            "type": 1,
             "publishedDate": "2024/03/01",
             "tokenization": "環境 | 清幽 | 廁所 | 漂亮 | 乾淨 | 營主 | 待人 | 親切"
         }
