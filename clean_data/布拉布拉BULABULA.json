@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E5%B8%83%E6%8B%89%E5%B8%83%E6%8B%89BULABULA/@24.5269277,121.8294756,17z/data=!3m1!4b1!4m9!3m8!1s0x3467c3524faa8811:0xe6d346288f2b38f4!5m2!4m1!1i2!8m2!3d24.5269277!4d121.8320505!16s%2Fg%2F11t49m0rgk?authuser=0&entry=ttu",
     "latitude": "24.5269277",
     "longitude": "121.8294756",
-    "type": 0,
+    "type": 3,
     "expect_count": 105,
     "actual_count": 68,
     "comments": [

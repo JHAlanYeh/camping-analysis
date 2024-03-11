@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E5%8D%A1%E6%99%AE%E4%BC%91%E9%96%92%E8%BE%B2%E8%8E%8A(Qapu+Camping+Area)/@24.7942619,121.3903133,17z/data=!3m1!4b1!4m6!3m5!1s0x3468110c6a91a5c9:0xb65e8493cb5ebb02!8m2!3d24.7942619!4d121.3928882!16s%2Fg%2F12hq__m72?authuser=0&entry=ttu",
     "latitude": "24.7942619",
     "longitude": "121.3903133",
-    "type": 0,
+    "type": 3,
     "expect_count": 106,
     "actual_count": 57,
     "comments": [

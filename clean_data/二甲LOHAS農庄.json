@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E4%BA%8C%E7%94%B2LOHAS%E8%BE%B2%E5%BA%84/@23.9589532,120.9985857,17z/data=!3m1!4b1!4m6!3m5!1s0x3468da31fc5ab2f9:0x9190d65efc85b3b7!8m2!3d23.9589532!4d121.0011606!16s%2Fg%2F11b70cjc6p?authuser=0&entry=ttu",
     "latitude": "23.9589532",
     "longitude": "120.9985857",
-    "type": 0,
+    "type": 3,
     "expect_count": 90,
     "actual_count": 38,
     "comments": [

@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E9%81%8A%E6%A9%98%E9%9C%B2%E7%87%9F%E5%8D%80/@24.7265865,121.1598786,17z/data=!3m1!4b1!4m9!3m8!1s0x3468474e2aca5edd:0xe9df54dba094218f!5m2!4m1!1i2!8m2!3d24.7265865!4d121.1624535!16s%2Fg%2F11g8g3l62m?authuser=0&entry=ttu",
     "latitude": "24.7265865",
     "longitude": "121.1598786",
-    "type": 0,
+    "type": 3,
     "expect_count": 536,
     "actual_count": 253,
     "comments": [

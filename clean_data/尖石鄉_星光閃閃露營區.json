@@ -1,10 +1,10 @@
 ﻿{
-    "name": "尖石鄉 星光閃閃露營區",
+    "name": "尖石鄉_星光閃閃露營區",
     "address": "313新竹縣尖石鄉玉峰段682號",
     "google_map": "https://www.google.com/maps/place/%E5%B0%96%E7%9F%B3%E9%84%89+%E6%98%9F%E5%85%89%E9%96%83%E9%96%83%E9%9C%B2%E7%87%9F%E5%8D%80/@24.6632086,121.2835318,17z/data=!3m1!4b1!4m6!3m5!1s0x34686a5e2e433375:0x8582fc6fd231a175!8m2!3d24.6632086!4d121.2861067!16s%2Fg%2F11gf5w732g?authuser=0&entry=ttu",
     "latitude": "24.6632086",
     "longitude": "121.2835318",
-    "type": 0,
+    "type": 3,
     "expect_count": 106,
     "actual_count": 57,
     "comments": [

@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E6%A3%AE%E6%B8%BC%E5%8E%9F+Alive+Glamping+Base/@24.3294064,120.6178533,17z/data=!3m1!4b1!4m9!3m8!1s0x3469111a046194b9:0x6109f441d7d31fae!5m2!4m1!1i2!8m2!3d24.3294064!4d120.6204282!16s%2Fg%2F11r_ddzbvz?authuser=0&entry=ttu",
     "latitude": "24.3294064",
     "longitude": "120.6178533",
-    "type": 0,
+    "type": 3,
     "expect_count": 710,
     "actual_count": 428,
     "comments": [

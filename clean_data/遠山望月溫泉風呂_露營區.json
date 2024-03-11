@@ -1,10 +1,10 @@
 ﻿{
-    "name": "遠山望月溫泉風呂 露營區",
+    "name": "遠山望月溫泉風呂_露營區",
     "address": "844高雄市六龜區花賞溫泉公園",
     "google_map": "https://www.google.com/maps/place/%E9%81%A0%E5%B1%B1%E6%9C%9B%E6%9C%88%E6%BA%AB%E6%B3%89%E9%A2%A8%E5%91%82+%E9%9C%B2%E7%87%9F%E5%8D%80/@23.1068878,120.7005922,17z/data=!3m1!4b1!4m9!3m8!1s0x346e59f6fe864445:0x2fc39cad5a6ba4a1!5m2!4m1!1i2!8m2!3d23.1068878!4d120.7031671!16s%2Fg%2F11jg66yxf2?authuser=0&entry=ttu",
     "latitude": "23.1068878",
     "longitude": "120.7005922",
-    "type": 0,
+    "type": 3,
     "expect_count": 355,
     "actual_count": 236,
     "comments": [

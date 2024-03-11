@@ -4,7 +4,7 @@
     "google_map": "https://www.google.com/maps/place/%E4%BE%9D%E6%98%9F%E7%94%9F%E6%85%8B%E8%BE%B2%E5%A0%B4%EF%BC%8D%E5%8D%97%E6%8A%95+%E9%9C%B2%E7%87%9F%E5%8D%80%EF%BD%9C%E5%85%8D%E6%90%AD%E5%B8%B3%EF%BD%9C%E8%A6%AA%E5%AD%90%E9%9C%B2%E7%87%9F%EF%BD%9C%E6%99%AF%E8%A7%80%E9%9C%B2%E7%87%9F%EF%BD%9C%E6%8E%A8%E8%96%A6%E9%9C%B2%E7%87%9F%E5%A4%9C%E6%99%AF%EF%BD%9C%E9%AB%98%E6%B5%B7%E6%8B%94%E9%9C%B2%E7%87%9F+%E6%8E%A8%E8%96%A6/@23.9606814,120.8319699,17z/data=!4m9!3m8!1s0x346929004ed051ab:0x2bb68c311f1c08ce!5m2!4m1!1i2!8m2!3d23.9606814!4d120.8345448!16s%2Fg%2F11lh6dfdlc?authuser=0&entry=ttu",
     "latitude": "23.9606814",
     "longitude": "120.8319699",
-    "type": 0,
+    "type": 3,
     "expect_count": 395,
     "actual_count": 254,
     "comments": [

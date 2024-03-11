@@ -1,6 +1,7 @@
 
 import os
 import json
+from datetime import datetime
 
 directory = "clean_data"
 
@@ -58,9 +59,11 @@ def star_range_distributed():
  
 
             data["comments"] = list(filter(lambda x: x["publishedDate"] > '2018/01/01', data["comments"]))
+            data["comments"] = sorted(data["comments"], key=lambda x: datetime.strptime(x["publishedDate"], "%Y/%m/%d"), reverse=True)
             data["actual_count"] = len(data["comments"])
 
-            sorted_data = dict(sorted(data.items()))
+
+            # sorted_data = dict(sorted(data.items()))
             with open(file_path, 'w', encoding="utf-8-sig") as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
         print(star_distributed)

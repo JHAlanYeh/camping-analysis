@@ -1,10 +1,10 @@
 ﻿{
-    "name": "南庄慢生活 露營區",
+    "name": "南庄慢生活_露營區",
     "address": "353苗栗縣南庄鄉4鄰72-3號",
     "google_map": "https://www.google.com/maps/place/%E5%8D%97%E5%BA%84%E6%85%A2%E7%94%9F%E6%B4%BB+%E9%9C%B2%E7%87%9F%E5%8D%80/@24.6164995,121.0163402,17z/data=!3m1!4b1!4m6!3m5!1s0x34684e39771837bb:0x704200dd63949f88!8m2!3d24.6164995!4d121.0189151!16s%2Fg%2F11c1qwwnz3?authuser=0&entry=ttu",
     "latitude": "24.6164995",
     "longitude": "121.0163402",
-    "type": 0,
+    "type": 3,
     "expect_count": 293,
     "actual_count": 189,
     "comments": [
