@@ -20,6 +20,8 @@ def json2dataframe():
             if data["type"] != 1 and data["type"] != 2:
                 continue
             for c in data["comments"]:
+                if len(data["comments"]) > 512:
+                    continue
                 if c["type"] == 1:
                     data_1.append(c)
                 elif c["type"] == 2:
@@ -45,7 +47,9 @@ def json2dataframe():
     #define results
     results = [1, 0, -1]
     df1['status'] = np.select(conditions1, results)
+    df1['origin'] = 1
     df2['status'] = np.select(conditions2, results)
+    df2['origin'] = 1
 
     print(df1.head(5))
     print(df2.head(5))
