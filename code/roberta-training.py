@@ -4,23 +4,21 @@ import numpy as np
 from sklearn.utils import shuffle
 import math
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertModel, BertConfig
-from transformers import DataCollatorWithPadding
+from transformers import  BertTokenizer, BertModel, BertConfig, BertForSequenceClassification
+from transformers import AutoTokenizer, AutoConfig, AutoModel
 from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
 
-# https://blog.csdn.net/qq_43426908/article/details/135342646
-
-PRETRAINED_MODEL_NAME = "bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 NUM_LABELS = 3
 random_seed = 1999
+access_token = ""
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
-data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -39,20 +37,23 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class BertClassifier(nn.Module):
+class RobertaClassifier(nn.Module):
     def __init__(self):
-        super(BertClassifier, self).__init__()
+        super(RobertaClassifier, self).__init__()
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.dropout = nn.Dropout(0.5)
-        self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
+        self.linear1 = nn.Linear(self.config.hidden_size,self.config.hidden_size)
+        self.linear2 = nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
 
-    def forward(self, input_id, mask):
-        _, pooled_output = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)
-        dropout_output = self.dropout(pooled_output)
-        linear_output = self.linear(dropout_output)
-        final_layer = self.relu(linear_output)
+    def forward(self, token_ids):
+        pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
+        dropout_output1=self.dropout(pooled_output)
+        linear_output1=self.linear1(dropout_output1) 
+        dropout_output2=self.dropout(linear_output1)
+        linear_output2=self.linear2(dropout_output2) #[batch_size,num_class]
+        final_layer = self.relu(linear_output2)
         return final_layer
 
 def setup_seed(seed):
@@ -69,7 +70,7 @@ def save_model(model, save_name):
 def train_model():
     print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = BertClassifier()
+    model = RobertaClassifier()
     # 定义损失函数和优化器
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
@@ -89,7 +90,7 @@ def train_model():
             input_ids = inputs['input_ids'].squeeze(1).to(device) # torch.Size([32, 35])
             masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
             labels = labels.to(device)
-            output = model(input_ids, masks)
+            output = model(input_ids)
 
             batch_loss = criterion(output, labels)
             batch_loss.backward()
@@ -110,7 +111,7 @@ def train_model():
                 input_ids = inputs['input_ids'].squeeze(1).to(device) # torch.Size([32, 35])
                 masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
                 labels = labels.to(device)
-                output = model(input_ids, masks)
+                output = model(input_ids)
 
                 batch_loss = criterion(output, labels)
                 acc = (output.argmax(dim=1) == labels).sum().item()
@@ -140,7 +141,7 @@ def train_model():
 def evaluate(dataset):
     # dataset = pd.read_csv("../model/gan_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = BertClassifier()
+    model = RobertaClassifier()
     model.load_state_dict(torch.load('../model/gan_type1/best.pt'))
     model = model.to(device)
     model.eval()
@@ -151,7 +152,7 @@ def evaluate(dataset):
             input_id = test_input['input_ids'].squeeze(1).to(device)
             mask = test_input['attention_mask'].to(device)
             test_label = test_label.to(device)
-            output = model(input_id, mask)
+            output = model(input_id)
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
@@ -212,11 +213,13 @@ def prprocess_data():
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
-    # df_train, df_val, df_test = prprocess_data()
+
     
-    df_train = pd.read_csv("../model/gan_type1/BERT_20240404/train_df.csv")
-    df_val = pd.read_csv("../model/gan_type1/BERT_20240404/val_df.csv")
-    df_test = pd.read_csv("../model/gan_type1/BERT_20240404/test_df.csv")
+    # df_train, df_val, df_test = prprocess_data()
+
+    df_train = pd.read_csv("../model/gan_type1/train_df.csv")
+    df_val = pd.read_csv("../model/gan_type1/val_df.csv")
+    df_test = pd.read_csv("../model/gan_type1/test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")

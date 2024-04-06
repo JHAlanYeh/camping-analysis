@@ -5,19 +5,21 @@ from sklearn.utils import shuffle
 import math
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, BertConfig
+from transformers import AutoTokenizer, AutoModel, AutoConfig
 from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
 
+# https://blog.csdn.net/u013230189/article/details/108836511
+
 PRETRAINED_MODEL_NAME = "voidful/albert_chinese_small"  # 指定繁簡中文 BERT-BASE 預訓練模型
 NUM_LABELS = 3
 random_seed = 1999
 
-
 # 取得此預訓練模型所使用的 tokenizer
-tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
+tokenizer = AutoTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -39,19 +41,20 @@ class MyDataset(Dataset):
 class AlbertClassfier(nn.Module):
     def __init__(self):
         super(AlbertClassfier,self).__init__()
-        self.bert_model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.config=BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.dropout=torch.nn.Dropout(0.4)
-        self.fc1=torch.nn.Linear(self.config.hidden_size,self.config.hidden_size)
-        self.fc2=torch.nn.Linear(self.config.hidden_size, NUM_LABELS)
+        self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.config=AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.dropout=nn.Dropout(0.5)
+        self.linear1=nn.Linear(self.config.hidden_size,self.config.hidden_size)
+        self.linear2=nn.Linear(self.config.hidden_size, NUM_LABELS)
+        self.relu = nn.ReLU()
     def forward(self,token_ids):
-        # bert_out=self.bert_model(token_ids)[1] #句向量 [batch_size,hidden_size]
-        bert_out=self.bert_model(token_ids)[1] #句向量 [batch_size,hidden_size]
-        bert_out=self.dropout(bert_out)
-        bert_out=self.fc1(bert_out) 
-        bert_out=self.dropout(bert_out)
-        bert_out=self.fc2(bert_out) #[batch_size,num_class]
-        return bert_out
+        pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
+        dropout_output1=self.dropout(pooled_output)
+        linear_output1=self.linear1(dropout_output1) 
+        dropout_output2=self.dropout(linear_output1)
+        linear_output2=self.linear2(dropout_output2) #[batch_size,num_class]
+        final_layer = self.relu(linear_output2)
+        return final_layer
 
 
 def setup_seed(seed):
@@ -71,8 +74,8 @@ def train_model():
     model = AlbertClassfier()
     # 定义损失函数和优化器
     criterion=torch.nn.CrossEntropyLoss()
-    optimizer=torch.optim.SGD(model.parameters(),lr=0.01,momentum=0.9,weight_decay=1e-4)
-    # optimizer = Adam(model.parameters(), lr=lr)
+    # optimizer=torch.optim.SGD(model.parameters(),lr=0.01,momentum=0.9,weight_decay=1e-4)
+    optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
 
@@ -202,15 +205,12 @@ def prprocess_data():
     # create a new column and use np.select to assign values to it using our lists as arguments
     target_df['label'] = np.select(conditions, values)
     target_df = shuffle(target_df)
-    text = target_df['content'].tolist()
-    labels = target_df['label'].tolist()
-    # print(labels)
 
     np.random.seed(112)
     df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
     print(len(df_train),len(df_val), len(df_test))
 
-    return df_train, df_val, df_test, text, labels
+    return df_train, df_val, df_test
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
@@ -219,14 +219,15 @@ if __name__ == "__main__":
     df_val = pd.read_csv("../model/gan_type1/val_df.csv")
     df_test = pd.read_csv("../model/gan_type1/test_df.csv")
 
+    # df_train, df_val, df_test = prprocess_data()
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
     # 训练超参数
-    epoch = 50
-    batch_size = 256
+    epoch = 10
+    batch_size = 8
     lr = 1e-5
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

@@ -4,23 +4,22 @@ import numpy as np
 from sklearn.utils import shuffle
 import math
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertModel, BertConfig
-from transformers import DataCollatorWithPadding
+from transformers import AutoTokenizer, AutoConfig, AutoModel, BertTokenizer, BertModel, BertConfig
+from transformers import XLNetTokenizer, XLNetModel, XLNetConfig
 from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
 
-# https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "hfl/chinese-xlnet-base"
 NUM_LABELS = 3
 random_seed = 1999
+access_token = ""
 
 # 取得此預訓練模型所使用的 tokenizer
-tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
-data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+tokenizer = XLNetTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -39,11 +38,11 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class BertClassifier(nn.Module):
+class XLNetClassifier(nn.Module):
     def __init__(self):
-        super(BertClassifier, self).__init__()
-        self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+        super(XLNetClassifier, self).__init__()
+        self.model = XLNetModel.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.config = XLNetConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.dropout = nn.Dropout(0.5)
         self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
@@ -54,7 +53,7 @@ class BertClassifier(nn.Module):
         linear_output = self.linear(dropout_output)
         final_layer = self.relu(linear_output)
         return final_layer
-
+        
 def setup_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
@@ -69,7 +68,7 @@ def save_model(model, save_name):
 def train_model():
     print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = BertClassifier()
+    model = XLNetClassifier()
     # 定义损失函数和优化器
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
@@ -138,9 +137,8 @@ def train_model():
 
 
 def evaluate(dataset):
-    # dataset = pd.read_csv("../model/gan_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = BertClassifier()
+    model = XLNetClassifier()
     model.load_state_dict(torch.load('../model/gan_type1/best.pt'))
     model = model.to(device)
     model.eval()
@@ -212,11 +210,13 @@ def prprocess_data():
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
-    # df_train, df_val, df_test = prprocess_data()
+
     
-    df_train = pd.read_csv("../model/gan_type1/BERT_20240404/train_df.csv")
-    df_val = pd.read_csv("../model/gan_type1/BERT_20240404/val_df.csv")
-    df_test = pd.read_csv("../model/gan_type1/BERT_20240404/test_df.csv")
+    # df_train, df_val, df_test = prprocess_data()
+
+    df_train = pd.read_csv("../model/gan_type1/train_df.csv")
+    df_val = pd.read_csv("../model/gan_type1/val_df.csv")
+    df_test = pd.read_csv("../model/gan_type1/test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
