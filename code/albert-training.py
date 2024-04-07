@@ -19,7 +19,7 @@ NUM_LABELS = 3
 random_seed = 1999
 
 # 取得此預訓練模型所使用的 tokenizer
-tokenizer = AutoTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
+tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -73,8 +73,7 @@ def train_model():
     # 定义模型
     model = AlbertClassfier()
     # 定义损失函数和优化器
-    criterion=torch.nn.CrossEntropyLoss()
-    # optimizer=torch.optim.SGD(model.parameters(),lr=0.01,momentum=0.9,weight_decay=1e-4)
+    criterion=nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
