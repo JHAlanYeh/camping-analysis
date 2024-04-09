@@ -5,23 +5,24 @@ from sklearn.utils import shuffle
 import math
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, BertConfig
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import DataCollatorWithPadding
 from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
-import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score
+import matplotlib.pyplot as plt
 
-# https://blog.csdn.net/u013230189/article/details/108836511
+# https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "voidful/albert_chinese_small"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "bert-base-multilingual-cased"  # 指定繁簡中文 BERT-BASE 預訓練模型
 NUM_LABELS = 3
 random_seed = 1999
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
+data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -40,24 +41,21 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class AlbertClassfier(nn.Module):
+class MultilingualBertClassifier(nn.Module):
     def __init__(self):
-        super(AlbertClassfier,self).__init__()
-        self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.config=AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.dropout=nn.Dropout(0.5)
-        self.linear1=nn.Linear(self.config.hidden_size,self.config.hidden_size)
-        self.linear2=nn.Linear(self.config.hidden_size, NUM_LABELS)
+        super(MultilingualBertClassifier, self).__init__()
+        self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.dropout = nn.Dropout(0.5)
+        self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
-    def forward(self,token_ids):
-        pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
-        dropout_output1=self.dropout(pooled_output)
-        linear_output1=self.linear1(dropout_output1) 
-        dropout_output2=self.dropout(linear_output1)
-        linear_output2=self.linear2(dropout_output2) #[batch_size,num_class]
-        final_layer = self.relu(linear_output2)
-        return final_layer
 
+    def forward(self, input_id, mask):
+        _, pooled_output = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)
+        dropout_output = self.dropout(pooled_output)
+        linear_output = self.linear(dropout_output)
+        final_layer = self.relu(linear_output)
+        return final_layer
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -73,9 +71,9 @@ def save_model(model, save_name):
 def train_model():
     print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = AlbertClassfier()
+    model = MultilingualBertClassifier()
     # 定义损失函数和优化器
-    criterion=nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -96,9 +94,9 @@ def train_model():
         total_loss_train = 0
         for inputs, labels in tqdm(train_loader):
             input_ids = inputs['input_ids'].squeeze(1).to(device) # torch.Size([32, 35])
-            # masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
+            masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
             labels = labels.to(device)
-            output = model(input_ids)
+            output = model(input_ids, masks)
 
             batch_loss = criterion(output, labels)
             batch_loss.backward()
@@ -117,9 +115,9 @@ def train_model():
             # 循环获取数据集，并用训练好的模型进行验证
             for inputs, labels in tqdm(dev_loader):
                 input_ids = inputs['input_ids'].squeeze(1).to(device) # torch.Size([32, 35])
-                # masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
+                masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
                 labels = labels.to(device)
-                output = model(input_ids)
+                output = model(input_ids, masks)
 
                 batch_loss = criterion(output, labels)
                 acc = (output.argmax(dim=1) == labels).sum().item()
@@ -157,7 +155,7 @@ def train_model():
 def evaluate(dataset):
     # dataset = pd.read_csv("../model/gan_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = AlbertClassfier()
+    model = MultilingualBertClassifier()
     model.load_state_dict(torch.load('../model/gan_type1/best.pt'))
     model = model.to(device)
     model.eval()
@@ -168,11 +166,10 @@ def evaluate(dataset):
     with torch.no_grad():
         for test_input, test_label in test_loader:
             input_id = test_input['input_ids'].squeeze(1).to(device)
-            # mask = test_input['attention_mask'].to(device)
+            mask = test_input['attention_mask'].to(device)
             test_label = test_label.to(device)
-            output = model(input_id)
-            _, preds = torch.max(output, 1)                            # preds是預測結果
-            
+            output = model(input_id, mask)
+            _, preds = torch.max(output, 1)       
             y_pred.extend(preds.view(-1).detach().cpu().numpy())       # 將preds預測結果detach出來，並轉成numpy格式       
             y_true.extend(test_label.view(-1).detach().cpu().numpy())   
             acc = (output.argmax(dim=1) == test_label).sum().item()
@@ -213,8 +210,6 @@ def prprocess_data():
             clean_df = pd.concat([clean_df, df[df["rating"] == i + 1].sample(n=min_num)])
         
 
-    print(len(clean_df))   
-
     target_df = clean_df[["content", "status", "type"]]
 
 
@@ -231,6 +226,7 @@ def prprocess_data():
     # create a new column and use np.select to assign values to it using our lists as arguments
     target_df['label'] = np.select(conditions, values)
     target_df = shuffle(target_df)
+    # print(labels)
 
     np.random.seed(112)
     df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
@@ -242,34 +238,38 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
     plt.plot(loss_list, label = 'train loss')
     plt.plot(loss_val_list, label = 'val loss')
-    plt.title('ALBERT Training and validation loss')
+    plt.title('Multilingual BERT Training and validation loss')
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("../model/gan_type1/albert_loss.jpg")
+    plt.savefig("../model/gan_type1/multilingual_bert_loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
     plt.plot(accuracy_list, label = 'train acc')
     plt.plot(accuracy_val_list, label = 'val acc')
-    plt.title('ALBERT Training and validation acc')
+    plt.title('Multilingual BERT Training and validation acc')
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("../model/gan_type1/albert_acc.jpg")
+    plt.savefig("../model/gan_type1/multilingual_bert_acc.jpg")
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
+    # df_train, df_val, df_test = prprocess_data()
 
     df_train = pd.read_csv("../model/gan_type1/train_df.csv")
     df_val = pd.read_csv("../model/gan_type1/val_df.csv")
     df_test = pd.read_csv("../model/gan_type1/test_df.csv")
 
-    # df_train, df_val, df_test = prprocess_data()
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
+
+    # pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/train_df.csv")
+    # pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/val_df.csv")
+    # pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/test_df.csv")
 
     # 训练超参数
     epoch = 10

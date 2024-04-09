@@ -11,6 +11,7 @@ from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score
 
 
 PRETRAINED_MODEL_NAME = "hfl/chinese-xlnet-base"
@@ -144,15 +145,26 @@ def evaluate(dataset):
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
     total_acc_test = 0
+    y_pred = []   #保存預測label
+    y_true = []   #保存實際label
     with torch.no_grad():
         for test_input, test_label in test_loader:
             input_id = test_input['input_ids'].squeeze(1).to(device)
             mask = test_input['attention_mask'].to(device)
             test_label = test_label.to(device)
             output = model(input_id, mask)
+            _, preds = torch.max(output, 1)       
+            y_pred.extend(preds.view(-1).detach().cpu().numpy())       # 將preds預測結果detach出來，並轉成numpy格式       
+            y_true.extend(test_label.view(-1).detach().cpu().numpy())   
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
+    cf_matrix = confusion_matrix(y_true, y_pred)       
+    print(cf_matrix)  
+    print("scikit-learn precision:", precision_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn f1 score:", f1_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn recall score:", recall_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
 
 def prprocess_data():
     min_num = 999999
@@ -182,8 +194,6 @@ def prprocess_data():
             clean_df = pd.concat([clean_df, df[df["rating"] == i + 1].sample(n=min_num)])
         
 
-    print(len(clean_df))   
-
     target_df = clean_df[["content", "status", "type"]]
 
 
@@ -204,7 +214,6 @@ def prprocess_data():
 
     np.random.seed(112)
     df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
-    print(len(df_train),len(df_val), len(df_test))
 
     return df_train, df_val, df_test
 

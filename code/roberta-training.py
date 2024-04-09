@@ -11,6 +11,8 @@ from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score
+import matplotlib.pyplot as plt
 
 PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 NUM_LABELS = 3
@@ -83,6 +85,11 @@ def train_model():
 
     # 训练
     best_dev_acc = 0
+    
+    loss_list = []
+    accuracy_list = []
+    loss_val_list = []
+    accuracy_val_list = []
     for epoch_num in range(epoch):
         total_acc_train = 0
         total_loss_train = 0
@@ -124,6 +131,11 @@ def train_model():
             | Val Loss: {total_loss_val / len(dev_dataset): .3f}
             | Val Accuracy: {total_acc_val / len(dev_dataset): .3f}''')
 
+            loss_list.append(total_loss_train / len(train_dataset))
+            accuracy_list.append(100 * total_acc_train / len(train_dataset))
+            loss_val_list.append(total_loss_val / len(dev_dataset))
+            accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
+
             # 保存最优的模型
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
@@ -134,12 +146,14 @@ def train_model():
     # 保存最后的模型，以便继续训练
     save_model(model, 'last.pt')
     # todo 保存优化器
+    
+    draw_acc_image(accuracy_list, accuracy_val_list)
+    draw_loss_image(loss_list, loss_val_list)
 
     print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 
 def evaluate(dataset):
-    # dataset = pd.read_csv("../model/gan_type1/test_df.csv").to_numpy()
     # 加载模型
     model = RobertaClassifier()
     model.load_state_dict(torch.load('../model/gan_type1/best.pt'))
@@ -147,15 +161,26 @@ def evaluate(dataset):
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
     total_acc_test = 0
+    y_pred = []   #保存預測label
+    y_true = []   #保存實際label
     with torch.no_grad():
         for test_input, test_label in test_loader:
             input_id = test_input['input_ids'].squeeze(1).to(device)
             mask = test_input['attention_mask'].to(device)
             test_label = test_label.to(device)
             output = model(input_id)
+            _, preds = torch.max(output, 1)       
+            y_pred.extend(preds.view(-1).detach().cpu().numpy())       # 將preds預測結果detach出來，並轉成numpy格式       
+            y_true.extend(test_label.view(-1).detach().cpu().numpy())   
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
+    cf_matrix = confusion_matrix(y_true, y_pred)       
+    print(cf_matrix)  
+    print("scikit-learn precision:", precision_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn f1 score:", f1_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn recall score:", recall_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
 
 def prprocess_data():
     min_num = 999999
@@ -185,8 +210,6 @@ def prprocess_data():
             clean_df = pd.concat([clean_df, df[df["rating"] == i + 1].sample(n=min_num)])
         
 
-    print(len(clean_df))   
-
     target_df = clean_df[["content", "status", "type"]]
 
 
@@ -210,6 +233,26 @@ def prprocess_data():
     print(len(df_train),len(df_val), len(df_test))
 
     return df_train, df_val, df_test
+
+def draw_loss_image(loss_list, loss_val_list):
+    plt.figure()
+    plt.plot(loss_list, label = 'train loss')
+    plt.plot(loss_val_list, label = 'val loss')
+    plt.title('RoBERTa Training and validation loss')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoches')
+    plt.legend()
+    plt.savefig("../model/gan_type1/roberta_loss.jpg")
+
+def draw_acc_image(accuracy_list, accuracy_val_list):
+    plt.figure()
+    plt.plot(accuracy_list, label = 'train acc')
+    plt.plot(accuracy_val_list, label = 'val acc')
+    plt.title('RoBERTa Training and validation acc')
+    plt.ylabel('Accuracy')
+    plt.xlabel('Epoches')
+    plt.legend()
+    plt.savefig("../model/gan_type1/roberta_acc.jpg")
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
