@@ -217,7 +217,7 @@ def prprocess_data():
     conditions = [
         target_df['status'] == -1,
         target_df['status'] == 0,
-        target_df['status'] == 1,
+        target_df['status'] == 1, 
     ]
 
     # create a list of the values we want to assign for each condition
