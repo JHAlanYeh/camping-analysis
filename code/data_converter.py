@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-directory = "clean_data"
+directory = "../clean_data"
 
 def json2dataframe():
     data_1 = []
@@ -26,7 +26,7 @@ def json2dataframe():
                     data_1.append(c)
                 elif c["type"] == 2:
                     data_2.append(c)
-
+    
     df1 = pd.json_normalize(data_1)
     df2 = pd.json_normalize(data_2)
 
@@ -54,8 +54,8 @@ def json2dataframe():
     print(df1.head(5))
     print(df2.head(5))
 
-    df1.to_csv("docs//type1_{}.csv".format(datetime.now().strftime("%Y%m%d%H%M")), encoding="utf-8-sig")
-    df2.to_csv("docs//type2_{}.csv".format(datetime.now().strftime("%Y%m%d%H%M")), encoding="utf-8-sig")
+    df1.to_csv("..//docs//type1_{}.csv".format(datetime.now().strftime("%Y%m%d%H%M")), encoding="utf-8-sig", index=False)
+    df2.to_csv("..//docs//type2_{}.csv".format(datetime.now().strftime("%Y%m%d%H%M")), encoding="utf-8-sig", index=False)
 
 
 if __name__ == "__main__":
