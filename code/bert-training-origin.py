@@ -256,12 +256,12 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
-    df_train, df_val, df_test = prprocess_data()
+    # df_train, df_val, df_test = prprocess_data()
     
 
-    # df_train = pd.read_csv("../model/origin_type1/train_df.csv")
-    # df_val = pd.read_csv("../model/origin_type1/val_df.csv")
-    # df_test = pd.read_csv("../model/origin_type1/test_df.csv")
+    df_train = pd.read_csv("../model/origin_type1/train_df.csv")
+    df_val = pd.read_csv("../model/origin_type1/val_df.csv")
+    df_test = pd.read_csv("../model/origin_type1/test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
@@ -276,7 +276,7 @@ if __name__ == "__main__":
     epoch = 10
     batch_size = 8
     lr = 1e-5
-    # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    # train_model()
-    # evaluate(test_dataset)
+    train_model()
+    evaluate(test_dataset)

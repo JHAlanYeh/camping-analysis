@@ -16,8 +16,7 @@ import matplotlib.pyplot as plt
 
 PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 NUM_LABELS = 3
-random_seed = 1999
-access_token = ""
+random_seed = 142
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
@@ -44,18 +43,15 @@ class RobertaClassifier(nn.Module):
         super(RobertaClassifier, self).__init__()
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.dropout = nn.Dropout(0.5)
-        self.linear1 = nn.Linear(self.config.hidden_size,self.config.hidden_size)
-        self.linear2 = nn.Linear(self.config.hidden_size, NUM_LABELS)
+        self.dropout=nn.Dropout(0.5)
+        self.linear=nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
 
     def forward(self, token_ids):
         pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
-        dropout_output1=self.dropout(pooled_output)
-        linear_output1=self.linear1(dropout_output1) 
-        dropout_output2=self.dropout(linear_output1)
-        linear_output2=self.linear2(dropout_output2) #[batch_size,num_class]
-        final_layer = self.relu(linear_output2)
+        dropout_output=self.dropout(pooled_output)
+        linear_output=self.linear(dropout_output)  #[batch_size,num_class]
+        final_layer = self.relu(linear_output)
         return final_layer
 
 def setup_seed(seed):
@@ -70,7 +66,8 @@ def save_model(model, save_name):
     torch.save(model.state_dict(), f'../model/gan_type1/{save_name}')
 
 def train_model():
-    print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    start_time = datetime.now()
+    print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
     model = RobertaClassifier()
     # 定义损失函数和优化器
@@ -150,7 +147,11 @@ def train_model():
     draw_acc_image(accuracy_list, accuracy_val_list)
     draw_loss_image(loss_list, loss_val_list)
 
-    print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    end_time = datetime.now()
+    print(end_time.strftime("%Y-%m-%d %H:%M:%S"))
+
+    total_time = end_time - start_time
+    print(f"Total time:{total_time}")
 
 
 def evaluate(dataset):
@@ -182,57 +183,6 @@ def evaluate(dataset):
     print("scikit-learn recall score:", recall_score(y_true, y_pred, average="weighted"))
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
 
-def prprocess_data():
-    min_num = 999999
-    df1 = pd.read_csv("../docs/gan/type1_gan_merge.csv", encoding="utf_8_sig")
-
-    df = df1[df1["content"].str.len() < 510]
-
-    for i in range(5):
-        if i + 1 != 3:
-            if min_num > len(df[df["rating"] == i + 1]):
-                min_num = len(df[df["rating"] == i + 1])
-        else:
-            if min_num > len(df[df["rating"] == i + 1]):
-                min_num = math.floor(len(df[df["rating"] == i + 1]) / 2)
-
-    clean_df = pd.DataFrame()
-    for i in range(5):
-        if i + 1 <= 2:
-            if len(df[(df["rating"] == i + 1) & (df["origin"] == 1)]) < min_num:
-                clean_df = pd.concat([clean_df, df[(df["rating"] == i + 1) & (df["origin"] == 1)]])
-                clean_df = pd.concat([clean_df, df[(df["rating"] == i + 1) & (df["origin"] == 0)].sample(n=min_num-len(df[(df["rating"] == i + 1) & (df["origin"] == 1)]))])
-            else:
-                clean_df = pd.concat([clean_df, df[(df["rating"] == i + 1) & (df["origin"] == 1)].sample(n=min_num)])
-        elif i + 1 == 3:
-            clean_df = pd.concat([clean_df, df[df["rating"] == i + 1].sample(n=min_num * 2)])
-        else:
-            clean_df = pd.concat([clean_df, df[df["rating"] == i + 1].sample(n=min_num)])
-        
-
-    target_df = clean_df[["content", "status", "type"]]
-
-
-    # create a list of our conditions
-    conditions = [
-        target_df['status'] == -1,
-        target_df['status'] == 0,
-        target_df['status'] == 1,
-    ]
-
-    # create a list of the values we want to assign for each condition
-    values = [0, 1, 2]
-
-    # create a new column and use np.select to assign values to it using our lists as arguments
-    target_df['label'] = np.select(conditions, values)
-    target_df = shuffle(target_df)
-    # print(labels)
-
-    np.random.seed(112)
-    df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
-    print(len(df_train),len(df_val), len(df_test))
-
-    return df_train, df_val, df_test
 
 def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
@@ -256,27 +206,30 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
-
+    setup_seed(random_seed)
     
-    # df_train, df_val, df_test = prprocess_data()
-
     df_train = pd.read_csv("../model/gan_type1/train_df.csv")
     df_val = pd.read_csv("../model/gan_type1/val_df.csv")
     df_test = pd.read_csv("../model/gan_type1/test_df.csv")
+
+    df_train = shuffle(df_train)
+    df_val = shuffle(df_val)
+    df_test = shuffle(df_test)
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
-    # pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/train_df.csv")
-    # pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/val_df.csv")
-    # pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/test_df.csv")
+    print(len(df_train), len(dev_dataset), len(test_dataset))
+
+    print("RoBERTa BERT")
+    print("=====================================")
 
     # 训练超参数
     epoch = 10
-    batch_size = 8
-    lr = 1e-5
+    batch_size = 16
+    lr = 2e-5
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     train_model()
