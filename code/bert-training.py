@@ -137,6 +137,7 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
+            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
@@ -187,7 +188,7 @@ def evaluate(dataset):
     print("scikit-learn recall score:", recall_score(y_true, y_pred, average="weighted"))
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
 
-def prprocess_data():
+def preprocess_data():
     min_num = 999999
     df1 = pd.read_csv("../docs/gan/type1_gan_merge.csv", encoding="utf_8_sig")
 
@@ -264,7 +265,7 @@ if __name__ == "__main__":
     setup_seed(random_seed)
 
 
-    df_train, df_val, df_test = prprocess_data()
+    df_train, df_val, df_test = preprocess_data()
     
 
     df_train = pd.read_csv("../model/gan_type1/train_df.csv")

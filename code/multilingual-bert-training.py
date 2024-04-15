@@ -22,7 +22,6 @@ random_seed = 82
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
-data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -138,6 +137,7 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
+            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')

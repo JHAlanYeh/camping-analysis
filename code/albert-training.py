@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.utils import shuffle
 import math
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertModel, BertConfig
+from transformers import BertTokenizer, BertModel, BertConfig, BertTokenizerFast 
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 from torch import nn
 from torch.optim import Adam
@@ -16,7 +16,10 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 
 # https://blog.csdn.net/u013230189/article/details/108836511
 
-PRETRAINED_MODEL_NAME = "voidful/albert_chinese_small"  # 指定繁簡中文 BERT-BASE 預訓練模型
+# PRETRAINED_MODEL_NAME = "voidful/albert_chinese_small"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
+# https://huggingface.co/ckiplab/albert-base-chinese
+# PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese"
 NUM_LABELS = 3
 random_seed = 112
 
@@ -44,9 +47,9 @@ class AlbertClassfier(nn.Module):
     def __init__(self):
         super(AlbertClassfier,self).__init__()
         self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.config=AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.dropout=nn.Dropout(0.5)
-        self.linear=nn.Linear(self.config.hidden_size, NUM_LABELS)
+        self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.dropout = nn.Dropout(0.5)
+        self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
     def forward(self,token_ids):
         pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
@@ -136,6 +139,7 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
+            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}") 
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')

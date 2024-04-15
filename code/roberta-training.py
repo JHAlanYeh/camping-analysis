@@ -47,8 +47,8 @@ class RobertaClassifier(nn.Module):
         self.linear=nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
 
-    def forward(self, token_ids):
-        pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
+    def forward(self, token_ids, mask):
+        pooled_output=self.model(token_ids, attention_mask=mask)[1] #句向量 [batch_size,hidden_size]
         dropout_output=self.dropout(pooled_output)
         linear_output=self.linear(dropout_output)  #[batch_size,num_class]
         final_layer = self.relu(linear_output)
@@ -94,7 +94,7 @@ def train_model():
             input_ids = inputs['input_ids'].squeeze(1).to(device) # torch.Size([32, 35])
             masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
             labels = labels.to(device)
-            output = model(input_ids)
+            output = model(input_ids, masks)
 
             batch_loss = criterion(output, labels)
             batch_loss.backward()
@@ -115,7 +115,7 @@ def train_model():
                 input_ids = inputs['input_ids'].squeeze(1).to(device) # torch.Size([32, 35])
                 masks = inputs['attention_mask'].to(device) # torch.Size([32, 1, 35])
                 labels = labels.to(device)
-                output = model(input_ids)
+                output = model(input_ids, masks)
 
                 batch_loss = criterion(output, labels)
                 acc = (output.argmax(dim=1) == labels).sum().item()
@@ -134,6 +134,7 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
+            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
@@ -169,7 +170,7 @@ def evaluate(dataset):
             input_id = test_input['input_ids'].squeeze(1).to(device)
             mask = test_input['attention_mask'].to(device)
             test_label = test_label.to(device)
-            output = model(input_id)
+            output = model(input_id, mask)
             _, preds = torch.max(output, 1)       
             y_pred.extend(preds.view(-1).detach().cpu().numpy())       # 將preds預測結果detach出來，並轉成numpy格式       
             y_true.extend(test_label.view(-1).detach().cpu().numpy())   
@@ -223,7 +224,7 @@ if __name__ == "__main__":
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
-    print("RoBERTa BERT")
+    print("RoBERTa")
     print("=====================================")
 
     # 训练超参数
