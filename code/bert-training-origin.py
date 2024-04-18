@@ -189,7 +189,7 @@ def evaluate(dataset):
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
 
 def preprocess_data():
-    df1 = pd.read_csv("../docs/origin/type_origin.csv", encoding="utf_8_sig")
+    df1 = pd.read_csv("../docs/origin/type2_origin.csv", encoding="utf_8_sig")
 
     df = df1[df1["content"].str.len() < 510]
     target_df = df[["content", "status", "type"]]
