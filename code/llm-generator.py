@@ -6,15 +6,8 @@ from opencc import OpenCC
 
 OPENAI_API_KEY="sk-proj-nIPB3DWthajrswj4YG5kT3BlbkFJ0CuuXYlB2UkO967o0bSA"
 cn2zh = OpenCC('s2twp')
-df = pd.read_csv("../docs/origin/type_origin.csv")
+df = pd.read_csv("../docs/origin/type2_origin.csv")
 gan_data = []
-
-
-
-
-# response = cn2zh.convert("新營區，強烈建議包場，因為場地不大。熱水很棒，但蓮蓬頭的角度稍微有點微妙。包場靠近廁所的位置草皮很不錯，可惜我們沒有享受到，因為訂了比較邊緣的位置。規劃還不夠成熟，明顯還在建造，我們的位置比較偏僻，草皮還在長，垃圾桶也不明顯，需要自己搬空籃子，洗手台也在邊緣，沒有廚餘桶，得使用其他區的，但裡面都是垃圾！電源也很特別，要每四小時去按一次充電柱，幸好不是夏天，不然應該會很熱。我們正好碰上隔壁民宿辦趴，整個山谷都是歌聲，一直唱到深夜，然後還有重機在山谷飆車，早上又有狗吠雞叫，是相當特別的體驗。老闆非常熱情且客氣，會教如何炒咖啡豆，分享附近景點，還有賞星空。")
-# print(response)
-
 
 client = OpenAI(
   api_key=OPENAI_API_KEY,
@@ -65,7 +58,7 @@ for index, row in df.iterrows():
 
     gan_df = pd.json_normalize(gan_data)
     merge_df = pd.concat([df, gan_df])
-    gan_df.to_csv('../docs/llmgan/gan_df.csv', index=False, encoding="utf-8-sig")
-    merge_df.to_csv('../docs/llmgan/llm_gan_merge.csv', index=False, encoding="utf-8-sig")
+    gan_df.to_csv('../docs/llmgan/type2_gan_df.csv', index=False, encoding="utf-8-sig")
+    merge_df.to_csv('../docs/llmgan/type2_llm_gan_merge.csv', index=False, encoding="utf-8-sig")
 
     print("====================================")
