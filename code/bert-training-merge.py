@@ -47,14 +47,17 @@ class BertClassifier(nn.Module):
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.dropout = nn.Dropout(0.5)
-        self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
+        self.linear1 = nn.Linear(self.config.hidden_size, self.config.hidden_size)
+        self.linear2 = nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
 
     def forward(self, input_id, mask):
         _, pooled_output = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)
-        dropout_output = self.dropout(pooled_output)
-        linear_output = self.linear(dropout_output)
-        final_layer = self.relu(linear_output)
+        dropout_output1 = self.dropout(pooled_output)
+        linear_output1 = self.linear1(dropout_output1)
+        dropout_output2 = self.dropout(linear_output1)
+        linear_output2 = self.linear2(dropout_output2)
+        final_layer = self.relu(linear_output2)
         return final_layer
 
 def setup_seed(seed):
@@ -270,12 +273,12 @@ if __name__ == "__main__":
     setup_seed(random_seed)
 
 
-    # df_train, df_val, df_test = preprocess_data()
+    df_train, df_val, df_test = preprocess_data()
     
 
-    df_train = pd.read_csv("../model/gan_type1/train_df.csv", encoding='utf-8-sig')
-    df_val = pd.read_csv("../model/gan_type1/val_df.csv", encoding='utf-8-sig')
-    df_test = pd.read_csv("../model/gan_type1/test_df.csv", encoding='utf-8-sig')
+    # df_train = pd.read_csv("../model/gan_type1/train_df.csv", encoding='utf-8-sig')
+    # df_val = pd.read_csv("../model/gan_type1/val_df.csv", encoding='utf-8-sig')
+    # df_test = pd.read_csv("../model/gan_type1/test_df.csv", encoding='utf-8-sig')
 
     df_train = shuffle(df_train)
     df_val = shuffle(df_val)
@@ -286,9 +289,9 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
-    # pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/train_df.csv", index=False, encoding='utf-8-sig')
-    # pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/val_df.csv", index=False, encoding='utf-8-sig')
-    # pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/test_df.csv", index=False, encoding='utf-8-sig')
+    pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/train_df.csv", index=False, encoding='utf-8-sig')
+    pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/val_df.csv", index=False, encoding='utf-8-sig')
+    pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("../model/gan_type1/test_df.csv", index=False, encoding='utf-8-sig')
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
