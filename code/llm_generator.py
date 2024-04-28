@@ -2,6 +2,8 @@ from openai import OpenAI
 import pandas as pd
 import re
 from opencc import OpenCC
+import numpy as np
+from sklearn.utils import shuffle
 
 OPENAI_API_KEY="sk-proj-kSrjk2DSkQsvNBbGzzKeT3BlbkFJ6oBEEjuKHXj7W1LPFyju"
 cn2zh = OpenCC('s2twp')
@@ -75,3 +77,10 @@ for index, row in df.iterrows():
     merge_df.to_csv('../docs/llmgan/type2_llm_gan_merge.csv', index=False, encoding="utf-8-sig")
 
     print("====================================")
+
+
+# type2_df = pd.read_csv('../docs/llmgan/type2_llm_gan_merge.csv')
+# type1_df = pd.read_csv('../docs/llmgan/type1_llm_gan_merge.csv')
+
+# merge_df = pd.concat([type1_df, type2_df])
+# merge_df = shuffle(merge_df).reset_index(drop=True) 
