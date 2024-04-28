@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
 PRETRAINED_MODEL_NAME = "bert-base-multilingual-cased"  # 指定繁簡中文 BERT-BASE 預訓練模型
-NUM_LABELS = 6
+NUM_LABELS = 3
 random_seed = 82
 
 # 取得此預訓練模型所使用的 tokenizer

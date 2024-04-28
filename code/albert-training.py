@@ -20,8 +20,9 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
 # https://huggingface.co/ckiplab/albert-base-chinese
 # PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese"
-NUM_LABELS = 6
+NUM_LABELS = 3
 random_seed = 112
+# random_seed = 72
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)

@@ -193,7 +193,7 @@ def evaluate(dataset):
 
 def preprocess_data():
     min_num = 999999
-    df1 = pd.read_csv("../docs/gan/all_gan_merge.csv", encoding="utf_8_sig")
+    df1 = pd.read_csv("../docs/llmgan/all_llm_gan_merge.csv", encoding="utf_8_sig")
 
     df = df1[df1["content"].str.len() < 510]
 

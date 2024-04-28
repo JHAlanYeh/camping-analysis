@@ -15,7 +15,7 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 import matplotlib.pyplot as plt
 
 PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
-NUM_LABELS = 6
+NUM_LABELS = 3
 random_seed = 142
 
 # 取得此預訓練模型所使用的 tokenizer
