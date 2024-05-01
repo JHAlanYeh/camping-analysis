@@ -1,33 +1,22 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
-model_id = "shenzhi-wang/Llama3-8B-Chinese-Chat"
+from llama_cpp import Llama
 
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(
-    model_id, torch_dtype="auto", device_map="auto"
+model_id = "../taide_Llama3_TAIDE_LX_8B_Chat_Alpha1_4bit/taide-8b-a.3-q4_k_m.gguf"
+
+llm = Llama(
+  model_path=model_id,  # path to GGUF file
+  n_ctx=4096,  # The max sequence length to use - note that longer sequence lengths require much more resources
+  n_threads=8, # The number of CPU threads to use, tailor to your system and the resulting performance
+  n_gpu_layers=35, # The number of layers to offload to GPU, if you have GPU acceleration available. Set to 0 if no GPU acceleration is available on your system.
 )
 
-torch.save(model.state_dict(), "Llama3_8B_Chinese.pt")
+prompt = "How to explain Internet to a medieval knight?"
 
-messages = [
-    {
-        "role": "system",
-        "content": "請幫我做資料增生",
-    },
-    {"role": "user", "content": "草地很棒, 浴室乾淨水壓夠! 營主熱情又熱心, 還會安排採咖啡豆活動讓小朋友玩! 會再訪的營區!\n\n 以上評論請使用繁體中文來換句話說，盡量表達出句中所提到每一個重點，照著這個規則請列出類似的評論"},
-]
-
-input_ids = tokenizer.apply_chat_template(
-    messages, add_generation_prompt=True, return_tensors="pt"
-).to(model.device)
-
-outputs = model.generate(
-    input_ids,
-    max_new_tokens=8196,
-    do_sample=True,
-    temperature=0.6,
-    top_p=0.9,
+# Simple inference example
+output = llm(
+  f"<|user|>\n{prompt}<|end|>\n<|assistant|>",
+  max_tokens=256,  # Generate up to 256 tokens
+  stop=["<|end|>"], 
+  echo=True,  # Whether to echo the prompt
 )
-response = outputs[0][input_ids.shape[-1]:]
-print(response)
-print(tokenizer.decode(response, skip_special_tokens=True))
+
+print(output['choices'][0]['text'])
