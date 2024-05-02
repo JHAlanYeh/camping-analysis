@@ -17,11 +17,11 @@ import torch
 TOKEN = "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"
 login(TOKEN)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model_id = "../taide_Llama3_TAIDE_LX_8B_Chat_Alpha1_4bit/taide-8b-a.3-q4_k_m.gguf"
-tokenizer = AutoTokenizer.from_pretrained(model_id, local_files_only=True)
-# model = AutoModelForCausalLM.from_pretrained(
-#     model_id, torch_dtype="auto", device_map="auto", token=TOKEN
-# )
+model_id = "./Llama3-TAIDE-LX-8B-Chat-Alpha1"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(
+    model_id, torch_dtype="auto", device_map="auto"
+)
 
 flag = False
 cn2zh = OpenCC('s2twp')
@@ -58,20 +58,20 @@ for index, row in df.iterrows():
                 "content": f"{clean_content} \n\n  以上露營評論請使用繁體中文來換句話說，照著這個規則請生成評論"},
         ]
         
-        response  = tokenizer.apply_chat_template(
+        input_ids = tokenizer.apply_chat_template(
             messages, add_generation_prompt=True, return_tensors="pt"
-        )
+        ).to(model.device)
 
-        # outputs = model.generate(
-        #     input_ids,
-        #     max_new_tokens=8196,
-        #     do_sample=True,
-        #     temperature=0.6,
-        #     top_p=0.9,
-        # )
-        # embeddings = outputs[0][input_ids.shape[-1]:]
-        # response = tokenizer.decode(embeddings, skip_special_tokens=True)
-        print(response)
+        outputs = model.generate(
+            input_ids,
+            max_new_tokens=8196,
+            do_sample=True,
+            temperature=0.6,
+            top_p=0.9,
+        )
+        embeddings = outputs[0][input_ids.shape[-1]:]
+        response = tokenizer.decode(embeddings, skip_special_tokens=True)
+
         response = cn2zh.convert(response)
         if response not in temp_data and response != clean_content:
             print(f"{len(temp_data) + 1}. {response}")

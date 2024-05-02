@@ -22,7 +22,7 @@ model = AutoModelForCausalLM.from_pretrained(
 flag = False
 cn2zh = OpenCC('s2twp')
 df = pd.read_csv("../docs/origin/type1_origin.csv", encoding="utf-8-sig")
-gan_df = pd.read_csv('../docs/llama3gan/type1_gan_df_14.csv')
+gan_df = pd.read_csv('../docs/llama3gan/type1_gan_df_15.csv')
 
 gan_data = []
 for index, row in list(gan_df.iterrows()):
@@ -39,7 +39,7 @@ for index, row in df.iterrows():
         continue
 
     clean_content = re.sub(p,'', row["content"])
-    if not clean_content.startswith("優點草坪很大，離溪水很近，") and flag == False:
+    if not clean_content.startswith("晚上跳電請營主出來處理營主的兒子拿") and flag == False:
         continue
    
 
