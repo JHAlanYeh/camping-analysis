@@ -21,13 +21,13 @@ model = AutoModelForCausalLM.from_pretrained(
 
 flag = False
 cn2zh = OpenCC('s2twp')
-df = pd.read_csv("../docs/origin/type1_origin.csv", encoding="utf-8-sig")
-gan_df = pd.read_csv('../docs/llama3gan/type1_gan_df_15.csv')
+df = pd.read_csv("../docs/origin/type2_origin.csv", encoding="utf-8-sig")
+# gan_df = pd.read_csv('../docs/llama3gan/type2_gan_df_1.csv')
 
 gan_data = []
-for index, row in list(gan_df.iterrows()):
-    gan_data.append(dict(row))
-print(len(gan_data))
+# for index, row in list(gan_df.iterrows()):
+#     gan_data.append(dict(row))
+# print(len(gan_data))
 
 p = re.compile(u'['u'\U0001F300-\U0001F64F' u'\U0001F680-\U0001F6FF' u'\u2600-\u2B55 \U00010000-\U0010ffff]+')
 
@@ -39,8 +39,8 @@ for index, row in df.iterrows():
         continue
 
     clean_content = re.sub(p,'', row["content"])
-    if not clean_content.startswith("晚上跳電請營主出來處理營主的兒子拿") and flag == False:
-        continue
+    # if not clean_content.startswith("晚上跳電請營主出來處理營主的兒子拿") and flag == False:
+    #     continue
    
 
     print("====================================")
@@ -90,5 +90,5 @@ for index, row in df.iterrows():
     flag = True
     gan_df = pd.json_normalize(gan_data)
     merge_df = pd.concat([df, gan_df])
-    gan_df.to_csv('../docs/llama3gan/type1_gan_df.csv', index=False, encoding="utf-8-sig")
-    merge_df.to_csv('../docs/llama3gan/type1_llm_gan_merge.csv', index=False, encoding="utf-8-sig")
+    gan_df.to_csv('../docs/llama3gan/type2_gan_df.csv', index=False, encoding="utf-8-sig")
+    merge_df.to_csv('../docs/llama3gan/type2_llm_gan_merge.csv', index=False, encoding="utf-8-sig")
