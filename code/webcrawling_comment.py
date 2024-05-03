@@ -6,23 +6,23 @@ import math
 from bs4 import BeautifulSoup
 import random
 
-jieba.load_userdict('custom_dict.txt')
+# jieba.load_userdict('custom_dict.txt')
 # jieba.set_dictionary('dict.txt.big')
 
 
-f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
-STOP_WORDS = []
-lines = f.readlines()
-for line in lines:
-    STOP_WORDS.append(line.rstrip('\n'))
+# f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
+# STOP_WORDS = []
+# lines = f.readlines()
+# for line in lines:
+#     STOP_WORDS.append(line.rstrip('\n'))
 
-f = open('stopwords.txt', encoding="utf-8")
-lines = f.readlines()
-for line in lines:
-    STOP_WORDS.append(line.rstrip('\n'))
+# f = open('stopwords.txt', encoding="utf-8")
+# lines = f.readlines()
+# for line in lines:
+#     STOP_WORDS.append(line.rstrip('\n'))
 
 def asiayo_comment_crawler():
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "new_data")
     save_path = os.path.join(dir_path, "camping_region")
     file = "camping_asiayo.json"
     total_type_1_count = 0
@@ -34,7 +34,7 @@ def asiayo_comment_crawler():
     data = json.load(f)
     f.close()
 
-    conform_data = filter(lambda x: x["disabled"] == 0 and ( x["type"] == 1 or  x["type"] == 2), data)
+    conform_data = filter(lambda x: x["disabled"] == 0 and (x["type"] == 1 or  x["type"] == 2), data)
     conform_type_1_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 1, data)
     conform_type_2_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 2, data)
     conform_type_3_data = filter(lambda x: x["disabled"] == 0 and x["type"] == 3, data)
@@ -98,18 +98,19 @@ def asiayo_comment_crawler():
                     if d["type"] != 1 and d["type"] != 2:
                         comment_type = 0
 
-                    ws = jieba.lcut(content, cut_all=False)
-                    new_ws = []
-                    for word in ws:
-                        if word not in STOP_WORDS:
-                            new_ws.append(word)
+                    # ws = jieba.lcut(content, cut_all=False)
+                    # new_ws = []
+                    # for word in ws:
+                    #     if word not in STOP_WORDS:
+                    #         new_ws.append(word)
 
                     comment_objs.append({
                         "content": content,
                         "type": comment_type,
                         "rating": rating,
                         "publishedDate": publishedDate,
-                        "tokenization": " | ".join(new_ws)
+                        "tokenization": ""
+                        # "tokenization": " | ".join(new_ws)
                     })
                 offset += 10
 
@@ -161,13 +162,13 @@ def asiayo_comment_tokenization():
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
                 data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
-                for c in data["comments"]:
-                    ws = jieba.lcut(c["content"], cut_all=False)
-                    new_ws = []
-                    for word in ws:
-                        if word not in STOP_WORDS:
-                            new_ws.append(word)
-                    c["tokenization"] = " | ".join(new_ws)
+                # for c in data["comments"]:
+                #     ws = jieba.lcut(c["content"], cut_all=False)
+                #     new_ws = []
+                #     for word in ws:
+                #         if word not in STOP_WORDS:
+                #             new_ws.append(word)
+                #     c["tokenization"] = " | ".join(new_ws)
 
                 with open(file_path, 'w', encoding="utf-8-sig") as nf:
                     json.dump(data, nf, indent=4, ensure_ascii=False)
@@ -288,11 +289,11 @@ def easycamp_comment_crawler():
                 content = "。".join(content)
                 if len(content) <= 10:
                         continue
-                ws = jieba.lcut(content, cut_all=False)
-                new_ws = []
-                for word in ws:
-                    if word not in STOP_WORDS:
-                        new_ws.append(word)
+                # ws = jieba.lcut(content, cut_all=False)
+                # new_ws = []
+                # for word in ws:
+                #     if word not in STOP_WORDS:
+                #         new_ws.append(word)
 
                 rating = len(comment.select(".fa.fa-star"))
                 comment_objs.append({
@@ -300,7 +301,8 @@ def easycamp_comment_crawler():
                     "type": comment_type,
                     "rating": rating,
                     "publishedDate": publishedDate,
-                    "tokenization": " | ".join(new_ws)
+                    "tokenization": ""
+                    # "tokenization": " | ".join(new_ws)
                 })
             page += 1
 
@@ -352,13 +354,13 @@ def easycamp_comment_tokenization():
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
                 data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
-                for c in data["comments"]:
-                    ws = jieba.lcut(c["content"], cut_all=False)
-                    new_ws = []
-                    for word in ws:
-                        if word not in STOP_WORDS:
-                            new_ws.append(word)
-                    c["tokenization"] = " | ".join(new_ws)
+                # for c in data["comments"]:
+                #     ws = jieba.lcut(c["content"], cut_all=False)
+                #     new_ws = []
+                #     for word in ws:
+                #         if word not in STOP_WORDS:
+                #             new_ws.append(word)
+                #     c["tokenization"] = " | ".join(new_ws)
 
                 with open(file_path, 'w', encoding="utf-8-sig") as nf:
                     json.dump(data, nf, indent=4, ensure_ascii=False)
@@ -478,18 +480,19 @@ def klook_comment_crawler():
                     if d["type"] != 1 and d["type"] != 2:
                         comment_type = 0
 
-                    ws = jieba.lcut(content, cut_all=False)
-                    new_ws = []
-                    for word in ws:
-                        if word not in STOP_WORDS:
-                            new_ws.append(word)
+                    # ws = jieba.lcut(content, cut_all=False)
+                    # new_ws = []
+                    # for word in ws:
+                    #     if word not in STOP_WORDS:
+                    #         new_ws.append(word)
 
                     comment_objs.append({
                         "content": content,
                         "type": comment_type,
                         "rating": rating,
                         "publishedDate": publishedDate,
-                        "tokenization": " | ".join(new_ws)
+                        "tokenization": ""
+                        # "tokenization": " | ".join(new_ws)
                     })
                 page += 1
             else:
@@ -544,13 +547,13 @@ def klook_comment_tokenization():
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
                 data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
-                for c in data["comments"]:
-                    ws = jieba.lcut(c["content"], cut_all=False)
-                    new_ws = []
-                    for word in ws:
-                        if word not in STOP_WORDS:
-                            new_ws.append(word)
-                    c["tokenization"] = " | ".join(new_ws)
+                # for c in data["comments"]:
+                #     ws = jieba.lcut(c["content"], cut_all=False)
+                #     new_ws = []
+                #     for word in ws:
+                #         if word not in STOP_WORDS:
+                #             new_ws.append(word)
+                #     c["tokenization"] = " | ".join(new_ws)
                 
                 with open(file_path, 'w', encoding="utf-8-sig") as nf:
                     json.dump(data, nf, indent=4, ensure_ascii=False)

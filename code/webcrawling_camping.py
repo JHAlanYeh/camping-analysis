@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 def asiayo_crawler():
     print("==================== Start Asiayo Crawler ====================")
-    dir_path = os.path.join(os.getcwd(), "data//camping_region")
+    dir_path = os.path.join(os.getcwd(), "new_data//camping_region")
     camping_area_url = "https://asiayo.com/zh-tw/view/tw/{city_code}/{code}/?tags=camping&isFromPropertyPage=true/"
     offset = 0
 
@@ -16,7 +16,7 @@ def asiayo_crawler():
     new_obj = 0
 
     while True:
-        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-10-24&checkOutDate=2024-10-25&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
+        res = requests.get("""https://web-api.asiayo.com/api/v1/bnbs/search?locale=zh-tw&currency=TWD&checkInDate=2024-08-16&checkOutDate=2024-08-17&adult=4&quantity=1&type=country&country=tw&tags=camping&offset={offset}""".format(offset=offset))
         if res.status_code == 200:
             res_json = res.json()
             camping_areas = res_json["data"]["rows"]
@@ -79,7 +79,7 @@ def asiayo_crawler():
 def easycamp_crawler():
     print("==================== Start EasyCamp Crawler ====================")
 
-    dir_path = os.path.join(os.getcwd(), "data//camping_region")
+    dir_path = os.path.join(os.getcwd(), "new_data//camping_region")
     base_url = "https://www.easycamp.com.tw{relative_link}"
 
     file_name = os.path.join(dir_path, 'camping_easycamp.json')
@@ -127,7 +127,7 @@ def easycamp_crawler():
 
 def klook_crawler():
     print("==================== Start Klook Crawler ====================")
-    dir_path = os.path.join(os.getcwd(), "data//camping_region")
+    dir_path = os.path.join(os.getcwd(), "new_data//camping_region")
     page = 1
 
     file_name = os.path.join(dir_path, 'camping_klook.json')
@@ -153,7 +153,6 @@ def klook_crawler():
             res_json = res.json()
             camping_areas = res_json["result"]["search_result"]["cards"]
             if len(camping_areas) == 0:
-                print("no data")
                 break
             
             for area in camping_areas:
@@ -201,5 +200,3 @@ if __name__ == "__main__":
     # asiayo_crawler()
     easycamp_crawler()
     # klook_crawler()
-
-
