@@ -90,7 +90,7 @@ def asiayo_comment_crawler():
 
                 for comment in camping_comments:
                     content = comment["content"].replace("\n", "").replace("\r", "").replace("\t", "")
-                    if len(content) <= 10:
+                    if len(content) <= 10 or len(content) >=512:
                         continue
                     rating = comment["rating"]
                     publishedDate = comment["publishedDate"]
@@ -115,6 +115,7 @@ def asiayo_comment_crawler():
                 offset += 10
 
         d["comments"] = comment_objs
+        d["comments_count"] = len(comment_objs)
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
@@ -161,7 +162,7 @@ def asiayo_comment_tokenization():
                 file_path = os.path.join(asiayo_type_dir, file)
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
-                data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
+                data["comments"] = list(filter(lambda x: len(x["content"]) > 10 and len(x["content"]) < 512, data["comments"]))
                 # for c in data["comments"]:
                 #     ws = jieba.lcut(c["content"], cut_all=False)
                 #     new_ws = []
@@ -287,7 +288,7 @@ def easycamp_comment_crawler():
                 if d["type"] != 1 and d["type"] != 2:
                     comment_type = 0
                 content = "。".join(content)
-                if len(content) <= 10:
+                if len(content) <= 10 or len(content) >=512:
                         continue
                 # ws = jieba.lcut(content, cut_all=False)
                 # new_ws = []
@@ -307,6 +308,7 @@ def easycamp_comment_crawler():
             page += 1
 
         d["comments"] = comment_objs
+        d["comments_count"] = len(comment_objs)
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
@@ -353,7 +355,7 @@ def easycamp_comment_tokenization():
                 file_path = os.path.join(easycamp_type_dir, file)
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
-                data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
+                data["comments"] = list(filter(lambda x: len(x["content"]) > 10 and len(x["content"]) < 512, data["comments"]))
                 # for c in data["comments"]:
                 #     ws = jieba.lcut(c["content"], cut_all=False)
                 #     new_ws = []
@@ -394,7 +396,7 @@ def easycamp_comment_tokenization():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 def klook_comment_crawler():
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "new_data")
     save_path = os.path.join(dir_path, "camping_region")
 
     file = "camping_klook.json"
@@ -471,7 +473,7 @@ def klook_comment_crawler():
 
                 for comment in camping_comments:
                     content = comment["content"].replace("\n", "").replace("\r", "").replace("\t", "")
-                    if len(content) <= 10:
+                    if len(content) <= 10 or len(content) >=512:
                         continue
                     rating = math.floor(int(comment["rating"]) / 20)
                     publishedDate = comment["date"]
@@ -499,6 +501,7 @@ def klook_comment_crawler():
                 return
 
         d["comments"] = comment_objs
+        d["comments_count"] = len(comment_objs)
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
@@ -546,7 +549,7 @@ def klook_comment_tokenization():
                 file_path = os.path.join(klook_type_dir, file)
                 f = open(file_path, encoding="utf-8-sig")
                 data = json.load(f)
-                data["comments"] = list(filter(lambda x: len(x["content"]) > 10, data["comments"]))
+                data["comments"] = list(filter(lambda x: len(x["content"]) > 10 and len(x["content"]) <512, data["comments"]))
                 # for c in data["comments"]:
                 #     ws = jieba.lcut(c["content"], cut_all=False)
                 #     new_ws = []
@@ -590,7 +593,7 @@ def klook_comment_tokenization():
 if __name__ == "__main__":
     # asiayo_comment_crawler()
     # asiayo_comment_tokenization()
-    easycamp_comment_crawler()
+    # easycamp_comment_crawler()
     # easycamp_comment_tokenization()
-    # klook_comment_crawler()
+    klook_comment_crawler()
     # klook_comment_tokenization()
