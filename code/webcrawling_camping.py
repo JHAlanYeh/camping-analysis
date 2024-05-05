@@ -197,6 +197,6 @@ def klook_crawler():
 
 
 if __name__ == "__main__":
-    # asiayo_crawler()
+    asiayo_crawler()
     easycamp_crawler()
-    # klook_crawler()
+    klook_crawler()
