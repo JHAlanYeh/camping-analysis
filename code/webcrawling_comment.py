@@ -144,7 +144,7 @@ def asiayo_comment_crawler():
 
 
 def asiayo_comment_tokenization():
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "new_data")
     asiayo_dir = os.path.join(dir_path, "asiayo_comments")
 
     total_type_1_count = 0
@@ -204,7 +204,7 @@ def asiayo_comment_tokenization():
                 
 
 def easycamp_comment_crawler():
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "new_data")
     save_path = os.path.join(dir_path, "camping_region")
     file = "camping_easycamp.json"
     total_type_1_count = 0
@@ -337,7 +337,7 @@ def easycamp_comment_crawler():
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 def easycamp_comment_tokenization():
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "new_data")
     easycamp_dir = os.path.join(dir_path, "easycamp_comments")
 
     total_type_1_count = 0
@@ -452,7 +452,6 @@ def klook_comment_crawler():
 
         page = 1
         code = d["code"]
-        print(code)
 
         save_dir = os.path.join(dir_path, "klook_comments\\{house_type}".format(house_type=d["type"]))
         os.makedirs(save_dir, exist_ok=True)
@@ -500,8 +499,8 @@ def klook_comment_crawler():
             else:
                 return
 
-        d["comments"] = comment_objs
         d["comments_count"] = len(comment_objs)
+        d["comments"] = comment_objs
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
@@ -531,7 +530,7 @@ def klook_comment_crawler():
 
 
 def klook_comment_tokenization():
-    dir_path = os.path.join(os.getcwd(), "data")
+    dir_path = os.path.join(os.getcwd(), "new_data")
     klook_dir = os.path.join(dir_path, "klook_comments")
     
     total_type_1_count = 0
@@ -591,9 +590,9 @@ def klook_comment_tokenization():
 
 
 if __name__ == "__main__":
-    # asiayo_comment_crawler()
+    asiayo_comment_crawler()
     # asiayo_comment_tokenization()
-    # easycamp_comment_crawler()
+    easycamp_comment_crawler()
     # easycamp_comment_tokenization()
     klook_comment_crawler()
     # klook_comment_tokenization()

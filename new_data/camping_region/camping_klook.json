@@ -11,7 +11,7 @@
     },
     {
         "code": 56250,
-        "name": "露境東岳",
+        "name": "露境東岳探險渡假營地",
         "url": "https://www.klook.com/zh-TW/activity/56250-glamping-experience-yilan/",
         "latitude": "",
         "longitude": "",
@@ -31,7 +31,7 @@
     },
     {
         "code": 57742,
-        "name": "朵娜朵露營區",
+        "name": "朵娜朵露營區donato glamping",
         "url": "https://www.klook.com/zh-TW/activity/57742-donato-glamping-nantou/",
         "latitude": "",
         "longitude": "",
@@ -41,7 +41,7 @@
     },
     {
         "code": 57806,
-        "name": "愛上喜翁",
+        "name": "愛上喜翁民宿",
         "url": "https://www.klook.com/zh-TW/activity/57806-glamping-experience-meals-hsinchu/",
         "latitude": "",
         "longitude": "",
@@ -51,7 +51,7 @@
     },
     {
         "code": 58509,
-        "name": "曉晴星空露營",
+        "name": "曉晴星空露營地",
         "url": "https://www.klook.com/zh-TW/activity/58509-star-campground-taitung/",
         "latitude": "",
         "longitude": "",
@@ -61,18 +61,8 @@
     },
     {
         "code": 58685,
-        "name": "樂窩露營區",
+        "name": "樂窩露營區/咖啡",
         "url": "https://www.klook.com/zh-TW/activity/58685-campcafebar-camping-experience-hsinchu/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
-        "code": 58881,
-        "name": "尖石夢田營區",
-        "url": "https://www.klook.com/zh-TW/activity/58881-campground-hsinchu/",
         "latitude": "",
         "longitude": "",
         "address": "",
@@ -83,16 +73,6 @@
         "code": 59671,
         "name": "黃金梯田露營地",
         "url": "https://www.klook.com/zh-TW/activity/59671-golden-terraces-camping-miaoli/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
-        "code": 60828,
-        "name": "詩情花園渡假村",
-        "url": "https://www.klook.com/zh-TW/activity/60828-poetry-garden-caravan-resort-glamping-chiayi/",
         "latitude": "",
         "longitude": "",
         "address": "",
@@ -130,18 +110,8 @@
         "disabled": 0
     },
     {
-        "code": 65918,
-        "name": "山川密境露營區",
-        "url": "https://www.klook.com/zh-TW/activity/65918-33camping-glamping-miaoli/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
         "code": 66376,
-        "name": "小琉球八海浬民宿",
+        "name": "八 海 浬 民宿",
         "url": "https://www.klook.com/zh-TW/activity/66376-bahile-camping-car-pingtong/",
         "latitude": "",
         "longitude": "",
@@ -150,18 +120,8 @@
         "disabled": 0
     },
     {
-        "code": 66743,
-        "name": "清境見晴花園渡假山莊",
-        "url": "https://www.klook.com/zh-TW/activity/66743-sunshine-villa-glamping-camping-car-nantou/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
         "code": 66781,
-        "name": "墾丁O’Glamping 貓鼻頭露營莊園",
+        "name": "O'GLAMPING墾丁貓鼻頭露營莊園",
         "url": "https://www.klook.com/zh-TW/activity/66781-o-glamping-camping-car-villa-camping-pingtong/",
         "latitude": "",
         "longitude": "",
@@ -171,7 +131,7 @@
     },
     {
         "code": 66944,
-        "name": "尖石之美露營渡假村",
+        "name": "尖石之美露營渡假村（露營區）",
         "url": "https://www.klook.com/zh-TW/activity/66944-jianshimei-glamping-camping-car/",
         "latitude": "",
         "longitude": "",
@@ -181,7 +141,7 @@
     },
     {
         "code": 68272,
-        "name": "斷橋部落・輕奢露營",
+        "name": "斷橋部落．輕奢露營",
         "url": "https://www.klook.com/zh-TW/activity/68272-longteng-bridge-village-glamping-miaoli/",
         "latitude": "",
         "longitude": "",
@@ -190,18 +150,8 @@
         "disabled": 0
     },
     {
-        "code": 69722,
-        "name": "六沐森民宿",
-        "url": "https://www.klook.com/zh-TW/activity/69722-liu-mu-shen-glamping-miaoli/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
         "code": 71255,
-        "name": "希望之丘休閒農場",
+        "name": "希望之丘露營區",
         "url": "https://www.klook.com/zh-TW/activity/71255-hill-of-hope-camping-car-yilan/",
         "latitude": "",
         "longitude": "",
@@ -211,7 +161,7 @@
     },
     {
         "code": 71506,
-        "name": "峇嵐杉丘BALAN HILL GLAMPING",
+        "name": "峇嵐杉丘 奢華露營",
         "url": "https://www.klook.com/zh-TW/activity/71506-balan-hill-glamping-nantou/",
         "latitude": "",
         "longitude": "",
@@ -221,18 +171,8 @@
     },
     {
         "code": 71696,
-        "name": "田野森農場",
+        "name": "田野森農場Morilife",
         "url": "https://www.klook.com/zh-TW/activity/71696-morilife-glamping-yilan/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
-        "code": 72105,
-        "name": "春友彩虹民宿",
-        "url": "https://www.klook.com/zh-TW/activity/72105-spring-yu-glamping-miaoli/",
         "latitude": "",
         "longitude": "",
         "address": "",
@@ -251,7 +191,7 @@
     },
     {
         "code": 75064,
-        "name": "曉晴星空二營",
+        "name": "曉晴星空露營地",
         "url": "https://www.klook.com/zh-TW/activity/75064-star-camping-taitung/",
         "latitude": "",
         "longitude": "",
@@ -261,7 +201,7 @@
     },
     {
         "code": 75320,
-        "name": "美山晴露營地",
+        "name": "美山晴露營",
         "url": "https://www.klook.com/zh-TW/activity/75320-taitung-camping-luxury-log-cabin-camping/",
         "latitude": "",
         "longitude": "",
@@ -271,7 +211,7 @@
     },
     {
         "code": 82010,
-        "name": "桃禧漫遊渡假露營園區",
+        "name": "ORCHARD VILLA桃禧漫遊渡假露營園區",
         "url": "https://www.klook.com/zh-TW/activity/82010-orchard-villa-glamping/",
         "latitude": "",
         "longitude": "",
@@ -281,7 +221,7 @@
     },
     {
         "code": 85622,
-        "name": "向海那漾",
+        "name": "向海那漾 Nayang Beach",
         "url": "https://www.klook.com/zh-TW/activity/85622-nanyang-beach-glamping-taichung/",
         "latitude": "",
         "longitude": "",
@@ -291,7 +231,7 @@
     },
     {
         "code": 85635,
-        "name": "清水那方溫泉豪華露營區",
+        "name": "清水那方 遊憩園地",
         "url": "https://www.klook.com/zh-TW/activity/85635-qinshui-resort-glamping-changhua/",
         "latitude": "",
         "longitude": "",
@@ -311,7 +251,7 @@
     },
     {
         "code": 92587,
-        "name": "蟬說：霧繞",
+        "name": "蟬說: 霧繞 Chanshuo Woorao glamping",
         "url": "https://www.klook.com/zh-TW/activity/92587-chanshuo-woorao-glamping-hsinchu/",
         "latitude": "",
         "longitude": "",
@@ -321,7 +261,7 @@
     },
     {
         "code": 94279,
-        "name": "蟬說：夕陽漫漫",
+        "name": "蟬說: 夕陽漫漫 Slowly Sunset Glamping",
         "url": "https://www.klook.com/zh-TW/activity/94279-chanshuo-slowly-sunset-glamping-taichung/",
         "latitude": "",
         "longitude": "",
@@ -351,7 +291,7 @@
     },
     {
         "code": 100994,
-        "name": "相逢部落露營區",
+        "name": "相逢部落",
         "url": "https://www.klook.com/zh-TW/activity/100994-xiang-feng-buluo-glamping/",
         "latitude": "",
         "longitude": "",
@@ -361,7 +301,7 @@
     },
     {
         "code": 104608,
-        "name": "曉晴星空三營",
+        "name": "曉晴星空三營台中新社營區",
         "url": "https://www.klook.com/zh-TW/activity/104608-star-campground-taitung/",
         "latitude": "",
         "longitude": "",
@@ -371,18 +311,8 @@
     },
     {
         "code": 106136,
-        "name": "歸樸森活",
+        "name": "歸樸森活露營區",
         "url": "https://www.klook.com/zh-TW/activity/106136-guipu-glamping-chiayi/",
-        "latitude": "",
-        "longitude": "",
-        "address": "",
-        "type": 2,
-        "disabled": 0
-    },
-    {
-        "code": 116006,
-        "name": "踏親",
-        "url": "https://www.klook.com/zh-TW/activity/116006-touching-glamping-taichung/",
         "latitude": "",
         "longitude": "",
         "address": "",
