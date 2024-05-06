@@ -1,0 +1,61 @@
+﻿{
+    "code": "2551",
+    "name": "甜蜜點休閒莊園",
+    "region": "新北市淡水區",
+    "url": "https://www.easycamp.com.tw/Store_2551.html",
+    "type": 1,
+    "disabled": 0,
+    "address": "新北市淡水區奎柔山路189號",
+    "comments_count": 7,
+    "comments": [
+        {
+            "content": "離市區很近很方便。位置劃分可清楚些，與旁邊的帳篷距離過近，草皮有些不平整，流理臺過小不是很方便，有些營位天氣不錯可看到海，整體上還不錯",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/05/21",
+            "tokenization": ""
+        },
+        {
+            "content": "雙北市露營好去處。營主人超好，風景很舒服，環境整潔，交通超便利",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/03/18",
+            "tokenization": ""
+        },
+        {
+            "content": "距離淡水老街不算太遠，可做為中繼站，安排附近旅遊。。到訪當日遇到6度低溫，營地的熱水很足夠，且浴室外還有一道門可阻隔寒風，非常貼心。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2023/02/01",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯~。交通方便~晚上有星星~營主不錯~ 浴廁好棒^^~冬天入住沒蚊蟲~^^~",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/12/26",
+            "tokenization": ""
+        },
+        {
+            "content": "親子廁所很棒。草地坑洞滿多，希望草坪能維持好一點",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2022/04/25",
+            "tokenization": ""
+        },
+        {
+            "content": "適合臨時想露營但不想開山路的家庭。車可以停帳篷旁，因為可以唱歌、可以生營火，所以適合包場。遊戲設施少比較可惜。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/03/12",
+            "tokenization": ""
+        },
+        {
+            "content": "營區就在馬路邊，交通十分便利。腹地很大營區就在馬路邊難免車輛經過會有吵雜的車流聲距離市區十分鐘路程",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2022/01/23",
+            "tokenization": ""
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+﻿{
+    "code": "2549",
+    "name": "光漫營地",
+    "region": "新竹縣尖石鄉",
+    "url": "https://www.easycamp.com.tw/Store_2549.html",
+    "type": 1,
+    "disabled": 0,
+    "address": "新竹縣尖石鄉玉峰村11鄰5號(導航先到抬耀夢想書屋))再依指示標可到營地",
+    "comments_count": 3,
+    "comments": [
+        {
+            "content": "謝謝營主的用心，我們有個愉快的週末。營主熱情又親切高海拔營區所以山路開得比較辛苦，但風景很美，而且營區是小包場適合揪朋友一起來衛浴也很乾淨沒有蟲",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2024/03/12",
+            "tokenization": ""
+        },
+        {
+            "content": "路雖不好開，但風景跟營主的熱情，非常值得再訪",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/04/09",
+            "tokenization": ""
+        },
+        {
+            "content": "親切的營主，寬廣的視野，舒服的景色",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/08/11",
+            "tokenization": ""
+        }
+    ]
+}

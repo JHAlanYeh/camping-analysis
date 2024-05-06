@@ -1,0 +1,49 @@
+﻿{
+    "code": "2301",
+    "name": "花蓮悠悠太魯閣露營區",
+    "region": "花蓮縣秀林鄉",
+    "url": "https://www.easycamp.com.tw/Store_2301.html",
+    "type": 1,
+    "disabled": 0,
+    "address": "花蓮縣秀林鄉民治132-11號",
+    "latitude": 24.1238232,
+    "longitude": 121.6263845,
+    "comments_count": 5,
+    "comments": [
+        {
+            "content": "營主很親切熱心！。交通很方便到市區根海邊都很近！路也很平很好走不用擔心愛車要經歷崎嶇的山路！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2024/01/09",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆熱情親切，可惜小黑蚊真的很多",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/04/06",
+            "tokenization": ""
+        },
+        {
+            "content": "營主住在營區。營主住在營區有問題找得到人～我是跨年去露營的浴室廁所維持的很乾淨，廁所還提供衛生紙（早上上廁所看到營主在整理廁所，下午去廁所又遇到營主在整理廁所）親子浴室很大間還有兩個蓮蓬頭～",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/01/04",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人好好 一直叮嚀要買叮嚀才不會被小黑蚊叮嚀 營區好乾淨 交通方便 規劃很用心 大推",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/03/01",
+            "tokenization": ""
+        },
+        {
+            "content": "很完善的營區，推。白目的我們忘了帶走冰箱的伴手禮，營主很幫忙的協助宅配～真心感謝！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/02/07",
+            "tokenization": ""
+        }
+    ]
+}

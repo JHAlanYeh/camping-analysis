@@ -1,0 +1,707 @@
+﻿{
+    "code": "794",
+    "name": "尤命築園露營區",
+    "region": "新竹縣尖石鄉",
+    "url": "https://www.easycamp.com.tw/Store_794.html",
+    "type": 1,
+    "disabled": 0,
+    "address": "新竹縣尖石鄉新樂村煤源8鄰41號",
+    "latitude": 24.71575,
+    "longitude": 121.275806,
+    "comments_count": 99,
+    "comments": [
+        {
+            "content": "營主非常好，交通方便，山嵐及一旁樹林賞心悅目！雖然廁所不是五星級，但十分清潔常常維護，很棒喔。無",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/12/24",
+            "tokenization": ""
+        },
+        {
+            "content": "交通方便，有大草皮可以活動，營主阿莎力。優點：（1）前往營區的路好走，離內灣不遠，車可以停帳篷旁邊（2）營區有wifi,但有時候不是很穩定（3）營主很nice,我們有甚麼需求會馬上提供支援（4）草皮很大維護的還不錯，小朋友可以玩的很盡興（5）營區內蚊蠅很少（6）浴廁雖有點簡陋但還算乾淨，水壓很強，熱水很燙要注意（7）排水不錯，這次遇到下大雨也沒有嚴重積水（8）旁邊就有一家評價還不錯的活魚餐廳，不想開火可以參考看看缺點：（1）凌晨一兩點隔壁區的露友還在大聲聊天，但這比較跟人品有關了（2）有兩隻不確定是不是營主養的黑狗兄？跑來營地這邊拉黃金XD總而言之還算滿推的",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/10/23",
+            "tokenization": ""
+        },
+        {
+            "content": "網路不好。網路很差，有wifi也是一樣",
+            "type": 1,
+            "rating": 3,
+            "publishedDate": "2023/10/23",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營區，不過要注意有蜜蜂出沒！  柴燒熱水真的很舒服～ 很推薦給大家。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/10/13",
+            "tokenization": ""
+        },
+        {
+            "content": "已經二訪了，老闆人很好、很客氣。我們都有租借帳棚、裝備，是個免搭帳的好營區。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/09/10",
+            "tokenization": ""
+        },
+        {
+            "content": "營位很大，值得推薦！。頂棚區的位置很大，晚上比較涼爽些，營主很認真在整理環境，營區還蠻整齊的，樹木養得很不錯，適合早晨逛逛健身，覺得還是會再去的營區。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/07/15",
+            "tokenization": ""
+        },
+        {
+            "content": "路算好走，服務也不錯，遊樂設施只有盪鞦韆，另一個水池夏天才開放，沒什麼設施，唯一有一點不好，螞蟻好多",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2022/12/25",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服乾淨。熱水超熱、雨棚區有提供桌子，交通近，不用蜿蜒走山路，草地維護好，搭帳空間充足",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/12/01",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨舒適。熱水超熱、雨棚區有提供桌子，交通近，不用蜿蜒走山路，草地維護好，搭帳空間充足",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/12/01",
+            "tokenization": ""
+        },
+        {
+            "content": "營位給的很大、營區有WIFI，浴室水壓穩定而且水量很大、小朋友有足夠的空間活動",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/11/29",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營區，有機會還是會想在去。營位給的很大方還有WIFI，浴室水壓穩定而且水量很大，超棒的",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/11/17",
+            "tokenization": ""
+        },
+        {
+            "content": "熱心營主會主動關心露友所需，浴廁雖然設備不新但都有在維護。。建議營區內使用焚火台，以維護草皮及營位美觀。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/11/16",
+            "tokenization": ""
+        },
+        {
+            "content": "四面環山 很安靜的地方",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/10/25",
+            "tokenization": ""
+        },
+        {
+            "content": "交通方便。就在馬路邊，不用爬山會車，但晚上也會在車聲",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/07/23",
+            "tokenization": ""
+        },
+        {
+            "content": "有很大的草地，以及水池可以玩水，推薦此營區!!",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/04/06",
+            "tokenization": ""
+        },
+        {
+            "content": "棒。大哥很親切、熱心。廁所乾淨。熱水很熱，不會忽冷忽熱。租借客廳帳，價格很親民。草地維護很好，空間大，小孩玩耍開心。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/03/28",
+            "tokenization": ""
+        },
+        {
+            "content": "營主很熱心，看到我們在烤火，還會不吝嗇地提供柴火給我們使用",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/03/10",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱心、環境優且交通便利、沒什麼蚊蠅、柴燒鍋爐熱水強又穩！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2021/11/21",
+            "tokenization": ""
+        },
+        {
+            "content": "營地下很硬很難下釘，釘壞幾根一般營釘。大營地人多， 10點以後還是有人吵鬧至凌晨。",
+            "type": 1,
+            "rating": 3,
+            "publishedDate": "2021/10/30",
+            "tokenization": ""
+        },
+        {
+            "content": "被山景歡繞，夜晚星空很美。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2021/09/29",
+            "tokenization": ""
+        },
+        {
+            "content": "覺得還有改善的空間。營地的草皮超級難下釘，遠看是草皮，近看下釘是水泥地....釘壞好幾隻營釘><",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2021/08/25",
+            "tokenization": ""
+        },
+        {
+            "content": "熱水很可以。喜歡柴燒的味道",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2021/07/07",
+            "tokenization": ""
+        },
+        {
+            "content": "交通便利。雨棚設施有更新  每一營位都很大  廁所雖舊但空間很足",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2021/04/26",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆超級熱心大雨中贊助3個27秒帳篷 非常感謝。老闆超級熱心大雨中贊助3個27秒帳篷非常感謝",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2021/04/01",
+            "tokenization": ""
+        },
+        {
+            "content": "營地空間寬敞，柴燒熱水讚",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2021/03/17",
+            "tokenization": ""
+        },
+        {
+            "content": "露營帶孩子出來 就是開心",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2021/02/26",
+            "tokenization": ""
+        },
+        {
+            "content": "營地空間寬敞，浴廁乾淨，柴燒熱水超讚！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/12/14",
+            "tokenization": ""
+        },
+        {
+            "content": "營主很熱心，還會指導如何搭帳",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2020/12/10",
+            "tokenization": ""
+        },
+        {
+            "content": "到營區道路好走，營區空間算是滿充足的",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2020/12/10",
+            "tokenization": ""
+        },
+        {
+            "content": "2020/10/23露營，空間很大，熱水很足，廁所乾淨，垃圾跟廚餘都有收拾，重點老闆很熱心，會主",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/10/26",
+            "tokenization": ""
+        },
+        {
+            "content": "草皮養護狀況佳,活動空間寬廣,營主親切.",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2020/10/23",
+            "tokenization": ""
+        },
+        {
+            "content": "非常不錯的露營區，營長人也不錯，營區場地又寬廣，非常值得推，有機會一定還會再次露營",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/09/23",
+            "tokenization": ""
+        },
+        {
+            "content": "路況好，營位大，材燒熱水讚",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2020/09/11",
+            "tokenization": ""
+        },
+        {
+            "content": "路況好，營位大，材燒熱水讚",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2020/09/11",
+            "tokenization": ""
+        },
+        {
+            "content": "熱水是營主燒柴火，所以熱水很穩定，不會忽冷忽熱。營主夫妻人很好很客氣。。營區保留原始風，有草地、樹木、芬多精，營位大，孩子們活動空間大，還有戲水池、冷藏冷凍庫、沿路很多風味餐廳，不想煮可以到附近吃。建議露友帶防蚊用品、礦泉水（無飲水機）。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/06/07",
+            "tokenization": ""
+        },
+        {
+            "content": "熱水又大又熱…爽。交通方便，營位大，熱水穩定有大港",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/06/07",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨的營地。排水跟草皮都很好建議垃圾桶跟餿水桶有蓋子比較衛生浴廁有防蟲的更好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/05/17",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒,有機會還會再來露營。有飲水機更好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/05/06",
+            "tokenization": ""
+        },
+        {
+            "content": "一個營主用心經營的營地,營主也很熱情 這次去剛好櫻花盛開我們帳棚就搭在櫻花下, 場地寬廣 交通方便,",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/05/03",
+            "tokenization": ""
+        },
+        {
+            "content": "雨棚區 有桌椅 很方便",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/04/12",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營地，有機會一定會再來訪。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/03/24",
+            "tokenization": ""
+        },
+        {
+            "content": "浴廁雖然是走原始風，但是可以加強紗網以避免蚊蟲飛入。除此之外，這裡是個很棒的營區。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/03/24",
+            "tokenization": ""
+        },
+        {
+            "content": "非常nice的營主，人很好又親切，草皮顧很好，草地很大，小孩有大草皮可以玩，一定會再去。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/03/23",
+            "tokenization": ""
+        },
+        {
+            "content": "營區燒鍋爐熱水，水量大又穩定很舒服....空間很大很舒服",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/03/13",
+            "tokenization": ""
+        },
+        {
+            "content": "營區環境不錯，可惜整個露營區冰箱只有一座共用，每一區洗手台只有一邊，不是很夠使用。露營樂訂購的食材量少有點貴，自己準備比較好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/03/02",
+            "tokenization": ""
+        },
+        {
+            "content": "四面都是樹林，視野很不錯",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2020/02/01",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營主,很讚的柴燒熱水,值得再次造訪",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/12/26",
+            "tokenization": ""
+        },
+        {
+            "content": "營位大，不擁擠，晚上洗澡熱水充裕天氣冷也不怕",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/12/18",
+            "tokenization": ""
+        },
+        {
+            "content": "地點容易抵達。沒有蚊子；供水有問題時營主也很快解決～",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/11/21",
+            "tokenization": ""
+        },
+        {
+            "content": "好營地 草皮也不錯。整體而言很不錯",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/10/25",
+            "tokenization": ""
+        },
+        {
+            "content": "活動空間寬闊的好營區。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/10/23",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次4月前往，立馬5月又第2次造訪，營主人好又客氣，環境空間大、生態好。。環境空間大、生態好，上次樹上就可看到手掌大的足節蟲，這次5月營區內就可看螢火蟲，處處是驚喜。值得推推推!",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/09/12",
+            "tokenization": ""
+        },
+        {
+            "content": "很愉快的露營。有大大的草皮，營主維護的很好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/06/11",
+            "tokenization": ""
+        },
+        {
+            "content": "露營環境很好。有大草皮，衛浴算乾淨！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/06/11",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人很好~。空間非常大，即使是大帳篷大天幕都沒問題",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/06/11",
+            "tokenization": ""
+        },
+        {
+            "content": "大大大草皮！。有大大大草皮，小孩跑的非常開心",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/06/11",
+            "tokenization": ""
+        },
+        {
+            "content": "大草皮，螢火蟲，下次還會再去",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/05/17",
+            "tokenization": ""
+        },
+        {
+            "content": "空間寬敞 & 營主親切 小孩活動空間大 值得推薦的好營地。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/05/01",
+            "tokenization": ""
+        },
+        {
+            "content": "因為下雨要多露一天，營主不收錢說要交朋友，還擔心食材不夠吃，特別來關心，熱水很熱。。拔營時間太晚，導致15:00後才能入營，需調整拔營時間。C區廁所不乾淨。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/04/15",
+            "tokenization": ""
+        },
+        {
+            "content": "連續去了六年的營地。連續去了六年的營地",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/04/02",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆超熱心的 而且有問題找 馬上出現 超讚的。老闆超熱心的 而且有問題找 馬上出現 超讚的",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/03/23",
+            "tokenization": ""
+        },
+        {
+            "content": "星期天 為什麼會有卡拉OK吵呀，而且還不是露客，應該是營主的朋友吧！整個fell 都不見了@@",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/03/20",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒很舒服的營地，小朋友玩到不想回家",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/03/12",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的露營區，服務態度也很棒，熱水穩定很喜歡！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/03/12",
+            "tokenization": ""
+        },
+        {
+            "content": "沒什麼蚊蟲，老闆服務快速。搭在A區，老公說營釘不好打，地下石頭多。浴廁是分開的，熱水穩定舒適，但是廁所比較原始小間。除了草地有點不平，營地近馬路偶爾有車聲外，找不到什麼大缺點，老闆熱情，有問題反應或是需要幫忙都可以馬上處理。沒什麼蚊蟲這點很棒！",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/03/05",
+            "tokenization": ""
+        },
+        {
+            "content": "沒什麼蚊蟲，老闆的服務很快速",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/03/05",
+            "tokenization": ""
+        },
+        {
+            "content": "請撤去封面的照片 現場已經沒有溜滑梯的設施了 到了現場才發現與網站介紹的不符 有點傻眼。入住D區 旁邊是馬路 寧靜山谷 有時候有車子過 聲音會比較大聲沒有什麼景色 但是草皮腹地大 浴廁乾淨度 還可以 浴室熱水是柴燒 熱水很足但是遊戲區已經沒有溜滑梯了建議營區介紹封面應該要更換因為與事實不符",
+            "type": 1,
+            "rating": 3,
+            "publishedDate": "2019/03/04",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人超好，待人親切隨和。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯的營區。有販賣部會更好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/01/25",
+            "tokenization": ""
+        },
+        {
+            "content": "場地很大，小孩有很多活動空間",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/01/21",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營區 半年去了兩次都還想再去值得推薦的營區",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/01/10",
+            "tokenization": ""
+        },
+        {
+            "content": "草地很大。這次的風很大，還好有雨棚區可以擋風。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/01/02",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱心，風很大還開了一個房間供我們吃飯可以使用，A區很大很舒適、晚上無雲時有星星可看。新手露營，從關西Google導航，上山的路會很不好走(很陡又很窄)，第一次去的露友可以注意一下，從內灣老街那邊上去才是大條的路哦!!",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/01/02",
+            "tokenization": ""
+        },
+        {
+            "content": "雨棚區附桌椅便利十足，如果搭帳空間在大些會更好，浴廁乾淨，營主服務很好，整體環境不錯.",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/01/02",
+            "tokenization": ""
+        },
+        {
+            "content": "營主超熱情，人也超好的，營區完全沒黑蚊",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/12/31",
+            "tokenization": ""
+        },
+        {
+            "content": "空間大，適合帶小孩來玩，老板很有善。因爲風大,所以臨時將3天二夜改成兩天一夜，老板很友善，還很客氣，提醒我們路上小心，適合帶小孩來玩。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/12/30",
+            "tokenization": ""
+        },
+        {
+            "content": "全天24H有熱水的營區,草皮區空間大適合小朋友玩.。1.雨棚區地勢是斜的,不適合搭帳棚,建議可以鋪平.",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/12/19",
+            "tokenization": ""
+        },
+        {
+            "content": "一個字「讚」！。雖然沒有特別的景觀，但有遼闊的草原供大家奔跑遊玩，環境舒服，廁所乾淨，供電齊全，交通也方便，洗澡的熱水也很暖，老闆服務周到，人又很大方慷慨，有什麼可以幫忙的都很樂意協助。下次一定會再來！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/12/03",
+            "tokenization": ""
+        },
+        {
+            "content": "大草坪，適合小孩奔跑。雨棚區，如果滿帳的話位子就變很小，但旁邊有大草皮可以玩，廁所很小，要閃身才能關門，但廁所外水龍頭有熱水，是極少數營區會有的，而且主人認真的燒柴火，所以熱水很燙，水壓也很夠，很棒！",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/12/02",
+            "tokenization": ""
+        },
+        {
+            "content": "讚。小弟當天忘了帶瓦斯爐，老闆馬上支援全新的加三罐瓦斯，就甘心!!!",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/11/19",
+            "tokenization": ""
+        },
+        {
+            "content": "好營地，營主超好超熱心，一定還會再去",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/11/19",
+            "tokenization": ""
+        },
+        {
+            "content": "廁所需要改進。洗澡水大又超熱不錯！蚊子蒼蠅幾乎沒有 也可以但廁所都沒有打掃！需要改進",
+            "type": 1,
+            "rating": 2,
+            "publishedDate": "2018/11/18",
+            "tokenization": ""
+        },
+        {
+            "content": "大至上是個不錯的營地，地面平整，蚊子極少，熱水很熱，營主親切，會想要再來的地方。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/11/12",
+            "tokenization": ""
+        },
+        {
+            "content": "熱水是老闆自己柴燒。不會忽冷忽熱  熱度夠",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/29",
+            "tokenization": ""
+        },
+        {
+            "content": "各場區分別小區獨立。互不影響其他群體",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/29",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次搭營，充氣筒少了吹嘴無法充氣，感謝熱心營主帶來電動幫浦神救援，感謝感謝！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/29",
+            "tokenization": ""
+        },
+        {
+            "content": "交通方便，整體上很舒服的營地！",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/10/28",
+            "tokenization": ""
+        },
+        {
+            "content": "交通方便，整體上很舒服的營地！",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/10/28",
+            "tokenization": ""
+        },
+        {
+            "content": "值得再來，老闆粉好相處",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/27",
+            "tokenization": ""
+        },
+        {
+            "content": "營位超大，老闆親切，小孩能玩樂的地方很多",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/22",
+            "tokenization": ""
+        },
+        {
+            "content": "蒼蠅跟蚊子超級少，浴廁的設備可以在好ㄧ點",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/10/21",
+            "tokenization": ""
+        },
+        {
+            "content": "蒼蠅跟蚊子超級少，浴廁的設備可以在好ㄧ點",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/21",
+            "tokenization": ""
+        },
+        {
+            "content": "A區位子超大。很棒的草地營區，熱水超燙要小心是真的會燙傷那種，希望老闆可以加注標語",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/21",
+            "tokenization": ""
+        },
+        {
+            "content": "營住很好！遇到問題都很熱心幫忙解決。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/18",
+            "tokenization": ""
+        },
+        {
+            "content": "營區的大草皮超讚。營區草皮很大片,小朋友玩得很開心",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/15",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人很好。來的路上開過頭了，真的要打電話問一下，熱水很熱～在冷都不怕",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/13",
+            "tokenization": ""
+        },
+        {
+            "content": "漂亮的草皮營地。謝謝營主大方熱情的招呼，全家人都玩得很開心",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/10/08",
+            "tokenization": ""
+        },
+        {
+            "content": "交通容易到達。洗澡水夠熱 夠強、廁所環境可再加強，場地自然 蚊子多，網路不穩定。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/10/08",
+            "tokenization": ""
+        },
+        {
+            "content": "親切客氣的營主，隨時解決問題。超大草皮、戲水池、溜滑梯讓小朋友無限放風，超讚的啦！值得再來喔！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/09/04",
+            "tokenization": ""
+        }
+    ]
+}

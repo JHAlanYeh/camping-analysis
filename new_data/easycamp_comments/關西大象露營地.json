@@ -1,0 +1,33 @@
+﻿{
+    "code": "2577",
+    "name": "關西大象露營地",
+    "region": "新竹縣關西鎮",
+    "url": "https://www.easycamp.com.tw/Store_2577.html",
+    "type": 1,
+    "disabled": 0,
+    "address": "新竹縣關西鎮仁安里拱子溝九鄰26號",
+    "comments_count": 3,
+    "comments": [
+        {
+            "content": "廁所整潔 無蟲蟲 女兒很開心。玩沙坑 可以在更好。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2024/01/15",
+            "tokenization": ""
+        },
+        {
+            "content": "交通位置方便，營主也待人很好。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2023/10/06",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯的親子露營區。大部分都不錯，除了腹地比較小感覺較擁擠",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2023/07/01",
+            "tokenization": ""
+        }
+    ]
+}
