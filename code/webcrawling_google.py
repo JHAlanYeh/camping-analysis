@@ -41,10 +41,15 @@ browserOptions.add_argument("log-level=3")
 dir_path = os.path.join(os.getcwd(), "new_data")
 save_path = os.path.join(dir_path, "camping_region")
 
-google_comment_files = os.listdir(os.path.join(dir_path, "all_region.txt"))
 flag = False
-for file in os.listdir(save_path):
-    file_path = os.path.join(save_path, file)
+for file in os.listdir(dir_path):
+    file_path = os.path.join(dir_path, file)
+    print(file_path)
+    if ".txt" not in file_path:
+        continue
+    if "google" not in file_path:
+        continue
+
     f = open(file_path, encoding="utf-8-sig")
     for d in f.readlines():
     # data = json.load(f)
@@ -53,7 +58,7 @@ for file in os.listdir(save_path):
         # if d["disabled"] == 1 or d["type"] == 4:
         #     continue
 
-        # if "easycamp" not in file:
+        # if "google" not in file:
         #     continue
 
         # if "露營區" not in d["name"]:
@@ -75,7 +80,8 @@ for file in os.listdir(save_path):
         browser.get(default_url)
         house_type = False
 
-        camping_name = d["name"]
+        camping_name = d.split(',')[0]
+        camping_type = d.split(',')[1]
         print("========================")
         print(camping_name)
         # if "｜" in d["name"] and "asiayo" in file:
@@ -110,8 +116,8 @@ for file in os.listdir(save_path):
             print(e.args)
             continue
         
-        if "{}.json".format(name) in google_comment_files:
-            continue
+        # if "{}.json".format(name) in google_comment_files:
+        #     continue
 
         google_map = browser.current_url
 
@@ -233,7 +239,7 @@ for file in os.listdir(save_path):
                 comment_objs.append({
                     "content": content,
                     "rating": int(star),
-                    "type": 0,
+                    "type": int(camping_type),
                     "publishedDate": createdDate.strftime("%Y/%m/%d"),
                     # "tokenization": " | ".join(new_ws)
                     "tokenization": ""
@@ -250,13 +256,14 @@ for file in os.listdir(save_path):
             "latitude": latitude,
             "longitude": longitude,
             "type": 0,
-            "expect_count": int(reviews_count),
-            "actual_count": len(sorted_comments),
+            "count": len(sorted_comments),
             "comments" : sorted_comments,
             "phone": ""
         }
 
-        file_name = os.path.join(dir_path, 'google_comments\\{}.json'.format(name))
+        save_dir = os.path.join(dir_path, "google_comments")
+        os.makedirs(save_dir, exist_ok=True)
+        file_name = os.path.join(save_dir, '{}.json'.format(name))
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(camping, f, indent=4, ensure_ascii=False, sort_keys=False)
             print("save {file_name}".format(file_name=file_name))

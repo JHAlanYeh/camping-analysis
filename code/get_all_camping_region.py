@@ -14,8 +14,10 @@ for file in os.listdir(save_path):
 
     for d in data:
         name = d["name"].replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
-        if name + "\n" not in camping_reigon:
-            camping_reigon.append(name + "\n")
+        camping_type = d["type"]
+        line = f"{name},{camping_type}\n"
+        if line not in camping_reigon:
+            camping_reigon.append(line)
 
 camping_reigon = sorted(camping_reigon)
 
