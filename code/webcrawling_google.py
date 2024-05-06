@@ -14,19 +14,19 @@ from dateutil.relativedelta import relativedelta
 import json
 import jieba
 
-jieba.load_userdict('custom_dict.txt')
-# jieba.set_dictionary('dict.txt.big')
+# jieba.load_userdict('custom_dict.txt')
+# # jieba.set_dictionary('dict.txt.big')
 
-f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
-STOP_WORDS = []
-lines = f.readlines()
-for line in lines:
-    STOP_WORDS.append(line.rstrip('\n'))
+# f = open('stopwords_zh_TW.dat.txt', encoding="utf-8")
+# STOP_WORDS = []
+# lines = f.readlines()
+# for line in lines:
+#     STOP_WORDS.append(line.rstrip('\n'))
 
-f = open('stopwords.txt', encoding="utf-8")
-lines = f.readlines()
-for line in lines:
-    STOP_WORDS.append(line.rstrip('\n'))
+# f = open('stopwords.txt', encoding="utf-8")
+# lines = f.readlines()
+# for line in lines:
+#     STOP_WORDS.append(line.rstrip('\n'))
 
 browserOptions = webdriver.ChromeOptions()
 browserOptions.add_argument("--start-maximized")
@@ -38,22 +38,23 @@ browserOptions.add_argument('--mute-audio')
 # INFO_0 / WARNING_1 / ERROR_2 / FATAL_3 / DEFAULT_0
 browserOptions.add_argument("log-level=3")
 # ****************************************************************************** #
-dir_path = os.path.join(os.getcwd(), "data")
+dir_path = os.path.join(os.getcwd(), "new_data")
 save_path = os.path.join(dir_path, "camping_region")
 
-google_comment_files = os.listdir(os.path.join(dir_path, "google_comments"))
+google_comment_files = os.listdir(os.path.join(dir_path, "all_region.txt"))
 flag = False
 for file in os.listdir(save_path):
     file_path = os.path.join(save_path, file)
     f = open(file_path, encoding="utf-8-sig")
-    data = json.load(f)
-    data_reverse = sorted(data, key=lambda x: x["code"], reverse=True)
-    for d in data:
-        if d["disabled"] == 1 or d["type"] == 4:
-            continue
+    for d in f.readlines():
+    # data = json.load(f)
+    # data_reverse = sorted(data, key=lambda x: x["code"], reverse=True)
+    # for d in data:
+        # if d["disabled"] == 1 or d["type"] == 4:
+        #     continue
 
-        if "easycamp" not in file:
-            continue
+        # if "easycamp" not in file:
+        #     continue
 
         # if "露營區" not in d["name"]:
         #     flag=True
@@ -62,11 +63,11 @@ for file in os.listdir(save_path):
         # if flag is False:
         #     continue
 
-        if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
-            continue
+        # if "same_name" in d and "{}.json".format(d["same_name"]) in google_comment_files:
+        #     continue
 
-        if "same_name" in d and d["same_name"] == "NA":
-            continue
+        # if "same_name" in d and d["same_name"] == "NA":
+        #     continue
 
         browser = webdriver.Chrome(options=browserOptions)
         wait = WebDriverWait(browser, 20)
@@ -77,13 +78,13 @@ for file in os.listdir(save_path):
         camping_name = d["name"]
         print("========================")
         print(camping_name)
-        if "｜" in d["name"] and "asiayo" in file:
-            camping_name = d["name"].split("｜")[0]
-        if "｜" in d["name"] and "klook" in file:
-            camping_name = d["name"].split("｜")[1]
-        if " " in d["name"] and "easycamp" in file:
-            camping_names = d["name"].replace("  ", " ").split(" ")
-            camping_name = camping_names[len(camping_names)-1]
+        # if "｜" in d["name"] and "asiayo" in file:
+        #     camping_name = d["name"].split("｜")[0]
+        # if "｜" in d["name"] and "klook" in file:
+        #     camping_name = d["name"].split("｜")[1]
+        # if " " in d["name"] and "easycamp" in file:
+        #     camping_names = d["name"].replace("  ", " ").split(" ")
+        #     camping_name = camping_names[len(camping_names)-1]
 
         wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#searchboxinput")))
         browser.find_element(By.CSS_SELECTOR, "#searchboxinput").send_keys(camping_name)
@@ -99,12 +100,12 @@ for file in os.listdir(save_path):
 
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".DUwDvf.lfPIob")))
             name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
-            d["same_name"] = name
+            # d["same_name"] = name
             print(name)
 
-            with open(file_path, 'w', encoding="utf-8-sig") as f:
-                json.dump(data, f, indent=4, ensure_ascii=False)
-                print("save {file_name}".format(file_name=file_path))
+            # with open(file_path, 'w', encoding="utf-8-sig") as f:
+            #     json.dump(data, f, indent=4, ensure_ascii=False)
+            #     print("save {file_name}".format(file_name=file_path))
         except Exception as e:
             print(e.args)
             continue
@@ -206,11 +207,11 @@ for file in os.listdir(save_path):
 
                 content = content.replace("\n", "").replace("\r", "").replace("\t", "")
 
-                ws = jieba.lcut(content, cut_all=False)
-                new_ws = []
-                for word in ws:
-                    if word not in STOP_WORDS:
-                        new_ws.append(word)
+                # ws = jieba.lcut(content, cut_all=False)
+                # new_ws = []
+                # for word in ws:
+                #     if word not in STOP_WORDS:
+                #         new_ws.append(word)
 
                 today = datetime.now()
 
@@ -234,7 +235,8 @@ for file in os.listdir(save_path):
                     "rating": int(star),
                     "type": 0,
                     "publishedDate": createdDate.strftime("%Y/%m/%d"),
-                    "tokenization": " | ".join(new_ws)
+                    # "tokenization": " | ".join(new_ws)
+                    "tokenization": ""
                 })
             except Exception as e:
                 print(e.args)

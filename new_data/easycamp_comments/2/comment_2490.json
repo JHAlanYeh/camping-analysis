@@ -1,0 +1,729 @@
+﻿{
+    "code": "2490",
+    "name": "晨光露營區(狩獵帳)",
+    "region": "嘉義縣阿里山鄉",
+    "url": "https://www.easycamp.com.tw/Store_2490.html",
+    "type": 2,
+    "disabled": 0,
+    "description": "六星級豪華南非狩獵帳，阿里山旅遊基地，全新阿里山露營首選阿里山旅遊基地，15分鐘到奮起湖老街，45分鐘到阿里山風景區設有六帳南非狩獵帳，提供人來就好的豪華露營新選擇適合首露族、三代同堂、閨蜜聚會與同學會的最佳選擇",
+    "address": "嘉義縣阿里山鄉樂野村2鄰86號(map搜尋晨光露營區即可)",
+    "latitude": 23.4640832,
+    "longitude": 120.7035768,
+    "comments": [
+        {
+            "content": "很棒的營地，上層前有一大片草地可讓小孩們放電，營主超隨和的",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2024/03/26",
+            "tokenization": ""
+        },
+        {
+            "content": "免裝備露營，簡單快速又方便",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2024/02/27",
+            "tokenization": ""
+        },
+        {
+            "content": "環境還不錯, 可惜蒼蠅有點多.",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2023/10/16",
+            "tokenization": ""
+        },
+        {
+            "content": "空間規劃寬敞，草皮也顧的很好，營主還貼心的開放採菜，太好玩了",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2023/08/15",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適乾淨。這次選擇上層，前面空間大，可以讓小孩自由玩耍，帳內環境舒服乾淨，一開始怕晚上變天會很冷，結果浴室熱水比想像中的熱，真是太好了",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2023/04/25",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美，浴廁乾淨，冬天有暖氣真的很舒服!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2023/03/02",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美，位置佳，場地管理者服務佳，唯一缺點熱水不夠熱，跨年遇寒流真的是太煎熬了~~~",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2023/02/23",
+            "tokenization": ""
+        },
+        {
+            "content": "願意再去第二次。不論是帳篷設施、提供的器具、衛浴設備都很棒！ 即使第一次去不熟悉路況，老闆都會耐心引導",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2023/02/21",
+            "tokenization": ""
+        },
+        {
+            "content": "營地的空間很大，浴廁很整潔舒適，洗手台旁就有垃圾桶，環境維護的不錯，當天還有去看螢火蟲，很棒的體驗。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2023/01/04",
+            "tokenization": ""
+        },
+        {
+            "content": "很不錯的狩獵帳。美麗的風景,狩獵帳很方便,非常適合想要體驗大自然卻又不喜歡搭帳篷的人",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/12/04",
+            "tokenization": ""
+        },
+        {
+            "content": "很讚的狩獵帳，風景優美、衛浴乾淨，鄰近風景區很方便。。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/10/11",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚營區。平日前往環境清幽，整體設備也維持得很好，下次必定回訪",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/10/05",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚的營區，很乾淨規畫很好",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/09/23",
+            "tokenization": ""
+        },
+        {
+            "content": "廁所非常乾淨,管理人非常熱心。在上排營帳,坐著觀遠山放空,心情愉悅,可惜夏天很熱",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/09/19",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人很好，需要什麼她都會盡可能幫忙尋找，待人也很和善，是很棒的露營區！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/07/29",
+            "tokenization": ""
+        },
+        {
+            "content": "親近大自然 空氣 帳篷都很棒。和家人第一次的帳篷旅遊 很棒 營主也很熱情 小孩有體驗一下採收玉米 很棒很開心！帳篷也很乾淨 很好睡 媽媽很滿意 小孩很開心！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/07/15",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳很舒適乾淨，基本設備也很齊全，上層空間感很大，浴廁也很大很乾淨。",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2022/07/06",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚的營區！！空間都很夠，衛浴也很乾淨！！已經去了兩次了，超讚。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/06/17",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很棒，整體乾淨，很適合一去。如果開車技術稍差一點的要小心開。整體環境很乾淨、水龍頭浴廁等很足夠，沒什麼大缺點。如果要看螢火蟲記得和老闆娘說一聲，她會帶你到附近地方看。整體來說很棒的體驗!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/04/22",
+            "tokenization": ""
+        },
+        {
+            "content": "小而美的溫暖營區。營主很熱心，有預定食材，在入營時就快拿給我們。營區雖然偏小，但晚上全部關燈可以看到銀河，是小而美的營區。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/03/13",
+            "tokenization": ""
+        },
+        {
+            "content": "非常愉快的一次露營~~風景好 設備也棒",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/02/09",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次體驗狩獵帳，該營地風景很美場地又好，沒什麼好挑惕的了",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服。停車 冰箱 都很近 方便",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/01/27",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗。浴室熱水很穩定",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/01/27",
+            "tokenization": ""
+        },
+        {
+            "content": "景有點可惜 但還是美。浴室非常乾淨",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/01/27",
+            "tokenization": ""
+        },
+        {
+            "content": "營地蠻乾淨的，空氣好，真的會讓人放鬆的一個地方，離奮起湖不遠，附近茶園環繞，不錯",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2022/01/10",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒，12月要再訪，很期待！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/11/09",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人很好。營主和工作人員都很好，環境廁所也打掃得很乾淨，但是我們運氣不好，第一次露營就遇到南山人壽某通訊處團體包帳(十二帳包八帳)，這群人完全無視營區規定，用麥克風大聲唱歌、超過午夜十二點還偷開熱水開關，洗澡大聲喧嘩，已經三次請他們小聲也是沒有用！直到半夜兩點後才安靜下來。其他帳的人都不用休息了！誠心建議如遇到團體包帳還是避開好了。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/11/06",
+            "tokenization": ""
+        },
+        {
+            "content": "廁所很乾淨，也很香無異味很讚",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/11/01",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱心親切，很值得回訪",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/10/22",
+            "tokenization": ""
+        },
+        {
+            "content": "營區空氣舒服，營友也很友善",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/10/19",
+            "tokenization": ""
+        },
+        {
+            "content": "頭一次遇到沒有暖氣的狩獵帳，真的很誇張。。因海拔有1000-1500到了晚上真的會冷，到半夜更不用説，冷到穿襪子睡覺。一問之下才知道原來上層只有一台暖氣，給我填的單子上面也沒有特別說這間只有冷氣，並沒有暖氣設施，真的讓我很失望。希望下次其它住客前請事先告知。",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2021/09/24",
+            "tokenization": ""
+        },
+        {
+            "content": "環境讚，老闆人超好!值得造訪~",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/09/16",
+            "tokenization": ""
+        },
+        {
+            "content": "謝謝通融帶一隻三個月大的法鬥一起入住",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/09/12",
+            "tokenization": ""
+        },
+        {
+            "content": "帳篷前腹地大。這次和台北親戚約好在此營區會合，大家都很開心，早上去看日出順便看神木，雖然有點遠，但營區環境很好，前面可以踢球、打球！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/09/06",
+            "tokenization": ""
+        },
+        {
+            "content": "無遮蔭~太熱了..........",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/09/01",
+            "tokenization": ""
+        },
+        {
+            "content": "如果有機會超想來第二次！。我們是8/29入住的！超棒得露營區！完全不認識老闆，但想幫營區平反一下，也分享給想來的露友，如果有機會超想來第二次！這裡營區不大，這裡上層下層各有六帳，我們這次住在上層第二帳裡面有冷氣，因為知道露營所，浴室明亮而且比起很多營區都很乾淨，空間也很大！冷熱水的水量也都很強，因為在熱門時間洗澡，所以多人一起使用時，水量可能會偶爾變小一點點，但是馬上就會恢復，所以不影響，總體洗起來是舒服的！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/08/27",
+            "tokenization": ""
+        },
+        {
+            "content": "原離塵囂的好地方。沒有附設遊樂設施，但相當安靜，當天沒有看到雲海，浴室很大乾淨有附吹風機",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服的環境讓人很放鬆...而且營主也很熱情且詳細介紹！！謝謝讓我們有個愉快且舒服的旅程跟體驗！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "辛苦了，提供我們這樣好的環境",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/05/06",
+            "tokenization": ""
+        },
+        {
+            "content": "營區場地不大，環境清幽，衛浴還蠻乾淨的。",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2021/04/22",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘熱情，營區乾淨舒適整潔！。絕對會二訪的露營區，老闆娘人很好，漏帶什麼東西，老闆娘有的就提供給我們，真的非常謝謝，這次入住後，已經在想下一次何時要再入住，營地10點後會有老闆老闆娘下來巡視並告知要降低音量，但很不幸運的當天隔壁露友非常吵，都已經12點了還是吵得很大聲，沒帶公德心出門真的很不ok！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/03/04",
+            "tokenization": ""
+        },
+        {
+            "content": "很用心的營地主人，帳篷，廁所環境舒適乾淨，車子可以直接停在帳篷旁，非常方便搬運行老",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/02/28",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆很友善，營區整體都很乾淨，很棒的第一次露營經驗",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/02/25",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的露營區。環境設施都令人感到舒適",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/02/23",
+            "tokenization": ""
+        },
+        {
+            "content": "整體環境維持的很乾淨，不煮食的情況下，只要帶換洗衣物就可入住，非常適合懶人又想嘗試露營的人~",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/01/26",
+            "tokenization": ""
+        },
+        {
+            "content": "環境乾淨、老闆親切、很適合親朋好友一起來玩",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2021/01/03",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適的營區，營主很nice，希望可以增設兒童遊戲區!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/12/23",
+            "tokenization": ""
+        },
+        {
+            "content": "那天天氣雖然陰雨路又再整修，但是老闆還是很熱情幫忙載東西到營區，隔天天氣也變的很好，環境乾淨舒適",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/12/02",
+            "tokenization": ""
+        },
+        {
+            "content": "營區的卡式爐建議要定期整修",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/12/01",
+            "tokenization": ""
+        },
+        {
+            "content": "營帳內設備齊全，有卡式爐與不沾鍋可做簡單烹煮，營區衛浴熱水充足，體驗相當良好。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/11/25",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨，空氣好，很適合泡茶放空的營區，晚上還會聽到蟲鳴叫，還能看到老鷹唷",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/11/05",
+            "tokenization": ""
+        },
+        {
+            "content": "營主老闆娘人很好很貼心。建議下層多設置一個飲水機",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/11/01",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘很親切！！。1.帳篷超大超舒適，東西很齊全2.浴室也大3.景色漂亮4.老闆娘超親切的5.優點講不完～給想來的大家自己來體驗！也會介紹給同事朋友來玩",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/10/03",
+            "tokenization": ""
+        },
+        {
+            "content": "優質的營區 親切的營主",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2020/09/28",
+            "tokenization": ""
+        },
+        {
+            "content": "位置方便 懶人福音。到那邊什麼都不用帶 簡單就可以達成露營目標 床好睡 不過要記得開除濕 晚上冷起來很可怕",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/09/21",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美，環境清幽，交通便利。營主非常親切客氣，浴廁也很整潔舒適，營地風景更是很棒，晚上都可以看到非常多的星星。可以很舒服的享受大自然。離阿里山跟奮起湖也不遠喔!!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/09/10",
+            "tokenization": ""
+        },
+        {
+            "content": "風景很美，地方很舒適。營主非常親切客氣，浴廁也很整潔舒適，營地風景更是很棒，晚上都可以看到非常多的星星。可以很舒服的享受大自然。離阿里山跟奮起湖也不遠喔!!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/09/10",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯乾淨，可是營友晚上到一點都還沒睡",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/08/23",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘很熱心，營區的浴室跟廁所都很大間又很乾淨，很開心的旅遊經驗",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/08/13",
+            "tokenization": ""
+        },
+        {
+            "content": "很貼心的老闆娘，在起大霧天氣的天黑後，關心尚未回野外小窩的我們！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/08/02",
+            "tokenization": ""
+        },
+        {
+            "content": "CP值高，住過就知道！真心推薦。山上景色空氣好，非常愜意很放鬆！營區(含浴室.廁所）很乾淨 ，熱水夠熱，接待人員和營主都很Nice。身邊朋友看到照片詢問度非常高，非常值得推薦",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/07/09",
+            "tokenization": ""
+        },
+        {
+            "content": "適合放鬆的好地點。營區管理很整齊、環境很舒適，值得推薦",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/07/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒的一個露營區。適合三代同堂家庭的好去處，營主夫妻很好客，還有蔬菜加菜。營區乾淨",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/07/03",
+            "tokenization": ""
+        },
+        {
+            "content": "很喜歡，很乾淨，服務親和，很棒的體驗",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/07/01",
+            "tokenization": ""
+        },
+        {
+            "content": "遇到下雨很幸運晚上有星空，冷氣很大台超讚。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/06/17",
+            "tokenization": ""
+        },
+        {
+            "content": "營主用心，各帳都有準備瓦斯爐，洗碗精也有。環境美，空氣好，星星滿天洗澡水有時會忽冷忽熱，需再加以改善此設施",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/06/15",
+            "tokenization": ""
+        },
+        {
+            "content": "CP超高。老闆娘人很好，廁所很乾淨，環境很舒適！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/05/28",
+            "tokenization": ""
+        },
+        {
+            "content": "營主夫婦超nice，營區很乾淨，住起來很愜意，浴廁大推~大間又超乾淨，很值得再去住唷!!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/05/27",
+            "tokenization": ""
+        },
+        {
+            "content": "環境整潔，營帳空間適中舒適，提供設備完整，推薦來訪～。上層區有冰箱及冷熱飲水機，營帳內附有冷氣、電扇，雖然雙人床位偏小，但帳內空間適中可再增加人數，客廳帳外有提供兩張桌子，並有附燒烤盤及三件組（鍋鏟、夾子及湯勺），浴廁整潔乾淨，老闆娘也很親切，有機會會再訪～",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/04/27",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆夫婦倆非常nice，推薦。交通方便路好開，營地環境很不錯很安靜，無光害晚上很多星星，廁所洗澡間跟洗菜垃圾區無時無刻都很乾淨，狩獵帳裡的被子枕頭均無異味，還可以現採老闆開心農場的菜來煮，已列入優質口袋名單中。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/04/21",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營環境，衛浴設備很乾淨，營帳床鋪很舒適",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/04/20",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營地，對於初次露營或是沒有帳篷的朋友來說，真的是很棒的體驗。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清幽非常放鬆。這次與三五好友出遊,總共預定了4帳,晚上大家一起煮東西聊天小酌,時間感覺變緩慢了,氣氛非常輕鬆開心,這次是住下層的狩獵帳,唯一缺點就是去廁所比較遙遠不方便,但廁所環境是非常乾淨的!!!建議如果有長輩的話,預定上層會比較方便唷!!!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/04/10",
+            "tokenization": ""
+        },
+        {
+            "content": "園區主人人超好。入住園區 還能免費體驗挖野薑、摘四季豆，而且通通可以帶回家，服務又很好，極推!!!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/03/28",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆、闆娘超級熱情親切！。旁邊菜園還提供自採不收費！！晚上立馬加菜！！真的很棒的露營區，超級推薦！！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2020/03/25",
+            "tokenization": ""
+        },
+        {
+            "content": "真心推薦給大家，老闆們很親切熱情❤️",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/12/20",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適的露營。帳數不多 很悠閒舒適的一次露營體驗",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/12/18",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適、乾淨、方便的露營區，老闆和老闆娘非常親切，值得推薦的露營區",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/11/20",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘熱情和善,設備完善。帳篷甚麼都有很方便,但如有行動不便的需要斟酌,因為浴室廁所需要爬樓梯.另外帳篷外面草地因為下雨有點泥濘要小心",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/11/13",
+            "tokenization": ""
+        },
+        {
+            "content": "適合全家一起放鬆的好地方 晚上星星很漂亮",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/08/12",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳設備很豪華，舒服乾淨，下次還會再來",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/08/04",
+            "tokenization": ""
+        },
+        {
+            "content": "豪華，舒適，5星級床很好睡!",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/07/01",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳設備很豪華，舒服乾淨，下次還會再來",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/06/29",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳太優了。帳內有冷氣，除濕機，只要帶人就可以入住，太方便了",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/06/10",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳太優了。房間有冷氣，除濕機，該有的都有，帶人就可以入住太方便",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/06/10",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳的配備很齊全且帳前草地空間很大，朋友的第一次懶人露營很滿意！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/04/27",
+            "tokenization": ""
+        },
+        {
+            "content": "對於第一次露營的我們留下了美好的回憶 有機會ㄧ定會再次造訪",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/25",
+            "tokenization": ""
+        },
+        {
+            "content": "景觀好，老闆好老闆娘好、熱水夠熱，唯一缺點廁所只有一邊要上廁所要走較遠。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/24",
+            "tokenization": ""
+        },
+        {
+            "content": "景觀很好，營帳寬廣，床很好睡，老闆和老闆娘超親切幽默",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/18",
+            "tokenization": ""
+        },
+        {
+            "content": "好冷的天氣，常常雲霧寥寥，但是、但是、老板夫妻很熱情很實在很好客。是很好的營地，新手容易得到需要的資源及資訊，老手會有溫暖的感覺，真的很值得。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/17",
+            "tokenization": ""
+        },
+        {
+            "content": "狩獵帳豪華舒適、設備齊全，營主夫妻很用心經營，提供我們良好的環境及乾淨的衛浴，期待下次回訪",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/16",
+            "tokenization": ""
+        },
+        {
+            "content": "環境好，老闆很客氣，值得來這放鬆",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/05",
+            "tokenization": ""
+        },
+        {
+            "content": "營主服務超好，場地保持超棒！建議可以多些景觀造景、或是親子可以同樂的設施，就完美啦！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/03/03",
+            "tokenization": ""
+        },
+        {
+            "content": "設備非常完善，環境優美並乾淨。老闆娘十分好客，鄒族歌姬",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/26",
+            "tokenization": ""
+        },
+        {
+            "content": "衛浴乾淨、可惜水溫不穩.營主人很親切.交通方便.狩獵帳更是優質.好睡的碰床可ㄧ覺到天亮。",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/18",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆老闆娘人超好，忘了帶沐浴用品還借我們使用。衛浴設備乾淨寬敞舒適。狩獵帳床鋪舒適好睡",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/10",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒，也很乾淨，地主人也很好～",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主 服務貼心。營區整潔。",
+            "type": 2,
+            "rating": 4,
+            "publishedDate": "2019/02/08",
+            "tokenization": ""
+        },
+        {
+            "content": "入住輕鬆，設備齊全，晚上燈全關下星星超多超漂亮",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱情、親切，帶老人家來泡茶聊天，風景好、空氣棒睡的舒服",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/06",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱情讓人倍感親切，夜晚星空星星滿滿、床好睡房間舒服，很棒的一露！",
+            "type": 2,
+            "rating": 5,
+            "publishedDate": "2019/02/06",
+            "tokenization": ""
+        }
+    ],
+    "comments_count": 102
+}

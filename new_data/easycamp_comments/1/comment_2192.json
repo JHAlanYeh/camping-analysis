@@ -1,0 +1,267 @@
+﻿{
+    "code": "2192",
+    "name": "景山露營區",
+    "region": "嘉義縣竹崎鄉",
+    "url": "https://www.easycamp.com.tw/Store_2192.html",
+    "type": 1,
+    "disabled": 0,
+    "description": "嘉義阿里山 親子團露首選景山露營位於嘉義竹崎，山巒環繞的阿里山風景區夏夜螢火蟲及豐富生態 適合親子互動體驗大自然開車15分鐘到奮起湖 ，45分鐘到阿里山",
+    "address": "嘉義縣竹崎鄉光華村2鄰23號",
+    "latitude": 23.4799944,
+    "longitude": 120.6729775,
+    "comments": [
+        {
+            "content": "營區空間大 有雨棚區,可以停很多台車。下次還會去",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2022/12/06",
+            "tokenization": ""
+        },
+        {
+            "content": "自由度高。營主熱情，衛浴乾淨熱水足夠。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2022/10/10",
+            "tokenization": ""
+        },
+        {
+            "content": "營地雨棚區很大、廁所可以、景色還好、沒啥設施，儘是前往阿里山的中途站，有點像無人管的營地。",
+            "type": 1,
+            "rating": 3,
+            "publishedDate": "2020/11/29",
+            "tokenization": ""
+        },
+        {
+            "content": "鄉間小路有點難開的小營區。除了視野不好(被一排樹擋住)沒休閒設施(就是個露營地)路很小條(小路上坡,無法會車)不然...雨棚區很大,附近唯一的雨棚區浴廁很乾淨(浴室有蓋屋頂,馬桶間沒有)有冰箱吹風機可使用雨棚區為碎石頭地適合下雨天的露營區建議13帳以下(雨棚8草地5) 其餘空間約還可停12台車",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2020/06/20",
+            "tokenization": ""
+        },
+        {
+            "content": "進營區的轉角 坡度較高 容易擦到車子的底盤 建議能 鋪平一點。營區已經新增冰箱了 方便了許多  每個營位也都有準備大型地墊 感謝營主",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/12/24",
+            "tokenization": ""
+        },
+        {
+            "content": "非常好。包場就是很好⋯⋯",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/12/09",
+            "tokenization": ""
+        },
+        {
+            "content": "悠閒體驗營。很不錯的營區。廁所非常乾淨。還有桌子椅子。很適合新手露營(^_^)",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/12/09",
+            "tokenization": ""
+        },
+        {
+            "content": "空氣很好，安靜清幽。有遊樂設施會更好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/10/21",
+            "tokenization": ""
+        },
+        {
+            "content": "當天晚到老闆主動聯絡，營地上方山坡可以看到對面山頭日出~",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/09/10",
+            "tokenization": ""
+        },
+        {
+            "content": "尚可。場地不大，滿帳時車要停到後面山坡上去浴廁間數多，但上方通風洗澡超冷",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/02/10",
+            "tokenization": ""
+        },
+        {
+            "content": "風景很美，環境很好很喜歡。路標指示可以清楚一點",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2019/01/26",
+            "tokenization": ""
+        },
+        {
+            "content": "營區上面有很大遍的農地可規畫親子採果還是採菜等活動",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/01/01",
+            "tokenization": ""
+        },
+        {
+            "content": "要往營區上面的坡道斗我真的很害怕營區雨帳超大非常棒但地板是用石頭半夜起來走路有點吵是否改成人工草皮",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2019/01/01",
+            "tokenization": ""
+        },
+        {
+            "content": "營主處理事情速度快，超讚。道路上的指示牌太小，容易走錯。浴廁很乾淨。草地區的插座需要延長線有點不便。營主很親切，處理問題快速俐落。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/12/31",
+            "tokenization": ""
+        },
+        {
+            "content": "超大雨棚就是讚。建議增設飲水機及冰箱",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/08/21",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營地。景色不錯，還有可以看營火蟲，建議有冰箱更好",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/06/02",
+            "tokenization": ""
+        },
+        {
+            "content": "營區離浴廁太近。延途指標不明，到了營區打聯絡電話三通，無人接，現場也無人服務，感覺是無人管營區。下次不會再去了。",
+            "type": 1,
+            "rating": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很乾淨  蠻不錯的",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/03/23",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨，營主人很好，有求必應。。晚上天氣好可以很清楚看到星星。離奮起湖、阿里山都不算太遠。附近也有很多露營地。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/02/26",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆和善熱心，雨棚區面積很大，不用擔心天氣變化，輕鬆搭營。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/02/23",
+            "tokenization": ""
+        },
+        {
+            "content": "能多一些兒童設施就更完美了",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2018/02/22",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆很親切，景色也很好喔！",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2018/01/10",
+            "tokenization": ""
+        },
+        {
+            "content": "衛浴的牆壁有點低，屋頂是開放的晚上洗澡有點冷。草地下的岩石有點多難下釘 老闆送了一盆番茄",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2017/11/19",
+            "tokenization": ""
+        },
+        {
+            "content": "空間、整潔都很好，營主待人也客氣，不錯的營地。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2017/09/30",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆很親切服務不錯，雨棚區很大，洗手台水也很足！。大致上還不錯！",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2017/09/24",
+            "tokenization": ""
+        },
+        {
+            "content": "小巧型營地，營地主人親切，螢火蟲季節賞螢好去處。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2017/09/24",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆很貼心，衛浴非常乾淨",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2017/08/26",
+            "tokenization": ""
+        },
+        {
+            "content": "營位很大，衛浴乾淨寬敞明亮。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2017/08/20",
+            "tokenization": ""
+        },
+        {
+            "content": "營區整潔，浴廁乾淨，值得前往。",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2017/07/24",
+            "tokenization": ""
+        },
+        {
+            "content": "貼心親切的營區主人,謝謝你",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2017/07/23",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆很好客氣，沒別人洗澡時女廁洗澡溫度穩定，空間頗大。上層有棚較適合山區偶爾下雨露營，免帶客廳帳。。放吹風機處無插頭，無鏡。草地草長較高。上下層距離近，易互相干擾。廁所無洗手台，要洗手得必需到隔壁浴室，廁所設計無熱水蓮蓬頭，若用它洗手，易噴濕衣服",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2017/07/16",
+            "tokenization": ""
+        },
+        {
+            "content": "非常適合團露，會想再次前往。。建議浴廁可以多一面鏡子",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2017/06/11",
+            "tokenization": ""
+        },
+        {
+            "content": "營主服務很棒。。草地區可以增加草皮厚度；營位均有專屬電力及流理台；前往營區的指標可以更醒目些；營區附近可以賞蝶，摘野生水果 ，孩子們很難忘。",
+            "type": 1,
+            "rating": 4,
+            "publishedDate": "2017/06/06",
+            "tokenization": ""
+        },
+        {
+            "content": "希望能多規劃一些停車位，熱水不太夠也不太穩定。",
+            "type": 1,
+            "rating": 3,
+            "publishedDate": "2017/04/06",
+            "tokenization": ""
+        },
+        {
+            "content": "營位不多但營地很大，非常適合包場的小團露，主人待客超客氣，附近有可看螢火蟲，離奮起湖又很近，值得推薦",
+            "type": 1,
+            "rating": 5,
+            "publishedDate": "2017/04/04",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘很熱心。浴廁熱水可以加強～不夠熱",
+            "type": 1,
+            "rating": 3,
+            "publishedDate": "2017/04/02",
+            "tokenization": ""
+        }
+    ],
+    "comments_count": 36
+}

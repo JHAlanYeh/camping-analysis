@@ -114,8 +114,8 @@ def asiayo_comment_crawler():
                     })
                 offset += 10
 
-        d["comments"] = comment_objs
         d["comments_count"] = len(comment_objs)
+        d["comments"] = comment_objs
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
@@ -130,16 +130,17 @@ def asiayo_comment_crawler():
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
     save_dir = os.path.join(dir_path, "comments_info")
+    os.makedirs(save_dir, exist_ok=True)
     file_name = os.path.join(save_dir, 'asiayo_info.json')
+    overview = {
+        "conform_type_1": conform_type_1_count,
+        "conform_type_2": conform_type_2_count,
+        "conform_type_3": conform_type_3_count,
+        "type_1_comments":total_type_1_count,
+        "type_2_comments":total_type_2_count,
+        "type_3_comments":total_type_3_count,
+    }
     with open(file_name, 'w', encoding="utf-8-sig") as f:
-        overview = {
-            "conform_type_1": conform_type_1_count,
-            "conform_type_2": conform_type_2_count,
-            "conform_type_3": conform_type_3_count,
-            "type_1_comments":total_type_1_count,
-            "type_2_comments":total_type_2_count,
-            "type_3_comments":total_type_3_count,
-        }
         json.dump(overview, f, indent=4, ensure_ascii=False)
 
 
@@ -307,8 +308,8 @@ def easycamp_comment_crawler():
                 })
             page += 1
 
-        d["comments"] = comment_objs
         d["comments_count"] = len(comment_objs)
+        d["comments"] = comment_objs
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(d, f, indent=4, ensure_ascii=False)
             print("save {file_name}".format(file_name=file_name))
@@ -324,6 +325,7 @@ def easycamp_comment_crawler():
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
     save_dir = os.path.join(dir_path, "comments_info")
+    os.makedirs(save_dir, exist_ok=True)
     file_name = os.path.join(save_dir, 'easycamp_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
@@ -516,6 +518,7 @@ def klook_comment_crawler():
     print("Total Type 3 Count：{}".format(total_type_3_count))
 
     save_dir = os.path.join(dir_path, "comments_info")
+    os.makedirs(save_dir, exist_ok=True)
     file_name = os.path.join(save_dir, 'klook_info.json')
     with open(file_name, 'w', encoding="utf-8-sig") as f:
         overview = {
@@ -594,5 +597,5 @@ if __name__ == "__main__":
     # asiayo_comment_tokenization()
     easycamp_comment_crawler()
     # easycamp_comment_tokenization()
-    klook_comment_crawler()
+    # klook_comment_crawler()
     # klook_comment_tokenization()
