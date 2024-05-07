@@ -1,0 +1,460 @@
+﻿{
+    "name": "拉哢露營地",
+    "address": "31141,311- 42號, 五峰鄉新竹縣",
+    "google_map": "https://www.google.com/maps/place/%E6%8B%89%E5%93%A2%E9%9C%B2%E7%87%9F%E5%9C%B0/@24.5756669,121.0828495,17z/data=!3m1!4b1!4m6!3m5!1s0x34685aaf08a9e2f3:0xa1499c12e4563d1!8m2!3d24.5756669!4d121.0854244!16s%2Fg%2F11ddx9z8jd?authuser=0&entry=ttu",
+    "latitude": "24.5756669",
+    "longitude": "121.0828495",
+    "type": 0,
+    "count": 64,
+    "comments": [
+        {
+            "content": "白蘭部落真的是一下煙霧繚繞，一下晴空萬里，雲海滿滿的地方     \"B區雨棚\"剛好正對著山  風景真的美，環境整潔乾淨 ，老闆老闆娘親切，很推的地方",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "我們因原本營區沒有雨棚區，去的當天下大雨，困在原先的營區！真的非常感謝拉哢營區的營主！當天營主因為家有喜事營區沒有營業！但實在可憐我們無處可去！則答應讓我們有棲身之地！🥹🥹🥹不斷聯絡我們關心有沒有任何問題！❤️❤️真的超級用心的營主！👍👍我們一定會在找時間再去找你們玩！🥳🥳",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "一個很舒服的露營地 值得讓人在回露 已加入最愛之一 謝謝營主的招待 值得推薦",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營區和廁所雖然不大 但是環境廁所乾淨 也很近孩子喜歡 也沒有很多蟲老闆娘和老闆都很客氣親切個人需求不同 對於這次我們很滿意 因為廁所進占很大優勢 如果可以建議的就是淋浴間再大些 孩子玩樂設施再增加",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營區雖然不大，但上下裝備很方便，廁所環境也可以，老闆娘很客氣，值得在來 風景不錯",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "如果可以0顆星的話我一定是給0顆，營主的態度真的很差，沒有人比「她」差勁了。",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "我們很大團，露營前已經說過會吵，所以我們要包場晚上10點要求我們小聲且要熄燈，垃圾桶給不足，卻要我們分類清楚，廁所衛生紙沒了，要我們自己去補，營主處理事情的態度還有很大的改善空間，知道經營不容易，大家都是能商量跟配合的，希望能再改進，不然枉費了一個好營區",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境好，設備齊全，視野好。浴室/盥洗室不太好，蒼蠅太多，冷熱水不穩定。而且品質也不好，所以給4顆星",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/06/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營位小、停車位小+不足，營主態度又差，BC區動線不良，上下裝備要爬樓梯，帳蓬進出要踩過別人家的帳蓬才能到達，雷🚫10點準時關燈，就算是包場一樣準時關燈沒得商量雷🚫雷🚫雷🚫雷🚫雷🚫雷🚫雷🚫雷🚫 …",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營地好小⋯沒有一次露營10點就熄燈的⋯感覺很差⋯⋯下次不考慮！千萬別再來！",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "溫馨可愛的小營區，老闆娘人超好，大推",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘親切，咖啡好喝！ 有機會再來度假！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "視野寬廣環境優美隱密性高是一個洗滌心靈的好地方",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色優美 老闆人很好",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "感覺舒服👍 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營區小而美，高海拔，景色美，天然冷氣關都關不掉，超適合夏天，當晚也很幸運看到流星，謝謝熱情營主告知。👍 …",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "夏天避暑好地方",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營主沒在管理....",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "蟲多的誇張還沒熱水",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "難得的高山住宿體驗，謝謝營主熱情款待！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "✅內附設營本部❗️✅山路曲折蜿蜒❗️✅營區景觀優美❗️✅鳥語花香宜靜❗️✅景色非常優美❗️✅單飛團露皆宜❗️",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "夜間照明不足（10點後公共區域熄燈）去廁所看不到路線，雨棚區無停車位，且雨棚區入口處有一落差，不適合開房車之露友(同行的露友有人車子差點刮底盤)，浴室為乾溼合一設計，且只有2間",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "未經同意私自搬移冰箱內食材，想省電我沒意見，可以只開一台冰箱。但是由我們自己拿取搬移可以嗎？這是一種禮貌跟尊重",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱情招待，環境乾淨且感受到民宿用心佈置，重點棉被蓬鬆感（沒有霉味），讓我們一覺好眠😊 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘服務親切，房間乾淨，早餐現作蛋餅，雞米花，豆漿，咖啡，甜柿，來不及拍照就被搶光。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "慶幸在疫情前，最後一次去的露營區在【拉哢】海拔1200的好風景，這季節剛好是繡球花，根本不用去陽明山賞花啦！因為今年旱災，螢火蟲好晚才有，很幸運的是，營主說我們這週剛好是螢火蟲最多的開始。營主夫婦人都很好，有提醒10點會關雨棚區公共燈，如果10點過後有需要都開著也可以提前告知，但我們是主動要晚上不要開，因為滿天星空真的太美了！還有自己種的草莓，因為在高山所以到五月初都還有，也跟我們說可以帶小孩去採草莓，因為都沒農藥剩不多，果然超級甜啦！也有自己養雞！但不可能讓我們抓啦😂下次有機會還會再來，營主夫婦不是很商業化的經營，感覺就像朋友來這住！感覺很棒！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親切",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很小巧的營區，環境乾淨，1樓的浴室太小",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適，老闆親切，有機會會再訪！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆．老闆娘服務很親切。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這地方不錯 停車基本上也在旁邊風景真的很讚老闆娘人很親切！ 👍 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很好，天然的草木，空氣清晰又安靜老闆和老闆娘很好客！👍 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "寢具乾淨舒適，老闆娘招待的早餐好吃。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "晚上10點硬性關公共區域的燈，卻要人自備燈光，衛浴設備少，停車難",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營主夫妻很親切，我們還沒起床就先幫我們準備美味早餐，值得再訪",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "夜間照明不足，小朋友去廁所看不到路線。雨棚區無停車位。",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "天氣涼爽， 環境乾淨",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "難停車，衛浴少，老闆規定沒彈性，十點熄公用燈，缺乏安全感，雨棚區擋不住雨，露營的心情很難形容",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "10點熄燈 禁止一切媒體行為  公設沒有燈光 沿路行走有一定的危險性造成不便。老闆娘態度強硬 沒商量空間，不會再來第二次⋯ 出來遊玩就是放鬆 那麼早睡 禁止一切活動 在家就好了 別出門了。停車 BC區落差過大不適合房車，會卡車底。環境還不錯 就這些缺點⋯10點前睡的老人 可以考慮。給予3星評價⋯很掃興的露營⋯",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "限制太多！晚上10點就把公用燈關掉，很怕上洗手間小朋友會摔倒！營主講話也很不客氣，神出鬼沒的！搞得像當兵一樣，花錢是來放鬆，不是來繳錢，調作息的！完全不推，不可能再來第二次了！",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "10點關公共區燈太扯了",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘很親近，營區很乾淨，屬於小營區",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘還帶我們做附近的植物介紹及diy小盆栽，蠻不錯的",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "上層營地，底盤低不建議上，裝備用手搬上較好",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘待人親切，會帶一同露營的小朋友享受及認識大自然給予的美好。因為有額外做竹筒飯，在開飯前還會帶大家玩竹竿舞～很開心！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境還不錯，老闆娘 老闆人都不錯！快到時路很小 開車要小心 中午後容易起霧",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "夏日避暑勝地，缺點是衛浴較少",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "值得再次前往，但是沿途標示不明顯，可以再改善。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "棒棒棒棒棒棒棒棒",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很漂亮的地方，老闆老闆娘親切風景美，環境整潔乾淨還會推薦私房景點，推👍🏽 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯的露營區，附近可以看夜景，天空星星點點",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆的首次包棟，獻給我們，結果老闆夫妻睡帳篷，老闆娘愛烘培有烤箱，喜好烘培建議來此。老闆娘會帶夜遊，認識部落植物。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "高山空氣新鮮，晚上可看到一整片星空，老闆娘親切、熱情，露營區的佈置精巧可愛，可看出營業者的用心跟良好的態度，住宿餐點也多樣化又美味，時不時會舉辦一些活動，尤其是在有節日的時候，適合全家大小一起遊玩，是個很不錯的好去處！！！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "剛開幕兩年的新營地，主人非常友善。抵達的路122線不難開，可以在竹東市場吃飽再購物上山露營⛺️。環境乾淨整潔，每個營地都有2個插座，無收訊但提供網速不錯的wifi，不用怕上山失聯。浴室熱水很熱恆溫，提供沐浴乳、洗髮乳及吹風機。美中不足是只有兩個廁所兩個浴室，且只在A區碎石營地。人多時，晚上主人會開放家中浴室給客人洗澡。除了露營區，也有套房、雅房跟通舖。通舖為和式房$600/人，提供給想露營又不太適應帳篷生活的新手。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆們人很好👍營地乾淨 清幽～ …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆，老闆娘超親切熱心，我們到的時候，大家餓著肚子開始準備午餐，老闆娘拿出已煮好自種的玉米，讓大家一下子活過來了",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆夫妻很友善!!場地設備還可以!!算是小型露營區!!分成上下層露營區，所有衛浴設備都在下層!!上層露營的朋友可得走遠些!!不過上層露營區景色比較好!!因為下層的景都被竹林擋住看不見遠方!!民宿部分很乾淨!!只可惜水壓不穩洗澡時有可能洗到冷水!!希望大大們去露營時老闆已經改善這情況了!!",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "謝謝老板娘熱情招待",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "空氣清新，環境優美",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚！",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆跟老闆娘很熱情也很好客，但~廁所跟衛浴設備較少",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "高海拔，觀星避暑聖地，8/12來巧遇流星雨，火流星在眼前爆炸！老闆娘熱情好客！衛浴乾淨！",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "新營地~略小~硬體可再優化~雨棚區洗手台會淋雨~老闆優~可看螢火蟲~山嵐",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "迷你型營地~但應有盡有，營主夫妻很貼心，讚！",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2017/05/07",
+            "tokenization": ""
+        }
+    ],
+    "phone": ""
+}
