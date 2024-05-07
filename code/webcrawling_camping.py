@@ -2,6 +2,12 @@ import requests
 import json
 import os
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def asiayo_crawler():
@@ -196,7 +202,43 @@ def klook_crawler():
     print("==================== End Klook Crawler ====================")
 
 
+def kkday_crawler():
+    print("==================== Start KKday Crawler ====================")
+    url = "https://www.kkday.com/zh-tw/product/productlist?page={}&city=A01-001-00002%2CA01-001-00010%2CA01-001-00009%2CA01-001-00012%2CA01-001-00006%2CA01-001-00001%2CA01-001-00008%2CA01-001-00014%2CA01-001-00017%2CA01-001-00018%2CA01-001-00003%2CA01-001-00026%2CA01-001-00005%2CA01-001-00013%2CA01-001-00004%2CA01-001-00007%2CA01-001-00011%2CA01-001-00015%2CA01-001-00016&keyword=%E9%9C%B2%E7%87%9F&sort=prec"
+    
+    
+    browserOptions = webdriver.ChromeOptions()
+    browserOptions.add_argument("--start-maximized")
+
+    user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+    browserOptions.add_argument('--user-agent={}'.format(user_agent))
+    # browserOptions.add_argument("--headless")
+    browserOptions.add_argument('--mute-audio')
+    # INFO_0 / WARNING_1 / ERROR_2 / FATAL_3 / DEFAULT_0
+    browserOptions.add_argument("log-level=3")
+    # ****************************************************************************** #
+
+    dir_path = os.path.join(os.getcwd(), "new_data//camping_region")
+    file_name = os.path.join(dir_path, 'camping_kkday.json')
+    f = open(file_name, encoding="utf-8-sig")
+    camping_area_objs = json.load(f)
+    new_obj = 0
+    page = 1
+    while True:
+        browser = webdriver.Chrome(options=browserOptions)
+        wait = WebDriverWait(browser, 20)
+        browser.get(url.format(page))
+        
+        print(browser.title)
+        print(browser.current_url)
+        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".product-listview > a > .row")))
+        campings = browser.find_element(By.CSS_SELECTOR, ".product-listview > a > .row")
+        print(len(campings))
+        break
+    print("==================== End KKday Crawler ====================")
+
 if __name__ == "__main__":
-    asiayo_crawler()
-    easycamp_crawler()
+    # asiayo_crawler()
+    # easycamp_crawler()
     klook_crawler()
+    # kkday_crawler()
