@@ -1,0 +1,5346 @@
+﻿{
+    "name": "天ㄟ露營車",
+    "address": "269宜蘭縣冬山鄉大埤二路75巷1號",
+    "google_map": "https://www.google.com/maps/place/%E5%A4%A9%E3%84%9F%E9%9C%B2%E7%87%9F%E8%BB%8A/@24.64551,121.7305311,17z/data=!4m9!3m8!1s0x3467e727bb2d6b19:0x52f0ff6a328a4af7!5m2!4m1!1i2!8m2!3d24.64551!4d121.733106!16s%2Fg%2F11dfgm44zc?authuser=0&entry=ttu",
+    "latitude": "24.64551",
+    "longitude": "121.7305311",
+    "type": 0,
+    "count": 762,
+    "comments": [
+        {
+            "content": "隔音很好 服務員也很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/05/05",
+            "tokenization": ""
+        },
+        {
+            "content": "天ㄟ一直是我的口袋名單環境真的很舒服放鬆下次還會想再來！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/05/01",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服、環境清幽適合帶小孩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很好，小孩很喜歡💕",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適床好睡，環境乾淨，晚上還有露天電影院及烤棉花糖，小孩玩得很開心❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗，又能接近大自然，重要的是還能跟寵物一起住，也有提供滑步車跟泡泡讓小朋友玩，真的是太棒了，是親子寵物非常友善的地方，服務人員也很熱情，非常推薦💯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "位於梅花湖畔，坐擁絕佳美麗湖景，園區乾淨，寵物可入住，需加600元清潔費和押金1000元。每台露營車旁都有專屬的休憩空間，大大的圓型沙發，坐起來很舒服可以和家人朋友在這裡聊天賞景。露營車前有大草皮和外面車道有隔開，狗狗可以安心在這散步。園內報到區每天15:00~20:00有提供免費暢飲的飲料很不錯，但早晚餐都普通。比較讓我驚豔的是，露營車的隔音做的非常好，半夜帶少爺尿尿，才發現外面蟲鳴鳥叫，外加不知名的野獸叫聲好恐佈在車內居然完全聽不見吔～～太優秀。缺點是～戶外蚊子真的又大又肥，防蚊液要噴好噴滿。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "非常舒服的營區，有很大的戶外空間可以給小朋友玩，旁邊還可以騎腳踏車環湖唷！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "這已經是我第三次來天ㄟ，包場兩次。非常適合小孩同學包場1.服務人員專業熱情2.露營車舒適新穎3.晚餐外燴好吃4.景色怡人5.場地安全舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的住宿體驗，歡迎大家來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "房間舒適服務人員都很親切唷",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "小巧舒適，服務親切，貼心準備小孩的小玩樂物！環境清幽，重點，寵物友善！大推👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適的環境～可以放鬆自己！寵物也可以開心活動～很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "小木屋很舒適～餐點多樣好吃 兌換的泡泡遊戲很好玩～下次還會再來👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "太舒服的懶人露營了🥹🥹還有早餐可以享用而且居然就在梅花湖附近,一早睜開眼往外看就是湖,太幸福了💗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "我們這次住的是藝文小木屋環境很好 View也不錯晚上烤棉花糖與播電影的活動也很棒去騎了環湖電動車小孩很開心早餐與晚餐口味比較清淡 70分吧！有許多寵物蟑螂 櫻桃色 挺特別 外邊一隻好像150元 這裡木樁夾縫內有不少 密集恐懼的人可能會嚇死 我跟小孩看了是覺得有趣 老婆就….. 晚上是牠的覓食時間就到處亂爬，不小心還踩死了一隻⋯⋯阿彌陀佛！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "很乾淨很舒服的環境 床也超級舒服一個女孩叫蚊子超級熱情啦～～～～退房時主動問我們要不要幫我們拍照我的天暖到心坎天ㄟ露營車推推！！！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "房間有夠舒適的啦受不了躺下去瞬間秒睡服務人員也都親切到不行！！蚊子這女孩超級熱情❤️主動幫我拍照是會下次再回訪的空間～～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服放空親子好去處～☺️讚👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/30",
+            "tokenization": ""
+        },
+        {
+            "content": "很愜意的環境",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/23",
+            "tokenization": ""
+        },
+        {
+            "content": "很chill",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/23",
+            "tokenization": ""
+        },
+        {
+            "content": "CP值超高非常推薦的簡單露營好地方晚上還可以探險超適合親子",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/23",
+            "tokenization": ""
+        },
+        {
+            "content": "天ㄟ露營車，融入大自然！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "店員好帥😍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美，舒適，店員友善",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "幸運訂到天ㄟ的露營車～住宿很舒服，環境很棒還寵物友善🥰很棒的體驗，下次還會想再來！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "地點幽靜、漂亮，車內環境乾淨，很推薦全家來玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "服務跟設備都很棒，我們住的是露營車，可惜的只是在湖邊第二排",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "想著好久的露營車，終於來了！！整體感受的超滿意，還有泡泡體驗，好好玩❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "泡泡很好玩～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "服務好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "床睡起來舒服，房間乾淨，不錯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "整理的很乾淨很漂亮，園區還有很多可愛喵喵",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/16",
+            "tokenization": ""
+        },
+        {
+            "content": "挺舒服的，蚊蟲在可接受的範圍。已準備安排下次的行程了，希望能住不同的位置，體驗不同的感覺。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/09",
+            "tokenization": ""
+        },
+        {
+            "content": "二訪天ㄟ，裝修前後剛好住到同一間，兩次都睡沙發床，以前的沙發床比較好睡，不知道跟椅(床)套有無關係，新的太軟了，睡到比較靠邊的地方，會滾下去😆這次去有一隻親人的浪貓，會一直跟著人，很怕不注意會一起進房，加上個人有點怕貓，晚上出房間都很心驚膽顫😅也沒有享受到本房的戶外空間🥲但喜歡貓咪的朋友一定覺得很可愛☺️然後…早餐的部分有點失望，第一次因為自己吃美式，朋友們都説中式好吃，也嘗過幾口，所以這次選了中式早餐，但跟上次印象有落差。這次除了早餐之外，其他體驗都不錯，工作人員也都很親切👍🏼👍🏼",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/09",
+            "tokenization": ""
+        },
+        {
+            "content": "這裡露營車乾淨舒適，適合來放鬆～ 服務人員都很親切熱心，讓人感覺很愉快👍🏼",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/09",
+            "tokenization": ""
+        },
+        {
+            "content": "這邊真的是很適合放鬆悠閒渡假的地方，鄰近梅花湖的湖景第一排的風景映入眼簾，真的有一種好好放鬆休息的充電感🤩實際的感受一言難盡，非常推薦大家來這邊親身體驗看看👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/09",
+            "tokenization": ""
+        },
+        {
+            "content": "價位合理，空間也不錯，還以貓咪們很悠閒整晚睡我們外面沙發上很可愛",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "遊湖好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "咖啡廳超棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "週邊環境很棒而且住屋很乾淨，餐點好吃",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "像家一般親切舒服的住宿體驗服務親切👍飲料也很好喝還有可愛的貓咪🐱",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超好玩的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "硬體設備可以增添一些，增加一些活動或是自動販賣機。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "空氣好，在湖邊很愜意，露營車滿乾淨的，床好睡，還有結紮的貓貓跑來跑去，超可愛。店員態度都很親切，可惜沒戴口罩邊聊天邊做飲料，如果戴口罩真的很滿分💯加購的晚餐-主食不錯吃，但菜是冷的，湯是溫的，飯表面是硬的，天ㄟ加油喔！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "宜蘭·湖景露營車天窗日照自然喚醒 卻沒有露營帳棚的炙熱露營車內部擁有獨立乾濕分離的衛浴系統手沖咖啡還有泡茶組 點心吧更令人滿意我喜歡迎賓飲料～時段內還能暢飲早餐也分為中/西式 可選擇🍽️整個園區不難看出整理的很用心花草樹木以美麗姿色綻放 野貓很愛來玩耍露營車門外的私人發呆亭 我超級愛～空間大 也和隔壁鄰居有一段間隔重點這裡也是寵物友善唷一家老小都很適合來這裡慢活🫶🏼🚗269宜蘭縣冬山鄉大埤二路75巷1號#宜蘭 #梅花湖 #露營車 #懶人露營 #湖景露營#宜蘭民宿 #宜蘭露營車 #天ㄟ露營車",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美氣氛佳，服務人員都很熱情",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很不錯的露營車！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服可愛的地方～有機會會再次光臨～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務態度超好、房間整潔乾淨、乾溼分離很讚，還有免費玩泡泡很喜歡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這次是住在梅花湖旁邊的小木屋，這裡很平靜、空氣很好，附贈的早餐很好吃😋整體體驗很好，下次還想來！ …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來好多次了 還會再來玩🤎🤎",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點好環境佳，服務人員親切會再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第二次來到天ㄟ感受又不一樣了，露營車有重新整修過，更加舒適美好，跟朋友一起來玩超級有趣，餐點都很吃推薦❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色優美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "氣氛很好服務佳很適合放鬆！👍🏻👍🏻👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點很棒直接看的到梅花湖房間好的床也很好睡還有很多可愛的貓貓會來建議愛貓人士可以多帶一些罐罐",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點很清幽、床很好睡、很放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖畔旁很美的小木屋和露營車，很棒的體驗！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點環境很讚很舒服風景很美服務也很讚很推薦大家來玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很舒服～服務態度很很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車外面就是湖景、樹景，很美，氣氛清幽，非常適合放鬆的地方，也可以帶寵物哦！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車乾淨舒適、環境美，愜意放鬆的地點！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很舒適 推推",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "2024 03 04 選擇入住天ㄟ露營車的房型★平日價格$4,700，以露營車來說CP值非常高！★攜帶寵物的話一定要提前和工作人員說，一隻寵物加費$600★有提供早餐(中式或西式)、迎賓飲料(可續杯)、以及晚上烤棉花糖的活動。★早餐分量很多，咖啡也非常好喝！更喜歡這邊的中式早餐！★房內有提供沐浴乳及毛巾，無提供一次性盥洗用具，要自己攜帶喔！★房間非常乾淨，沒有潮濕的味道，而且窗戶打開就有梅花湖映入眼簾，非常適合拍美照！★ 店員親切友善，都會詳盡解說注意事項以及附近有哪些景點！這次露營車體驗非常棒，這邊真的地點非常棒，早上建議可以租借電動車環梅花湖，太陽灑在湖面上真的非常漂亮！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間乾淨寬敞，服務人員親切👍要再來哦！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好舒適的大自然",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間很舒服 風景很漂亮 員工都很好 超級好拍照",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚讚很漂亮",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美，寵物友善",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住宿體驗好，餐點可以再加強",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服，美好體驗，值得推薦",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/04/07",
+            "tokenization": ""
+        },
+        {
+            "content": "👋 Visit 2024.1✓有三種房型可以選擇。露營車、小木屋、帳篷。✓房內有提供棉被、洗沐浴乳及毛巾。無提供牙膏牙刷、室內拖鞋，以上須自行準備。✓chekin後下午有提供午茶券，飲料可續杯，但必須空杯用盡再續一杯，餐點使用完畢必須自行送回。✓晚上雖有供參，但羅東夜市美食太多太誘人，沒吃飽可以逛夜市再吃一波！✓有提供中、西式早餐，份量很多！早餐可於餐廳內享用，或是自己帶回房間用，就自己端去端回，飲料續杯也是空杯兌換。拿回房間拍照用餐也比較chill！✓這裡有幾隻非常溫馴的貓咪，任遊客摸陪玩拍照。✓晚上某一時段，還有烤棉花糖。隔天早上某一時段，也有玩泡泡活動，很適合親子一起體驗的活動。✓園區整個佈置算蠻美的。定點處都有提供防蚊液供遊客使用，還好偏冷時去的，沒什麼蚊子。✓整體是來享受這露營車的氛圍，床鋪上方有透明窗戶可開啟，起床時可以躺在床上欣賞天空。如是想要要飯店式模式都有人幫忙用到好，那這邊就沒這樣規格！所以當體驗露營車、帳篷住宿這邊是還不錯！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖很漂亮 小木屋很舒服 👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次體驗露營車，有很親切服務人員，還有可愛小助理喵，很棒～自己體驗😊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務跟環境都很好 貓咪超可愛🫶🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美，開窗藍色植物、優美湖景晚餐好吃、服務好會再度訂房。這次住小木屋,希望下次幸運訂到露營車😊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "感謝天ㄟ露營車的一切讓我惡化的憂鬱症好轉許多一切大自然和山水的沐浴以及天ㄟ用心經營的所有最讓我意外的是一進去露營車內真的超級無敵乾淨!!!!!!!而且這裡是寵物友善，可以帶貓狗甚至鸚鵡竟然還能提供這麼乾淨舒爽的房間給下一位客人一進去就像旅館一樣的舒適放鬆而且房內付的餅乾超級無敵好吃完全不會因為是露營區就敷衍冰箱也有很多瓶水還有快煮壺、除濕機，甚至還有超軟雙人沙發床和純潔白色雙人床喔喔對還有一大台液晶電視可以看廁所乾濕分離，外面又有一個玻璃拉門水壓超強又超溫熱還是要再說一次真的超級乾淨吹風機不是那種按壓式的直接屌打很多汽旅或商旅冷氣超涼超棒所有門窗都有窗簾，非常有隱私還有天窗可以躺著吹冷氣看天空如果天氣好就能看到星星也超喜歡車外的大沙發床和椅子還有桌子那個像是個人庭院的地方真的好適合好幾車的朋友聚集在一起吃吃喝喝重點人員都超級溫柔親切外面也有提供防蚊液，蚊香蚊香台是一隻可愛的貓咪喔對這裡超多貓咪，希望大家帶來的狗狗不要欺負可愛的貓咪們哦真的好喜歡好喜歡這裡喜歡到我興奮的打一堆評價一定漏掉好多超讚的小細節沒打到啊，早餐也好好吃哦最喜歡那個嫩煎滑蛋和那個沾蛋液去煎的麵包生菜沙拉連我男友不愛吃菜的都說好好吃還連吃三份培根有點太乾太硬但其他都好好吃好吃到我自己準備了夾鏈袋包走麵包和滑蛋(因為還要趕下個行程)但最後因為行李超重所有只好忍痛把打包好的丟掉了(對不起😭)現在好想念那些嫩蛋和麵包(怎麼弄得那麼好吃啊？)真的真心謝謝天ㄟ露營的全體人員讓我們這一群朋友Chill在一起抒壓放鬆你們簡直是一群職業抒壓師！提供的所有一切真的非常感恩，真的謝謝有你們，我們這群會想要再去很多次！之後再麻煩您們了♥現在就開始想念你們了😭",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住宿經驗很棒，水量很大溫度很熱，很悠閒放鬆的節奏，下次還會帶朋友來。附近生態也很豐富，有看到山羌跟不同種的鳥類很喜歡～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很溫馨的園區～旁邊就是梅花湖也很可以放空散步走走。非常適合慢活！房間超乾淨、人員都很年輕很親切！下次會在來訪～一百分",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美內裝很舒適值得二刷還有附泡泡玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "人員服務態度👍還有親人可愛貓咪喔❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適乾淨 人員親切有禮很棒的體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "和上次在南庄露營車的體驗天差地別,吃、住、附近遊玩的方便性、設備等等,都讓人非常滿意.很開心過年帶家人過來有個很愉快的露營車體驗.1. 位置很好, 就在梅花湖旁邊, 從露營車窗戶往外看就可直接欣賞湖景.2. 露營車門口有舒服的沙發和兩個小椅子, 非常適合吃下午茶休息.3. 有許多已經結紮處理的親人浪貓到處漫步嬉戲, 推薦給喜歡貓咪的人, 看貓咪在草地追逐很療癒.4. 距離渡船頭與攤販路程走路約5分鐘, 方便去買吃的但也不至於過於接近而非常吵雜.5. 服務員態度良好、環境講解也很仔細.6. 餐飲非自助吧, 為每個人的套餐模式, 晚餐推薦牛肉炒飯.7. 海鮮燉飯份量偏多, 推薦給食量偏大的人.8. 露營區、停車場和餐廳都很近, 移動方便.9. 露營車內外設備乾淨整潔.10. 露營車天窗晚上睡覺時還真的看到了星空.唯一不可避免的問題就是要蚊子,園方雖然有隨時提供蚊香但還是自己要做好防護, 冬天的時候去的就有不少蚊子了, 夏天去的時候應該會更需要注意.",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很多好玩的童玩姐姐和弟弟玩的不亦樂乎～～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "面對湖景的美麗露營車如果不是這麼搶手 真想每次經過都住這裡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適 服務和善",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這次入住露營小木屋-達文西房，一進房就是滿滿的公廁味，後來發現疑似旁邊就是化糞池，整晚連睡覺都聞得到，完全沒辦法開窗開門；晚餐，我們分批去吃，卻被告知沒辦法，最後就只能一半外帶一半內用，感受沒有很好，海瓜子吃起來沒有很新鮮，早餐口味也不予置評，排除這些，我覺得地點設在梅花湖還不錯、蠻悠閒的，還有泡泡活動和露天電影院、烤棉花糖，但不好的感受大於美好，以價位來說沒有等值，希望可以改善。",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服放鬆的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間整潔 環境優美 推推👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚 舒服",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次入住，整體很不錯，服務周到，好評有小禮物",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆悠閒的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚的露營區👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務超級友善，行前說明也很清楚，園區內活動也豐富可以跑棉花糖，重點熱水器跟水壓很夠力",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好玩～很棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美服務很好，很棒的露營經驗！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "裝飾簡體字的春聯是對於環境多不介意，整體體驗細節都不太注重，餐點尤其混水摸魚。———- 回覆補充內容———-冷氣有開時聲音超大。進房時濕氣味道很重。戶外沙發上都是貓腳印。下午茶點心是喜餅那種餅乾少少幾包。春節裝飾不挑的使用簡體字小春聯。海鮮食材腥味超重。以上作為對於一晚五千左右住宿旅遊的實際體驗補充上方的評價。",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2024/03/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間乾淨 環境舒適 此次體驗很棒👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "體驗很棒 可惜天氣不太好🥺 房間住起來很舒服 晚上還有露天電影院跟烤棉花糖 服務員熱心又友善🥰",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員親切、整體體驗很讚！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員態度和藹親切，環境風景宜人，適合所有年齡層的人來體驗。晚上可以邊烤棉花糖邊看影片💓還有泡泡體驗卷，可以兌換！！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "悠閒舒適!很棒的地方！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適的環境！來了有度假的感覺！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好天氣 很有度假氛圍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "園區很乾淨，房間也很舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗！小孩很開心！下次還要再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服漂亮 人員親切！小孩開心 拍照漂亮",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景點好點心👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "東西很好吃服務：5地點：5",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這裡真的是個很棒的地方，世外桃源，來了三次還是意猶未盡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很美，早餐、晚餐都好吃，服務六星級！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "設施完善體驗良好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適 風景宜人 景色秀麗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常適合帶小朋友來旅遊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很美，房間乾凈漂亮小孩玩的很高興",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美，氣氛佳，睡得舒服，被被暖暖，不怕寒冷",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境美、服務佳！舒服又舒適！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間設施很舒服！附的早餐也好吃！風景很讚！還有貓貓們o(≧v≦)o",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "冬天的落羽松很美，露營車很舒服，泡泡圈圈很好玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "小木屋很舒服，天上很多星星，很適合放鬆的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "寵物友善，環境舒適，早餐好吃！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "給五顆星都不夠！舒適的環境可以好好放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間設施很好，住起來很舒服員工很親切貓貓很可愛在草地上玩泡泡非常快樂下午三點至晚上八點提供多種飲料很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "三星的設備服務五星的收費不推",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服而且落羽松真的很漂亮🤩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒緩的位置，友善的員工，很棒的早餐選擇和非常樂於助人的工作人員⭐️⭐️⭐️⭐️⭐️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營區照明很好環境清幽櫃檯提供的迎賓飲料很棒也很適合玩泡泡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很愜意的地方❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/02/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車空間很大很新，整體服務很棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "雖然沒有住，只有去喝咖啡，但是整體環境很不錯，可惜一個吹樹葉大哥吹了整整一個小時，沒辦法好好喝咖啡，不然享受清靜的感覺很棒",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員都很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超可愛的貓",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住了以後，感覺跟期待有落差1.首先叫做豪華露營車，但是我們住的那間地板竟然有處是隆起的..冷暖氣也有異音聲，房間門是密碼鎖的但是非常難關上2.鄰近梅花湖，但都沒送腳踏車券跟遊湖券，要去還得自掏腰包去3.入住還得先繳押金1000，退房還得等你們檢查完，才能退房，我們都買房脫離租屋許久了，竟然一度又重溫租屋生活的感覺平日去一晚已經要價4700，假日應更是昂貴，覺得CP值不高，而且不能選露營車說完缺點，來講優點：1.房內設備看得出有用心，TOTO的衛浴，床也是用蠻好的比佛利名床2.雖然沒有遊湖跟腳踏車券，但因有泡泡券跟烤棉花糖蠻特別3.外部沙發區很chill,飲料可以免費點（這點覺得很不錯）",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住C2露營車，乾淨整潔，但最大敗筆是「冷暖氣」，這次入住好死不死遇到下雨+寒流，體感僅有9度，開了「冷暖氣」但「噪音」是那種吵到會讓人無法入睡的程度⋯（不然我不會在6:09分打這篇評論，因為真的吵得我無法睡⋯）",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "寵物友善👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "園區氣氛很好，還有下午茶飲料喝到飽，小朋友晚上還可以烤棉花糖，還有泡泡水跟滑步車.童玩可以玩，露營車的設備還不錯，馬桶ToTo,冷氣是大金的，餐廳餐點也不錯吃，可以懶人露營！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常舒服的地方，平日來很安靜",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車設備很齊全 住起來很舒適 很棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境不錯，很適合親子出遊。但比較傻眼的事入住當天整個都是化糞池的臭味，連房間裡也瀰漫著味道，實在無法入睡。工作人員的服務態度可圈可點，算是彌補了硬體上的扣分。其它部分都不錯，希望臭味的問題可以得到妥善解決！",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境美，餐點不錯，服務人員親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常好的住宿體驗一定會再二訪！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境非常乾淨舒適❤️景很美～還會想再來喔！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆又超棒的露營區，已經三訪了～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "大人小孩放鬆放電的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "蠻棒的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車非常的乾淨住起來很舒適，有冷暖氣的設備帶寵物去的話也可以在草地上跑跑旁邊就是梅花湖非常的漂亮，早餐和下午茶都非常的好吃，非常適合一家大小親子同行或是寵物一起來同歡的場所👍👍👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服 悠哉 很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2024/01/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員態度非常親切！五顆星不夠呀！應該要10顆星星！超級無敵推薦",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務超好！玩得很愉快！設備乾淨舒適！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "氣氛悠閒，人員也熱情友善～推薦",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第三次住！是不是經營的人換了？？？態度跟之前比起來好很多！非常熱情！房間也比之前的格局寬敞舒適很多！但少了桌遊覺得很可惜😅😅😅之前有桌遊晚上在房間玩比較不無聊覺得業者可以考慮改進一下然後奶茶之前的業者泡的也比較好喝覺得業者可以調整配方看看相信你們會更好更完善！加油喔🫶",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常漂亮也住的很舒適☺️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超美湖景 還有貓貓🐱",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很舒服很安靜，貓咪超親人",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很棒 湖景很美 有貓貓+10000000分",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "西式早餐好吃 用餐住宿環境很讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "簡直是人間仙境很推薦👍超棒的👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖景色不輸國外露營車房間很乾淨舒適餐點擺盤用心全區打掃乾淨小朋友可以來玩泡泡、滑步車、童趣踩高橇15:00-20:00還提供免費飲料晚間也可以烤棉花糖DIY宵夜時間在戶外喝酒，還有親人的小貓咪來撒嬌",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的環境，還有好吃的棉花糖😊😊小朋友放電好所在寵物友善住所",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親切的人員、親人的喵星人🐱還有梅花湖的景色加分露營車的實際空間比照片寬敞唷👍夜晚的天窗還可以看到🌝（雖然照片很糊🤣景點位置靠近羅東夜市，覓食方便！但希望房間內可以提供紙拖鞋🙋",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色優美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整個住宿體驗很完美 有山有湖 晚上整體很安靜 露營車整體裝潢都是我喜歡的風格   露營車內還有開天的玻璃罩可以躺在床上看到星空 晚上還有烤棉花糖活動 還會想再來住 👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "二訪👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適的露營體驗，服務很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很好 👍 、環境不錯 、可以體驗看看唷",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適 清幽 房間狀況很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "悠閒自在的環境，小朋友玩得很開心！車子直接停在旁邊的專屬停車場！晚上有烤棉花糖，還有貓咪會靠過來親近玩耍！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖景第一排，非常愜意",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美，房間棒，服務更是棒！👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超可愛的露營區，地點也很方便。開車或坐計程車來都非常方便",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "寵物友善、露營車房間舒適寬敞，工作人員親切接待！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美，值得👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很美的地方，小朋友大人都玩的很開心",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美，房間舒適乾淨！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間舒適，旁邊就是湖景。早起騎腳踏車很舒服",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的環境",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色優美 房間乾淨舒服 停車又方便",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖很漂亮，露營車也很乾淨 早餐好吃😋 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間簡捷乾淨，有放空的感覺，住過很多露營車，這家CP值最好。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒的環境，超愛❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "有貓咪。 美景。飲料。 真的很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間很好很大，小孩來可以跑跑跳跳，鬆餅也很好吃",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很讚的露營車！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "寧靜舒適，湖景超讚！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "小孩很開心，風景很好，進來第二次了，超喜歡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "冷冷冷冷...^^",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "悠閒放空的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆的好地方!",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆渡假好地方！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景漂亮，房間舒服，還有許多小孩可以玩的小玩具、泡泡，還有飲料可以喝，很棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景很美，房間舒適，本來很擔心會很冷，但房間很溫暖、舒適。推薦和家人一起來度假。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適，梅花湖景第一排。夏日蚊蟲會比較多。店家會提供蚊香。每日下午三點入住後有提供飲品。住宿櫃檯人員服務至晚上九點半。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "貼心服務",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的很享受😎",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "天ㄟ露營區",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好地方 不囉嗦！真的讚 想要什麼都會提供 一定再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車住的很舒服，隔音很棒，超級安靜的，梅花湖第一排，風景很療癒。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "周遭環境優美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的露營車，很美的景",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色優美房間很舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務好。環境好。可以放鬆身心的好地方。渡假勝地",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "帶狗狗一起入住寵物友善露營車，體驗很棒🚍⛺️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/12/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的地方，旁邊就是梅花湖",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車在湖景第一排，風景非常美，服務人員親切，餐點份量大又美味，推推👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好棒的體驗，住在梅花湖旁，心情放鬆許多！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住的很舒服，小朋友都很喜歡下次會再來喔～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營環境讚 工作人員服務好🤗 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員很親切，整個環境超chill來這邊真的非常放鬆開心",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很讚，特別幫我們準備了桌椅",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "天ㄟ露營車環境和氣氛佳，員工朋友們人很幫忙很chill 的地方 大推",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "有泡泡 小滑步車給孩子玩 面湖景，很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒服房間：5",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住宿舒適～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常舒服！環境優美～服務人員親切！不像露營是住飯店的享受！帶小朋友來很方便舒服！👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨整潔有貓貓挺好的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超放鬆 櫃檯小姐也很親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的地方😍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很新很美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "停車方便，住宿很特別！餐點也不錯！整體很棒，非常放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆的好所在，早餐美味，還有可愛的貓咪",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來這邊超舒服又放鬆～房間感覺，工作人員超親切🫶🏻身心靈都放鬆了啦",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車空間寬敞，服務人員很親切，很棒的住宿體驗👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很舒服，餐點好吃又豐富",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親子放電的好地方～白天有泡泡可以玩，晚上還提供小朋友烤棉花糖。夜晚睡覺時非常安靜💛很舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒服！人員親切～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "工作人員都很親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清新！！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的很美麗很放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很好👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車體驗好有趣會想再來～行程類型度假",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住起來很舒服 早上起來直接看到梅花湖 帶狗狗來非常享受",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "十月中後天氣剛好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗，一定會再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員服務好，熱水夠熱！整體舒適！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的環境氣氛可以與好友很放鬆的聊天衛浴空間也很乾淨👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適❤️映入眼簾的梅花湖景色！超喜歡，服務人員也很貼心。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "收藏很久的口袋名單服務親切、環境舒適打開窗戶就是整片的梅花湖非常放鬆的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來這裏有放鬆的感覺～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆、很乾淨、旁邊就是梅花湖，很喜歡！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很新睡起來很舒服 服務人員親切～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間舒服、工作人員親切，還有可愛小貓咪",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美、活動空間很寬敞，小朋友玩得很開心，服務人員都很熱心、態度非常良好，真心推薦",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "園區有一隻超級親人的貓咪🐈 很會招呼客人 下次還會再來😍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "雖然露營車真的很美～露營車的服務人員也都很親切！不過晚餐讓人傻眼請房客入住前都點好餐選擇了南瓜肉丸義大利麵最後因為口感很奇怪 因此詢問餐廳服務生 服務生表示這款肉丸是素肉喔！菜單上完全沒表示清楚晚餐瞬間變得非常空虛…其餘同行友人皆表示晚餐餐點非常普通與價格不符",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的懶人露營⛺️下次想體驗露營車👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好吃好玩又有趣。推薦大家來玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/11/07",
+            "tokenization": ""
+        },
+        {
+            "content": "早餐好吃，房間也舒服👍🏻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很乾淨舒適，整體環境很讓人放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境乾淨，服務人員認真熱情非常值得來放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境乾淨，有可愛的貓咪🐱",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖景色完美，露營車配備及內裝很好，早餐好吃，但晚餐比較…，可以感受到店主很努力在搭配活動，但老實說以漲價後一晚7.8千，cp值偏低…，很推薦去坐船遊湖，很涼",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適~~很適合帶小朋友來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "體驗好，不會離市區太遠",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗👍🏻👍🏻👍🏻超舒服的環境😌應有盡有 有泡泡🫧可以玩下午茶跟早餐好吃😋還送農場門票跟飼料券旁邊就是梅花湖很方便走路就可以到可以騎腳踏車或走路環湖服務人員都很熱心說明👍🏻會想再來～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車乾淨舒適 風景很好 冷氣很涼😂入住有送泡泡可以玩很讚👍🏻還有很多親人的浪貓可以摸❤️❤️❤️推推～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美景色佳 房間也寛敞，大推值得來住。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很舒適床很好睡餐點也很好吃本來預計住一天，但到現場實在很舒服放鬆，所以立馬加訂一天住宿下次有機會來梅花湖還是會選擇這裡❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒的露營車",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境乾淨舒適！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "初次體驗露營車，喜歡一早睜眼就看到窗外湖邊景色，露營車室內空間足夠，還有一張雙人沙發床，適合帶小孩一同入住！唯一小缺點⋯就是戶外蚊蟲多😅",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "改裝後二訪一樣很喜歡～住起來很悠閒的露營車👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點好的！服務佳…湖岸第一排風景很棒…下次一定再來。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "從8月份自網站介紹開始，至9/10-11入住於櫃檯服務 ～ 用餐（環境、人員接待、餐點品質）在在都覺得很優質！會再次選擇的出遊入住名單喔！👍ㄒ",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車室內空間大，有沙發床可以給小朋友睡（可以自己帶小鋪巾比較乾淨）但隔音不是很好，而且蚊蟲很多，房外還有蟑螂。早上起床在湖邊走路、跑步很舒服。晚餐不太好吃，兒童餐附生菜、咖啡紅茶，都不適合小孩，很奇怪。早餐西式還行，但既然是住露營車，應該餐食就可以選擇在露營車露台吃，不然去不用住露營車也可以去的餐廳吃很沒fu，而且吃完回來就要退房，在露營車的時間很少。可以加強防蟲措施，房內有很多螞蟻晚上睡覺都不安心。",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營車體驗適合親子旅遊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/10/07",
+            "tokenization": ""
+        },
+        {
+            "content": "下午茶超推薦～露營車舒服很美！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯不錯！推推👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "會想在跨年預定，但是都是先開放給包場的，人數不夠多就無法，讓人不舒服，制度做法讓人無法理解。",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常舒適 還有提供蚊香 很貼心的露營車 很適合情侶來休息放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住過那麼麽多地方，一晚快7000的價格 ，換來一肚子火，晚上其他露營車大人 小孩一堆的吵鬧 嬉鬧 無法安靜 休息一整晚，就算對方訂七台車 也不是其他旅客應該承擔他們毫無公德心的大聲喧嘩！勸要去的朋友三思 有其他更好的選擇！！",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "空間很舒適、2大2小也很ok～孩子們覺得比飯店更舒適👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美，舒適。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員親切，環境非常優美，推薦大家前來遊玩！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好舒服",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "餐點很棒 地點在梅花湖旁邊很舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住的很舒服～風景也超美💓",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適舒服，親子休閒的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆的露營車旅行，很放鬆又充實",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "☺️☺️☺️舒適 又放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "一泊三食方案，餐點份量足夠，但稱不上美味，如果懶得出門用餐這邊吃是很方便。夏天蚊子太多太多，房內地板有螞蟻，廁所也有蟑螂。服務中心的人員不夠專業，入住及退房時，應對的流暢度不足，讓客人有「現在要幹嘛？在等什麼？」的感覺退房時人員問我有什麼需要改善的地方嗎？我回答時，他的對講機有訊息來，他便跟對講機對話，然後就不理我了，講完對講機也沒有繼續聽我剛才的回答，就去做他的事情，感覺真糟這樣的價位不會再訪",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "忙碌生活中適合放鬆的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆心情好去處",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "美唷",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "小孩小時候來過，很喜歡💕改裝後馬上再來💕更加舒適💕",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適整潔",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清幽餐點也好好吃真的非常推薦也貼心準備蚊香防蚊液店家自己做的咖啡意外好喝直接買了一盒旁邊就是梅花湖，小街也有賣宜蘭必吃的春捲冰喔",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很好，餐點好吃很豐富很有誠意，露營車比想像中舒服寬敞，喜歡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點在梅花湖旁邊，風景很美，餐點份量足夠，整體很舒適，一泊三食CP很不錯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間乾淨，服務態度很好，環境舒服，還有泡泡可以讓孩子體驗玩耍，可以來住一晚放鬆放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很棒，環境好，有泡泡水好玩，餐點也很好吃",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "附近的貓很好嚕，目估至少有6-8隻。有一隻黑白貓會跑到露營車附近。住在近湖那排的露營車不只可以看湖跟水鳥，還有貓貓。P.s.現在住還有附一張免費泡泡卷，可以帶小朋友來吹泡泡，或幫另一半拍網美照。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美～騎車繞湖很舒適！住宿搭配的晚餐跟早餐都很美味",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "帶家人還有狗狗一起入住住在梅花湖附近真的很療癒，房間很大很乾淨，空間都規劃很不錯，真心推薦大家來玩！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "在這裡住很舒服，早上起床可以散步梅花湖，我們住的是莫內房，房裡有衛浴，衛浴的香氛很好聞，服務人員態度很好。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車重新裝潢後變得非常的時尚舒適，但夏天晚上的蚊子實在是太多了，希望每個來的人都有做好防護措施。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "重新裝潢～房間更加舒適，浴室的乾濕分離也非常好，餐點也很好吃，在房間內看著梅花湖景，非常讚👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "在梅花湖旁邊，看出去就是美景，真的很美很美！房間很乾淨，住宿體驗很不錯，不過餐廳總覺得人員不太熟悉，問房號到底要問幾次呢😅可是整個體驗還是很棒，也有手作體驗，附近可以遊梅花湖騎腳踏車，很推薦來！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "昆蟲非常多，怕蟲的可能要有心理準備，第一次體驗露營車，還不錯，但可能就來體驗一次就好，餐點也不錯，吃得飽也很精緻，暑假住日一兩天兩大一小一泊三食8600。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次住在露營區有點害怕也很期待這次住在D3(米羅)小木屋很棒的是房間是在最外面可以直接看到梅花湖👍但就是不太能在房間裡吃喝東西畢竟是露營區容易招螞蟻來觀光😂晚餐跟早餐都很好吃對於吃貨來說想每餐吃什麼真的很困擾還好這邊會幫忙準備👍在商店街還能租借腳踏車遊湖有跟園區合作的租借腳踏車店老闆很熱情👍這邊的服務人員服務態度超好的只要有事需要請他們幫忙他們也都很熱心的幫助我們👍希望下次有機會可以住露營車一直很想體驗住露營車的感覺🤩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這次員工旅遊來天ㄟ露營車，環境舒服漂亮，工作人員親切有禮，服務很好，每個活動環節都很貼心留意我們的需求房間的部分，因為天氣太熱了！他們很貼心的先幫我們開了冷氣，夏天蚊子比較多，園區也有蚊香跟防蚊液可以使用一泊三食吃很飽，還有一些小活動可以參加體驗，非常的充實",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "車房乾淨淨又明亮，餐點好吃。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/09/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境好，有漂亮的湖可愛的貓，美味的餐點，服務人員親切友善，就是有點蚊子。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車寬敞漂亮 面梅花湖風景漂亮😻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間就可以看的梅花湖，風景優美很適合放空，",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境好、地點棒、空氣清晰、住宿舒適、房內設備優良，家庭聚會；朋友相聚的好所在，超推。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖畔的美麗露營車，期待好久，終於成行。車廂內寬敞舒適，坐車廂外邊看湖更是愜意的很。早起繞湖一圈，舒適自在。下次再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "悠閒、舒適，有機會會再來旅遊。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適～！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "天^露營車，讚！讚！讚！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美整潔乾淨漂亮 工作人員服務親切  很喜歡 有",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景很漂亮 環境超級棒 工作人員服務態度好 有機會會再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美！服務不錯👍！只是晚上看不到星星😅😅！可能中秋節來就看得到星星🤣🤣！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "天氣很好，環境優美，適合放空，晚上可以躺在床上看星空，真的整個人都很放鬆，餐點不錯，特別是下午茶，有鹹食又有甜食，配上一壺熱茶超搭。人員服務很親切，下次還會再來玩的🤗🤗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "睽違五年再度來訪，這次帶著小孩一起，小孩玩得很快樂，這次方案是一泊三食，餐點好吃人員都很親切用心！！！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住起來很舒適,風景優美！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間乾淨整潔很舒適服務人員也很親切準備的餐點也好好吃",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆身心的度假好去處",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親子友善，場地很適合小朋友跑跳放電，贈送的泡泡很好玩！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "設施新穎、服務良好，非常chill的體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環景非常清優，而且非常熱心用心經營，而且服務人員非常貼心服務。非常好的渡假園區。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "價錢沒通知清楚  訊息也沒什麼回 反正就是非常不推薦",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "全新裝潢後的露營車非常美麗舒適，窗外的景色無價，服務品質很好，下午茶、晚餐、早餐餐食另人驚艷！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很新很乾淨，設備非常齊全，熱水夠熱水壓夠強。服務人員非常親切，有需求都會馬上處理，回答問題也都很詳細。本來不怎麼期待的餐點也令人驚豔，尤其是下午茶的蛋糕跟晚餐的燉飯都好吃😋DIY體驗是檜木筷子，做完滿手都檜木香，但聽說八月就會換活動了。本來想放棄泡泡嘉年華，結果三個大人都玩得超開心，還拍到很美的照片。家人都非常滿意，有機會還會再來！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景觀佳，餐點好吃，服務親切有耐心，是會讓人想再次造訪的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "因個人行程安排所以取消這次行程，但退款的程序令人感覺相當不愉快及沒有效率。多次與官方客服聯繫及打電話，不是不讀不回就是電話未接，前前後後有一個月的時間。直到最後通知說時間真的太久，跟多次聯繫都未回覆，再不退款我們就要報警。以及再次嘗試打電話，當好不容易打通，客服卻說還需要再確認？並解釋說要回報公司審核後才能撥款…我們對此提出質疑便馬上收到匯款…………很好奇是多嚴格的審查作業拖了一個月還沒確認最後又馬上退款了？貴司的工作效率真的有待加強：）",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "原本去年預約今年4月要入住但因為種種因素只好取消後來遇到整修整修好要預約入住但因為時間一直無法配合和友人討論過後決定退費6月初連絡確認要退款但是過了一個月沒有下文傳訊息到官方line幾乎是不讀不回打電話直接轉語音好不容易打進去跟我說確認後再回電等了兩三個小時沒有回電只好再打過去一次才說這兩天會退款沒多久收到退款通知真的不知道這一個月沒有拿到退款的原因",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "知道天ㄟ露營車很久了，第一次來嘗試入住，因為還沒有機會自己搭帳，正處在從飯店到帳篷的階段，所以都還是以搭好帳的為主。因為周邊環境就是梅花湖，所以沒有其他太多除了梅花湖之外的設施，也就像是在一般露營場地般的草地上，第一次入住感覺尚可，但質感就沒有到驚豔，特色上也尚可…就是個體驗。不曉得是不是因為新整理的關係，設備和環境都還算乾淨…以後有機會再來評價。不過在用餐上就略顯普通，早餐普普，下午茶和晚餐沒有機會享用，無法給評論…希望能比早餐更好。價位上個人覺得中上，但 CP 值就真的見人見志，有機會還是可以親身體驗，是一個輕鬆接近大自然的機會，又可以體驗高級露營的感覺",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "臺南來宜蘭渡假首選，梅花湖湖景第一排，整天窩在這享受寧靜時光，手作課程自製研磨筷子，環境優美寧靜，夜晚泡壺茶享受星空，白天沖杯咖啡放空愜意，遠離塵囂身心靈放鬆😆。環境備品齊全，防蚊液蚊香..",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/08/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住時間因為營區整修而延至端午假期第一、二天，我的露營車是編號A2，位於最裡面且面湖。景好地點好小朋友也玩得開心，西式早餐還不錯，整體來說親子友善，除了入住前未被告知已整修過的營區竟然房內冷氣是有問題的。房內冷氣過冷，睡眠數度被迫中斷起身調整。已蓋被的大人小孩整晚都在起雞皮疙瘩，最後不得以只好使用送風模式，逐漸回溫後，再調成冷氣模式重新迎接冷死……如此反覆數次。此外，冷氣扇葉也不斷滴水……退房前兩度反應給櫃台，櫃台人員不斷抱歉之餘表示知情此房冷氣有過冷的問題，但前幾天是沒事的！不禁想質疑為何不提前告知房客或主動詢問是否有加棉被的需要？基於以上理由，反應在我對房間的評分為2顆星。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/07/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很讚的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/06/07",
+            "tokenization": ""
+        },
+        {
+            "content": "有夠爛又貴，利益換星星",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/06/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營車體驗。隔音很好服務台飲料無限暢飲晚上也有烤棉花糖 以及桌遊可以借玩期待整修後再次入住",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "雖未入住僅僅去天ㄟ消費 喝喝咖啡 但是這梅花湖僅剩的二個大型面湖的咖啡廳！一個是天ㄟ 一個是小熊 ！我們都去過..不過天ㄟ疫情期間進步很多！不僅旁邊露營區也設置了！整體規劃也做得很好！這是一個很特別的‘’設計‘’野外營區。露營車是一般般 其實是因為法令關係..但是露營車設備充足..體驗感十足！尤其戶外面湖的空間都可以利用！是一個全台灣最特別的’旅店‘",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "可以",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點不錯的免搭帳露營車…飲料可以喝到飽...",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清幽，露營車內有天窗，天氣好可以一起看星星",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒適 冷氣很涼 熱水很熱早上坐在外面看風景 非常舒服早餐也好吃隔壁的露營區看起來也很不錯下次想住看看",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很悠閒 心曠神怡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這是第二次入住，車內空間滿寬敞，三人入住不嫌擁擠，仍有空間擺放行李。車內外環境維護的不錯，淋浴間，馬桶和洗手台個別獨立，使用上互不干擾。有提供免費飲料，和贈送腳踏車券，附近小商店街有簡單小吃，沒有便利商店，另外鄰近店家較早休息，最好事先了解營業時間，安排早點吃晚餐或有開車可以到其他地方。二次都是平日入住，周圍有山有湖，環境寧靜悠閒，讓人很放鬆。梅花湖不大，同時可享有散步加騎腳踏車的樂趣。前次入住在後排露營車，視線部分會有露營車入鏡，但因正值酷暑，户外很熱，躺在車內床上，天窗加上前方窗戶，就像躺在有空調的草地上，放鬆又療癒。這次住到前排直接面湖，加上冬天氣溫較涼，可在戶外待較久，到達日陰雨綿綿，隔天出了個大太陽，坐在車旁座位區，有幸享受到雨天和晴天二種截然不同的梅花湖風景，都超美的，真幸運。户外有些蚊子，可帶著防蚊液或藥膏備用。可能天候的因素，上次夏天去户外蚊子多，向業者拿了蚊香趨蚊，這次冬天明顯蚊子少了很多，皮膚癢時，才發現有蚊子。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "如果可以烤肉更好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "ig：snow_foodie𝕐𝕚𝕝𝕒𝕟｜天ㄟ露營車#Snow住宜蘭自從住過天ㄟ露營車就愛上了露營這件事天ㄟ目前心中的第一名❤️不管是環境衛生服務都很到位⛺️天ㄟ7號 $4200/2人含中式或西式早餐 🍳腳踏車環湖 🚴飲料無限暢飲 🍹桌遊租借服務 🎲很悠閒的一天 環境很舒適推薦指數：9.5/10🍔早餐提供中式和西式可以做選擇中式為九宮格清粥小菜西式為漢堡飲料可以無限續杯整體味道都很好吃❤️📎風景資訊｜天ㄟ露營車 @tan_a_camper📍地址：宜蘭縣冬山鄉大埤二路75巷1號🗓入住時間：入車15:00退車11:00📞電話：0956-699666🔅以上為個人感受僅供參考🔅#宜蘭#旅遊 #宜蘭旅遊 #宜蘭景點#景點#必去#網美#網美景點#美食#露營#露營車#梅花湖#冬山#冬山景點#冬山美食#住宿 #宜蘭住宿 #yilan #yilancity #yilantravel #yilantrip #spring #springtime #波波#波波發胖 #dcard #天ㄟ露營車",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒的露營車一切都是那麼的舒適和愜意頓時就能遠離城市的喧囂景色很美 氛圍很好 露營車很可愛相當推薦的一個住宿地點",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "享受森林芬多精，露營車裡很舒適，還能戶外烤肉煮火鍋 野溪玩水，很適合親子旅遊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整體來說的經驗是還不錯的，相關品質也反映到價錢，露營車旁可以喝很多種飲料,無限免費，推薦咖啡和現打果汁，晚上可以烤棉花糖，露營車內有冷暖氣，整體空間大,衛浴都很乾淨，大草皮可以和孩子一起玩，早餐整體中式比較好吃，也有飲料咖啡豆漿，退房後可以用送的去環湖單車卷去租車，加價換電動車也不錯。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖很美，可以繞湖騎腳踏車，有看到很多猴子、鴨子、鵝和魚，環境優美。可惜的是露營車內部許多物品都發霉也沒有處理，包含沙發、窗簾，衣架等等。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "設備OK啦，送礦泉水、熱水熱度足、櫃檯飲料無限暢飲、電蚊拍可借，整體上服務也是不錯的。",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車2022年平日入住3600元包含了遊湖的腳踏車券+早餐+無限暢飲的飲品寵物友善的露營車,毛小孩另外再加清潔費600元建議也可以提供毛小孩的免費早餐(畢竟也付了毛小孩入住的清潔費)毛小孩就像是我們的家人。因為附近也沒有什麼民宿,所以等於晚上包場了梅花湖,可以打著燈步行梅花湖一圈,天氣好再加上沒有光害,天上的星星看的很清楚,晚上睡在營車時,也可以隔著玻璃看到星星.露營車設備齊全,但因為也久了,所以多少有些使用的舊痕,沙發座不是很好坐,太軟,也有些黑點黑點的情況,有大金牌冷暖氣,所以遇到寒流時,開著暖氣也是舒服的.營區有到晚上6點的簡餐提供,建議可以事先點餐,或者就是叫Foodpandacheck-in櫃台飲品早上10點到晚上22點,無限暢飲,三不五時就點一杯拿到營車露台區,非常愜意很值得入住的營區,有機會會再帶毛小孩去住。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "主打露營車，可以叫外匯跟烤肉攤商，卻不能帶任何電磁爐卡式爐等，完全失去在野外體驗露營的樂趣，只推薦單純想住車子的朋友",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "飲料無限暢飲還滿不錯的",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "場地很棒，靠近梅花湖，是一個可以放鬆的好地方，但是早餐很一般，不過價格真的很便宜",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "其實覺得價格有點偏高。明年還要再漲價🙄既然顧名思義是露營車。但卻無法讓人烹飪。有失去露營的感覺。只能說只是一台給住的車廂。還有行前說明未備註無提供拖鞋。洗澡前有點傻眼。明年以$4200的價錢。我可以選擇條件更好的住宿 …",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營車 看出去剛好是梅花湖",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "價格適中，服務親切，附近有環湖步道可以散步和騎車，園區內有盪鞦韆和少部分的兒童遊戲設施。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車整體很舒適，用心維護環境，是很特別的經驗！吧台有提供飲料，可以自己拿杯子去裝，晚上也可以烤棉花糖👍🏻 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好玩好住又便宜店家親切服務好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "面湖，風景優美，舒適，但可能是因為沙發床，不太好座，腰痠背痛",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整體服務跟房間規格都蠻貼心的，讓人很放鬆，很推薦來這住一晚1.隔壁咖啡廳是隔天早餐地方，下午也可以點外送到店拿，在露營車吃吃下午茶2.提供梅花湖腳踏車租借卷，不限日期使用（不限時可任選非電動的各式類型，遇到下雨建議選有遮雨棚的）3.提供飲料暢飲：有咖啡、茶、可樂、冰沙、新鮮現打果汁（這次是鳳梨蘋果汁）4.露營車衛浴分離，有冷氣、除濕機、吹風機、冰箱、電視，備品有毛巾浴巾only，牙刷跟沐浴用品不提供5.房間乾淨不會有蚊蟲，門口也提供各式防蚊跟蚊香，很貼心6.晚上有火爐，櫃檯提供烤棉花糖，很好吃7.位置就在梅花湖旁邊，很適合帶小孩來放電8.露營車設計床的上方是玻璃，天氣好感覺能看星空睡覺，白天因為天窗採光很明亮9.周圍很多貓貓在露營車附近佔地盤睡覺很療癒10.部分是寵物友善的露營車，可以看到別人的可愛毛孩11.電熱水器加熱很快，冬天夠熱，蓮蓬頭水量也夠12.床偏軟，枕頭有兩種選擇，個人睡得很ok13.早餐供應葷的是九宮格清粥小菜，跟自助茶水，拍照很漂亮，但吃普通14.晚上隔音很好，車內放音樂其實在外聽不太到，除非在走道大聲講話才有影響15.因為濕度高，有提供除濕機跟冷暖氣，冬天在室內很舒適16.冬天建議準備室內拖鞋，地板有點冷17.吹風機風量中上，除非有需要負離子功能，不然其實提供的也蠻ok18.心花鹿fun 農場就在入口右轉5分鐘會到，很近，是很推薦來這住的景點",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "床鋪意外的好睡",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖旁邊蠻漂亮，可以喂魚，喂鴨，騎車。露營車內乾淨度還算及格，設備也還算齊全，停車場全鋪石頭，有點low,還有高低差的問題。後面巷子咖啡店門口有四五隻貓咪很可愛，還會跑進露營區，不知道算優點還缺點。美中不足的是，可以自取蚊香，香茅油挺貼心，但香茅油噴罐上面整個都是油外漏了…噴完要洗很久的手。冷氣濾網很髒有附上照片，我還幫忙清洗過了，床墊薄薄一層，下面木頭，感覺像打地鋪。再來是，壁掛架把電視hdmi1支援arc的孔遮住了，也就算了，因為有中華mod所以剩下的一個孔已經被使用了，如果要用ps5,電視盒需要拔除掉;再來比較扯是房間本身沒有附上Sony的電視本身遙控器，只有mod的遙控器，沒辦法去調整音量跟一些細節，有點瞎，電話告知後有拿一支遙控器過來讓我調整音量，但說他們櫃檯只有一隻，使用完要還給他們，所以我只能把音量儘量調小，儘快歸還，但不可能完全符合我的ps5,電視盒，各種app每一個影音片段跟App不可能是一樣基礎的聲音，這點是蠻瞎的，光這一點我就不會再去第二次；就不知道為何不能附上一隻電視原廠的遙控器勒？就好像有電視沒遙控器一樣，住一整天使用上卻各種麻煩。再來是早餐普普，題外話總費用是兩人一晚3600+寵物600。單純想體驗是ok的。",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適，工作人員親切知道我媽行動不便特別在浴室準備椅子 ^^晚上躺在床上真的能看到星星哩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "台灣屈指可數的寵物友善露營車；空間寬敞明亮整潔，屋外有私有的發呆亭可以擁有歡聚時光；外有大草皮可以讓寵物盡情奔跑；還有提供飲料吧！只需自帶容器；早餐也十分豐盛，吃不夠還能在自費加點其他食物；更貼心的提供防蚊液和蚊香，讓大家可以好好貼近大自然！！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "家族旅遊駐點休息享受放鬆感覺真好。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員很多也相當熱情，會主動引導顧客動線、提醒用餐方式、不提供盥洗用品等注意事項。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "挺好的挺好的挺好的挺好的挺好的挺好的。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚喔",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "明明是有提供寵物露營車，卻對寵物不友善，進餐廳吃早餐，卻要求一定要用推車，還說寵物不能落地，令人傻眼，抱著也無法吃，害我們只能輪流吃早餐，狗狗還在門外叫，因為看家人在裡面，真是造成我們的困擾，所以，有要帶寵物來的客人，要注意這點.....整個園區，只看到2個人，連要退房，都找不到人，只好直接擺桌上，感覺沒什麼服務。",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境好，拖車室內設備也不錯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "駐唱是唱的不錯啦，但是好好的環境就被歌聲給破壞了，這裡不是小巨蛋，有點吵",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來過數次，是個舒適的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗，難怪訂房這麼難搶。CP值很高，湖邊環境優美，房間乾淨且空間寬闊，冷氣夠冷，洗澡水夠強夠熱，園區設施都很貼心，冷飲、飲水機、蚊香、防蚊液、牙線都任意取用。還會想再去！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這裡超棒清幽，小朋友玩的開心，還可以騎腳踏車，在時間內飲料暢飲，很適合小孩放電，大人有私人空間的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員很親切，飲料無限暢飲，下次還會想要去",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "半年前就要預約非常搶手的懶人露營體驗！因地理優勢鄰近梅花湖，非常愜意悠閒，但濕氣也很重，住宿老闆會提供環湖腳踏車兌換券，環一圈就差不多要投降了😅住宿可以暢飲飲料（蠻有誠意），附贈的早餐會提前點餐以及安排用餐時段，但在晚餐的選擇就不是這麼理想，只能叫熊貓（選擇很少）、外出用餐（開車15-20分鐘）、18:00前吃天ㄟ咖啡，可以理解為了安全無法在園區烹飪，但選擇不多影響體驗難免扣分車外有戶外涼亭，夜晚沒有提供盞燈，在車外只能摸黑靠車內微弱的燈光價位上：平日3600/晚，假日4800/晚部分露營車可以帶寵物這點很加分，如果有疑慮的話可以選擇不開放寵物住宿的車住宿整體住宿下來不會主動推薦給朋友，但有興趣的話可以住宿體驗看看，是蠻特別的住宿體驗入住時間：2022/6/27",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很棒景色很好非常愜意的假期",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很好，露營車乾淨，吧台飲料無限暢飲👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超放鬆的住宿體驗，5月初去住的，疫情期間人不會太多，根本渡假！！帶著兩隻狗入住露營車，悠閒又放鬆，許願一年去住一次，希望下次去不要選到連續下雨的日子。（唯一缺點就是太難訂）",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間很大又乾淨，還可以攜帶寵物房間窗戶還可以直接面湖，真的很棒。適合放鬆，渡假的模式。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "價位合理的露營車，非常適合家庭旅遊。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2023/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "CP值高，飲料暢飲，順便環湖",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "因為疫情才搶得到，是最靠近梅花湖的懶人露營車，有幾台是開放開毛小孩的，飲料早餐棉花糖風景都很棒，唯一難受的是冷氣有點吵",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的環境，感覺的出來經營者的用心。上次想去太熱門沒預約到，這次剛好有空看見有空車趕快衝一趟，不虛此行！環境清幽，美景環繞。騎腳踏車環湖真不錯～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "園區總共10台車加上得天獨厚的地理環境面湖景 ｜湖景第一排清幽的環境舒適的空間大自然的親新香氣讓人不。自。覺。跟。著。慢。下。來😌房間很乾淨床也舒適獨立陽台設計成巴里島風的躺椅坐著坐著看著湖景或發呆很容易睡著🥱雖然靠湖但附近也很便利除了天ㄟ咖啡廳附近還有#小熊書房遊湖腳踏車更方便的是有熊貓外送 都可以送到園區",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "陰雨天訪梅花湖，恰巧看得這個露營車區域，一邊餐廳，一邊住宿營車，都在湖岸邊，風景可以。只是住宿聽說要半年前預訂喔！生意好像很好。",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "初體驗露營車住宿，住宿環境很乾淨，早餐是點九宮格餐，最最喜歡的是看著梅花湖喝茶",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常舒服的地方，還有提供腳踏車兌換券，無論是帶小孩或寵物來都很適合👍🏻 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這次是入住第12車的露營車床很好睡外面空間的椅子跟桌子也很乾淨，還很舒服不時有貓在身邊竄真的好開心露營車裡有小冰箱不過前台也有提供免費飲品無限暢飲小確幸、茶、現打果汁、黑咖啡等都很美味，我用保溫瓶裝了好幾回😆住在郊區難免有一些蚊蟲如果在意的人可能就不要體驗了一起床就能看到梅花湖坐在外面耍廢軟爛真的很舒服呢",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "6個月前很幸運的訂到兩台車(3號、10號)，還好意志夠堅定，沒有因為1月的疫情而取消，才有3月春暖花開的這趟首露體驗雙人床很舒服，浴室熱水很熱，蓮蓬頭水量充足，免費飲料超級好喝(洛神花茶)，現打綜合果汁也不錯，早餐更是豐盛到沒話說，九宮格的小菜搭配清粥，用餐40分鐘不夠啦，但老闆沒趕人，我們吃了快1小時晚上享用完foodpanda的燒烤大餐，躺在戶外的大躺椅，聽著蟲鳴蛙叫，望著皎潔明月，伴隨微微徐風，很棒的體驗早上用贈送的四張腳踏車券，兌換了一台四人協力車，騎了一圈(半小時)意猶未盡，再加碼一圈，沿路看到水鳥、野鴨、鴛鴦還有一隻大胖黑狗，天晴氣爽，很適合全家一起出遊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒，漂亮乾淨",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "蠻美的 而且飲料真的超好喝很好拍照 可以chill一整天",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "除了「美式早餐」很差以外，其它接近滿分⋯",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯，可以來體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "完全就是超划算 ，風景好 住宿品質也很棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "半年前就要手刀訂房，不然訂不到！此次家庭旅遊為金孫提前慶生，很高興我們訂到面湖的露營車，環境清幽風景宜人，只可惜氣候不佳下著雨～～服務人員很親切的說明之後，另有附腳踏車卷，有多樣選擇，單人的用一張，或者兩張可換協力車、四張換四人車，可惜這次去下著雨不方便騎車遊湖，只好留著下一次再使用。有提供飲料無限暢飲，時間到晚上21:30，種類好幾種，可樂是玻璃瓶的哦，小確幸是黑糖牛奶蠻特別的，吧台外有個烤爐，晚上19:00後有提供棉花糖可以烤，也蠻不錯的！晚餐我們外出覓食，帶了些東山鴨頭跟啤酒回來邊吃邊聊天很開心😃 早餐有中式與西式，我們全家偏愛中式，都點了九宮格中式早餐，份量剛好，口味也還行。露營車內乾淨，有小冰箱、電視機、獨立衛浴，還有冷暖氣可使用，床上方有一大片天窗，如果天氣好應該可以看到美麗的星空，而且很棒的還有一點是寵物友善，我家的狗才能開心的跟我們出遊，此次的露營車初體驗感覺蠻棒的！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "CP值很高！！！中式早餐很澎湃😋 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "各方面都超優！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "應該給一顆星，要不然太難訂，剛剛好的好天氣在這裡是一大享受",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖畔",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這次住1號車，旁邊剛好有飲料區垃圾桶，視野不是很好，住宿有提供梅花湖腳踏車券，因 為住宿無法烹調，後面有開車出去覓食約40分鐘，雖有提供飲料暢飲，但飲料我個人認為可以不要提供，不是很好喝。露營車非常難訂，價位也不便宜，如果是單純體驗尚可接受，加上白天都有除樹葉的清潔機器吹風與除草機聲音，實在是有點掃興又無法避免。",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "沙發床 超難睡",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很好 舒適的露營車 放眼望去就是梅花湖 沒什麼蚊蟲 但過了晚上6.就沒東西吃了 要自己帶零食",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "臨湖而坐，身心通透的好地方。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車在非常美的梅花湖旁，露營車內乾淨，寬敞而且細節清潔都非常仔細，可以住到4人沒問題，晚上可以看到星空超美❤️服務人員貼心親切，重點價格CP值真的太高了👍大大推薦，只是真的太難訂了😄 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很好的體驗，可以看到一個很親近大自然的自然地方。你可以騎自行車，你可以和小鴨子一起，餵魚，還有很多活動，我迫不及待地想回來住在那裡",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很單純的就地點好 其他方面去看過的人心裡自然就會明白🙂 …",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "CP值並不高，設備普普通通、早餐也是。整體來說算蠻乾淨的，服務態度好。",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境蠻舒適，餐點很普通，面湖的那一邊露營車離湖隔著一條馬路，還有一段距離。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "聽說是網路上非常難訂購的露營車，營地有兩排露營車一排靠湖一排靠馬路，因此靠馬路的那排車會比較看不到梅花湖，今天預訂入住的是露營車1號，雖然風景不如前排車，但離吧台和垃圾桶很近，取餐、拿飲料、拿冰塊都很方便。營地會無限提供冷熱飲、水、冰塊、晚上的烤棉花糖（冬天限定）和蚊香、防蚊液。每台營車外有一區納涼休憩區，範圍不小1號車配置的是圓形沙發床和兩張藤椅和玻璃桌，晚上可以在這吃晚餐喝酒非常讚（建議可以自備蠟燭），營車內的床是4人床兩個人睡非常大，營車內採光很好有很大片天窗，有電視和冰箱，淋浴間和廁所很小。晚餐的話可以叫外送，或者跟這邊預訂餐點，這次點了辣起司烤雞、夏威夷披薩、炸薯格子、檸檬塔和兩瓶精釀啤酒，餐點的味道尚可，這邊的酒類有單瓶紅酒490元和義大利精釀啤酒味道都不錯。這次入住的體驗還算不錯，一入住會送兩張腳踏車卷，可以在梅花湖邊騎車欣賞風景。騎完車後晚上六點吃晚餐，若早上要睡到自然醒不吃早餐，店家會給400元餐點抵用卷，在附設咖啡廳點自己想吃的。然後冬天來入住非常棒，夏天蚊子應該是非常多。這裡的住客主要是有小孩的家庭以及養寵物者（這邊是寵物友善空間）營區內晚上也會出現貓狗非常棒，也非常適合來慶生或一群朋友聚會。距離的話離羅東還算近，騎車或坐車15分鐘就到了。整體來說是個可以遠離城市好好放鬆的好地方。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "正面評價：飲料可以無限點選負面評價：1. 工作人員似乎有限, 整理也應該相當不容易, 對於詢問可以提前入住回覆：整理到剛剛很累, 可以讓我們休息一下嗎？當入住時間到時, 僅是將鑰匙交給你. 讓人不禁覺得那十五分鐘前, 你是不是可以有不同回答, 然後把鑰匙拿給客戶呢? 反正也並沒有任何帶房跟說明的動作.2. 早餐除了粥跟咖啡是溫的. 其餘中餐或西餐都是冷的, 不知道是不是當天天氣比較冷所導致?3. 車廂外露台上的桌椅都是有樹葉或其他, 不確定是否剛好沒打掃到.4. 飲料需要自備, 所以當點選不同飲料時. 並不會沖洗杯子. 而是直接將不同飲料倒入. 一次奶茶後直接倒入紅茶, 一次是可樂後, 倒入果汁. 不確定是標準程序, 還是個人因素.總之, 建議想入住的人要有心裡建設. 你是來體驗偽露營, 其餘預期建議都盡量降低.",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住的是1號車，與園區入口飲料吧區的四座垃圾桶緊緊相鄰，一開門就看見垃圾桶及一堆雜物，坐在外面的椅子上，直接可以聽到飲料吧傳來的音樂，不時也有別車的人經過你前面來倒垃圾，這次的住宿不但沒有relax到，還有花錢來當次等住民的感覺。",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "適合全家一起來享受露營車",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "緊鄰梅花湖畔，風景秀麗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住米羅房型，房間雖然不大，但區分為客廳、臥房及浴室三段，清潔的很乾淨，客廳窗戶可以直接看到梅花湖景，由於兩大一小，工作人員直接表示臥室床不是很大，自動把客廳加床，超感謝業者貼心讓我們一夜好眠，房間外有一個木頭平台，有兩個沙發，在上面看書發呆也很棒，一早就可以到湖畔走走散步，很是舒服，早餐雖然簡單，但味道還算不錯，停車位也足夠，很好的住宿體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適但下雨很可惜的地方，尤其是宜蘭雨多",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "每天滿房的狀態整潔似乎是做不太乾淨。戶外躺床吊椅放在戶外會有灰塵我當然可以接受，但椅子上面一大片蜘蛛網然後還有蜘蛛…不曉得蜘蛛結網的速度快還是打掃的速度快？可以躺著看星星是沒錯，但我們的天窗全都是枯枝落葉…剩一點縫隙就連早上想躺著看天空也看不出個所以然…戶外維護不容易但人員我也感覺不出你們有用心對待住客此次行程讓我有個很特別的體驗。",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間舒適，只是戶外蚊子非常多要小心防蚊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車裡內部乾淨，服務人員熱心親切，3天2夜一👩🏼‍🦰一🐶被照顧的很周到☺️早餐可以選擇西式中式兩種，也可以拿回露營車棚子享用，設施環境也很乾淨，手刀預約、不會後悔🥰 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "優點：人員服務很親切、景致漂亮（一拉開窗簾就是梅花湖）、免費果汁很好喝、離羅東夜市算近15分鐘內就到了缺點：露營車內濕氣有點重，蚊子多，第二天要退房時看到車內有蟑螂😣 …",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "以這個價錢，其實可以住到五星級飯店......但是這邊畢竟是面湖第一排啊！出門就是自然，還是很有競爭力，床的正上方裝了扇玻璃窗，躺下就可以直接看到天空！浴室很類似日本衛浴，隔間小、塑膠品，但是質感不差，令人意外地非常乾淨，湖邊很潮濕，但似乎沒看到什麼霉斑。餐點以內容物和份量來說價格頗貴，不過不管是早餐或是自費的晚餐，風味都可圈可點，鹹淡也適合小人。下午的飲料吧有果汁和咖啡、茶，果汁是現打很有誠意，咖啡口味就普普。可惜這次到訪遇到颱風，風狂雨驟地完全沒法好好享受，希望下次還有機會去住一下，很期待在星空下入眠、晨曦中醒來啊😭 …",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親子友善，大人小孩都喜歡。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒服風景好，很適合兩天一夜的放鬆小旅行，也適合小家庭帶小朋友來騎車打水仗。美中不足的是wifi訊號很弱，跟櫃台反應也無法改善。可能是要鼓勵大家多親近大自然，不要滑手機吧！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不同的住宿體驗！環境清幽，露營車內部乾淨，設備使用上也都正常，早餐擺盤精緻但吃起來很普通，香腸跟豆腐不太OK",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的地方～～～但真的很難訂，要提早安排",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖旁邊一個非常美麗的地方。我真的希望我能待得更久一些。第一天晚上，帳篷旁的花園裡放映了一部電影。房車非常寬敞舒適，如果天空晴朗，您可能有機會觀察星夜，因為車內床的上方有一個全景窗戶。然而，預訂非常困難（必須至少提前4或6個月預訂）。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "可以約約寵物可以一起入住的車車 我家孩子們超開心的❤️",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營車住宿體驗，服務人員親切友善，多種飲料無限暢飲（如圖），就在梅花湖旁，景色優美。有四車提供寵物一起入住（1、2、8、9），會收寵物清潔費。車外都有各自的小陽太矮，很悠閒自在。因為太熱門不好訂，建議追蹤FB看開放的時間搶訂。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "半年前就要手刀預約的露營車！！環境舒適很適合放鬆休息😌 服務佳還有飲料可以無限暢飲 露營車內部環境也很不錯👍 …",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整體來說露營車體驗很新鮮，但建議可以設置烤肉區，讓客人在露營車園區有更多活動可選擇～衛浴設備若能加強通風或用其他方式消除潮濕、廁所味道會更好，住了一天到當天晚上就有些味道～新奇體驗！",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "解封開露",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這間露營車一定要提早半年以上預定，否則絕對住不到的。剛好卡在五月疫情三級警戒，搞得我們擔心行程告吹，好在八月解封可以帶毛小孩來散步這透透氣！停車場空間不錯，露營車裡設備完善，整潔度以寵物友善標準來說可以給滿分沒話說，完全找不到污穢處，也沒有任何味道👍服務人員很多也相當熱情，會主動引導顧客動線、提醒用餐方式、不提供盥洗用品等注意事項。梅花湖環境真的很舒服，check-in後可以散步或騎車（有提供兌換卷），下午到商店街吃點小東西，晚餐叫foodpanda 也頗方便，服務人員還會協助到門口取餐這真的看得出很貼心。隔天早餐是在天ㄟ咖啡領取，內容尚可；也無提供內用稍嫌可惜。費用雖然不低但也相對的過濾了房客，兩天假期很放鬆，值得再訪。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "還好",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放空的好地，空氣很好，現打果汁超新鮮，可惜下雨，還會想再去的地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境幽美，真的訂位都要半年前才能有機會訂的到",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美，露營車乾淨舒服。用心經營的地方。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖景很美，送卷騎車繞湖很愜意，星期三來人不多，很好騎，餵鴨很好玩，櫃台都有免費提供飲料，奶茶很好喝！！（疫情要自己帶杯子喔）",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆態度差，不會再去了！",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "錢太多，壓力大的人，是ok啦，放空也可以有其他方式滴。要露營，就不要偷懶",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超難搶的露營車，雖價格有點貴$4200/晚，但露營車內很乾淨，且因為訂到可以從窗口直望梅花湖（白天很美！），除了有供應早餐外，飲料有無限暢飲（都很好喝！）、腳踏車卷、傍晚烤棉花糖（冬季限定）、住的也舒適，這樣的價格算是蠻值得的！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2022/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來到這裡後，還真後悔怎麼沒有早一點來。大環境頗佳，露營車就在湖岸，風景宜人，又不會近到濕氣過重。每個營車旁，都有自己的大平台。營車內，除了一張雙人床外，還有一個比雙人床小一點的玄關，和一個和雙人床差不多大的沙發電視區。沙發區的電視架可拉出來，坐在雙人床上也可看電視。躺在床上時，晚上看天窗外的星星，白天放空看綠葉，運氣好還可以看到花。露營車真的超級堅固。六個一起玩的朋友，集中到一台車上玩Just Dance，瘋狂亂跳，車子都沒有壞。只是下車後，會有下船的感覺。戶外活動的部分，一個人一張腳踏車卷，可騎車騎一整天。兩張卷可換協力車，四張卷可換有棚的四人車，好像也有電動車可以換。有寵物的人在繞湖時，要小心寵物是否會與山中的猴子起衝突。Bar檯的果汁飲料無限喝，超爽。喜歡可樂的有福了，是玻璃瓶的喔！Bar檯外有個烤爐，秋冬來一定很實用。聽說以前還可以烤棉花糖，這次沒有試。園區內還有鞦韆，看起來還算安全。當天的晚餐六點前就要點餐，不要錯過。隔天的早餐有中式與西式，很豐盛。服務人員真的很nice，還幫我們冰慶生的蛋糕，並送到我們的車上。順帶一提，半年前就要訂房，24小時內要趕緊匯款。訂到了，就早點check in，晚點出來。這兒不會讓大家失望的。補充：這次車上沒有看到螞蟻。。。。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很不錯的體驗棒棒的！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆態度差，住客素質更差，不會再去了！",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "半年多前訂的包場訂到差點忘記還好貼心的管家有聯繫確認包場細節用心程度絕對超乎預期1️⃣露營車內部整潔與外部的環境維持都很優秀2️⃣飲料自助吧的真材實料，供應時間超有誠意無限到晚上九點半鮮奶茶、黑糖牛奶、咖啡、可樂現打新鮮果汁真的現點現打3️⃣外燴已經吃撐了還奉上水果超逼人4️⃣車內的隔音很優秀比想像中好很多很多很多（這是露營車不是飯店）btw附近覓食的不方便在訂露營車的時候天ㄟ小管家都有提醒以及關心我們的晚餐安排而非在評論上扣星怪場地的美中不足",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務態度極佳，招待的飲料無限暢飲！飲料一點也不馬虎～每種都很好喝（還有現打果汁）晚上會安排活動！（因為在冬天去的⋯是烤棉花糖）",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "半年前就要預訂了，遇到假日的話根本是一車難求!推薦預訂8、9、10、11、12車，湖景第一排，窗簾一拉開就是梅花湖景喔💕露營車就位在梅花湖旁邊，一走出去就是美景，真的很chill~~~裡面有個咖啡廳可以提供住客飲品無限喝到飽(以杯換杯不浪費)，每個品項都好好喝喔!車內的設施很完備，有冷氣和冰箱，重點是比想像中還乾淨舒適，沒有奇怪的蟲蟲。滿特別的住宿體驗，大力推薦⭐⭐⭐⭐⭐只是價錢有點高啦><",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "我在2018年來這住宿的在粉專裡也評論過。想想也要來這古哥評論一下讓大家知道露營車跟帳篷的不同美好之處☺️天ㄟ真的是好棒的露營車，終於可以知道為何ㄧ車難求啦！很適合親子與寵物住宿（狗狗有規定的車號）。這裡的服務人員超親切，還有免費飲料無限喝，早餐可選三種類型也可選露營車吃或是在旁邊的咖啡廳吃。露營車前的草地好適合嬉戲。已經想預約下次住宿了。❤️",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間舒適，空間比想像大，環境舒服，面湖可以直接在房內欣賞，多種飲品可以無限續杯。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "適合一群朋友來的地方。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的體驗，房間乾淨，服務人員親切還有送騎車卷",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "只能帶東西進園區食用，禁止烹煮。餐廳營業打烊時間過早。風景唯美，其餘超不便利。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適 放鬆心情",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "面對梅花湖的五星級露營車住宿者都可以有飲料免費喝（依公告時間）每一台露營車，都可以躺著觀星也有獨立的廁所🚽（洗澡/廁所）更讓我覺得貼心，一人都有2顆枕頭🥰",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員態度不錯，免費的下午茶也很好。因為是露營車舒適度沒有飯店的好，但你要放空、悠哉的感覺，就是這裏，第一排的無敵湖景勝過一切。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的住宿點，離市區不遠，卻很幽靜，帶寵物入住很棒的地方，環境乾淨，服務好，很推薦喜歡放鬆的朋友來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "值得體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美 空氣好 適合帶小小孩來跑跑跑小朋友玩得很開心 東西好吃露營車內也很棒 有空調不怕晚上太冷或太熱五星奉上 希望還能再帶孩子和家人一起去",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "可惜沒辦法給六顆星",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境好 露營車內也很乾淨早餐好吃",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "難得假日來玩，一直聽到清潔工人的噴氣槍，吵到整個梅花湖都沒氣氛了。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "雖然來的時候是雨天天氣非常差但是整體感覺很不錯2個人一台車費用3600元接待人員態度親切21:30前還有飲料吧喝到飽飲料也很有誠意不是隨便敷衍的晚上也有免費的烤棉花糖早餐也份量十足很好吃！露營車內空間很大很乾淨窗外就是梅花湖如果天氣好一定超級美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "騎車環湖，晚餐吃熊貓叫的三媽",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整體營區規劃很有氣氛，下午入房後即可暢飲咖啡、果汁、黑糖牛奶等飲品，晚上還可以烤棉花糖~~此外還有附贈協力車的票券，騎協力車環湖拍照約半小時，也可以購票乘船環湖。早餐有中式小菜與西式三明治餐點可選擇，房間內有複合的除濕與清淨機，還有可摺疊的小木桌，一張雙人床與一張可攤開成為床鋪的沙發，最貼心的應該屬門口放置了一台電扇，可吹乾被雨水淋濕的鞋子~~~推薦給想要露營大小朋友~~~~",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適好玩又安心",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "直接來說說這裡的特色1.露營車就在梅花湖旁，我們住10號車的景色真的是vip等級！2.這裡服務人員的態度都非常好！櫃檯人員都會很細心的說明，並且幫大家留意是否有非住客進來住宿區！3.櫃檯吧台的飲料，從當天下午3點入住起，就可以無限暢飲至當晚9點半！隔天早上10點也可以再喝到11點！真的是非常佛心而且飲料都是用心製作！4.餐廳的餐點真的很好吃而且服務人員的服務都很好！份量也非常充足，價格也合理！5.露營車裡的整體感覺很舒服，床很好躺、浴室和廁所有分開，洗手台也獨立位置，要使用任何一項都不用擔心和同住的人搶！這次的露營體驗真的非常好！非常推薦大家來這裡放鬆渡假！也會想再約朋友一起來玩！但是因為非常熱門，大家一定要提早訂位，非常難搶喔！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "1，可以接受帶寵物同行，大推2，服務人員親切.有禮3，環境如同世外桃源，可以好好放鬆👍👍👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖景第一排，體驗露營的一個好選擇。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很有意思的地方，下次想來住住看但生意很好要提前幾個月預訂",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很乾淨舒適、還可以無限取用飲料，雖然下雨看不到漂亮的星空，但一望無際的湖非常美麗，讓人步調變得輕鬆愜意，附近還有協力車、小船、卡丁車、動物農場可以玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超漂亮，服務好，但剛好遇到雨天",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色地點超級好在床邊或獨享平台即可近觀湖景不是豪華風格，但空間夠用，環境整潔，大戶外平台很舒服早餐品質佳，也是有整片湖景",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "我能說啥～只是看一下網頁，就要我評評理🤔🤔🤔 …",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車寬敞舒服，整個人慵懶坐在吊椅上望著梅花湖，喝著免費續杯的果汁，非常舒服，清晨早點起床，空氣超好，湖面上晨霧瀰漫景色絕美，一邊看這湖景，一邊吃著豐盛早餐，是個放鬆心情的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間清潔度還有加強的空間，露營車外部配置及環境相當不錯~",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "人潮很多，店內氣氛佳。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯的體驗，打掃可以再加強，棉被枕頭不乾淨",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "適合很多朋友一起同樂。 小孩有寬闊草地可奔跑遊戲。 旁邊的梅花湖景更是悠閒。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的民宿,早餐也很用心,真是讓人流連忘返,不過住露營車還是顯得空間較小,而且露營車還很新還沒什麼問題,要維護好才是商家的真功夫了!",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來體驗懶人露營是期待很久很久的豪華露營車住這要半年前就搶據說都是秒殺的狀態感謝友人搶到🙏還搶到面梅花湖的露營車一進露營車就已經開好冷氣可以吹口渴去吧檯點今日飲品無限暢飲然後就可以耍廢放空......晚上攤在吊椅上喝點酒有電風扇可以吹所以不會很熱早上去咖啡廳吃附贈的早餐吃完早餐去騎贈送的腳踏車卷環湖騎完再去吧檯喝飲料喝完飲料再回露營車休息片刻然後就可以退房啦有機會的話會想再來住😆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的場地，適合全家大小一起。環境也很棒～大人小孩都很開心。因為包場，所以一年前就需要預定，很超值！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "早餐很豐盛。環境悠閒讓人放鬆",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "值得推薦👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "來到梅花湖並在露營車住上一晚，真的是很棒的享受，我們很幸運在一個月前預約到12號車（湖景第一排、不能帶寵物），出門就擁有一片綠地和湖景，早晨真的會被美醒！露營車設備齊全，室內乾淨，淋浴間水量充足也夠熱，蚊字很多所以千萬別開窗戶，車內有大金冷氣但沒有除濕機，以當天下雨的濕度來說，若可以除濕會乾爽許多，有開冷氣嘗試降點濕度，不過被子蓋起來仍塌塌的。我們到梅花湖的這兩天雖然綿綿細雨，但並沒有壞了興致，天ㄟ有附贈三張腳踏車卷，因此我們加價100元換成有雨遮的四人協力車，繞著梅花湖一圈，相當愜意。晚上九點半前房客可以在吧台點選免費的現打果汁、奶茶和咖啡，也可以拿回露營車享用。隔天早餐非常好吃，特別推薦在咖啡廳享用中式早餐，九宮格搭配白粥和豆漿，看著沿岸美景，是完美的渡假體驗！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "空間讓人很放鬆蚊子有點多要注意",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "早餐份量超多！！小孩很適合來放電！洗澡水很熱👍🏼 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整體住宿體驗和服務都很棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "寵物友善❤️夏天冷氣超涼～也有準備蚊香、防蚊液給我們使用早餐超豐盛又好吃，但是並未見到其他評論中的烤棉花糖去梅花湖騎車不建議選腳踏車，那個上坡會騎到哭很愜意又舒服的地方，建議住個兩晚比較夠才不會太匆忙喔",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "少一顆星是因為住美式露營車不能烤肉小可惜了，希望可以規劃烤肉區。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "居住露營車體驗~",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適 風景美 服務好",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間乾淨，服務人員親切，適合帶小孩來放鬆渡假的地方～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "面湖的露營車，風景美極了，早餐也出奇的好，在這裡可以完全的放空，忘掉所有煩惱，雖然是在湖邊，店家還是會巧妙的與外面區隔，晚上還看到店家在巡邏，安全上做的很好，很用心。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的地方！ 舒服 環境好！會讓人想在去一次！露營車相當乾淨！可自帶泳池去玩！無限提供現打果汁跟咖啡！好喝的喔！👍🏻更多分享 IG-chiuchiu1218",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員態度好，還有免費可以無限續的飲料露營車乾淨、隔音比想像中好。醒來有梅花湖美景可以欣賞，還可以散步或騎腳踏車，真的很愜意美中不足的是，晚上湖畔很多路燈，雖然會比較安全，不過就看不太到星星了（光害）",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "優點： 設備齊全 、算乾淨（但折疊桌拿出來用 上面有蝦米）、早餐豐盛好吃缺點：價格太貴 3人一車 平日平均一人要$1700多附早餐跟腳踏車免費飲料吧（奶茶很雷哈哈）床很難睡床墊太薄 睡了後背不太舒服廁所有窗但應該要加裝循環扇衛生紙因為也無法沖馬桶只能丟垃圾桶但因為通風不好所以味道會很重體驗一次就好 覺得平日價值一人$800 差不多",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒！很舒適乾淨安靜，放空耍廢好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "有趣的體驗，小孩全都玩瘋了",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "清淨，自在，空氣流通，",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服的住宿經驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常溫馨強烈推薦的房車露營體驗。工作人員非常樂於助人和友好，他們提供無限量的飲料，位於湖前，提供湖邊自行車租賃優惠券。寵物友善。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放空的好地方",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "路過但沒能住上，排到年底囉",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的很不錯到渡假露營車，要注意車內飲食要帶出來丟",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "冷氣很強",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "小孩大人都開心",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次來住露營車，這裡環境很優美，入住渡假很放鬆，服務台有免費提供現點現做的飲料無限暢飲唷！早餐很豐盛也很美味。美中不足中式晚餐的口味實在太鹹，鹹到有點苦。房間洗手台沒有置物架，使用上有點困難，若有類似3M的小置物架，可以擺放一些洗臉用品就更棒了。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很高級的露營～電視、冷氣、軟澎澎的枕頭與被子，還有無限暢飲的飲料吧(˶‾᷄ ⁻̫ ‾᷅˵)員工都很親切貼心，食物好吃，對狗狗也很好，有機會會再光顧。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服，內部改裝過，不像露營車，門口有小桌椅，適合晚上想聊聊天，喝點酒的朋友。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚到爆！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常值得推薦親子、情侶來訪。放鬆度假的好地方，服務人員態度都很好且親切！餐點好吃👍🏻 飲料好喝，是會想要再回訪的好地方！ …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服，貼近大自然，員工都很貼心，只是價格略高",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "當初提前三個月訂，一開始覺得蠻貴，但住過後覺得完全超值！有附贈腳踏車券、早餐，超棒的是「飲料喝到飽」和晚上的「烤棉花糖」。環境清幽，而且有做好房間內的乾淨整潔，不要把飲料杯放太久，其實根本沒有什麼蚊蟲！而且露營難免都會有蚊蟲，這樣也有很貼近大自然的感覺☘️老闆娘人很好，都不會介意我們一直喝飲料🤣這個露營車一定會再回購！ …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美，梅花湖湖畔近入眼簾，是個遠離城簫的渡假處所",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "還不錯，不過可能我自己就是住鄉下，沒什麼太驚艷的感覺。但露營車很乾淨、早餐也好吃，可以去湖邊騎腳踏車。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務、設備優良，即便雨天入住也別有一番風味，大推！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "今天與先生到梅花湖遊玩看到外觀覺得好喜歡，了解有住宿客人不方便打擾，所以想說拿個名片就離開，但櫃檯態度非常之不友善，我們什麼都還沒說就急著說有住宿客人不方便參觀，現在要預約請到網路預約（語氣非常差），我們當然也識趣離開，只是在我與先生道謝離開時，櫃檯急著把大門關上，這樣糟糕的體驗，讓我們完全沒有想要入住的慾望，也許有人就愛這種有「個性」的業主，但這樣的態度實在讓人非常不舒服，於是決定留下評論，未來若有興趣的人，可以三思一下。",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "一切都很好 ！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "去年10月來梅花湖騎電動環湖車，路過這個天ㄟ露營車，相當驚艷啊！感覺住這一定十分愜意❤️老公馬上手動準備訂屋！但後來卻發現，竟然這麼熱門，大概半年內都是全客滿，而我們在今年5月終於後補到了，懷著滿滿期待來這，還好5月初真的是不太熱的天氣！這裡呢！有一種與世隔絕的寧靜感，無敵湖景，還有鞦韆、大草原⋯⋯天ㄟ露營車最放鬆的設備，每一車外面都有南洋風味，木棧板休憩區，坐在休閒椅上眺望無敵湖景，真是一大享受啊！還有超大可以看湖景的窗戶、和上面打開窗簾就能看星星的天窗！睡前要關起來哦！不然會被太陽叫醒！隔天早餐豐盛多樣，足見細節也十分用心！這個是個美好難忘的體驗哦！（ps.辛苦老公從台東開到宜蘭露營車，老公好像有點暈，讓我好擔心！謝謝你帶我來！）",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2021/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "门口的白色上衣马尾女生态度恶劣",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨，舒適.",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "4人住10號車兩人睡床、兩人睡沙發床1人1400元飲料bar無限暢飲，光這點就給五顆星但是房間有大蟑螂有點不能接受，豪可怕，所以扣一顆星室內室外都很美很好拍住房送腳踏車券，可以去其梅花湖一圈網美住房聖地",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營車體驗，飲料菜單的”隨便”是當日特調喔，當天喝到的是情人茶(金桔+檸檬+乾梅+茶），好好喝～～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒的體驗建議下午入住，晚餐可加訂露營車的餐點或到羅東用餐，晚上和下午的精緻非常不一樣。吃飽後可以買罐啤酒或飲料在露營車外悠閒暢飲，非常享受。清晨和夜晚都可到梅花湖上遊走，入住贈送的單車券環繞梅花湖非常棒，整體來說非常推薦唷！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "這裡好美哦！來這裡身心都舒暢，美麗的櫃檯小姐說她們從桃園搬到宜蘭來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很有渡假的的感覺， 環湖騎電動腳踏車很好玩！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆的一個地方，不需準備太多的工具即能好好享受露營的樂趣～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "樹屋休閒好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "可以",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適，安靜，可以放鬆心情，迎接隔天美好的早晨。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常適合親子旅遊的地方有沙坑，盪鞦韆，滑步車讓小孩放電晚上店家還提供烤棉花糖，飲料無限暢飲！下次還要再來玩",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好喜歡這邊的感覺，很舒服😌有無限暢飲的飲料可以喝，重點是可以帶我的毛小孩一起入住，環境也非常好，裡面的設備都很齊全，電視冷氣淋浴浴室廁所等，非常完善，梅花湖就在旁邊，贈送了電動車券可以環湖超棒的，帶著狗兒環湖然後旁邊走走，再到露營車裡頭放鬆～太棒了 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "2019年3月13日前往住宿。我們這次是5大3小(有長有幼的)家庭旅行，第一次造訪，感受所在地風景優美丶氛圍悠閒自在，工作人員親切有禮，令人感到賓至如歸，櫃台吧台有每日happy hours飲品暢飲驅走了雨天的寒意，並提供環湖自行車折抵券，小朋友們搭乘喜愛的車款遊湖餵魚，在營區內也有滑步車讓孩子們四處探險，很是開心。：DD冬天晚上還會在櫃台前的小廣場升起炭火，取暖之餘還能依著爐火烘烤棉花糖，新鮮有趣的小娛樂。：))同行的家母也很喜歡這裡依山傍水，幽靜舒適的環境也很適合早起的長者晨間於湖畔漫步。推薦這個老少咸宜，讓人放鬆的好所在！",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營車，衛生清潔也不錯，一出車子就是梅花湖，早上下午欣賞放鬆，晚上享受夜晚寧靜，店貓也很可愛，會到處走來走去，提供的飲料也很好喝！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務人員態度很好，房間很乾淨而且舒適，會想再去。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "期待半年終於入住了，室外風景實在美極了!服務人員態度也很優~露營車內也比想像中乾淨，美中不足的是房間的床鋪有發現頭髮，似乎沒有換床單，而且床上灰塵量也較多，若以房價來說並不便宜，每天也幾乎訂滿的狀態，應該是每天打掃才對，期待可以在這方面做改進，(例如用塵蹣機清理床鋪)以後有機會還是會想入住!!",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很愜意舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "就在梅花湖畔，地點絕佳。露營車很新又乾淨，每車外面有小躺椅，裡面有天窗可以看星星。吧台飲料可以無限暢飲，連早餐也很用心！無論是露營車內或車外的環境都太美好舒適。唯一缺點就是太難訂位，假日大概要排半年左右。然後價格稍高。但是仍然大力推薦。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的露營體驗，一月住的，車內為冷暖機，不用擔心冷熱問題，環境舒服，風景很美，會想再來一次",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "除了貴了點沒有其他的缺點😁",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "是一個放鬆心情的好地方，可以很悠哉的放空。環境：乾淨舒適，床睡起來也很舒服😌，另外美景無價啊！餐點：飲料無限供應，現打果汁多樣化，👍可惜除夕當天早餐無法吃到天ㄟ咖啡的早餐，是羅東彩虹小8的早餐（還是喜歡熱騰騰的早餐啊）晚上七點後有烤棉花糖可以玩，小朋友可以去體驗唷！服務：人員是熱情的，服務也是很好的，有問題也會迅速回應的。價格：這個價格，還要提前這麼久訂才訂得到，想必大家能接受吧！遺憾點：不能自行烹煮或烤肉，這裡應該定位為民宿型的露營車，而少了露營的感覺！所以適合旅行而非露營唷！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適乾淨",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的是很棒的地方，面湖讓你一早起床神清氣爽🥰晚上買了些食物，搭配服務台那邊換的熱飲真的是一件很放鬆的事🤎🤎🤎回台北都立馬想訂下一次了🤩🤩🤩 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住8號寵物車，環境乾淨 無蚊蟲干擾，附贈的電動車環湖很方便 可以悠閒環湖 路上又有很多小動物 可以感受到這區域的特色 也有小吊橋光可以跟毛小孩一起旅遊放鬆就蠻超值了 也能一起睡覺 洗澡水壓夠強也夠熱 天冷暖氣也不錯 小缺點就聲音啟動一陣一陣蠻大聲容易驚動到寵物螞蟻昆蟲的車內沒遇到 早餐吃中式九宮格 不是那種罐頭醃料的配菜，是能感受到用心準備有營業價值的天然食材 還不賴有機會會在過去 畢竟要提前很久前預約。推薦大家",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "平日9號寵物房3600。寵物1隻600元～一樣的價格但睡的是薄床墊，整晚睡的背很不舒適，櫃檯說給薄床墊是因為清潔方便！建議店家既然房型價格一樣寵物也有格外收費，床墊也需給厚床墊，店家可加鋪層防水保潔床套，這樣清潔也方便！客戶也能接受～",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "2019/1220-21 住宿雖然第 一天下雨，整個營區還是很有氣氛，服務人員很熱情的帶領介紹，房間內也很乾淨舒適完全沒有霉味或太潮濕的感覺。房間的冷暖氣是大金，淋浴跟廁所分開且乾爽舒適。床旁邊有窗戶及天窗超有氣氛，待著小孩也很開心。早餐好吃，飯後還可以盪鞦韆跟借營區的push bike玩。Check out候有贈兩張腳踏車票可以游培花湖，很適合親子，情侶以及帶長輩出遊~",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "到梅花湖想要租這露營車住宿，沒想到12月訂說明年3月才有空位，太難訂了。到梅花湖只能在露營車外遠處拍拍照了？！",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "適合放鬆的好地方，露營車內部空間大，睡覺翻身不委屈，住宿附贈腳踏車卷，可以去配合的商家借腳踏車環梅花湖，蚊蟲不多，整體來說很棒。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖很美，尤其騎著環湖的電動車沿途欣賞每一處的風景時；湖邊湖裡的鴨子和白鷺絲讓人跟著愜意，戴著項圈的汪汪和店貓也讓人療癒不已！是個會想推薦朋友們來此地放鬆一回的好去處！可惜美中不足也讓此趟掃興的地方，就是看起來年紀最長的櫃檯人員。入住當晚逛完羅東夜市回到露營車時，因一路騎著摩托車，天氣也滿涼的，約21:40在吧檯向櫃檯人員（年紀最長的那位 ）點了一杯阿里山熱茶，不料 她卻說：已不提供飲料 這樣她會來不及，提供點茶時間是到22:00，過去點茶的時間也不是21:55這樣尷尬的時間去為難，至於來不及什麼我也不懂，況且當下旁邊住客才剛從吧檯端了剛烤好的披薩，如果來不及下班或者什麼，可以於房卡注意事項內把提供飲品時間改為21:30，而不是讓人在時間內過去，卻什麼也點不到。其他兩位櫃檯人員都很親切及有耐心，謝謝也辛苦了！第二天退房時，櫃檯人員表示可以寄放行李以便環湖，便將行李給與櫃檯人員，他們當下放在櫃檯後方的桌面上，當回來時，行李卻被放在開放空間的地上！若是這樣可事前告放背包的位置，而不是事後被放在開放式的地上，感受極差。每個人的習慣不同，包包不落地是我對物品的珍惜及態度，此情況下，極度不被尊重！是個糟糕的體驗。",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很好放空",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景絕美，室外桃源。下午茶、早餐也好滿足又滿意。可惜露營車裏無數的螞蟻！！！",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境整理得很好，早餐晚餐都很好吃，還有無限量供應的現打果汁及現磨咖啡。露營車內設備完整，衛生整潔。梅花湖就在旁邊，走湖很美很舒服。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很難訂",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "體驗露營車~~服務貼心~~",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很美，早餐很好吃，櫃檯人員都很親切，渡假的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "因為有梅花湖相伴環境真的非常棒 不管是什麼時刻都非常舒服住宿的品質也算是中上提供環湖腳踏車卷小孩來 非常適合 大片的草地 滑步車晚上還會升火烤棉花糖供早餐 還有無限喝的無酒精飲品當然 價位也是不便宜的半年前預約才有機會",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "櫃檯服務員親切，吧台飲料無限供應♾有現打果汁、阿里山茶、奶茶、可樂、咖啡，天a還有一隻原本是流浪狗小黑被收編為天ㄟ狗 看他走來走去好可愛，露營車內很舒適，有冷暖氣，床也很好躺，窗戶打開景美美，床頂上的天窗打開好希望滿天星星，可惜這次天氣不好沒看到星星，屋內提供宜蘭餅和茶包，第一天三點入住，先拿兌換券租借電動腳踏車騎梅花湖一圈，晚上還可以到櫃檯外烤棉花糖，用木炭烤出來的棉花糖皮脆脆內軟好ㄔ！早餐 天a咖啡廳享用早餐 選了一個中式九宮格餐和西式餐，很美味沒地雷，吃完再去湖邊繞繞，看鴨子上岸走路，拍了好多鴨子，很貼近大自然的地方，開心的宜蘭兩天一夜遊～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務相當的親切環境很乾淨，可惜不小心跑進了一隻蚊子😂就在梅花湖畔早上起來覺得很漂亮 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好玩好吃又有美景!!!!",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "美到不像話！ 超想住它一年說 .",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "其實我想給4.5顆星梅花湖很棒， 露營車空間很大美中不足是冷氣非常吵， 浴室漏水不佳。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車比想像的舒適，很有趣的經驗。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "自然體驗",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨舒適服務態度佳車內空間大不管是床  客廳  廁所間 淋浴間或是車外空間都很棒免費提供的飲料好好喝😍很棒的體驗值得再去👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "人少 船乾淨 景點普普 可打發時間",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好棒的地方！處處看的到營主用心的地方💕 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "周圍環境好，草皮也照顧的非常漂亮，露營車空間算是寬敞。可惜晚上遇到大雨，雨打在露營車上的共鳴有點大聲。如果有機會，我一定再回來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次帶家人體驗露營，選擇露營車的住宿，無論是住宿的環境，周邊的硬體設備，還有服務、餐點都很貼心，女兒還吵著下次還要去",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "還行",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營區、露營車內舒適乾淨櫃檯服務員都很親切還有可以免費暢飲的吧台飲料早餐是到旁邊的天ㄟ咖啡廳吃除了check in時選擇的中式或西式早餐外也有提供自助的果汁、豆漿、熱咖啡和熱紅茶躺在車內看這麼美的藍天真的很幸福～～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好...很好。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車內算是很乾淨，吧台飲料可以喝到飽，一早起床可以繞著梅花湖運動…是個(偽)露營的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景很讚，露營車超豪華。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "氣氛悠閒，風景優美愜意",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很特別的體驗，早餐很好吃。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "已經是第二次來住了，這次是來參加梅花湖的活動，所以住這很方便，服務人員一樣親切有禮，環境一樣乾淨舒服，只是上次來時早餐還是菜色挺豐富的buffet，這次改成九小碟小菜+白粥（中式），遜色不少。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境不錯",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適，好玩又好吃。晚餐BBQ 一定要嚐一嚐",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "看到網友評論有點害怕螞蟻問題但實際住了 我只看到2隻吧發現真的很乾淨 住了一晚還會嫌不夠的那種晴天雨天都碰到了 都是很美又舒服的服務員會再三提醒食物盡量不要久留露營車裡其實說真的在這環境有昆蟲螞蟻很正常都能體諒而且空氣真的很好也不吵雜都是天然ㄟ 大加分美中不足是覺得花了3.4千入住早餐部分非常普通（尤其西式 相較中式的視覺上小太多...）飲料部份沒有拿鐵選擇只有美式果汁也是罐裝（喝起來是美*果加冰塊融很多的味道 很淡）建議應該更用心一些 不管份量或整體給客人的質感我想應該會更加分畢竟一晚這價錢也能住不錯的飯店了",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車很有趣，可惜來兩次都天氣不好。不然天窗看著星星睡著，小朋友一定超愛。服務人員很熱情。旁邊還可以騎車遊梅花湖。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "車內有蟑螂 螞蟻服務人員三位  僅有一位較有耐心 其他態度超差 五星級的價格及環景 但沒有五星級的服務包場下來的大家相同感受",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親子旅遊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "詳細內容其他人都介紹過了來親身體驗才知道真的那麼好比預期中的棒👍🏻 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的體驗適合情侶或全家小家庭一起去，前面大片草皮連接梅花湖還有山，在露營車裡面看出去像是一幅畫。床的天花板可拉開窗簾看星星，很讚。接待廳有免費飲料咖啡時段無限供應還有隔天免費早餐！要去前最好提前三個月前或半年前預約，只有十台露營車很搶手。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好山好水，華麗的露營體驗，晚上的烤棉花糖很歡樂，只是螞蟻有點多，要注意攜帶食物的保存",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很放鬆的露營車。算是新手露營的好選擇。晚上非常的清靜。晚餐去了羅東夜市。很近。不到15分鐘的車距。但是如果有宵夜習慣的朋友。務必自己先準備好回露營車。不然半夜想吃東西。可沒那麼方便了(尤其沒開車的話)。早餐的品項也很豐富喔。可以列為再來的選項。只是這個萬惡的宜蘭哈啊哈哈。一到假日的雪山隧道就是塞塞塞。。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "面對梅花湖 精美的 房子住起來想必不錯吧",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "體驗露營車的好地方，座落在梅花湖畔，在有限的車內空間內，仍舊有一張雙人床和一張沙發床，獨立淋浴空間和獨立廁所，一個家庭兩大兩小入住也沒問題，車頂天窗和面湖的大片窗戶提供良好採光，還有專屬無敵湖景，根本五星級享受。入住還提供環湖自行車兌換券，供應的早餐有中西式可選擇，而且都非常美味，另外最棒的是接待處提供飲品無限暢飲，雖是免費提供的飲品，但都是現做不馬虎的，一個下午就去喝了4,5杯，超好喝的啊。大概就是因為品質服務太好，預約老是爆滿，半年前就要手刀預約了。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很暇意的露營車，工作人員非常親切，美中不足，晚餐烤肉不太合胃口",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "太棒了",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "比五星級飯店還難訂的住宿體驗，露營車內設備齊全，搭配梅花湖景色，無限暢飲飲品，貓咪、鳥兒、鞦韆及腳踏車券，小孩玩到不要不要，如果有針對房客特色晚餐或是季節性活動更佳~",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖景第一排，風景優美",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒 乾淨舒適 櫃檯飲料無限續 只是價格小貴",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "太適合偽網莓的偽露營！（到底是多虛偽的人生😂）營區正面梅花湖，有沙坑鞦韆滑步車大草地～露營車馬桶浴室電視冷氣一應俱全，洗澡水溫夠熱水力也夠強，下午還提供飲料可樂咖啡現打果汁喝到飽❤️人員都很貼心，知道我們要在戶外用餐，主動送上桌子跟燈，對小朋友也非常友善。孩子整個下午就在梅花湖畔跟草地奔跑玩耍，累了就回房間打桌遊，玩好玩滿！打趴收工。晚上還有烤棉花糖活動👍",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超級推薦的親子住宿，風景美，房間(露營車)很乾淨，露台超舒服，免費提供的飲料一點也不馬虎，除了咖啡茶外還有冰沙、每日特調和現打果汁，附贈的早餐也很豐富，還想再來住(但好難訂阿!!!)",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "視野很棒～露營車乾淨整齊～推!!",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘人非常好，環境舒適且乾淨，下次會再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務好，露營車乾淨且舒適，還有提供好喝免費果汁咖啡飲料可以喝，喜歡👍，會再來   ，可惜下雨今晚不能看星星了 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清幽乾淨，服務人員很棒。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "為之難訂的露營車營區（我們有預訂到9月中旬），因有人退訂很幸運能提早成行，小朋友最最開心😃了面對梅花湖可以騎到POLI救援小隊的電動車開心極了🤩，而我們大人最開心是可以遊湖避暑吹涼風溜小孩，店家服務人員非常親切有耐心回答任何提問，下午入住就有免費的飲品喝到晚上九點半（果汁🍹都是現打的，奶茶超綿密）房間很乾淨（因為接近大自然很多昆蟲為伍，可以順道教小朋友認識昆蟲）還有店貓lion和流浪貓咪都有名字，很熱鬧的園區讓小朋友不會無聊，中式早餐很豐盛，很值得帶小朋入住的露營車！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆黑箱作業！明明規定6/1號才可訂11月份的露營車！一群好友期待著出遊的好心情也喬好了時間！心血來潮上網看才發現原來好的露營車位子以被老板本身訂走了！我們還傻傻的在等時間一到要開搶露營車！現在可好把消費者當傻子一樣！那大家又何必花那麽久的時間去等呢？老闆本身想要幾間房就有幾間房，大家等在久也是沒有用的！時間都是浪費掉了！本身店家根本就沒有以身作則還要消費者尊守規矩一點都不合邏輯！所以請大家評評理這樣對嗎？",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "依山傍湖 風光明媚  蟲鳴鳥叫享受森林芬多精住宿有送電動車70分鐘可環梅花湖山上還有三清宮道教總廟可以拜拜都市小孩沒有過的露營車經驗 非常棒~非常難搶房😑",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2020/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很舒服的環境，還有免費的飲料，面對梅花湖讓人覺得放鬆，就是螞蟻真的多到爆，還有無法烤肉",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "在梅花湖畔，環境優美，每個拖車前都有露台，冷氣小冰箱廁所樣樣具備，櫃台可以點咖啡 果汁 汽水 等，是個悠閒的度假場所。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "會想一直來的地方 待三天放鬆很可以👍車車整理的很乾淨 舒適（但因靠近大自然 會有一些蟲蟲）服務人員超級親切可愛 check in的時候看到我的書發現喜歡同本書與作者4種飲料無限供應 而且是有質感的飲料 果汁是現大西瓜汁（看季節）奶茶也是鮮奶去打的還有附贈2張腳踏車卷 可以環梅花湖+200有早餐 CP值很高哦（可看照片）",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很美很放鬆，還有鞦韆和搖搖馬，飲料無限暢飲很讚，還有晚上免費烤棉花糖很有趣，我女兒都擁有很美好的回憶",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "在露營車裡發呆看外面的景色也好棒雖然我們也有螞蟻但數量也沒到很多半戶外環境本來就有這些小動物我是覺得ok啦～",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "特別的體驗",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖景優美 非常悠閒舒適的住宿體驗 現調的果汁飲料真是太棒了 下次還會再訪",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "其實是去梅花湖 經過",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很棒，不過在草地上蟲蟲是無法避免的，很怕蟲子的話可自行斟酌，服務人員都很貼心親切，早餐也好吃，部份露營車開放寵物進房，非常棒！有機會會再來住的~",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超讚的！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "鄰近梅花湖，非常舒適的露營車",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清幽，值得來放鬆👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很乾淨，很高級，人員都很親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "我沒入住過，僅打電話詢問，但口氣差到我想評價！員工回覆的口氣很不好！",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "喜歡它，非常適合團體和家庭。就在湖泊旁邊",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房間乾淨，可能沒帶食物所以沒看到成群螞蟻，只看到零星兩隻。服務很好，到晚上九點半前都有免費飲料可以點，包括奶茶,可樂,現打果汁等等，早餐也好吃，可以選擇中式或西式",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "湖邊的露營車非常愜意，工作人員都非常親切，接待吧檯的飲料可以無限續點超棒的，露營車內部設計也很舒服，無論是坐在床上看著湖邊的人事物或是屋頂的星星(好天氣時)都讓人捨不得離開，更棒的是寵物可入住的露營車並沒有限制狗狗上床，我們家狗狗第一次體驗到跟爸媽在床上一起睡，他睡得好熟好放鬆唯一的缺點就是車內的設計有許多高低差，對膝關節不好的狗狗來說是種負擔，建議大家可以自行攜帶可降低落差的墊布之類的，或許露營車老闆也可考慮提供類似的東西給有需要的客人整體來說非常推薦！聽說有客人常常一定就是好幾天，去享受這份寧靜跟悠閒，我也已經考慮下次何時要再入住囉！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨舒服，還想再去",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "位於宜蘭梅花湖畔，住宿包含一般早餐外，還有一次的腳踏車體驗(遊湖一圈不休息大概半個小時)，對面還有咖啡廳(含簡餐)，如果提早CHECK IN，可以先騎腳踏車，再到咖啡廳坐坐。距離羅東夜市也不遠(開車半小時內到)，回到露營車(廣場)，還能有超療癒的烤棉花糖❤，配上免費提供的飲料(店貓會偷偷躲在烤爐下取暖😆)；走到車廂外的躺椅慵懶的靠在躺椅上吹著風，與朋友分享一天的歡樂；進到車廂裡還能躺在床上看星星。這樣的感覺很難文字形容，只能說“無敵愜意”服務臺的人員也是超親切的(很好聊😁)，仔細清楚的介紹附近景點、設施。很幸運的可以讓自己的生日，在這樣優美環境下度過，如果以後還有機會，一定會再一次到這裡享受人生😁😁😁",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "緊鄰在梅花湖旁邊～望出去景色優美露營車體驗～👍櫃檯有免費飲料提供晚上還有棉花糖可以烤唷❤️隔天早上的早餐有中式西式可以選早住宿附設腳踏車卷能在旁邊的腳踏車租車地方兌換腳踏車遊湖～小朋友踏青奔跑的好地方坐在搖椅上對著外面放空就能消除疲勞的感覺 很棒👍",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "適合情侶，全家大小，一同旅遊的好景點，住宿送免費腳踏車騎程，餐廳食物也很棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適簡單的環境，有機會會再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很舒適，風景很漂亮",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "尚可",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美露營車超棒 服務人員親切 超棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境美地點佳。但是螞蟻多到我整晚不敢睡！check-in時就發現很多隻在房間爬。心想沒有關係他不會咬人我也不怕！晚上11點多我覺得手很刺痛，低頭一看是螞蟻在咬我。螞蟻會咬人！之後發現除了冰箱上的櫃子、地板、牆上、廁所、連床也有！而床也有我就非常擔心咬孩子所以整晚一直在抓、注意有沒有咬小孩。到隔天早上我要拿牆上的外套，老天～我不敢拿！上面也好多螞蟻分怖在每件外套上。我忍不住了跑去櫃台和小姐說，小姐來說他們有用水煙式消毒了但是不知道怎麼還是這麼多！接著她拿起外套幫我把螞蟻拍掉，重點是她在市內沙發區拍，變成螞蟻沙發地上跑...我和小姐反應她才去外面拍外套。我們在行李上車前花好多時間拍行李上螞蟻希望螞蟻不要跟上車。回家行李打開，仍然還是有幾隻跟回來了～～1/21 老闆對於您的回覆不是很滿意，看看大家的評價我不是第一位反應螞蟻的問題，可見螞蟻問題滿嚴重的，您們應該要積極正視螞蟻問題才是。沒有食物check inㄧ進房間就看到螞蟻數量這麼多那應該是有蟻窩在那了。",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖畔，悠閒放空的好地方。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "訂房系統是不是怪怪? 明明點了說沒有 ?",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住當日陰雨綿綿，可惜了一片美景，寵物同行故床鋪為薄床墊，因為太硬睡久了身體會麻，就得一直翻來覆去",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很棒有免費飲料提供一天，也有小朋友盪秋韆跟遙遙馬玩，可惜車內有食物會爬螞蟻",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舒適休閒的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "營地氛圍氣氛好即使來逛逛也可以臨湖來杯咖啡感受浪漫的氛圍🥰 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車裡面空間算大，優點是有大吹風機不是壁掛式，熱水很充足，大金空調很給力，早餐很好吃，無限供應飲料，不過我們房間螞蟻超多！！！！然後床睡起來有點癢",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適，梅花湖旁邊，很漂亮❤️",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "訂不到房，只能經過...星期四遊客少少寧靜的感覺很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "場地不錯 露營車設備齊全 且緊鄰梅花湖可隨時到湖邊散步 但也因為在環湖步道旁 週末假日遊客較多時 比較不清幽 但也因為在觀光區旁 在湖泊入口處可買到許多食物與甜點 且旁邊有咖啡廳與簡餐廳 所以對於有小孩的家庭 相對便利與輕鬆 其方便與多樣性不輸常見的親子飯店或親子農場 且露營車有全景透明天窗 在晴朗的氣候可以看到星星 唯一缺點是露營車彼此較近 若鄰車大聲喧鬧時比較容易受干擾 但整體而言 對於定點旅遊放空放鬆 或是三五好友發呆之旅 或是 全家旅行溜小孩是很好的選擇 但對於露營族而言 太過人工",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "渡假放鬆 溜小孩的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車內有螞蟻，讓人心毛毛的。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美，設備齊，服務佳",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境優美整潔，工作人員服務非常好，而且對貓貓狗狗都很友善，加上東西好吃，即便不能烤肉也被餵飽飽的XD回到家馬上推薦給家人！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務態度很好，提供的下午茶餐點跟早餐都很棒，外面可以直接看到梅花湖，景色很棒，最重要是可以帶寵物，店家也都對寵物都很友善，非常推薦喔！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "我們住的7號露營車，可以看到梅花湖風景宜人，是一個全家渡假的好地方。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的很舒服、放鬆的好去處、最重要的是服務人員都好親切、下次有機會會在去的",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的非常棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不過太貴了。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "住宿房間螞蟻多！被咬到醒所以房間品質沒有很好！櫃檯人員服務超好，飲料要幾杯有幾杯。一樣面帶笑容 非常棒！隔壁咖啡廳普普，而且還要低消！",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境乾淨，緊鄰梅花湖，景緻好得沒話說",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "本來要訂10月20號，露營車訂購系統弄老半天無法預定，我太笨，到別家了，這家預定系統很難懂..不定了",
+            "rating": 1,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常適合渡假放鬆，露營車內部設施設施舒適，床鋪柔軟，空調很強，面梅花湖風景很優美，雖然在河邊郊外蚊蟲較多，但氛圍真的非常好。天氣好的時候照片怎麼拍都像是畫一樣，除了用餐比較不方便外，其他方面皆佳",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "整體還不錯，老闆人很好，店長也很親切熱情，房間也乾淨，白天窗外的梅花湖景色非常美，很適合渡假放鬆，下次還會想再去。但是少一顆星原因是因為有位櫃檯小姐服務態度很冷淡，問她問題態度非常冷淡，且表現出不耐煩的感覺，整個跟其他人呈現對比，連笑容都沒有，讓人感受真的不是很好，希望這能稍作改善，若改善了，整體更大大加分！",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "位在梅花湖旁好山好水  環境幽靜舒適 躺在搖椅就不想動了 車內可以看星星 餐點不錯 建議中式早餐讚 迎賓飲料無限暢飲旁有停車場 建議提前一季預約 必複訪",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "入住天ㄟ露營車【8號露營車-可加床可攜帶寵物】🔵有石子停車場(位於天ㄟ咖啡後方)，有免費早餐可自己到櫃檯端進房間或到天ㄟ咖啡用餐(分中西式&兒童餐)，無浴缸，check in地點在天ㄟ咖啡旁~營業時間可無限點現打果汁喝，住宿有送電動車環湖券💥一定要非常早預訂才住得到，9月的小旅行，4月初就搶先預訂了，非常的搶手😅💥check in的對面草皮有小朋友愛的搖搖馬&盪鞦韆&沙坑，旁邊則有一台鋼琴真的可以彈~再旁邊就是住宿區，8號車位於入口右手邊第一間，門口有搖椅鞦韆電扇，整個超悠閒~坐在門口發呆看湖~太棒了!!💥房間小而巧，正面梅花湖，採光極佳，有天窗可看星星(但有光害，別車的燈、路燈)，床舒服好睡(多人可另加床)，沙發可變沙發床，有宜蘭餅茶包礦泉水，有冷氣、電視畫質不錯、冰箱、電熱水壺等等💥有個小缺點就是冷氣的位置正對沙發，睡沙發床的會很冷，睡床鋪的吹不到風會很熱，後來只好把外面的電風扇拿來裡面當循環扇才解決問題💥浴室小，無浴缸，如需嬰兒浴盆可先告知(還有附小矮凳及勺子)，有綠茶洗髮乳&綠茶沐浴乳、蓮蓬頭只有1段式，但水熱很快水壓也強，沖起來很舒服、為響應環保，備品只有提供大小毛巾，其他備品需自備喲!如果真的不小心忘記帶櫃檯好像也有提供~💥隔音普通，可以聽見外面的聲音但也不會真的很大聲，住這就是要享受郊外旅遊的感覺，晚上有蟲鳴蛙鳴伴眠(不影響睡眠的分貝)，早晨被清脆鳥叫聲輕喚醒來😁💥早餐中式是一碗稀飯&無糖豆漿附九宮格配菜，份量足夠也很清爽好吃，先生吃西式說較普通【總結】正面梅花湖景色一絕，空間不算大但應有盡有，內部裝潢簡單，小而巧，露營車融合在大自然中，早餐新鮮現做好吃，適合想嚐鮮的朋友們來體驗~",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "臨梅花湖近，很適合放空，超推薦早餐，建議平日來住",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "場地設計的很棒 露營車非常有特色",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車非常乾淨 很適合渡假",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "人很親切設備新",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很適合放鬆出遊的好地點，服務人員親切，餐點好吃",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美露營車很舒適",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "在附近騎自行車、吃早午餐、享受露營車體驗真是太棒了。如果你帶孩子一起去就更好了。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "位於羅東梅花湖畔的露營區。露營車小巧可愛、但其中設備完整齊全、應有盡有。天窗可以清楚的看見星空、堪稱當中一絕。環境整理的很乾淨、感覺得出來有確實在維護，庭院樹跟草皮都有用心整理。雖是在野外、但露營車週邊的蚊蟲並沒有多到擾人的程度（就我來說反而大安森林公園還比較多蚊子）餐點樸素但味道不錯、食材滿新鮮的。晚上有提供飲料吧台服務、品質也有一定程度，柚子冰沙味道偏淡但很好喝👍服務人員也很開朗風趣（同行人點了一杯「小確幸」結果得到一杯奶茶冰沙XD ）老闆人很親切、時不時看到他會來巡視環境與招呼客人，晚上如果幸運還可以聽到他彈琴哦！附近有提供腳踏車跟電動船的遊湖活動、很適合早起感受自然風景。湖中有設水鳥繁殖區、可以看到很多夜鷺、白鷺鷥等動物。週邊交通稍微不便，強烈建議自行開車過來。另外吧台服務只到晚上九點半，千萬要在那之前存好飲用水www實在沒有太需要扣分的地方所以我給滿分！是會讓人想久久來一次的渡假地點！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "梅花湖旁，很有特色的露營車體驗民宿，下次一定會來試試，QR cord 供參。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很有特色的住宿點，能讓人超級放鬆的做自己想做的事。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "還不錯",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "抱歉，昨天誤按就發送出去～服務人員親切解說很詳細，還提供飲料及新鮮現打果汁給客人，服務非常好，小孩也很喜歡住在露營車的感覺，梅花湖附近餵鵝餵魚玩的很開心～家庭很適合來體驗享受大自然的好地方！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常好。悠閑的營區。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美，服務五星，晚上非常安靜",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很棒，餐點也非常好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "現場詢問相關細節時,沒有其他客人, 服務人員卻是愛理不理,回應您的回覆:當天兩小姐的服務大廳櫃檯,現場沒其他人,一個小姐在上網, 另一個給一張名片要我們自己上FB看粉絲團,想多問一下細節,那位小姐一直說自己上FB看.....",
+            "rating": 2,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "接待人員服務很好，放鬆度假的好地方，房間很乾淨，唯一美中不足的是在廁所和浴室有好幾隻蛾蚋，和螞蟻，感覺是從水孔上來的",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非假日人煙稀少玩起來比較悠遊自在 也不會人擠人 真的是一個非常適合放鬆的好地方 飲料可以喝到飽都是現打的真的很讚如果沒有帶防蚊液或者是文香現場都有準備也不用自己帶喔ok的 水不夠喝都可以去跟櫃台要 房間裡面都有準備小點心如果吃完了也可以跟櫃台要也會給你的",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "採用露營車的住宿方式，很特別，有開天窗的設計，但可惜我們當天可能雲層太厚，沒看到星星～對於不是住宿旅客不開放參觀，有尊重到客人隱私！另外有提供咖啡，茶，奶茶等飲料無限暢飲，早餐很好吃，清粥配上古早味的蘿蔔糕跟醬油炒蛋等也有提供烤麵包跟咖啡，豆漿，牛奶，如果不想喝冰的，店員還會熱心的幫妳加熱，這點超加分！如果要前來的朋友，最好是自己開車或坐計程車比較好，如果是坐計程車去，回程店員可幫忙叫車，因為地點比較偏遠！若是有想要哪天入住，一定要提早網路訂房，以免沒房（因為目前總共只有10車露營車）",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很適合放鬆慢活～環境很舒服，營車內比想像的更寬敞舒適早餐是中式buffet，簡單好吃！服務人員都非常好👍 櫃檯還有免費飲品！ …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "露營車造型的民宿，可眺望梅花湖的美景",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2019/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的露營體驗，草坪湖畔咖啡都有了",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "渡假休閒好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務好，風景美，不一樣的住宿體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地點絕佳，服務人員親切，扣分原因是洗手台沒清堵了，飲料無限暢飲是由網路資訊來的服務人員沒有說明",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "車價雖要三張小朋友以上(兩人平日)，但服務週到。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "三代和毛孩同遊，讚不絕口，店家服務親切友善，風景得天獨厚，極力推薦！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "空氣清新，悠閒自在，遠離塵囂，實在蘇胡！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "狠讚",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "看起來很溫馨，正前方有湖景",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "感覺還不錯，但沒住過",
+            "rating": 3,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讓人會很想再來的地方，露營車有早餐還有腳踏車券，和免費飲料吧，晚上還有小朋友最愛的烤棉花糖。大人小孩都玩得很開心❤👍 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常新的露營者和美麗的湖景。房間裡有無限量的非酒精飲料，這很好。提供早餐，但生蛋不等於奶油炒菜。山上的道觀過年有煙火秀！",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "讚啦  好地方  放鬆最佳地點",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "山明水秀 親友放風孩兒野放的大心所在",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "和家人來了兩次！真的很棒的民宿體驗！除了大家說的飲料暢飲、露營車乾淨、腳踏車或遊湖券的配合，露營車旁寬闊的草地讓小孩奔跑玩樂也是大加分👍👍👍我個人最喜歡的應該是他們自然又親切的服務吧～ 完全像是住朋友家一樣，只怕你少用到什麼服務的熱情態度，讓幾乎不在google留評論的我想留言推薦一番！😁😁😁 …",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "適合一大群人來親子遊。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的體驗處處都能感受到老闆的用心特別是服務人員親切的笑容讓人還會想要再去",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美，環境維護很好。設備非常棒，感覺用心。早餐讚。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很美很安靜！",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒！如大家所言親切服務好好，送遊湖車券欣賞美麗湖景。果汁好喝免費又送到營車前，還有餐廳可用膳方便得很，是老人小孩都很愛的好地方，去了還會再想去的好地方。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的露營場地，小孩超愛，還有好喝的飲料和烤棉花糖",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "超美麗的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "唯一的遺憾就是不能烤肉。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "可以悠閒很久......服務人員也粉nice讓人不想回家的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "舉家來天ㄟ露營，或與朋友來沈澱心思，都可列入首選。更加分的是梅花湖的山光水色，湖面山光倒影，清風徐來~~喔 ~城市的塵土飄飄落地！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "帶著太太、女兒、兩個毛小孩來到這過了很棒的一天。服務的很棒媲美五星級",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "放鬆心情的好地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "最近住了一晚——真的很喜歡這裡。一定會再來",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "面湖而居～空氣清晰景色優美～體驗露營車!讚！讚！讚！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清靜，車內設施尚算整齊",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務很棒，環境及設備不錯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "風景宜人，露營車設備齊全，太適合放鬆了。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務親切，露營車意外的乾淨，很舒適，免費續杯飲料超棒！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "房內落地差容易絆腳，早餐普普，房價不夠親民，房內提供毛巾浴巾、沐浴洗髮、餅乾茶包瓶水、熱水壺，需自備牙膏牙刷",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "室內舒適，而且還有自己的戶外休憩區，氣氛也很好",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好的服務，美味早餐，適合悠閒的步調。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常棒的體驗 適合放空放小孩的地方 老闆 服務員都很親切",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "真的很值得去，沒下雨可以看到好多星星，下雨天也很美的湖畔景色，真的很像在露營的感覺，房內設備也很乾淨，很推薦不方便去搭帳篷的人來這裡放鬆一下。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "不錯的體驗及環境",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒、室内開門就是乾淨的户外、眼前的梅花湖視野山景很養眼",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務超優，風景一流，不用出國就能體驗露營車",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "地理環境都很棒，非常接近大自然，服務非常親切，早餐也非常棒!",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "很不錯的住宿體驗，但價格有點偏高。",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "悠靜",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "服務親切，免費飲料，無敵景色，房間乾淨⭐️⭐️⭐️⭐️⭐️五顆星",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "全家體驗露營的好地方⋯⋯",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "有住過！老闆娘好親切！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "有經過，看起來很棒！一定要來體驗",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "第一次給五顆星，很讚的空間、設施跟景觀，有四顆星是給親切又熱心的老闆娘及冰涼又美味的飲料。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "景色好價格高",
+            "rating": 4,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "店員每個人服務都很好 晚上快11點還可以喝到免費的現榨果汁 我住過最棒的民宿！從細節就可以知道很用心 早餐很豐盛很好吃 很值得去 風景也很美 離梅花湖也只有一條馬路 旁邊也有停車場很方便 對面的咖啡廳走2分鐘就到了 裝潢很美 這個地方就是麻雀雖小五臟俱全 露營車真的很值得體驗看看 很大自然的一個地方",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "親切的老闆，優雅舒適的環境，帶小孩，毛小孩超級適合！",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "非常令人放鬆的地方。就在湖邊，離市區不太遠。肯定會再次訪問。",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        },
+        {
+            "content": "好舒服，好悠閒",
+            "rating": 5,
+            "type": 2,
+            "publishedDate": "2018/05/07",
+            "tokenization": ""
+        }
+    ],
+    "phone": ""
+}

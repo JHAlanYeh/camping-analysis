@@ -47,11 +47,12 @@ for file in os.listdir(dir_path):
     print(file_path)
     if ".txt" not in file_path:
         continue
-    if "google" not in file_path:
-        continue
+    # if "google" not in file_path:
+    #     continue
 
     f = open(file_path, encoding="utf-8-sig")
     for d in f.readlines():
+        
     # data = json.load(f)
     # data_reverse = sorted(data, key=lambda x: x["code"], reverse=True)
     # for d in data:
@@ -74,16 +75,24 @@ for file in os.listdir(dir_path):
         # if "same_name" in d and d["same_name"] == "NA":
         #     continue
 
+        camping_name = d.split(',')[0]
+        camping_type = d.split(',')[1]
+        print("========================")
+        print(camping_name)
+
+        save_dir = os.path.join(dir_path, "google_comments")
+        os.makedirs(save_dir, exist_ok=True)
+        file_name = os.path.join(save_dir, '{}.json'.format(camping_name))
+        if os.path.isfile(file_name):
+            continue
+
         browser = webdriver.Chrome(options=browserOptions)
         wait = WebDriverWait(browser, 20)
         default_url = "https://www.google.com/maps?authuser=0"
         browser.get(default_url)
         house_type = False
 
-        camping_name = d.split(',')[0]
-        camping_type = d.split(',')[1]
-        print("========================")
-        print(camping_name)
+        
         # if "｜" in d["name"] and "asiayo" in file:
         #     camping_name = d["name"].split("｜")[0]
         # if "｜" in d["name"] and "klook" in file:
@@ -261,9 +270,7 @@ for file in os.listdir(dir_path):
             "phone": ""
         }
 
-        save_dir = os.path.join(dir_path, "google_comments")
-        os.makedirs(save_dir, exist_ok=True)
-        file_name = os.path.join(save_dir, '{}.json'.format(name))
+        
         with open(file_name, 'w', encoding="utf-8-sig") as f:
             json.dump(camping, f, indent=4, ensure_ascii=False, sort_keys=False)
             print("save {file_name}".format(file_name=file_name))
