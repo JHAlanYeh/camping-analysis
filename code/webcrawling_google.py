@@ -110,8 +110,8 @@ for file in os.listdir(dir_path):
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div:nth-child(3) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db")))
             address = browser.find_element(By.CSS_SELECTOR, "div:nth-child(3) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db").text
 
-            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div:nth-child(5) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db")))
-            phone = browser.find_element(By.CSS_SELECTOR, "div:nth-child(5) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db").text
+            # wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div:nth-child(5) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db")))
+            # phone = browser.find_element(By.CSS_SELECTOR, "div:nth-child(5) > button > div > div.rogA2c > div.Io6YTe.fontBodyMedium.kR99db").text
 
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".DUwDvf.lfPIob")))
             name = browser.find_element(By.CSS_SELECTOR, ".DUwDvf.lfPIob").text.replace(":", "_").replace("\\", "_").replace("/", "_").replace("|", "_")
@@ -137,6 +137,7 @@ for file in os.listdir(dir_path):
         time.sleep(5)
         wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".yx21af.XDi3Bc > div > button:nth-child(2)")))
         title = browser.find_element(By.CSS_SELECTOR, ".yx21af.XDi3Bc > div > button:nth-child(2)").text
+        #QA0Szd > div > div > div.w6VYqd > div.bJzME.tTVLSc > div > div.e07Vkf.kA9KIf > div > div > div:nth-child(1) > div > div > button.hh2c6.G7m0Af
         if title != "評論":
             title = browser.find_element(By.CSS_SELECTOR, ".yx21af.XDi3Bc > div > button:nth-child(3)").text
             if title != "評論":

@@ -1,0 +1,61 @@
+﻿{
+    "name": "羅老爸的家露營區",
+    "address": "605嘉義縣阿里山鄉133",
+    "google_map": "https://www.google.com/maps/place/%E7%BE%85%E8%80%81%E7%88%B8%E7%9A%84%E5%AE%B6%E9%9C%B2%E7%87%9F%E5%8D%80/@23.460219,120.6950608,17z/data=!3m1!4b1!4m6!3m5!1s0x346ee9d97633b323:0x7f6193f4b7ae9928!8m2!3d23.460219!4d120.6976357!16s%2Fg%2F11kqnzf82s?authuser=0&entry=ttu",
+    "latitude": "23.460219",
+    "longitude": "120.6950608",
+    "type": 0,
+    "count": 7,
+    "comments": [
+        {
+            "content": "環境真的很棒！唯一廁所的部分真的很髒又臭、沒有在清的，尿垢很厚。我臭到受不了還幫她刷廁所",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2024/04/08",
+            "tokenization": ""
+        },
+        {
+            "content": "小場7帳就包全區，羅爸親切場地乾凈舒服，可以再訪的好營地",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2024/02/08",
+            "tokenization": ""
+        },
+        {
+            "content": "麻雀雖小，五臟俱全，廁所乾淨，風景宜人",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2024/01/08",
+            "tokenization": ""
+        },
+        {
+            "content": "太棒了",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/12/08",
+            "tokenization": ""
+        },
+        {
+            "content": "星期五夜衝到星期日的行程，感覺非常不好👎，完全不想給星🌟：1、帳篷全都是螞蟻2、廁所都沒在清、很髒又臭3、營地很小，對面有人抽菸，煙味飄過來，小朋友都過敏了，跟營主反應，就說我們沒有說禁菸喔4、洗澡的水不是超燙，就是超冰",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2023/12/08",
+            "tokenization": ""
+        },
+        {
+            "content": "第39露，來到羅老爸的家露營區。這是一個小營區，只有7帳，碎石2帳+雨棚5帳。我們選了碎石區，空間不小，車可停在帳篷後方，搬東西很方便，這點我很喜歡。再來就是衛浴，規劃有廁所兩間，浴室兩間，不得不稱讚一下水壓跟水溫，很穩定👍。營區整體維持得很乾淨，就在路邊也好找，到奮起湖大概3.7公里，開車十幾分鐘。第二天天氣好，就去奮起湖吃個便當，順便補給，算是方便。 …",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/09/08",
+            "tokenization": ""
+        },
+        {
+            "content": "小巧精緻的露營區！雨棚五帳，碎石兩帳。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/07/08",
+            "tokenization": ""
+        }
+    ],
+    "phone": ""
+}
