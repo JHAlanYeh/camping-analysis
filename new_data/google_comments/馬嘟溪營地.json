@@ -1,0 +1,810 @@
+﻿{
+    "name": "馬嘟溪營地",
+    "address": "365苗栗縣泰安鄉清安村洗水坑114之9號",
+    "google_map": "https://www.google.com/maps/place/%E9%A6%AC%E5%98%9F%E6%BA%AA%E7%87%9F%E5%9C%B0/@24.4438759,120.9161202,17z/data=!3m1!4b1!4m6!3m5!1s0x346917c3d18c6c13:0xb19f37cad2c47558!8m2!3d24.4438759!4d120.9186951!16s%2Fg%2F11b6rzcr17?authuser=0&entry=ttu",
+    "latitude": "24.4438759",
+    "longitude": "120.9161202",
+    "type": 0,
+    "count": 114,
+    "comments": [
+        {
+            "content": "路況好走，離豆腐街開車只要5分鐘有小黑蚊，記得要噴防蚊液營主超貼心，會拿超大隻蚊香營位大，熱水水量超強，每區都有獨立衛浴",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2024/04/08",
+            "tokenization": ""
+        },
+        {
+            "content": "新春假期包了櫻花區老闆娘人不錯浴廁是分開的但只有各一間對我們包區來說還行 若是有其他人可能略有不便另就是小飛蟲/飛蛾多了些冬天還好 夏天可能需注意防蚊蟲另需自備沐浴用品 還好習慣自己帶有附吹風機，熱水很給力~水的力道也夠",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2024/03/08",
+            "tokenization": ""
+        },
+        {
+            "content": "環境不錯，廁所很乾淨，很棒的露營區",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2024/01/08",
+            "tokenization": ""
+        },
+        {
+            "content": "平價設施一般，景觀也普通",
+            "rating": 2,
+            "type": 1,
+            "publishedDate": "2023/12/08",
+            "tokenization": ""
+        },
+        {
+            "content": "10/11連假隔天來直接包場😂整個露營區乾淨舒適，浴室及廁所也都維護的很好，園區還有貓狗可以撸動物天堂🤩 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/11/08",
+            "tokenization": ""
+        },
+        {
+            "content": "除了蚊子蒼蠅多有點。。。多其他都不錯包場露營的好所災",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/11/08",
+            "tokenization": ""
+        },
+        {
+            "content": "場地舒適雨棚設置良好前方空地不小營主的狗狗貓咪很親人超可愛但小黑蚊實在是太多太多近20大人小孩無一幸免😭人體捕蚊燈可能要挑在天涼點來比較適合",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2023/08/08",
+            "tokenization": ""
+        },
+        {
+            "content": "一開始說這區搭帳。大熱天搭好帳了又說這區不能搭要停車。又移一次漲。真的很掃興路不好走。車底盤有敲到。",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2023/07/08",
+            "tokenization": ""
+        },
+        {
+            "content": "這次的營地在落羽松區，我們很喜歡在這個地方～有樹蔭又涼快～差別在廁所要走階梯（微陡）關於來的路上，有些地方比較陡，開車小心。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/07/08",
+            "tokenization": ""
+        },
+        {
+            "content": "6/22三天兩夜五葉松區遇到一堆小孩一直跑進私領域有個小妹妹只是從樓梯經過而已是沒關係的結果她還說了謝謝不好意思之後有兩個小男生直接站在那邊一直看到底是在看什麼？？？有的還直接往裡面走是在？？？玩到沒地方好玩踢到營釘不要再來哭喔感謝🙏🏻（他們走的地方很窄我們根本不會過去）這次遇到很多小朋友來玩各種尖叫跑來跑去就算了請家長們好好教育孩子好嗎有沒有教過真的差很多欸第二晚還有狗突然跑出來還好我家狗ㄎㄧㄤ沒發現我們自己也有帶狗都沒讓他跑到別人的營地拜託帶狗帶小孩露營的管好好不好🥺（還有一對夫妻帶小妹妹走進來好像在找狗？）只能說要在五葉松的要好好評估喔方正可以搭的位置跟水槽的位置會面向人來人往的樓梯小路（不走樓梯下來是可以繼續直走的）如果倒過來搭會面向廁所而水槽在背後…",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/07/08",
+            "tokenization": ""
+        },
+        {
+            "content": "洗澡水溫不穩很難調整，完全沒有飲水機",
+            "rating": 2,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆娘非常親切！環境不錯，廁所稍嫌少，但打掃的很乾淨！避開洗澡人潮還是ok的。去的時候剛好遇到大雨，但營地排水佳，還有充足的護草墊，可以避開泥濘。很值得推薦的營地",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "今天離開後，忘記帶行李固定網，營主夫妻熱心協助郵寄，還贈送桂竹筍，佛心營主",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "菠蘿蜜區剛洗頭熱水就沒了！與其他區共用2間廁所及衛浴間（蹲式與衛浴同間）。車不能進營區，設備由營主開牛車運載",
+            "rating": 2,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "交通方便，離洗水坑豆腐街很近，香蕉區一帳就可包區，車輛無法到營帳旁邊，營主會開小牛號幫載裝備，空間很不錯大帳篷也搭的下，洗澡熱水水量大又夠熱，離溪邊很近，小孩可以玩水，整體來說算是不錯的營地，唯一缺點是離道路蠻近的，常常會聽到車輛上山的聲音",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "四人都是初露還不錯的體驗，營主跟營主老婆人友善有問題都會教我們，也是愛貓人士都有幫貓貓結紮☺️",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "這次我們5帳包區櫻花區！裝備下好車子停對面空地。護草墊給很足，隨便用！廁所跟浴室各一間好像有點不夠用，熱水太熱有點不知所措😅（可以到對面借浴室，那裡的水溫比較穩定）有附一支吹風機，自己準備盥洗用品！室外的男生尿斗有點害羞很露天😂夜晚蚊子很多，要點蚊香！雖然沒什麼夜景，但可以少數包帳還不錯！老闆很客氣～整體來說～我覺得還可以！ …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "水夠熱就值三顆星，另一分是給環境",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "2020/5-第7露-迪卡儂  第一次與露友合露，當天很熱，因地形的關係，晚上的風很大直吹。回程下山時有去附近的溪邊玩水一下",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "獨立帳區很棒",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主很熱情，還借我們幾支營釘，指導我們移天幕位置。護草墊與草皮狀況都很不錯。營區的狗狗貓貓也非常友善，營地狀況良好，離溪邊近，十分推薦！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "環境清悠，房間整齊雞、鵝、貓、狗都很可愛親人，很親近大自然，值得再遊",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "房間非常乾淨，老闆也很熱心招待客人，很棒的地方，有機會會再來渡假👍 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "是一個生態很好的地方。離豆腐坑老街很近，附近環境也很好。園區的雞跟鵝都會四處走動超可愛。當天住的是波羅蜜區，園區會提供很長的蚊香還蠻不錯的。唯一不方便的是廁所只有兩間。還有車子停車的位置比較尷尬，放行李的時候，老闆會開一台小車幫忙載下去。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "李子區，有獨立衛浴跟冰箱，本身還有遮雨棚的不需要額外搭天幕很讚🥰可以先向營地事先租借帳篷，到了就已經搭好了超讚！營主還提供免費蚊香🥰海拔雖低但不會被小黑蚊叮了 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "租雅房跟照片落差很大，就算了。房間都很久沒整理，都有跳蚤出沒，皮膚很癢。我們食材遺漏忘記帶，想到時已經傍晚了，打電話詢問，結果以為我們不要，工讀生要打掃、順便帶走。下次可以問看看租營地的人是不是遺忘，處理事情我不能接受，有待加強。但也不能怎樣，是自己疏忽，能怪誰。",
+            "rating": 2,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營地乾淨!!老板熱情!!露營守選>>空氣好棒!!下次還要在去!!",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "七月時包了五帳的櫻花區，只有一間廁所、兩個洗手台（且一個洗手台已經偏老舊、動線較不方便），對於五帳來說有點不夠用小黑蚊很多，但營主會提供大隻的蚊香櫻花區需使用對面營本部的冰箱，但營本部冰箱本身是營主私人在使用的冰箱，裡面有非常多的醬菜罐等等的物品，聞起來有阿嬤家冰箱的味道，建議有冰箱的還是使用自己的冰箱。適逢碰到營主的朋友上山喝酒，除了冰箱被塞爆兩箱啤酒外，還整天的唱歌直至晚上十點，很熱鬧。營區有親人的貓咪跟狗狗，個性穩定不怕小孩，走路4分鐘左右也有冰涼的溪水可以玩，營主夫人也會善意提醒可以把蚊香帶至岸邊。總結來說場地偏小、設備也建議可以加強，天然環境不錯。",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "小黑蚊加上數不盡的蒼蠅加上大雨讓整個營地泡在水裡應該是碎石頭舖的不夠造成的整個地上都是爛泥巴、相當不舒服洗澡及上廁所的空間都不夠五個營位只有一間可以洗澡上廁所電源供應也要拉的太長相當危險",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆&老闆娘好親切！❤️營地裡有柚子樹🌲、無籽檸檬樹🌲、木瓜樹🌲、營主有養吳郭魚、走地雞🐔、鴨子🦆，佢地仲好豪氣咁送土雞蛋🥚俾營友隨便食😘環境優美、衛浴設備好、24小時熱水♨️供應用心經營嘅休閒地方👏",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2023/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營區：場地很大，還可以走路去看螢火蟲（約10分鐘路程）。營主：很熱情，人也很好，還會送驅蚊香（味道不臭）。聲音：晚上跟凌晨都會有青蛙跟山羌的交響樂演奏，聽不太到隔壁營的聲音，可以放心說話。廁所：洗澡水蓮蓬頭冷熱不穩定（可能我們不會調整），最後是用一般出水孔，拿勺子洗澡。其他：營主有養貓，很常被關心，很可愛，都很親人，饅頭有點調皮，喜歡找食物跟玩帳篷🤣，奶茶很愛討拍屁股。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "路況好離老街近；李子區獨立衛浴，風景、夜空優美，草皮排水良好、生態豐富，可惜夜晚燈光過亮只出現3、4隻營火蟲，撤收時才看見有2條蛇在通往衛浴道路上。營主夫妻親切客氣，所養得貓狗都很親人，可能是太親人，貓會進帳篷、狗會在包區範圍內大便。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "柚子區雨棚下雨不怕，草皮活動空間大大太陽時也能悠閒收帳",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "一區一衛浴，非常乾淨！營主人很好，很勤快，還有非常親人的貓咪",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "環境不錯 營主熱情 五帳包區兩晚 但只有一間衛浴能洗澡 洗澡都要排很久 且我們五帳包區只有8個人已經算少 如果正常五帳包區10-15人的要洗到哪時候？",
+            "rating": 2,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "這次包落羽松區，是2帳包區，但目測腹地應該至少能搭3~4帳，而且此區車能停帳邊，小朋友玩的超級開心，雖然是個老營區，但草皮廁所都維持得不錯。晚上會有小貓出來逛大街，所以食物的部分睡覺前都要處理好。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "五葉松區！超級親切的營主夫婦！裝備幫忙運送，沒帶到的沙拉油還幫忙買了一罐！廁所浴室乾淨整潔，來的路況也很ok!低底盤也可以上！營主還送了我們一盤苦花……..下次再找朋友一起來包區！期待下次再來！非常值得！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "算舒適，營主人親切香蕉區和棧板區距離營部停車位有點距離營主會開小鐵牛幫你載裝備",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主很親切, 有冰箱可以冰東西!此次使用櫻花區, 洗碗槽, 衛浴設備數量都不太夠, 但因為是包區所以影響不大, 但若非包區可能會造成困擾。到營區的路也很好開, 且在老街附近而已。可以租帳篷,睡墊且營主會幫忙搭收 !但浴室水壓真的不穩, 且水溫難控制, 不是太熱就太冷, 若改善會很棒!",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很安靜的露營區",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "每年必來，開心露營的好地方。業主很客氣，很友善",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主夫婦超級親切，有任何需求也會即刻協助，這點真的很不錯。且離老街不遠，搭完帳還可以去老街走走覓食，頗輕鬆愜意但是營區有幾個問題，1. 浴廁同一間，又好幾個區域共用一區浴廁，所以上廁所皆需要等待2. 營區有飼養貓咪，貓咪會不斷的跑到營位，並且跳到餐桌上，也會去咬營帳，又因為不怕人，也不好趕！半夜甚至聽到有露友尖叫說貓咪在咬帳篷拉鍊3. 半夜無路燈管制，所以到了兩三點，還有許多露友不停走動、探險、聊天！會建議部分路燈可以切換，有個簡單的管制會更好4.水槽不足，問題與浴廁相同，所以洗碗洗菜要排隊，遇到煮食時間會卡住",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "超推薦露營區輕型露營車好拖營主親切，還會幫忙準備蚊香，也一直很關心我們環境舒服、乾淨",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆很客氣,小包區很舒適,附近有溪可以玩水,釣魚,小朋友非常喜歡,改天還會再光顧",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2022/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "休閒好玩",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆太讚了",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆非常好👍 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老板娘非常nice，環境乾淨舒適，價格合理超讚👍 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營地乾淨小分區， 唯有五葉松區，因車輛無法到達搬運裝備比較不方便 ，但老闆會用農用車協助搬運，很棒",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "柚子包區有漂亮星空，營主客氣隨和，活動空間充足，電力負載部分可在加強的話更好！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "乾淨整潔舒適如果廁所衛浴設備可以乾溼分離會更好👍營主很親切好山好水好好玩 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "超棒的露營地老闆老闆娘超級無敵親切！而且這裡可以租帳篷和客廳帳超級便宜！超棒",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "小巧精美風景很好，附近魚很小，可能我們去的時間不對",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "雨棚區場地小沒燈，洗澡水壓不穩，會把衣服噴濕。浴廁都是鐵皮搭建，邊洗澡還要邊聞隔壁間大便的味道，很噁心。5帳共用2個洗手枱，要價$1200太貴，同價格比這裡景好設施好的營區太多了。",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "少帳包區超棒👍，環境也乾淨 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很好玩，下次會考慮再去",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "風景美，放鬆的好地方",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "這露營地令人感覺紓壓且環境佳，適合一來再來。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "9/12-9/13 柚子區包區(可搭五帳，最多20人)上去的路程有一點陡要小心開車!!場地很大還有一片大草皮，到達的時候老闆都把帳篷搭好了！溪邊玩水：走路(10-15分鐘)或開車(5分鐘)都可以到。柚子區顧名思義旁邊都是滿滿的柚子樹呢！老闆還讓我們自己採柚子帶回家，還拔巨大筍子給我們煮湯，真的很友善！設施：露營器具幾乎都可租借；廁所兩間、淋浴間兩間，洗手台3個、小冰箱1台(很冰!)優點：價格便宜!!!(越多人越便宜)、場地大、老闆人很好！小缺點：洗澡水壓有點不穩，廁所燈有點暗(有點恐怖)整體：優質露營區！",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "有水有電很方便，需要護草墊也幫忙鋪設，有獨立衛浴，搭篷不怕下雨，每個區塊分隔好風景好~",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2021/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆 闆娘 超級親切 環境好 地大廁所乾淨但是可惜是衛生間與洗澡的是在同一間",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "美麗",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "讚",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "好玩、放鬆❤️",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "山上很漂亮，除了坡真的蠻陡的之外，很適合當爬山健行。晚上起大霧，會冷。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "有雨棚，草皮很美，屬小包區環境不錯老闆親切，就是浴廁少了點。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "分層的營地，音量比較不會影響到其他人，很合適家庭朋友一起露營，",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主夫妻用心經營，草地也很用心維護，環境很不錯",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主很親切，環境保養的很不錯價格便宜又實在",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "環境很好，分層包區不怕吵",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "草皮漂亮 離豆腐街和萊爾富近",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "天時地利人和，就是露營的好地方",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "小區露營地，安靜悠閒。衛浴設施可以再加強。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "舒壓，小溪，河流的高山環境，適合一來再來",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2020/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很美的草地",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "場地不錯 旁邊有小溪可以戲水浴廁衛生還行去的當天半夜下暴雨 老闆娘還有來關心我們帳篷的狀況 很窩心",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營地，去的季節不冷也沒有太多蟲，約20分鐘陡上的路程可以看雲海。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "有點大~太分散~營地太小",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "分許多區設施還不錯",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "路些許不好走，早上會有霧，運氣好就看到雲海與日光折射。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "可惜沒大草坪，廁所數量環境有待加強。",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "適合一群好友一起來增進感情的地方💕草地滿乾淨的 …",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "當初看了網路評價而定，滿是期待，但下訂後滿滿扣分。1、訂金付之後，傳訊息問問題是已讀不回2、入住當晚即馬上收尾款，再也沒看過《一眼》所謂的老闆老闆娘，因此感受不到評論裡的老闆親切等3、兩間盥洗室，至少6帳的露友使用（至少16人），只有收款的時候才出現，衛生紙會夠嗎？（更何況別區的露友有時候會跨區使用4、除非露友想晚上6點或11點洗澡，不然洗澡絕對要排，尿意要憋5、流理台沒提供肥皂或洗碗精，盥洗室更沒有提供沐浴用品綜合以上，是這次參與露營11人的共同感想",
+            "rating": 1,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很好~~",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "地點便利生態豐富",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "雖然低海拔也有蚊子但是近溪邊讓小孩一天去玩三次（早下午晚上）加上小包區有自己的空間不會被打擾還算不錯吧",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主夫婦親切貼心，用心維護場地整潔舒適，距離清安老街、泰安溫泉、大湖市區都很近，同時兼具露營、走訪附近景點功能的營區。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主夫婦待人親切，環境衛生佳，我們團體價格超級便宜。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "好山好水好所在",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "環境舒適",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主人親切草皮柔軟！",
+            "rating": 4,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "舒服乾凈的露營區 營主也很熱心",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2019/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆跟老闆娘很親切，營地費用很實在！800可以一帳包區很棒，草地厚實，衛浴很乾淨！",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "進到營區第一印象是好陡的坡，讓我對我家的小黑捏了把冷汗，而後老闆娘很親切的介紹，還說晚上會有螢火蟲，到了晚上把燈關了，真的有很多螢火蟲，可惜沒照相，營區採梯田式的場地，每區都不是很大，廁所衛浴各一間，插頭數量也不多，另外我比較不滿意的地方是蒼蠅偏多，風景也還好，唯一比較好的是營區下方有溪可以讓小孩去玩水，水很乾淨，有大人帶著蠻安全的，在那小孩就可以混個半天，說實在的沒有很推薦！",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很親切 環境舒適 景色優美",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆和老闆娘待人親切，場地優質ㄚ",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "廁所與浴室是同一間，所以。。。到了晚上洗澡時間，上廁所的人需等待。",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "草坪美觀，又有溫泉",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "梯田式營地，各小區自成一格，有栽植各季蔬果，營主夫妻熱情待人。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "各區分佈良好，出租帳篷未附鋁箔墊",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆服務態度優",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2018/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "風景優美，草地養護完善，營主夫妻非常親切！大推",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很乾淨的營區，老闆娘很親切",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "還不錯啦整個環境算是乾淨 老闆娘也很好",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "超親切員工，廁所沐浴室很乾淨，每一營區皆有插座跟一盞路燈、洗手槽跟垃圾桶，十分方便。我們住的營區為芭蕉區，別的營區來看說是像套房一樣，而且往前走景色超美，整座山谷在眼前。離豆腐街很近。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "每一小區獨立，適合三五好友小露，不會跟不熟悉的鄰居相互干擾。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "安靜不被打擾，讚",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆熱心招待，青山綠水環繞，空氣好",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "營主熱心親切，雨後雲海很美，雖然沒有高山的風景，但分區的關係，覺得很清靜優美",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "視野開闊草坪漂亮",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "很棒的營區 旁邊有小溪可戲水",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2017/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆及老闆娘很客氣。舒服",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2016/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "老闆親切接待，風景優美，可以把在都市的緊張跟疲憊都消除掉。",
+            "rating": 5,
+            "type": 1,
+            "publishedDate": "2016/05/08",
+            "tokenization": ""
+        },
+        {
+            "content": "地小了點",
+            "rating": 3,
+            "type": 1,
+            "publishedDate": "2016/05/08",
+            "tokenization": ""
+        }
+    ],
+    "phone": ""
+}
