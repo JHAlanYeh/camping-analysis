@@ -1,3 +1,7 @@
 *.pt
 NotoSansTC-VariableFont_wght.ttf
 code/taide_Llama3_TAIDE_LX_8B_Chat_Alpha1_4bit/taide-8b-a.3-q4_k_m.gguf
+llm_model/Llama3-TAIDE-LX-8B-Chat-Alpha1/model-00001-of-00004.safetensors
+llm_model/Llama3-TAIDE-LX-8B-Chat-Alpha1/model-00002-of-00004.safetensors
+llm_model/Llama3-TAIDE-LX-8B-Chat-Alpha1/model-00003-of-00004.safetensors
+llm_model/Llama3-TAIDE-LX-8B-Chat-Alpha1/model-00004-of-00004.safetensors

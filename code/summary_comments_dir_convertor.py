@@ -19,6 +19,7 @@ target_path = os.path.join(root_path, target_directory)
 type1_comments = []
 type2_comments = []
 for dir in ["1", "2"]:
+    sequence_num = 1
     dir_path = os.path.join(target_path, dir)
     for file in os.listdir(dir_path):
         if ".json" not in file:
@@ -30,17 +31,23 @@ for dir in ["1", "2"]:
         target_data = json.load(tf)
         tf.close()
 
-        if len(target_data) < 100:
+        if len(target_data) < 200:
             continue
         for d in target_data:
             emojis = emoji.emoji_list(d["content"])
             for e in emojis:
                 d["content"] = d["content"].replace(e["emoji"], "")
 
+            if d["content"].strip() == "":
+                continue
             if d["type"] == 1:
+                d["sequence_num"] = sequence_num
                 type1_comments.append(d)
+                sequence_num += 1
             elif d["type"] == 2:
+                d["sequence_num"] = sequence_num
                 type2_comments.append(d)
+                sequence_num += 1
 
 df1 = pd.json_normalize(type1_comments)
 df2 = pd.json_normalize(type2_comments)

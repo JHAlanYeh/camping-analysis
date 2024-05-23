@@ -6,9 +6,7 @@ import pandas as pd
 import re
 from opencc import OpenCC
 import numpy as np
-from sklearn.utils import shuffle
 import torch
-from transformers import pipeline
 from huggingface_hub import login
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
@@ -17,45 +15,113 @@ import torch
 TOKEN = "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"
 login(TOKEN)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model_id = "./Llama3-TAIDE-LX-8B-Chat-Alpha1"
+model_id = "llm_model\Llama3-TAIDE-LX-8B-Chat-Alpha1"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
     model_id, torch_dtype="auto", device_map="auto"
 )
 
-flag = False
-cn2zh = OpenCC('s2twp')
-df = pd.read_csv("../docs/origin/type1_origin.csv", encoding="utf-8-sig")
-# gan_df = pd.read_csv('../docs/llama3_ckip/type1_gan_df_13.csv')
 
-gan_data = []
-# for index, row in list(gan_df.iterrows()):
-#     gan_data.append(dict(row))
-# print(len(gan_data))
+df = pd.read_csv("new_data/docs/type1_comments_low.csv", encoding="utf-8-sig")
+target_count = len(df[df["rating"] >= 4])
 
-p = re.compile(u'['u'\U0001F300-\U0001F64F' u'\U0001F680-\U0001F6FF' u'\u2600-\u2B55 \U00010000-\U0010ffff]+')
+df_mid = df[df["rating"] == 3]
+df_low = df[df["rating"] <= 2]
 
-for index, row in df.iterrows():
-    temp_data = []
-    if len(row["content"]) >= 512:
-        continue
-    if row["rating"] >= 4:
-        continue
+mid_flag = False
+low_flag = False
 
-    clean_content = re.sub(p,'', row["content"])
-    # if not clean_content.startswith("希望營區能管制小孩放") and flag == False:
-    #     continue
-   
+df_mid_gan_csv = pd.read_csv("new_data/docs/llama3_type1_mid_gan_df.csv", encoding="utf-8-sig")
+df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
+df_low_gan_csv = pd.read_csv("new_data/docs/llama3_type1_low_gan_df.csv", encoding="utf-8-sig")
+df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 
-    print("====================================")
-    print(f"Origin: {clean_content}")
+df_mid_gan = []
+for index, row in list(df_mid_gan_csv.iterrows()):
+    df_mid_gan.append(dict(row))
 
-    print("\n增生文本如下：\n")
-    while True:
+df_low_gan = []
+for index, row in list(df_low_gan_csv.iterrows()):
+    df_low_gan.append(dict(row))
+
+while len(df_low) + len(df_low_gan) < target_count:
+    for index, row in df_low.iterrows():
+        
+        if not row['content'].startswith("1.場地很美，草皮很漂亮。2.帳帳相連，很擁擠，") and low_flag == False:
+            continue
+        print("====================================")
+        print(f"Origin: {row['content']}")
+  
+        print("\n增生文本如下：\n")
+
         messages = [
             {
+                "role": "system", 
+                "content": "你是一個來自台灣的助理，會用繁體中文回答問題。你的任務是當收到一段句子，你會將這段句子換句話說。比如當我說：'今天天氣真好'，你會回答我：'今天天氣不錯'"
+            },
+            {
                 "role": "user", 
-                "content": f"{clean_content} \n\n  以上露營評論請使用繁體中文來換句話說，照著這個規則請生成評論"},
+                "content": row["content"]
+            },
+        ]
+        
+        input_ids  = tokenizer.apply_chat_template(
+            messages, add_generation_prompt=True, return_tensors="pt"
+        ).to(model.device)
+
+        outputs = model.generate(
+            input_ids,
+            max_new_tokens=8196,
+            do_sample=True,
+            temperature=0.6,
+            top_p=0.9,
+        )
+        embeddings = outputs[0][input_ids.shape[-1]:]
+        response = tokenizer.decode(embeddings, skip_special_tokens=True)
+        print(response)
+
+        same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_low_gan))  
+        same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
+        
+        print("同系列增生句子")
+        print(same_sequence_data)
+        if response != row["content"] and response not in same_sequence_data:
+            df_low_gan.append({
+                "content": response,
+                "rating": row["rating"],
+                "type": row["type"],
+                "status": row["status"],
+                "sequence_num": row["sequence_num"],
+                "tokenization": "",
+                "publishedDate": row["publishedDate"],
+                "origin": 0
+            })
+
+        low_gan_df = pd.json_normalize(df_low_gan)
+        low_gan_df.to_csv('new_data/docs/llama3_type1_low_gan_df.csv', index=False, encoding="utf-8-sig")
+        print(f"目前增生數量： 增生{len(df_low_gan)}句，總共{len(df_low_gan) + len(df_low)}，目標{target_count}")
+        low_flag = True
+
+# ========================================================= #
+# 中立
+while len(df_mid) + len(df_mid_gan) < target_count:
+    for index, row in df_mid.iterrows():
+        # if not row['content'].startswith("1.營主很熱心，這麼熱的天氣，送來透心涼的點心") and mid_flag == False:
+        #     continue
+        print("====================================")
+        print(f"Origin: {row['content']}")
+
+        print("\n增生文本如下：\n")
+
+        messages = [
+            {
+                "role": "system", 
+                "content": "你是一個來自台灣的助理，會用繁體中文回答問題。你的任務是當收到一段句子，你會將這段句子換句話說。比如當我說：'今天天氣真好'，你會回答我：'今天天氣不錯'"
+            },
+            {
+                "role": "user", 
+                "content": row["content"]
+            }
         ]
         
         input_ids = tokenizer.apply_chat_template(
@@ -71,28 +137,26 @@ for index, row in df.iterrows():
         )
         embeddings = outputs[0][input_ids.shape[-1]:]
         response = tokenizer.decode(embeddings, skip_special_tokens=True)
+        print(response)
 
-        response = cn2zh.convert(response)
-        if response not in temp_data and response != clean_content:
-            print(f"{len(temp_data) + 1}. {response}")
-            temp_data.append(response)
+        same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_mid_gan))  
+        same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
 
-        if len(temp_data) >= 3:
-            break
+        print("同系列增生句子")
+        print(same_sequence_data)
+        if response != row["content"] and response not in same_sequence_data:
+            df_mid_gan.append({
+                "content": response,
+                "rating": row["rating"],
+                "type": row["type"],
+                "status": row["status"],
+                "sequence_num": row["sequence_num"],
+                "tokenization": "",
+                "publishedDate": row["publishedDate"],
+                "origin": 0
+            })
 
-    for t in temp_data:
-        gan_data.append({
-            "content": t,
-            "rating": row["rating"],
-            "type": row["type"],
-            "status": row["status"],
-            "tokenization": "",
-            "publishedDate": row["publishedDate"],
-            "origin": 0
-        })
-
-    # flag = True
-    gan_df = pd.json_normalize(gan_data)
-    merge_df = pd.concat([df, gan_df])
-    gan_df.to_csv('../docs/llama3_ckip/type1_gan_df.csv', index=False, encoding="utf-8-sig")
-    merge_df.to_csv('../docs/llama3_ckip/type1_llm_gan_merge.csv', index=False, encoding="utf-8-sig")
+        mid_gan_df = pd.json_normalize(df_mid_gan)
+        mid_gan_df.to_csv('new_data/docs/llama3_type1_mid_gan_df.csv', index=False, encoding="utf-8-sig")
+        print(f"目前增生數量： 增生{len(df_mid_gan)}句，總共{len(df_mid_gan) + len(df_mid)}，目標{target_count}")
+        mid_flag = True

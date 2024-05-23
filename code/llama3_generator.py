@@ -29,8 +29,6 @@ for index, row in list(gan_df.iterrows()):
     gan_data.append(dict(row))
 print(len(gan_data))
 
-p = re.compile(u'['u'\U0001F300-\U0001F64F' u'\U0001F680-\U0001F6FF' u'\u2600-\u2B55 \U00010000-\U0010ffff]+')
-
 for index, row in df.iterrows():
     temp_data = []
     if len(row["content"]) >= 512:
@@ -38,7 +36,7 @@ for index, row in df.iterrows():
     if row["rating"] >= 4:
         continue
 
-    clean_content = re.sub(p,'', row["content"])
+    clean_content = row["content"]
     if not clean_content.startswith("狩獵帳都發霉，感覺完全沒有整理") and flag == False:
         continue
    

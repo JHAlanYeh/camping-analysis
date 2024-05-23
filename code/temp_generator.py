@@ -1,23 +1,29 @@
 from llama_cpp import Llama
 
-model_id = "./Llama3-TAIDE-LX-8B-Chat-Alpha1"
-
-llm = Llama(
-  model_path=model_id,  # path to GGUF file
-  
-  n_ctx=4096,  # The max sequence length to use - note that longer sequence lengths require much more resources
-  n_threads=8, # The number of CPU threads to use, tailor to your system and the resulting performance
-  n_gpu_layers=35, # The number of layers to offload to GPU, if you have GPU acceleration available. Set to 0 if no GPU acceleration is available on your system.
+model = Llama(
+    "/Your/Path/To/GGUF/File",
+    verbose=False,
+    n_gpu_layers=-1,
 )
 
-prompt = "How to explain Internet to a medieval knight?"
+system_prompt = "You are a helpful assistant."
 
-# Simple inference example
-output = llm(
-  f"<|user|>\n{prompt}<|end|>\n<|assistant|>",
-  max_tokens=256,  # Generate up to 256 tokens
-  stop=["<|end|>"], 
-  echo=True,  # Whether to echo the prompt
-)
+def generate_reponse(_model, _messages, _max_tokens=8192):
+    _output = _model.create_chat_completion(
+        _messages,
+        stop=["<|eot_id|>", "<|end_of_text|>"],
+        max_tokens=_max_tokens,
+    )["choices"][0]["message"]["content"]
+    return _output
 
-print(output['choices'][0]['text'])
+# The following are some examples
+
+messages = [
+    {
+        "role": "system",
+        "content": system_prompt,
+    },
+    {"role": "user", "content": "写一首诗吧"},
+]
+
+print(generate_reponse(model, messages))
