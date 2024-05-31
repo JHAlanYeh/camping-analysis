@@ -14,7 +14,7 @@ LABELS = ['負向', '中立', '正向']
 STAR_LABELS = ['一星', '二星', '三星', '四星', '五星']
 
 def type1_origin_chart():
-    df = pd.read_csv('new_data/docs/type1_comments_low.csv')
+    df = pd.read_csv('new_data/docs/type1_comments_low_v2.csv')
 
     values = []
     values.append(len(df[df["status"] == -1]))
@@ -34,7 +34,7 @@ def type1_origin_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs/type1_origin.png')
+    plt.savefig('new_data/docs/type1_origin_v2.png')
 
 
 def type1_aug_star_chart():
@@ -85,7 +85,7 @@ def type1_aug_chart():
     plt.savefig('../docs/llama3gan/type1_aug.png')
 
 def type2_origin_chart():
-    df = pd.read_csv('new_data/docs/type2_comments_low.csv')
+    df = pd.read_csv('new_data/docs/type2_comments_low_v2.csv')
 
     values = []
     values.append(len(df[df["status"] == -1]))
@@ -105,7 +105,7 @@ def type2_origin_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs/type2_origin.png')
+    plt.savefig('new_data/docs/type2_origin_v2.png')
 
 def type2_aug_star_chart():
     df = pd.read_csv('../docs/llama3gan/type2_llm_gan_merge.csv')

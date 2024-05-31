@@ -37,6 +37,9 @@ for dir in ["1", "2"]:
             emojis = emoji.emoji_list(d["content"])
             for e in emojis:
                 d["content"] = d["content"].replace(e["emoji"], "")
+            
+            if len(d["content"]) <= 10 or len(d["content"]) >= 512:
+                continue
 
             if d["content"].strip() == "":
                 continue
@@ -78,5 +81,5 @@ print(df2.head(5))
 
 df_path = os.path.join(root_path, "docs")
 
-df1.to_csv(os.path.join(df_path, "type1_comments_low.csv"), encoding="utf-8-sig", index=False)
-df2.to_csv(os.path.join(df_path, "type2_comments_low.csv"), encoding="utf-8-sig", index=False)
+df1.to_csv(os.path.join(df_path, "type1_comments_low_v2.csv"), encoding="utf-8-sig", index=False)
+df2.to_csv(os.path.join(df_path, "type2_comments_low_v2.csv"), encoding="utf-8-sig", index=False)
