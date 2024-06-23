@@ -15,6 +15,7 @@ import torch
 TOKEN = "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"
 login(TOKEN)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+print(device)
 model_id = "llm_model\Llama3-TAIDE-LX-8B-Chat-Alpha1"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
@@ -22,7 +23,8 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 
-df = pd.read_csv("new_data/docs/type2_comments_low_v1.csv", encoding="utf-8-sig")
+# df = pd.read_csv("new_data/docs/Final_Origin/type1_comments_origin.csv", encoding="utf-8-sig")
+df = pd.read_csv("new_data/docs/Final_Origin/type2_comments_origin.csv", encoding="utf-8-sig")
 target_count = len(df[df["rating"] >= 4])
 print(f"需增生至{target_count}句")
 
@@ -56,7 +58,7 @@ while len(df_low) + len(df_low_gan) < target_count:
         print(f"Origin: {row['content']}")
 
         same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_low_gan))
-        if len(same_sequence_list) >= 19:
+        if len(same_sequence_list) >= 15:
             continue
         same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
   
@@ -118,13 +120,13 @@ while len(df_low) + len(df_low_gan) < target_count:
 while len(df_mid) + len(df_mid_gan) < target_count:
     print("中立增生")
     for index, row in df_mid.iterrows():
-        # if not row['content'].startswith("1.營主很熱心，這麼熱的天氣，送來透心涼的點心") and mid_flag == False:
+        # if not row['content'].startswith("重點先寫：床墊是充氣床墊服務周全 食材 器具") and mid_flag == False:
         #     continue
         print("====================================")
         print(f"Origin: {row['content']}")
 
         same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_mid_gan))
-        if len(same_sequence_list) >= 19:
+        if len(same_sequence_list) >= 33:
             continue
         same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
 
