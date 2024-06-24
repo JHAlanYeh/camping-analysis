@@ -38,7 +38,7 @@ def type1_origin_chart():
 
 
 def type1_gan_chart():
-    df = pd.read_csv('new_data/docs/llama3_type1_merge_df.csv')
+    df = pd.read_csv('new_data/docs/gpt35_type1_merge_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -49,7 +49,7 @@ def type1_gan_chart():
 
     axes = type1_merge_df.plot(kind='bar')
 
-    plt.title('增生後資料(傳統露營)(Llama3)', fontproperties=tw_font)
+    plt.title('增生後資料(傳統露營)(gpt3.5)', fontproperties=tw_font)
     plt.xlabel('評價類型', fontproperties=tw_font)
     plt.xticks(rotation=0)
     plt.ylabel('數量', fontproperties=tw_font)
@@ -84,7 +84,7 @@ def type2_origin_chart():
 
 
 def type2_gan_chart():
-    df = pd.read_csv('new_data/docs/llama3_type2_merge_df.csv')
+    df = pd.read_csv('new_data/docs/gpt35_type2_merge_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -95,7 +95,7 @@ def type2_gan_chart():
 
     axes = type1_merge_df.plot(kind='bar')
 
-    plt.title('增生後資料(懶人露營)(Llama3)', fontproperties=tw_font)
+    plt.title('增生後資料(懶人露營)(gpt3.5)', fontproperties=tw_font)
     plt.xlabel('評價類型', fontproperties=tw_font)
     plt.xticks(rotation=0)
     plt.ylabel('數量', fontproperties=tw_font)
@@ -106,8 +106,8 @@ def type2_gan_chart():
     plt.savefig('new_data/docs/type2_gan_v2.png')
 
 if __name__ == "__main__":
-    type1_origin_chart()
-    type2_origin_chart()
+    # type1_origin_chart()
+    # type2_origin_chart()
 
     type1_gan_chart()
-    type2_gan_chart()
+    # type2_gan_chart()

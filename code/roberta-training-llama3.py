@@ -67,7 +67,7 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs/Final_Llama3/Type1_Result/RoBERTa/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs/Final_Llama3/Type2_Result/RoBERTa/{save_name}')
 
 def train_model():
     start_time = datetime.now()
@@ -163,7 +163,7 @@ def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = RobertaClassifier()
-    model.load_state_dict(torch.load('new_data/docs/Final_Llama3/Type1_Result/RoBERTa/best.pt'))
+    model.load_state_dict(torch.load('new_data/docs/Final_Llama3/Type2_Result/RoBERTa/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -203,7 +203,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs/Final_Llama3/Type1_Result/RoBERTa/RoBERTa_Loss.jpg")
+    plt.savefig("new_data/docs/Final_Llama3/Type2_Result/RoBERTa/RoBERTa_Loss.jpg")
 
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
@@ -214,7 +214,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs/Final_Llama3/Type1_Result/RoBERTa/RoBERTa_Acc.jpg")
+    plt.savefig("new_data/docs/Final_Llama3/Type2_Result/RoBERTa/RoBERTa_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -226,16 +226,16 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs/Final_Llama3/Type1_Result/RoBERTa/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs/Final_Llama3/Type2_Result/RoBERTa/{fname}.jpg")
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
 
-    df_train = pd.read_csv("new_data/docs/Final_Llama3/Type1_Result/train_df.csv")
-    df_val = pd.read_csv("new_data/docs/Final_Llama3/Type1_Result/val_df.csv")
-    df_test = pd.read_csv("new_data/docs/Final_Llama3/Type1_Result/test_df.csv")
+    df_train = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/train_df.csv")
+    df_val = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/val_df.csv")
+    df_test = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/test_df.csv")
 
     df_train = shuffle(df_train)
     df_val = shuffle(df_val)

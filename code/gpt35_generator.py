@@ -7,8 +7,8 @@ from sklearn.utils import shuffle
 
 OPENAI_API_KEY="sk-proj-kSrjk2DSkQsvNBbGzzKeT3BlbkFJ6oBEEjuKHXj7W1LPFyju"
 # cn2zh = OpenCC('s2twp')
-df = pd.read_csv("new_data/docs/Final_Origin/type1_comments_origin.csv", encoding="utf-8-sig")
-# df = pd.read_csv("new_data/docs/Final_Origin/type2_comments_origin.csv", encoding="utf-8-sig")
+# df = pd.read_csv("new_data/docs/Final_Origin/type1_comments_origin.csv", encoding="utf-8-sig")
+df = pd.read_csv("new_data/docs/Final_Origin/type2_comments_origin.csv", encoding="utf-8-sig")
 
 target_count = len(df[df["rating"] >= 4])
 print(f"需增生至{target_count}句")
@@ -20,19 +20,19 @@ print(f"原始：負向{len(df_low)}句，中立{len(df_mid)}句")
 mid_flag = False
 low_flag = False
 
-# df_mid_gan_csv = pd.read_csv("new_data/docs/gpt35_type1_mid_gan_df.csv", encoding="utf-8-sig")
-# df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
-df_low_gan_csv = pd.read_csv("new_data/docs/gpt35_type1_low_gan_df.csv", encoding="utf-8-sig")
-df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
+df_mid_gan_csv = pd.read_csv("new_data/docs/gpt35_type2_mid_gan_df.csv", encoding="utf-8-sig")
+df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
+# df_low_gan_csv = pd.read_csv("new_data/docs/gpt35_type2_low_gan_df.csv", encoding="utf-8-sig")
+# df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 # print(f"增生：負向{len(df_low_gan_csv)}句，中立{len(df_mid_gan_csv)}句")
 
 df_mid_gan = []
-# for index, row in list(df_mid_gan_csv.iterrows()):
-#     df_mid_gan.append(dict(row))
+for index, row in list(df_mid_gan_csv.iterrows()):
+    df_mid_gan.append(dict(row))
 
 df_low_gan = []
-for index, row in list(df_low_gan_csv.iterrows()):
-    df_low_gan.append(dict(row))
+# for index, row in list(df_low_gan_csv.iterrows()):
+#     df_low_gan.append(dict(row))
 
 client = OpenAI(
   api_key=OPENAI_API_KEY,
@@ -90,7 +90,7 @@ while len(df_low) + len(df_low_gan) < target_count:
             })
 
         low_gan_df = pd.json_normalize(df_low_gan)
-        low_gan_df.to_csv('new_data/docs/gpt35_type1_low_gan_df.csv', index=False, encoding="utf-8-sig")
+        low_gan_df.to_csv('new_data/docs/gpt35_type2_low_gan_df.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_low_gan)}句，總共{len(df_low_gan) + len(df_low)}，目標{target_count}")
         low_flag = True
 
@@ -106,7 +106,7 @@ while len(df_mid) + len(df_mid_gan) < target_count:
         print(f"Origin: {row['content']}")
 
         same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_mid_gan))
-        if len(same_sequence_list) >= 18:
+        if len(same_sequence_list) >= 23:
             continue
         same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
 
@@ -149,7 +149,7 @@ while len(df_mid) + len(df_mid_gan) < target_count:
             })
 
         mid_gan_df = pd.json_normalize(df_mid_gan)
-        mid_gan_df.to_csv('new_data/docs/gpt35_type1_mid_gan_df.csv', index=False, encoding="utf-8-sig")
+        mid_gan_df.to_csv('new_data/docs/gpt35_type2_mid_gan_df.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_mid_gan)}句，總共{len(df_mid_gan) + len(df_mid)}，目標{target_count}")
         mid_flag = True
 
