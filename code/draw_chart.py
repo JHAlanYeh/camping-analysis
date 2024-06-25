@@ -110,4 +110,4 @@ if __name__ == "__main__":
     # type2_origin_chart()
 
     type1_gan_chart()
-    # type2_gan_chart()
+    type2_gan_chart()
