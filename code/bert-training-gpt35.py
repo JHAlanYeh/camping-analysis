@@ -272,9 +272,9 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
-    pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_GPT35/Type1_Result/train_df.csv", index=False)
-    pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_GPT35/Type1_Result/val_df.csv", index=False)
-    pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_GPT35/Type1_Result/test_df.csv", index=False)
+    pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_GPT35/Type1_Result/train_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_GPT35/Type1_Result/val_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_GPT35/Type1_Result/test_df.csv", index=False, encoding="utf-8-sig")
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
