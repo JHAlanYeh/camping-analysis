@@ -68,7 +68,7 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs/Final_Origin/Type1_Result/BERT/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs/Final_Origin/Type2_Result/BERT/{save_name}')
 
 def train_model():
     start_time = datetime.now()
@@ -164,7 +164,7 @@ def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = BertClassifier()
-    model.load_state_dict(torch.load('new_data/docs/Final_Origin/Type1_Result/BERT/best.pt'))
+    model.load_state_dict(torch.load('new_data/docs/Final_Origin/Type2_Result/BERT/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -197,7 +197,7 @@ def preprocess_data():
     df = pd.read_csv("new_data/docs/Final_Origin/type2_comments_origin.csv", encoding="utf_8_sig")
 
     df = df[df["content"].str.len() < 510]
-    target_df = df[["content", "status", "type"]]
+    target_df = df
 
     # create a list of our conditions
     conditions = [
@@ -213,7 +213,7 @@ def preprocess_data():
     target_df['label'] = np.select(conditions, values)
     target_df = shuffle(target_df)
 
-    np.random.seed(112)
+    np.random.seed(random_seed)
     df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
     print(len(df_train),len(df_val), len(df_test))
 
@@ -227,7 +227,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs/Final_Origin/Type1_Result/BERT/BERT_Loss.jpg")
+    plt.savefig("new_data/docs/Final_Origin/Type2_Result/BERT/BERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -237,7 +237,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs/Final_Origin/Type1_Result/BERT/BERT_Acc.jpg")
+    plt.savefig("new_data/docs/Final_Origin/Type2_Result/BERT/BERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -249,19 +249,19 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs/Final_Origin/Type1_Result/BERT/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs/Final_Origin/Type2_Result/BERT/{fname}.jpg")
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
 
-    # df_train, df_val, df_test = preprocess_data()
+    df_train, df_val, df_test = preprocess_data()
     
 
-    df_train = pd.read_csv("new_data/docs/Final_Origin/Type1_Result/train_df.csv")
-    df_val = pd.read_csv("new_data/docs/Final_Origin/Type1_Result/val_df.csv")
-    df_test = pd.read_csv("new_data/docs/Final_Origin/Type1_Result/test_df.csv")
+    # df_train = pd.read_csv("new_data/docs/Final_Origin/Type2_Result/train_df.csv")
+    # df_val = pd.read_csv("new_data/docs/Final_Origin/Type2_Result/val_df.csv")
+    # df_test = pd.read_csv("new_data/docs/Final_Origin/Type2_Result/test_df.csv")
 
     df_train = shuffle(df_train)
     df_val = shuffle(df_val)
@@ -272,9 +272,9 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
-    # pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Origin/Type1_Result/train_df.csv", index=False, encoding="utf-8-sig")
-    # pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Origin/Type1_Result/val_df.csv", index=False, encoding="utf-8-sig")
-    # pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Origin/Type1_Result/test_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_train, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs/Final_Origin/Type2_Result/train_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_val, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs/Final_Origin/Type2_Result/val_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_test, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs/Final_Origin/Type2_Result/test_df.csv", index=False, encoding="utf-8-sig")
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
@@ -288,5 +288,5 @@ if __name__ == "__main__":
     lr = 2e-5
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    train_model()
-    evaluate(test_dataset)
+    # train_model()
+    # evaluate(test_dataset)

@@ -105,9 +105,36 @@ def type2_gan_chart():
         label.set_fontproperties(tw_font)
     plt.savefig('new_data/docs/type2_gan_v2.png')
 
+
+def type1_origin_split_chart(dataset):
+    df = pd.read_csv(f"new_data/docs/{dataset}.csv")
+    values = []
+    values.append(len(df[df["status"] == -1]))
+    values.append(len(df[df["status"] == 0]))
+    values.append(len(df[df["status"] == 1]))
+
+    ser = pd.Series(values, index=LABELS)
+    type1_merge_df = pd.DataFrame(data=ser, index=LABELS)
+
+    axes = type1_merge_df.plot(kind='bar')
+
+    plt.title('原始資料(傳統露營)(訓練集)', fontproperties=tw_font)
+    plt.xlabel('評價類型', fontproperties=tw_font)
+    plt.xticks(rotation=0)
+    plt.ylabel('數量', fontproperties=tw_font)
+    plt.legend('',frameon=False)
+    addlabels(LABELS, values)
+    for label in axes.get_xticklabels():
+        label.set_fontproperties(tw_font)
+    plt.savefig(f'new_data/docs/type1_{dataset}.png')
+
 if __name__ == "__main__":
     # type1_origin_chart()
     # type2_origin_chart()
 
-    type1_gan_chart()
-    type2_gan_chart()
+    # type1_gan_chart()
+    # type2_gan_chart()
+
+    type1_origin_split_chart("train_df")
+    type1_origin_split_chart("test_df")
+    type1_origin_split_chart("val_df")

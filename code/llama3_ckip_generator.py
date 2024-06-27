@@ -23,21 +23,28 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 
-# df = pd.read_csv("new_data/docs/Final_Origin/type1_comments_origin.csv", encoding="utf-8-sig")
-df = pd.read_csv("new_data/docs/Final_Origin/type2_comments_origin.csv", encoding="utf-8-sig")
-target_count = len(df[df["rating"] >= 4])
+df = pd.read_csv("new_data/docs/type1_train_df.csv", encoding="utf-8-sig")
+# target_count = len(df[df["rating"] >= 4])
+# print(f"需增生至{target_count}句")
+
+# df_mid = df[df["rating"] == 3]
+# df_low = df[df["rating"] <= 2]
+# print(f"原始：負向{len(df_low)}句，中立{len(df_mid)}句")
+
+
+target_count = len(df[df["label"] == 2])
 print(f"需增生至{target_count}句")
 
-df_mid = df[df["rating"] == 3]
-df_low = df[df["rating"] <= 2]
+df_mid = df[df["label"] == 1]
+df_low = df[df["label"] == 0]
 print(f"原始：負向{len(df_low)}句，中立{len(df_mid)}句")
 
 mid_flag = False
 low_flag = False
 
-df_mid_gan_csv = pd.read_csv("new_data/docs/llama3_type2_mid_gan_df.csv", encoding="utf-8-sig")
+df_mid_gan_csv = pd.read_csv("new_data/docs/llama3_type1_mid_gan_dataset.csv", encoding="utf-8-sig")
 df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
-df_low_gan_csv = pd.read_csv("new_data/docs/llama3_type2_low_gan_df.csv", encoding="utf-8-sig")
+df_low_gan_csv = pd.read_csv("new_data/docs/llama3_type1_low_gan_dataset.csv", encoding="utf-8-sig")
 df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 print(f"增生：負向{len(df_low_gan_csv)}句，中立{len(df_mid_gan_csv)}句")
 
@@ -108,7 +115,7 @@ while len(df_low) + len(df_low_gan) < target_count:
             })
 
         low_gan_df = pd.json_normalize(df_low_gan)
-        low_gan_df.to_csv('new_data/docs/llama3_type2_low_gan_df.csv', index=False, encoding="utf-8-sig")
+        low_gan_df.to_csv('new_data/docs/llama3_type1_low_gan_dataset.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_low_gan)}句，總共{len(df_low_gan) + len(df_low)}，目標{target_count}")
         low_flag = True
 
@@ -176,7 +183,7 @@ while len(df_mid) + len(df_mid_gan) < target_count:
             })
 
         mid_gan_df = pd.json_normalize(df_mid_gan)
-        mid_gan_df.to_csv('new_data/docs/llama3_type2_mid_gan_df.csv', index=False, encoding="utf-8-sig")
+        mid_gan_df.to_csv('new_data/docs/llama3_type1_mid_gan_dataset.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_mid_gan)}句，總共{len(df_mid_gan) + len(df_mid)}，目標{target_count}")
         mid_flag = True
 
