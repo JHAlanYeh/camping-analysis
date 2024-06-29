@@ -230,10 +230,10 @@ if __name__ == "__main__":
     setup_seed(random_seed)
 
 
-    df_train = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/train_df.csv")
+    df_train = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/gpt35_type1_merge_train_dataset.csv")
     df_val = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/val_df.csv")
     df_test = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/test_df.csv")
-
+    
     df_train = shuffle(df_train)
     df_val = shuffle(df_val)
     df_test = shuffle(df_test)

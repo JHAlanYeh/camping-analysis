@@ -232,8 +232,7 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-
-    df_train = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/train_df.csv")
+    df_train = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/gpt35_type1_merge_train_dataset.csv")
     df_val = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/val_df.csv")
     df_test = pd.read_csv("new_data/docs/Final_GPT35/Type1_Result/test_df.csv")
 
