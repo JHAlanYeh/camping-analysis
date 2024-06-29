@@ -256,12 +256,12 @@ if __name__ == "__main__":
     setup_seed(random_seed)
 
 
-    df_train, df_val, df_test = preprocess_data()
+    # df_train, df_val, df_test = preprocess_data()
     
 
-    # df_train = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/train_df.csv")
-    # df_val = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/val_df.csv")
-    # df_test = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/test_df.csv")
+    df_train = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/train_df.csv")
+    df_val = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/val_df.csv")
+    df_test = pd.read_csv("new_data/docs/Final_Llama3/Type2_Result/test_df.csv")
 
     df_train = shuffle(df_train)
     df_val = shuffle(df_val)
@@ -272,9 +272,9 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
-    pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Llama3/Type2_Result/train_df.csv", index=False)
-    pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Llama3/Type2_Result/val_df.csv", index=False)
-    pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Llama3/Type2_Result/test_df.csv", index=False)
+    # pd.DataFrame(df_train, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Llama3/Type2_Result/train_df.csv", index=False)
+    # pd.DataFrame(df_val, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Llama3/Type2_Result/val_df.csv", index=False)
+    # pd.DataFrame(df_test, columns=["content", "status", "type", "label"]).to_csv("new_data/docs/Final_Llama3/Type2_Result/test_df.csv", index=False)
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
