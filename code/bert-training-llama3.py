@@ -194,10 +194,10 @@ def evaluate(dataset):
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
 
 def preprocess_data():
-    df = pd.read_csv("new_data/docs/Final_Llama3/llama3_Type1_merge_df.csv", encoding="utf_8_sig")
+    df = pd.read_csv("new_data/docs/Final_Llama3/llama3_type1_merge_train_dataset.csv", encoding="utf_8_sig")
 
-    df = df[df["content"].str.len() < 510]
-    target_df = df[["content", "status", "type"]]
+    target_df = df[df["content"].str.len() < 510]
+    # target_df = df[["content", "status", "type"]]
 
     # create a list of our conditions
     conditions = [
@@ -210,14 +210,15 @@ def preprocess_data():
     values = [0, 1, 2]
 
     # create a new column and use np.select to assign values to it using our lists as arguments
+    np.random.seed(112)
     target_df['label'] = np.select(conditions, values)
     target_df = shuffle(target_df)
 
-    np.random.seed(112)
-    df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
-    print(len(df_train),len(df_val), len(df_test))
+    target_df.to_csv("new_data/docs/Final_Llama3/Type1_Result/llama3_type1_merge_train_dataset.csv", index=False, encoding="utf-8-sig")
 
-    return df_train, df_val, df_test
+    # df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=42), [int(.8*len(target_df)), int(.9*len(target_df))])
+    # print(len(df_train),len(df_val), len(df_test))
+    # return df_train, df_val, df_test
 
 def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
