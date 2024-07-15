@@ -4,23 +4,35 @@ type1_mid_gan_df = pd.read_csv("new_data/docs/llama3_type1_mid_gan_dataset.csv",
 type1_low_gan_df = pd.read_csv("new_data/docs/llama3_type1_low_gan_dataset.csv", encoding="utf-8-sig")
 type1_origin_df = pd.read_csv("new_data/docs/type1_train_df.csv", encoding="utf-8-sig")
 
+type1_positive_df = type1_origin_df[type1_origin_df["rating"] >= 4]
+type1_negative_df = pd.concat([type1_low_gan_df[type1_low_gan_df["rating"] <= 2], type1_mid_gan_df[type1_mid_gan_df["rating"] <= 2]])
+type1_mid_df = pd.concat([type1_mid_gan_df[type1_mid_gan_df["rating"] == 3], type1_low_gan_df[type1_low_gan_df["rating"] == 3]])
+# print(len(type1_positive_df), len(type1_negative_df), len(type1_mid_df))
+
+
 type1_positive = len(type1_origin_df[type1_origin_df["rating"] >= 4])
-type1_negative = len(type1_origin_df[type1_origin_df["rating"] <= 2]) + len(type1_low_gan_df[type1_low_gan_df["rating"] <= 2])
-type1_mid = len(type1_origin_df[type1_origin_df["rating"] == 3]) + len(type1_mid_gan_df[type1_mid_gan_df["rating"] == 3])
+type1_negative = len(type1_origin_df[type1_origin_df["rating"] <= 2])  + len(type1_negative_df)
+type1_mid = len(type1_origin_df[type1_origin_df["rating"] == 3]) + len(type1_mid_df) 
 print(type1_positive, type1_negative, type1_mid)
 
 if type1_negative > type1_positive:
-    type1_low_gan_df = type1_low_gan_df.sample(type1_positive - len(type1_origin_df[type1_origin_df["rating"] <= 2]))
+    type1_negative_df = type1_negative_df.sample(len(type1_positive_df) - len(type1_origin_df[type1_origin_df["rating"] <= 2]))
 
 if type1_mid > type1_positive:
-    type1_mid_gan_df = type1_mid_gan_df.sample(type1_positive - len(type1_origin_df[type1_origin_df["rating"] == 3]))
+    type1_mid_df = type1_mid_df.sample(len(type1_positive_df) - len(type1_origin_df[type1_origin_df["rating"] == 3]))
 
 type1_positive = len(type1_origin_df[type1_origin_df["rating"] >= 4])
-type1_negative = len(type1_origin_df[type1_origin_df["rating"] <= 2]) + len(type1_low_gan_df[type1_low_gan_df["rating"] <= 2])
-type1_mid = len(type1_origin_df[type1_origin_df["rating"] == 3]) + len(type1_mid_gan_df[type1_mid_gan_df["rating"] == 3])
+type1_negative = len(type1_origin_df[type1_origin_df["rating"] <= 2])  + len(type1_negative_df)
+type1_mid = len(type1_origin_df[type1_origin_df["rating"] == 3]) + len(type1_mid_df) 
 print(type1_positive, type1_negative, type1_mid)
 
-type1_merge_llama3_df = pd.concat([type1_mid_gan_df, type1_low_gan_df, type1_origin_df])
+type1_merge_llama3_df = pd.concat([type1_mid_df, type1_negative_df, type1_origin_df])
+
+type1_positive = len(type1_merge_llama3_df[type1_merge_llama3_df["rating"] >= 4])
+type1_negative = len(type1_merge_llama3_df[type1_merge_llama3_df["rating"] <= 2])
+type1_mid = len(type1_merge_llama3_df[type1_merge_llama3_df["rating"] == 3])
+print(type1_positive, type1_negative, type1_mid)
+
 type1_merge_llama3_df.to_csv('new_data/docs/Final_Llama3/llama3_type1_merge_train_dataset.csv', index=False, encoding="utf-8-sig")
 
 
