@@ -14,3 +14,24 @@ Epochs: 2
             | Val Accuracy:  0.838
 =====================================
 total_acc_val / len(dev_dataset) = 83.75, best_dev_acc = 84.17
+Epochs: 3
+            | Train Loss:  0.028
+            | Train Accuracy:  0.914
+            | Val Loss:  0.061
+            | Val Accuracy:  0.824
+=====================================
+total_acc_val / len(dev_dataset) = 82.36, best_dev_acc = 84.17
+Epochs: 4
+            | Train Loss:  0.018
+            | Train Accuracy:  0.947
+            | Val Loss:  0.063
+            | Val Accuracy:  0.839
+=====================================
+total_acc_val / len(dev_dataset) = 83.89, best_dev_acc = 84.17
+Epochs: 5
+            | Train Loss:  0.013
+            | Train Accuracy:  0.965
+            | Val Loss:  0.083
+            | Val Accuracy:  0.832
+=====================================
+total_acc_val / len(dev_dataset) = 83.19, best_dev_acc = 84.17

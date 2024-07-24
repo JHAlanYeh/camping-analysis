@@ -303,7 +303,7 @@ if __name__ == "__main__":
 
     # df_train, df_val, df_test = preprocess_data()
 
-    df_train = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/train_df.csv")
+    df_train = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/gpt4o_train_df.csv")
     df_val = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/val_df.csv")
     df_test = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/test_df.csv")
 

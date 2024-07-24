@@ -6,7 +6,6 @@ import math
 from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, BertConfig
-from transformers import AutoTokenizer, AutoModel, AutoConfig
 from transformers import DataCollatorWithPadding
 from torch import nn
 from torch.optim import Adam
@@ -18,11 +17,9 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
-# https://blog.csdn.net/qq_43426908/article/details/135342646
-
-PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
+PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 NUM_LABELS = 3
-random_seed = 112
+random_seed = 142
 result_text = ""
 
 # 取得此預訓練模型所使用的 tokenizer
@@ -46,11 +43,11 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class AlbertClassfier(nn.Module):
+class RobertaClassifier(nn.Module):
     def __init__(self):
-        super(AlbertClassfier, self).__init__()
-        self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+        super(RobertaClassifier, self).__init__()
+        self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
         self.dropout = nn.Dropout(0.5)        
         self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
@@ -74,13 +71,13 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0724/Final_GPT35/Type1_Result/ALBERT/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/RoBERTa/{save_name}')
 
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = AlbertClassfier()
+    model = RobertaClassifier()
     # 定义损失函数和优化器
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
@@ -178,8 +175,8 @@ def train_model():
 def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = AlbertClassfier()
-    model.load_state_dict(torch.load('new_data/docs_0724/Final_GPT35/Type1_Result/ALBERT/best.pt'))
+    model = RobertaClassifier()
+    model.load_state_dict(torch.load('new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/RoBERTa/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -199,7 +196,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "ALBERT", epoch+1)
+    show_confusion_matrix(y_true, y_pred, 3, "RoBERTa", epoch+1)
     print(accuracy_score(y_true, y_pred))
     # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
     print(cf_matrix)  
@@ -214,25 +211,26 @@ def evaluate(dataset):
     save_result("scikit-learn Recall Score:" + '%.2f' % (recall_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
     save_result("scikit-learn F1 Score:" + '%.2f' % (f1_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
     
+
 def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
     plt.plot(loss_list, label = 'train loss')
     plt.plot(loss_val_list, label = 'val loss')
-    plt.title('ALBERT Training and validation loss')
+    plt.title('RoBERTa Training and validation loss')
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0724/Final_GPT35/Type1_Result/ALBERT/ALBERT_Loss.jpg")
+    plt.savefig("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/RoBERTa/RoBERTa_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
     plt.plot(accuracy_list, label = 'train acc')
     plt.plot(accuracy_val_list, label = 'val acc')
-    plt.title('ALBERT Training and validation acc')
+    plt.title('RoBERTa Training and validation acc')
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0724/Final_GPT35/Type1_Result/ALBERT/ALBERT_Acc.jpg")
+    plt.savefig("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/RoBERTa/RoBERTa_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -244,11 +242,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0724/Final_GPT35/Type1_Result/ALBERT/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/RoBERTa/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0724/Final_GPT35/Type1_Result/ALBERT/result.txt"
+    file_path = "new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/RoBERTa/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -259,9 +257,9 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0724/Final_GPT35/Type1_Result/gpt35_train_df.csv")
-    df_val = pd.read_csv("new_data/docs_0724/Final_GPT35/Type1_Result/val_df.csv")
-    df_test = pd.read_csv("new_data/docs_0724/Final_GPT35/Type1_Result/test_df.csv")
+    df_train = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/llama_3_taiwan_train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
@@ -271,11 +269,11 @@ if __name__ == "__main__":
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
-    print("ALBERT")
+    print("RoBERTa")
     print("=====================================")
 
     # 训练超参数
-    save_result("ALBERT", "w")
+    save_result("RoBERTa", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 10

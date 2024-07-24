@@ -18,8 +18,6 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
-# https://blog.csdn.net/qq_43426908/article/details/135342646
-
 PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
 NUM_LABELS = 3
 random_seed = 112

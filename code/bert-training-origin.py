@@ -312,7 +312,6 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
-
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
     print("BERT")
