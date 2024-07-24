@@ -257,7 +257,7 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/gpt35_train_df.csv")
+    df_train = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/llama_3_taiwan_train_df.csv")
     df_val = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/val_df.csv")
     df_test = pd.read_csv("new_data/docs_0724/Final_Llama3Taiwan/Type1_Result/test_df.csv")
 
