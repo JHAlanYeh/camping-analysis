@@ -1,0 +1,9 @@
+BERT
+=====================================
+Epochs: 1
+            | Train Loss:  0.058
+            | Train Accuracy:  0.819
+            | Val Loss:  0.051
+            | Val Accuracy:  0.842
+=====================================
+total_acc_val / len(dev_dataset) = 84.17, best_dev_acc = 0.00

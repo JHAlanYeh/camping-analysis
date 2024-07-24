@@ -64,12 +64,13 @@ class MyDataset(Dataset):
 class DistilBertClassifier(nn.Module):    
     def __init__(self):        
         super(DistilBertClassifier, self).__init__()        
-        self.l1 = DistilBertModel.from_pretrained(PRETRAINED_MODEL_NAME)        
-        self.pre_classifier = torch.nn.Linear(768, 768)        
-        self.dropout = torch.nn.Dropout(0.3)        
-        self.classifier = torch.nn.Linear(768, NUM_LABELS)    
-    def forward(self, input_ids, attention_mask):        
-        output_1 = self.l1(input_ids=input_ids, attention_mask=attention_mask)        
+        self.model = DistilBertModel.from_pretrained(PRETRAINED_MODEL_NAME)   
+        self.config = DistilBertModel.from_pretrained(PRETRAINED_MODEL_NAME)     
+        self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
+        self.dropout = nn.Dropout(0.5)        
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
+    def forward(self, input_id, mask):        
+        output_1 = self.model(input_ids=input_id, attention_mask=mask)        
         hidden_state = output_1[0]        
         pooler = hidden_state[:, 0]        
         pooler = self.pre_classifier(pooler)        
@@ -272,8 +273,8 @@ if __name__ == "__main__":
 
     # 训练超参数
     epoch = 10
-    batch_size = 8
-    lr = 2e-5
+    batch_size = 16
+    lr = 1e-05
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     train_model()

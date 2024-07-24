@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.utils import shuffle
 import math
+from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, BertConfig
 from transformers import DataCollatorWithPadding
@@ -11,17 +12,21 @@ from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score, classification_report
 import matplotlib.pyplot as plt
+import sklearn.metrics as skm
+import seaborn as sns
 
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "bert-base-multilingual-cased"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
 NUM_LABELS = 3
-random_seed = 82
+random_seed = 42
+result_text = ""
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
+data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
@@ -40,21 +45,34 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class MultilingualBertClassifier(nn.Module):
+class BertClassifier(nn.Module):
     def __init__(self):
-        super(MultilingualBertClassifier, self).__init__()
+        super(BertClassifier, self).__init__()
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.dropout = nn.Dropout(0.5)
-        self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
-        self.relu = nn.ReLU()
+        self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
+        self.dropout = nn.Dropout(0.5)        
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
+
+        # self.dropout = nn.Dropout(0.5)
+        # self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
+        # self.relu = nn.ReLU()
 
     def forward(self, input_id, mask):
-        _, pooled_output = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)
-        dropout_output = self.dropout(pooled_output)
-        linear_output = self.linear(dropout_output)
-        final_layer = self.relu(linear_output)
-        return final_layer
+        output_1 = self.model(input_ids=input_id, attention_mask=mask)        
+        hidden_state = output_1[0]        
+        pooler = hidden_state[:, 0]        
+        pooler = self.pre_classifier(pooler)        
+        pooler = torch.nn.ReLU()(pooler)        
+        pooler = self.dropout(pooler)        
+        output = self.classifier(pooler)        
+        return output   
+    
+        # _, pooled_output = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)
+        # dropout_output = self.dropout(pooled_output)
+        # linear_output = self.linear(dropout_output)
+        # final_layer = self.relu(linear_output)
+        # return final_layer
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -62,17 +80,16 @@ def setup_seed(seed):
     np.random.seed(seed)
     random.seed(seed)
     torch.backends.cudnn.deterministic = True
-setup_seed(random_seed)
+
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'../model/gan_type1/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0724/Final_GPT4o/Type1_Result/BERT/{save_name}')
 
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
-
     # 定义模型
-    model = MultilingualBertClassifier()
+    model = BertClassifier()
     # 定义损失函数和优化器
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
@@ -125,11 +142,15 @@ def train_model():
                 total_acc_val += acc
                 total_loss_val += batch_loss.item()
 
-            print(f'''Epochs: {epoch_num + 1}
+            training_info = f'''Epochs: {epoch_num + 1}
             | Train Loss: {total_loss_train / len(train_dataset): .3f}
             | Train Accuracy: {total_acc_train / len(train_dataset): .3f}
             | Val Loss: {total_loss_val / len(dev_dataset): .3f}
-            | Val Accuracy: {total_acc_val / len(dev_dataset): .3f}''')
+            | Val Accuracy: {total_acc_val / len(dev_dataset): .3f}\n'''
+            print(training_info)
+
+            save_result(training_info, "a+")
+            save_result("=====================================\n", "a+")
 
             loss_list.append(total_loss_train / len(train_dataset))
             accuracy_list.append(100 * total_acc_train / len(train_dataset))
@@ -137,10 +158,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}")
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
+                best_epoch = epoch
 
         model.train()
 
@@ -156,13 +179,16 @@ def train_model():
 
     total_time = end_time - start_time
     print(f"Total time:{total_time}")
+    save_result("=====================================\n", "a+")
+    save_result(f"Total time:{total_time}\n", "a+")
+    save_result(f"Best Epoch:{best_epoch}\n", "a+")
 
 
 def evaluate(dataset):
-    # dataset = pd.read_csv("../model/gan_type1/test_df.csv").to_numpy()
+    # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = MultilingualBertClassifier()
-    model.load_state_dict(torch.load('../model/gan_type1/best.pt'))
+    model = BertClassifier()
+    model.load_state_dict(torch.load('new_data/docs_0724/Final_GPT4o/Type1_Result/BERT/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -181,61 +207,123 @@ def evaluate(dataset):
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
-    cf_matrix = confusion_matrix(y_true, y_pred)       
+    cf_matrix = confusion_matrix(y_true, y_pred)
+    show_confusion_matrix(y_true, y_pred, 3, "BERT", epoch+1)
+    print(accuracy_score(y_true, y_pred))
+    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
     print(cf_matrix)  
-    print("scikit-learn precision:", precision_score(y_true, y_pred, average="weighted"))
-    print("scikit-learn f1 score:", f1_score(y_true, y_pred, average="weighted"))
-    print("scikit-learn recall score:", recall_score(y_true, y_pred, average="weighted"))
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
+    print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn Recall Score:", recall_score(y_true, y_pred, average="weighted"))
+    print("scikit-learn F1 Score:", f1_score(y_true, y_pred, average="weighted"))
 
+    save_result("=====================================\n", "a+")
+    save_result("scikit-learn Accuracy:" + '%.2f' % (accuracy_score(y_true, y_pred) * 100) + "\n", "a+")
+    save_result("scikit-learn Precision:" + '%.2f' % (precision_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
+    save_result("scikit-learn Recall Score:" + '%.2f' % (recall_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
+    save_result("scikit-learn F1 Score:" + '%.2f' % (f1_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
+    
+
+def preprocess_data():
+    df = pd.read_csv("new_data/docs_0724/Final_GPT4o/type1_comments.csv", encoding="utf_8_sig")
+    target_df = df
+
+    # create a list of our conditions
+    conditions = [
+        target_df['status'] == -1,
+        target_df['status'] == 0,
+        target_df['status'] == 1,
+    ]
+
+    # create a list of the values we want to assign for each condition
+    values = [0, 1, 2]
+
+    # create a new column and use np.select to assign values to it using our lists as arguments
+    target_df['label'] = np.select(conditions, values)
+    target_df = shuffle(target_df)
+
+    np.random.seed(random_seed)
+    df_train, df_val, df_test = np.split(target_df.sample(frac=1, random_state=random_seed), [int(.8*len(target_df)), int(.9*len(target_df))])
+    print(len(df_train),len(df_val), len(df_test))
+
+    df_train = shuffle(df_train)
+    df_val = shuffle(df_val)
+    df_test = shuffle(df_test)
+    
+    pd.DataFrame(df_train, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/train_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_val, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/val_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_test, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/test_df.csv", index=False, encoding="utf-8-sig")
+
+    return df_train, df_val, df_test
 
 def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
     plt.plot(loss_list, label = 'train loss')
     plt.plot(loss_val_list, label = 'val loss')
-    plt.title('Multilingual BERT Training and validation loss')
+    plt.title('BERT Training and validation loss')
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("../model/gan_type1/multilingual_bert_loss.jpg")
+    plt.savefig("new_data/docs_0724/Final_GPT4o/Type1_Result/BERT/BERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
     plt.plot(accuracy_list, label = 'train acc')
     plt.plot(accuracy_val_list, label = 'val acc')
-    plt.title('Multilingual BERT Training and validation acc')
+    plt.title('BERT Training and validation acc')
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("../model/gan_type1/multilingual_bert_acc.jpg")
+    plt.savefig("new_data/docs_0724/Final_GPT4o/Type1_Result/BERT/BERT_Acc.jpg")
+
+def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
+    cm = skm.confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(5, 4))
+    labels = np.arange(class_num)
+    sns.heatmap(
+        cm, xticklabels=labels, yticklabels=labels,
+        annot=True, linewidths=0.1, fmt='d', cmap='YlGnBu')
+    plt.title(f'{fname} Confusion Matrix', fontsize=15)
+    plt.ylabel('Actual label')
+    plt.xlabel('Predict label')
+    plt.savefig(fname=f"new_data/docs_0724/Final_GPT4o/Type1_Result/BERT/{fname}.jpg")
+
+
+def save_result(text, write_type):
+    file_path = "new_data/docs_0724/Final_GPT4o/Type1_Result/BERT/result.txt"
+    open(file_path, write_type).close()
+    with open(file_path, write_type) as f:
+        f.write(text)
+        f.close()
+
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-   
+    # df_train, df_val, df_test = preprocess_data()
 
-    df_train = pd.read_csv("../model/gan_type1/train_df.csv")
-    df_val = pd.read_csv("../model/gan_type1/val_df.csv")
-    df_test = pd.read_csv("../model/gan_type1/test_df.csv")
-
-    df_train = shuffle(df_train)
-    df_val = shuffle(df_val)
-    df_test = shuffle(df_test)
+    df_train = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
+
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
-    print("Multilingual BERT")
+    print("BERT")
     print("=====================================")
 
     # 训练超参数
+    save_result("BERT", "w")
+    save_result("\n=====================================\n", "a+")
+    best_epoch = 0
     epoch = 10
-    batch_size = 16
+    batch_size = 8
     lr = 2e-5
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

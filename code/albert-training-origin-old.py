@@ -4,32 +4,31 @@ import numpy as np
 from sklearn.utils import shuffle
 import math
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertModel, BertConfig, BertTokenizerFast 
+from transformers import BertTokenizer, BertModel, BertConfig
 from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import DataCollatorWithPadding
 from torch import nn
 from torch.optim import Adam
 from tqdm import tqdm
 import random
 from datetime import datetime
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score, classification_report
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score, f1_score
+import sklearn.metrics as skm
+import seaborn as sns
 
-# https://blog.csdn.net/u013230189/article/details/108836511
-
-# PRETRAINED_MODEL_NAME = "voidful/albert_chinese_small"  # 指定繁簡中文 BERT-BASE 預訓練模型
 PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
-# https://huggingface.co/ckiplab/albert-base-chinese
-# PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese"
 NUM_LABELS = 3
 random_seed = 112
 
 # 取得此預訓練模型所使用的 tokenizer
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
+data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(str(text).replace(" | ", ""), padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['tokenization']]
+        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -45,19 +44,19 @@ class MyDataset(Dataset):
 
 class AlbertClassfier(nn.Module):
     def __init__(self):
-        super(AlbertClassfier,self).__init__()
+        super(AlbertClassfier, self).__init__()
         self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.dropout = nn.Dropout(0.5)
         self.linear = nn.Linear(self.config.hidden_size, NUM_LABELS)
         self.relu = nn.ReLU()
-    def forward(self,token_ids):
+
+    def forward(self, token_ids):
         pooled_output=self.model(token_ids)[1] #句向量 [batch_size,hidden_size]
         dropout_output=self.dropout(pooled_output)
         linear_output=self.linear(dropout_output)  #[batch_size,num_class]
         final_layer = self.relu(linear_output)
         return final_layer
-
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -65,10 +64,10 @@ def setup_seed(seed):
     np.random.seed(seed)
     random.seed(seed)
     torch.backends.cudnn.deterministic = True
-setup_seed(random_seed)
+
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'../model/gan_type1/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs/Final_Origin/Type2_Result/ALBERT/{save_name}')
 
 def train_model():
     start_time = datetime.now()
@@ -76,7 +75,7 @@ def train_model():
     # 定义模型
     model = AlbertClassfier()
     # 定义损失函数和优化器
-    criterion=nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -139,7 +138,7 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}") 
+            print(f"total_acc_val / len(dev_dataset) = {total_acc_val / len(dev_dataset)}, best_dev_acc = {best_dev_acc}")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
@@ -152,7 +151,7 @@ def train_model():
 
     draw_acc_image(accuracy_list, accuracy_val_list)
     draw_loss_image(loss_list, loss_val_list)
-    
+
     end_time = datetime.now()
     print(end_time.strftime("%Y-%m-%d %H:%M:%S"))
 
@@ -161,10 +160,10 @@ def train_model():
 
 
 def evaluate(dataset):
-    # dataset = pd.read_csv("../model/gan_type1/test_df.csv").to_numpy()
+    # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = AlbertClassfier()
-    model.load_state_dict(torch.load('../model/gan_type1/best.pt'))
+    model.load_state_dict(torch.load('new_data/docs/Final_Origin/Type2_Result/ALBERT/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -177,14 +176,16 @@ def evaluate(dataset):
             # mask = test_input['attention_mask'].to(device)
             test_label = test_label.to(device)
             output = model(input_id)
-            _, preds = torch.max(output, 1)                            # preds是預測結果
-            
+            _, preds = torch.max(output, 1)       
             y_pred.extend(preds.view(-1).detach().cpu().numpy())       # 將preds預測結果detach出來，並轉成numpy格式       
             y_true.extend(test_label.view(-1).detach().cpu().numpy())   
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
-    cf_matrix = confusion_matrix(y_true, y_pred)       
+    cf_matrix = confusion_matrix(y_true, y_pred)
+    show_confusion_matrix(y_true, y_pred, 3, "ALBERT", epoch+1)
+    print(accuracy_score(y_true, y_pred))
+    # print(classification_report(y_true, y_pred, target_names=[0, 1, 2]))
     print(cf_matrix)  
     print("scikit-learn precision:", precision_score(y_true, y_pred, average="weighted"))
     print("scikit-learn f1 score:", f1_score(y_true, y_pred, average="weighted"))
@@ -200,7 +201,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("../model/gan_type1/albert_loss.jpg")
+    plt.savefig("new_data/docs/Final_Origin/Type2_Result/ALBERT/ALBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -210,15 +211,28 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("../model/gan_type1/albert_acc.jpg")
+    plt.savefig("new_data/docs/Final_Origin/Type2_Result/ALBERT/ALBERT_Acc.jpg")
+
+def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
+    cm = skm.confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(5, 4))
+    labels = np.arange(class_num)
+    sns.heatmap(
+        cm, xticklabels=labels, yticklabels=labels,
+        annot=True, linewidths=0.1, fmt='d', cmap='YlGnBu')
+    plt.title(f'{fname} Confusion Matrix', fontsize=15)
+    plt.ylabel('Actual label')
+    plt.xlabel('Predict label')
+    plt.savefig(fname=f"new_data/docs/Final_Origin/Type2_Result/ALBERT/{fname}.jpg")
 
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("../model/gan_type1/train_df.csv")
-    df_val = pd.read_csv("../model/gan_type1/val_df.csv")
-    df_test = pd.read_csv("../model/gan_type1/test_df.csv")
+
+    df_train = pd.read_csv("new_data/docs/Final_Origin/Type2_Result/train_df.csv")
+    df_val = pd.read_csv("new_data/docs/Final_Origin/Type2_Result/val_df.csv")
+    df_test = pd.read_csv("new_data/docs/Final_Origin/Type2_Result/test_df.csv")
 
     df_train = shuffle(df_train)
     df_val = shuffle(df_val)
@@ -229,6 +243,7 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
+
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
     print("ALBERT")
@@ -236,7 +251,7 @@ if __name__ == "__main__":
 
     # 训练超参数
     epoch = 10
-    batch_size = 16
+    batch_size = 8
     lr = 2e-5
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
