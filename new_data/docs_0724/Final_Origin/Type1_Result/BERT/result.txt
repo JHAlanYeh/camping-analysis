@@ -35,3 +35,10 @@ Epochs: 5
             | Val Accuracy:  0.832
 =====================================
 total_acc_val / len(dev_dataset) = 83.19, best_dev_acc = 84.17
+Epochs: 6
+            | Train Loss:  0.009
+            | Train Accuracy:  0.973
+            | Val Loss:  0.091
+            | Val Accuracy:  0.840
+=====================================
+total_acc_val / len(dev_dataset) = 84.03, best_dev_acc = 84.17
