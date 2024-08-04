@@ -4,11 +4,26 @@ import time
 import pandas as pd
 from datetime import datetime, timedelta
 import numpy as np
-
+import jieba
 from dateutil.relativedelta import relativedelta
 import json
 import emoji
 import shutil
+
+jieba.load_userdict('code\\custom_dict.txt')
+jieba.set_dictionary('code\\dict.txt.big')
+
+
+f = open('code\\stopwords_zh_TW.dat.txt', encoding="utf-8")
+STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+f = open('code\\stopwords.txt', encoding="utf-8")
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
 
 # ****************************************************************************** #
 root_path = os.path.join(os.getcwd(), "new_data")
@@ -18,11 +33,16 @@ target_path = os.path.join(root_path, target_directory)
 
 type1_comments = []
 type2_comments = []
+
+type1_content = []
+type2_content = []
+
+
 for file in os.listdir(target_path):
     if ".json" not in file:
         continue
     target_file_path = os.path.join(target_path, file)
-
+    # print(target_file_path)
     tf = open(target_file_path, encoding="utf-8-sig")
     target_data = json.load(tf)
     tf.close()
@@ -31,23 +51,39 @@ for file in os.listdir(target_path):
         emojis = emoji.emoji_list(d["content"])
         for e in emojis:
             d["content"] = d["content"].replace(e["emoji"], "")
-        
-        if len(d["content"]) <= 10 or len(d["content"]) >= 512:
+
+        ch_list = re.compile('[\u4e00-\u9fff]+').findall(d["content"])
+        if len(ch_list) == 0:
+            continue
+        # d["content"] = re.sub('[^\u4e00-\u9fa5]+', '', d["content"])
+        # print(d["content"])
+
+        if len(d["content"]) <= 20 or len(d["content"]) >= 512:
             continue
         if "打卡" in d["content"] or "送" in d["content"]:
             continue
-        if d["type"] == 1 and ("木屋" in d["content"] or "民宿" in d["content"]):
+        if d["type"] == 1 and ("木屋" in d["content"] or "民宿" in d["content"] or "套房" in d["content"]):
             continue
         if d["content"].strip() == "":
             continue
         if d["rating"] < 1 or d["rating"] > 5:
             continue
+    
+        ws = jieba.lcut(d["content"], cut_all=False)
+        new_ws = []
+        for word in ws:
+            if word not in STOP_WORDS:
+                new_ws.append(word)
+        d['text'] =  "".join(new_ws)
 
         if d["type"] == 1:
-            type1_comments.append(d)
+            if d['content'] not in type1_content:
+                type1_comments.append(d)
+                type1_content.append(d['content'])
         elif d["type"] == 2:
-            type2_comments.append(d)
-
+            if d['content'] not in type2_content:
+                type2_comments.append(d)
+                type2_content.append(d['content'])
 
 df1 = pd.json_normalize(type1_comments)
 df2 = pd.json_normalize(type2_comments)
@@ -105,5 +141,5 @@ print(len(df2_final[df2_final["status"] == -1]), len(df2_final[df2_final["status
 
 df_path = os.path.join(root_path, "docs")
 
-df1_final.to_csv(os.path.join(df_path, "type1_comments_0724.csv"), encoding="utf-8-sig", index=False)
-df2_final.to_csv(os.path.join(df_path, "type2_comments_0724.csv"), encoding="utf-8-sig", index=False)
+df1_final.to_csv(os.path.join(df_path, "type1_comments_0804.csv"), encoding="utf-8-sig", index=False)
+df2_final.to_csv(os.path.join(df_path, "type2_comments_0804.csv"), encoding="utf-8-sig", index=False)

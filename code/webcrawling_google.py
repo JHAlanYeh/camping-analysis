@@ -47,8 +47,8 @@ for file in os.listdir(dir_path):
     print(file_path)
     if ".txt" not in file_path:
         continue
-    # if "google" not in file_path:
-    #     continue
+    if "google" not in file_path:
+        continue
 
     f = open(file_path, encoding="utf-8-sig")
     for d in f.readlines():

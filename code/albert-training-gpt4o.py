@@ -51,19 +51,17 @@ class AlbertClassfier(nn.Module):
         super(AlbertClassfier, self).__init__()
         self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
         self.dropout = nn.Dropout(0.5)        
         self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
 
     def forward(self, input_id, mask):
-        output_1 = self.model(input_ids=input_id, attention_mask=mask)        
+        output_1 = self.model(input_ids=input_id)        
         hidden_state = output_1[0]        
         pooler = hidden_state[:, 0]        
-        pooler = self.pre_classifier(pooler)        
-        pooler = torch.nn.ReLU()(pooler)        
+        pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output   
+        return output     
 
 def setup_seed(seed):
     torch.manual_seed(seed)

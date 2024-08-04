@@ -1,0 +1,10 @@
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.075
+            | Train Accuracy:  0.716
+            | Val Loss:  0.071
+            | Val Accuracy:  0.750
+=====================================
+total_acc_val / len(dev_dataset) = 75.00, best_dev_acc = 0.00
