@@ -10,11 +10,11 @@ def addlabels(x,y, padding = 0.07):
   for i in range(len(x)):
     plt.text(i-padding, y[i]+20, y[i])
 
-LABELS = ['負向', '中立', '正向']
+LABELS = ['負向', '正向']
 STAR_LABELS = ['一星', '二星', '三星', '四星', '五星']
 
 def type1_origin_chart():
-    df = pd.read_csv('new_data/docs_0724/Final_Origin/type1_comments.csv')
+    df = pd.read_csv('new_data/docs_0804/Final_Origin/type1_comments_0804.csv')
 
     values = []
     values.append(len(df[df["status"] == -1]))
@@ -34,7 +34,7 @@ def type1_origin_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs_0724/Final_Origin/type1_origin.png')
+    plt.savefig('new_data/docs_0804/Final_Origin/type1_origin_3.png')
 
 
 def type1_gan_chart():
@@ -107,10 +107,10 @@ def type2_gan_chart():
 
 
 def type1_origin_split_chart(dataset):
-    df = pd.read_csv(f"new_data/docs/Final_Origin/Type1_Result/{dataset}.csv")
+    df = pd.read_csv(f"new_data/docs_0804/Final_Origin/Type1_Result/{dataset}.csv")
     values = []
-    values.append(len(df[df["status"] == -1]))
-    values.append(len(df[df["status"] == 0]))
+    # values.append(len(df[df["status"] == -1]))
+    values.append(len(df[df["status"] <= 0]))
     values.append(len(df[df["status"] == 1]))
 
     ser = pd.Series(values, index=LABELS)
@@ -126,7 +126,7 @@ def type1_origin_split_chart(dataset):
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig(f'new_data/docs/Final_Origin/Type1_Result/type1_{dataset}.png')
+    plt.savefig(f'new_data/docs_0804/Final_Origin/Type1_Result/type1_{dataset}.png')
 
 
 def type2_origin_split_chart(dataset):
@@ -152,11 +152,11 @@ def type2_origin_split_chart(dataset):
     plt.savefig(f'new_data/docs/Final_Origin/Type2_Result/type2_{dataset}.png')
 
 if __name__ == "__main__":
-    type1_origin_chart()
-    type2_origin_chart()
+    # type1_origin_chart()
+    # type2_origin_chart()
 
     # type1_gan_chart()
     # type2_gan_chart()
 
-    # type1_origin_split_chart("train_df")
+    type1_origin_split_chart("train_df_2")
     # type2_origin_split_chart("train_df")
