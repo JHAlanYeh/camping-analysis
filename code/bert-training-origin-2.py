@@ -250,9 +250,9 @@ def preprocess_data():
     df_val = shuffle(df_val)
     df_test = shuffle(df_test)
     
-    pd.DataFrame(df_train, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv", index=False, encoding="utf-8-sig")
-    pd.DataFrame(df_val, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv", index=False, encoding="utf-8-sig")
-    pd.DataFrame(df_test, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_train, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "text"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_val, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "text"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_test, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "text"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv", index=False, encoding="utf-8-sig")
 
     return df_train, df_val, df_test
 
@@ -301,11 +301,11 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train, df_val, df_test = preprocess_data()
+    # df_train, df_val, df_test = preprocess_data()
 
-    # df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv")
-    # df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv")
-    # df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv")
+    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv")
+    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")

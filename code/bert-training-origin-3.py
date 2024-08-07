@@ -16,6 +16,23 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
+import jieba
+
+
+jieba.load_userdict('code\\custom_dict.txt')
+jieba.set_dictionary('code\\dict.txt.big')
+
+
+f = open('code\\stopwords_zh_TW.dat.txt', encoding="utf-8")
+STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+f = open('code\\stopwords.txt', encoding="utf-8")
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
 
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
@@ -302,12 +319,13 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train, df_val, df_test = preprocess_data()
+    # df_train, df_val, df_test = preprocess_data()
 
-    # df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_3.csv")
-    # df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
-    # df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_3.csv")
+    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
+    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
 
+ 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
     dev_dataset = MyDataset(df_val, "train")
