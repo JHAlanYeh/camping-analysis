@@ -5,11 +5,10 @@ from sklearn.utils import shuffle
 import math
 from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertModel, BertConfig
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import AutoTokenizer, AutoModel, AutoConfig, BertTokenizer
 from transformers import DataCollatorWithPadding
 from torch import nn
-from torch.optim import Adam
+from torch.optim import Adam, AdamW
 from tqdm import tqdm
 import random
 from datetime import datetime
@@ -17,6 +16,7 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
+from torch.utils.data import WeightedRandomSampler
 
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
@@ -30,25 +30,32 @@ tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 class MyDataset(Dataset):
-    def __init__(self, df, mode ="train"):
+    def __init__(self, df):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        # self.texts = [
+        #                 tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") 
+        #                 for text in df['text']
+        #               ]
+        self.texts = [tokenizer.encode_plus(
+                        text,
+                        add_special_tokens=True,
+                        max_length=512,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
-        self.mode = mode
 
     def __getitem__(self, idx):
-        if self.mode != "test":
-            return self.texts[idx], self.labels[idx]
-        else:
-            return self.texts[idx], self.labels[idx]
+        return self.texts[idx], self.labels[idx]
 
     def __len__(self):
         return len(self.labels)
 
-class AlbertClassfier(nn.Module):
+class ALBERTClassifier(nn.Module):
     def __init__(self):
-        super(AlbertClassfier, self).__init__()
+        super(ALBERTClassifier, self).__init__()
         self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.dropout = nn.Dropout(0.5)        
@@ -58,10 +65,10 @@ class AlbertClassfier(nn.Module):
         output_1 = self.model(input_ids=input_id)        
         hidden_state = output_1[0]        
         pooler = hidden_state[:, 0]        
-        pooler = nn.ReLU()(pooler) 
+        pooler = nn.ReLU()(pooler)        
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output     
+        return output   
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -69,24 +76,28 @@ def setup_seed(seed):
     np.random.seed(seed)
     random.seed(seed)
     torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0724/Final_GPT4o/Type1_Result/ALBERT/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{save_name}')
 
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = AlbertClassfier()
+    model = ALBERTClassifier()
     # 定义损失函数和优化器
+    
     criterion = nn.CrossEntropyLoss()
-    optimizer = Adam(model.parameters(), lr=lr)
+    optimizer = Adam(model.parameters(), lr=lr, eps=eps)
     model = model.to(device)
     criterion = criterion.to(device)
 
+    sampler = WeightedRandomSampler(weights, num_samples=len(weights))
+
     # 构建数据加载器
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    train_loader = DataLoader(train_dataset, sampler=sampler, batch_size=batch_size)
     dev_loader = DataLoader(dev_dataset, batch_size=batch_size)
 
     # 训练
@@ -176,8 +187,8 @@ def train_model():
 def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = AlbertClassfier()
-    model.load_state_dict(torch.load('new_data/docs_0724/Final_GPT4o/Type1_Result/ALBERT/best.pt'))
+    model = ALBERTClassifier()
+    model.load_state_dict(torch.load('new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -196,6 +207,8 @@ def evaluate(dataset):
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
+    save_result(f'Test Accuracy: {total_acc_test / len(dataset): .3f}' + "\n", "a+")
+
     cf_matrix = confusion_matrix(y_true, y_pred)
     show_confusion_matrix(y_true, y_pred, 3, "ALBERT", epoch+1)
     print(accuracy_score(y_true, y_pred))
@@ -212,6 +225,7 @@ def evaluate(dataset):
     save_result("scikit-learn Recall Score:" + '%.2f' % (recall_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
     save_result("scikit-learn F1 Score:" + '%.2f' % (f1_score(y_true, y_pred, average="weighted") * 100) + "\n", "a+")
     
+
 def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
     plt.plot(loss_list, label = 'train loss')
@@ -220,7 +234,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0724/Final_GPT4o/Type1_Result/ALBERT/ALBERT_Loss.jpg")
+    plt.savefig("new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/ALBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -230,7 +244,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0724/Final_GPT4o/Type1_Result/ALBERT/ALBERT_Acc.jpg")
+    plt.savefig("new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/ALBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -242,30 +256,33 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0724/Final_GPT4o/Type1_Result/ALBERT/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0724/Final_GPT4o/Type1_Result/ALBERT/result.txt"
+    file_path = "new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
         f.close()
 
 
+
 if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/gpt4o_train_df.csv")
-    df_val = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/val_df.csv")
-    df_test = pd.read_csv("new_data/docs_0724/Final_GPT4o/Type1_Result/test_df.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_3_20240811.csv")
+    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
+    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
 
-    # 因为要进行分词，此段运行较久，约40s
-    train_dataset = MyDataset(df_train, "train")
-    dev_dataset = MyDataset(df_val, "train")
-    test_dataset = MyDataset(df_test, "test")
 
+    # 設定原始資料和增生資料的權重
+    weights = [0.2 if source == 0 else 0.8 for source in df_train['origin']]
+
+    train_dataset = MyDataset(df_train)
+    dev_dataset = MyDataset(df_val)
+    test_dataset = MyDataset(df_test)
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
@@ -276,9 +293,17 @@ if __name__ == "__main__":
     save_result("ALBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 10
-    batch_size = 8
-    lr = 2e-5
+    epoch = 5
+    batch_size = 4
+    lr = 1e-5
+    eps = 1e-8
+
+    save_result(f"epoch={epoch}\n", "a+")
+    save_result(f"batch_size={batch_size}\n", "a+")
+    save_result(f"lr={lr}\n", "a+")
+    save_result(f"eps={eps}\n", "a+")
+    save_result("\n=====================================\n", "a+")
+
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     train_model()

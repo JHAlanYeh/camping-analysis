@@ -41,7 +41,7 @@ Epochs: 5
 =====================================
 total_acc_val / len(dev_dataset) = 90.29, best_dev_acc = 90.00
 =====================================
-Total time:0:21:56.807504
+Total time:0:22:10.741125
 Best Epoch:5
 =====================================
 scikit-learn Accuracy:87.65

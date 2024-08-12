@@ -31,7 +31,7 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -269,9 +269,9 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_3.csv")
-    df_val = pd.read_csv("new_data/docs_0804/Final_GPT35/Type1_Result/val_df.csv")
-    df_test = pd.read_csv("new_data/docs_0804/Final_GPT35/Type1_Result/test_df.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT35/gpt35_type1_merge_train_df_3.csv")
+    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
+    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
@@ -288,9 +288,14 @@ if __name__ == "__main__":
     save_result("BERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 10
+    epoch = 5
     batch_size = 8
     lr = 2e-5
+
+    save_result(f"epoch={epoch}\n", "w")
+    save_result(f"batch_size={batch_size}\n", "w")
+    save_result(f"lr={lr}\n", "w")
+    save_result("\n=====================================\n", "a+")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     train_model()

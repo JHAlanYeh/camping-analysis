@@ -224,6 +224,7 @@ def evaluate(dataset):
             acc = (output.argmax(dim=1) == test_label).sum().item()
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
+    save_result(f'Test Accuracy: {total_acc_test / len(dataset): .3f}' + "\n", "a+")
     cf_matrix = confusion_matrix(y_true, y_pred)
     show_confusion_matrix(y_true, y_pred, 3, "BERT", epoch+1)
     print(accuracy_score(y_true, y_pred))
@@ -341,12 +342,12 @@ if __name__ == "__main__":
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 5
-    batch_size = 8
-    lr = 2e-5
+    batch_size = 16
+    lr = 3e-5
 
-    save_result(f"epoch={epoch}\n", "w")
-    save_result(f"batch_size={batch_size}\n", "w")
-    save_result(f"lr={lr}\n", "w")
+    save_result(f"epoch={epoch}\n", "a+")
+    save_result(f"batch_size={batch_size}\n", "a+")
+    save_result(f"lr={lr}\n", "a+")
     save_result("\n=====================================\n", "a+")
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

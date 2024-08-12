@@ -1,0 +1,46 @@
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.133
+            | Train Accuracy:  0.405
+            | Val Loss:  0.104
+            | Val Accuracy:  0.854
+=====================================
+total_acc_val / len(dev_dataset) = 85.44, best_dev_acc = 0.00
+Epochs: 2
+            | Train Loss:  0.129
+            | Train Accuracy:  0.446
+            | Val Loss:  0.131
+            | Val Accuracy:  0.724
+=====================================
+total_acc_val / len(dev_dataset) = 72.35, best_dev_acc = 85.44
+Epochs: 3
+            | Train Loss:  0.127
+            | Train Accuracy:  0.459
+            | Val Loss:  0.129
+            | Val Accuracy:  0.772
+=====================================
+total_acc_val / len(dev_dataset) = 77.21, best_dev_acc = 85.44
+Epochs: 4
+            | Train Loss:  0.126
+            | Train Accuracy:  0.466
+            | Val Loss:  0.118
+            | Val Accuracy:  0.825
+=====================================
+total_acc_val / len(dev_dataset) = 82.50, best_dev_acc = 85.44
+Epochs: 5
+            | Train Loss:  0.126
+            | Train Accuracy:  0.465
+            | Val Loss:  0.121
+            | Val Accuracy:  0.804
+=====================================
+total_acc_val / len(dev_dataset) = 80.44, best_dev_acc = 85.44
+=====================================
+Total time:0:45:08.457346
+Best Epoch:5
+=====================================
+scikit-learn Accuracy:81.91
+scikit-learn Precision:72.45
+scikit-learn Recall Score:81.91
+scikit-learn F1 Score:76.80

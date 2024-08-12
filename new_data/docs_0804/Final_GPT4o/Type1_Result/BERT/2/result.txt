@@ -1,0 +1,52 @@
+BERT
+=====================================
+epoch=5
+batch_size=8
+lr=2e-05
+eps=1e-08
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.039
+            | Train Accuracy:  0.869
+            | Val Loss:  0.032
+            | Val Accuracy:  0.903
+=====================================
+total_acc_val / len(dev_dataset) = 90.29, best_dev_acc = 0.00
+Epochs: 2
+            | Train Loss:  0.027
+            | Train Accuracy:  0.916
+            | Val Loss:  0.037
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 88.97, best_dev_acc = 90.29
+Epochs: 3
+            | Train Loss:  0.021
+            | Train Accuracy:  0.938
+            | Val Loss:  0.050
+            | Val Accuracy:  0.876
+=====================================
+total_acc_val / len(dev_dataset) = 87.65, best_dev_acc = 90.29
+Epochs: 4
+            | Train Loss:  0.017
+            | Train Accuracy:  0.957
+            | Val Loss:  0.042
+            | Val Accuracy:  0.897
+=====================================
+total_acc_val / len(dev_dataset) = 89.71, best_dev_acc = 90.29
+Epochs: 5
+            | Train Loss:  0.013
+            | Train Accuracy:  0.962
+            | Val Loss:  0.045
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 88.97, best_dev_acc = 90.29
+=====================================
+Total time:0:30:40.436547
+Best Epoch:5
+Test Accuracy:  0.868
+=====================================
+scikit-learn Accuracy:86.76
+scikit-learn Precision:86.48
+scikit-learn Recall Score:86.76
+scikit-learn F1 Score:86.32

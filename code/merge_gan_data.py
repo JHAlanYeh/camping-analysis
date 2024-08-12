@@ -21,17 +21,15 @@ for line in lines:
 # ****************************************************************************** #
 
 
-###　欄位順序有誤　＝＞　重新合併
+# type1_mid_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_mid_gan_train_df_3.csv", encoding="utf-8-sig")
+type1_low_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_low_gan_train_df_2.csv", encoding="utf-8-sig")
+type1_origin_df = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv", encoding="utf-8-sig")
 
-type1_mid_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_mid_gan_train_df_3.csv", encoding="utf-8-sig")
-type1_low_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_low_gan_train_df_3.csv", encoding="utf-8-sig")
-type1_origin_df = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_3.csv", encoding="utf-8-sig")
-
-mid_conditions = [
-    type1_mid_gan_df['status'] == -1,
-    type1_mid_gan_df['status'] == 0,
-    type1_mid_gan_df['status'] == 1,
-]
+# mid_conditions = [
+#     type1_mid_gan_df['status'] == -1,
+#     type1_mid_gan_df['status'] == 0,
+#     type1_mid_gan_df['status'] == 1,
+# ]
 
 low_conditions = [
     type1_low_gan_df['status'] == -1,
@@ -43,61 +41,39 @@ low_conditions = [
 values = [0, 1, 2]
 
 # create a new column and use np.select to assign values to it using our lists as arguments
-type1_mid_gan_df['label'] = np.select(mid_conditions, values)
+# type1_mid_gan_df['label'] = np.select(mid_conditions, values)
 type1_low_gan_df['label'] = np.select(low_conditions, values)
 
 
-type1_mid_gan_df = shuffle(type1_mid_gan_df)
-type1_low_gan_df = shuffle(type1_low_gan_df)
-
-type1_low_gan_df = type1_low_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'text']]
-type1_mid_gan_df = type1_mid_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'text']]
-
+type1_low_gan_df = type1_low_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
+# type1_mid_gan_df = type1_mid_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
+type1_origin_df['origin'] = 1
+type1_origin_df = type1_origin_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
 
 print(type1_origin_df.columns)
 print(type1_low_gan_df.columns)
-print(type1_mid_gan_df.columns)
+# print(type1_mid_gan_df.columns)
 
-# type1_positive_df = type1_origin_df[type1_origin_df["rating"] >= 4]
-# type1_negative_df = pd.concat([type1_low_gan_df[type1_low_gan_df["rating"] <= 2], type1_mid_gan_df[type1_mid_gan_df["rating"] <= 2]])
-# type1_mid_df = pd.concat([type1_mid_gan_df[type1_mid_gan_df["rating"] == 3], type1_low_gan_df[type1_low_gan_df["rating"] == 3]])
-# print(len(type1_positive_df), len(type1_negative_df), len(type1_mid_df))
-
-
-# type1_positive = len(type1_origin_df[type1_origin_df["rating"] >= 4])
-# type1_negative = len(type1_origin_df[type1_origin_df["rating"] <= 2])  + len(type1_negative_df)
-# type1_mid = len(type1_origin_df[type1_origin_df["rating"] == 3]) + len(type1_mid_df) 
-# print(type1_positive, type1_negative, type1_mid)
-
-# if type1_negative > type1_positive:
-#     type1_negative_df = type1_negative_df.sample(len(type1_positive_df) - len(type1_origin_df[type1_origin_df["rating"] <= 2]))
-
-# if type1_mid > type1_positive:
-#     type1_mid_df = type1_mid_df.sample(len(type1_positive_df) - len(type1_origin_df[type1_origin_df["rating"] == 3]))
-
-# type1_positive = len(type1_origin_df[type1_origin_df["rating"] >= 4])
-# type1_negative = len(type1_origin_df[type1_origin_df["rating"] <= 2])  + len(type1_negative_df)
-# type1_mid = len(type1_origin_df[type1_origin_df["rating"] == 3]) + len(type1_mid_df) 
-# print(type1_positive, type1_negative, type1_mid)
-
-type1_merge_df = pd.concat([type1_mid_gan_df, type1_low_gan_df, type1_origin_df])
+type1_merge_df = pd.concat([type1_origin_df, type1_low_gan_df])
 
 type1_positive = len(type1_merge_df[type1_merge_df["rating"] >= 4])
-type1_negative = len(type1_merge_df[type1_merge_df["rating"] <= 2])
-type1_mid = len(type1_merge_df[type1_merge_df["rating"] == 3])
-print(type1_positive, type1_negative, type1_mid)
+type1_negative = len(type1_merge_df[type1_merge_df["rating"] <= 3])
+# type1_mid = len(type1_merge_df[type1_merge_df["rating"] <= 3])
+print(type1_positive, type1_negative)
 
-for index, row in type1_merge_df.iterrows():
-    ws = jieba.lcut(row["content"], cut_all=False)
+texts = []
+for row in type1_merge_df['content']:
+    ws = jieba.lcut(row, cut_all=False)
     new_ws = []
     for word in ws:
         if word not in STOP_WORDS:
             new_ws.append(word)
-    type1_merge_df.at[index, 'text'] = "".join(new_ws)
+    texts.append("".join(new_ws))
 
+type1_merge_df["text"] = texts
 type1_merge_df = shuffle(type1_merge_df)
 
-type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_3.csv', index=False, encoding="utf-8-sig")
+type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812.csv', index=False, encoding="utf-8-sig")
 
 
 # type2_mid_gan_df = pd.read_csv("new_data/docs_0804/llama3_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
