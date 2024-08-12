@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.utils import shuffle
 import jieba
 import numpy as np
+import random
 
 jieba.load_userdict('code\\custom_dict.txt')
 jieba.set_dictionary('code\\dict.txt.big')
@@ -17,6 +18,20 @@ f = open('code\\stopwords.txt', encoding="utf-8")
 lines = f.readlines()
 for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
+
+
+def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
+    num_words = len(words)
+    num_to_mask = int(num_words * mask_prob)
+
+    # 隨機選擇需要掩碼的詞
+    mask_indices = random.sample(range(num_words), num_to_mask)
+    masked_words = words.copy()
+
+    for idx in mask_indices:
+        masked_words[idx] = mask_token
+
+    return "".join(masked_words)
 
 # ****************************************************************************** #
 
@@ -63,17 +78,21 @@ print(type1_positive, type1_negative)
 
 texts = []
 for row in type1_merge_df['content']:
+    # print(row)
     ws = jieba.lcut(row, cut_all=False)
     new_ws = []
     for word in ws:
         if word not in STOP_WORDS:
             new_ws.append(word)
-    texts.append("".join(new_ws))
+    mask_text = random_masking(new_ws)
+    # print(mask_text)
+    texts.append(mask_text)
 
+# print(texts)
 type1_merge_df["text"] = texts
 type1_merge_df = shuffle(type1_merge_df)
 
-type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812.csv', index=False, encoding="utf-8-sig")
+type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812_1.csv', index=False, encoding="utf-8-sig")
 
 
 # type2_mid_gan_df = pd.read_csv("new_data/docs_0804/llama3_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
@@ -98,4 +117,3 @@ type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df
 
 # type2_merge_llama3_df = pd.concat([type2_mid_gan_df, type2_low_gan_df, type2_origin_df])
 # type2_merge_llama3_df.to_csv('new_data/docs_0804/Final_Llama3/llama3_type2_merge_train_dataset.csv', index=False, encoding="utf-8-sig")
-
