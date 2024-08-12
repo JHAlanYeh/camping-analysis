@@ -8,7 +8,7 @@ from BackTranslation import BackTranslation
 trans = BackTranslation(url=[
       'translate.google.com',
       'translate.google.co.kr',
-    ], proxies={'http': '127.0.0.1:1234', 'http://host.name': '127.0.0.1:4012'})
+    ], proxies={'http': '127.0.0.1:1235', 'http://host.name': '127.0.0.1:4013'})
 
 
 jieba.load_userdict('code\\custom_dict.txt')
@@ -48,10 +48,10 @@ df = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20
 texts = []
 synonyms = []
 for index, row in df.iterrows():
-    print(row['origin'], row['synonyms'])
     if type(row['synonyms']) == str:
         continue
     if row['origin'] == 0 and np.isnan(row['synonyms']):
+        print(row['origin'], row['synonyms'])
         result = trans.translate(row['content'], src='zh-tw', tmp = 'en')
         translate_text = result.result_text
         print(translate_text)
