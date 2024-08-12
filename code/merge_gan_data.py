@@ -3,6 +3,13 @@ from sklearn.utils import shuffle
 import jieba
 import numpy as np
 import random
+from BackTranslation import BackTranslation
+
+trans = BackTranslation(url=[
+      'translate.google.com',
+      'translate.google.co.kr',
+    ], proxies={'http': '127.0.0.1:1234', 'http://host.name': '127.0.0.1:4012'})
+
 
 jieba.load_userdict('code\\custom_dict.txt')
 jieba.set_dictionary('code\\dict.txt.big')
@@ -77,9 +84,16 @@ type1_negative = len(type1_merge_df[type1_merge_df["rating"] <= 3])
 print(type1_positive, type1_negative)
 
 texts = []
-for row in type1_merge_df['content']:
+synonyms = []
+for row, origin in zip(type1_merge_df['content'],  type1_merge_df['origin']):
+    if origin == 0:
+        result = trans.translate(row, src='zh-tw', tmp = 'en')
+        row = result.result_text
+        print(row)
+    synonyms.append(row)
+
     # print(row)
-    ws = jieba.lcut(row, cut_all=False)
+    ws = jieba.cut(row, cut_all=False)
     new_ws = []
     for word in ws:
         if word not in STOP_WORDS:
@@ -90,9 +104,10 @@ for row in type1_merge_df['content']:
 
 # print(texts)
 type1_merge_df["text"] = texts
+type1_merge_df["synonyms"] = synonyms
 type1_merge_df = shuffle(type1_merge_df)
 
-type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812_1.csv', index=False, encoding="utf-8-sig")
+type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812_2.csv', index=False, encoding="utf-8-sig")
 
 
 # type2_mid_gan_df = pd.read_csv("new_data/docs_0804/llama3_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
