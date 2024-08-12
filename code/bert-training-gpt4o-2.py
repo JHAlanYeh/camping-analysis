@@ -285,7 +285,7 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812_1.csv")
     df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv")
     df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv")
 
