@@ -8,7 +8,7 @@ from BackTranslation import BackTranslation
 trans = BackTranslation(url=[
       'translate.google.com',
       'translate.google.co.kr',
-    ], proxies={'http': '127.0.0.1:1235', 'http://host.name': '127.0.0.1:4013'})
+    ], proxies={'http': '127.0.0.1:1237', 'http://host.name': '127.0.0.1:4017'})
 
 
 jieba.load_userdict('code\\custom_dict.txt')
