@@ -50,11 +50,21 @@ class LabelSmoothingLoss(nn.Module):
 
 
 class MyDataset(Dataset):
-    def __init__(self, df):
-        self.texts = [tokenizer.encode_plus(
+    def __init__(self, df, mode):
+        if mode == "train":
+            self.texts = [tokenizer.encode_plus(
+                            text,
+                            add_special_tokens=True,
+                            # max_length=512,
+                            padding='max_length',
+                            truncation=True,
+                            return_attention_mask=True,
+                            return_tensors='pt') for text in df['text']]
+        else:
+            self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
-                        max_length=512,
+                        # max_length=512,
                         padding='max_length',
                         truncation=True,
                         return_attention_mask=True,
@@ -292,11 +302,11 @@ if __name__ == "__main__":
 
 
     # 設定原始資料和增生資料的權重
-    weights = [0.3 if source == 0 else 0.7 for source in df_train['origin']]
+    weights = [0.2 if source == 0 else 0.8 for source in df_train['origin']]
 
-    train_dataset = MyDataset(df_train)
-    dev_dataset = MyDataset(df_val)
-    test_dataset = MyDataset(df_test)
+    train_dataset = MyDataset(df_train, "train")
+    dev_dataset = MyDataset(df_val, "train")
+    test_dataset = MyDataset(df_test, "test")
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
@@ -307,8 +317,8 @@ if __name__ == "__main__":
     save_result("ALBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
-    batch_size = 8
+    epoch = 3
+    batch_size = 16
     lr = 2e-5
     eps = 1e-8
 

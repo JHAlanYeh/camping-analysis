@@ -29,7 +29,24 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        if mode == "train":
+            self.texts = [tokenizer.encode_plus(
+                            text,
+                            add_special_tokens=True,
+                            max_length=512,
+                            padding='max_length',
+                            truncation=True,
+                            return_attention_mask=True,
+                            return_tensors='pt') for text in df['content']]
+        else:
+            self.texts = [tokenizer.encode_plus(
+                        text,
+                        add_special_tokens=True,
+                        max_length=512,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -49,8 +66,9 @@ class RobertaClassifier(nn.Module):
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
-        self.dropout = nn.Dropout(0.5)        
-        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
+        self.dropout = nn.Dropout(0.5)     
+        self.relu = nn.ReLU()   
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)   
 
     def forward(self, input_id, mask):
         output_1 = self.model(input_ids=input_id, attention_mask=mask)        
@@ -60,7 +78,7 @@ class RobertaClassifier(nn.Module):
         pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output   
+        return output
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -71,15 +89,16 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/{NUM_LABELS}/{save_name}')
 
+from sklearn.utils.class_weight import compute_class_weight
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
     model = RobertaClassifier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -196,9 +215,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "RoBERTa", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS, "RoBERTa", epoch+1)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -220,7 +237,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/RoBERTa_Loss.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/{NUM_LABELS}/RoBERTa_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -230,7 +247,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/RoBERTa_Acc.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/{NUM_LABELS}/RoBERTa_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -242,11 +259,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/result.txt"
+    file_path = f"new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -268,6 +285,9 @@ if __name__ == "__main__":
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    class_weights = torch.tensor(class_weights, dtype=torch.float)
+
 
     print("RoBERTa")
     print("=====================================")
@@ -276,8 +296,8 @@ if __name__ == "__main__":
     save_result("RoBERTa", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
-    batch_size = 8
+    epoch = 3
+    batch_size = 16
     lr = 2e-5
 
     save_result(f"epoch={epoch}\n", "a+")

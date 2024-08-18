@@ -19,6 +19,7 @@ import sklearn.metrics as skm
 import seaborn as sns
 
 PRETRAINED_MODEL_NAME = "Geotrend/distilbert-base-zh-cased"  # 指定繁簡中文 DistilBERT-BASE 預訓練模型
+# Langboat/distilbert-chinese
 NUM_LABELS = 2
 random_seed = 152
 result_text = ""
@@ -47,7 +48,7 @@ class MyDataset(Dataset):
                         padding='max_length',
                         truncation=True,
                         return_attention_mask=True,
-                        return_tensors='pt') for text in df['content']]
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -169,12 +170,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
 
         model.train()
 
@@ -300,7 +301,7 @@ if __name__ == "__main__":
     save_result("DistilBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
+    epoch = 3
     batch_size = 16
     lr = 2e-5
     eps = 1e-8

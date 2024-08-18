@@ -21,7 +21,7 @@ from torch.nn.utils import clip_grad_norm_
 
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "ckiplab/bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
 NUM_LABELS = 2
 random_seed = 42
 result_text = ""
@@ -125,7 +125,6 @@ def train_model():
     # 使用 Label Smoothing Loss
     criterion = LabelSmoothingLoss(smoothing=0.1)
     criterion = criterion.to(device)
-
 
     sampler = WeightedRandomSampler(weights, num_samples=len(weights))
 
@@ -304,7 +303,8 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_reverse_train_df_2_20240817.csv")
+    # df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_reverse_train_df_2_20240817.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812.csv")
     df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv")
     df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv")
 
@@ -312,7 +312,7 @@ if __name__ == "__main__":
     df_test = shuffle(df_test)
 
     # 設定原始資料和增生資料的權重
-    weights = [0.5 if source == 0 else 0.5 for source in df_train['origin']]
+    weights = [0.2 if source == 0 else 0.8 for source in df_train['origin']]
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
@@ -328,8 +328,8 @@ if __name__ == "__main__":
     save_result("BERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
-    batch_size = 8
+    epoch = 3
+    batch_size = 16
     lr = 2e-5
     eps = 1e-8
 

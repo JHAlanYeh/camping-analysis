@@ -1,21 +1,36 @@
 BERT
 =====================================
-epoch=5
+epoch=3
 batch_size=16
 lr=2e-05
 
 =====================================
 Epochs: 1
-            | Train Loss:  0.026
-            | Train Accuracy:  0.818
-            | Val Loss:  0.025
-            | Val Accuracy:  0.854
+            | Train Loss:  0.021
+            | Train Accuracy:  0.863
+            | Val Loss:  0.019
+            | Val Accuracy:  0.894
 =====================================
-total_acc_val / len(dev_dataset) = 85.44, best_dev_acc = 0.00
+total_acc_val / len(dev_dataset) = 89.41, best_dev_acc = 89.41
 Epochs: 2
-            | Train Loss:  0.016
-            | Train Accuracy:  0.905
-            | Val Loss:  0.025
-            | Val Accuracy:  0.859
+            | Train Loss:  0.013
+            | Train Accuracy:  0.921
+            | Val Loss:  0.021
+            | Val Accuracy:  0.899
 =====================================
-total_acc_val / len(dev_dataset) = 85.88, best_dev_acc = 85.44
+total_acc_val / len(dev_dataset) = 89.85, best_dev_acc = 89.85
+Epochs: 3
+            | Train Loss:  0.008
+            | Train Accuracy:  0.949
+            | Val Loss:  0.021
+            | Val Accuracy:  0.910
+=====================================
+total_acc_val / len(dev_dataset) = 91.03, best_dev_acc = 91.03
+=====================================
+Total time:0:12:07.015332
+Best Epoch:3
+=====================================
+scikit-learn Accuracy:87.35
+scikit-learn Precision:88.05
+scikit-learn Recall Score:87.35
+scikit-learn F1 Score:87.60

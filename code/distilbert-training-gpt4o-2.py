@@ -136,8 +136,6 @@ def train_model():
     # 使用 Label Smoothing Loss
     criterion = LabelSmoothingLoss(smoothing=0.1)
     criterion = criterion.to(device)
-    scheduler = LambdaLR(optimizer, lr_lambda=lr_lambda)
-
 
     sampler = WeightedRandomSampler(weights, num_samples=len(weights))
     criterion = criterion.to(device)
@@ -170,7 +168,7 @@ def train_model():
             total_acc_train += acc
             total_loss_train += batch_loss.item()
 
-        scheduler.step()
+        # scheduler.step()
         # ----------- 验证模型 -----------
         model.eval()
         total_acc_val = 0
@@ -325,7 +323,7 @@ if __name__ == "__main__":
     test_dataset = MyDataset(df_test, "test")
 
      # 設定原始資料和增生資料的權重
-    weights = [0.3 if source == 0 else 0.7 for source in df_train['origin']]
+    weights = [0.2 if source == 0 else 0.8 for source in df_train['origin']]
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
@@ -336,8 +334,8 @@ if __name__ == "__main__":
     save_result("DistilBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
-    batch_size = 8
+    epoch = 3
+    batch_size = 16
     lr = 2e-5
     eps = 1e-8
 

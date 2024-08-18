@@ -1,50 +1,7 @@
 RoBERTa
 =====================================
-epoch=5
-batch_size=8
+epoch=3
+batch_size=16
 lr=2e-05
 
 =====================================
-Epochs: 1
-            | Train Loss:  0.033
-            | Train Accuracy:  0.893
-            | Val Loss:  0.032
-            | Val Accuracy:  0.894
-=====================================
-total_acc_val / len(dev_dataset) = 89.41, best_dev_acc = 0.00
-Epochs: 2
-            | Train Loss:  0.019
-            | Train Accuracy:  0.944
-            | Val Loss:  0.042
-            | Val Accuracy:  0.894
-=====================================
-total_acc_val / len(dev_dataset) = 89.41, best_dev_acc = 89.41
-Epochs: 3
-            | Train Loss:  0.012
-            | Train Accuracy:  0.968
-            | Val Loss:  0.035
-            | Val Accuracy:  0.900
-=====================================
-total_acc_val / len(dev_dataset) = 90.00, best_dev_acc = 89.41
-Epochs: 4
-            | Train Loss:  0.007
-            | Train Accuracy:  0.982
-            | Val Loss:  0.046
-            | Val Accuracy:  0.888
-=====================================
-total_acc_val / len(dev_dataset) = 88.82, best_dev_acc = 90.00
-Epochs: 5
-            | Train Loss:  0.005
-            | Train Accuracy:  0.987
-            | Val Loss:  0.050
-            | Val Accuracy:  0.904
-=====================================
-total_acc_val / len(dev_dataset) = 90.44, best_dev_acc = 90.00
-=====================================
-Total time:0:21:27.030950
-Best Epoch:5
-=====================================
-scikit-learn Accuracy:92.06
-scikit-learn Precision:92.06
-scikit-learn Recall Score:92.06
-scikit-learn F1 Score:92.06

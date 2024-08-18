@@ -39,7 +39,7 @@ class MyDataset(Dataset):
                             padding='max_length',
                             truncation=True,
                             return_attention_mask=True,
-                            return_tensors='pt') for text in df['text']]
+                            return_tensors='pt') for text in df['content']]
         else:
             self.texts = [tokenizer.encode_plus(
                         text,
@@ -69,17 +69,9 @@ class BertClassifier(nn.Module):
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
         self.dropout = nn.Dropout(0.5)        
-        self.relu = nn.ReLU()
-        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)     
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)   
 
     def forward(self, input_id, mask):
-        _, pooler = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)        
-        pooler = self.pre_classifier(pooler)        
-        pooler = self.dropout(pooler)        
-        pooler = self.relu(pooler)
-        output = self.classifier(pooler)        
-        return output
-    
         output_1 = self.model(input_ids=input_id, attention_mask=mask)        
         hidden_state = output_1[0]        
         pooler = hidden_state[:, 0]        
@@ -87,7 +79,8 @@ class BertClassifier(nn.Module):
         pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output   
+        return output  
+      
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -174,12 +167,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
 
         model.train()
 
@@ -225,8 +218,6 @@ def evaluate(dataset):
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
     show_confusion_matrix(y_true, y_pred, NUM_LABELS, "BERT", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -340,7 +331,7 @@ if __name__ == "__main__":
     save_result("BERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
+    epoch = 3
     batch_size = 16
     lr = 2e-5
     eps = 1e-8

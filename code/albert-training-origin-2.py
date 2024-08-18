@@ -30,10 +30,21 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer.encode_plus(
+        # tokenizer分词后可以被自动汇聚
+        if mode == "train":
+            self.texts = [tokenizer.encode_plus(
+                            text,
+                            add_special_tokens=True,
+                            # max_length=512,
+                            padding='max_length',
+                            truncation=True,
+                            return_attention_mask=True,
+                            return_tensors='pt') for text in df['content']]
+        else:
+            self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
-                        max_length=512,
+                        # max_length=512,
                         padding='max_length',
                         truncation=True,
                         return_attention_mask=True,
@@ -246,7 +257,7 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result{NUM_LABELS}/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
@@ -282,7 +293,7 @@ if __name__ == "__main__":
     save_result("ALBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
+    epoch = 3
     batch_size = 16
     lr = 2e-5
     

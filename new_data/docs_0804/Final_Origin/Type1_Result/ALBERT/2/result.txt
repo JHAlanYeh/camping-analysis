@@ -1,46 +1,36 @@
+ALBERT
+=====================================
+epoch=3
+batch_size=16
 lr=2e-05
 
 =====================================
 Epochs: 1
-            | Train Loss:  0.075
-            | Train Accuracy:  0.716
-            | Val Loss:  0.074
-            | Val Accuracy:  0.718
+            | Train Loss:  0.043
+            | Train Accuracy:  0.609
+            | Val Loss:  0.042
+            | Val Accuracy:  0.749
 =====================================
-total_acc_val / len(dev_dataset) = 71.76, best_dev_acc = 0.00
+total_acc_val / len(dev_dataset) = 74.85, best_dev_acc = 0.00
 Epochs: 2
-            | Train Loss:  0.075
-            | Train Accuracy:  0.714
-            | Val Loss:  0.080
-            | Val Accuracy:  0.718
+            | Train Loss:  0.042
+            | Train Accuracy:  0.614
+            | Val Loss:  0.039
+            | Val Accuracy:  0.593
 =====================================
-total_acc_val / len(dev_dataset) = 71.76, best_dev_acc = 71.76
+total_acc_val / len(dev_dataset) = 59.26, best_dev_acc = 74.85
 Epochs: 3
-            | Train Loss:  0.074
-            | Train Accuracy:  0.720
-            | Val Loss:  0.075
-            | Val Accuracy:  0.713
-=====================================
-total_acc_val / len(dev_dataset) = 71.32, best_dev_acc = 71.76
-Epochs: 4
-            | Train Loss:  0.057
-            | Train Accuracy:  0.779
-            | Val Loss:  0.041
-            | Val Accuracy:  0.869
-=====================================
-total_acc_val / len(dev_dataset) = 86.91, best_dev_acc = 71.76
-Epochs: 5
-            | Train Loss:  0.034
-            | Train Accuracy:  0.892
+            | Train Loss:  0.043
+            | Train Accuracy:  0.614
             | Val Loss:  0.044
-            | Val Accuracy:  0.885
+            | Val Accuracy:  0.406
 =====================================
-total_acc_val / len(dev_dataset) = 88.53, best_dev_acc = 86.91
+total_acc_val / len(dev_dataset) = 40.59, best_dev_acc = 74.85
 =====================================
-Total time:0:19:35.613578
-Best Epoch:5
+Total time:0:11:10.320365
+Best Epoch:3
 =====================================
-scikit-learn Accuracy:90.59
-scikit-learn Precision:90.44
-scikit-learn Recall Score:90.59
-scikit-learn F1 Score:90.27
+scikit-learn Accuracy:75.15
+scikit-learn Precision:81.33
+scikit-learn Recall Score:75.15
+scikit-learn F1 Score:64.63
