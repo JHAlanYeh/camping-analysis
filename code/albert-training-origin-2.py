@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
-PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
+PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese"
 NUM_LABELS = 2
 random_seed = 112
 result_text = ""
@@ -30,7 +30,14 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        self.texts = [tokenizer.encode_plus(
+                        text,
+                        add_special_tokens=True,
+                        max_length=512,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -70,15 +77,16 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/2/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/{NUM_LABELS}/{save_name}')
 
+from sklearn.utils.class_weight import compute_class_weight
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
     model = AlbertClassfier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -175,7 +183,7 @@ def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = AlbertClassfier()
-    model.load_state_dict(torch.load('new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/2/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -195,9 +203,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "ALBERT", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS, "ALBERT", epoch+1)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -218,7 +224,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/2/ALBERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/{NUM_LABELS}/ALBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -228,7 +234,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/2/ALBERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/{NUM_LABELS}/ALBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -240,11 +246,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/2/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/2/result.txt"
+    file_path = f"new_data/docs_0804/Final_Origin/Type1_Result/ALBERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -266,6 +272,8 @@ if __name__ == "__main__":
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    class_weights = torch.tensor(class_weights, dtype=torch.float)
 
     print("ALBERT")
     print("=====================================")
@@ -275,12 +283,12 @@ if __name__ == "__main__":
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 5
-    batch_size = 8
+    batch_size = 16
     lr = 2e-5
-
-    save_result(f"epoch={epoch}\n", "w")
-    save_result(f"batch_size={batch_size}\n", "w")
-    save_result(f"lr={lr}\n", "w")
+    
+    save_result(f"epoch={epoch}\n", "a+")
+    save_result(f"batch_size={batch_size}\n", "a+")
+    save_result(f"lr={lr}\n", "a+")
     save_result("\n=====================================\n", "a+")
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

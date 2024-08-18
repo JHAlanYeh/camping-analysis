@@ -4,43 +4,43 @@ lr=2e-05
 Epochs: 1
             | Train Loss:  0.075
             | Train Accuracy:  0.716
-            | Val Loss:  0.071
-            | Val Accuracy:  0.750
+            | Val Loss:  0.074
+            | Val Accuracy:  0.718
 =====================================
-total_acc_val / len(dev_dataset) = 75.00, best_dev_acc = 0.00
+total_acc_val / len(dev_dataset) = 71.76, best_dev_acc = 0.00
 Epochs: 2
             | Train Loss:  0.075
             | Train Accuracy:  0.714
-            | Val Loss:  0.079
-            | Val Accuracy:  0.750
+            | Val Loss:  0.080
+            | Val Accuracy:  0.718
 =====================================
-total_acc_val / len(dev_dataset) = 75.00, best_dev_acc = 75.00
+total_acc_val / len(dev_dataset) = 71.76, best_dev_acc = 71.76
 Epochs: 3
             | Train Loss:  0.074
             | Train Accuracy:  0.720
-            | Val Loss:  0.073
-            | Val Accuracy:  0.747
+            | Val Loss:  0.075
+            | Val Accuracy:  0.713
 =====================================
-total_acc_val / len(dev_dataset) = 74.71, best_dev_acc = 75.00
+total_acc_val / len(dev_dataset) = 71.32, best_dev_acc = 71.76
 Epochs: 4
             | Train Loss:  0.057
             | Train Accuracy:  0.779
-            | Val Loss:  0.038
-            | Val Accuracy:  0.875
+            | Val Loss:  0.041
+            | Val Accuracy:  0.869
 =====================================
-total_acc_val / len(dev_dataset) = 87.50, best_dev_acc = 75.00
+total_acc_val / len(dev_dataset) = 86.91, best_dev_acc = 71.76
 Epochs: 5
             | Train Loss:  0.034
             | Train Accuracy:  0.892
-            | Val Loss:  0.034
-            | Val Accuracy:  0.906
+            | Val Loss:  0.044
+            | Val Accuracy:  0.885
 =====================================
-total_acc_val / len(dev_dataset) = 90.59, best_dev_acc = 87.50
+total_acc_val / len(dev_dataset) = 88.53, best_dev_acc = 86.91
 =====================================
-Total time:0:19:23.841145
+Total time:0:19:35.613578
 Best Epoch:5
 =====================================
-scikit-learn Accuracy:88.53
-scikit-learn Precision:88.42
-scikit-learn Recall Score:88.53
-scikit-learn F1 Score:88.11
+scikit-learn Accuracy:90.59
+scikit-learn Precision:90.44
+scikit-learn Recall Score:90.59
+scikit-learn F1 Score:90.27

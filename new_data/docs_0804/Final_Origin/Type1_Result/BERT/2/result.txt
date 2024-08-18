@@ -1,50 +1,21 @@
 BERT
 =====================================
 epoch=5
-batch_size=8
+batch_size=16
 lr=2e-05
 
 =====================================
 Epochs: 1
-            | Train Loss:  0.042
-            | Train Accuracy:  0.862
-            | Val Loss:  0.037
-            | Val Accuracy:  0.890
+            | Train Loss:  0.026
+            | Train Accuracy:  0.818
+            | Val Loss:  0.025
+            | Val Accuracy:  0.854
 =====================================
-total_acc_val / len(dev_dataset) = 88.97, best_dev_acc = 0.00
+total_acc_val / len(dev_dataset) = 85.44, best_dev_acc = 0.00
 Epochs: 2
-            | Train Loss:  0.027
-            | Train Accuracy:  0.917
-            | Val Loss:  0.035
-            | Val Accuracy:  0.900
+            | Train Loss:  0.016
+            | Train Accuracy:  0.905
+            | Val Loss:  0.025
+            | Val Accuracy:  0.859
 =====================================
-total_acc_val / len(dev_dataset) = 90.00, best_dev_acc = 88.97
-Epochs: 3
-            | Train Loss:  0.017
-            | Train Accuracy:  0.949
-            | Val Loss:  0.046
-            | Val Accuracy:  0.894
-=====================================
-total_acc_val / len(dev_dataset) = 89.41, best_dev_acc = 90.00
-Epochs: 4
-            | Train Loss:  0.010
-            | Train Accuracy:  0.968
-            | Val Loss:  0.049
-            | Val Accuracy:  0.891
-=====================================
-total_acc_val / len(dev_dataset) = 89.12, best_dev_acc = 90.00
-Epochs: 5
-            | Train Loss:  0.007
-            | Train Accuracy:  0.982
-            | Val Loss:  0.058
-            | Val Accuracy:  0.903
-=====================================
-total_acc_val / len(dev_dataset) = 90.29, best_dev_acc = 90.00
-=====================================
-Total time:0:22:10.741125
-Best Epoch:5
-=====================================
-scikit-learn Accuracy:87.65
-scikit-learn Precision:87.54
-scikit-learn Recall Score:87.65
-scikit-learn F1 Score:87.59
+total_acc_val / len(dev_dataset) = 85.88, best_dev_acc = 85.44

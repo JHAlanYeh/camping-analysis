@@ -1,0 +1,51 @@
+DistilBERT
+=====================================
+epoch=5
+batch_size=8
+lr=2e-05
+eps=1e-08
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.087
+            | Train Accuracy:  0.494
+            | Val Loss:  0.087
+            | Val Accuracy:  0.406
+=====================================
+total_acc_val / len(dev_dataset) = 40.59, best_dev_acc = 40.59
+Epochs: 2
+            | Train Loss:  0.069
+            | Train Accuracy:  0.787
+            | Val Loss:  0.062
+            | Val Accuracy:  0.849
+=====================================
+total_acc_val / len(dev_dataset) = 84.85, best_dev_acc = 84.85
+Epochs: 3
+            | Train Loss:  0.061
+            | Train Accuracy:  0.863
+            | Val Loss:  0.062
+            | Val Accuracy:  0.854
+=====================================
+total_acc_val / len(dev_dataset) = 85.44, best_dev_acc = 85.44
+Epochs: 4
+            | Train Loss:  0.057
+            | Train Accuracy:  0.892
+            | Val Loss:  0.061
+            | Val Accuracy:  0.850
+=====================================
+total_acc_val / len(dev_dataset) = 85.00, best_dev_acc = 85.44
+Epochs: 5
+            | Train Loss:  0.054
+            | Train Accuracy:  0.913
+            | Val Loss:  0.063
+            | Val Accuracy:  0.859
+=====================================
+total_acc_val / len(dev_dataset) = 85.88, best_dev_acc = 85.88
+=====================================
+Total time:0:15:52.484697
+Best Epoch:5
+=====================================
+scikit-learn Accuracy:88.24
+scikit-learn Precision:87.93
+scikit-learn Recall Score:88.24
+scikit-learn F1 Score:87.74

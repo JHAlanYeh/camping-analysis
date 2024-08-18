@@ -28,6 +28,7 @@ df = pd.read_csv("new_data\\docs_0804\\Final_Origin\\Type1_Result\\train_df_2.cs
 target_count = len(df[df["rating"] >= 4])
 print(f"需增生至{target_count}句")
 
+df_high = df[df["rating"] > 3]
 df_low = df[df["rating"] <= 3]
 print(f"原始：負向{len(df_low)}句")
 
@@ -47,7 +48,7 @@ client = OpenAI(
 
 while len(df_low) + len(df_low_gan) < target_count:
     print("負向增生")
-    for index, row in df_low.iterrows():
+    for index, row in df_high.iterrows():
         print("====================================")
         print(f"Origin: {row['content']}")
 
@@ -60,8 +61,9 @@ while len(df_low) + len(df_low_gan) < target_count:
 
         messages = [
             {
-                "role": "user", 
-                "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+                "role": "system", 
+                # "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+                "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成這個露營評論的負向情緒評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成類似該露營評論的負向情緒內容。」"""
             },
             {
                 "role": "assistant", 
@@ -82,6 +84,8 @@ while len(df_low) + len(df_low_gan) < target_count:
         print(response)
         if "抱歉" in response and "無法生成" in response and "相似內容" in response:
             continue
+        if "非常抱歉，我無法生成類似該露營評論的負向情緒內容。" in response:
+            continue
 
         if len(response) >=512:
             continue
@@ -98,18 +102,18 @@ while len(df_low) + len(df_low_gan) < target_count:
 
             df_low_gan.append({
                 "content": response,
-                "rating": row["rating"],
+                "rating": 1,
                 "type": row["type"],
-                "status": row["status"],
+                "status": -1,
                 "sequence_num": row["sequence_num"],
                 "text": text,
-                "label": row["label"],
+                "label": 0,
                 "publishedDate": row["publishedDate"],
                 "origin": 0
             })
 
         low_gan_df = pd.json_normalize(df_low_gan)
-        low_gan_df.to_csv('new_data/docs_0804/gpt4o_type1_low_gan_train_df_2.csv', index=False, encoding="utf-8-sig")
+        low_gan_df.to_csv('new_data/docs_0804/gpt4o_type1_reverse_gan_train_df_2.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_low_gan)}句，總共{len(df_low_gan) + len(df_low)}，目標{target_count}")
         low_flag = True
 

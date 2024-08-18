@@ -3,14 +3,6 @@ from sklearn.utils import shuffle
 import jieba
 import numpy as np
 import random
-from BackTranslation import BackTranslation
-
-trans = BackTranslation(url=[
-      'translate.google.com',
-      'translate.google.co.kr',
-    ], proxies={'http': '127.0.0.1:1234', 'http://host.name': '127.0.0.1:4012'})
-
-
 jieba.load_userdict('code\\custom_dict.txt')
 jieba.set_dictionary('code\\dict.txt.big')
 
@@ -44,7 +36,7 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 
 
 # type1_mid_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_mid_gan_train_df_3.csv", encoding="utf-8-sig")
-type1_low_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_low_gan_train_df_2.csv", encoding="utf-8-sig")
+type1_low_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_reverse_gan_train_df_2.csv", encoding="utf-8-sig")
 type1_origin_df = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv", encoding="utf-8-sig")
 
 # mid_conditions = [
@@ -53,18 +45,18 @@ type1_origin_df = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/trai
 #     type1_mid_gan_df['status'] == 1,
 # ]
 
-low_conditions = [
-    type1_low_gan_df['status'] == -1,
-    type1_low_gan_df['status'] == 0,
-    type1_low_gan_df['status'] == 1,
-]
+# low_conditions = [
+#     type1_low_gan_df['status'] == -1,
+#     type1_low_gan_df['status'] == 0,
+#     type1_low_gan_df['status'] == 1,
+# ]
 
 # create a list of the values we want to assign for each condition
-values = [0, 1, 2]
+# values = [0, 1, 2]
 
 # create a new column and use np.select to assign values to it using our lists as arguments
 # type1_mid_gan_df['label'] = np.select(mid_conditions, values)
-type1_low_gan_df['label'] = np.select(low_conditions, values)
+# type1_low_gan_df['label'] = np.select(low_conditions, values)
 
 
 type1_low_gan_df = type1_low_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
@@ -103,11 +95,11 @@ for row, origin in zip(type1_merge_df['content'],  type1_merge_df['origin']):
     texts.append(mask_text)
 
 # print(texts)
-type1_merge_df["text"] = ""
+type1_merge_df["text"] = texts
 type1_merge_df["synonyms"] = ""
 type1_merge_df = shuffle(type1_merge_df)
 
-type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812_2.csv', index=False, encoding="utf-8-sig")
+type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_reverse_train_df_2_20240817.csv', index=False, encoding="utf-8-sig")
 
 
 # type2_mid_gan_df = pd.read_csv("new_data/docs_0804/llama3_type2_mid_gan_dataset.csv", encoding="utf-8-sig")

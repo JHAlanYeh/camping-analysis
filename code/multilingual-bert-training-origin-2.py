@@ -279,9 +279,9 @@ if __name__ == "__main__":
     batch_size = 8
     lr = 2e-5
 
-    save_result(f"epoch={epoch}\n", "w")
-    save_result(f"batch_size={batch_size}\n", "w")
-    save_result(f"lr={lr}\n", "w")
+    save_result(f"epoch={epoch}\n", "a+")
+    save_result(f"batch_size={batch_size}\n", "a+")
+    save_result(f"lr={lr}\n", "a+")
     save_result("\n=====================================\n", "a+")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

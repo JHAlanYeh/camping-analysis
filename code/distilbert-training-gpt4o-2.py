@@ -6,6 +6,7 @@ import math
 from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, BertConfig
+from transformers import DistilBertTokenizer, DistilBertModel, DistilBertConfig
 from transformers import DataCollatorWithPadding
 from torch import nn
 from torch.optim import Adam
@@ -16,20 +17,59 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
+from torch.utils.data import WeightedRandomSampler
+from torch.optim.lr_scheduler import LambdaLR
 
-PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
+PRETRAINED_MODEL_NAME = "Geotrend/distilbert-base-zh-cased"  # 指定繁簡中文 DistilBERT-BASE 預訓練模型
 NUM_LABELS = 2
-random_seed = 142
+random_seed = 152
 result_text = ""
 
 # 取得此預訓練模型所使用的 tokenizer
-tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
+tokenizer = DistilBertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+
+import torch.nn.functional as F
+
+class LabelSmoothingLoss(nn.Module):
+    def __init__(self, smoothing=0.1):
+        super(LabelSmoothingLoss, self).__init__()
+        self.smoothing = smoothing
+
+    def forward(self, pred, target):
+        # num_classes 是類別數
+        num_classes = pred.size(1)
+
+        # 生成平滑後的標籤
+        with torch.no_grad():
+            true_dist = torch.zeros_like(pred)
+            true_dist.fill_(self.smoothing / (num_classes - 1))
+            true_dist.scatter_(1, target.data.unsqueeze(1), 1.0 - self.smoothing)
+
+        return torch.mean(torch.sum(-true_dist * F.log_softmax(pred, dim=1), dim=1))
+
 
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        if mode == "train":
+            self.texts = [tokenizer.encode_plus(
+                            text,
+                            add_special_tokens=True,
+                            # max_length=512,
+                            padding='max_length',
+                            truncation=True,
+                            return_attention_mask=True,
+                            return_tensors='pt') for text in df['text']]
+        else:
+            self.texts = [tokenizer.encode_plus(
+                        text,
+                        add_special_tokens=True,
+                        # max_length=512,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -43,11 +83,11 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class RobertaClassifier(nn.Module):
+class DistilBertClassifier(nn.Module):
     def __init__(self):
-        super(RobertaClassifier, self).__init__()
-        self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
-        self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+        super(DistilBertClassifier, self).__init__()
+        self.model = DistilBertModel.from_pretrained(PRETRAINED_MODEL_NAME)
+        self.config = DistilBertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
         self.dropout = nn.Dropout(0.5)        
         self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
@@ -60,7 +100,7 @@ class RobertaClassifier(nn.Module):
         pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output   
+        return output  
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -69,23 +109,41 @@ def setup_seed(seed):
     random.seed(seed)
     torch.backends.cudnn.deterministic = True
 
+from snownlp import SnowNLP
+
+def get_sentiment_score(text):
+    s = SnowNLP(text)
+    return s.sentiments
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_GPT4o/Type1_Result/DistilBERT/{NUM_LABELS}/{save_name}')
+
+def lr_lambda(eph):
+    if eph < epoch:
+        return eph / epoch
+    else:
+        return 1
+
 
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = RobertaClassifier()
+    model = DistilBertClassifier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
+    # 使用 Label Smoothing Loss
+    criterion = LabelSmoothingLoss(smoothing=0.1)
+    criterion = criterion.to(device)
+    scheduler = LambdaLR(optimizer, lr_lambda=lr_lambda)
+
+
+    sampler = WeightedRandomSampler(weights, num_samples=len(weights))
     criterion = criterion.to(device)
 
     # 构建数据加载器
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, sampler=sampler)
     dev_loader = DataLoader(dev_dataset, batch_size=batch_size)
 
     # 训练
@@ -112,6 +170,7 @@ def train_model():
             total_acc_train += acc
             total_loss_train += batch_loss.item()
 
+        scheduler.step()
         # ----------- 验证模型 -----------
         model.eval()
         total_acc_val = 0
@@ -146,13 +205,13 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
-
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+        
         model.train()
 
     # 保存最后的模型，以便继续训练
@@ -175,8 +234,8 @@ def train_model():
 def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = RobertaClassifier()
-    model.load_state_dict(torch.load('new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/best.pt'))
+    model = DistilBertClassifier()
+    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_GPT4o/Type1_Result/DistilBERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -196,9 +255,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "RoBERTa", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS, "DistilBERT", epoch+1)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -216,21 +273,21 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
     plt.plot(loss_list, label = 'train loss')
     plt.plot(loss_val_list, label = 'val loss')
-    plt.title('RoBERTa Training and validation loss')
+    plt.title('DistilBERT Training and validation loss')
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/RoBERTa_Loss.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_GPT4o/Type1_Result/DistilBERT/{NUM_LABELS}/DistilBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
     plt.plot(accuracy_list, label = 'train acc')
     plt.plot(accuracy_val_list, label = 'val acc')
-    plt.title('RoBERTa Training and validation acc')
+    plt.title('DistilBERT Training and validation acc')
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/RoBERTa_Acc.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_GPT4o/Type1_Result/DistilBERT/{NUM_LABELS}/DistilBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -242,11 +299,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_GPT4o/Type1_Result/DistilBERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0804/Final_Origin/Type1_Result/RoBERTa/2/result.txt"
+    file_path = f"new_data/docs_0804/Final_GPT4o/Type1_Result/DistilBERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -257,7 +314,8 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv")
+    # df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_reverse_train_df_2_20240817.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_2_20240812.csv")
     df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv")
     df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv")
 
@@ -266,23 +324,27 @@ if __name__ == "__main__":
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
+     # 設定原始資料和增生資料的權重
+    weights = [0.3 if source == 0 else 0.7 for source in df_train['origin']]
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
-    print("RoBERTa")
+    print("DistilBERT")
     print("=====================================")
 
     # 训练超参数
-    save_result("RoBERTa", "w")
+    save_result("DistilBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 5
     batch_size = 8
     lr = 2e-5
+    eps = 1e-8
 
     save_result(f"epoch={epoch}\n", "a+")
     save_result(f"batch_size={batch_size}\n", "a+")
     save_result(f"lr={lr}\n", "a+")
+    save_result(f"eps={eps}\n", "a+")
     save_result("\n=====================================\n", "a+")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

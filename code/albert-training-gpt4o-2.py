@@ -20,8 +20,8 @@ from torch.utils.data import WeightedRandomSampler
 
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
-NUM_LABELS = 3
+PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese"
+NUM_LABELS = 2
 random_seed = 112
 result_text = ""
 
@@ -29,13 +29,28 @@ result_text = ""
 tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
+import torch.nn.functional as F
+
+class LabelSmoothingLoss(nn.Module):
+    def __init__(self, smoothing=0.1):
+        super(LabelSmoothingLoss, self).__init__()
+        self.smoothing = smoothing
+
+    def forward(self, pred, target):
+        # num_classes 是類別數
+        num_classes = pred.size(1)
+
+        # 生成平滑後的標籤
+        with torch.no_grad():
+            true_dist = torch.zeros_like(pred)
+            true_dist.fill_(self.smoothing / (num_classes - 1))
+            true_dist.scatter_(1, target.data.unsqueeze(1), 1.0 - self.smoothing)
+
+        return torch.mean(torch.sum(-true_dist * F.log_softmax(pred, dim=1), dim=1))
+
+
 class MyDataset(Dataset):
     def __init__(self, df):
-        # tokenizer分词后可以被自动汇聚
-        # self.texts = [
-        #                 tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") 
-        #                 for text in df['text']
-        #               ]
         self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
@@ -53,9 +68,9 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class ALBERTClassifier(nn.Module):
+class AlbertClassfier(nn.Module):
     def __init__(self):
-        super(ALBERTClassifier, self).__init__()
+        super(AlbertClassfier, self).__init__()
         self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.dropout = nn.Dropout(0.5)        
@@ -68,7 +83,7 @@ class ALBERTClassifier(nn.Module):
         pooler = nn.ReLU()(pooler)        
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output   
+        return output  
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -80,21 +95,22 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{NUM_LABELS}/{save_name}')
 
+from sklearn.utils.class_weight import compute_class_weight
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = ALBERTClassifier()
+    model = AlbertClassfier()
     # 定义损失函数和优化器
     
-    criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr, eps=eps)
     model = model.to(device)
-    criterion = criterion.to(device)
-
+    # 使用 Label Smoothing Loss
+    criterion = LabelSmoothingLoss(smoothing=0.1)
     sampler = WeightedRandomSampler(weights, num_samples=len(weights))
+    criterion = criterion.to(device)
 
     # 构建数据加载器
     train_loader = DataLoader(train_dataset, sampler=sampler, batch_size=batch_size)
@@ -158,12 +174,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
 
         model.train()
 
@@ -187,8 +203,8 @@ def train_model():
 def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
-    model = ALBERTClassifier()
-    model.load_state_dict(torch.load('new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/best.pt'))
+    model = AlbertClassfier()
+    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -211,8 +227,6 @@ def evaluate(dataset):
 
     cf_matrix = confusion_matrix(y_true, y_pred)
     show_confusion_matrix(y_true, y_pred, 3, "ALBERT", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -234,7 +248,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/ALBERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{NUM_LABELS}/ALBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -244,7 +258,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/ALBERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{NUM_LABELS}/ALBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -256,11 +270,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/result.txt"
+    file_path = f"new_data/docs_0804/Final_GPT4o/Type1_Result/ALBERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -272,13 +286,13 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_3_20240811.csv")
-    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
-    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_reverse_train_df_2_20240817.csv")
+    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_2.csv")
+    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_2.csv")
 
 
     # 設定原始資料和增生資料的權重
-    weights = [0.2 if source == 0 else 0.8 for source in df_train['origin']]
+    weights = [0.3 if source == 0 else 0.7 for source in df_train['origin']]
 
     train_dataset = MyDataset(df_train)
     dev_dataset = MyDataset(df_val)
@@ -294,8 +308,8 @@ if __name__ == "__main__":
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 5
-    batch_size = 4
-    lr = 1e-5
+    batch_size = 8
+    lr = 2e-5
     eps = 1e-8
 
     save_result(f"epoch={epoch}\n", "a+")
