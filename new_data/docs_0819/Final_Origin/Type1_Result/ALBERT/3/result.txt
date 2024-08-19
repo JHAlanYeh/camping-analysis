@@ -1,0 +1,35 @@
+ALBERT
+=====================================
+epoch=10
+batch_size=8
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.049
+            | Train Accuracy:  0.905
+            | Val Loss:  0.054
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 89.05, best_dev_acc = 89.05
+Epochs: 2
+            | Train Loss:  0.048
+            | Train Accuracy:  0.906
+            | Val Loss:  0.053
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 89.05, best_dev_acc = 89.05
+Epochs: 3
+            | Train Loss:  0.047
+            | Train Accuracy:  0.906
+            | Val Loss:  0.049
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 89.05, best_dev_acc = 89.05
+Epochs: 4
+            | Train Loss:  0.043
+            | Train Accuracy:  0.906
+            | Val Loss:  0.047
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 89.05, best_dev_acc = 89.05

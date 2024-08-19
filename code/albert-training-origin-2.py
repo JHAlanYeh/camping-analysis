@@ -39,7 +39,7 @@ class MyDataset(Dataset):
                             padding='max_length',
                             truncation=True,
                             return_attention_mask=True,
-                            return_tensors='pt') for text in df['content']]
+                            return_tensors='pt') for text in df['text']]
         else:
             self.texts = [tokenizer.encode_plus(
                         text,

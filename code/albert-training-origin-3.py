@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
-PRETRAINED_MODEL_NAME = "voidful/albert_chinese_base"
+PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese"
 NUM_LABELS = 3
 random_seed = 112
 result_text = ""

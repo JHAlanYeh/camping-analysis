@@ -30,7 +30,24 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        if mode == "train":
+            self.texts = [tokenizer.encode_plus(
+                            text,
+                            add_special_tokens=True,
+                            # max_length=512,
+                            padding='max_length',
+                            truncation=True,
+                            return_attention_mask=True,
+                            return_tensors='pt') for text in df['text']]
+        else:
+            self.texts = [tokenizer.encode_plus(
+                        text,
+                        add_special_tokens=True,
+                        # max_length=512,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -72,7 +89,7 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/DistilBERT/3/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0819/Final_Origin/Type1_Result/DistilBERT/{NUM_LABELS}/{save_name}')
 
 def train_model():
     start_time = datetime.now()
@@ -147,12 +164,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
 
         model.train()
 
@@ -174,10 +191,9 @@ def train_model():
 
 
 def evaluate(dataset):
-    # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = DistilBertClassifier()
-    model.load_state_dict(torch.load('new_data/docs_0804/Final_Origin/Type1_Result/DistilBERT/3/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_Origin/Type1_Result/DistilBERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -197,9 +213,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "DistilBERT", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS, "DistilBERT", epoch+1)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -221,7 +235,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/DistilBERT/3/DistilBERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/DistilBERT/{NUM_LABELS}/DistilBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -231,7 +245,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/DistilBERT/3/DistilBERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/DistilBERT/{NUM_LABELS}/DistilBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -243,11 +257,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/DistilBERT/3/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0819/Final_Origin/Type1_Result/DistilBERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0804/Final_Origin/Type1_Result/DistilBERT/3/result.txt"
+    file_path = f"new_data/docs_0819/Final_Origin/Type1_Result/DistilBERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -258,9 +272,10 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_3.csv")
-    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
-    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
+    df_train = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_test_df.csv")
+
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
@@ -276,13 +291,14 @@ if __name__ == "__main__":
     save_result("DistilBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
+    epoch = 10
     batch_size = 8
     lr = 2e-5
+    eps = 1e-8
 
-    save_result(f"epoch={epoch}\n", "w")
-    save_result(f"batch_size={batch_size}\n", "w")
-    save_result(f"lr={lr}\n", "w")
+    save_result(f"epoch={epoch}\n", "a+")
+    save_result(f"batch_size={batch_size}\n", "a+")
+    save_result(f"lr={lr}\n", "a+")
     save_result("\n=====================================\n", "a+")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
