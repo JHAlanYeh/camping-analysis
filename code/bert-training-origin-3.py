@@ -17,9 +17,24 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
+import jieba
+jieba.load_userdict('code\\custom_dict.txt')
+jieba.set_dictionary('code\\dict.txt.big')
+
+f = open('code\\stopwords_zh_TW.dat.txt', encoding="utf-8")
+STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+f = open('code\\stopwords.txt', encoding="utf-8")
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "ckiplab/bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
 NUM_LABELS = 3
 random_seed = 42
 result_text = ""
@@ -69,17 +84,9 @@ class BertClassifier(nn.Module):
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
         self.dropout = nn.Dropout(0.5)        
-        self.relu = nn.ReLU()
-        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)     
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)   
 
     def forward(self, input_id, mask):
-        _, pooler = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)        
-        pooler = self.pre_classifier(pooler)        
-        pooler = self.dropout(pooler)        
-        pooler = self.relu(pooler)
-        output = self.classifier(pooler)        
-        return output
-    
         output_1 = self.model(input_ids=input_id, attention_mask=mask)        
         hidden_state = output_1[0]        
         pooler = hidden_state[:, 0]        
@@ -87,7 +94,8 @@ class BertClassifier(nn.Module):
         pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
         output = self.classifier(pooler)        
-        return output   
+        return output 
+     
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -98,7 +106,7 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0819/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/{save_name}')
 
 from sklearn.utils.class_weight import compute_class_weight
 def train_model():
@@ -107,7 +115,7 @@ def train_model():
     # 定义模型
     model = BertClassifier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss(weight=class_weights)
+    criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr, eps=eps)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -174,13 +182,13 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
-
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
+           
         model.train()
 
     # 保存最后的模型，以便继续训练
@@ -204,7 +212,7 @@ def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = BertClassifier()
-    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -239,8 +247,28 @@ def evaluate(dataset):
     
 
 def preprocess_data():
-    df = pd.read_csv("new_data/docs_0804/type1_comments_0804.csv", encoding="utf_8_sig")
+    df = pd.read_csv("new_data/docs_0819/Final_Origin/type1_comments_origin.csv", encoding="utf_8_sig")
     target_df = df
+
+    texts = []
+    origins = []
+    for row, origin in zip(target_df['content'], target_df['origin']):
+        ws = jieba.cut(row, cut_all=False)
+        new_ws = []
+        for word in ws:
+            if word not in STOP_WORDS:
+                new_ws.append(word)
+        text = "".join(new_ws)
+        texts.append(text)
+
+        if origin == 0:
+            origins.append(0)
+        else:
+            origins.append(1)
+
+
+    target_df["text"] = texts
+    target_df["origin"] = origins
 
     # create a list of our conditions
     conditions = [
@@ -265,9 +293,9 @@ def preprocess_data():
     df_val = shuffle(df_val)
     df_test = shuffle(df_test)
     
-    pd.DataFrame(df_train, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "text"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_3.csv", index=False, encoding="utf-8-sig")
-    pd.DataFrame(df_val, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "text"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv", index=False, encoding="utf-8-sig")
-    pd.DataFrame(df_test, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "text"]).to_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_train, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "origin", "text"]).to_csv("new_data/docs_0819/Final_Origin/type1_train_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_val, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "origin", "text"]).to_csv("new_data/docs_0819/Final_Origin/type1_val_df.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(df_test, columns=["content", "rating", "status", "type", "label", "sequence_num", "publishedDate", "origin", "text"]).to_csv("new_data/docs_0819/Final_Origin/type1_test_df.csv", index=False, encoding="utf-8-sig")
 
     return df_train, df_val, df_test
 
@@ -279,7 +307,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/BERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/BERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -289,7 +317,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/BERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/BERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -301,11 +329,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0819/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = f"new_data/docs_0804/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/result.txt"
+    file_path = f"new_data/docs_0819/Final_Origin/Type1_Result/BERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -318,9 +346,9 @@ if __name__ == "__main__":
 
     # df_train, df_val, df_test = preprocess_data()
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_3.csv")
-    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
-    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
+    df_train = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
@@ -329,8 +357,8 @@ if __name__ == "__main__":
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
-    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
-    class_weights = torch.tensor(class_weights, dtype=torch.float)
+    # class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    # class_weights = torch.tensor(class_weights, dtype=torch.float)
 
     print("BERT")
     print("=====================================")
@@ -339,7 +367,7 @@ if __name__ == "__main__":
     save_result("BERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
+    epoch = 10
     batch_size = 8
     lr = 2e-5
     eps = 1e-8

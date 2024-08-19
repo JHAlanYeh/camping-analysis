@@ -1,0 +1,28 @@
+BERT
+=====================================
+epoch=10
+batch_size=8
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.037
+            | Train Accuracy:  0.912
+            | Val Loss:  0.041
+            | Val Accuracy:  0.890
+=====================================
+total_acc_val / len(dev_dataset) = 89.05, best_dev_acc = 89.05
+Epochs: 2
+            | Train Loss:  0.028
+            | Train Accuracy:  0.923
+            | Val Loss:  0.037
+            | Val Accuracy:  0.900
+=====================================
+total_acc_val / len(dev_dataset) = 90.04, best_dev_acc = 90.04
+Epochs: 3
+            | Train Loss:  0.022
+            | Train Accuracy:  0.941
+            | Val Loss:  0.042
+            | Val Accuracy:  0.902
+=====================================
+total_acc_val / len(dev_dataset) = 90.18, best_dev_acc = 90.18

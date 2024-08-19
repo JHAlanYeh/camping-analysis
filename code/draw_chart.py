@@ -10,7 +10,7 @@ def addlabels(x,y, padding = 0.07):
   for i in range(len(x)):
     plt.text(i-padding, y[i]+20, y[i])
 
-LABELS = ['負向', '正向']
+LABELS = ['負向','中立', '正向']
 STAR_LABELS = ['一星', '二星', '三星', '四星', '五星']
 
 def type1_origin_chart():
@@ -38,7 +38,7 @@ def type1_origin_chart():
 
 
 def type1_gan_chart():
-    df = pd.read_csv('new_data/docs_0724/Final_Llama3/Type1_Result/llama3_type1_merge_train_dataset.csv')
+    df = pd.read_csv('new_data/docs_0819/Final_GPT35/gpt35_type1_merge_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -49,7 +49,7 @@ def type1_gan_chart():
 
     axes = type1_merge_df.plot(kind='bar')
 
-    plt.title('增生後資料(傳統露營)(Llama3)', fontproperties=tw_font)
+    plt.title('增生後資料(傳統露營)(GPT3.5)', fontproperties=tw_font)
     plt.xlabel('評價類型', fontproperties=tw_font)
     plt.xticks(rotation=0)
     plt.ylabel('數量', fontproperties=tw_font)
@@ -57,7 +57,7 @@ def type1_gan_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs/Final_Llama3/Type1_Result/type1_llama3.png')
+    plt.savefig('new_data/docs_0819/Final_GPT35/type1_gpt35.png')
 
 def type2_origin_chart():
     df = pd.read_csv('new_data/docs_0724/Final_Origin/type2_comments.csv')
@@ -84,7 +84,7 @@ def type2_origin_chart():
 
 
 def type2_gan_chart():
-    df = pd.read_csv('new_data/docs/Final_Llama3/Type2_Result/llama3_type2_merge_train_dataset.csv')
+    df = pd.read_csv('new_data/docs_0819/Final_GPT35/gpt35_type2_merge_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -95,7 +95,7 @@ def type2_gan_chart():
 
     axes = type1_merge_df.plot(kind='bar')
 
-    plt.title('增生後資料(懶人露營)(Llama3)', fontproperties=tw_font)
+    plt.title('增生後資料(懶人露營)(GPT3.5)', fontproperties=tw_font)
     plt.xlabel('評價類型', fontproperties=tw_font)
     plt.xticks(rotation=0)
     plt.ylabel('數量', fontproperties=tw_font)
@@ -103,7 +103,7 @@ def type2_gan_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs/Final_Llama3/Type2_Result/type2_llama3.png')
+    plt.savefig('new_data/docs_0819/Final_GPT35/type2_gpt35.png')
 
 
 def type1_origin_split_chart(dataset):
@@ -151,12 +151,81 @@ def type2_origin_split_chart(dataset):
         label.set_fontproperties(tw_font)
     plt.savefig(f'new_data/docs/Final_Origin/Type2_Result/type2_{dataset}.png')
 
+
+def type1_origin_val_chart():
+    df = pd.read_csv('new_data/docs_0819/Final_Origin/type1_val_df.csv')
+    values = []
+    values.append(len(df[df["status"] == -1]))
+    values.append(len(df[df["status"] == 0]))
+    values.append(len(df[df["status"] == 1]))
+
+    ser = pd.Series(values, index=LABELS)
+    type1_merge_df = pd.DataFrame(data=ser, index=LABELS)
+
+    axes = type1_merge_df.plot(kind='bar')
+
+    plt.title('原始資料(傳統露營)(驗證集)', fontproperties=tw_font)
+    plt.xlabel('評價類型', fontproperties=tw_font)
+    plt.xticks(rotation=0)
+    plt.ylabel('數量', fontproperties=tw_font)
+    plt.legend('',frameon=False)
+    addlabels(LABELS, values)
+    for label in axes.get_xticklabels():
+        label.set_fontproperties(tw_font)
+    plt.savefig('new_data/docs_0819/Final_Origin/type1_val_df.png')
+
+def type1_origin_test_chart():
+    df = pd.read_csv('new_data/docs_0819/Final_Origin/type1_test_df.csv')
+    values = []
+    values.append(len(df[df["status"] == -1]))
+    values.append(len(df[df["status"] == 0]))
+    values.append(len(df[df["status"] == 1]))
+
+    ser = pd.Series(values, index=LABELS)
+    type1_merge_df = pd.DataFrame(data=ser, index=LABELS)
+
+    axes = type1_merge_df.plot(kind='bar')
+
+    plt.title('原始資料(傳統露營)(測試集)', fontproperties=tw_font)
+    plt.xlabel('評價類型', fontproperties=tw_font)
+    plt.xticks(rotation=0)
+    plt.ylabel('數量', fontproperties=tw_font)
+    plt.legend('',frameon=False)
+    addlabels(LABELS, values)
+    for label in axes.get_xticklabels():
+        label.set_fontproperties(tw_font)
+    plt.savefig('new_data/docs_0819/Final_Origin/type1_test_df.png')
+
+def type1_origin_train_chart():
+    df = pd.read_csv('new_data/docs_0819/Final_Origin/type1_train_df.csv')
+    values = []
+    values.append(len(df[df["status"] == -1]))
+    values.append(len(df[df["status"] == 0]))
+    values.append(len(df[df["status"] == 1]))
+
+    ser = pd.Series(values, index=LABELS)
+    type1_merge_df = pd.DataFrame(data=ser, index=LABELS)
+
+    axes = type1_merge_df.plot(kind='bar')
+
+    plt.title('原始資料(傳統露營)(訓練集)', fontproperties=tw_font)
+    plt.xlabel('評價類型', fontproperties=tw_font)
+    plt.xticks(rotation=0)
+    plt.ylabel('數量', fontproperties=tw_font)
+    plt.legend('',frameon=False)
+    addlabels(LABELS, values)
+    for label in axes.get_xticklabels():
+        label.set_fontproperties(tw_font)
+    plt.savefig('new_data/docs_0819/Final_Origin/type1_train_df.png')
+
 if __name__ == "__main__":
     # type1_origin_chart()
     # type2_origin_chart()
 
     # type1_gan_chart()
     # type2_gan_chart()
-
-    type1_origin_split_chart("train_df_2")
+    type1_origin_val_chart()
+    type1_origin_test_chart()
+    type1_origin_train_chart()
+    # type1_origin_split_chart("train_df_2")
     # type2_origin_split_chart("train_df")

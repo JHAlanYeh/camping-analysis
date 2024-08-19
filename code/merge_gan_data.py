@@ -1,11 +1,10 @@
 import pandas as pd
 from sklearn.utils import shuffle
-import jieba
 import numpy as np
 import random
+import jieba
 jieba.load_userdict('code\\custom_dict.txt')
 jieba.set_dictionary('code\\dict.txt.big')
-
 
 f = open('code\\stopwords_zh_TW.dat.txt', encoding="utf-8")
 STOP_WORDS = []
