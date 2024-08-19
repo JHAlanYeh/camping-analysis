@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
-PRETRAINED_MODEL_NAME = "bert-base-multilingual-cased"  # 指定繁簡中文 MultilingualBERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "google-bert/bert-base-multilingual-cased"  # 指定繁簡中文 MultilingualBERT-BASE 預訓練模型
 NUM_LABELS = 2
 random_seed = 82
 result_text = ""
@@ -29,7 +29,24 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 class MyDataset(Dataset):
     def __init__(self, df, mode ="train"):
         # tokenizer分词后可以被自动汇聚
-        self.texts = [tokenizer(text, padding='max_length', max_length = 512, truncation=True, return_tensors="pt") for text in df['content']]
+        if mode == "train":
+            self.texts = [tokenizer.encode_plus(
+                            text,
+                            add_special_tokens=True,
+                            max_length=512,
+                            padding='max_length',
+                            truncation=True,
+                            return_attention_mask=True,
+                            return_tensors='pt') for text in df['content']]
+        else:
+            self.texts = [tokenizer.encode_plus(
+                        text,
+                        add_special_tokens=True,
+                        max_length=512,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') for text in df['text']]
         # Dataset会自动返回Tensor
         self.labels =  [label for label in df['label']]
         self.mode = mode
@@ -49,8 +66,9 @@ class MultilingualBertClassifier(nn.Module):
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
-        self.dropout = nn.Dropout(0.5)        
-        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
+        self.dropout = nn.Dropout(0.5)     
+        self.relu = nn.ReLU()   
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)       
 
     def forward(self, input_id, mask):
         output_1 = self.model(input_ids=input_id, attention_mask=mask)        
@@ -59,7 +77,7 @@ class MultilingualBertClassifier(nn.Module):
         pooler = self.pre_classifier(pooler)        
         pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
-        output = self.classifier(pooler)        
+        output = self.classifier(pooler)     
         return output   
 
 def setup_seed(seed):
@@ -71,15 +89,16 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/2/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/{save_name}')
 
+from sklearn.utils.class_weight import compute_class_weight
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
     model = MultilingualBertClassifier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -146,12 +165,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
 
         model.train()
 
@@ -176,7 +195,7 @@ def evaluate(dataset):
     # dataset = pd.read_csv("../model/origin_type1/test_df.csv").to_numpy()
     # 加载模型
     model = MultilingualBertClassifier()
-    model.load_state_dict(torch.load('new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/2/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -196,9 +215,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "MultilingualBERT", epoch+1)
-    print(accuracy_score(y_true, y_pred))
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS, "MultilingualBERT", epoch+1)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -220,7 +237,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/2/MultilingualBERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -230,7 +247,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig("new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/2/MultilingualBERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -242,11 +259,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/2/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = "new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/2/result.txt"
+    file_path = f"new_data/docs_0804/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -267,6 +284,8 @@ if __name__ == "__main__":
     test_dataset = MyDataset(df_test, "test")
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    class_weights = torch.tensor(class_weights, dtype=torch.float)
 
     print("MultilingualBERT")
     print("=====================================")
@@ -275,8 +294,8 @@ if __name__ == "__main__":
     save_result("MultilingualBERT", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
-    epoch = 5
-    batch_size = 8
+    epoch = 3
+    batch_size = 16
     lr = 2e-5
 
     save_result(f"epoch={epoch}\n", "a+")

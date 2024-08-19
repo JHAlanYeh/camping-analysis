@@ -123,6 +123,7 @@ def train_model():
     model = model.to(device)
     # clip_grad_norm_(model.parameters(), max_norm=1.0)
     # 使用 Label Smoothing Loss
+    criterion = nn.CrossEntropyLoss()
     criterion = LabelSmoothingLoss(smoothing=0.1)
     criterion = criterion.to(device)
 

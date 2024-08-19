@@ -1,0 +1,31 @@
+MultilingualBERT
+=====================================
+Epochs: 1
+            | Train Loss:  0.023
+            | Train Accuracy:  0.839
+            | Val Loss:  0.024
+            | Val Accuracy:  0.851
+=====================================
+total_acc_val / len(dev_dataset) = 85.15, best_dev_acc = 0.00
+Epochs: 2
+            | Train Loss:  0.015
+            | Train Accuracy:  0.905
+            | Val Loss:  0.025
+            | Val Accuracy:  0.843
+=====================================
+total_acc_val / len(dev_dataset) = 84.26, best_dev_acc = 85.15
+Epochs: 3
+            | Train Loss:  0.013
+            | Train Accuracy:  0.922
+            | Val Loss:  0.027
+            | Val Accuracy:  0.860
+=====================================
+total_acc_val / len(dev_dataset) = 86.03, best_dev_acc = 85.15
+=====================================
+Total time:0:18:03.516577
+Best Epoch:3
+=====================================
+scikit-learn Accuracy:86.62
+scikit-learn Precision:87.72
+scikit-learn Recall Score:86.62
+scikit-learn F1 Score:86.97

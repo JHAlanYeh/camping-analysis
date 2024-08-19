@@ -1,50 +1,36 @@
 MultilingualBERT
 =====================================
-epoch=5
-batch_size=8
+epoch=3
+batch_size=16
 lr=2e-05
 
 =====================================
 Epochs: 1
-            | Train Loss:  0.042
-            | Train Accuracy:  0.862
-            | Val Loss:  0.044
-            | Val Accuracy:  0.850
+            | Train Loss:  0.023
+            | Train Accuracy:  0.840
+            | Val Loss:  0.024
+            | Val Accuracy:  0.887
 =====================================
-total_acc_val / len(dev_dataset) = 85.00, best_dev_acc = 0.00
+total_acc_val / len(dev_dataset) = 88.68, best_dev_acc = 88.68
 Epochs: 2
-            | Train Loss:  0.026
-            | Train Accuracy:  0.924
-            | Val Loss:  0.037
-            | Val Accuracy:  0.891
+            | Train Loss:  0.014
+            | Train Accuracy:  0.913
+            | Val Loss:  0.021
+            | Val Accuracy:  0.882
 =====================================
-total_acc_val / len(dev_dataset) = 89.12, best_dev_acc = 85.00
+total_acc_val / len(dev_dataset) = 88.24, best_dev_acc = 88.68
 Epochs: 3
-            | Train Loss:  0.018
-            | Train Accuracy:  0.949
-            | Val Loss:  0.039
-            | Val Accuracy:  0.893
+            | Train Loss:  0.010
+            | Train Accuracy:  0.948
+            | Val Loss:  0.023
+            | Val Accuracy:  0.863
 =====================================
-total_acc_val / len(dev_dataset) = 89.26, best_dev_acc = 89.12
-Epochs: 4
-            | Train Loss:  0.012
-            | Train Accuracy:  0.968
-            | Val Loss:  0.049
-            | Val Accuracy:  0.879
+total_acc_val / len(dev_dataset) = 86.32, best_dev_acc = 88.68
 =====================================
-total_acc_val / len(dev_dataset) = 87.94, best_dev_acc = 89.26
-Epochs: 5
-            | Train Loss:  0.009
-            | Train Accuracy:  0.976
-            | Val Loss:  0.061
-            | Val Accuracy:  0.859
+Total time:0:14:42.873776
+Best Epoch:3
 =====================================
-total_acc_val / len(dev_dataset) = 85.88, best_dev_acc = 89.26
-=====================================
-Total time:0:22:41.947897
-Best Epoch:5
-=====================================
-scikit-learn Accuracy:88.82
-scikit-learn Precision:89.14
-scikit-learn Recall Score:88.82
-scikit-learn F1 Score:88.95
+scikit-learn Accuracy:87.06
+scikit-learn Precision:86.73
+scikit-learn Recall Score:87.06
+scikit-learn F1 Score:86.33
