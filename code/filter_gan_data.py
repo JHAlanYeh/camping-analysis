@@ -3,6 +3,36 @@ import json
 import os
 import numpy as np
 from sklearn.utils import shuffle
+import random
+import jieba
+jieba.load_userdict('code\\custom_dict.txt')
+jieba.set_dictionary('code\\dict.txt.big')
+
+f = open('code\\stopwords_zh_TW.dat.txt', encoding="utf-8")
+STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+f = open('code\\stopwords.txt', encoding="utf-8")
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+
+def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
+    num_words = len(words)
+    num_to_mask = int(num_words * mask_prob)
+
+    # 隨機選擇需要掩碼的詞
+    mask_indices = random.sample(range(num_words), num_to_mask)
+    masked_words = words.copy()
+
+    for idx in mask_indices:
+        masked_words[idx] = mask_token
+
+    return "".join(masked_words)
+
 
 #### filter gan data ####
 # df = pd.read_csv("new_data/docs_0819/Final_Taide/taide_type2_merge_df.csv")
@@ -40,5 +70,31 @@ print(len(high_df), len(mid_df), len(low_df))
 
 
 new_train_df = shuffle(pd.concat([high_df, mid_df, gan_mid_df.sample(len(high_df) - len(mid_df)), low_df, gan_low_df.sample(len(high_df) - len(low_df))]))
+
+
+texts = []
+for row, origin in zip(new_train_df['content'],  new_train_df['origin']):
+    ws = jieba.cut(row, cut_all=False)
+    new_ws = []
+    for word in ws:
+        if word not in STOP_WORDS:
+            new_ws.append(word)
+    texts.append("".join(new_ws))
+
+# print(texts)
+new_train_df["text"] = texts
+new_train_df["synonyms"] = ""
+new_train_df = shuffle(new_train_df)
+
+conditions = [
+    new_train_df['rating'] >= 4,
+    new_train_df['rating'] == 3,
+    new_train_df['rating'] <= 2,
+]
+
+results = [2, 1, 0]
+new_train_df['label'] = np.select(conditions, results)
+
+
 print(len(new_train_df))
-new_train_df.to_csv("new_data/docs_0819/Final_GPT35/gpt35_type1_train_df.csv", index=False, encoding="utf-8-sig")
+new_train_df.to_csv("new_data/docs_0819/Final_GPT35/Type1_Result/gpt35_type1_train_df.csv", index=False, encoding="utf-8-sig")
