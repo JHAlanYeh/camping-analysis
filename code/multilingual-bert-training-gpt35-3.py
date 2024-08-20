@@ -88,7 +88,7 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0819/Final_GPT35/Type1_Result/MultilingualBERT/{NUM_LABELS}/{save_name}')
 
 def train_model():
     start_time = datetime.now()
@@ -192,7 +192,7 @@ def train_model():
 def evaluate(dataset):
     # 加载模型
     model = MultilingualBertClassifier()
-    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_GPT35/Type1_Result/MultilingualBERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -234,7 +234,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_GPT35/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -244,7 +244,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_GPT35/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -256,11 +256,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0819/Final_GPT35/Type1_Result/MultilingualBERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/result.txt"
+    file_path = f"new_data/docs_0819/Final_GPT35/Type1_Result/MultilingualBERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -271,9 +271,9 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_train_df.csv")
-    df_val = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_val_df.csv")
-    df_test = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_test_df.csv")
+    df_train = pd.read_csv("new_data/docs_0819/Final_GPT35/Type1_Result/gpt35_type1_train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0819/Final_GPT35/Type1_Result/type1_val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0819/Final_GPT35/Type1_Result/type1_test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")

@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
 
-PRETRAINED_MODEL_NAME = "google-bert/bert-base-multilingual-cased"   # 指定繁簡中文 MultilingualBERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 NUM_LABELS = 3
-random_seed = 82
+random_seed = 142
 result_text = ""
 
 # 取得此預訓練模型所使用的 tokenizer
@@ -33,7 +33,7 @@ class MyDataset(Dataset):
             self.texts = [tokenizer.encode_plus(
                             text,
                             add_special_tokens=True,
-                            # max_length=512,
+                            max_length=512,
                             padding='max_length',
                             truncation=True,
                             return_attention_mask=True,
@@ -42,7 +42,7 @@ class MyDataset(Dataset):
             self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
-                        # max_length=512,
+                        max_length=512,
                         padding='max_length',
                         truncation=True,
                         return_attention_mask=True,
@@ -60,9 +60,9 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-class MultilingualBertClassifier(nn.Module):
+class RobertaClassifier(nn.Module):
     def __init__(self):
-        super(MultilingualBertClassifier, self).__init__()
+        super(RobertaClassifier, self).__init__()
         self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
@@ -88,13 +88,13 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0819/Final_GPT35/Type1_Result/RoBERTa/{NUM_LABELS}/{save_name}')
 
 def train_model():
     start_time = datetime.now()
     print(start_time.strftime("%Y-%m-%d %H:%M:%S"))
     # 定义模型
-    model = MultilingualBertClassifier()
+    model = RobertaClassifier()
     # 定义损失函数和优化器
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=lr)
@@ -169,7 +169,7 @@ def train_model():
                 best_epoch = epoch
             print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
             save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
-           
+
         model.train()
 
     # 保存最后的模型，以便继续训练
@@ -191,8 +191,8 @@ def train_model():
 
 def evaluate(dataset):
     # 加载模型
-    model = MultilingualBertClassifier()
-    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/best.pt'))
+    model = RobertaClassifier()
+    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_GPT35/Type1_Result/RoBERTa/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -212,7 +212,7 @@ def evaluate(dataset):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, 3, "MultilingualBERT", epoch+1)
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS, "RoBERTa", epoch+1)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -230,21 +230,21 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.figure()
     plt.plot(loss_list, label = 'train loss')
     plt.plot(loss_val_list, label = 'val loss')
-    plt.title('MultilingualBERT Training and validation loss')
+    plt.title('RoBERTa Training and validation loss')
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_GPT35/Type1_Result/RoBERTa/{NUM_LABELS}/RoBERTa_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
     plt.plot(accuracy_list, label = 'train acc')
     plt.plot(accuracy_val_list, label = 'val acc')
-    plt.title('MultilingualBERT Training and validation acc')
+    plt.title('RoBERTa Training and validation acc')
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/MultilingualBERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_GPT35/Type1_Result/RoBERTa/{NUM_LABELS}/RoBERTa_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -256,11 +256,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0819/Final_GPT35/Type1_Result/RoBERTa/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = f"new_data/docs_0819/Final_Origin/Type1_Result/MultilingualBERT/{NUM_LABELS}/result.txt"
+    file_path = f"new_data/docs_0819/Final_GPT35/Type1_Result/RoBERTa/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -271,22 +271,23 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_train_df.csv")
-    df_val = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_val_df.csv")
-    df_test = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_test_df.csv")
+    df_train = pd.read_csv("new_data/docs_0819/Final_GPT35/Type1_Result/gpt35_type1_train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0819/Final_GPT35/Type1_Result/type1_val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0819/Final_GPT35/Type1_Result/type1_test_df.csv")
 
     # 因为要进行分词，此段运行较久，约40s
     train_dataset = MyDataset(df_train, "train")
     dev_dataset = MyDataset(df_val, "train")
     test_dataset = MyDataset(df_test, "test")
 
+
     print(len(df_train), len(dev_dataset), len(test_dataset))
 
-    print("MultilingualBERT")
+    print("RoBERTa")
     print("=====================================")
 
     # 训练超参数
-    save_result("MultilingualBERT", "w")
+    save_result("RoBERTa", "w")
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 10
