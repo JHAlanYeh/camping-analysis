@@ -33,7 +33,7 @@ class MyDataset(Dataset):
             self.texts = [tokenizer.encode_plus(
                             text,
                             add_special_tokens=True,
-                            # max_length=512,
+                            max_length=512,
                             padding='max_length',
                             truncation=True,
                             return_attention_mask=True,
@@ -42,7 +42,7 @@ class MyDataset(Dataset):
             self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
-                        # max_length=512,
+                        max_length=512,
                         padding='max_length',
                         truncation=True,
                         return_attention_mask=True,

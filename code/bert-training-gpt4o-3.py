@@ -20,7 +20,7 @@ from torch.utils.data import WeightedRandomSampler
 
 # https://blog.csdn.net/qq_43426908/article/details/135342646
 
-PRETRAINED_MODEL_NAME = "bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
+PRETRAINED_MODEL_NAME = "ckiplab/bert-base-chinese"  # 指定繁簡中文 BERT-BASE 預訓練模型
 NUM_LABELS = 3
 random_seed = 42
 result_text = ""
@@ -85,16 +85,17 @@ class BertClassifier(nn.Module):
         self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
         self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
         self.dropout = nn.Dropout(0.5)        
-        self.relu = nn.ReLU()
-        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
+        self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)   
 
     def forward(self, input_id, mask):
-        _, pooler = self.model(input_ids=input_id, attention_mask=mask, return_dict=False)        
+        output_1 = self.model(input_ids=input_id, attention_mask=mask)        
+        hidden_state = output_1[0]        
+        pooler = hidden_state[:, 0]        
         pooler = self.pre_classifier(pooler)        
+        pooler = nn.ReLU()(pooler) 
         pooler = self.dropout(pooler)        
-        pooler = self.relu(pooler)
         output = self.classifier(pooler)        
-        return output   
+        return output  
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -106,7 +107,7 @@ def setup_seed(seed):
 
 
 def save_model(model, save_name):
-    torch.save(model.state_dict(), f'new_data/docs_0804/Final_GPT4o/Type1_Result/BERT/{NUM_LABELS}/{save_name}')
+    torch.save(model.state_dict(), f'new_data/docs_0804/Final_GPT4o_Mini/Type1_Result/BERT/{NUM_LABELS}/{save_name}')
 
 def train_model():
     start_time = datetime.now()
@@ -119,14 +120,15 @@ def train_model():
     optimizer = Adam(model.parameters(), lr=lr, eps=eps)
     model = model.to(device)
     # 使用 Label Smoothing Loss
-    criterion = LabelSmoothingLoss(smoothing=0.1)
+    # criterion = LabelSmoothingLoss(smoothing=0.1)
+    criterion = nn.CrossEntropyLoss()
     criterion = criterion.to(device)
 
 
-    sampler = WeightedRandomSampler(weights, num_samples=len(weights))
+    # sampler = WeightedRandomSampler(weights, num_samples=len(weights))
 
     # 构建数据加载器
-    train_loader = DataLoader(train_dataset, sampler=sampler, batch_size=batch_size)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size)
     dev_loader = DataLoader(dev_dataset, batch_size=batch_size)
 
     # 训练
@@ -189,12 +191,12 @@ def train_model():
             accuracy_val_list.append(100 * total_acc_val / len(dev_dataset))
 
             # 保存最优的模型
-            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
-            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
             if total_acc_val / len(dev_dataset) > best_dev_acc:
                 best_dev_acc = total_acc_val / len(dev_dataset)
                 save_model(model, 'best.pt')
                 best_epoch = epoch
+            print(f"total_acc_val / len(dev_dataset) = {'%.2f' % (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}")
+            save_result(f"total_acc_val / len(dev_dataset) = {'%.2f' %  (total_acc_val / len(dev_dataset) * 100)}, best_dev_acc = {'%.2f' %  (best_dev_acc * 100)}\n", "a+")
 
         model.train()
 
@@ -218,7 +220,7 @@ def train_model():
 def evaluate(dataset):
     # 加载模型
     model = BertClassifier()
-    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_GPT4o/Type1_Result/BERT/{NUM_LABELS}/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0804/Final_GPT4o_Mini/Type1_Result/BERT/{NUM_LABELS}/best.pt'))
     model = model.to(device)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=batch_size)
@@ -241,7 +243,6 @@ def evaluate(dataset):
 
     cf_matrix = confusion_matrix(y_true, y_pred)
     show_confusion_matrix(y_true, y_pred, NUM_LABELS, "BERT", epoch+1)
-    # print(classification_report(y_true, y_pred, target_names=['負向', '中立' '正向'])) 
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -263,7 +264,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0804/Final_GPT4o/Type1_Result/BERT/{NUM_LABELS}/BERT_Loss.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_GPT4o_Mini/Type1_Result/BERT/{NUM_LABELS}/BERT_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -273,7 +274,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0804/Final_GPT4o/Type1_Result/BERT/{NUM_LABELS}/BERT_Acc.jpg")
+    plt.savefig(f"new_data/docs_0804/Final_GPT4o_Mini/Type1_Result/BERT/{NUM_LABELS}/BERT_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -285,11 +286,11 @@ def show_confusion_matrix(y_true, y_pred, class_num, fname, epoch):
     plt.title(f'{fname} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0804/Final_GPT4o/Type1_Result/BERT/{NUM_LABELS}/{fname}.jpg")
+    plt.savefig(fname=f"new_data/docs_0804/Final_GPT4o_Mini/Type1_Result/BERT/{NUM_LABELS}/{fname}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = f"new_data/docs_0804/Final_GPT4o/Type1_Result/BERT/{NUM_LABELS}/result.txt"
+    file_path = f"new_data/docs_0804/Final_GPT4o_Mini/Type1_Result/BERT/{NUM_LABELS}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
@@ -301,9 +302,9 @@ if __name__ == "__main__":
     print(torch.__version__, torch.cuda.is_available())
     setup_seed(random_seed)
 
-    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_train_df_3_20240811.csv")
-    df_val = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/val_df_3.csv")
-    df_test = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/test_df_3.csv")
+    df_train = pd.read_csv("new_data/docs_0804/Final_GPT4o_Mini/gpt4o_type1_train_df.csv")
+    df_val = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_val_df.csv")
+    df_test = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_test_df.csv")
 
     df_train = shuffle(df_train)
     df_test = shuffle(df_test)
