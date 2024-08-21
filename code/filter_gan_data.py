@@ -56,19 +56,19 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 
 
 
-gan_df = pd.read_csv(f"new_data/docs_0819/Final_GPT4o_Mini/gpt4o_type2_gan_df.csv")
+gan_df = pd.read_csv(f"new_data/docs_0819/Final_Taide/taide_type1_gan_df.csv")
 origin_train_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type2_Result/type2_train_df.csv")
 
 gan_mid_df = gan_df[gan_df["rating"] == 3]
 gan_low_df = gan_df[gan_df["rating"] <= 2]
+print(len(gan_mid_df), len(gan_low_df))
 
 high_df = origin_train_df[origin_train_df["rating"] >= 4]
 mid_df = origin_train_df[origin_train_df["rating"] == 3]
 low_df = origin_train_df[origin_train_df["rating"] <= 2]
 print(len(high_df), len(mid_df), len(low_df))
 
-
-
+print(high_df, mid_df, gan_mid_df.sample(len(high_df) - len(mid_df)), low_df, gan_low_df.sample(len(high_df) - len(low_df)))
 new_train_df = shuffle(pd.concat([high_df, mid_df, gan_mid_df.sample(len(high_df) - len(mid_df)), low_df, gan_low_df.sample(len(high_df) - len(low_df))]))
 
 
@@ -97,4 +97,4 @@ new_train_df['label'] = np.select(conditions, results)
 
 
 print(len(new_train_df))
-new_train_df.to_csv("new_data/docs_0819/Final_GPT4o_Mini/Type2_Result/gpt4o_type1_train_df.csv", index=False, encoding="utf-8-sig")
+new_train_df.to_csv("new_data/docs_0819/Final_Taide/Type1_Result/taide_type1_train_df.csv", index=False, encoding="utf-8-sig")
