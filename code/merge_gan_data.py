@@ -34,92 +34,48 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 # ****************************************************************************** #
 
 
-# type1_mid_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_mid_gan_train_df_3.csv", encoding="utf-8-sig")
-type1_low_gan_df = pd.read_csv("new_data/docs_0804/gpt4o_type1_reverse_gan_train_df_2.csv", encoding="utf-8-sig")
-type1_origin_df = pd.read_csv("new_data/docs_0804/Final_Origin/Type1_Result/train_df_2.csv", encoding="utf-8-sig")
+mid_gan_df = pd.read_csv("new_data/docs_0819/Final_GPT4o_Mini/gpt4o_type2_mid_gan_df.csv", encoding="utf-8-sig")
+low_gan_df = pd.read_csv("new_data/docs_0819/Final_GPT4o_Mini/gpt4o_type2_low_gan_df.csv", encoding="utf-8-sig")
 
-# mid_conditions = [
-#     type1_mid_gan_df['status'] == -1,
-#     type1_mid_gan_df['status'] == 0,
-#     type1_mid_gan_df['status'] == 1,
-# ]
 
-# low_conditions = [
-#     type1_low_gan_df['status'] == -1,
-#     type1_low_gan_df['status'] == 0,
-#     type1_low_gan_df['status'] == 1,
-# ]
+mid_conditions = [
+    mid_gan_df['status'] == -1,
+    mid_gan_df['status'] == 0,
+    mid_gan_df['status'] == 1,
+]
+
+low_conditions = [
+    low_gan_df['status'] == -1,
+    low_gan_df['status'] == 0,
+    low_gan_df['status'] == 1,
+]
 
 # create a list of the values we want to assign for each condition
-# values = [0, 1, 2]
+values = [0, 1, 2]
 
 # create a new column and use np.select to assign values to it using our lists as arguments
-# type1_mid_gan_df['label'] = np.select(mid_conditions, values)
-# type1_low_gan_df['label'] = np.select(low_conditions, values)
+mid_gan_df['label'] = np.select(mid_conditions, values)
+low_gan_df['label'] = np.select(low_conditions, values)
 
 
-type1_low_gan_df = type1_low_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
-# type1_mid_gan_df = type1_mid_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
-type1_origin_df['origin'] = 1
-type1_origin_df = type1_origin_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
+low_gan_df = low_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
+mid_gan_df = mid_gan_df[['content', 'rating', 'status', 'type', 'label', 'sequence_num', 'publishedDate', 'origin']]
 
-print(type1_origin_df.columns)
-print(type1_low_gan_df.columns)
-# print(type1_mid_gan_df.columns)
+print(low_gan_df.columns)
+print(mid_gan_df.columns)
 
-type1_merge_df = pd.concat([type1_origin_df, type1_low_gan_df])
-
-type1_positive = len(type1_merge_df[type1_merge_df["rating"] >= 4])
-type1_negative = len(type1_merge_df[type1_merge_df["rating"] <= 3])
-# type1_mid = len(type1_merge_df[type1_merge_df["rating"] <= 3])
-print(type1_positive, type1_negative)
+merge_df = pd.concat([low_gan_df, mid_gan_df])
 
 texts = []
 synonyms = []
-for row, origin in zip(type1_merge_df['content'],  type1_merge_df['origin']):
-    # if origin == 0:
-    #     result = trans.translate(row, src='zh-tw', tmp = 'en')
-    #     row = result.result_text
-    #     print(row)
-    # synonyms.append(row)
-
-    # print(row)
+for row, origin in zip(merge_df['content'],  merge_df['origin']):
     ws = jieba.cut(row, cut_all=False)
     new_ws = []
     for word in ws:
         if word not in STOP_WORDS:
             new_ws.append(word)
-    mask_text = random_masking(new_ws)
-    # print(mask_text)
-    texts.append(mask_text)
+    texts.append("".join(new_ws))
 
-# print(texts)
-type1_merge_df["text"] = texts
-type1_merge_df["synonyms"] = ""
-type1_merge_df = shuffle(type1_merge_df)
-
-type1_merge_df.to_csv('new_data/docs_0804/Final_GPT4o/gpt4o_type1_merge_reverse_train_df_2_20240817.csv', index=False, encoding="utf-8-sig")
-
-
-# type2_mid_gan_df = pd.read_csv("new_data/docs_0804/llama3_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
-# type2_low_gan_df = pd.read_csv("new_data/docs_0804/llama3_type2_low_gan_dataset.csv", encoding="utf-8-sig")
-# type2_origin_df = pd.read_csv("new_data/docs_0804/type2_train_df.csv", encoding="utf-8-sig")
-
-# type2_positive = len(type2_origin_df[type2_origin_df["rating"] >= 4])
-# type2_negative = len(type2_origin_df[type2_origin_df["rating"] <= 2]) + len(type2_low_gan_df[type2_low_gan_df["rating"] <= 2])
-# type2_mid = len(type2_origin_df[type2_origin_df["rating"] == 3]) + len(type2_mid_gan_df[type2_mid_gan_df["rating"] == 3])
-# print(type2_positive, type2_negative, type2_mid)
-
-# if type2_negative > type2_positive:
-#     type2_low_gan_df = type2_low_gan_df.sample(type2_positive - len(type2_origin_df[type2_origin_df["rating"] <= 2]))
-
-# if type2_mid > type2_positive:
-#     type2_mid_gan_df = type2_mid_gan_df.sample(type2_positive - len(type2_origin_df[type2_origin_df["rating"] == 3]))
-
-# type2_positive = len(type2_origin_df[type2_origin_df["rating"] >= 4])
-# type2_negative = len(type2_origin_df[type2_origin_df["rating"] <= 2]) + len(type2_low_gan_df[type2_low_gan_df["rating"] <= 2])
-# type2_mid = len(type2_origin_df[type2_origin_df["rating"] == 3]) + len(type2_mid_gan_df[type2_mid_gan_df["rating"] == 3])
-# print(type2_positive, type2_negative, type2_mid)
-
-# type2_merge_llama3_df = pd.concat([type2_mid_gan_df, type2_low_gan_df, type2_origin_df])
-# type2_merge_llama3_df.to_csv('new_data/docs_0804/Final_Llama3/llama3_type2_merge_train_dataset.csv', index=False, encoding="utf-8-sig")
+merge_df["text"] = texts
+merge_df = shuffle(merge_df)
+merge_df.to_csv('new_data/docs_0819/Final_GPT4o_Mini/gpt4o_type2_gan_df.csv', index=False, encoding="utf-8-sig")

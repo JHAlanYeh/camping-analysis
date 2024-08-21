@@ -52,12 +52,12 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 
 # results = ["正向", "中立", "負向"]
 # gan_df['label'] = np.select(conditions, results)
-# gan_df.to_csv(f"new_data/docs_0819/Final_Taide/taide_type2_gan_df.csv", index=False, encoding="utf-8-sig")
+# gan_df.to_csv(f"new_data/docs_0819/Final_GPT4o_Mini/taide_type2_gan_df.csv", index=False, encoding="utf-8-sig")
 
 
 
-gan_df = pd.read_csv(f"new_data/docs_0819/Final_GPT35/gpt35_type1_gan_df.csv")
-origin_train_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_train_df.csv")
+gan_df = pd.read_csv(f"new_data/docs_0819/Final_GPT4o_Mini/gpt4o_type2_gan_df.csv")
+origin_train_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type2_Result/type2_train_df.csv")
 
 gan_mid_df = gan_df[gan_df["rating"] == 3]
 gan_low_df = gan_df[gan_df["rating"] <= 2]
@@ -97,4 +97,4 @@ new_train_df['label'] = np.select(conditions, results)
 
 
 print(len(new_train_df))
-new_train_df.to_csv("new_data/docs_0819/Final_GPT35/Type1_Result/gpt35_type1_train_df.csv", index=False, encoding="utf-8-sig")
+new_train_df.to_csv("new_data/docs_0819/Final_GPT4o_Mini/Type2_Result/gpt4o_type1_train_df.csv", index=False, encoding="utf-8-sig")
