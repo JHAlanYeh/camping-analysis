@@ -84,7 +84,7 @@ while len(df_low) + len(df_low_gan) < target_count:
         print(f"Origin: {row['content']}")
 
         same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_low_gan))
-        if len(same_sequence_list) >= 19:
+        if len(same_sequence_list) >= 25:
             continue
         same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
   
