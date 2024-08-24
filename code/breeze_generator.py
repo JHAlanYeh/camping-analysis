@@ -159,7 +159,7 @@ while len(df_low) + len(df_low_gan) < target_count:
 
 # ========================================================= #
 # 中立
-while len(df_mid) + len(df_mid_gan) < target_count + 100:
+while len(df_mid) + len(df_mid_gan) < target_count:
     print("中立增生")
     for index, row in df_mid.iterrows():
         if int(row['rating']) != 3:
