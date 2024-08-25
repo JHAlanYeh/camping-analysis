@@ -33,7 +33,7 @@ nf4_config = BitsAndBytesConfig(
    bnb_4bit_compute_dtype=torch.bfloat16
 )
 
-model_id = "llm_model\Breeze-7B-Instruct-v1_0"
+model_id = "llm_model\Llama-3-Taiwan-8B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 model = AutoModelForCausalLM.from_pretrained(
@@ -45,7 +45,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 
-df = pd.read_csv("new_data\\docs_0819\\Final_Origin\\type2_comments_origin.csv", encoding="utf-8-sig")
+df = pd.read_csv("new_data\\docs_0819\\Final_Origin\\type1_comments_origin.csv", encoding="utf-8-sig")
 
 
 target_count = len(df[df["rating"] >= 4])
@@ -61,13 +61,13 @@ low_flag = False
 df_mid_gan = []
 df_low_gan = []
 
-# df_low_gan_csv = pd.read_csv("new_data/docs_0819/breeze_type2_low_gan_dataset.csv", encoding="utf-8-sig")
-# df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
+df_low_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type1_low_gan_dataset.csv", encoding="utf-8-sig")
+df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 
-# for index, row in list(df_low_gan_csv.iterrows()):
-#     df_low_gan.append(dict(row))
+for index, row in list(df_low_gan_csv.iterrows()):
+    df_low_gan.append(dict(row))
 
-# df_mid_gan_csv = pd.read_csv("new_data/docs_0819/breeze_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
+# df_mid_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type1_mid_gan_dataset.csv", encoding="utf-8-sig")
 # df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
 
 
@@ -150,7 +150,7 @@ while len(df_low) + len(df_low_gan) < target_count:
             })
 
         low_gan_df = pd.json_normalize(df_low_gan)
-        low_gan_df.to_csv('new_data/docs_0819/breeze_type2_low_gan_dataset.csv', index=False, encoding="utf-8-sig")
+        low_gan_df.to_csv('new_data/docs_0819/taiwanllm_type1_low_gan_dataset.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_low_gan)}句，總共{len(df_low_gan) + len(df_low)}，目標{target_count}")
         low_flag = True
 
@@ -234,7 +234,7 @@ while len(df_mid) + len(df_mid_gan) < target_count:
             })
 
         mid_gan_df = pd.json_normalize(df_mid_gan)
-        mid_gan_df.to_csv('new_data/docs_0819/breeze_type2_mid_gan_dataset.csv', index=False, encoding="utf-8-sig")
+        mid_gan_df.to_csv('new_data/docs_0819/taiwanllm_type1_mid_gan_dataset.csv', index=False, encoding="utf-8-sig")
         print(f"目前增生數量： 增生{len(df_mid_gan)}句，總共{len(df_mid_gan) + len(df_mid)}，目標{target_count}")
         mid_flag = True
 
