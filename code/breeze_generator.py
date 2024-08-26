@@ -61,11 +61,11 @@ low_flag = False
 df_mid_gan = []
 df_low_gan = []
 
-# df_low_gan_csv = pd.read_csv("new_data/docs_0819/breeze_type2_low_gan_dataset.csv", encoding="utf-8-sig")
-# df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
+df_low_gan_csv = pd.read_csv("new_data/docs_0819/breeze_type2_low_gan_dataset.csv", encoding="utf-8-sig")
+df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 
-# for index, row in list(df_low_gan_csv.iterrows()):
-#     df_low_gan.append(dict(row))
+for index, row in list(df_low_gan_csv.iterrows()):
+    df_low_gan.append(dict(row))
 
 # df_mid_gan_csv = pd.read_csv("new_data/docs_0819/breeze_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
 # df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)

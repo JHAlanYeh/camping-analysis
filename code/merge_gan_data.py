@@ -34,8 +34,8 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 # ****************************************************************************** #
 
 
-mid_gan_df = pd.read_csv("new_data/docs_0819/Final_Breeze/breeze_type1_mid_gan_dataset.csv", encoding="utf-8-sig")
-low_gan_df = pd.read_csv("new_data/docs_0819/Final_Breeze/breeze_type1_low_gan_dataset.csv", encoding="utf-8-sig")
+mid_gan_df = pd.read_csv("new_data/docs_0819/Final_GPT35/gpt35_type1_mid_gan_df.csv", encoding="utf-8-sig")
+low_gan_df = pd.read_csv("new_data/docs_0819/Final_GPT35/gpt35_type1_low_gan_df.csv", encoding="utf-8-sig")
 
 
 mid_conditions = [
@@ -78,4 +78,4 @@ for row, origin in zip(merge_df['content'],  merge_df['origin']):
 
 merge_df["text"] = texts
 merge_df = shuffle(merge_df)
-merge_df.to_csv('new_data/docs_0819/Final_Breeze/breeze_type1_gan_df.csv', index=False, encoding="utf-8-sig")
+merge_df.to_csv('new_data/docs_0819/Final_GPT35/gpt35_type1_gan_df.csv', index=False, encoding="utf-8-sig")
