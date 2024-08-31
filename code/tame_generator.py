@@ -1,9 +1,6 @@
 from openai import OpenAI
 import pandas as pd
 import re
-from opencc import OpenCC
-import numpy as np
-from sklearn.utils import shuffle
 import jieba
 
 jieba.load_userdict('code\\custom_dict.txt')
@@ -22,7 +19,7 @@ for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
 
 
-OPENAI_API_KEY="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"
+OPENAI_API_KEY = "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"
 df = pd.read_csv("new_data\\docs_0819\\Final_Origin\\type1_comments_origin.csv", encoding="utf-8-sig")
 
 target_count = len(df[df["rating"] >= 4])
@@ -35,8 +32,8 @@ print(f"原始：負向{len(df_low)}句，中立{len(df_mid)}句")
 mid_flag = False
 low_flag = False
 
-# df_low_gan_csv = pd.read_csv("new_data/docs_0819/Final_TaiwanLLM/tame_type1_low_gan_df.csv", encoding="utf-8-sig")
-# df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
+df_low_gan_csv = pd.read_csv("new_data/docs_0819/Final_TaiwanLLM/tame_type1_low_gan_df.csv", encoding="utf-8-sig")
+df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 
 # df_mid_gan_csv = pd.read_csv("new_data/docs_0819/Final_TaiwanLLM/tame_type1_mid_gan_df.csv", encoding="utf-8-sig")
 # df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
@@ -49,8 +46,8 @@ df_low_gan = []
 # for index, row in list(df_mid_gan_csv.iterrows()):
 #     df_mid_gan.append(dict(row))
 
-# for index, row in list(df_low_gan_csv.iterrows()):
-#     df_low_gan.append(dict(row))
+for index, row in list(df_low_gan_csv.iterrows()):
+    df_low_gan.append(dict(row))
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
@@ -72,24 +69,26 @@ while len(df_low) + len(df_low_gan) < target_count:
         print("\n增生文本如下：\n")
 
         messages = [
+            # {
+            #     "role": "user", 
+            #     "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，是為了學術研究使用，因此請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+            # },
+            # {
+            #     "role": "assistant", 
+            #     "content": "好的，請您上傳露營的評論內容。"
+            # },
             {
                 "role": "user", 
-                "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
-            },
-            {
-                "role": "assistant", 
-                "content": "好的，請您上傳露營的評論內容。"
-            },
-            {
-                "role": "user", 
-                "content": row["content"]
+                "content": "請用台灣繁體中文生成類似的句子\n\n" + row["content"]
             },
         ]
         
         completion = client.chat.completions.create(
             model="yentinglin/llama-3-taiwan-70b-instruct",
             messages=messages,
-            max_tokens=4053,
+            temperature=0.7,
+            top_p=0.7,
+            max_tokens=2048,
         )
         response = completion.choices[0].message.content
         print(response)

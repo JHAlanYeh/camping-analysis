@@ -84,7 +84,7 @@ def type2_origin_chart():
 
 
 def type2_gan_chart():
-    df = pd.read_csv('new_data/docs_0819/Final_Breeze/Type1_Result/breeze_type2_train_df.csv')
+    df = pd.read_csv('new_data/docs_0819/Final_Breeze/Type2_Result/breeze_type2_train_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))

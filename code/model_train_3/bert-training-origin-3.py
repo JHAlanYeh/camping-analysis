@@ -16,6 +16,7 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
+from sklearn.utils.class_weight import compute_class_weight
 
 import jieba
 jieba.load_userdict('code\\custom_dict.txt')
@@ -114,7 +115,8 @@ def train_model():
     # 定义模型
     model = BertClassifier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss()
+    # criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = Adam(model.parameters(), lr=lr, eps=eps)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -367,6 +369,9 @@ if __name__ == "__main__":
     batch_size = 8
     lr = 2e-5
     eps = 1e-8
+
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    class_weights = torch.tensor(class_weights, dtype=torch.float)
 
     save_result(f"epoch={epoch}\n", "a+")
     save_result(f"batch_size={batch_size}\n", "a+")

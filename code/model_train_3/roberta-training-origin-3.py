@@ -16,6 +16,7 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 import matplotlib.pyplot as plt
 import sklearn.metrics as skm
 import seaborn as sns
+from sklearn.utils.class_weight import compute_class_weight
 
 PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 NUM_LABELS = 3
@@ -96,7 +97,8 @@ def train_model():
     # 定义模型
     model = RobertaClassifier()
     # 定义损失函数和优化器
-    criterion = nn.CrossEntropyLoss()
+    # criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = Adam(model.parameters(), lr=lr)
     model = model.to(device)
     criterion = criterion.to(device)
@@ -282,6 +284,9 @@ if __name__ == "__main__":
 
 
     print(len(df_train), len(dev_dataset), len(test_dataset))
+
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    class_weights = torch.tensor(class_weights, dtype=torch.float)
 
     print("RoBERTa")
     print("=====================================")
