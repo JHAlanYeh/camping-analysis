@@ -364,7 +364,7 @@ if __name__ == "__main__":
     save_result("\n=====================================\n", "a+")
     best_epoch = 0
     epoch = 10
-    batch_size = 8
+    batch_size = 16
     lr = 2e-5
     eps = 1e-8
 
