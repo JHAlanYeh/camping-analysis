@@ -38,7 +38,7 @@ def type1_origin_chart():
 
 
 def type1_gan_chart():
-    df = pd.read_csv('new_data/docs_0819/Final_Breeze/Type1_Result/breeze_type1_train_df.csv')
+    df = pd.read_csv('new_data/docs_0819/Final_TaiwanLLM/Type1_Result/taiwanllm_type1_train_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -49,7 +49,7 @@ def type1_gan_chart():
 
     axes = type1_merge_df.plot(kind='bar')
 
-    plt.title('增生後資料(傳統露營)(Breeze)', fontproperties=tw_font)
+    plt.title('增生後資料(傳統露營)(Taiwan LLM)', fontproperties=tw_font)
     plt.xlabel('評價類型', fontproperties=tw_font)
     plt.xticks(rotation=0)
     plt.ylabel('數量', fontproperties=tw_font)
@@ -57,7 +57,7 @@ def type1_gan_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs_0819/Final_Breeze/Type1_Result/type1_breeze_train.png')
+    plt.savefig('new_data/docs_0819/Final_TaiwanLLM/Type1_Result/type1_taiwanllm_train.png')
 
 def type2_origin_chart():
     df = pd.read_csv('new_data/docs_0724/Final_Origin/type2_comments.csv')
@@ -84,7 +84,7 @@ def type2_origin_chart():
 
 
 def type2_gan_chart():
-    df = pd.read_csv('new_data/docs_0819/Final_Breeze/Type2_Result/breeze_type2_train_df.csv')
+    df = pd.read_csv('new_data/docs_0819/Final_TaiwanLLM/Type2_Result/taiwanllm_type2_train_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -95,7 +95,7 @@ def type2_gan_chart():
 
     axes = type1_merge_df.plot(kind='bar')
 
-    plt.title('增生後資料(懶人露營)(Breeze)', fontproperties=tw_font)
+    plt.title('增生後資料(懶人露營)(Taiwan LLM)', fontproperties=tw_font)
     plt.xlabel('評價類型', fontproperties=tw_font)
     plt.xticks(rotation=0)
     plt.ylabel('數量', fontproperties=tw_font)
@@ -103,7 +103,7 @@ def type2_gan_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs_0819/Final_Breeze/Type2_Result/type2_breeze_train.png')
+    plt.savefig('new_data/docs_0819/Final_TaiwanLLM/Type2_Result/type2_taiwanllm_train.png')
 
 
 def type1_origin_split_chart(dataset):

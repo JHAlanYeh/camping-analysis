@@ -56,7 +56,7 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 
 
 
-gan_df = pd.read_csv(f"new_data/docs_0819/Final_Breeze/breeze_type2_gan_df.csv")
+gan_df = pd.read_csv(f"new_data/docs_0819/Final_TaiwanLLM/taiwanllm_type2_gan_df.csv")
 origin_train_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type2_Result/type2_train_df.csv")
 
 gan_mid_df = gan_df[gan_df["rating"] == 3]
@@ -96,4 +96,4 @@ new_train_df['label'] = np.select(conditions, results)
 
 
 print(len(new_train_df))
-new_train_df.to_csv("new_data/docs_0819/Final_Breeze/Type2_Result/breeze_type2_train_df.csv", index=False, encoding="utf-8-sig")
+new_train_df.to_csv("new_data/docs_0819/Final_TaiwanLLM/Type2_Result/taiwanllm_type2_train_df.csv", index=False, encoding="utf-8-sig")
