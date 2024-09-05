@@ -67,14 +67,14 @@ df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 for index, row in list(df_low_gan_csv.iterrows()):
     df_low_gan.append(dict(row))
 
-# df_mid_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
-# df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
+df_mid_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type2_mid_gan_dataset.csv", encoding="utf-8-sig")
+df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
 
 
-# for index, row in list(df_mid_gan_csv.iterrows()):
-#     df_mid_gan.append(dict(row))
+for index, row in list(df_mid_gan_csv.iterrows()):
+    df_mid_gan.append(dict(row))
 
-# print(f"增生：負向{len(df_low_gan_csv)}句，中立{len(df_mid_gan_csv)}句")
+print(f"增生：負向{len(df_low_gan_csv)}句，中立{len(df_mid_gan_csv)}句")
 
 
 while len(df_low) + len(df_low_gan) < target_count:
@@ -168,7 +168,7 @@ while len(df_mid) + len(df_mid_gan) < target_count:
         print(f"Origin: {row['content']}")
 
         same_sequence_list = list(filter(lambda x: int(x["sequence_num"]) == int(row["sequence_num"]), df_mid_gan))
-        if len(same_sequence_list) >= 26:
+        if len(same_sequence_list) >= 38:
             continue
         same_sequence_data = list(map(lambda x: x["content"], same_sequence_list))
 
