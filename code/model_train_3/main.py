@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import jieba
 import random
+import os
 from datetime import datetime
 from torch import nn
 from sklearn.utils import shuffle
@@ -18,12 +19,12 @@ from transformers import BertTokenizer, DistilBertTokenizer
 from transformers import BertModel, BertConfig
 from transformers import AutoModel, AutoConfig
 from transformers import DistilBertModel, DistilBertConfig
-from transformers import DataCollatorWithPadding
+from sklearn.utils.class_weight import compute_class_weight
 
-LLM = "TaiwanLLM"
-CAMP_TYPE = "1"
+LLM = "Breeze" # or "Origin", "Taide", "Breeze", "GPT4o", "GPT35", "TaiwanLLM"
+CAMP_TYPE = "1" # or "2"
 NUM_LABELS = 3
-CURRENT_MODEL = "BERT"
+CURRENT_MODEL = ""
 
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -34,18 +35,22 @@ BATCH_SIZE = 16
 LR = 2e-5
 
 BERT_PRETRAINED_MODEL_NAME = "ckiplab/bert-base-chinese" 
-ALBERT_PRETRAINED_MODEL_NAME = "ckiplab/bert-base-chinese" 
+ALBERT_PRETRAINED_MODEL_NAME = "ckiplab/albert-base-chinese" 
 ROBERTA_PRETRAINED_MODEL_NAME = "hfl/chinese-roberta-wwm-ext"
 MULTILINGUAL_BERT_PRETRAINED_MODEL_NAME = "google-bert/bert-base-multilingual-cased"
 DISTILBERT_PRETRAINED_MODEL_NAME = "Geotrend/distilbert-base-zh-cased"
 CURRENT_PRETRAINED_MODEL_NAME = BERT_PRETRAINED_MODEL_NAME
 
 class CampDataset(Dataset):
-    def __init__(self, df):
+    def __init__(self, df, PRETRAINED_MODEL_NAME):
+        if PRETRAINED_MODEL_NAME == DISTILBERT_PRETRAINED_MODEL_NAME:
+            tokenizer = DistilBertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+        else:
+            tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
         self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
-                        # max_length=512,
+                        max_length=512,
                         padding='max_length',
                         truncation=True,
                         return_attention_mask=True,
@@ -64,19 +69,19 @@ class ModelClassifier(nn.Module):
         super(ModelClassifier, self).__init__()
 
         if PRETRAINED_MODEL_NAME == ALBERT_PRETRAINED_MODEL_NAME:
-            self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME)
-            self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+            self.model = AutoModel.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+            self.config = AutoConfig.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
             self.dropout = nn.Dropout(0.5)        
             self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)    
         elif PRETRAINED_MODEL_NAME == DISTILBERT_PRETRAINED_MODEL_NAME:
-            self.model = DistilBertModel.from_pretrained(PRETRAINED_MODEL_NAME)
-            self.config = DistilBertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+            self.model = DistilBertModel.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+            self.config = DistilBertConfig.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
             self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
             self.dropout = nn.Dropout(0.5)        
             self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)  
         else:
-            self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME)
-            self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME)
+            self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+            self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
             self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
             self.dropout = nn.Dropout(0.5)        
             self.classifier = nn.Linear(self.config.hidden_size, NUM_LABELS)   
@@ -109,15 +114,9 @@ def setup_seed(seed):
 
 
 def get_dataset(PRETRAINED_MODEL_NAME):
-    if PRETRAINED_MODEL_NAME == DISTILBERT_PRETRAINED_MODEL_NAME:
-        tokenizer = DistilBertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
-    else:
-        tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)
-    data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
-
-    train_dataset = CampDataset(df_train, "train")
-    val_dataset = CampDataset(df_val, "train")
-    test_dataset = CampDataset(df_test, "test")
+    train_dataset = CampDataset(df_train, PRETRAINED_MODEL_NAME)
+    val_dataset = CampDataset(df_val, PRETRAINED_MODEL_NAME)
+    test_dataset = CampDataset(df_test, PRETRAINED_MODEL_NAME)
 
     return train_dataset, val_dataset, test_dataset
 
@@ -190,8 +189,8 @@ def split_training_data():
 
     return df_train, df_val, df_test
 
-def save_model(model, save_name, model_name):
-    torch.save(model.state_dict(), f'new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{model_name}/{NUM_LABELS}/{save_name}')
+def save_model(model, save_name):
+    torch.save(model.state_dict(), f'new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}/{save_name}')
 
 def train_model(PRETRAINED_MODEL_NAME):
     start_time = datetime.now()
@@ -199,7 +198,11 @@ def train_model(PRETRAINED_MODEL_NAME):
     # 定义模型
     model = ModelClassifier(PRETRAINED_MODEL_NAME)
     # 定义损失函数和优化器
+
     criterion = nn.CrossEntropyLoss()
+    if LLM == 'Origin':
+        criterion = nn.CrossEntropyLoss(class_weights)
+    
     optimizer = Adam(model.parameters(), lr=LR)
     model = model.to(DEVICE)
     criterion = criterion.to(DEVICE)
@@ -222,7 +225,7 @@ def train_model(PRETRAINED_MODEL_NAME):
             input_ids = inputs['input_ids'].squeeze(1).to(DEVICE) # torch.Size([32, 35])
             masks = inputs['attention_mask'].to(DEVICE) # torch.Size([32, 1, 35])
             labels = labels.to(DEVICE)
-            output = model(input_ids, masks)
+            output = model(input_ids, masks, CURRENT_PRETRAINED_MODEL_NAME)
 
             batch_loss = criterion(output, labels)
             batch_loss.backward()
@@ -243,7 +246,7 @@ def train_model(PRETRAINED_MODEL_NAME):
                 input_ids = inputs['input_ids'].squeeze(1).to(DEVICE)
                 masks = inputs['attention_mask'].to(DEVICE)
                 labels = labels.to(DEVICE)
-                output = model(input_ids, masks)
+                output = model(input_ids, masks ,CURRENT_PRETRAINED_MODEL_NAME)
 
                 batch_loss = criterion(output, labels)
                 acc = (output.argmax(dim=1) == labels).sum().item()
@@ -276,7 +279,7 @@ def train_model(PRETRAINED_MODEL_NAME):
         model.train()
 
     # 保存最后的模型，以便继续训练
-    save_model(model, 'last.pt', CURRENT_MODEL)
+    save_model(model, 'last.pt')
     # todo 保存优化器
 
     draw_acc_image(accuracy_list, accuracy_val_list)
@@ -295,7 +298,7 @@ def train_model(PRETRAINED_MODEL_NAME):
 def evaluate(dataset, PRETRAINED_MODEL_NAME):
     # 加载模型
     model = ModelClassifier(PRETRAINED_MODEL_NAME)
-    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/best.pt'))
+    model.load_state_dict(torch.load(f'new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}/best.pt'))
     model = model.to(DEVICE)
     model.eval()
     test_loader = DataLoader(dataset, batch_size=BATCH_SIZE)
@@ -307,7 +310,7 @@ def evaluate(dataset, PRETRAINED_MODEL_NAME):
             input_id = test_input['input_ids'].squeeze(1).to(DEVICE)
             mask = test_input['attention_mask'].to(DEVICE)
             test_label = test_label.to(DEVICE)
-            output = model(input_id, mask)
+            output = model(input_id, mask, PRETRAINED_MODEL_NAME)
             _, preds = torch.max(output, 1)       
             y_pred.extend(preds.view(-1).detach().cpu().numpy())       # 將preds預測結果detach出來，並轉成numpy格式       
             y_true.extend(test_label.view(-1).detach().cpu().numpy())   
@@ -315,7 +318,7 @@ def evaluate(dataset, PRETRAINED_MODEL_NAME):
             total_acc_test += acc
     print(f'Test Accuracy: {total_acc_test / len(dataset): .3f}')
     cf_matrix = confusion_matrix(y_true, y_pred)
-    show_confusion_matrix(y_true, y_pred, NUM_LABELS, CURRENT_MODEL)
+    show_confusion_matrix(y_true, y_pred, NUM_LABELS)
     print(cf_matrix)  
     print("scikit-learn Accuracy:", accuracy_score(y_true, y_pred))
     print("scikit-learn Precision:", precision_score(y_true, y_pred, average="weighted"))
@@ -337,7 +340,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{CURRENT_MODEL}_Loss.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}/{CURRENT_MODEL}_Loss.jpg")
 
 def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.figure()
@@ -347,7 +350,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
-    plt.savefig(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{CURRENT_MODEL}_Acc.jpg")
+    plt.savefig(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}/{CURRENT_MODEL}_Acc.jpg")
 
 def show_confusion_matrix(y_true, y_pred, class_num):
     cm = skm.confusion_matrix(y_true, y_pred)
@@ -359,41 +362,55 @@ def show_confusion_matrix(y_true, y_pred, class_num):
     plt.title(f'{CURRENT_MODEL} Confusion Matrix', fontsize=15)
     plt.ylabel('Actual label')
     plt.xlabel('Predict label')
-    plt.savefig(fname=f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{CURRENT_MODEL}.jpg")
+    plt.savefig(fname=f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}/{CURRENT_MODEL}.jpg")
 
 
 def save_result(text, write_type):
-    file_path = f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/result.txt"
+    file_path = f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}/result.txt"
     open(file_path, write_type).close()
     with open(file_path, write_type) as f:
         f.write(text)
         f.close()
 
-if __name__ == "__main__":
-    setup_seed()
+def create_folder():
+    file_path = f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}"
+    if not os.path.exists(file_path):
+        os.mkdir(file_path)
 
-    df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
+if __name__ == "__main__":
+    setup_seed(RANDOM_SEED)
+
+    df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
     df_val = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_val_df.csv")
     df_test = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_test_df.csv")
 
-    ALL_MODEL = [BERT_PRETRAINED_MODEL_NAME, ALBERT_PRETRAINED_MODEL_NAME, ROBERTA_PRETRAINED_MODEL_NAME, MULTILINGUAL_BERT_PRETRAINED_MODEL_NAME, DISTILBERT_PRETRAINED_MODEL_NAME]
-    for model, pretrained_model_name in  zip(["BERT", "ALBERT", "RoBERTa", "MultilingualBERT", "DistilBERT"], ALL_MODEL):
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+    class_weights = torch.tensor(class_weights, dtype=torch.float)
+
+    ALL_MODEL = [ROBERTA_PRETRAINED_MODEL_NAME, MULTILINGUAL_BERT_PRETRAINED_MODEL_NAME, DISTILBERT_PRETRAINED_MODEL_NAME, BERT_PRETRAINED_MODEL_NAME, ALBERT_PRETRAINED_MODEL_NAME]
+   
+    for model, pretrained_model_name in  zip(["RoBERTa", "MultilingualBERT", "DistilBERT", "BERT", "ALBERT"], ALL_MODEL):
         CURRENT_MODEL = model
         CURRENT_PRETRAINED_MODEL_NAME = pretrained_model_name
+        
+        for bs in [8, 16]:
+            BATCH_SIZE = bs
 
-        print(CURRENT_MODEL)
-        print(CURRENT_PRETRAINED_MODEL_NAME)
-        print("=====================================")
+            print(CURRENT_MODEL)
+            print(CURRENT_PRETRAINED_MODEL_NAME)
+            print("=====================================")
 
-        train_dataset, val_dataset, test_dataset = get_dataset()
+            train_dataset, val_dataset, test_dataset = get_dataset(CURRENT_PRETRAINED_MODEL_NAME)
 
-        save_result(CURRENT_MODEL, "w")
-        save_result(f"pretrain modes={CURRENT_PRETRAINED_MODEL_NAME}\n", "a+")
-        save_result("\n=====================================\n", "a+")
-        save_result(f"epoch={TOTAL_EPOCH}\n", "a+")
-        save_result(f"batch_size={BATCH_SIZE}\n", "a+")
-        save_result(f"lr={LR}\n", "a+")
-        save_result("\n=====================================\n", "a+")
+            create_folder()
 
-        train_model(CURRENT_PRETRAINED_MODEL_NAME)
-        evaluate(test_dataset, CURRENT_PRETRAINED_MODEL_NAME)
+            save_result(CURRENT_MODEL, "w")
+            save_result(f"\nPretrained Model={CURRENT_PRETRAINED_MODEL_NAME}\n", "a+")
+            save_result("\n=====================================\n", "a+")
+            save_result(f"epoch={TOTAL_EPOCH}\n", "a+")
+            save_result(f"batch_size={BATCH_SIZE}\n", "a+")
+            save_result(f"lr={LR}\n", "a+")
+            save_result("\n=====================================\n", "a+")
+
+            train_model(CURRENT_PRETRAINED_MODEL_NAME)
+            evaluate(test_dataset, CURRENT_PRETRAINED_MODEL_NAME)
