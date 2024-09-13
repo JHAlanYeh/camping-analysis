@@ -35,7 +35,7 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 
 
 #### filter gan data ####
-# df = pd.read_csv("new_data/docs_0819/Final_Taide/taide_type2_merge_df.csv")
+# df = pd.read_csv("new_data/docs_0819/Final_Taide/taide_type1_merge_df.csv")
 
 # gan_df = df[df["origin"] == 0]
 
@@ -52,23 +52,43 @@ def random_masking(words, mask_token="[MASK]", mask_prob=0.15):
 
 # results = ["正向", "中立", "負向"]
 # gan_df['label'] = np.select(conditions, results)
-# gan_df.to_csv(f"new_data/docs_0819/Final_GPT4o_Mini/taide_type2_gan_df.csv", index=False, encoding="utf-8-sig")
+# gan_df.to_csv(f"new_data/docs_0819/Final_GPT4o_Mini/taide_type1_gan_df.csv", index=False, encoding="utf-8-sig")
 
 
 
-gan_df = pd.read_csv(f"new_data/docs_0819/Final_TaiwanLLM/taiwanllm_type2_gan_df.csv")
-origin_train_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type2_Result/type2_train_df.csv")
+gan_df = pd.read_csv(f"new_data/docs_0819/Final_TaiwanLLM/taiwanllm_type1_gan_df.csv")
+origin_train_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/origin_type1_train_df.csv")
+origin_test_df = pd.read_csv("new_data/docs_0819/Final_Origin/Type1_Result/type1_test_df.csv")
+
+test_mid_seq = list(dict.fromkeys(origin_test_df[origin_test_df["rating"] == 3]["sequence_num"].tolist()))
+test_low_seq = list(dict.fromkeys(origin_test_df[origin_test_df["rating"] <= 2]["sequence_num"].tolist()))
+
+# print(test_mid_seq)
+# print(test_low_seq)
 
 gan_mid_df = gan_df[gan_df["rating"] == 3]
 gan_low_df = gan_df[gan_df["rating"] <= 2]
 print(len(gan_mid_df), len(gan_low_df))
 
+
+gan_test_mid_df = gan_mid_df[gan_mid_df["sequence_num"].isin(test_mid_seq)]
+gan_test_low_df = gan_low_df[gan_low_df["sequence_num"].isin(test_low_seq)]
+print("測試生成資料")
+print(len(gan_test_mid_df), len(gan_test_low_df))
+
+gan_train_mid_df = gan_mid_df[~gan_mid_df["sequence_num"].isin(test_mid_seq)]
+gan_train_low_df = gan_low_df[~gan_low_df["sequence_num"].isin(test_low_seq)]
+print("訓練生成資料")
+print(len(gan_train_mid_df), len(gan_train_low_df))
+
+
 high_df = origin_train_df[origin_train_df["rating"] >= 4]
 mid_df = origin_train_df[origin_train_df["rating"] == 3]
 low_df = origin_train_df[origin_train_df["rating"] <= 2]
+print("原始資料")
 print(len(high_df), len(mid_df), len(low_df))
 
-new_train_df = shuffle(pd.concat([high_df, mid_df, gan_mid_df.sample(len(high_df) - len(mid_df)), low_df, gan_low_df.sample(len(high_df) - len(low_df))]))
+new_train_df = shuffle(pd.concat([high_df, mid_df, gan_test_mid_df, gan_train_mid_df.sample(len(high_df) -len(mid_df) - len(gan_test_mid_df)), low_df, gan_test_low_df, gan_train_low_df.sample(len(high_df) -len(low_df) - len(gan_test_low_df))]))
 
 
 texts = []
@@ -96,4 +116,4 @@ new_train_df['label'] = np.select(conditions, results)
 
 
 print(len(new_train_df))
-new_train_df.to_csv("new_data/docs_0819/Final_TaiwanLLM/Type2_Result/taiwanllm_type2_train_df.csv", index=False, encoding="utf-8-sig")
+new_train_df.to_csv("new_data/docs_0819/Final_TaiwanLLM/Type1_Result/taiwanllm_type1_train_test_df.csv", index=False, encoding="utf-8-sig")

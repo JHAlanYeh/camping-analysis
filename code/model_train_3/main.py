@@ -21,7 +21,7 @@ from transformers import AutoModel, AutoConfig
 from transformers import DistilBertModel, DistilBertConfig
 from sklearn.utils.class_weight import compute_class_weight
 
-LLM = "Breeze" # or "Origin", "Taide", "Breeze", "GPT4o", "GPT35", "TaiwanLLM"
+LLM = "GPT4o" # or "Origin", "Taide", "Breeze", "GPT4o", "GPT35", "TaiwanLLM"
 CAMP_TYPE = "1" # or "2"
 NUM_LABELS = 3
 CURRENT_MODEL = ""
@@ -200,7 +200,7 @@ def train_model(PRETRAINED_MODEL_NAME):
     # 定义损失函数和优化器
 
     criterion = nn.CrossEntropyLoss()
-    if LLM == 'Origin':
+    if LLM == "Origin":
         criterion = nn.CrossEntropyLoss(class_weights)
     
     optimizer = Adam(model.parameters(), lr=LR)
@@ -379,38 +379,42 @@ def create_folder():
 
 if __name__ == "__main__":
     setup_seed(RANDOM_SEED)
+    for llm in ["GPT4o"]:
+        LLM = llm
 
-    df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
-    df_val = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_val_df.csv")
-    df_test = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_test_df.csv")
+        df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
+        df_val = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_val_df.csv")
+        df_test = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_test_df.csv")
 
-    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
-    class_weights = torch.tensor(class_weights, dtype=torch.float)
+        class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
+        class_weights = torch.tensor(class_weights, dtype=torch.float)
 
-    ALL_MODEL = [ROBERTA_PRETRAINED_MODEL_NAME, MULTILINGUAL_BERT_PRETRAINED_MODEL_NAME, DISTILBERT_PRETRAINED_MODEL_NAME, BERT_PRETRAINED_MODEL_NAME, ALBERT_PRETRAINED_MODEL_NAME]
-   
-    for model, pretrained_model_name in  zip(["RoBERTa", "MultilingualBERT", "DistilBERT", "BERT", "ALBERT"], ALL_MODEL):
-        CURRENT_MODEL = model
-        CURRENT_PRETRAINED_MODEL_NAME = pretrained_model_name
-        
-        for bs in [8, 16]:
-            BATCH_SIZE = bs
+        ALL_MODEL = [ALBERT_PRETRAINED_MODEL_NAME]
+    
+        for model, pretrained_model_name in  zip(["ALBERT"], ALL_MODEL):
+            CURRENT_MODEL = model
+            CURRENT_PRETRAINED_MODEL_NAME = pretrained_model_name
+            
+            for bs in [16]:
+                BATCH_SIZE = bs
+            
+                print(LLM)
+                print(CURRENT_MODEL)
+                print(CURRENT_PRETRAINED_MODEL_NAME)
+                print(BATCH_SIZE)
+                print("=====================================")
 
-            print(CURRENT_MODEL)
-            print(CURRENT_PRETRAINED_MODEL_NAME)
-            print("=====================================")
+                train_dataset, val_dataset, test_dataset = get_dataset(CURRENT_PRETRAINED_MODEL_NAME)
 
-            train_dataset, val_dataset, test_dataset = get_dataset(CURRENT_PRETRAINED_MODEL_NAME)
+                create_folder()
 
-            create_folder()
+                save_result(CURRENT_MODEL, "w")
+                save_result(f"\nPretrained Model={CURRENT_PRETRAINED_MODEL_NAME}\n", "a+")
+                save_result("\n=====================================\n", "a+")
+                save_result(f"epoch={TOTAL_EPOCH}\n", "a+")
+                save_result(f"batch_size={BATCH_SIZE}\n", "a+")
+                save_result(f"lr={LR}\n", "a+")
+                save_result("\n=====================================\n", "a+")
 
-            save_result(CURRENT_MODEL, "w")
-            save_result(f"\nPretrained Model={CURRENT_PRETRAINED_MODEL_NAME}\n", "a+")
-            save_result("\n=====================================\n", "a+")
-            save_result(f"epoch={TOTAL_EPOCH}\n", "a+")
-            save_result(f"batch_size={BATCH_SIZE}\n", "a+")
-            save_result(f"lr={LR}\n", "a+")
-            save_result("\n=====================================\n", "a+")
-
-            train_model(CURRENT_PRETRAINED_MODEL_NAME)
-            evaluate(test_dataset, CURRENT_PRETRAINED_MODEL_NAME)
+                train_model(CURRENT_PRETRAINED_MODEL_NAME)
+                evaluate(test_dataset, CURRENT_PRETRAINED_MODEL_NAME)

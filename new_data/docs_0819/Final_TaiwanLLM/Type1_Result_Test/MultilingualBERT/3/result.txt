@@ -1,0 +1,85 @@
+MultilingualBERT
+=====================================
+epoch=10
+batch_size=16
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.030
+            | Train Accuracy:  0.804
+            | Val Loss:  0.018
+            | Val Accuracy:  0.903
+=====================================
+total_acc_val / len(dev_dataset) = 90.33, best_dev_acc = 90.33
+Epochs: 2
+            | Train Loss:  0.011
+            | Train Accuracy:  0.941
+            | Val Loss:  0.032
+            | Val Accuracy:  0.826
+=====================================
+total_acc_val / len(dev_dataset) = 82.65, best_dev_acc = 90.33
+Epochs: 3
+            | Train Loss:  0.006
+            | Train Accuracy:  0.970
+            | Val Loss:  0.028
+            | Val Accuracy:  0.893
+=====================================
+total_acc_val / len(dev_dataset) = 89.33, best_dev_acc = 90.33
+Epochs: 4
+            | Train Loss:  0.004
+            | Train Accuracy:  0.976
+            | Val Loss:  0.039
+            | Val Accuracy:  0.856
+=====================================
+total_acc_val / len(dev_dataset) = 85.63, best_dev_acc = 90.33
+Epochs: 5
+            | Train Loss:  0.004
+            | Train Accuracy:  0.981
+            | Val Loss:  0.017
+            | Val Accuracy:  0.939
+=====================================
+total_acc_val / len(dev_dataset) = 93.88, best_dev_acc = 93.88
+Epochs: 6
+            | Train Loss:  0.003
+            | Train Accuracy:  0.986
+            | Val Loss:  0.025
+            | Val Accuracy:  0.920
+=====================================
+total_acc_val / len(dev_dataset) = 92.03, best_dev_acc = 93.88
+Epochs: 7
+            | Train Loss:  0.003
+            | Train Accuracy:  0.986
+            | Val Loss:  0.041
+            | Val Accuracy:  0.872
+=====================================
+total_acc_val / len(dev_dataset) = 87.20, best_dev_acc = 93.88
+Epochs: 8
+            | Train Loss:  0.002
+            | Train Accuracy:  0.990
+            | Val Loss:  0.030
+            | Val Accuracy:  0.922
+=====================================
+total_acc_val / len(dev_dataset) = 92.18, best_dev_acc = 93.88
+Epochs: 9
+            | Train Loss:  0.002
+            | Train Accuracy:  0.987
+            | Val Loss:  0.027
+            | Val Accuracy:  0.899
+=====================================
+total_acc_val / len(dev_dataset) = 89.90, best_dev_acc = 93.88
+Epochs: 10
+            | Train Loss:  0.002
+            | Train Accuracy:  0.991
+            | Val Loss:  0.026
+            | Val Accuracy:  0.922
+=====================================
+total_acc_val / len(dev_dataset) = 92.18, best_dev_acc = 93.88
+=====================================
+Total time:1:54:20.033036
+Best Epoch:10
+=====================================
+scikit-learn Accuracy:92.90
+scikit-learn Precision:93.47
+scikit-learn Recall Score:92.90
+scikit-learn F1 Score:93.11

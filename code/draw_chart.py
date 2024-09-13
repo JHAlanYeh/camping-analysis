@@ -38,7 +38,7 @@ def type1_origin_chart():
 
 
 def type1_gan_chart():
-    df = pd.read_csv('new_data/docs_0819/Final_TaiwanLLM/Type1_Result/taiwanllm_type1_train_df.csv')
+    df = pd.read_csv('new_data/docs_0819/Final_TaiwanLLM/Type1_Result/taiwanllm_type_train_test_df.csv')
     values = []
     values.append(len(df[df["status"] == -1]))
     values.append(len(df[df["status"] == 0]))
@@ -57,7 +57,7 @@ def type1_gan_chart():
     addlabels(LABELS, values)
     for label in axes.get_xticklabels():
         label.set_fontproperties(tw_font)
-    plt.savefig('new_data/docs_0819/Final_TaiwanLLM/Type1_Result/type1_taiwanllm_train.png')
+    plt.savefig('new_data/docs_0819/Final_TaiwanLLM/Type1_Result/type1_taiwanllm_train_test.png')
 
 def type2_origin_chart():
     df = pd.read_csv('new_data/docs_0724/Final_Origin/type2_comments.csv')

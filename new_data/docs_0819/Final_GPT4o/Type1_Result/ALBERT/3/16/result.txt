@@ -1,0 +1,44 @@
+ALBERT
+Pretrained Model=ckiplab/albert-base-chinese
+
+=====================================
+epoch=10
+batch_size=16
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.027
+            | Train Accuracy:  0.844
+            | Val Loss:  0.025
+            | Val Accuracy:  0.895
+=====================================
+total_acc_val / len(val_dataset) = 89.47, best_dev_acc = 89.47
+Epochs: 2
+            | Train Loss:  0.016
+            | Train Accuracy:  0.911
+            | Val Loss:  0.025
+            | Val Accuracy:  0.879
+=====================================
+total_acc_val / len(val_dataset) = 87.91, best_dev_acc = 89.47
+Epochs: 3
+            | Train Loss:  0.011
+            | Train Accuracy:  0.941
+            | Val Loss:  0.023
+            | Val Accuracy:  0.885
+=====================================
+total_acc_val / len(val_dataset) = 88.48, best_dev_acc = 89.47
+Epochs: 4
+            | Train Loss:  0.008
+            | Train Accuracy:  0.960
+            | Val Loss:  0.021
+            | Val Accuracy:  0.886
+=====================================
+total_acc_val / len(val_dataset) = 88.62, best_dev_acc = 89.47
+Epochs: 5
+            | Train Loss:  0.006
+            | Train Accuracy:  0.971
+            | Val Loss:  0.024
+            | Val Accuracy:  0.895
+=====================================
+total_acc_val / len(val_dataset) = 89.47, best_dev_acc = 89.47
