@@ -1,0 +1,87 @@
+DistilBERT
+Pretrained Model=Geotrend/distilbert-base-zh-cased
+
+=====================================
+epoch=10
+batch_size=8
+lr=2e-05
+
+=====================================
+Epochs: 1
+            | Train Loss:  0.046
+            | Train Accuracy:  0.850
+            | Val Loss:  0.030
+            | Val Accuracy:  0.923
+=====================================
+total_acc_val / len(val_dataset) = 92.30, best_dev_acc = 92.30
+Epochs: 2
+            | Train Loss:  0.014
+            | Train Accuracy:  0.966
+            | Val Loss:  0.030
+            | Val Accuracy:  0.926
+=====================================
+total_acc_val / len(val_dataset) = 92.61, best_dev_acc = 92.61
+Epochs: 3
+            | Train Loss:  0.007
+            | Train Accuracy:  0.982
+            | Val Loss:  0.027
+            | Val Accuracy:  0.932
+=====================================
+total_acc_val / len(val_dataset) = 93.24, best_dev_acc = 93.24
+Epochs: 4
+            | Train Loss:  0.005
+            | Train Accuracy:  0.988
+            | Val Loss:  0.035
+            | Val Accuracy:  0.931
+=====================================
+total_acc_val / len(val_dataset) = 93.08, best_dev_acc = 93.24
+Epochs: 5
+            | Train Loss:  0.004
+            | Train Accuracy:  0.990
+            | Val Loss:  0.025
+            | Val Accuracy:  0.948
+=====================================
+total_acc_val / len(val_dataset) = 94.81, best_dev_acc = 94.81
+Epochs: 6
+            | Train Loss:  0.003
+            | Train Accuracy:  0.993
+            | Val Loss:  0.042
+            | Val Accuracy:  0.920
+=====================================
+total_acc_val / len(val_dataset) = 91.98, best_dev_acc = 94.81
+Epochs: 7
+            | Train Loss:  0.003
+            | Train Accuracy:  0.992
+            | Val Loss:  0.043
+            | Val Accuracy:  0.921
+=====================================
+total_acc_val / len(val_dataset) = 92.14, best_dev_acc = 94.81
+Epochs: 8
+            | Train Loss:  0.003
+            | Train Accuracy:  0.992
+            | Val Loss:  0.041
+            | Val Accuracy:  0.925
+=====================================
+total_acc_val / len(val_dataset) = 92.45, best_dev_acc = 94.81
+Epochs: 9
+            | Train Loss:  0.002
+            | Train Accuracy:  0.995
+            | Val Loss:  0.038
+            | Val Accuracy:  0.947
+=====================================
+total_acc_val / len(val_dataset) = 94.65, best_dev_acc = 94.81
+Epochs: 10
+            | Train Loss:  0.002
+            | Train Accuracy:  0.995
+            | Val Loss:  0.042
+            | Val Accuracy:  0.945
+=====================================
+total_acc_val / len(val_dataset) = 94.50, best_dev_acc = 94.81
+=====================================
+Total time:0:56:42.009366
+Best Epoch:5
+=====================================
+scikit-learn Accuracy:95.28
+scikit-learn Precision:95.82
+scikit-learn Recall Score:95.28
+scikit-learn F1 Score:95.40

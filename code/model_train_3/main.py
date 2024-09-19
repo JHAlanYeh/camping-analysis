@@ -22,7 +22,7 @@ from transformers import DistilBertModel, DistilBertConfig
 from sklearn.utils.class_weight import compute_class_weight
 
 LLM = "GPT4o" # or "Origin", "Taide", "Breeze", "GPT4o", "GPT35", "TaiwanLLM"
-CAMP_TYPE = "1" # or "2"
+CAMP_TYPE = "2" # or "2"
 NUM_LABELS = 3
 CURRENT_MODEL = ""
 
@@ -47,6 +47,7 @@ class CampDataset(Dataset):
             tokenizer = DistilBertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
         else:
             tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+
         self.texts = [tokenizer.encode_plus(
                         text,
                         add_special_tokens=True,
@@ -337,6 +338,7 @@ def draw_loss_image(loss_list, loss_val_list):
     plt.plot(loss_list, label = 'train loss')
     plt.plot(loss_val_list, label = 'val loss')
     plt.title(f'{CURRENT_MODEL} Training and validation loss')
+    # plt.xlim([1,10])
     plt.ylabel('Loss')
     plt.xlabel('Epoches')
     plt.legend()
@@ -347,6 +349,7 @@ def draw_acc_image(accuracy_list, accuracy_val_list):
     plt.plot(accuracy_list, label = 'train acc')
     plt.plot(accuracy_val_list, label = 'val acc')
     plt.title(f'{CURRENT_MODEL} Training and validation acc')
+    # plt.xlim([1,10])
     plt.ylabel('Accuracy')
     plt.xlabel('Epoches')
     plt.legend()
@@ -373,13 +376,16 @@ def save_result(text, write_type):
         f.close()
 
 def create_folder():
+    file_path = f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}"
+    if not os.path.exists(file_path):
+        os.mkdir(file_path)
     file_path = f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{CURRENT_MODEL}/{NUM_LABELS}/{BATCH_SIZE}"
     if not os.path.exists(file_path):
         os.mkdir(file_path)
 
 if __name__ == "__main__":
     setup_seed(RANDOM_SEED)
-    for llm in ["GPT4o"]:
+    for llm in ["TaiwanLLM"]:
         LLM = llm
 
         df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
@@ -389,13 +395,13 @@ if __name__ == "__main__":
         class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(df_train['label']), y=df_train['label'])
         class_weights = torch.tensor(class_weights, dtype=torch.float)
 
-        ALL_MODEL = [ALBERT_PRETRAINED_MODEL_NAME]
+        ALL_MODEL = [BERT_PRETRAINED_MODEL_NAME, ALBERT_PRETRAINED_MODEL_NAME, MULTILINGUAL_BERT_PRETRAINED_MODEL_NAME, DISTILBERT_PRETRAINED_MODEL_NAME, ROBERTA_PRETRAINED_MODEL_NAME]
     
-        for model, pretrained_model_name in  zip(["ALBERT"], ALL_MODEL):
+        for model, pretrained_model_name in  zip(["BERT", "ALBERT", "MultilingualBERT", "DistilBERT", "RoBERTa"], ALL_MODEL):
             CURRENT_MODEL = model
             CURRENT_PRETRAINED_MODEL_NAME = pretrained_model_name
             
-            for bs in [16]:
+            for bs in [8, 16]:
                 BATCH_SIZE = bs
             
                 print(LLM)
