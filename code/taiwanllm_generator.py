@@ -61,11 +61,11 @@ low_flag = False
 df_mid_gan = []
 df_low_gan = []
 
-# df_low_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type2_prompt_easy_low_gan_dataset.csv", encoding="utf-8-sig")
-# df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
+df_low_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type2_prompt_easy_low_gan_dataset.csv", encoding="utf-8-sig")
+df_low_gan_csv[['sequence_num']] = df_low_gan_csv[['sequence_num']].astype(int)
 
-# for index, row in list(df_low_gan_csv.iterrows()):
-#     df_low_gan.append(dict(row))
+for index, row in list(df_low_gan_csv.iterrows()):
+    df_low_gan.append(dict(row))
 
 # df_mid_gan_csv = pd.read_csv("new_data/docs_0819/taiwanllm_type2_prompt_easy_mid_gan_dataset.csv", encoding="utf-8-sig")
 # df_mid_gan_csv[['sequence_num']] = df_mid_gan_csv[['sequence_num']].astype(int)
@@ -91,9 +91,13 @@ while len(df_low) + len(df_low_gan) < target_count:
         print("\n增生文本如下：\n")
 
         messages = [
+            # {
+            #     "role": "user", 
+            #     "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+            # },
             {
                 "role": "user", 
-                "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+                "content": """我會上傳露營的評論，請你生成類似的評論，如果您不知道，請說「很抱歉，我不知道」"""
             },
             {
                 "role": "assistant", 
@@ -120,7 +124,7 @@ while len(df_low) + len(df_low_gan) < target_count:
         response = tokenizer.decode(embeddings, skip_special_tokens=True)
 
         print(response)
-        if "抱歉" in response and "無法生成" in response and "相似內容" in response:
+        if "抱歉" in response or "很抱歉，我不知道" in response or "我不知道" in response:
             continue
 
         if len(response) >=512:
@@ -175,9 +179,13 @@ while len(df_mid) + len(df_mid_gan) < target_count:
         print("\n增生文本如下：\n")
 
         messages = [
+            # {
+            #     "role": "user", 
+            #     "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+            # },
             {
                 "role": "user", 
-                "content": """您是一個資料增生的專家，我會上傳露營的評論，請您依照上傳的內容，並且使用台灣繁體中文，盡可能生成類似的露營評論，生成的句子長度需大於20個字，並且小於512個字，生成的句子請直接回答，不再多加任何贅字。上傳的評論大多為負向或中立的情緒，請照著相同的情緒生成類似的句子。如果您無法生成類似的評論，一律請說「非常抱歉，我無法生成該露營評論的相似內容。」"""
+                "content": """我會上傳露營的評論，請你將這句評論換句話說，如果您不知道，請說「很抱歉，我不知道」"""
             },
             {
                 "role": "assistant", 
@@ -204,7 +212,7 @@ while len(df_mid) + len(df_mid_gan) < target_count:
         response = tokenizer.decode(embeddings, skip_special_tokens=True)
         
         print(response)
-        if "抱歉" in response and "無法生成" in response and "相似內容" in response:
+        if "抱歉" in response or "很抱歉，我不知道" in response or "我不知道" in response:
             continue
 
         if len(response) >=512:
