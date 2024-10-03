@@ -388,7 +388,7 @@ if __name__ == "__main__":
     for llm in ["TaiwanLLM"]:
         LLM = llm
 
-        df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
+        df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_prompt_easy_train_df.csv")
         df_val = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_val_df.csv")
         df_test = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_test_df.csv")
 
