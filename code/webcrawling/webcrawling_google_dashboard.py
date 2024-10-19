@@ -105,7 +105,7 @@ time.sleep(5)
 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#action-menu > div:nth-child(2)")))
 browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
 
-while int(reviews_count) > current_reviews_count:
+while int(reviews_count) > current_reviews_count and current_reviews_count < 100:
     pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
     browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
@@ -140,15 +140,6 @@ for ar in all_reviews:
             author = ar.find_element(By.CSS_SELECTOR, ".d4r55").text.strip()
             author_id = ar.find_element(By.CSS_SELECTOR, ".al6Kxe").get_attribute("data-href").split("/")[5].strip()
     
-        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".MyEned")))
-        content = ar.find_element(By.CSS_SELECTOR, ".MyEned").text
-        if "全文" in content:
-            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".MyEned > span > button")))
-            ar.find_element(By.CSS_SELECTOR, ".MyEned > span > button").click()
-            content = ar.find_element(By.CSS_SELECTOR, ".MyEned > .wiI7pd").text
-
-        content = content.replace("\n", "").replace("\r", "").replace("\t", "")
-
         today = datetime.now()
 
         if "月" in publishedDate:
@@ -166,6 +157,16 @@ for ar in all_reviews:
         else:
             createdDate = today
 
+        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".MyEned")))
+        content = ar.find_element(By.CSS_SELECTOR, ".MyEned").text
+        if "全文" in content:
+            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".MyEned > span > button")))
+            ar.find_element(By.CSS_SELECTOR, ".MyEned > span > button").click()
+            content = ar.find_element(By.CSS_SELECTOR, ".MyEned > .wiI7pd").text
+
+        content = content.replace("\n", "").replace("\r", "").replace("\t", "")
+
+
         duplicate =  list(filter(lambda x: x['author_id'] == author_id, comment_objs))
         if len(duplicate) == 0:
             comment_objs.append({
@@ -177,16 +178,17 @@ for ar in all_reviews:
             })
         else:
             print("duplicate")
+            break
             continue
     except Exception as e:
         print(e.args)
-        print({
-                "author_id": author_id,
-                "author": author,
-                "content": "",
-                "publishedDate": createdDate.strftime("%Y/%m/%d"),
-                "rating": int(star),
-            })
+        # print({
+        #         "author_id": author_id,
+        #         "author": author,
+        #         "content": "",
+        #         "publishedDate": createdDate.strftime("%Y/%m/%d"),
+        #         "rating": int(star),
+        #     })
         continue
 
 
