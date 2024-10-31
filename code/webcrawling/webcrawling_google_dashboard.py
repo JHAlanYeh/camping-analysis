@@ -56,7 +56,7 @@ absolute_position = (google_map.split("@")[1]).split(",")
 latitude = absolute_position[0]
 longitude = absolute_position[1]
 
-file_name = "C:\\Users\\Alan\\Documents\\Projects\\NCKU\\camping-management\\src\\data\\comments.json"
+file_name = "C:\\Users\\Alan\\Documents\\Projects\\NCKU\\camping-management\\public\\data-sources\\comments.json"
 comment_objs = []
 with open(file_name, 'r', encoding="utf-8-sig") as file:
     comment_objs = json.load(file)
@@ -192,7 +192,22 @@ for ar in all_reviews:
         continue
 
 
-sorted_comments = sorted(comment_objs, key=lambda d: d["publishedDate"], reverse=True) 
+sorted_comments = sorted(comment_objs, key=lambda d: d["publishedDate"], reverse=True)
+
+for sc in sorted_comments:
+    published_date = datetime.strptime(sc["publishedDate"], "%Y/%m/%d")
+    delta = datetime.now() - published_date
+    days_difference = delta.days
+
+    if days_difference > 365:
+        sc["publishedDateDesc"] = str(days_difference // 365) + "年前"
+    elif days_difference > 30:
+        sc["publishedDateDesc"] = str(days_difference // 30) + "月前"
+    elif days_difference > 7:
+        sc["publishedDateDesc"] = str(days_difference // 7) + "週前"
+    else:
+        sc["publishedDateDesc"] = str(days_difference) + "天前"
+
 
 with open(file_name, 'w', encoding="utf-8-sig") as f:
     json.dump(sorted_comments, f, indent=4, ensure_ascii=False, sort_keys=False)
