@@ -385,10 +385,10 @@ def create_folder():
 
 if __name__ == "__main__":
     setup_seed(RANDOM_SEED)
-    for llm in ["TaiwanLLM"]:
+    for llm in ["GPT4o"]:
         LLM = llm
 
-        df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_prompt_easy_train_df.csv")
+        df_train = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/{LLM.lower()}_type{CAMP_TYPE}_train_df.csv")
         df_val = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_val_df.csv")
         df_test = pd.read_csv(f"new_data/docs_0819/Final_{LLM}/Type{CAMP_TYPE}_Result/type{CAMP_TYPE}_test_df.csv")
 
@@ -401,7 +401,7 @@ if __name__ == "__main__":
             CURRENT_MODEL = model
             CURRENT_PRETRAINED_MODEL_NAME = pretrained_model_name
             
-            for bs in [8, 16]:
+            for bs in [8]:
                 BATCH_SIZE = bs
             
                 print(LLM)
@@ -422,5 +422,5 @@ if __name__ == "__main__":
                 save_result(f"lr={LR}\n", "a+")
                 save_result("\n=====================================\n", "a+")
 
-                train_model(CURRENT_PRETRAINED_MODEL_NAME)
+                # train_model(CURRENT_PRETRAINED_MODEL_NAME)
                 evaluate(test_dataset, CURRENT_PRETRAINED_MODEL_NAME)

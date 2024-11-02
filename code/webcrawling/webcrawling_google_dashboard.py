@@ -11,8 +11,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from dateutil.relativedelta import relativedelta
+from torch.utils.data import Dataset, DataLoader
 import json
 import jieba
+from torch import nn
+import torch
+from transformers import BertModel, BertConfig, BertTokenizer
 
 browserOptions = webdriver.ChromeOptions()
 browserOptions.add_argument("--start-maximized")
@@ -24,6 +28,43 @@ browserOptions.add_argument('--mute-audio')
 # INFO_0 / WARNING_1 / ERROR_2 / FATAL_3 / DEFAULT_0
 browserOptions.add_argument("log-level=3")
 # ****************************************************************************** #
+
+PRETRAINED_MODEL_NAME = "bert-base-chinese"
+DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+jieba.load_userdict('code\\custom_dict.txt')
+jieba.set_dictionary('code\\dict.txt.big')
+
+f = open('code\\stopwords_zh_TW.dat.txt', encoding="utf-8")
+STOP_WORDS = []
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+f = open('code\\stopwords.txt', encoding="utf-8")
+lines = f.readlines()
+for line in lines:
+    STOP_WORDS.append(line.rstrip('\n'))
+
+class ModelClassifier(nn.Module):
+    def __init__(self, PRETRAINED_MODEL_NAME):
+        super(ModelClassifier, self).__init__()
+       
+        self.model = BertModel.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+        self.config = BertConfig.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+        self.pre_classifier = nn.Linear(self.config.hidden_size, self.config.hidden_size)        
+        self.dropout = nn.Dropout(0.5)        
+        self.classifier = nn.Linear(self.config.hidden_size, 3)   
+
+    def forward(self, input_id, mask, PRETRAINED_MODEL_NAME):
+        output_1 = self.model(input_ids=input_id, attention_mask=mask)        
+        hidden_state = output_1[0]        
+        pooler = hidden_state[:, 0]        
+        pooler = self.pre_classifier(pooler)        
+        pooler = nn.ReLU()(pooler) 
+        pooler = self.dropout(pooler)        
+        output = self.classifier(pooler)        
+        return output 
 
 browser = webdriver.Chrome(options=browserOptions)
 wait = WebDriverWait(browser, 20)
@@ -105,7 +146,7 @@ time.sleep(5)
 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#action-menu > div:nth-child(2)")))
 browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
 
-while int(reviews_count) > current_reviews_count and current_reviews_count < 100:
+while int(reviews_count) > current_reviews_count and current_reviews_count < 30:
     pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
     browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
@@ -179,7 +220,6 @@ for ar in all_reviews:
         else:
             print("duplicate")
             break
-            continue
     except Exception as e:
         print(e.args)
         # print({
@@ -191,6 +231,13 @@ for ar in all_reviews:
         #     })
         continue
 
+browser.quit()
+
+tokenizer = BertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME, force_download=True)
+model = ModelClassifier(PRETRAINED_MODEL_NAME)
+model.load_state_dict(torch.load(f'new_data/docs_0819/Final_TaiwanLLM/Type2_Result/BERT/3/8/best.pt'))
+model = model.to(DEVICE)
+model.eval()
 
 sorted_comments = sorted(comment_objs, key=lambda d: d["publishedDate"], reverse=True)
 
@@ -209,8 +256,45 @@ for sc in sorted_comments:
         sc["publishedDateDesc"] = str(days_difference) + "天前"
 
 
+    ws = jieba.cut(sc["content"], cut_all=False)
+    new_ws = []
+    for word in ws:
+        if word not in STOP_WORDS:
+            new_ws.append(word)
+    sc["text"] = "".join(new_ws)
+
+    if "rating" in sc:
+        continue
+
+    if sc["rating"] >= 4:
+        sc["label"] = 2
+    elif sc["rating"] == 3:
+        sc["label"] = 1
+    else:
+        sc["label"] = 0
+
+    text = tokenizer.encode_plus(
+                        sc["text"],
+                        add_special_tokens=True,
+                        max_length=510,
+                        padding='max_length',
+                        truncation=True,
+                        return_attention_mask=True,
+                        return_tensors='pt') 
+  
+    label =  sc["label"]
+
+    with torch.no_grad():
+        input_id = text['input_ids'].squeeze(1).to(DEVICE)
+        mask = text['attention_mask'].to(DEVICE)
+        output = model(input_id, mask, PRETRAINED_MODEL_NAME)
+        _, preds = torch.max(output, 1)       
+        y_pred = preds.view(-1).detach().cpu().numpy()
+        print(y_pred, label)
+
+    sc["predict"] = int(y_pred[0])
+
+
 with open(file_name, 'w', encoding="utf-8-sig") as f:
     json.dump(sorted_comments, f, indent=4, ensure_ascii=False, sort_keys=False)
     print("save {file_name}".format(file_name=file_name))
-
-browser.quit()
