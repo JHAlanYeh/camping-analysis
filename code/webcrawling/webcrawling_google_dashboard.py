@@ -12,6 +12,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from dateutil.relativedelta import relativedelta
 from torch.utils.data import Dataset, DataLoader
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import BitsAndBytesConfig
 import json
 import jieba
 from torch import nn
@@ -45,6 +47,24 @@ f = open('code\\stopwords.txt', encoding="utf-8")
 lines = f.readlines()
 for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
+
+nf4_config = BitsAndBytesConfig(
+   load_in_4bit=True,
+   bnb_4bit_quant_type="nf4",
+   bnb_4bit_use_double_quant=True,
+   bnb_4bit_compute_dtype=torch.bfloat16
+)
+
+model_id = "llm_model\Llama-3-Taiwan-8B-Instruct"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+
+model = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    device_map="auto",
+    torch_dtype=torch.bfloat16,
+    quantization_config=nf4_config
+    # attn_implementation="flash_attention_2" # optional
+)
 
 class ModelClassifier(nn.Module):
     def __init__(self, PRETRAINED_MODEL_NAME):
@@ -102,6 +122,54 @@ comment_objs = []
 with open(file_name, 'r', encoding="utf-8-sig") as file:
     comment_objs = json.load(file)
 
+# reply comments
+
+
+
+for sc in comment_objs:
+    if "reply_comments" not in sc or sc["reply_comments"] == "":
+        messages = [
+            {
+                "role": "role", 
+                "content": """你是一個經營露營地的人員，露營地名稱叫做「蟬說：山中靜靜」，請你根據貴賓的評論給予回覆，如果貴賓給予的是正面評價，請你回應貴賓感激的話，如果貴賓回覆的是負面評價，請你根據貴賓提及的問題，先道歉讓貴賓感受到誠意，接著提出未來改善的方向給貴賓。若你無法回答，請你說「很抱歉，我無法回答您的問題。」"""
+            },
+            {
+                "role": "assistant", 
+                "content": "好的，請您上傳露營的評論內容。"
+            },
+            {
+                "role": "user", 
+                "content": sc["content"]
+            },
+        ]
+
+        
+        input_ids  = tokenizer.apply_chat_template(
+            messages, add_generation_prompt=True, return_tensors="pt"
+        ).to(model.device)
+
+        outputs = model.generate(
+            input_ids,
+            max_new_tokens=8196,
+            do_sample=True,
+            temperature=0.6,
+            top_p=0.9,
+        )
+        embeddings = outputs[0][input_ids.shape[-1]:]
+        response = tokenizer.decode(embeddings, skip_special_tokens=True)
+        print(sc["content"])
+        print(response)
+        if "很抱歉，我無法回答" in response:
+            if sc["rating"] > 4:
+                sc["reply_comments"] = "非常感謝您的讚賞與支持，蟬說：山中靜靜一直以來致力於提供優質的露營體驗，很高興聽到您對我們的設備、景色和美食都有良好的評價。您的回訪與口碑推薦對我們來說是莫大的鼓勵，我們會繼續努力，為您帶來更精彩的露營體驗。"
+            else:
+                sc["reply_comments"] = ""
+            continue
+        else:
+            sc["reply_comments"] = response
+    else:
+        continue
+
 
 time.sleep(5)
 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".yx21af.XDi3Bc > div > button:nth-child(2)")))
@@ -146,7 +214,7 @@ time.sleep(5)
 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#action-menu > div:nth-child(2)")))
 browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
 
-while int(reviews_count) > current_reviews_count and current_reviews_count < 30:
+while int(reviews_count) > current_reviews_count and current_reviews_count < 20:
     pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
     browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
@@ -216,6 +284,7 @@ for ar in all_reviews:
                 "content": content,
                 "publishedDate": createdDate.strftime("%Y/%m/%d"),
                 "rating": int(star),
+                "reply_comments": ""
             })
         else:
             print("duplicate")
@@ -252,8 +321,10 @@ for sc in sorted_comments:
         sc["publishedDateDesc"] = str(days_difference // 30) + "月前"
     elif days_difference > 7:
         sc["publishedDateDesc"] = str(days_difference // 7) + "週前"
-    else:
+    elif days_difference > 0:
         sc["publishedDateDesc"] = str(days_difference) + "天前"
+    else:
+        sc["publishedDateDesc"] = "今天"
 
 
     ws = jieba.cut(sc["content"], cut_all=False)
@@ -263,7 +334,7 @@ for sc in sorted_comments:
             new_ws.append(word)
     sc["text"] = "".join(new_ws)
 
-    if "rating" in sc:
+    if "predict" in sc:
         continue
 
     if sc["rating"] >= 4:
@@ -298,3 +369,8 @@ for sc in sorted_comments:
 with open(file_name, 'w', encoding="utf-8-sig") as f:
     json.dump(sorted_comments, f, indent=4, ensure_ascii=False, sort_keys=False)
     print("save {file_name}".format(file_name=file_name))
+
+
+
+# U30bc9aaf24ea900745f69d036821e5e3
+# mu+Gm6HdSJ+aVfDjpd1X0DBiUUOipdTkSHDBJlF8AMM4Fpa3ThkAccgRS1ezP1ghfT57f2Ordq0fglHqXXw33D5142fPiE6mCCT1m5PJ38LFNxn/D1LJYtnYce1LIYwiuiqI2rE+2Pul67FexSCNjgdB04t89/1O/w1cDnyilFU=
