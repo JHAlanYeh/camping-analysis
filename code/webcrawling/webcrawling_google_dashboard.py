@@ -3,6 +3,7 @@ import re
 import time
 import pandas as pd
 from datetime import datetime, timedelta
+import requests
 from selenium import webdriver
 from bs4 import BeautifulSoup as Soup
 from selenium.webdriver.common.by import By
@@ -19,6 +20,9 @@ import jieba
 from torch import nn
 import torch
 from transformers import BertModel, BertConfig, BertTokenizer
+
+user_id = "U30bc9aaf24ea900745f69d036821e5e3"
+channel_access_token = "kQ/vmM5sqBwC9Dyc4ODf1aD/CeTTHZKbU32UCZsxHKgsIglO7oqC29E6mgJcU8jpfT57f2Ordq0fglHqXXw33D5142fPiE6mCCT1m5PJ38Jnfu2qBhXp2m6q01jAZBI4LSc+qmSZzUze5AVUN4obEwdB04t89/1O/w1cDnyilFU="
 
 browserOptions = webdriver.ChromeOptions()
 browserOptions.add_argument("--start-maximized")
@@ -214,7 +218,7 @@ time.sleep(5)
 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#action-menu > div:nth-child(2)")))
 browser.find_element(By.CSS_SELECTOR, '#action-menu > div:nth-child(2)').click()
 
-while int(reviews_count) > current_reviews_count and current_reviews_count < 20:
+while int(reviews_count) > current_reviews_count and current_reviews_count < 10:
     pane = browser.find_element(By.CSS_SELECTOR, "div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf")
     browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", pane)
 
@@ -364,13 +368,24 @@ for sc in sorted_comments:
         print(y_pred, label)
 
     sc["predict"] = int(y_pred[0])
+    if sc["predict"] == 0 or sc["rating"] < 3:
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + channel_access_token
+        }
+
+        push_text = f"""有一則緊急評論待處理，內容如下：\n{sc["content"]}\n============\n\n已自動回覆如下：\n{sc["reply_comments"]}\n\n如需更改回覆內容，請至後台進行修改。"""
+
+        res = requests.post("https://api.line.me/v2/bot/message/push", data={"to": user_id, "messages": [{"type": "text", "text": json.dump(push_text)}]}, headers=headers)
 
 
 with open(file_name, 'w', encoding="utf-8-sig") as f:
     json.dump(sorted_comments, f, indent=4, ensure_ascii=False, sort_keys=False)
     print("save {file_name}".format(file_name=file_name))
 
-
+with open('C:\\Users\\Alan\\Documents\\Projects\\NCKU\\camping-demo\\data-sources\\comments.json', 'w', encoding="utf-8-sig") as f:
+    json.dump(sorted_comments, f, indent=4, ensure_ascii=False, sort_keys=False)
+    # print("save {file_name}".format(file_name=file_name))
 
 # U30bc9aaf24ea900745f69d036821e5e3
 # mu+Gm6HdSJ+aVfDjpd1X0DBiUUOipdTkSHDBJlF8AMM4Fpa3ThkAccgRS1ezP1ghfT57f2Ordq0fglHqXXw33D5142fPiE6mCCT1m5PJ38LFNxn/D1LJYtnYce1LIYwiuiqI2rE+2Pul67FexSCNjgdB04t89/1O/w1cDnyilFU=
