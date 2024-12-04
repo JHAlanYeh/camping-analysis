@@ -171,6 +171,17 @@ for sc in comment_objs:
             continue
         else:
             sc["reply_comments"] = response
+
+        if sc["predict"] == 0 or sc["rating"] < 3:
+            headers = {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + channel_access_token
+            }
+
+            push_text = f"""有一則緊急評論待處理，內容如下：\n{sc["content"]}\n============\n\n已自動回覆如下：\n{sc["reply_comments"]}\n\n如需更改回覆內容，請至後台進行修改。"""
+            print(push_text)
+            res = requests.post("https://api.line.me/v2/bot/message/push", data={"to": user_id, "messages": [{"type": "text", "text": json.dumps(push_text)}]}, headers=headers)
+
     else:
         continue
 
@@ -368,16 +379,6 @@ for sc in sorted_comments:
         print(y_pred, label)
 
     sc["predict"] = int(y_pred[0])
-    if sc["predict"] == 0 or sc["rating"] < 3:
-        headers = {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + channel_access_token
-        }
-
-        push_text = f"""有一則緊急評論待處理，內容如下：\n{sc["content"]}\n============\n\n已自動回覆如下：\n{sc["reply_comments"]}\n\n如需更改回覆內容，請至後台進行修改。"""
-
-        res = requests.post("https://api.line.me/v2/bot/message/push", data={"to": user_id, "messages": [{"type": "text", "text": json.dump(push_text)}]}, headers=headers)
-
 
 with open(file_name, 'w', encoding="utf-8-sig") as f:
     json.dump(sorted_comments, f, indent=4, ensure_ascii=False, sort_keys=False)
