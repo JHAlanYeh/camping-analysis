@@ -464,12 +464,18 @@ print("========== 產生關鍵字文字雲 結束 ==========")
 print(f"========== 結束時間：{datetime.now().strftime('%Y/%m/%d %H:%M:%S')} ==========")
 
 
+print("========== 發送 Line 通知 開始 ==========")
+
 if new_comments_cnt == 0:
     push_text = f"""已蒐集完畢，無新增評論數。"""
 else:
+    push_text = f"""已蒐集完畢，新增評論數：{new_comments_cnt}筆。\n正向評論數：{new_comments_predict['positive']}筆，中立評論數：{new_comments_predict['neutral']}筆，負向評論數：{new_comments_predict['negative']}筆。"""
+
     headers = {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer ' + channel_access_token
     }
-    push_text = f"""已蒐集完畢，新增評論數：{new_comments_cnt}筆。\n正向評論數：{new_comments_predict['positive']}筆，中立評論數：{new_comments_predict['neutral']}筆，負向評論數：{new_comments_predict['negative']}筆。"""
-res = requests.post("https://api.line.me/v2/bot/message/push", json={"to": user_id, "messages": [{"type": "text", "text": push_text}]}, headers=headers)
+    res = requests.post("https://api.line.me/v2/bot/message/push", json={"to": user_id, "messages": [{"type": "text", "text": push_text}]}, headers=headers)
+
+print(push_text)
+print("========== 發送 Line 通知 結束 ==========")
