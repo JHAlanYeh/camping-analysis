@@ -394,7 +394,7 @@ def type2_origin_split():
     # 設定標題與標籤
     plt.xlabel("資料集類型", fontproperties=tw_font)
     plt.ylabel("評論數量", fontproperties=tw_font)
-    plt.title("原始資料切分資料集分布圖(懶人露營)", fontproperties=tw_font)
+    plt.title("原始資料切分資料集分布圖(豪華露營)", fontproperties=tw_font)
     plt.legend(prop=tw_font)
 
     # 顯示圖表

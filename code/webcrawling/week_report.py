@@ -83,16 +83,20 @@ else:
         print(f"{year} W{week_number} 沒有評論")
     else:
         result = "\n\n".join(list(map(lambda x: x[1]["content"], enumerate(data))))
+        # print(result)
 
         messages = [
             {
                 "role": "role", 
-                "content": """你是一個摘要總結助手，我會上傳當週的所有露營評論，請你將這週的評論做個總結。
-                如果您不知道，請說「很抱歉，我不知道」"""
+                "content": """你是一個促進ESG永續發展的助手，我是一個露營地經營管理者，我會上傳當週的所有露營評論，請你根據以下的描述，將當週評論內可以改善的ESG相關問題列出來：
+環境 (E - Environmental)：透過分析露營評論，找出影響露營場地環境的負面因素（如垃圾問題、生態破壞），幫助改善永續經營策略，
+社會 (S - Social)：分析評論中的使用者體驗，提升服務品質、確保安全，讓露營成為更友善的社交活動，
+治理 (G - Governance)：透過評論管理系統提供透明度和監管機制，讓我能即時處理負面評倫，促進良性經營。
+如果您不知道，請說「很抱歉，我不知道」"""
             },
             {
                 "role": "assistant", 
-                "content": "好的，請您上傳露營的評論內容。"
+                "content": "好的，我了解你的需求了！請上傳當週的露營評論，我會根據 ESG 三大面向（環境、社會、治理）協助你整理出可以改善的相關問題，幫助你提升永續發展與經營品質。隨時可以上傳評論檔案，我準備好了！"
             },
             {
                 "role": "user", 
@@ -113,24 +117,27 @@ else:
         )
         embeddings = outputs[0][input_ids.shape[-1]:]
         response = tokenizer.decode(embeddings, skip_special_tokens=True)
-        # print(response)
+        print(response)
 
         if "很抱歉" in response:
             pass
         else:
             messages = [
-                {
+                    {
                     "role": "role", 
-                    "content": """你是一個露營地經營管理者，我會上傳當週的露營評論總結，請你看完思考後提出露營地可以改進或優化的方向，不需要多加贅字，僅需列出可優化的地方即可。
-                    如果您不知道，請說「很抱歉，我不知道」"""
+                    "content": """你是一個促進ESG永續發展的助手，我是一個露營地經營管理者，我會上傳當週的所有露營評論，請你根據以下的描述，將當週評論內可以改善的ESG相關問題列出來：
+    環境 (E - Environmental)：透過分析露營評論，找出影響露營場地環境的負面因素（如垃圾問題、生態破壞），幫助改善永續經營策略，
+    社會 (S - Social)：分析評論中的使用者體驗，提升服務品質、確保安全，讓露營成為更友善的社交活動，
+    治理 (G - Governance)：透過評論管理系統提供透明度和監管機制，讓我能即時處理負面評倫，促進良性經營。
+    如果您不知道，請說「很抱歉，我不知道」"""
                 },
                 {
                     "role": "assistant", 
-                    "content": "好的，請您上傳露營的評論內容。"
+                    "content": "好的，我了解你的需求了！請上傳當週的露營評論，我會根據 ESG 三大面向（環境、社會、治理）協助你整理出可以改善的相關問題，幫助你提升永續發展與經營品質。隨時可以上傳評論檔案，我準備好了！"
                 },
                 {
                     "role": "user", 
-                    "content": response
+                    "content": result
                 },
             ]
 
@@ -148,7 +155,7 @@ else:
             embeddings = outputs[0][input_ids.shape[-1]:]
             response = tokenizer.decode(embeddings, skip_special_tokens=True)
 
-            # print(response)
+            print(response)
 
             if len(existed_data) > 0 and existed_data[0]["content"] == "-":
                 if "很抱歉" not in response:
