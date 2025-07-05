@@ -22,7 +22,7 @@ for line in lines:
     STOP_WORDS.append(line.rstrip('\n'))
 
 
-OPENAI_API_KEY="sk-E-WIKPGEbSVmhP5wX9hiAqDp6gGoO04bI0m0C6q-4cT3BlbkFJpKCPZQBqhdWLEXR3kP3zHg-vSweypnE2NTrom-7mAA"
+OPENAI_API_KEY=""
 df = pd.read_csv("new_data\\docs_0804\\Final_Origin\\Type1_Result\\train_df_2.csv", encoding="utf-8-sig")
 
 target_count = len(df[df["rating"] >= 4])
