@@ -1,0 +1,23 @@
+BERT
+
+Test Accuracy:  0.944
+
+scikit-learn precision: 0.9439039964565086
+scikit-learn f1 score: 0.9436733260664653
+scikit-learn recall score: 0.9435933147632312
+scikit-learn Accuracy: 0.9435933147632312
+
+=====================================
+ALBERT
+
+
+
+=====================================
+RoBERTa
+
+
+=====================================
+ Multilingual BERT
+
+
+=====================================

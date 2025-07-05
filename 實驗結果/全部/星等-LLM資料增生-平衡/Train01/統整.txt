@@ -1,0 +1,37 @@
+BERT
+
+Test Accuracy:  0.794
+
+scikit-learn precision: 0.800911523206903
+scikit-learn f1 score: 0.7938276416339914
+scikit-learn recall score: 0.7944062806673209
+scikit-learn Accuracy: 0.7944062806673209
+=====================================
+ALBERT
+
+Test Accuracy:  0.725
+
+scikit-learn precision: 0.7272716363670287
+scikit-learn f1 score: 0.7255968602283466
+scikit-learn recall score: 0.7252208047105005
+scikit-learn Accuracy: 0.7252208047105005
+=====================================
+RoBERTa
+
+Test Accuracy:  0.812
+
+scikit-learn precision: 0.8150164883356571
+scikit-learn f1 score: 0.8110025106665905
+scikit-learn recall score: 0.8120706575073602
+scikit-learn Accuracy: 0.8120706575073602
+
+=====================================
+ Multilingual BERT
+
+Test Accuracy:  0.778
+
+scikit-learn precision: 0.7828511570371349
+scikit-learn f1 score: 0.7775756822560528
+scikit-learn recall score: 0.7777232580961727
+scikit-learn Accuracy: 0.7777232580961727
+=====================================
